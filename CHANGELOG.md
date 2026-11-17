@@ -2,9 +2,9 @@
 
 [專案說明](README.md) · [儲存庫](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026) · [歷史封存](archive/fujii-kaze-2026/README.md)
 
-## v3.0.0
+## [**v3.0.0**](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/commit/26b325c9c735574781ed01f36cffb118faeb68a8)
 
-2026-11-17 米津玄師台北版首次來源發布。正式網站尚待 Cloudflare 帳號登入、建立部署及線上驗收。
+2026-11-18 米津玄師台北版首次來源發布。正式網站尚待 Cloudflare 帳號登入、建立部署及線上驗收。
 
 - [PR #1](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/1)：轉換為 KENSHI YONEZU 2026-2027 WORLD TOUR / GHOST 台北指南，收錄 12/26、12/27 臺北大巨蛋、預計 15:00 入場及 18:00 開演，更新遠大售票、實名證件、拍攝限制與交通來源。
 - [PR #1](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/1)：新增雙場次選擇、保存偏好及台灣日期倒數；自動選擇當日或下一個演出日期，開演後不推算散場時間。
