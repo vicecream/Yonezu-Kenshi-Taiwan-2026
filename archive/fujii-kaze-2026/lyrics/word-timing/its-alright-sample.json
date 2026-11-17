@@ -1,0 +1,692 @@
+{
+  "format": "timed-lyrics-v1",
+  "songId": "ItsAlright",
+  "youtubeId": "HA3WzXw8vM8",
+  "source": "Local audio forced alignment: Whisper medium / wav2vec2 CTC",
+  "status": "experimental-unreviewed",
+  "clip": {
+    "start": 8.0,
+    "end": 59.01
+  },
+  "audioSha256": "5c186693d35629b7115912f276ecc437f32639923d1aae1547dae466cfa3bc45",
+  "lrcSha256": "efc1f6dbb5921b086466dcaa66494a3c87350aef024747ee6843a23ca024ca0b",
+  "method": "Demucs vocal stem; known LRC text; Whisper cross-attention/DTW within each non-overlapping LRC line window; original video clock in seconds. Zero-duration Whisper units use same-audio, same-text CTC fallback; see each line alignmentModel.",
+  "models": {
+    "multilingual": {
+      "id": "openai/whisper-medium",
+      "sha256": "345ae4da62f9b3d59415adc60127b97c714f32e89e936602e85993674d08dcb1"
+    },
+    "ctc-en": {
+      "id": "facebook/wav2vec2-base-960h",
+      "revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156"
+    }
+  },
+  "lines": [
+    {
+      "text": "母なる大地は私の愛し子",
+      "language": "ja",
+      "sourceStart": 8.99,
+      "windowStart": 8.99,
+      "windowEnd": 15.72,
+      "start": 8.99,
+      "end": 15.37,
+      "words": [
+        {
+          "text": "母",
+          "start": 8.99,
+          "end": 9.65,
+          "score": 0.0009
+        },
+        {
+          "text": "なる",
+          "start": 9.65,
+          "end": 10.45,
+          "score": 0.8863
+        },
+        {
+          "text": "大",
+          "start": 10.45,
+          "end": 11.25,
+          "score": 0.7523
+        },
+        {
+          "text": "地",
+          "start": 11.25,
+          "end": 11.65,
+          "score": 0.9691
+        },
+        {
+          "text": "は",
+          "start": 11.65,
+          "end": 12.13,
+          "score": 0.9897
+        },
+        {
+          "text": "私",
+          "start": 12.13,
+          "end": 13.17,
+          "score": 0.3746
+        },
+        {
+          "text": "の",
+          "start": 13.17,
+          "end": 13.97,
+          "score": 0.9968
+        },
+        {
+          "text": "愛",
+          "start": 13.97,
+          "end": 14.47,
+          "score": 0.8051
+        },
+        {
+          "text": "し",
+          "start": 14.47,
+          "end": 14.95,
+          "score": 0.4612
+        },
+        {
+          "text": "子",
+          "start": 14.95,
+          "end": 15.37,
+          "score": 0.0096
+        }
+      ],
+      "alignmentModel": "openai/whisper-medium"
+    },
+    {
+      "text": "父なる太陽は私のまなこ",
+      "language": "ja",
+      "sourceStart": 15.72,
+      "windowStart": 15.72,
+      "windowEnd": 22.38,
+      "start": 15.78,
+      "end": 21.4,
+      "words": [
+        {
+          "text": "父",
+          "start": 15.78,
+          "end": 16.24,
+          "score": 0.005
+        },
+        {
+          "text": "なる",
+          "start": 16.24,
+          "end": 17.02,
+          "score": 0.9107
+        },
+        {
+          "text": "太",
+          "start": 17.02,
+          "end": 17.96,
+          "score": 0.9436
+        },
+        {
+          "text": "陽",
+          "start": 17.96,
+          "end": 18.3,
+          "score": 0.9976
+        },
+        {
+          "text": "は",
+          "start": 18.3,
+          "end": 18.86,
+          "score": 0.9558
+        },
+        {
+          "text": "私",
+          "start": 18.86,
+          "end": 19.32,
+          "score": 0.4451
+        },
+        {
+          "text": "の",
+          "start": 19.32,
+          "end": 19.72,
+          "score": 0.9973
+        },
+        {
+          "text": "ま",
+          "start": 19.72,
+          "end": 20.0,
+          "score": 0.0496
+        },
+        {
+          "text": "な",
+          "start": 20.0,
+          "end": 20.48,
+          "score": 0.0455
+        },
+        {
+          "text": "こ",
+          "start": 20.48,
+          "end": 21.4,
+          "score": 0.7927
+        }
+      ],
+      "alignmentModel": "openai/whisper-medium"
+    },
+    {
+      "text": "この世は私の思わく通りに",
+      "language": "ja",
+      "sourceStart": 22.38,
+      "windowStart": 22.38,
+      "windowEnd": 29.05,
+      "start": 22.44,
+      "end": 28.72,
+      "words": [
+        {
+          "text": "この",
+          "start": 22.44,
+          "end": 22.88,
+          "score": 0.001
+        },
+        {
+          "text": "世",
+          "start": 22.88,
+          "end": 23.3,
+          "score": 0.8215
+        },
+        {
+          "text": "は",
+          "start": 23.3,
+          "end": 23.78,
+          "score": 0.9654
+        },
+        {
+          "text": "私",
+          "start": 23.78,
+          "end": 25.0,
+          "score": 0.6347
+        },
+        {
+          "text": "の",
+          "start": 25.0,
+          "end": 26.04,
+          "score": 0.9721
+        },
+        {
+          "text": "思",
+          "start": 26.04,
+          "end": 26.38,
+          "score": 0.6986
+        },
+        {
+          "text": "わ",
+          "start": 26.38,
+          "end": 26.68,
+          "score": 0.042
+        },
+        {
+          "text": "く",
+          "start": 26.68,
+          "end": 27.22,
+          "score": 0.4227
+        },
+        {
+          "text": "通",
+          "start": 27.22,
+          "end": 28.0,
+          "score": 0.8373
+        },
+        {
+          "text": "り",
+          "start": 28.0,
+          "end": 28.42,
+          "score": 0.9991
+        },
+        {
+          "text": "に",
+          "start": 28.42,
+          "end": 28.72,
+          "score": 0.9941
+        }
+      ],
+      "alignmentModel": "openai/whisper-medium"
+    },
+    {
+      "text": "今日とて可愛く回っています",
+      "language": "ja",
+      "sourceStart": 29.05,
+      "windowStart": 29.05,
+      "windowEnd": 35.72,
+      "start": 29.13,
+      "end": 33.85,
+      "words": [
+        {
+          "text": "今日",
+          "start": 29.13,
+          "end": 29.57,
+          "score": 0.0045
+        },
+        {
+          "text": "と",
+          "start": 29.57,
+          "end": 30.03,
+          "score": 0.6943
+        },
+        {
+          "text": "て",
+          "start": 30.03,
+          "end": 30.53,
+          "score": 0.1434
+        },
+        {
+          "text": "可愛",
+          "start": 30.53,
+          "end": 31.29,
+          "score": 0.007
+        },
+        {
+          "text": "く",
+          "start": 31.29,
+          "end": 32.07,
+          "score": 0.9827
+        },
+        {
+          "text": "回",
+          "start": 32.07,
+          "end": 32.71,
+          "score": 0.569
+        },
+        {
+          "text": "って",
+          "start": 32.71,
+          "end": 33.05,
+          "score": 0.9895
+        },
+        {
+          "text": "います",
+          "start": 33.05,
+          "end": 33.85,
+          "score": 0.9601
+        }
+      ],
+      "alignmentModel": "openai/whisper-medium"
+    },
+    {
+      "text": "Come, cry your heart, cry your heart out",
+      "language": "en",
+      "sourceStart": 35.72,
+      "windowStart": 35.72,
+      "windowEnd": 38.91,
+      "start": 35.823,
+      "end": 38.822,
+      "words": [
+        {
+          "text": "Come",
+          "start": 35.823,
+          "end": 36.442,
+          "score": 0.9224
+        },
+        {
+          "text": "cry",
+          "start": 36.622,
+          "end": 36.842,
+          "score": 0.8451
+        },
+        {
+          "text": "your",
+          "start": 36.942,
+          "end": 37.022,
+          "score": 0.0008
+        },
+        {
+          "text": "heart",
+          "start": 37.063,
+          "end": 37.402,
+          "score": 0.1667
+        },
+        {
+          "text": "cry",
+          "start": 37.482,
+          "end": 37.682,
+          "score": 0.8403
+        },
+        {
+          "text": "your",
+          "start": 37.783,
+          "end": 37.882,
+          "score": 0.0101
+        },
+        {
+          "text": "heart",
+          "start": 37.942,
+          "end": 38.262,
+          "score": 0.2041
+        },
+        {
+          "text": "out",
+          "start": 38.603,
+          "end": 38.822,
+          "score": 0.1178
+        }
+      ],
+      "alignmentModel": "facebook/wav2vec2-base-960h",
+      "fallbackReason": "Whisper produced zero-duration words"
+    },
+    {
+      "text": "Here in my arms, in my arms like",
+      "language": "en",
+      "sourceStart": 38.91,
+      "windowStart": 38.91,
+      "windowEnd": 42.22,
+      "start": 38.91,
+      "end": 42.09,
+      "words": [
+        {
+          "text": "Here",
+          "start": 38.91,
+          "end": 40.03,
+          "score": 0.5253
+        },
+        {
+          "text": "in",
+          "start": 40.03,
+          "end": 40.43,
+          "score": 0.0148
+        },
+        {
+          "text": "my",
+          "start": 40.43,
+          "end": 40.71,
+          "score": 0.1751
+        },
+        {
+          "text": "arms,",
+          "start": 40.71,
+          "end": 41.07,
+          "score": 0.4994
+        },
+        {
+          "text": "in",
+          "start": 41.07,
+          "end": 41.27,
+          "score": 0.445
+        },
+        {
+          "text": "my",
+          "start": 41.27,
+          "end": 41.51,
+          "score": 0.9868
+        },
+        {
+          "text": "arms",
+          "start": 41.51,
+          "end": 41.73,
+          "score": 0.9929
+        },
+        {
+          "text": "like",
+          "start": 41.73,
+          "end": 42.09,
+          "score": 0.55
+        }
+      ],
+      "alignmentModel": "openai/whisper-medium"
+    },
+    {
+      "text": "Ah, ah, ah, ah",
+      "language": "en",
+      "sourceStart": 42.22,
+      "windowStart": 42.22,
+      "windowEnd": 45.69,
+      "start": 42.22,
+      "end": 45.38,
+      "words": [
+        {
+          "text": "Ah,",
+          "start": 42.22,
+          "end": 43.46,
+          "score": 0.4537
+        },
+        {
+          "text": "ah,",
+          "start": 43.46,
+          "end": 44.32,
+          "score": 0.9311
+        },
+        {
+          "text": "ah,",
+          "start": 44.32,
+          "end": 45.18,
+          "score": 0.9754
+        },
+        {
+          "text": "ah",
+          "start": 45.18,
+          "end": 45.38,
+          "score": 0.9847
+        }
+      ],
+      "alignmentModel": "openai/whisper-medium"
+    },
+    {
+      "text": "Ah, ah, ah, ah",
+      "language": "en",
+      "sourceStart": 45.69,
+      "windowStart": 45.69,
+      "windowEnd": 49.07,
+      "start": 46.033,
+      "end": 48.712,
+      "words": [
+        {
+          "text": "Ah",
+          "start": 46.033,
+          "end": 46.112,
+          "score": 0.5425
+        },
+        {
+          "text": "ah",
+          "start": 46.852,
+          "end": 46.952,
+          "score": 0.5841
+        },
+        {
+          "text": "ah",
+          "start": 47.672,
+          "end": 47.772,
+          "score": 0.5299
+        },
+        {
+          "text": "ah",
+          "start": 48.473,
+          "end": 48.712,
+          "score": 0.513
+        }
+      ],
+      "alignmentModel": "facebook/wav2vec2-base-960h",
+      "fallbackReason": "Whisper produced zero-duration words"
+    },
+    {
+      "text": "God is inside, is inside us",
+      "language": "en",
+      "sourceStart": 49.07,
+      "windowStart": 49.07,
+      "windowEnd": 52.45,
+      "start": 49.07,
+      "end": 52.17,
+      "words": [
+        {
+          "text": "God",
+          "start": 49.07,
+          "end": 50.03,
+          "score": 0.5842
+        },
+        {
+          "text": "is",
+          "start": 50.03,
+          "end": 50.35,
+          "score": 0.9775
+        },
+        {
+          "text": "inside,",
+          "start": 50.35,
+          "end": 51.03,
+          "score": 0.7864
+        },
+        {
+          "text": "is",
+          "start": 51.03,
+          "end": 51.17,
+          "score": 0.9435
+        },
+        {
+          "text": "inside",
+          "start": 51.17,
+          "end": 51.67,
+          "score": 0.9965
+        },
+        {
+          "text": "us",
+          "start": 51.67,
+          "end": 52.17,
+          "score": 0.9708
+        }
+      ],
+      "alignmentModel": "openai/whisper-medium"
+    },
+    {
+      "text": "This is our time, is our time, thus",
+      "language": "en",
+      "sourceStart": 52.45,
+      "windowStart": 52.45,
+      "windowEnd": 55.54,
+      "start": 52.53,
+      "end": 55.43,
+      "words": [
+        {
+          "text": "This",
+          "start": 52.53,
+          "end": 53.35,
+          "score": 0.7102
+        },
+        {
+          "text": "is",
+          "start": 53.35,
+          "end": 53.65,
+          "score": 0.936
+        },
+        {
+          "text": "our",
+          "start": 53.65,
+          "end": 53.87,
+          "score": 0.0867
+        },
+        {
+          "text": "time,",
+          "start": 53.87,
+          "end": 54.37,
+          "score": 0.8291
+        },
+        {
+          "text": "is",
+          "start": 54.37,
+          "end": 54.47,
+          "score": 0.4003
+        },
+        {
+          "text": "our",
+          "start": 54.47,
+          "end": 54.73,
+          "score": 0.9432
+        },
+        {
+          "text": "time,",
+          "start": 54.73,
+          "end": 55.25,
+          "score": 0.5763
+        },
+        {
+          "text": "thus",
+          "start": 55.25,
+          "end": 55.43,
+          "score": 0.0737
+        }
+      ],
+      "alignmentModel": "openai/whisper-medium"
+    },
+    {
+      "text": "Sooner or later we better know that",
+      "language": "en",
+      "sourceStart": 55.54,
+      "windowStart": 55.54,
+      "windowEnd": 59.01,
+      "start": 55.66,
+      "end": 58.9,
+      "words": [
+        {
+          "text": "Sooner",
+          "start": 55.66,
+          "end": 56.6,
+          "score": 0.7336
+        },
+        {
+          "text": "or",
+          "start": 56.6,
+          "end": 56.86,
+          "score": 0.9454
+        },
+        {
+          "text": "later",
+          "start": 56.86,
+          "end": 57.3,
+          "score": 0.9918
+        },
+        {
+          "text": "we",
+          "start": 57.3,
+          "end": 57.72,
+          "score": 0.0823
+        },
+        {
+          "text": "better",
+          "start": 57.72,
+          "end": 58.2,
+          "score": 0.7054
+        },
+        {
+          "text": "know",
+          "start": 58.2,
+          "end": 58.66,
+          "score": 0.9908
+        },
+        {
+          "text": "that",
+          "start": 58.66,
+          "end": 58.9,
+          "score": 0.9847
+        }
+      ],
+      "alignmentModel": "openai/whisper-medium"
+    }
+  ],
+  "generatedAt": "2026-11-14T16:18:49+08:00",
+  "granularity": "word",
+  "preprocessing": {
+    "model": "htdemucs",
+    "package": "demucs 4.1.0",
+    "device": "cpu",
+    "shifts": 0,
+    "segmentSeconds": 7,
+    "overlap": 0.25,
+    "analysisSampleRate": 16000,
+    "analysisLeadingSilenceSeconds": 8
+  },
+  "media": {
+    "youtubeUrl": "https://www.youtube.com/watch?v=HA3WzXw8vM8",
+    "title": "Fujii Kaze - It's Alright [Official Video]",
+    "durationSeconds": 200,
+    "formatId": "251",
+    "sourceSha256": "fc2323cf9f13f6ba1faccda875f24e2d0c6c76f9ccdd5640c3089a37d21c82ee",
+    "playbackExcerptSha256": "6dcbec65b16ec20a8fe162c17f3b9664dc8b0b541966446503f3c3c934df2f12"
+  },
+  "review": {
+    "auditoryVerified": false,
+    "notes": [
+      "Automatic alignment candidates; not an accuracy guarantee.",
+      "Sustained vowels, low-score units and repeated Ah require listening review.",
+      "Japanese multi-character units share a measured span; no claim of independent glyph boundaries."
+    ]
+  }
+}
