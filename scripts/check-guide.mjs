@@ -13,6 +13,7 @@ import { deploymentSiteUrl } from "../vite.config.js";
 
 const root = fileURLToPath(new URL("../", import.meta.url));
 const read = file => fs.readFileSync(path.join(root, file), "utf8");
+const pkg = JSON.parse(read("package.json"));
 assert.equal(SONGS.length, 28);
 assert.equal(new Set(SONGS.map(song => song.id)).size, 28);
 assert.deepEqual(SONGS.map(song => song.title), ["YELLOW GHOST", "春雷", "感電", "Flamingo", "LADY", "ゆめうつつ", "クランベリーとパンケーキ", "死神", "さよーならまたいつか！", "メランコリーキッチン", "1991", "Lemon", "JANE DOE", "海の幽霊", "夜鷹", "LOSER", "BOW AND ARROW", "ピースサイン", "KICK BACK", "IRIS OUT", "春が灯り", "こんにちはごきげんよう！", "烏", "迷える羊", "Plazma", "M八七", "地球儀", "アイネクライネ"]);
@@ -71,7 +72,7 @@ assert.equal(todayTimeline(Date.parse("2026-12-26T15:00:00+08:00")).currentIndex
 assert.equal(todayTimeline(Date.parse("2026-12-26T18:00:00+08:00")).nextIndex, -1);
 console.log("PASS both shows, manual choice, Taipei midnight and start boundaries across host timezones");
 
-const html = homeHtml("v3.0.0");
+const html = homeHtml("v" + pkg.version);
 for (const text of ["米津玄師", "12/26（六）", "12/27（日）", "28 首歌曲預習", "全程禁止拍照", "實名制", "待主辦公告"]) assert.ok(html.includes(text), text);
 assert.equal((html.match(/data-show-id=/g) || []).length, 2);
 assert.equal((html.match(/class="info-panel-template"/g) || []).length, 5);
@@ -85,15 +86,17 @@ assert.equal(deploymentSiteUrl({}), null);
 assert.equal(deploymentSiteUrl({ SITE_URL: "https://guide.example", CF_PAGES_URL: "https://preview.example" }), "https://guide.example/");
 assert.equal(deploymentSiteUrl({ CF_PAGES_URL: "https://preview.example" }), "https://preview.example/");
 for (const value of ["http://example.com", "https://example.com/path", "https://x:y@example.com", "https://example.com/?q=1", "https://example.com/#song"]) assert.throws(() => deploymentSiteUrl({ SITE_URL: value }));
-const pkg = JSON.parse(read("package.json")), lock = JSON.parse(read("package-lock.json"));
-assert.equal(pkg.version, "3.0.0");
+const lock = JSON.parse(read("package-lock.json"));
+assert.match(pkg.version, /^\d+\.\d+\.\d+$/);
 assert.equal(lock.version, pkg.version);
 assert.equal(lock.packages[""].version, pkg.version);
 assert.equal(lock.name, pkg.name);
 assert.equal(lock.packages[""].name, pkg.name);
 assert.ok(read("src/main.js").includes('const BUILD = "v' + pkg.version + '"'));
 assert.ok(read("sw.js").includes('const CACHE_VERSION = "v' + pkg.version + '"'));
-assert.match(read("CHANGELOG.md"), /## v3\.0\.0（尚未發佈）/);
+const changelogHeading = read("CHANGELOG.md").split("\n").find(line => line.startsWith("## "));
+const changelogVersion = changelogHeading?.match(/^## (?:\[\*\*)?v(\d+\.\d+\.\d+)(?:\*\*\]\(https:\/\/github\.com\/vicecream\/Yonezu-Kenshi-Taiwan-2026\/commit\/[a-f0-9]{40}\)|（尚未發佈）)?$/);
+assert.equal(changelogVersion?.[1], pkg.version, "Newest changelog version must match the shipped version");
 assert.equal(JSON.parse(read("manifest.json")).name, SITE.name);
 assert.equal(fs.existsSync(path.join(root, "CNAME")), false);
 console.log("PASS homepage, lazy information, versions and unset/valid/invalid deployment URLs");
@@ -123,8 +126,8 @@ console.log("PASS homepage, lazy information, versions and unset/valid/invalid d
   const lifecycle = async type => { let done; listeners.get(type)({ waitUntil(promise){ done = promise; } }); await done; };
   stores.set("yonezu-guide-v0", new Map()); stores.set("other-site-cache", new Map());
   await lifecycle("install"); await lifecycle("activate");
-  assert.deepEqual(await caches.keys(), ["other-site-cache", "yonezu-guide-v3.0.0"]);
-  const cache = await caches.open("yonezu-guide-v3.0.0");
+  assert.deepEqual(await caches.keys(), ["other-site-cache", "yonezu-guide-v" + pkg.version]);
+  const cache = await caches.open("yonezu-guide-v" + pkg.version);
   for (const asset of ["./", "./index.html", EVENT.poster, EVENT.posterMobile, EVENT.seatMap]) assert.ok(await cache.match(asset), asset);
   offline = true;
   const request = url => { let result; listeners.get("fetch")({ request: { method: "GET", mode: url === origin + "/" ? "navigate" : "cors", url }, respondWith(promise){ result = promise; } }); return result; };
