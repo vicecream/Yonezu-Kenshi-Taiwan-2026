@@ -4,7 +4,7 @@
 
 [專案儲存庫](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026) · [主辦專頁](https://yk2026.abigart.com/?lang=zh) · [藝人官方網站](https://reissuerecords.net/)
 
-**正式網站尚未建立。** 目前版本為 **3.0.0（尚未發佈）**，本機修改不代表已上傳儲存庫或完成部署。
+目前來源版本為 **3.0.0**，發布內容見 [PR #1](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/1) 與[更新紀錄](CHANGELOG.md)。**正式網站尚未建立**；Cloudflare 帳號登入、部署及正式站驗收仍待完成。
 
 ## 文件導覽
 

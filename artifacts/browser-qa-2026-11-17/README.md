@@ -23,7 +23,7 @@
 
 ## 範圍與重跑
 
-媒體狀態測試使用受控 YouTube API；**沒有驗證 20 首影片的實際串流播放、正式站、Safari 或實體手機**。官方作品頁提供的影片入口與影片實際可嵌入是不同的驗證項目。正式網站尚未建立，沒有發布或推送。
+媒體狀態測試使用受控 YouTube API；**沒有驗證 20 首影片的實際串流播放、正式站、Safari 或實體手機**。官方作品頁提供的影片入口與影片實際可嵌入是不同的驗證項目。驗收當時正式網站尚未建立，沒有發布或推送；後續來源發布狀態見 [README](../../README.md)。
 
 先完成 production build 並以 localhost:4174 啟動 preview，再將外部安裝的 Playwright Core ESM 入口傳入 scripts/check-player-browser.mjs。可用 YONEZU_QA_BASE_URL、YONEZU_QA_OUTPUT 覆寫預覽網址及輸出目錄。DOM 腳本同樣接受外部 linkedom ESM 入口，需加 Node 的 --experimental-vm-modules。
 

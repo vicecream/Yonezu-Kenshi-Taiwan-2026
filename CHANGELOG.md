@@ -2,18 +2,18 @@
 
 [專案說明](README.md) · [儲存庫](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026) · [歷史封存](archive/fujii-kaze-2026/README.md)
 
-## v3.0.0（尚未發佈）
+## v3.0.0
 
-2026-11-17 米津玄師台北版轉換工作紀錄。正式網站尚未建立；未建立發布提交或推送。正式發版時依 AGENTS 補齊實際 PR 歸屬與發布提交連結，不預填不存在的連結。
+2026-11-17 米津玄師台北版首次來源發布。正式網站尚待 Cloudflare 帳號登入、建立部署及線上驗收。
 
-- 轉換為 KENSHI YONEZU 2026-2027 WORLD TOUR / GHOST 台北指南，收錄 12/26、12/27 臺北大巨蛋、預計 15:00 入場及 18:00 開演，更新遠大售票、實名證件、拍攝限制與交通來源。
-- 新增雙場次選擇、保存偏好及台灣日期倒數；自動選擇當日或下一個演出日期，開演後不推算散場時間。
-- 依使用者順序重建 28 首預習曲庫，包含〈YELLOW GHOST〉、〈春雷〉、〈Lemon〉、〈JANE DOE〉、〈IRIS OUT〉等作品；保留搜尋、名稱排序及播放器。新 ID 與舊歌曲網址分開。
-- 核對 20 首官方影片入口，其餘曲目提供官方聆聽或作品資訊；〈春が灯り〉、〈こんにちはごきげんよう！〉標記主題歌公告／預告。原文、繁中、讀音與同步均維持待補。
-- 使用 GHOST 台北官方海報與座位圖、冷藍深色首頁及原創「米」字幾何圖示，保留深淺色、響應式、倍速與 PiP。
-- 網址維持未設定；移除舊網域及自動部署設定，建置可依真實部署 URL 產生分享與搜尋資訊。瀏覽器與 SW 改用 yonezu 命名空間。
-- 修正帶有 Origin 差異的 JS／CSS 預快取比對，讓首次離線開啟歌曲仍可載入；調整已展開座位圖在視窗寬度改變時的高度，避免內容裁切。
-- 集中封存舊文件、歌詞、讀音、翻譯及驗收資料；更新來源紀錄、供稿與部署文件、匯入工具及回歸檢查。
+- [PR #1](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/1)：轉換為 KENSHI YONEZU 2026-2027 WORLD TOUR / GHOST 台北指南，收錄 12/26、12/27 臺北大巨蛋、預計 15:00 入場及 18:00 開演，更新遠大售票、實名證件、拍攝限制與交通來源。
+- [PR #1](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/1)：新增雙場次選擇、保存偏好及台灣日期倒數；自動選擇當日或下一個演出日期，開演後不推算散場時間。
+- [PR #1](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/1)：依使用者順序重建 28 首預習曲庫，包含〈YELLOW GHOST〉、〈春雷〉、〈Lemon〉、〈JANE DOE〉、〈IRIS OUT〉等作品；保留搜尋、名稱排序及播放器。新 ID 與舊歌曲網址分開。
+- [PR #1](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/1)：核對 20 首官方影片入口，其餘曲目提供官方聆聽或作品資訊；〈春が灯り〉、〈こんにちはごきげんよう！〉標記主題歌公告／預告。原文、繁中、讀音與同步均維持待補。
+- [PR #1](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/1)：使用 GHOST 台北官方海報與座位圖、冷藍深色首頁及原創「米」字幾何圖示，保留深淺色、響應式、倍速與 PiP。
+- [PR #1](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/1)：網址維持未設定；移除舊網域及自動部署設定，建置可依真實部署 URL 產生分享與搜尋資訊。瀏覽器與 SW 改用 yonezu 命名空間。
+- [PR #1](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/1)：修正帶有 Origin 差異的 JS／CSS 預快取比對，讓首次離線開啟歌曲仍可載入；調整已展開座位圖在視窗寬度改變時的高度，避免內容裁切。
+- [PR #1](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/1)：集中封存舊文件、歌詞、讀音、翻譯及驗收資料；更新來源紀錄、供稿與部署文件、匯入工具及回歸檢查。
 
 ## 上游歷史紀錄
 
