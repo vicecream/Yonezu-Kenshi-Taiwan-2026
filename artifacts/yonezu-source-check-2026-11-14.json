@@ -1,0 +1,231 @@
+{
+  "checkedAt": "2026-11-14",
+  "method": "Metadata and links read from artist official album/announcement pages; lyrics not imported.",
+  "eventSource": "https://yk2026.abigart.com/data.js",
+  "songs": [
+    {
+      "id": "YellowGhost",
+      "title": "YELLOW GHOST",
+      "sourceUrl": "https://reissuerecords.net/discography/lost-corner/",
+      "youtubeId": null,
+      "videoStatus": "not-verified",
+      "contentStatus": "pending"
+    },
+    {
+      "id": "Shunrai",
+      "title": "春雷",
+      "sourceUrl": "https://reissuerecords.net/discography/bootleg/",
+      "youtubeId": "zkNzxsaCunU",
+      "videoStatus": "official-page-linked",
+      "contentStatus": "pending"
+    },
+    {
+      "id": "Kanden",
+      "title": "感電",
+      "sourceUrl": "https://reissuerecords.net/discography/stray-sheep/",
+      "youtubeId": "UFQEttrn6CQ",
+      "videoStatus": "official-page-linked",
+      "contentStatus": "pending"
+    },
+    {
+      "id": "Flamingo",
+      "title": "Flamingo",
+      "sourceUrl": "https://reissuerecords.net/discography/stray-sheep/",
+      "youtubeId": "Uh6dkL1M9DM",
+      "videoStatus": "official-page-linked",
+      "contentStatus": "pending"
+    },
+    {
+      "id": "Lady",
+      "title": "LADY",
+      "sourceUrl": "https://reissuerecords.net/discography/lost-corner/",
+      "youtubeId": "DdF-u3fe5pg",
+      "videoStatus": "official-page-linked",
+      "contentStatus": "pending"
+    },
+    {
+      "id": "Yumeutsutsu",
+      "title": "ゆめうつつ",
+      "sourceUrl": "https://reissuerecords.net/discography/lost-corner/",
+      "youtubeId": null,
+      "videoStatus": "not-verified",
+      "contentStatus": "pending"
+    },
+    {
+      "id": "CranberryAndPancake",
+      "title": "クランベリーとパンケーキ",
+      "sourceUrl": "https://reissuerecords.net/discography/lemon/",
+      "youtubeId": null,
+      "videoStatus": "not-verified",
+      "contentStatus": "pending"
+    },
+    {
+      "id": "Shinigami",
+      "title": "死神",
+      "sourceUrl": "https://reissuerecords.net/discography/lost-corner/",
+      "youtubeId": "8nxaZ69ElEc",
+      "videoStatus": "official-page-linked",
+      "contentStatus": "pending"
+    },
+    {
+      "id": "SayonaraMataItsuka",
+      "title": "さよーならまたいつか！",
+      "sourceUrl": "https://reissuerecords.net/discography/lost-corner/",
+      "youtubeId": "-wb2PAx6aEs",
+      "videoStatus": "official-page-linked",
+      "contentStatus": "pending"
+    },
+    {
+      "id": "MelancholyKitchen",
+      "title": "メランコリーキッチン",
+      "sourceUrl": "https://reissuerecords.net/discography/yankee/",
+      "youtubeId": null,
+      "videoStatus": "not-verified",
+      "contentStatus": "pending"
+    },
+    {
+      "id": "NineteenNinetyOne",
+      "title": "1991",
+      "sourceUrl": "https://reissuerecords.net/discography/1991%E3%80%80%E3%80%80%E3%80%80%E3%80%80%E3%80%80%E3%80%80%E3%80%8E%E7%A7%92%E9%80%9F5%E3%82%BB%E3%83%B3%E3%83%81%E3%83%A1%E3%83%BC%E3%83%88%E3%83%AB%E3%80%8F%E4%B8%BB%E9%A1%8C%E6%AD%8C/",
+      "youtubeId": null,
+      "videoStatus": "not-verified",
+      "contentStatus": "pending"
+    },
+    {
+      "id": "Lemon",
+      "title": "Lemon",
+      "sourceUrl": "https://reissuerecords.net/discography/stray-sheep/",
+      "youtubeId": "SX_ViT4Ra7k",
+      "videoStatus": "official-page-linked",
+      "contentStatus": "pending"
+    },
+    {
+      "id": "JaneDoe",
+      "title": "JANE DOE",
+      "sourceUrl": "https://reissuerecords.net/discography/irisout_janedoe/",
+      "youtubeId": "sPLqsLsooJY",
+      "videoStatus": "official-page-linked",
+      "contentStatus": "pending"
+    },
+    {
+      "id": "UmiNoYuurei",
+      "title": "海の幽霊",
+      "sourceUrl": "https://reissuerecords.net/discography/stray-sheep/",
+      "youtubeId": "1s84rIhPuhk",
+      "videoStatus": "official-page-linked",
+      "contentStatus": "pending"
+    },
+    {
+      "id": "Yodaka",
+      "title": "夜鷹",
+      "sourceUrl": "https://reissuerecords.net/discography/yodaka/",
+      "youtubeId": "l2jvIuTp534",
+      "videoStatus": "official-page-linked",
+      "contentStatus": "pending"
+    },
+    {
+      "id": "Loser",
+      "title": "LOSER",
+      "sourceUrl": "https://reissuerecords.net/discography/bootleg/",
+      "youtubeId": "Dx_fKPBPYUI",
+      "videoStatus": "official-page-linked",
+      "contentStatus": "pending"
+    },
+    {
+      "id": "BowAndArrow",
+      "title": "BOW AND ARROW",
+      "sourceUrl": "https://reissuerecords.net/discography/plazma_bowandarrow/",
+      "youtubeId": "M-Eyhjkepy0",
+      "videoStatus": "official-page-linked",
+      "contentStatus": "pending"
+    },
+    {
+      "id": "PeaceSign",
+      "title": "ピースサイン",
+      "sourceUrl": "https://reissuerecords.net/discography/bootleg/",
+      "youtubeId": "9aJVr5tTTWk",
+      "videoStatus": "official-page-linked",
+      "contentStatus": "pending"
+    },
+    {
+      "id": "KickBack",
+      "title": "KICK BACK",
+      "sourceUrl": "https://reissuerecords.net/discography/lost-corner/",
+      "youtubeId": "M2cckDmNLMI",
+      "videoStatus": "official-page-linked",
+      "contentStatus": "pending"
+    },
+    {
+      "id": "IrisOut",
+      "title": "IRIS OUT",
+      "sourceUrl": "https://reissuerecords.net/discography/irisout_janedoe/",
+      "youtubeId": "LmZD-TU96q4",
+      "videoStatus": "official-page-linked",
+      "contentStatus": "pending"
+    },
+    {
+      "id": "HaruGaTomori",
+      "title": "春が灯り",
+      "sourceUrl": "https://reissuerecords.net/2026/10/22/kusuriyanohitorigoto_movie/",
+      "youtubeId": null,
+      "videoStatus": "not-verified",
+      "contentStatus": "pending"
+    },
+    {
+      "id": "KonnichiwaGokigenyou",
+      "title": "こんにちはごきげんよう！",
+      "sourceUrl": "https://reissuerecords.net/2026/11/02/toranitsubasa_movie/",
+      "youtubeId": null,
+      "videoStatus": "not-verified",
+      "contentStatus": "pending"
+    },
+    {
+      "id": "Karasu",
+      "title": "烏",
+      "sourceUrl": "https://reissuerecords.net/discography/karasu/",
+      "youtubeId": "YjPMupS1Lg4",
+      "videoStatus": "official-page-linked",
+      "contentStatus": "pending"
+    },
+    {
+      "id": "MayoeruHitsuji",
+      "title": "迷える羊",
+      "sourceUrl": "https://reissuerecords.net/discography/stray-sheep/",
+      "youtubeId": null,
+      "videoStatus": "not-verified",
+      "contentStatus": "pending"
+    },
+    {
+      "id": "Plazma",
+      "title": "Plazma",
+      "sourceUrl": "https://reissuerecords.net/discography/plazma_bowandarrow/",
+      "youtubeId": "fp3F6TqBsAU",
+      "videoStatus": "official-page-linked",
+      "contentStatus": "pending"
+    },
+    {
+      "id": "M87",
+      "title": "M八七",
+      "sourceUrl": "https://reissuerecords.net/discography/lost-corner/",
+      "youtubeId": "Zhx1n6uvgUE",
+      "videoStatus": "official-page-linked",
+      "contentStatus": "pending"
+    },
+    {
+      "id": "Chikyugi",
+      "title": "地球儀",
+      "sourceUrl": "https://reissuerecords.net/discography/lost-corner/",
+      "youtubeId": "VUsURj_OYdA",
+      "videoStatus": "official-page-linked",
+      "contentStatus": "pending"
+    },
+    {
+      "id": "EineKleine",
+      "title": "アイネクライネ",
+      "sourceUrl": "https://reissuerecords.net/discography/yankee/",
+      "youtubeId": "-EKxzId_Sj4",
+      "videoStatus": "official-page-linked",
+      "contentStatus": "pending"
+    }
+  ]
+}

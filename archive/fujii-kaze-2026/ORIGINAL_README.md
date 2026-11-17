@@ -1,0 +1,135 @@
+# 藤井風高雄演唱會指南
+
+Fujii Kaze Prema World Tour 高雄站的繁體中文非官方粉絲指南。演出日期為 **2026/10/31（六）**，地點為高雄國家體育場（世運主場館），**16:00 入場、19:00 開演**；時間採 `Asia/Taipei`。散場時間與尚未確認的現場安排不自行推算。
+
+專案入口：[vicecream/Fujii-Kaze-Taiwan-2026](https://github.com/vicecream/Fujii-Kaze-Taiwan-2026) · [最新程式碼](https://github.com/vicecream/Fujii-Kaze-Taiwan-2026/tree/main) · [提交紀錄](https://github.com/vicecream/Fujii-Kaze-Taiwan-2026/commits/main) · [建置紀錄](https://github.com/vicecream/Fujii-Kaze-Taiwan-2026/actions) · [問題回報](https://github.com/vicecream/Fujii-Kaze-Taiwan-2026/issues)。保留原專案 Git 歷史與程式來源署名。
+
+正式網站：[藤井風高雄演唱會指南](https://fujii-kaze-taiwan-2026.pages.dev/) · [29 首歌曲預習](https://fujii-kaze-taiwan-2026.pages.dev/#/guide)。網址由使用者提供，已於 2026-11-14 確認首頁回應 HTTP 200 並顯示正確指南標題。
+
+## 文件導覽
+
+| 要做的事 | 引導文件或資料入口 |
+|---|---|
+| 開啟線上指南與歌曲預習 | [指南首頁](https://fujii-kaze-taiwan-2026.pages.dev/) · [歌曲預習](https://fujii-kaze-taiwan-2026.pages.dev/#/guide) |
+| 更新原文與 LRC 時間碼 | [歌詞資料夾說明](lyrics/README.md) · [歌詞檔案](https://github.com/vicecream/Fujii-Kaze-Taiwan-2026/tree/main/lyrics) · [匯入步驟](docs/karaoke-import.md) |
+| 查詢原有 23 首的來源 | [LRC 與中文來源清單](docs/lyric-sources.md) |
+| 更新中文譯詞 | [中文供稿說明](lyrics/translations/README.md) · [匯入與對齊紀錄](docs/translation-import.md) |
+| 維護假名與羅馬字 | [日文讀音整理](docs/furigana.md) |
+| 查看 LASA 新增六首與照片譯詞 | [LOVE ALL SERVE ALL 匯入紀錄](docs/love-all-serve-all.md) |
+| 查詢活動與交通依據 | [內容來源紀錄](docs/content-sources.md) |
+| 部署與設定正式網站網址 | [Cloudflare Pages 部署指南](CLOUDFLARE_DEPLOY.md) |
+| 查看版本、維護與設計規範 | [更新紀錄](CHANGELOG.md) · [專案操作規範](AGENTS.md) · [設計規範](DESIGN.md) |
+
+## 1. 本機開發與驗證
+
+```bash
+npm ci
+npm run dev
+```
+
+正式建置與預覽：
+
+```bash
+npm run build
+npm run preview
+```
+
+本機請使用終端顯示的 **`http://localhost:5173/`**（開發）或 **`http://localhost:4173/`**（預覽），埠號以實際啟動結果為準。YouTube 對數字 IP 來源可能回報 150，即使同支影片允許嵌入；指南會在啟動播放器前將 `127.0.0.1`／`[::1]` 改至同埠的 `localhost`，保留路徑、查詢參數與歌曲 hash。其他裝置請使用可解析到本站的網域網址；不把區網 IP 改成該裝置自己的 localhost，也不偽造第三方來源。
+
+提交前執行：
+
+```bash
+npm run check:guide
+npm run check:lyrics
+npm run check:karaoke
+npm run build
+git diff --check
+```
+
+另有 `scripts/check-dom-smoke.mjs`，可傳入安裝於暫存目錄的 linkedom ESM 入口，搭配 Node 的 `--experimental-vm-modules` 執行路由與播放器狀態檢查，不需要新增專案依賴。此檢查不取代真實瀏覽器的版面、媒體播放及無障礙驗證。
+
+`dist/` 為 Vite 產生的輸出，不直接編輯。正式建置預先輸出首頁 HTML；首頁及頁面切換共用同一個模板。直接開啟歌曲或其他 hash 路由時，先隱藏首頁，避免切頁時閃爍。
+
+## 2. 網站內容與使用方式
+
+首頁提供演出、取票、座位配置、交通及入場提醒，保留購票、地圖等實用連結；來源與查核日期另記於內容來源文件，不在首頁資訊欄重複顯示。尚未確認的公告會明示待補，不沿用其他歌手或其他場次的規定。
+
+首頁常駐「最新演出資訊」與公告卡，整理使用者於 **2026-10-29 直接提供、人工核對的 9 張主辦公告圖**，並保留 [Instagram 原始貼文入口](https://www.instagram.com/p/De9BM_xE9JZ/?img_index=4)。公告文字依提供圖片整理，場地圖另取自同則官方貼文第 5 張；來源方式與核對範圍見 [內容來源紀錄](docs/content-sources.md)。
+
+「公告與周邊」卡片內附完整場地圖；展開後才載入，點擊可開啟原尺寸，並支援完成快取後離線查看。
+
+- 周邊販售 11:00–18:00、市集 12:00 開始、票務服務 13:00–20:00；現場票務服務不提供取票。
+- 世運大道 09:00–24:00 管制；單向新左營 → 世運接駁 15:00–19:00，返程接駁 20:30–23:30。返程營運時段不是預告散場時間。
+- 特 A／特 B 依票區圖使用 D／F 車道入口，C／V 看台由 C 門入場，其餘 D／E／F／G 票區依對應門別；請同時對照票券與現場指示。
+- 入場提醒涵蓋無寄物服務、包包尺寸、手機拍攝、再入場、雨具飲水及禁止攜入物；完整細節以公告卡與現場規定為準。
+
+「歌曲預習」收錄 **29 首**：`Prema` 的 9 首歌曲、`LOVE ALL SERVE ALL` 全 11 首、代表曲精選中另 5 首，以及 `Pre: Prema` 的〈It's Alright〉、〈真っ白〉與 `HELP EVER HURT NEVER` 的〈もうええわ〉、〈帰ろう〉。原有 23 首編號與網址保留，新增 6 首接續編號；原已收錄的 5 首不重複新增，移至 LASA 專輯分組。預設依專輯分組，LASA 依官方曲序排列，可搜尋歌名、羅馬字或編號，也能依名稱排序。此清單不代表高雄場演出曲目或順序。
+
+2026-11-14 匯入使用者提供的 `Photos-1-001.zip` 與新增照片 `PXL_20261113_180511229.jpg`：9 首照片譯詞共 368 行。六份日文 LRC 共 253 行原文，已對齊 249 行中文；〈へでもねーよ (LASA edit)〉53 句中譯已補齊，其餘兩處原文差異及兩段哼唱共 4 行留白。六首的 251 行含日文歌詞已補齊振り仮名與羅馬拼音，可切換假名、羅馬字及並列；原 LRC 時間保留，影片偏移仍待校正。〈ガーデン〉、〈damn〉、〈旅路〉的照片版本與原有字幕分開呈現；〈きらり〉、〈まつり〉沿用既有譯文。詳細狀態、來源與維護方式見 [LASA 匯入紀錄](docs/love-all-serve-all.md)。
+
+高雄為本巡演首站，網站不設防劇透閘門、隨機歌單或演出順序切換。`#/setlist` 僅顯示「高雄場歌單待確認」並提供預習入口。原 Vaundy 歌曲網址會顯示指南已轉換，不會自動對應成另一首歌曲。
+
+原有 23 首皆提供已核實的官方影片入口與原文，共 1,111 行，皆由使用者提供的 LRC 匯入。2026-11-14 已同步〈真っ白〉更新的 34 行時間碼，保留既有 28 行中文；〈きらり〉播放時間提前 0.1 秒，〈青春病〉延後 2 秒，原始 LRC 時間不變。歌曲依 LRC 時間逐行試播，每句顯示時間並可點選跳轉；標示「LRC 時間試播・待校正」，供逐首比對目前影片，既有影片時間偏移設定保留。尚未宣稱影片同步完成，不套用外部時間或估算逐字時間。中文包含 19 份 PDF 的 836 列，以及使用者直接提供的〈Casket Girl〉全曲 55 列、〈Forever Young〉節錄 16 列，共 907 列；未提供的中文維持待整理，詳見 [中文匯入紀錄](docs/translation-import.md)。全 20 首含日文歌曲的 776 行日文已補齊振り仮名與羅馬字，可切換假名、羅馬字及並列；其中較早新增四首的 134 行已於 2026-11-14 補齊。另 9 首英文歌維持原文，詳見 [日文讀音整理](docs/furigana.md)。
+
+歌曲播放器保留上一首／下一首、選歌、倍速、簡潔模式與支援瀏覽器的 Document PiP：
+
+- 「原文」適用英文與日文；英文歌不顯示假名及羅馬字控制。
+- 日文歌預設在漢字上方顯示假名；「讀音」按鈕依序切換假名、羅馬字及兩者並列，並記住選擇。
+- 原文、繁中翻譯與同步時間可分開完成；沒有同步時間時僅供閱讀，不啟用逐字高亮或點句跳轉。
+- LRC 時間待校正時可以切換逐行卡拉 OK，依實際歌詞時間高亮當前句；逐字時間仍待校正。
+- 卡拉 OK 來源依序嘗試開源聚合、AMLL TTML DB 與 LRCLIB；以歌曲的 `Fujii Kaze` 歌手資訊查詢。外部來源失敗時，僅在已有本地時間錨點的情況下使用估算。
+- 影片連線或嵌入失敗時，仍可開啟官方 YouTube 入口。
+
+播放器會在開啟歌曲時立即連線，不等待歌詞資料。載入、緩衝、瀏覽器阻擋自動播放、影片無法嵌入及離線各有明確提示；需要手動播放時提供「播放影片」，連線逾時或暫時錯誤時可「重新載入播放器」。一般換歌沿用同一個播放器，只有手動重試才重新建立；離開歌曲頁後不會因延遲回應自行開始播放。重新連線後由使用者選擇重試，官方 YouTube 觀看入口持續保留。
+
+深淺色模式預設沿用裝置，手動選擇後保存在瀏覽器。首頁維持深色官方海報氛圍；資訊及歌曲閱讀頁使用中性深淺色表面。
+
+## 3. 資料來源與維護位置
+
+| 來源檔案 | 責任 |
+|---|---|
+| `src/data.js` | `SITE`、`EVENT`、演出當日行程、公告、BPM 與已確認的動作資源 |
+| `src/show-time.js` | 台灣日期、開演倒數與當日行程狀態 |
+| `src/song-metadata.js` | 29 首曲目、專輯、語言、官方影片、內容整理狀態 |
+| `src/song-lyrics.js` | 延後載入的歌詞、翻譯及每行時間 |
+| `lyrics/translations/lasa-photos.json`、`src/lasa-photo-data.js` | 照片譯詞的人工核對原始資料及產生的前端模組 |
+| `src/song-content.js` | 依實際內容判斷閱讀、翻譯、讀音與同步功能是否可用 |
+| `src/chant-guide.js`、`src/song-mark-metadata.js` | 有來源的應援提示；首版為空，不沿用舊歌手資料 |
+| `furigana.js`、`src/furigana-corrections.js` | 日文假名與羅馬字對應及修正 |
+| `karaoke-sources.js` | 外部逐字時間來源、對齊與本機快取 |
+| `src/main.js` | 路由、歌曲播放器與頁面互動 |
+| `src/ui/home.js`、`src/ui/footer.js` | 共用首頁、頁尾與來源署名 |
+| `src/*.css`、`src/ui/icons.js` | 樣式與共用圖示 |
+| `sw.js`、`vite.config.js` | 離線快取、靜態資產與建置 |
+
+官方來源、海報及座位圖的出處見 [內容來源紀錄](docs/content-sources.md)。讀取資訊時先核對高雄場，不把日本場的票務或攜入規則套用到台灣。
+
+### 新增歌詞與翻譯
+
+保留現有歌曲 `id`、`artist`、`album`、`language`、`youtubeId` 與官方來源。`language` 使用 `en` 或 `ja`；完整歌詞應放在延後載入的 `src/song-lyrics.js`，避免增加首頁入口大小。
+
+每行沿用 `{ jp, tr, time }` 結構：`jp` 為原文（英文亦使用此欄位），`tr` 為可選的繁中翻譯。`time` 僅填入已對照目前影片版本的秒數；沒有時間時省略，不填 `0` 作占位。完成同步的各行必須有非負且不倒退的數值時間。
+
+`lyricsStatus`、`translationStatus`、`timingStatus` 預設為 `pending`，完成後同步更新整理狀態；功能可用性以實際資料判斷。未完成的歌曲保留空 `lyrics: []`，不放入虛構歌詞。
+
+加入全文前，記錄原文出處與可使用依據；翻譯保留 `translationCredit`、`translationCreditUrl`、`translationSourceUrl`，有授權資訊時一併記錄 `translationLicense`、`translationLicenseUrl`。未具備可追溯來源時，維持官方聆聽入口與整理中提示。日文讀音未整理時明示 `readingsStatus: "pending"` 並停用讀音切換；補齊假名及羅馬字後再啟用，並執行兩項歌詞檢查。
+
+可用 `node scripts/find-karaoke-sources.mjs` 搜尋 23 首的來源候選；報告只保留中繼資料。自行提供的同步歌詞檔可透過 `scripts/import-song-lyrics.mjs` 預覽與匯入，未核對目前影片時只匯入原文。來源搜尋紀錄、manifest 格式與操作方式見 [同步歌詞匯入說明](docs/karaoke-import.md)。
+
+## 4. 離線、快取與版本
+
+先在線上開啟網站並等待快取完成，再測試飛航模式下重新整理。已快取的程式、資訊及已整理歌詞可離線使用；YouTube 影片與外部網站仍需要網路。外部逐字時間僅能離線使用已取得的快取。
+
+瀏覽器設定與內容快取採 `kaze-` 命名空間，避免套用原歌曲的播放及應援狀態。新網域與原網域屬不同來源，瀏覽器設定不跨網域搬移。
+
+`public/assets/` 保留近期舊首頁引用的雜湊 JavaScript，供 CDN／HTML 更新交錯時使用；不可在轉換時一併刪除。
+
+目前資料版本為 **2.1.2**，更新內容見 [CHANGELOG.md](CHANGELOG.md)。正式發版時，必須同步更新套件版本、鎖檔兩個根版本、`BUILD`、`CACHE_VERSION` 與更新日誌。
+
+## 5. 發佈
+
+程式與資料已上傳至本專案的 `main`，網站入口為 [https://fujii-kaze-taiwan-2026.pages.dev/](https://fujii-kaze-taiwan-2026.pages.dev/)。後續更新依 [Cloudflare Pages 部署指南](CLOUDFLARE_DEPLOY.md) 檢查部署紀錄；Production 的 `SITE_URL` 使用此正式網址。正式發版依 [AGENTS.md](AGENTS.md) 處理 PR 歸屬、版本提交與 changelog 連結。
+
+上傳與發佈目標均為 [vicecream/Fujii-Kaze-Taiwan-2026](https://github.com/vicecream/Fujii-Kaze-Taiwan-2026)。操作前以 `git remote -v` 核對實際 URL，使用指向此儲存庫的 remote；不要只依 `origin`、`personal` 或 `upstream` 的名稱判斷。推送 `main` 會觸發既有 [GitHub Actions](https://github.com/vicecream/Fujii-Kaze-Taiwan-2026/actions)，執行結果與 Cloudflare 發布結果須分別確認。
+
+程式來源與原作者署名保留於頁尾；舊版內容僅保存在 Git 歷史、歷史更新日誌及相容資產。

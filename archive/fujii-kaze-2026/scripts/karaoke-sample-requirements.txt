@@ -1,0 +1,11 @@
+# Python 3.13; isolated experiment environment, not website dependencies.
+torch==2.15.0
+torchaudio==2.11.1
+transformers==4.57.6
+stable-ts==2.19.1
+demucs==4.1.0
+numpy==2.5.4
+scipy==1.18.1
+soundfile==0.14.0
+imageio-ffmpeg==0.8.1
+yt-dlp==2026.10.26
