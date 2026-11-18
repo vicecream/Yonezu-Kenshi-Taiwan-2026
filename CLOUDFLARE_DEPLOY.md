@@ -66,4 +66,4 @@ npm run preview
 
 資料維護位置見 README。發布版本需同步 package、鎖檔、BUILD、CACHE_VERSION、HTML 版本參數及 CHANGELOG。Cloudflare 回復舊 deployment 不會修改 Git；來源修正使用新提交，避免改寫歷史。回復後另驗證 SW 更新及新瀏覽器工作階段。
 
-參考：[Pages Git integration](https://developers.cloudflare.com/pages/get-started/git-integration/) · [建置設定](https://developers.cloudflare.com/pages/configuration/build-configuration/) · [Rollbacks](https://developers.cloudflare.com/pages/configuration/rollbacks/)
+參考：[Direct Upload](https://developers.cloudflare.com/pages/get-started/direct-upload/) · [Pages Git integration](https://developers.cloudflare.com/pages/get-started/git-integration/) · [建置設定](https://developers.cloudflare.com/pages/configuration/build-configuration/) · [Rollbacks](https://developers.cloudflare.com/pages/configuration/rollbacks/)

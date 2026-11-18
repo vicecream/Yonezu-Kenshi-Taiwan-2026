@@ -2,6 +2,13 @@
 
 [專案說明](README.md) · [儲存庫](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026) · [歷史封存](archive/fujii-kaze-2026/README.md)
 
+## v3.0.2
+
+2026-11-19 正式站部署與文件校正。
+
+- [PR #4](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/4)：登錄米津版正式網站，更新 README、維護規範及 Pages Direct Upload 建置／部署流程，明示 GitHub 推送與網站部署分開處理。
+- [PR #4](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/4)：以新的版本與快取編號重新建置完整網站，部署與已發布播放器修正一致的靜態檔案，並核對正式網址的分享與搜尋資訊。
+
 ## [**v3.0.1**](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/commit/72d41ee1a45fca9772d5322eaafdf9d85e833452)
 
 2026-11-18 本機瀏覽器測試修正；正式網站仍待 Cloudflare 部署及線上驗收。
