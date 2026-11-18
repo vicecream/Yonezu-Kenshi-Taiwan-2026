@@ -2,6 +2,14 @@
 
 [專案說明](README.md) · [儲存庫](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026) · [歷史封存](archive/fujii-kaze-2026/README.md)
 
+## v3.0.1
+
+2026-11-18 本機瀏覽器測試修正；正式網站仍待 Cloudflare 部署及線上驗收。
+
+- [PR #2](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/2)：修正歌詞來源待補時誤隱藏〈Lemon〉等已有官方影片的播放器；只在影片本身待補時隱藏舊影片，並補上可見性回歸檢查。
+- [PR #2](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/2)：保留 Alt＋方向鍵等瀏覽器快捷鍵，避免被上一首／下一首操作攔截。
+- [PR #2](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/2)：更新 Pages 部署準備狀態與本機實際影片驗證紀錄，清楚區分已驗證項目及待確認項目。
+
 ## [**v3.0.0**](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/commit/26b325c9c735574781ed01f36cffb118faeb68a8)
 
 2026-11-18 米津玄師台北版首次來源發布。正式網站尚待 Cloudflare 帳號登入、建立部署及線上驗收。

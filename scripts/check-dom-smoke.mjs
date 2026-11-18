@@ -120,6 +120,19 @@ assert.equal(document.getElementById("reading-btn").disabled, true);
 assert.equal(document.getElementById("autoscroll-btn").disabled, true);
 assert.equal(document.querySelectorAll(".lyric-line").length, 0);
 assert.ok(document.getElementById("watch-on-yt").href.includes("SX_ViT4Ra7k"));
+for (const modifier of ["altKey", "ctrlKey", "metaKey", "shiftKey"]) {
+  const event = new window.Event("keydown", { bubbles: true, cancelable: true });
+  Object.assign(event, { key: "ArrowLeft", [modifier]: true });
+  document.dispatchEvent(event);
+  assert.equal(event.defaultPrevented, false, modifier + " keeps its native shortcut");
+  assert.equal(location.hash, "#/song/Lemon", modifier + " does not change the song");
+}
+const previousSongKey = new window.Event("keydown", { bubbles: true, cancelable: true });
+Object.assign(previousSongKey, { key: "ArrowLeft" });
+document.dispatchEvent(previousSongKey);
+assert.equal(previousSongKey.defaultPrevented, true);
+assert.equal(location.hash, "#/song/NineteenNinetyOne", "An unmodified arrow still changes songs");
+await route("#/song/Lemon");
 await route("#/song/HaruGaTomori");
 assert.equal(document.getElementById("video-status").dataset.state, "pending");
 assert.match(document.getElementById("video-status-text").textContent, /公告與預告/);

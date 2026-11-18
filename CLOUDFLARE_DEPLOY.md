@@ -4,7 +4,7 @@
 
 ## 目前狀態
 
-米津版來源 v3.0.0 已發布至目標儲存庫 main，對應 [PR #1](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/1)。正式網站尚未建立；目前停在 Cloudflare 登入頁，需完成帳號登入後才能連接儲存庫、部署及驗證正式站。舊指南的部署證據見歷史封存。
+米津版來源 v3.0.1 的發布內容對應 [PR #1](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/1) 與 [PR #2](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/2)，目標為本專案 main。Cloudflare 已登入並選取本儲存庫，建置命令 npm run build、輸出目錄 dist 及正式分支 main 已填妥；首次部署與正式網址仍待確認。舊指南的部署證據見歷史封存。
 
 ## 建置設定
 
