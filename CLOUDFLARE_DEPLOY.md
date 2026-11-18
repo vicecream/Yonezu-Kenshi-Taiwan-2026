@@ -4,34 +4,41 @@
 
 ## 目前狀態
 
-米津版來源 v3.0.1 的發布內容對應 [PR #1](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/1) 與 [PR #2](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/2)，目標為本專案 main。Cloudflare 已登入並選取本儲存庫，建置命令 npm run build、輸出目錄 dist 及正式分支 main 已填妥；首次部署與正式網址仍待確認。舊指南的部署證據見歷史封存。
+正式網站為 https://yonezu-kenshi-taiwan-2026.pages.dev/，Cloudflare Pages 專案名稱為 yonezu-kenshi-taiwan-2026。2026-11-19 已在控制台確認 Production 部署與網站 HTTP 200。目前採 Direct Upload，沒有 Git connection；GitHub main 與 GitHub Actions 的成功不代表網站已更新。
 
 ## 建置設定
 
 | 欄位 | 值 |
 |---|---|
-| 產品 | Cloudflare Pages，連接 Git 儲存庫 |
-| Repository | vicecream/Yonezu-Kenshi-Taiwan-2026 |
-| Production branch | main |
-| Project name | 建議 yonezu-kenshi-taiwan-2026，實際名稱依控制台可用值 |
-| Framework preset | None |
-| Build command | npm run build |
+| 產品 | Cloudflare Pages，Direct Upload |
+| 來源儲存庫 | vicecream/Yonezu-Kenshi-Taiwan-2026，main |
+| 部署環境 | Production |
+| Project name | yonezu-kenshi-taiwan-2026 |
+| 建置位置 | 本機 Vite 建置 |
+| Build command | SITE_URL 設為正式網址後執行 npm run build |
 | Output directory | dist |
 | Root directory | 儲存庫根目錄 |
 | Node | 採 .node-version；CI 也讀取此檔 |
 | Functions／資料庫 | 不需要 |
 
 1. 依 AGENTS 檢查 Git 工作目錄、差異與 remote URL，再處理明確要求的發布。
-2. 在 Cloudflare 連接上述儲存庫，授權範圍限所需專案，填入建置設定。
-3. 等候實際部署成功後，複製控制台分配的 HTTPS 網址，確認首頁與歌曲 hash 路由。
-4. 把正式網址填入 Production 的 SITE_URL 並重建；正式 URL 未確認前不得猜測或填入舊網址。
-5. 核對部署 SHA、輸出及 HTTP 回應。GitHub Actions 成功僅代表檢查通過。
+2. 在本機將 SITE_URL 設為 https://yonezu-kenshi-taiwan-2026.pages.dev/，再執行 npm run build。
+3. 將 dist 內的檔案打包成 ZIP；index.html 必須位於 ZIP 根目錄，不能再包一層 dist，也不能包含來源、node_modules 或 archive。
+4. 在既有 Pages 專案選 Create deployment、Production，上傳 ZIP 並部署。不要因為目前沒有 Git connection 就重複建立同名專案。
+5. 等候控制台成功後，核對 Production 部署、首頁、歌曲 hash 路由、SW 版本及實際靜態檔案。Direct Upload 沒有 Git 提交資訊，另以來源 SHA、ZIP SHA-256 及部署 ID 保存對應。
+
+PowerShell 建置範例：
+
+```powershell
+$env:SITE_URL = "https://yonezu-kenshi-taiwan-2026.pages.dev/"
+npm.cmd run build
+```
 
 ## 網址與搜尋資訊
 
 網址優先序為 SITE_URL、CF_PAGES_URL、src/data.js 的 SITE.url。SITE.url 目前為 null；有設定時必須是無帳密、查詢及 hash 的 HTTPS 網站根目錄。
 
-沒有網址也能本機建置，但不輸出 canonical、og:url、絕對 og:image 或 sitemap，robots 禁止索引。設定真實網址後，建置才產生對應的分享與搜尋資訊。Preview 使用 Cloudflare 分配的網址；不要手動偽造 CF_PAGES_URL。
+沒有網址也能本機建置，但不輸出 canonical、og:url、絕對 og:image 或 sitemap，robots 禁止索引。正式 Direct Upload 必須在本機建置時設定上述 SITE_URL；Cloudflare 不會替已上傳的靜態檔案補上建置變數。不要手動偽造 CF_PAGES_URL。
 
 本專案不含有效 CNAME。日後有自訂網域時，先完成 Cloudflare Custom domains 與 HTTPS，再更新 SITE_URL。原 GitHub Pages 部署工作流程已改為純檢查流程，不同時發布兩個網站。
 

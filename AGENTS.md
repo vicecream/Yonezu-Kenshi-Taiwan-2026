@@ -1,6 +1,6 @@
 # Project instructions
 
-[Repository](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026) · [Documentation](README.md#文件導覽) · [Current source](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/tree/main). The new live website has not been created.
+[Live guide](https://yonezu-kenshi-taiwan-2026.pages.dev/) · [Repository](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026) · [Documentation](README.md#文件導覽) · [Current source](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/tree/main). The live Cloudflare Pages project uses Direct Upload; pushing source does not deploy it. Build with the verified production SITE_URL, upload the contents of dist, and verify the resulting deployment separately.
 
 This is a Vite static PWA for a non-official Kenshi Yonezu GHOST Taipei fan guide. Shows are on December 26 and 27, 2026, at Taipei Dome, with expected doors at 15:00 and start at 18:00; all event times use `Asia/Taipei`. Work from source files; `dist/` is generated output. Preserve existing user changes and keep each patch limited to the requested scope. Historical artist content belongs only to `archive/fujii-kaze-2026/`, provenance, version history, or retained deployment-compatibility assets. Do not treat archived instructions as the current release target.
 
