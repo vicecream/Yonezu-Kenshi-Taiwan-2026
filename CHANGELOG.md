@@ -2,7 +2,7 @@
 
 [專案說明](README.md) · [儲存庫](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026) · [歷史封存](archive/fujii-kaze-2026/README.md)
 
-## v3.0.2
+## [**v3.0.2**](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/commit/d8d9e992f0126b3c506cdc0656b50d4508242a8c)
 
 2026-11-19 正式站部署與文件校正。
 
