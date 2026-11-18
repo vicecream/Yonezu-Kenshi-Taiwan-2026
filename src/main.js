@@ -76,10 +76,8 @@ window.addEventListener("load", ()=> window.setTimeout(attachManifest, 8000), { 
    SCROLL_DURATION_MS : 스크롤 애니메이션 길이(ms). 작을수록 빠르게 이동. */
 const SYNC_INTERVAL_MS   = 100;
 
-/* 지금 폰에 깔려 있는 화면이 몇 번째 판인지 알려 주는 표시.
-   새로 올렸는데 화면이 그대로일 때, 옛 판이 남아 있는지 바로 확인할 수 있다.
-   sw.js 의 CACHE_VERSION 과 같이 올려 주세요. */
-const BUILD = "v3.0.0";
+/* 畫面版本用於辨識裝置快取；須與 sw.js 的 CACHE_VERSION 一致。 */
+const BUILD = "v3.0.1";
 
 const CC_BY_NC_SA_URL = "https://creativecommons.org/licenses/by-nc-sa/4.0/";
 
@@ -161,11 +159,11 @@ function setupDebugBadge(){
     try { if (player && player.getCurrentTime) t = player.getCurrentTime().toFixed(1); }
     catch(e){ t = "ERR"; }
     el.textContent =
-      BUILD + "  틱 " + syncTicks + "\n"
-      + "켜진 줄 " + lit + " (하나여야 정상)\n"
-      + "idx " + lastActiveIdx + "  시간 " + t + "  목록 " + lists + "\n"
-      + "타이머 " + (syncTimer ? "O" : "X") + "  감시 " + (activeGuardTimer ? "O" : "X")
-      + (syncErr ? "\n오류 " + syncErr.slice(0,40) : "");
+      BUILD + "  同步次數 " + syncTicks + "\n"
+      + "亮起歌詞行 " + lit + "（待補歌詞時為 0）\n"
+      + "索引 " + lastActiveIdx + "  秒數 " + t + "  清單 " + lists + "\n"
+      + "計時器 " + (syncTimer ? "O" : "X") + "  監測 " + (activeGuardTimer ? "O" : "X")
+      + (syncErr ? "\n錯誤 " + syncErr.slice(0,40) : "");
   }, 400);
 }
 const LYRIC_LEAD_SEC     = 0.35;
@@ -905,8 +903,7 @@ function setupAddressCopy(){
 }
 
 
-/* ── 곡 목록 검색 ─────────────────────────────────────────────
-   한글 제목, 괄호 안 원제(일본어·영문), 그리고 초성(ㅁㅎ → 무희)까지 찾습니다. */
+/* 搜尋原始歌名、羅馬字與固定預習編號；保留共用搜尋的韓文相容處理。 */
 const CHO_TABLE = ["ㄱ","ㄲ","ㄴ","ㄷ","ㄸ","ㄹ","ㅁ","ㅂ","ㅃ","ㅅ","ㅆ","ㅇ","ㅈ","ㅉ","ㅊ","ㅋ","ㅌ","ㅍ","ㅎ"];
 function toCho(str){
   return [...String(str)].map(ch=>{
@@ -1189,10 +1186,7 @@ function closeSongSheet(){
    페이지에 딱 한 번만 만들어 두고, 곡이 바뀌면 내용만 갈아끼운다. */
 let songShellBuilt = false;
 
-/* 곡 선택 목록에 보여 줄 곡들.
-   셋리스트에서 들어왔으면 전체 곡이 아니라 셋리스트에 있는 곡만,
-   셋리스트 화면에서 보던 그 순서 그대로 보여 준다.
-   (랜덤 모드면 섞여 있던 그 순서) */
+/* 選歌清單沿用目前預習排序；台北場正式歌單仍待確認。 */
 function sheetSongs(){ return sortedSongs(); }
 
 function songNeighbors(song){
@@ -1421,8 +1415,7 @@ function buildSongShell(){
     const target = SONGS.find(s => s.id === item.dataset.id);
     closeSongSheet();
     if (!target || (currentSong && target.id === currentSong.id)) return;
-    // 셋리스트에서 들어온 경우, 목록 순서가 곧 셋리스트 순서이므로
-    // 지금 몇 번째인지도 같이 옮겨 둔다 (이전/다음 곡이 이어지도록)
+    // 上一首／下一首沿用預習清單排序，不代表台北場演出順序。
 
     gotoSong(target);
   });
@@ -4253,10 +4246,10 @@ if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
   }
 }
 
-/* 2) 오프라인이 되면 알려 주기 — 가사는 되지만 영상은 안 된다는 안내 */
+/* 離線時僅能讀取已快取內容；未提供的歌詞與應援提示仍為待補。 */
 function updateOnlineState(){
   if (!navigator.onLine){
-    showBanner("目前處於<b>離線</b>狀態。仍可查看歌詞與應援提示，但無法播放影片。",
+    showBanner("目前處於<b>離線</b>狀態。可閱讀已快取的活動資訊與本地內容；影片及外部網站需要網路。",
                "", null, "offline");
   } else if (banner && banner.classList.contains("offline")){
     hideBanner();

@@ -4,7 +4,7 @@
 
 [專案儲存庫](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026) · [主辦專頁](https://yk2026.abigart.com/?lang=zh) · [藝人官方網站](https://reissuerecords.net/)
 
-目前來源版本為 **3.0.0**，發布內容見 [PR #1](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/1) 與[更新紀錄](CHANGELOG.md)。**正式網站尚未建立**；Cloudflare 帳號登入、部署及正式站驗收仍待完成。
+目前工作版本為 **3.0.1（尚未發佈）**；已發布來源為 **3.0.0**，見 [PR #1](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/1) 與[更新紀錄](CHANGELOG.md)。**正式網站尚未建立**；Cloudflare 帳號登入、部署及正式站驗收仍待完成。
 
 ## 文件導覽
 
@@ -18,6 +18,7 @@
 | 設定新網站 | [Cloudflare Pages 部署](CLOUDFLARE_DEPLOY.md) |
 | 開發規範與版本 | [AGENTS](AGENTS.md) · [設計規範](DESIGN.md) · [更新紀錄](CHANGELOG.md) |
 | 本機驗收結果與截圖 | [2026-11-17 驗證紀錄](artifacts/browser-qa-2026-11-17/README.md) |
+| 設定、圖片與文字全面檢查 | [2026-11-18 維護紀錄](docs/maintenance-2026-11-18.md) |
 | 舊指南、歌詞與測試紀錄 | [歷史封存](archive/fujii-kaze-2026/README.md) |
 
 ## 本機開發與檢查
@@ -70,6 +71,6 @@ Node 設定見 `.node-version`；CI 直接讀取該檔。可額外傳入外部�
 
 先在線上開啟正式建置，等待 Service Worker 快取完成。已快取的程式、活動資訊、圖片及未來提供的本地歌詞可離線閱讀；影片與外部網站需要網路。
 
-瀏覽器偏好、時間來源與 SW 使用 `yonezu-` 命名空間。保留 `public/assets/` 相容資產，但不將其加入新版本的預快取；歷史封存不進入建置輸出。
+瀏覽器偏好、時間來源與 SW 使用 `yonezu-` 命名空間。建置僅複製 `src/data.js` 活動欄位指定的本地圖片，不整批複製圖片資料夾。保留 `public/assets/` 相容資產，但不將其加入新版本的預快取；歷史封存不進入建置輸出。
 
 尚未設定正式網址時，建置不輸出 canonical 與 sitemap，並標記 noindex。新站建立後設定真實的 `SITE_URL`；Cloudflare 可採實際 `CF_PAGES_URL`。GitHub Actions 目前只檢查及建置，不自動發布。正式發版須依 AGENTS 同步版本、PR 歸屬及發布提交連結，目標為本專案的 main。

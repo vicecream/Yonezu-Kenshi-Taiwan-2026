@@ -94,7 +94,9 @@ assert.equal(lock.name, pkg.name);
 assert.equal(lock.packages[""].name, pkg.name);
 assert.ok(read("src/main.js").includes('const BUILD = "v' + pkg.version + '"'));
 assert.ok(read("sw.js").includes('const CACHE_VERSION = "v' + pkg.version + '"'));
-const changelogHeading = read("CHANGELOG.md").split("\n").find(line => line.startsWith("## "));
+assert.ok(read("index.html").includes('src/main.js?build=v' + pkg.version));
+assert.ok(read("index.html").includes('src/app.css?build=v' + pkg.version));
+const changelogHeading = read("CHANGELOG.md").split(/\r?\n/).find(line => line.startsWith("## "));
 const changelogVersion = changelogHeading?.match(/^## (?:\[\*\*)?v(\d+\.\d+\.\d+)(?:\*\*\]\(https:\/\/github\.com\/vicecream\/Yonezu-Kenshi-Taiwan-2026\/commit\/[a-f0-9]{40}\)|（尚未發佈）)?$/);
 assert.equal(changelogVersion?.[1], pkg.version, "Newest changelog version must match the shipped version");
 assert.equal(JSON.parse(read("manifest.json")).name, SITE.name);
@@ -147,7 +149,15 @@ for (const file of currentDocs) {
   }
   if (file !== "CHANGELOG.md") assert.doesNotMatch(source, /https:\/\/fujii-kaze-taiwan-2026\.pages\.dev|https:\/\/kaze\.tiaui\.co/);
 }
-for (const file of ["src/main.js", "src/ui/home.js", "src/ui/footer.js", "index.html", "manifest.json", "sw.js", "vite.config.js", "karaoke-sources.js"]) assert.doesNotMatch(read(file), /Fujii Kaze|藤井風|高雄|kaze-|kaze\.tiaui/);
+const activeSources = fs.readdirSync(path.join(root, "src"), { recursive: true })
+  .filter(file => /\.(js|css)$/.test(file)).map(file => "src/" + file);
+for (const file of [...activeSources, "index.html", "manifest.json", "sw.js", "vite.config.js", "karaoke-sources.js", "furigana.js", "docs/spectra/config.yaml"]) {
+  assert.doesNotMatch(read(file), /Fujii Kaze|藤井風|高雄|kaze-|kaze\.tiaui|Prema|KKTIX|KKLIVE/i, file);
+}
 for (const file of [EVENT.poster, EVENT.posterMobile, EVENT.seatMap]) assert.ok(fs.statSync(path.join(root, file)).size > 1000);
+for (const file of ["prema-poster.jpg", "kaohsiung-venue-map.jpg", "kaohsiung-stage-map.png"]) {
+  assert.equal(fs.existsSync(path.join(root, "images", file)), false, "Legacy image must stay archived: " + file);
+  assert.ok(fs.statSync(path.join(root, "archive/fujii-kaze-2026/images", file)).size > 1000);
+}
 assert.ok(fs.existsSync(path.join(root, "archive/fujii-kaze-2026/lyrics/Prema.lrc")));
 console.log("PASS current documentation links, artist isolation and preserved source archive");

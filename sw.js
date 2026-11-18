@@ -1,18 +1,12 @@
-/* ─────────────────────────────────────────────────────────────
-   응원가이드 서비스워커 — 오프라인에서도 열리도록 파일을 폰에 저장해 둡니다.
-
-   ★ 가사나 화면을 고쳐서 다시 올릴 때는 아래 CACHE_VERSION 숫자를 꼭 올려 주세요.
-     그래야 사람들 폰에 새 내용이 내려갑니다. (v1 → v2 → v3 …)
-   ───────────────────────────────────────────────────────────── */
-const CACHE_VERSION = "v3.0.0";
+/* 米津玄師台北指南離線快取。更新內容時同步調整版本，讓裝置取得新資料。 */
+const CACHE_VERSION = "v3.0.1";
 const CACHE_NAME    = `yonezu-guide-${CACHE_VERSION}`;
 
 /* Vite production builds include the entry, split lyrics/readings, and CSS
    images so opening a song for the first time also works offline. */
 const VITE_BUILD_ASSETS = [];
 
-/* 처음 방문할 때 미리 받아 둘 핵심 파일들.
-   큰 사진과 응원 GIF/WebM은 실제로 사용될 때만 받아 둡니다. */
+/* 預快取目前活動的程式、PWA 圖示、官方海報與座位圖。 */
 const PRECACHE = [
   "./",
   "./index.html",
@@ -35,10 +29,10 @@ self.addEventListener("install", (event) => {
     const cache = await caches.open(CACHE_NAME);
     await Promise.all(PRECACHE.map(url =>
       cache.add(new Request(url, { cache: "reload" })).catch(() => {
-        /* 포스터 이미지가 없는 경우 등 — 그냥 건너뜁니다 */
+        /* 單一檔案失敗不阻止其他內容完成快取。 */
       })
     ));
-    self.skipWaiting();   // 새 버전을 곧바로 대기 상태로
+    self.skipWaiting();
   })());
 });
 
@@ -47,27 +41,25 @@ self.addEventListener("activate", (event) => {
     const keys = await caches.keys();
     await Promise.all(
       keys.filter(k => (k.startsWith("yonezu-guide-")) && k !== CACHE_NAME)
-          .map(k => caches.delete(k))          // 옛 버전 캐시 정리
+          .map(k => caches.delete(k))          // 只清理本指南的舊版本快取
     );
     await self.clients.claim();
   })());
 });
 
-/* 페이지가 "이 파일들도 오프라인용으로 받아 둬" 하고 보내오면 하나씩 챙겨 둔다.
-   짤방 GIF 는 용량이 크므로 한꺼번에 받지 않고 순서대로,
-   이미 받아 둔 것은 건너뛴다. 하나가 실패해도 나머지는 계속 받는다. */
+/* 頁面要求的額外本地內容依序快取；已快取或下載失敗的檔案略過。 */
 async function cacheUrls(urls){
   const cache = await caches.open(CACHE_NAME);
   for (const url of urls){
     try {
-      if (await cache.match(url)) continue;          // 이미 있으면 넘어감
+      if (await cache.match(url)) continue;
       const res = await fetch(url, { cache: "no-cache" });
       if (res && res.ok) await cache.put(url, res.clone());
-    } catch (e) { /* 이 파일만 건너뛴다 */ }
+    } catch (e) { /* 略過本次失敗的檔案。 */ }
   }
 }
 
-/* 페이지에서 "지금 새 버전 적용" 을 눌렀을 때 */
+/* 套用新版本或接收頁面的快取要求。 */
 self.addEventListener("message", (event) => {
   const d = event.data;
   if (!d) return;
@@ -81,12 +73,12 @@ self.addEventListener("fetch", (event) => {
 
   const url = new URL(req.url);
 
-  /* 유튜브 등 그 밖의 외부 요청은 손대지 않습니다 (영상은 캐시 불가) */
+  /* 僅處理同源資產與日文字型，不攔截 YouTube 及其他外部網站。 */
   const sameOrigin = url.origin === self.location.origin;
   const isFontHost = RUNTIME_HOSTS.includes(url.hostname);
   if (!sameOrigin && !isFontHost) return;
 
-  /* 페이지 이동(주소 입력·새로고침) — 네트워크 우선, 실패하면 저장해 둔 화면 */
+  /* 導覽優先連線取得新頁面，離線時回傳已快取的首頁。 */
   if (req.mode === "navigate") {
     event.respondWith((async () => {
       try {
@@ -102,11 +94,7 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  /* 사진·글꼴·GIF 는 한 번 받아 두면 내용이 바뀌지 않는다.
-     (내용을 바꿀 때는 위의 CACHE_VERSION 을 올리므로 그때 전부 새로 받는다)
-     그래서 저장해 둔 게 있으면 네트워크를 아예 건드리지 않는다.
-     이렇게 안 하면 앱을 열 때마다 뒤에서 글꼴·사진 수 MB 를 다시 받아
-     공연장처럼 데이터가 느린 곳에서 손해가 크다. */
+  /* 靜態資產優先讀取版本快取，減少現場重複下載；內容變更須同步升版。 */
   const isStatic = /\.(js|css|woff2?|ttf|otf|jpe?g|png|gif|webp|svg|ico)$/i.test(url.pathname);
 
   event.respondWith((async () => {
@@ -116,7 +104,7 @@ self.addEventListener("fetch", (event) => {
     // not prevent an installed app from loading its JS/CSS offline.
     const cached = await cache.match(req, { ignoreVary: sameOrigin });
 
-    if (isStatic && cached) return cached;          // 이미 있으면 그걸로 끝
+    if (isStatic && cached) return cached;
 
     const network = fetch(req).then((res) => {
       if (res && (res.ok || res.type === "opaque")) cache.put(req, res.clone());

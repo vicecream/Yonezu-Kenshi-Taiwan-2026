@@ -69,6 +69,9 @@ try {
   await page.evaluate(() => window.__qaNow = Date.parse("2026-12-27T00:00:00+08:00"));
   await page.waitForFunction(() => document.querySelector('[data-show-id="2026-12-27"]').getAttribute("aria-pressed") === "true");
   check("Taipei midnight automatically advances to the second show", true);
+  await page.locator("#info-toggle").click();
+  check("Ticket details show the organizer's refund period and fee", /不含購票當日/.test(await page.locator("#info-panel").innerText()) && /5%/.test(await page.locator("#info-panel").innerText()));
+  await page.locator("#info-toggle").click();
   check("Seat image stays in an inert template until expansion", await page.locator("#seat-panel img").count() === 0);
   await page.locator("#seat-toggle").click();
   await page.locator("#seat-panel img").waitFor();
@@ -121,6 +124,12 @@ try {
   await page.evaluate(() => location.hash = "#/song/Prema");
   await page.locator(".pending-page").waitFor();
   check("Legacy song routes offer the current guide", /米津玄師/.test(await page.locator("#app").innerText()));
+  await page.goto(base + "#/setlist");
+  await page.locator(".pending-page").waitFor();
+  check("Direct setlist route keeps Taipei concert order unconfirmed", /台北場歌單待確認/.test(await page.locator("#app").innerText()));
+  await page.goto(base + "?debug=1#/song/YellowGhost");
+  await page.waitForFunction(() => document.getElementById("dbg")?.textContent.includes("同步次數"));
+  check("Direct pending-song route and Traditional Chinese debug text load", await state() === "pending" && /待補歌詞時為 0/.test(await page.locator("#dbg").innerText()));
   await context.close();
 
   const offline = await browser.newContext({ viewport: { width: 390, height: 844 }, serviceWorkers: "allow" });
@@ -133,6 +142,8 @@ try {
   await offlinePage.reload();
   await offlinePage.waitForFunction(() => document.querySelector('[data-show-id][aria-pressed="true"]'));
   check("Cached homepage and its JavaScript initialize offline", await offlinePage.locator(".hero").count() === 1);
+  await offlinePage.waitForFunction(() => document.getElementById("app-banner-msg")?.textContent.includes("已快取的活動資訊"));
+  check("Offline message accurately describes cached local content", /影片及外部網站需要網路/.test(await offlinePage.locator("#app-banner-msg").innerText()));
   await offlinePage.evaluate(() => location.hash = "#/song/YellowGhost");
   await offlinePage.waitForFunction(() => document.getElementById("video-status")?.dataset.state === "pending");
   check("Lazy song data opens for the first time offline", /原文歌詞整理中/.test(await offlinePage.locator("#song-content-status").innerText()));

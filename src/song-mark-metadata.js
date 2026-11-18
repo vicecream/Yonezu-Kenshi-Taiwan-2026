@@ -1,2 +1,2 @@
-// No audience cues are confirmed for the opening show yet.
+// No sourced audience cues are confirmed for the Taipei shows yet.
 export const SONG_MARKS = {};

@@ -1,20 +1,13 @@
 schema: spec-driven
 
-# Project context (optional)
-# This is shown to AI when creating artifacts.
-# Add your tech stack, conventions, style guides, domain knowledge, etc.
-# Example:
-#   context: |
-#     Tech stack: TypeScript, React, Node.js
-#     We use conventional commits
-#     Domain: e-commerce platform
-
-# Per-artifact rules (optional)
-# Add custom rules for specific artifacts.
-# Example:
-#   rules:
-#     proposal:
-#       - Keep proposals under 500 words
-#       - Always include a "Non-goals" section
-#     tasks:
-#       - Break tasks into chunks of max 2 hours
+context: |
+  本專案是 Vite 靜態 PWA，使用 JavaScript ESM 與繁體中文。
+  非官方米津玄師 KENSHI YONEZU 2026-2027 WORLD TOUR / GHOST 台北演唱會指南。
+  演出為 2026-12-26、2026-12-27 臺北大巨蛋，兩場皆預計 15:00 入場、18:00 開演。
+  所有活動時間使用 Asia/Taipei；資訊以台北場主辦與藝人官方公告為準。
+  src/data.js 為活動資料來源，28 首曲庫在 src/song-metadata.js；預習編號不是正式歌單。
+  缺少影片、歌詞、翻譯、讀音及時間資料時明示待補，預告不能當作完整歌曲影片。
+  圖片、PWA、快取及儲存設定均對應米津版；儲存與快取使用 yonezu- 命名空間。
+  正式網站尚未建立，SITE.url 保持 null；未設定部署網址時不產生 canonical 或 sitemap。
+  舊藝人資料僅供歷史追溯，不匯入有效程式或預快取。保留 public/assets 相容檔案。
+  維護與版本規範以根目錄 AGENTS.md 為準；dist 為產生檔，GitHub Actions 僅檢查建置。

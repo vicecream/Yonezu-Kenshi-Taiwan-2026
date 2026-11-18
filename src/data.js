@@ -11,7 +11,7 @@ export const EVENT = Object.freeze({
   ticketUrl: "https://ticketplus.com.tw/activity/73ed24f36dd62ca2b67a8b266c23df7f",
   tourUrl: "https://reissuerecords.net/2026/10/22/kenshi-yonezu-2026-2027-world-tour-ghost/",
   transitUrl: "https://www.farglorydome.com.tw/", stationUrl: "https://web.metro.taipei/pages2026/WebStation/092/1",
-  announcementUrl: "https://yk2026.abigart.com/?lang=zh", checkedAt: "2026-11-17", organizer: "大鴻藝術 BIG ART、超級圓頂 SUPER DOME、大福音樂 HAPPY MUSIC",
+  announcementUrl: "https://yk2026.abigart.com/?lang=zh", checkedAt: "2026-11-18", organizer: "大鴻藝術 BIG ART、超級圓頂 SUPER DOME、大福音樂 HAPPY MUSIC",
   poster: "./images/ghost-poster.jpg", posterMobile: "./images/ghost-poster-mobile.jpg", seatMap: "./images/taipei-seat-map.jpg", venueMap: null,
   posterSource: "https://yk2026.abigart.com/images/hero.jpg", posterMobileSource: "https://yk2026.abigart.com/images/hero-mobile.jpg", seatMapSource: "https://yk2026.abigart.com/images/seatmap.jpg",
 });
@@ -33,6 +33,7 @@ export const TICKETS = Object.freeze({
     { title: "全場實名制", text: "每會員每場各階段合計限購 2 張，每證件每場限購 1 張；票券限登記本人使用。" },
     { title: "證件查驗", text: "本國籍攜帶可辨識本人照片的身分證、駕照或健保卡正本；外國籍攜帶購票時登記的護照正本。影本、翻拍照片、截圖及學生證不接受。" },
     { title: "購票資料", text: "付款後無法修改，請在付款前核對姓名及證件號碼。領票方式與開放日期以遠大訂單及最新公告為準。" },
+    { title: "退票規則", text: "主辦公告為購票後 3 日內（不含購票當日）可申請退票，第 4 日起不受理，每張酌收票面金額 5% 手續費；申請方式以遠大售票頁為準。" },
     { title: "年齡限制", text: "未滿 7 歲不得入場，滿 7 歲須購票，一人一票。" },
     { title: "身心障礙優惠席", text: "須於啟售前至少 24 小時完成遠大身分認證。本人及必要陪同者合計每場最多 2 張，須同時入場並出示證明正本。" },
   ],

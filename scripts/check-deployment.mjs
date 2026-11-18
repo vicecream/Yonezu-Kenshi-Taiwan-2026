@@ -4,6 +4,7 @@ import fs from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
+import { EVENT } from "../src/data.js";
 const directory = await fs.mkdtemp(path.join(os.tmpdir(), "yonezu-build-"));
 for (const [name, configured] of [["unset", {}], ["configured", { SITE_URL: "https://concert.example/", CF_PAGES_URL: "https://preview.example/" }]]) {
   const output = path.join(directory, name);
@@ -27,6 +28,11 @@ for (const [name, configured] of [["unset", {}], ["configured", { SITE_URL: "htt
   assert.doesNotMatch(html, /kaze\.tiaui|fujii-kaze-taiwan/);
   await assert.rejects(fs.access(path.join(output, "CNAME")));
   await assert.rejects(fs.access(path.join(output, "archive")));
+  const imageNames = [EVENT.poster, EVENT.posterMobile, EVENT.seatMap, EVENT.venueMap].filter(Boolean).map(file => path.basename(file));
+  assert.deepEqual((await fs.readdir(path.join(output, "images"))).sort(), [...new Set(imageNames)].sort(), "Only current event images ship");
+  for (const file of [EVENT.poster, EVENT.posterMobile, EVENT.seatMap]) {
+    assert.deepEqual(await fs.readFile(path.join(output, file)), await fs.readFile(path.resolve(file)), "Keep original official image bytes: " + file);
+  }
   const worker = await fs.readFile(path.join(output, "sw.js"), "utf8");
   const assets = JSON.parse(worker.match(/const VITE_BUILD_ASSETS = (\[[^;]*\]);/)[1]);
   assert.ok(assets.some(asset => asset.includes("song-lyrics-")));

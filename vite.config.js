@@ -1,8 +1,8 @@
 import { defineConfig } from "vite";
-import { cpSync, readFileSync, writeFileSync } from "node:fs";
+import { cpSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { homeHtml } from "./src/ui/home.js";
-import { SITE } from "./src/data.js";
+import { SITE, EVENT } from "./src/data.js";
 
 export function deploymentSiteUrl(env = process.env){
   const configured = env.SITE_URL || env.CF_PAGES_URL || SITE.url;
@@ -40,7 +40,11 @@ function copyRootStaticAssets(siteUrl){
       }
       writeFileSync(resolve(outputDir, "robots.txt"), siteUrl ? `User-agent: *\nAllow: /\n\nSitemap: ${siteUrl}sitemap.xml\n` : "User-agent: *\nDisallow: /\n");
       if (siteUrl) writeFileSync(resolve(outputDir, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>${siteUrl}</loc></url></urlset>\n`);
-      cpSync(resolve("images"), resolve(outputDir, "images"), { recursive: true });
+      // Ship only current event images; archived and unrelated files stay out.
+      mkdirSync(resolve(outputDir, "images"), { recursive: true });
+      for (const file of new Set([EVENT.poster, EVENT.posterMobile, EVENT.seatMap, EVENT.venueMap].filter(Boolean))){
+        cpSync(resolve(file), resolve(outputDir, file));
+      }
       const workerPath = resolve(outputDir, "sw.js");
       const worker = readFileSync(workerPath, "utf8").replace("const VITE_BUILD_ASSETS = [];", `const VITE_BUILD_ASSETS = ${JSON.stringify([...new Set(buildAssetUrls)])};`);
       writeFileSync(workerPath, worker);
