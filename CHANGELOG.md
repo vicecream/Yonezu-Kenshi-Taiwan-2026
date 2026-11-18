@@ -2,7 +2,7 @@
 
 [專案說明](README.md) · [儲存庫](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026) · [歷史封存](archive/fujii-kaze-2026/README.md)
 
-## v3.0.1
+## [**v3.0.1**](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/commit/72d41ee1a45fca9772d5322eaafdf9d85e833452)
 
 2026-11-18 本機瀏覽器測試修正；正式網站仍待 Cloudflare 部署及線上驗收。
 
