@@ -2,7 +2,7 @@
 
 [專案說明](README.md) · [儲存庫](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026) · [歷史封存](archive/fujii-kaze-2026/README.md)
 
-## v3.0.5
+## [**v3.0.5**](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/commit/acf9e332026962df50e0f0f38ecbb73e698945ca)
 
 2026-11-20 正式站驗收發現的離線導覽修正，採 PATCH 升版。
 
