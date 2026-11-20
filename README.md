@@ -22,6 +22,7 @@
 | 實際影片與快捷鍵修正驗證 | [2026-11-18 驗證紀錄](artifacts/browser-qa-2026-11-18/README.md) |
 | 完整本機網站架構與離線流程 | [2026-11-18 架構驗收](artifacts/local-architecture-2026-11-18/README.md) |
 | v3.0.3 整合後發布檢查 | [2026-11-20 發版驗收](artifacts/release-qa-2026-11-20/README.md) |
+| v3.0.6 LRC 同步正式站檢查 | [2026-11-20 線上驗收與部署對應](artifacts/production-v3.0.6-2026-11-20/README.md) |
 | 設定、圖片與文字全面檢查 | [2026-11-18 維護紀錄](docs/maintenance-2026-11-18.md) |
 | 舊指南、歌詞與測試紀錄 | [歷史封存](archive/fujii-kaze-2026/README.md) |
 

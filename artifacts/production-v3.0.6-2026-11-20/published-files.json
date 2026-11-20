@@ -1,0 +1,229 @@
+{
+  "checkedAt": "2026-11-20T14:32:34.940Z",
+  "baseUrl": "https://yonezu-kenshi-taiwan-2026.pages.dev/",
+  "version": "3.0.6",
+  "sourceCommit": "1380485de0eeb4ffb6514d3238c522b81f2c1d1d",
+  "releaseCommit": "a6d0180dbded9a7c48da86c98a6ec5422dc75cde",
+  "zipSha256": "dd64537e69c0abe5ed71efec2c293ac1b737f2d5227b51d8ae993beb46a814eb",
+  "checks": [
+    "All published files match the local production build byte-for-byte",
+    "Root homepage reports v3.0.6",
+    "Production canonical and sitemap present",
+    "Cloudflare nosniff and referrer-policy response headers verified"
+  ],
+  "files": [
+    {
+      "path": "apple-touch-icon.png",
+      "bytes": 3698,
+      "sha256": "1cd968ca24463a02f648918176457c40b7c47ee597f4dfae4d13e7d38b11a1fa",
+      "status": 200
+    },
+    {
+      "path": "assets/apple-touch-icon-DVhlL-YR.png",
+      "bytes": 3698,
+      "sha256": "1cd968ca24463a02f648918176457c40b7c47ee597f4dfae4d13e7d38b11a1fa",
+      "status": 200
+    },
+    {
+      "path": "assets/CHANGELOG-Be6e1A5E.js",
+      "bytes": 14423,
+      "sha256": "baa21486ac54d38d368de2d14e4bd545ce16744ab7920a31a1ca88514e4c08b2",
+      "status": 200
+    },
+    {
+      "path": "assets/CHANGELOG-CG_76G-L.js",
+      "bytes": 12008,
+      "sha256": "ea42954479e9a038e34e8d0f282c748fe1f8656f6cb270e6452edd4be7cc3564",
+      "status": 200
+    },
+    {
+      "path": "assets/CHANGELOG-Ct2Tp7UJ.js",
+      "bytes": 29867,
+      "sha256": "437baa1ee7634ee6fb5aec46ed814aecec6b68737ab23472f5081104ed836c3b",
+      "status": 200
+    },
+    {
+      "path": "assets/CHANGELOG-CUs20cor.js",
+      "bytes": 13286,
+      "sha256": "97320861061e607877a0e5638113f9f3d3325abbc73f5a94b194eac4a38a3bc7",
+      "status": 200
+    },
+    {
+      "path": "assets/CHANGELOG-CvXw0s_C.js",
+      "bytes": 13812,
+      "sha256": "b9f37cb4c8b393e3df72d2bb7e6626cb79b87a78152d2d7a1cea87bc0549889a",
+      "status": 200
+    },
+    {
+      "path": "assets/CHANGELOG-D6wOiOKY.js",
+      "bytes": 12611,
+      "sha256": "a713f4060839454adf2499ab62d5f3f017e51d0e6e6aa2ffd37a12814bec7608",
+      "status": 200
+    },
+    {
+      "path": "assets/CHANGELOG-j3TVBOGK.js",
+      "bytes": 12710,
+      "sha256": "03fb886d359b807947f01413f82089db28b7a8bf9a213690fee598cf13cff75c",
+      "status": 200
+    },
+    {
+      "path": "assets/furigana-corrections-CazyFMhd.js",
+      "bytes": 105,
+      "sha256": "371481e40f2a816b6db53d68c0c87a88377a57c240fad5ca4e1c406336f1cefc",
+      "status": 200
+    },
+    {
+      "path": "assets/furigana-Dvt41uxz.js",
+      "bytes": 73,
+      "sha256": "018bc506e02ee4b2ab595e27373dc9bf7680047cb63155a58ecada7e74b50db5",
+      "status": 200
+    },
+    {
+      "path": "assets/ghost-poster-BlYnx-8K.jpg",
+      "bytes": 205655,
+      "sha256": "1b01957963675e1750751fee23c0b5c48a23a62f47e15c8ebd5848ed11a08dc3",
+      "status": 200
+    },
+    {
+      "path": "assets/ghost-poster-mobile-D_EXDK-q.jpg",
+      "bytes": 185278,
+      "sha256": "7b214641ed85427d6b956bf221f56ad534d1d6350f6cfda275462f1812f65e8f",
+      "status": 200
+    },
+    {
+      "path": "assets/icon-192-9r-ask7F.png",
+      "bytes": 4044,
+      "sha256": "e7ab68d50714d0230452a3bca90f13a3ed74b5f6addbf15d01d5801ae9a926ef",
+      "status": 200
+    },
+    {
+      "path": "assets/index-B12LFyV5.js",
+      "bytes": 163066,
+      "sha256": "bb50a1f84b76d7c61907d7805a6452f6c3c5c2ad49d8cea5c129fb973226fc79",
+      "status": 200
+    },
+    {
+      "path": "assets/index-B4hh13vP.js",
+      "bytes": 162902,
+      "sha256": "15fd287d9578e06810751db3e51566839994129bfdae995e67668d1f3742d898",
+      "status": 200
+    },
+    {
+      "path": "assets/index-BLH0kM9B.js",
+      "bytes": 163527,
+      "sha256": "432c56006770474c1ba6a4fbe80a7cf88d18edbb05554fcfd9f68d62ebcf9330",
+      "status": 200
+    },
+    {
+      "path": "assets/index-BwGYh0Ts.css",
+      "bytes": 98542,
+      "sha256": "d695ef84b7b663a2c9fa8340aaeddc1c5db0cb84cf795bd8ecf3ff430d4a83ce",
+      "status": 200
+    },
+    {
+      "path": "assets/index-CDAHPXq6.js",
+      "bytes": 162902,
+      "sha256": "baaaf1a01eda76c7053361dc4b7eb12e2ba09470ea5ea7d510ec81157a1bb7f1",
+      "status": 200
+    },
+    {
+      "path": "assets/index-CTbm0jje.js",
+      "bytes": 163527,
+      "sha256": "4a0457cb72b8b971ab510d9db99c5555035d5b8d2d5027d4841401a2f409e711",
+      "status": 200
+    },
+    {
+      "path": "assets/index-DuEhv5Vb.js",
+      "bytes": 162902,
+      "sha256": "f5f8b29e9f1345df5b969723ba068e945c09cb6a183720fc97052f4dcbf105eb",
+      "status": 200
+    },
+    {
+      "path": "assets/index-rSZgE1lo.js",
+      "bytes": 137279,
+      "sha256": "a835e89e6fa84a0848283e596edd46f6c59a547cc69fe1e64ac090f000b9e788",
+      "status": 200
+    },
+    {
+      "path": "assets/karaoke-sources-CmSRM-Yb.js",
+      "bytes": 19253,
+      "sha256": "ac7e04529c43601595d1add16ac834eba8c1af9488155de26c3691d6f13b1f03",
+      "status": 200
+    },
+    {
+      "path": "assets/song-lyrics-CaaZ22S7.js",
+      "bytes": 210218,
+      "sha256": "a909ed2059d994a6ed0242d31c33403bca3dfd830a061503aa8e71a86535b6a4",
+      "status": 200
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 4044,
+      "sha256": "e7ab68d50714d0230452a3bca90f13a3ed74b5f6addbf15d01d5801ae9a926ef",
+      "status": 200
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 12438,
+      "sha256": "dd1b3f54d37281e5d762b4779199bafb23536bbb07ec2dac9dac4354cd0cb1e0",
+      "status": 200
+    },
+    {
+      "path": "icon-maskable-512.png",
+      "bytes": 12438,
+      "sha256": "dd1b3f54d37281e5d762b4779199bafb23536bbb07ec2dac9dac4354cd0cb1e0",
+      "status": 200
+    },
+    {
+      "path": "images/ghost-poster-mobile.jpg",
+      "bytes": 185278,
+      "sha256": "7b214641ed85427d6b956bf221f56ad534d1d6350f6cfda275462f1812f65e8f",
+      "status": 200
+    },
+    {
+      "path": "images/ghost-poster.jpg",
+      "bytes": 205655,
+      "sha256": "1b01957963675e1750751fee23c0b5c48a23a62f47e15c8ebd5848ed11a08dc3",
+      "status": 200
+    },
+    {
+      "path": "images/taipei-seat-map.jpg",
+      "bytes": 273181,
+      "sha256": "954c9e3e6258766b0d87130017af44a9772ac11996fa41fa0015077e7bd381c4",
+      "status": 200
+    },
+    {
+      "path": "index.html",
+      "bytes": 25641,
+      "sha256": "dd7e361d94f54dea203446e224f33c45e976315e9d353a64b52f0270bcefb64a",
+      "status": 200
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 793,
+      "sha256": "4bc77da9f98134c37a7528928e314d8475bf583c943591f3319f549f3c7cb86a",
+      "status": 200
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 89,
+      "sha256": "bf2d9e73d00afca56ba078f55b7e6819507b317263040c38b76d9466b83d33a8",
+      "status": 200
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 175,
+      "sha256": "bcc7e66166f0c0d722abf254e7e23f3bc250402d41e39aecf17e71aac25d6983",
+      "status": 200
+    },
+    {
+      "path": "sw.js",
+      "bytes": 4973,
+      "sha256": "20548db11b05cd8653bd954952b89446d7c74a40b377fd93b30d7427ef3b3de1",
+      "status": 200
+    }
+  ],
+  "deploymentId": "272a4f73-1877-4cd8-8a8a-73ed5d93c8d7",
+  "deploymentUrl": "https://272a4f73.yonezu-kenshi-taiwan-2026.pages.dev/",
+  "deployedAt": "2026-11-20T14:31:03.271083Z"
+}

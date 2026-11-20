@@ -4,7 +4,7 @@
 
 ## 目前狀態
 
-正式網站為 https://yonezu-kenshi-taiwan-2026.pages.dev/，Cloudflare Pages 專案名稱為 yonezu-kenshi-taiwan-2026。2026-11-19 已在控制台確認 Production 部署與網站 HTTP 200。目前採 Direct Upload，沒有 Git connection；GitHub main 與 GitHub Actions 的成功不代表網站已更新。
+正式網站為 https://yonezu-kenshi-taiwan-2026.pages.dev/，Cloudflare Pages 專案名稱為 yonezu-kenshi-taiwan-2026。2026-11-20 已部署 v3.0.6 並確認 Production、35 個公開檔案與完整線上驗收，對應資料見[正式站紀錄](artifacts/production-v3.0.6-2026-11-20/README.md)。目前採 Direct Upload，沒有 Git connection；GitHub main 與 GitHub Actions 的成功不代表網站已更新。
 
 ## 建置設定
 

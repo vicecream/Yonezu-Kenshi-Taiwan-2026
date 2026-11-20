@@ -78,6 +78,10 @@ try {
   check("Seat image stays in an inert template until expansion", await page.locator("#seat-panel img").count() === 0);
   await page.locator("#seat-toggle").click();
   await page.locator("#seat-panel img").waitFor();
+  await page.waitForFunction(() => {
+    const image = document.querySelector("#seat-panel img");
+    return image?.complete && image.naturalWidth > 0;
+  });
   check("Expanded seat image loads successfully", await page.locator("#seat-panel img").evaluate(image => image.complete && image.naturalWidth > 0));
   for (const [width, height] of [[375,667],[390,844],[430,932],[768,1024],[1440,900]]) {
     await page.setViewportSize({ width, height });
@@ -131,6 +135,7 @@ try {
   check("Returning to a verified video reuses the player", await page.evaluate(() => __ytTest.instances.length === 1) && await state() === "playing");
   check("Returning from a hidden route restores the visible player", await page.locator("#yt-player").isVisible());
   await page.locator("#song-picker-btn").click();
+  await page.waitForFunction(count => document.querySelectorAll(".song-sheet-item").length === count, VISIBLE_SONGS.length);
   check("Song picker contains only the 26 visible songs", await page.locator(".song-sheet-item").count() === VISIBLE_SONGS.length
     && await page.locator('.song-sheet-item[data-id="HaruGaTomori"], .song-sheet-item[data-id="KonnichiwaGokigenyou"]').count() === 0);
   await page.locator("#sheet-search-input").fill("M87");
@@ -190,7 +195,7 @@ try {
       if (index === content.lyrics.length - 1) await page.waitForFunction(() => document.querySelector(".lyrics-scroll").scrollTop > 0);
     }
     const seekIndex = Math.floor(content.lyrics.length / 3);
-    await page.locator(".lyric-line").nth(seekIndex).click({ force: true });
+    await page.locator(".lyric-line").nth(seekIndex).click();
     assert.equal(await page.evaluate(() => window.__ytTest.instances.at(-1).lastSeek), content.lyrics[seekIndex].time);
     await page.waitForFunction(index => document.querySelector(".lyric-line.active")?.dataset.idx === String(index), seekIndex);
     check(song.id + " LRC follows first/middle/last/backward player times and seeks from a lyric click", true);

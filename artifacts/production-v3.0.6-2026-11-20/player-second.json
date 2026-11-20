@@ -1,0 +1,12 @@
+{
+  "mediaMode": "Controlled YouTube API fixture; live streaming not verified",
+  "checks": [
+    "Default selects the Taipei date despite a different browser timezone",
+    "Manual show choice persists after reload",
+    "18:00 start does not jump to the next show",
+    "Taipei midnight automatically advances to the second show",
+    "Ticket details show the organizer's refund period and fee",
+    "Seat image stays in an inert template until expansion"
+  ],
+  "errors": []
+}
