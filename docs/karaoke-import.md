@@ -37,7 +37,7 @@ node scripts/import-song-lyrics.mjs lyrics/import-manifest.json --write
 }
 ```
 
-以上是格式範例。manifest 的 `songs` 已登記 26 首本機供稿，匯入共 1,021 行原文；翻譯、讀音及影片同步仍待補。26 份使用者提供的原始 JSON 均保留，〈1991〉另從同檔 `syncedLyrics` 抽出 LRC，避免漏讀缺少結束時間的末句；欄位選擇見[歌詞資料夾](../lyrics/README.md)。`candidateEntries` 保留逐首候選網址，其他歌曲可在提供對應檔案後複製到 `songs` 並補妥 `usageBasis`。工具不會讀取候選草稿或下載網址內容。純原文可設定 format 為 plain-text，不附時間。LRC 預設只保存來源時間，不啟用影片同步；需要逐行試播時明確設定 timingMode 為 preview，介面會標記待校正。
+以上是格式範例。manifest 的 `songs` 已登記 26 首本機供稿，匯入共 1,021 行原文並對齊 987 列中文；26 首已明確設定 timingMode 為 preview，啟用逐句同步、跟隨及跳轉，讀音與影片精校仍待補。26 份使用者提供的原始 JSON 均保留，〈1991〉另從同檔 `syncedLyrics` 抽出 LRC，避免漏讀缺少結束時間的末句；欄位選擇見[歌詞資料夾](../lyrics/README.md)。`candidateEntries` 保留逐首候選網址，其他歌曲可在提供對應檔案後複製到 `songs` 並補妥 `usageBasis`。工具不會讀取候選草稿或下載網址內容。純原文可設定 format 為 plain-text，不附時間。LRC 預設只保存來源時間，不啟用影片同步；需要逐行試播時明確設定 timingMode 為 preview，介面會標記待校正。
 
 完成影片比對後，alignment 記錄當前 youtubeId、offsetSeconds 與 checkedAt。沒有完整影片的曲目不能以 null ID 宣稱同步完成；不能把預告時間當成完整歌曲時間。
 

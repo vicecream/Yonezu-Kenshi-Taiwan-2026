@@ -135,7 +135,8 @@ export async function importSongs(manifestPath, { write = false, root = new URL(
     content.lyrics = content.lyrics.map((line, index) => previous?.lyrics[index]?.jp === line.jp
       ? { ...previous.lyrics[index], ...line, ...(!content.timingAlignment && !content.timingPreview ? { time: undefined, endTime: undefined } : {}) } : line);
     const translated = content.lyrics.filter(line => line.tr).length;
-    content.translationStatus = translated === content.lyrics.length ? "ready" : translated ? "partial" : "pending";
+    content.translationStatus = translated === content.lyrics.length && content.lyrics.every(line => !line.translationPartial)
+      ? "ready" : translated ? "partial" : "pending";
     prepared[entry.id] = { ...prepared[entry.id], ...content };
     if (!content.timingAlignment) delete prepared[entry.id].timingAlignment;
     if (!content.timingPreview) delete prepared[entry.id].timingPreview;

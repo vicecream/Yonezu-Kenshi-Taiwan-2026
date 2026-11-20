@@ -30,7 +30,8 @@ for (const song of SONGS) {
   assert.ok(song.karaokeArtists.includes("米津玄師"));
 }
 assert.equal(SONGS.filter(song => song.youtubeId).length, 26);
-assert.equal(SONGS.filter(song => song.videoType === "official-audio").length, 5);
+assert.equal(SONGS.filter(song => song.videoType === "official-audio").length, 6);
+assert.equal(SONGS.find(song => song.id === "Shinigami").youtubeId, "YwntuDTDgA8", "Full LRC requires the full official audio, not the short MV");
 assert.equal(SONGS.filter(song => song.previewUrl).length, 2);
 const lyricInputs = JSON.parse(read("lyrics/import-manifest.json"));
 const translationInputs = JSON.parse(read("lyrics/translations/sources.json"));
@@ -77,7 +78,7 @@ for (const entry of localInputs.values()) {
 }
 for (const song of SONG_LYRICS) {
   const caps = songCapabilities(song);
-  assert.equal(caps.timed, false);
+  assert.equal(caps.timed, !song.hidden);
   assert.equal(caps.readings, false);
   const input = localInputs.get(song.id);
   assert.equal(caps.hasOriginal, Boolean(input), song.id + ": originals require supplied local input");
@@ -98,12 +99,14 @@ for (const song of SONG_LYRICS) {
     assert.equal(song.lyricsStatus, "imported");
     assert.equal(song.lyricsSourceUrl, input.sourceUrl);
     assert.equal(song.lyricsUsageBasis, input.usageBasis);
-    assert.equal(song.timingStatus, "pending");
+    assert.equal(input.timingMode, "preview");
+    assert.equal(song.timingStatus, "preview");
+    assert.equal(song.timingPreview.youtubeId, song.youtubeId);
     assert.equal(song.readingsStatus, "pending");
     assert.ok(song.lyrics.every((line, index) => line.jp.trim()
       && Number.isFinite(line.sourceTime) && line.sourceTime >= 0
       && (index === 0 || line.sourceTime >= song.lyrics[index - 1].sourceTime)
-      && line.time === undefined), song.id + ": source timestamps do not imply video alignment");
+      && line.time === line.sourceTime), song.id + ": explicitly requested LRC preview preserves every source timestamp");
   }
 }
 assert.equal(songCapabilities({ language: "ja", readingsStatus: "pending", lyrics: [{ jp: "Example" }] }).readings, false);

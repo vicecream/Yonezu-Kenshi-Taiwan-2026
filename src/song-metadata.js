@@ -130,7 +130,7 @@ const tracks = [
     "Shinigami",
     "死神",
     "lostCorner",
-    "8nxaZ69ElEc",
+    "YwntuDTDgA8",
     "Shinigami"
   ],
   [
@@ -281,7 +281,7 @@ const announcements = {
   "HaruGaTomori": "https://reissuerecords.net/2026/10/22/kusuriyanohitorigoto_movie/",
   "KonnichiwaGokigenyou": "https://reissuerecords.net/2026/11/02/toranitsubasa_movie/"
 };
-const officialAudio = new Set(["YellowGhost", "Yumeutsutsu", "CranberryAndPancake", "MelancholyKitchen", "MayoeruHitsuji"]);
+const officialAudio = new Set(["YellowGhost", "Yumeutsutsu", "CranberryAndPancake", "Shinigami", "MelancholyKitchen", "MayoeruHitsuji"]);
 // [LRCLIB record ID, translation article ID]. Links are references, not imported text.
 // Import fields and local paths: docs/song-source-fields.md.
 const sourceCandidates = {

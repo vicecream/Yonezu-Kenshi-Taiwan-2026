@@ -125,9 +125,9 @@ for (const query of ["21", "22", ...ALL_SONGS.filter(song => song.hidden).flatMa
 await route("#/song/Lemon");
 assert.match(document.getElementById("song-content-status").textContent, /原文歌詞已匯入/);
 assert.equal(document.getElementById("reading-btn").disabled, true);
-assert.equal(document.getElementById("autoscroll-btn").disabled, true);
+assert.equal(document.getElementById("autoscroll-btn").disabled, false);
 assert.equal(document.querySelectorAll(".lyric-line").length, SONG_LYRICS.find(song => song.id === "Lemon").lyrics.length);
-assert.equal(document.querySelectorAll("button.lyric-line").length, 0, "Imported source times must not enable lyric seeking");
+assert.ok(document.querySelectorAll("button.lyric-line").length > 0, "Requested LRC preview enables lyric seeking");
 assert.ok(document.getElementById("watch-on-yt").href.includes("SX_ViT4Ra7k"));
 assert.equal(document.querySelectorAll(".song-sheet-item").length, 26);
 const sheetSearch = document.getElementById("sheet-search-input");

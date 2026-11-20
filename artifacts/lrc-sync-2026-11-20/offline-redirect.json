@@ -1,0 +1,11 @@
+{
+  "version": "3.0.6",
+  "mode": "Real worker, first installation, HTTP 308 index redirect",
+  "checks": [
+    "Initial index.html precache contains an HTTP redirect history",
+    "First offline homepage reload initializes after a redirected precache",
+    "First offline song route and reload preserve bilingual local content",
+    "No uncaught application errors"
+  ],
+  "errors": []
+}

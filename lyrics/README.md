@@ -6,9 +6,9 @@
 
 使用 UTF-8，檔名採固定歌曲 ID，例如 `Lemon.lrc` 或 LRCLIB 原始 `Lemon.json`。保留來源、可使用依據及影片版本；不要將舊歌手內容改名後匯入。
 
-26 份 JSON 已統一使用兩個空白縮排；字串中的換行仍以 `\n` 保存，以維持有效 JSON 與原始欄位內容。若要逐句對照歌詞與時間碼，可開啟 `readable/<歌曲 ID>.lrc`，例如[感電逐行檢視](readable/Kanden.lrc)。這 26 份檢視檔依目前已匯入的 1,021 行原文及 `sourceTime` 產生，每句各占一行；來源時間尚未校正至影片。`readable/` 供閱讀使用，正式匯入仍以 manifest 的 `songs[].file` 為準。
+26 份 JSON 已統一使用兩個空白縮排；字串中的換行仍以 `\n` 保存，以維持有效 JSON 與原始欄位內容。若要逐句對照歌詞與時間碼，可開啟 `readable/<歌曲 ID>.lrc`，例如[感電逐行檢視](readable/Kanden.lrc)。這 26 份檢視檔依已匯入的 1,021 行原文及 `sourceTime` 產生，每句各占一行，並逐列比對本機來源與網站。網站已明確設定 `timingMode: preview`，使用 LRC 時間逐句跟隨及跳轉；MV 片頭、段落等時差仍待逐首校正。`readable/` 供閱讀使用，正式匯入仍以 manifest 的 `songs[].file` 為準。
 
-import-manifest.json 的 songs 已登記 26 首本機供稿；candidateEntries 保留 28 首的固定 ID、建議 LRC 檔名與來源狀態，其中 26 首有 LRCLIB JSON 網址。新增對應檔案後，將該筆草稿複製到 songs，依實際副檔名填妥 file、sourceUrl、usageBasis，先預覽，再以 --write 匯入。候選不會被自動下載或匯入；欄位及 JSON／LRC 格式差異見[來源欄位說明](../docs/song-source-fields.md)。目前僅保存來源時間，翻譯、讀音及影片同步仍待補；有 LRC 不代表影片已同步。
+import-manifest.json 的 songs 已登記 26 首本機供稿；candidateEntries 保留 28 首的固定 ID、建議 LRC 檔名與來源狀態，其中 26 首有 LRCLIB JSON 網址。新增對應檔案後，將該筆草稿複製到 songs，依實際副檔名填妥 file、sourceUrl、usageBasis，先預覽，再以 --write 匯入。候選不會被自動下載或匯入；欄位及 JSON／LRC 格式差異見[來源欄位說明](../docs/song-source-fields.md)。目前 26 首均已啟用 LRC 逐句同步試播，中文仍維持 19 首完整、7 首部分整理；讀音與影片時間精校待補，不以來源時間宣稱已核實影片對齊。
 
 同份 JSON 的歌詞欄位可能使用不同分行或內容，本批依下列方式保存來源，未自行補詞或推算影片時間：
 
