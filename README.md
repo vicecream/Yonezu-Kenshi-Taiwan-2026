@@ -4,7 +4,7 @@
 
 [專案儲存庫](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026) · [主辦專頁](https://yk2026.abigart.com/?lang=zh) · [藝人官方網站](https://reissuerecords.net/)
 
-目前工作版本為 **3.0.1（尚未發佈）**；已發布來源為 **3.0.0**，見 [PR #1](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/1) 與[更新紀錄](CHANGELOG.md)。**正式網站尚未建立**；Cloudflare 帳號登入、部署及正式站驗收仍待完成。
+目前來源版本為 **3.0.1**，發布內容見 [PR #3](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/3) 與[更新紀錄](CHANGELOG.md)。**正式網站尚未建立**；Cloudflare 帳號連線、部署及正式站驗收另行處理。
 
 ## 文件導覽
 
@@ -18,6 +18,7 @@
 | 設定新網站 | [Cloudflare Pages 部署](CLOUDFLARE_DEPLOY.md) |
 | 開發規範與版本 | [AGENTS](AGENTS.md) · [設計規範](DESIGN.md) · [更新紀錄](CHANGELOG.md) |
 | 本機驗收結果與截圖 | [2026-11-17 驗證紀錄](artifacts/browser-qa-2026-11-17/README.md) |
+| 完整本機網站架構與離線流程 | [2026-11-18 架構驗收](artifacts/local-architecture-2026-11-18/README.md) |
 | 設定、圖片與文字全面檢查 | [2026-11-18 維護紀錄](docs/maintenance-2026-11-18.md) |
 | 舊指南、歌詞與測試紀錄 | [歷史封存](archive/fujii-kaze-2026/README.md) |
 
