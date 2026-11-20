@@ -1,5 +1,5 @@
 /* 米津玄師台北指南離線快取。更新內容時同步調整版本，讓裝置取得新資料。 */
-const CACHE_VERSION = "v3.0.4";
+const CACHE_VERSION = "v3.0.5";
 const CACHE_NAME    = `yonezu-guide-${CACHE_VERSION}`;
 
 /* Vite production builds include the entry, split lyrics/readings, and CSS
@@ -88,7 +88,14 @@ self.addEventListener("fetch", (event) => {
         return fresh;
       } catch (e) {
         const cache  = await caches.open(CACHE_NAME);
-        return (await cache.match("./index.html")) || (await cache.match("./")) || Response.error();
+        const cached = (await cache.match("./index.html", { ignoreVary: true }))
+          || (await cache.match("./", { ignoreVary: true }));
+        if (!cached) return Response.error();
+        // Pages redirects /index.html to /. Navigation cannot reuse a response
+        // with redirect history, so return its cached body as a fresh response.
+        return cached.redirected ? new Response(cached.body, {
+          status: cached.status, statusText: cached.statusText, headers: cached.headers
+        }) : cached;
       }
     })());
     return;

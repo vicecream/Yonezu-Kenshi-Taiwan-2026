@@ -2,6 +2,13 @@
 
 [專案說明](README.md) · [儲存庫](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026) · [歷史封存](archive/fujii-kaze-2026/README.md)
 
+## [**v3.0.5**](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/commit/acf9e332026962df50e0f0f38ecbb73e698945ca)
+
+2026-11-20 正式站驗收發現的離線導覽修正，採 PATCH 升版。
+
+- [PR #6](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/6)：修正 Cloudflare 將 `/index.html` 轉址到首頁時，首次安裝後離線重整可能失敗的問題；沿用快取正文、狀態及標頭建立可用的導覽回應，保留全曲中文對照與隱藏歌曲設定。
+- [PR #6](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/6)：新增真實瀏覽器、Service Worker 與 HTTP 308 轉址回歸檢查，確認首次離線重整首頁及〈Lemon〉歌曲網址可正常讀取本地內容，並保留正式站問題診斷與部署對應紀錄。
+
 ## [**v3.0.4**](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/commit/ed48431241f415edb235361a9983477a92b0fbde)
 
 2026-11-20 歌詞、影片入口與可見曲目內容整理，採 PATCH 升版；GitHub 來源與 Cloudflare Pages 正式站分別發布及驗收。
