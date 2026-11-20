@@ -64,7 +64,7 @@ export async function prepareSuppliedTranslations({ write = false } = {}) {
       const source = resolveSourceSelector(selector, lines);
       const original = song.lyrics[index];
       return [{ index, jp: original.jp,
-        ...(original.time === undefined ? {} : { time: original.time }),
+        ...(original.time === undefined ? {} : { time: song.timingStatus === "preview" ? original.sourceTime : original.time }),
         tr: source.text, sourceRefs: source.refs,
         ...(partialRows.has(index) ? { partial: true, pendingReason: mapping.note } : {}),
       }];

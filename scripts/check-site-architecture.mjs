@@ -210,7 +210,10 @@ try {
       assert.equal(await page.locator("#watch-on-yt").getAttribute("href"), song.listenUrl);
       const content = SONG_LYRICS.find(item => item.id === song.id), caps = songCapabilities(content);
       assert.match(await page.locator("#song-content-status").innerText(), caps.translationComplete ? /繁中翻譯已整理/ : /繁中翻譯部分整理/);
-      for (const selector of ["#reading-btn", "#karaoke-btn", "#autoscroll-btn"]) assert.ok(await page.locator(selector).isDisabled(), song.id + ": " + selector);
+      assert.ok(await page.locator("#reading-btn").isDisabled());
+      for (const selector of ["#karaoke-btn", "#autoscroll-btn"]) assert.equal(await page.locator(selector).isEnabled(), caps.timed, song.id + ": " + selector);
+      assert.match(await page.locator("#song-content-status").innerText(), /LRC.*待校正/);
+      assert.deepEqual(await page.locator(".lyric-line").evaluateAll(rows => rows.map(row => Number(row.dataset.time))), content.lyrics.map(row => row.time));
       assert.ok(await page.locator("#japanese-toggle").isEnabled());
       assert.ok(await page.locator("#chinese-toggle").isEnabled());
       assert.equal(await page.locator(".lyric-line").count(), content.lyrics.length);

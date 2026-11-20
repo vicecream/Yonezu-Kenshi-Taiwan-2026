@@ -1,0 +1,817 @@
+{
+  "checkedAt": "2026-11-20T10:41:29.501Z",
+  "timeZone": "Asia/Taipei",
+  "visibleSongs": 26,
+  "totalLines": 1021,
+  "limitation": "Public video metadata and LRC checks do not verify audible line timing. LRC preview remains explicitly uncalibrated.",
+  "hiddenSongs": [
+    {
+      "id": "HaruGaTomori",
+      "title": "春が灯り",
+      "lrc": false,
+      "visible": false
+    },
+    {
+      "id": "KonnichiwaGokigenyou",
+      "title": "こんにちはごきげんよう！",
+      "lrc": false,
+      "visible": false
+    }
+  ],
+  "songs": [
+    {
+      "id": "YellowGhost",
+      "title": "YELLOW GHOST",
+      "lrcFile": "lyrics/readable/YellowGhost.lrc",
+      "sourceFile": "lyrics/YellowGhost.json",
+      "sha256": "4bb35ca29a935849fdfd5343db3f32de8c32a0a4661aa30217ba2e97f1f886f3",
+      "lines": 34,
+      "first": 15.98,
+      "last": 167.76,
+      "youtubeId": "hvZe_uu_u9A",
+      "timingStatus": "preview",
+      "sourceUrl": "https://lrclib.net/api/get/11926614",
+      "videoMetadata": {
+        "status": "OK",
+        "playableInEmbed": true,
+        "title": "YELLOW GHOST",
+        "duration": 173,
+        "captionLanguages": [],
+        "lastAnchorWithinVideo": true,
+        "audioAlignmentVerified": false
+      }
+    },
+    {
+      "id": "Shunrai",
+      "title": "春雷",
+      "lrcFile": "lyrics/readable/Shunrai.lrc",
+      "sourceFile": "lyrics/Shunrai.json",
+      "sha256": "33eb790d1c58c1fd8b52cab37f4dec0060df1c9546944da85333aaa304b7e5e6",
+      "lines": 40,
+      "first": 19.07,
+      "last": 259.36,
+      "youtubeId": "zkNzxsaCunU",
+      "timingStatus": "preview",
+      "sourceUrl": "https://lrclib.net/api/get/10031040",
+      "videoMetadata": {
+        "status": "OK",
+        "playableInEmbed": true,
+        "title": "米津玄師 - 春雷   Kenshi Yonezu - Shunrai",
+        "duration": 297,
+        "captionLanguages": [],
+        "lastAnchorWithinVideo": true,
+        "audioAlignmentVerified": false
+      }
+    },
+    {
+      "id": "Kanden",
+      "title": "感電",
+      "lrcFile": "lyrics/readable/Kanden.lrc",
+      "sourceFile": "lyrics/Kanden.json",
+      "sha256": "8f9eb2d4d1cb0d90f700d82548bb295838d10fdc0e639070c2de6de4acf612d1",
+      "lines": 55,
+      "first": 19.92,
+      "last": 258.33,
+      "youtubeId": "UFQEttrn6CQ",
+      "timingStatus": "preview",
+      "sourceUrl": "https://lrclib.net/api/get/11502024",
+      "videoMetadata": {
+        "status": "OK",
+        "playableInEmbed": true,
+        "title": "米津玄師 - 感電   Kenshi Yonezu - KANDEN",
+        "duration": 293,
+        "captionLanguages": [
+          {
+            "language": "ja",
+            "automatic": false
+          }
+        ],
+        "lastAnchorWithinVideo": true,
+        "audioAlignmentVerified": false
+      }
+    },
+    {
+      "id": "Flamingo",
+      "title": "Flamingo",
+      "lrcFile": "lyrics/readable/Flamingo.lrc",
+      "sourceFile": "lyrics/Flamingo.json",
+      "sha256": "02041f81ab0e5faa7d6b6788abd604d0d70ce1f38e004163f22606ee81a61036",
+      "lines": 45,
+      "first": 8.55,
+      "last": 189.05,
+      "youtubeId": "Uh6dkL1M9DM",
+      "timingStatus": "preview",
+      "sourceUrl": "https://lrclib.net/api/get/65587",
+      "videoMetadata": {
+        "status": "OK",
+        "playableInEmbed": true,
+        "title": "米津玄師  - Flamingo / Kenshi Yonezu",
+        "duration": 217,
+        "captionLanguages": [
+          {
+            "language": "en",
+            "automatic": false
+          },
+          {
+            "language": "en-US",
+            "automatic": false
+          }
+        ],
+        "lastAnchorWithinVideo": true,
+        "audioAlignmentVerified": false
+      }
+    },
+    {
+      "id": "Lady",
+      "title": "LADY",
+      "lrcFile": "lyrics/readable/Lady.lrc",
+      "sourceFile": "lyrics/Lady.json",
+      "sha256": "a2e0322757a3364ac67a9f9c82769b2bd9784f10d674fe765f18907983ab8fb3",
+      "lines": 35,
+      "first": 11.227,
+      "last": 188.398,
+      "youtubeId": "DdF-u3fe5pg",
+      "timingStatus": "preview",
+      "sourceUrl": "https://lrclib.net/api/get/11929499",
+      "videoMetadata": {
+        "status": "OK",
+        "playableInEmbed": true,
+        "title": "米津玄師  Kenshi Yonezu - LADY",
+        "duration": 244,
+        "captionLanguages": [
+          {
+            "language": "ja",
+            "automatic": false
+          },
+          {
+            "language": "ja",
+            "automatic": true
+          },
+          {
+            "language": "en",
+            "automatic": false
+          }
+        ],
+        "lastAnchorWithinVideo": true,
+        "audioAlignmentVerified": false
+      }
+    },
+    {
+      "id": "Yumeutsutsu",
+      "title": "ゆめうつつ",
+      "lrcFile": "lyrics/readable/Yumeutsutsu.lrc",
+      "sourceFile": "lyrics/Yumeutsutsu.json",
+      "sha256": "13846c26905e25f130bad3b3f7a2dd5a3fabb415aedad9e8f23c8880b8fa4b60",
+      "lines": 46,
+      "first": 27.72,
+      "last": 272.9,
+      "youtubeId": "7yM35hOfW9E",
+      "timingStatus": "preview",
+      "sourceUrl": "https://lrclib.net/api/get/14452926",
+      "videoMetadata": {
+        "status": "OK",
+        "playableInEmbed": true,
+        "title": "Yumeutsutsu - Daydream",
+        "duration": 305,
+        "captionLanguages": [],
+        "lastAnchorWithinVideo": true,
+        "audioAlignmentVerified": false
+      }
+    },
+    {
+      "id": "CranberryAndPancake",
+      "title": "クランベリーとパンケーキ",
+      "lrcFile": "lyrics/readable/CranberryAndPancake.lrc",
+      "sourceFile": "lyrics/CranberryAndPancake.json",
+      "sha256": "b9fb2c411b5832ca958f45d384b86a2e48bbe899aa821b8c6b1ce77da8ab3d9c",
+      "lines": 49,
+      "first": 0.44,
+      "last": 196.96,
+      "youtubeId": "5r365k5-lA8",
+      "timingStatus": "preview",
+      "sourceUrl": "https://lrclib.net/api/get/10123569",
+      "videoMetadata": {
+        "status": "OK",
+        "playableInEmbed": true,
+        "title": "Cranberry & Pancake",
+        "duration": 211,
+        "captionLanguages": [],
+        "lastAnchorWithinVideo": true,
+        "audioAlignmentVerified": false
+      }
+    },
+    {
+      "id": "Shinigami",
+      "title": "死神",
+      "lrcFile": "lyrics/readable/Shinigami.lrc",
+      "sourceFile": "lyrics/Shinigami.json",
+      "sha256": "bf6a74c432a97570d8eec64bf79ba2f5108270068ddcdba5414dc3f89f3e38e9",
+      "lines": 53,
+      "first": 15.82,
+      "last": 177.26,
+      "youtubeId": "YwntuDTDgA8",
+      "timingStatus": "preview",
+      "sourceUrl": "https://lrclib.net/api/get/12206559",
+      "videoMetadata": {
+        "status": "OK",
+        "playableInEmbed": true,
+        "title": "Shinigami",
+        "duration": 181,
+        "captionLanguages": [],
+        "lastAnchorWithinVideo": true,
+        "audioAlignmentVerified": false
+      }
+    },
+    {
+      "id": "SayonaraMataItsuka",
+      "title": "さよーならまたいつか！",
+      "lrcFile": "lyrics/readable/SayonaraMataItsuka.lrc",
+      "sourceFile": "lyrics/SayonaraMataItsuka.json",
+      "sha256": "6e8143a2ac435cfe1e4e20dfa66ffb17022a488d6c4261d16147f00f0101e9b9",
+      "lines": 35,
+      "first": 6.97,
+      "last": 194.79,
+      "youtubeId": "-wb2PAx6aEs",
+      "timingStatus": "preview",
+      "sourceUrl": "https://lrclib.net/api/get/14452815",
+      "videoMetadata": {
+        "status": "OK",
+        "playableInEmbed": true,
+        "title": "米津玄師 - さよーならまたいつか！ Kenshi Yonezu - Sayonara, Mata Itsuka !",
+        "duration": 208,
+        "captionLanguages": [
+          {
+            "language": "ja",
+            "automatic": false
+          },
+          {
+            "language": "ja",
+            "automatic": true
+          },
+          {
+            "language": "en",
+            "automatic": false
+          }
+        ],
+        "lastAnchorWithinVideo": true,
+        "audioAlignmentVerified": false
+      }
+    },
+    {
+      "id": "MelancholyKitchen",
+      "title": "メランコリーキッチン",
+      "lrcFile": "lyrics/readable/MelancholyKitchen.lrc",
+      "sourceFile": "lyrics/MelancholyKitchen.json",
+      "sha256": "37108496fa17ebb0757e070fd02a6da85f36f0563d3ab8ba2c02acedc04d2153",
+      "lines": 47,
+      "first": 15.12,
+      "last": 212.43,
+      "youtubeId": "0GEoiLdCkUM",
+      "timingStatus": "preview",
+      "sourceUrl": "https://lrclib.net/api/get/1883852",
+      "videoMetadata": {
+        "status": "OK",
+        "playableInEmbed": true,
+        "title": "Melancholy Kitchen",
+        "duration": 219,
+        "captionLanguages": [],
+        "lastAnchorWithinVideo": true,
+        "audioAlignmentVerified": false
+      }
+    },
+    {
+      "id": "NineteenNinetyOne",
+      "title": "1991",
+      "lrcFile": "lyrics/readable/NineteenNinetyOne.lrc",
+      "sourceFile": "lyrics/NineteenNinetyOne.lrc",
+      "sha256": "5508fe1b61c7fd450317aaa27ac6f46d744e256920b81550fda93c0b02ffebdc",
+      "lines": 18,
+      "first": 10,
+      "last": 201.5,
+      "youtubeId": "1cnndBdzCAk",
+      "timingStatus": "preview",
+      "sourceUrl": "https://lrclib.net/api/get/24879963",
+      "videoMetadata": {
+        "status": "OK",
+        "playableInEmbed": true,
+        "title": "米津玄師  Kenshi Yonezu -  1991",
+        "duration": 237,
+        "captionLanguages": [
+          {
+            "language": "ja",
+            "automatic": false
+          },
+          {
+            "language": "ja",
+            "automatic": true
+          },
+          {
+            "language": "en",
+            "automatic": false
+          },
+          {
+            "language": "vi",
+            "automatic": false
+          },
+          {
+            "language": "ko",
+            "automatic": false
+          }
+        ],
+        "lastAnchorWithinVideo": true,
+        "audioAlignmentVerified": false
+      }
+    },
+    {
+      "id": "Lemon",
+      "title": "Lemon",
+      "lrcFile": "lyrics/readable/Lemon.lrc",
+      "sourceFile": "lyrics/Lemon.json",
+      "sha256": "35643018b9bfdaae11c04a049851bf7e39918422a582d373bbdba14cc0092328",
+      "lines": 37,
+      "first": 0.75,
+      "last": 238.03,
+      "youtubeId": "SX_ViT4Ra7k",
+      "timingStatus": "preview",
+      "sourceUrl": "https://lrclib.net/api/get/65910",
+      "videoMetadata": {
+        "status": "OK",
+        "playableInEmbed": true,
+        "title": "米津玄師  Kenshi Yonezu  - Lemon",
+        "duration": 274,
+        "captionLanguages": [
+          {
+            "language": "zh-Hant",
+            "automatic": false
+          },
+          {
+            "language": "zh-Hans",
+            "automatic": false
+          },
+          {
+            "language": "id",
+            "automatic": true
+          },
+          {
+            "language": "en",
+            "automatic": false
+          },
+          {
+            "language": "ko",
+            "automatic": false
+          }
+        ],
+        "lastAnchorWithinVideo": true,
+        "audioAlignmentVerified": false
+      }
+    },
+    {
+      "id": "JaneDoe",
+      "title": "JANE DOE",
+      "lrcFile": "lyrics/readable/JaneDoe.lrc",
+      "sourceFile": "lyrics/JaneDoe.json",
+      "sha256": "8bb78d9fce020c2f3f2d24d1d60c93fa28212cd1256c49cb979cfa93ef57ee0e",
+      "lines": 16,
+      "first": 14.43,
+      "last": 181.14,
+      "youtubeId": "sPLqsLsooJY",
+      "timingStatus": "preview",
+      "sourceUrl": "https://lrclib.net/api/get/26422844",
+      "videoMetadata": {
+        "status": "OK",
+        "playableInEmbed": true,
+        "title": "米津玄師, 宇多田ヒカル Kenshi Yonezu, Hikaru Utada -  JANE DOE",
+        "duration": 246,
+        "captionLanguages": [
+          {
+            "language": "ja",
+            "automatic": false
+          },
+          {
+            "language": "ja",
+            "automatic": true
+          },
+          {
+            "language": "en",
+            "automatic": false
+          }
+        ],
+        "lastAnchorWithinVideo": true,
+        "audioAlignmentVerified": false
+      }
+    },
+    {
+      "id": "UmiNoYuurei",
+      "title": "海の幽霊",
+      "lrcFile": "lyrics/readable/UmiNoYuurei.lrc",
+      "sourceFile": "lyrics/UmiNoYuurei.json",
+      "sha256": "840705ce8debd649571fa6b87096af02ea84efd2ed3833f87062fe22bbd80a8e",
+      "lines": 25,
+      "first": 1.89,
+      "last": 207.89,
+      "youtubeId": "1s84rIhPuhk",
+      "timingStatus": "preview",
+      "sourceUrl": "https://lrclib.net/api/get/9920815",
+      "videoMetadata": {
+        "status": "OK",
+        "playableInEmbed": true,
+        "title": "米津玄師 - 海の幽霊  Kenshi Yonezu - Spirits of the Sea",
+        "duration": 255,
+        "captionLanguages": [
+          {
+            "language": "ja",
+            "automatic": false
+          },
+          {
+            "language": "pl",
+            "automatic": true
+          },
+          {
+            "language": "en",
+            "automatic": false
+          }
+        ],
+        "lastAnchorWithinVideo": true,
+        "audioAlignmentVerified": false
+      }
+    },
+    {
+      "id": "Yodaka",
+      "title": "夜鷹",
+      "lrcFile": "lyrics/readable/Yodaka.lrc",
+      "sourceFile": "lyrics/Yodaka.json",
+      "sha256": "fa8c8615f9de7f2c0e9309f8561d33cdf0fcb08410418b0dd28f4184ab83b496",
+      "lines": 33,
+      "first": 9.39,
+      "last": 149.66,
+      "youtubeId": "l2jvIuTp534",
+      "timingStatus": "preview",
+      "sourceUrl": "https://lrclib.net/api/get/37790422",
+      "videoMetadata": {
+        "status": "OK",
+        "playableInEmbed": true,
+        "title": "米津玄師「夜鷹」Kenshi Yonezu - Yodaka",
+        "duration": 209,
+        "captionLanguages": [
+          {
+            "language": "ja",
+            "automatic": false
+          },
+          {
+            "language": "ja",
+            "automatic": true
+          },
+          {
+            "language": "en",
+            "automatic": false
+          }
+        ],
+        "lastAnchorWithinVideo": true,
+        "audioAlignmentVerified": false
+      }
+    },
+    {
+      "id": "Loser",
+      "title": "LOSER",
+      "lrcFile": "lyrics/readable/Loser.lrc",
+      "sourceFile": "lyrics/Loser.json",
+      "sha256": "8d0055e62c32299f878c2d81bf1b496473331079dff53c621707c53dcd7c0eb9",
+      "lines": 74,
+      "first": 30.758,
+      "last": 223.022,
+      "youtubeId": "Dx_fKPBPYUI",
+      "timingStatus": "preview",
+      "sourceUrl": "https://lrclib.net/api/get/1319675",
+      "videoMetadata": {
+        "status": "OK",
+        "playableInEmbed": true,
+        "title": "米津玄師 - LOSER , Kenshi Yonezu",
+        "duration": 242,
+        "captionLanguages": [
+          {
+            "language": "ja",
+            "automatic": true
+          }
+        ],
+        "lastAnchorWithinVideo": true,
+        "audioAlignmentVerified": false
+      }
+    },
+    {
+      "id": "BowAndArrow",
+      "title": "BOW AND ARROW",
+      "lrcFile": "lyrics/readable/BowAndArrow.lrc",
+      "sourceFile": "lyrics/BowAndArrow.json",
+      "sha256": "fcee32890ac264e940d11b2c3ba2a80b8aaee8723fe9ff36551301555f81ebcd",
+      "lines": 22,
+      "first": 21.25,
+      "last": 155.26,
+      "youtubeId": "M-Eyhjkepy0",
+      "timingStatus": "preview",
+      "sourceUrl": "https://lrclib.net/api/get/30476214",
+      "videoMetadata": {
+        "status": "OK",
+        "playableInEmbed": true,
+        "title": "米津玄師 Kenshi Yonezu - BOW AND ARROW",
+        "duration": 198,
+        "captionLanguages": [
+          {
+            "language": "ja",
+            "automatic": false
+          },
+          {
+            "language": "ja",
+            "automatic": true
+          },
+          {
+            "language": "en",
+            "automatic": false
+          }
+        ],
+        "lastAnchorWithinVideo": true,
+        "audioAlignmentVerified": false
+      }
+    },
+    {
+      "id": "PeaceSign",
+      "title": "ピースサイン",
+      "lrcFile": "lyrics/readable/PeaceSign.lrc",
+      "sourceFile": "lyrics/PeaceSign.json",
+      "sha256": "e8fc5f154f9feddf5073c426da76ffcc6bf75ab5b81a69a0f90994d6ac10a6a2",
+      "lines": 60,
+      "first": 21.8,
+      "last": 236.84,
+      "youtubeId": "9aJVr5tTTWk",
+      "timingStatus": "preview",
+      "sourceUrl": "https://lrclib.net/api/get/10123611",
+      "videoMetadata": {
+        "status": "OK",
+        "playableInEmbed": true,
+        "title": "米津玄師 - ピースサイン , Kenshi Yonezu - Peace Sign",
+        "duration": 264,
+        "captionLanguages": [
+          {
+            "language": "en",
+            "automatic": true
+          }
+        ],
+        "lastAnchorWithinVideo": true,
+        "audioAlignmentVerified": false
+      }
+    },
+    {
+      "id": "KickBack",
+      "title": "KICK BACK",
+      "lrcFile": "lyrics/readable/KickBack.lrc",
+      "sourceFile": "lyrics/KickBack.json",
+      "sha256": "b2024f23a604274def1bf6819122be7f46a2000b281925904a1bffe60079d0c7",
+      "lines": 46,
+      "first": 9.406,
+      "last": 188.293,
+      "youtubeId": "M2cckDmNLMI",
+      "timingStatus": "preview",
+      "sourceUrl": "https://lrclib.net/api/get/952051",
+      "videoMetadata": {
+        "status": "OK",
+        "playableInEmbed": true,
+        "title": "米津玄師 Kenshi Yonezu - KICKBACK",
+        "duration": 227,
+        "captionLanguages": [
+          {
+            "language": "ja",
+            "automatic": false
+          },
+          {
+            "language": "ja",
+            "automatic": true
+          },
+          {
+            "language": "en",
+            "automatic": false
+          }
+        ],
+        "lastAnchorWithinVideo": true,
+        "audioAlignmentVerified": false
+      }
+    },
+    {
+      "id": "IrisOut",
+      "title": "IRIS OUT",
+      "lrcFile": "lyrics/readable/IrisOut.lrc",
+      "sourceFile": "lyrics/IrisOut.json",
+      "sha256": "ebb5d2b82e539bccdef3731dfa4493978d9e8a02bbf0bb379e635aab2d0b7947",
+      "lines": 44,
+      "first": 18.37,
+      "last": 135.73,
+      "youtubeId": "LmZD-TU96q4",
+      "timingStatus": "preview",
+      "sourceUrl": "https://lrclib.net/api/get/24226683",
+      "videoMetadata": {
+        "status": "OK",
+        "playableInEmbed": true,
+        "title": "米津玄師  Kenshi Yonezu - IRIS OUT",
+        "duration": 153,
+        "captionLanguages": [
+          {
+            "language": "ja",
+            "automatic": false
+          },
+          {
+            "language": "ja",
+            "automatic": true
+          },
+          {
+            "language": "en",
+            "automatic": false
+          },
+          {
+            "language": "ko",
+            "automatic": false
+          }
+        ],
+        "lastAnchorWithinVideo": true,
+        "audioAlignmentVerified": false
+      }
+    },
+    {
+      "id": "Karasu",
+      "title": "烏",
+      "lrcFile": "lyrics/readable/Karasu.lrc",
+      "sourceFile": "lyrics/Karasu.json",
+      "sha256": "5dc489045747de4cc64cb1083a0e2fcf3442bd1398c2f12fd402b8c33fc59272",
+      "lines": 32,
+      "first": 12.52,
+      "last": 205.44,
+      "youtubeId": "YjPMupS1Lg4",
+      "timingStatus": "preview",
+      "sourceUrl": "https://lrclib.net/api/get/36156838",
+      "videoMetadata": {
+        "status": "OK",
+        "playableInEmbed": true,
+        "title": "米津玄師 - 烏　Kenshi Yonezu -  Karasu",
+        "duration": 257,
+        "captionLanguages": [
+          {
+            "language": "ja",
+            "automatic": false
+          },
+          {
+            "language": "ja",
+            "automatic": true
+          },
+          {
+            "language": "en",
+            "automatic": false
+          }
+        ],
+        "lastAnchorWithinVideo": true,
+        "audioAlignmentVerified": false
+      }
+    },
+    {
+      "id": "MayoeruHitsuji",
+      "title": "迷える羊",
+      "lrcFile": "lyrics/readable/MayoeruHitsuji.lrc",
+      "sourceFile": "lyrics/MayoeruHitsuji.json",
+      "sha256": "fc1ee439257cbc7938d36d2fc4d074bd864b888f51ddcd4626018211a82a3432",
+      "lines": 24,
+      "first": 23.66,
+      "last": 190.57,
+      "youtubeId": "DAeERkHEy00",
+      "timingStatus": "preview",
+      "sourceUrl": "https://lrclib.net/api/get/1319865",
+      "videoMetadata": {
+        "status": "OK",
+        "playableInEmbed": true,
+        "title": "Stray Sheep",
+        "duration": 227,
+        "captionLanguages": [],
+        "lastAnchorWithinVideo": true,
+        "audioAlignmentVerified": false
+      }
+    },
+    {
+      "id": "Plazma",
+      "title": "Plazma",
+      "lrcFile": "lyrics/readable/Plazma.lrc",
+      "sourceFile": "lyrics/Plazma.json",
+      "sha256": "9ac11bbe2e0523eb8b67c6a9507c56ab4de61bfb954dcc1aa81f0a400fbc3ae4",
+      "lines": 28,
+      "first": 0.31,
+      "last": 177.04,
+      "youtubeId": "fp3F6TqBsAU",
+      "timingStatus": "preview",
+      "sourceUrl": "https://lrclib.net/api/get/16717326",
+      "videoMetadata": {
+        "status": "OK",
+        "playableInEmbed": true,
+        "title": "米津玄師  Kenshi Yonezu - Plazma",
+        "duration": 200,
+        "captionLanguages": [
+          {
+            "language": "ja",
+            "automatic": false
+          },
+          {
+            "language": "en",
+            "automatic": false
+          }
+        ],
+        "lastAnchorWithinVideo": true,
+        "audioAlignmentVerified": false
+      }
+    },
+    {
+      "id": "M87",
+      "title": "M八七",
+      "lrcFile": "lyrics/readable/M87.lrc",
+      "sourceFile": "lyrics/M87.json",
+      "sha256": "b086f2783331ec017f10b284bf2aa74209140e346d788e16dabef607b25d2dc1",
+      "lines": 26,
+      "first": 0.75,
+      "last": 215.38,
+      "youtubeId": "Zhx1n6uvgUE",
+      "timingStatus": "preview",
+      "sourceUrl": "https://lrclib.net/api/get/13504276",
+      "videoMetadata": {
+        "status": "OK",
+        "playableInEmbed": true,
+        "title": "米津玄師  - M八七 　Kenshi Yonezu - M87",
+        "duration": 279,
+        "captionLanguages": [
+          {
+            "language": "ja",
+            "automatic": false
+          },
+          {
+            "language": "ja",
+            "automatic": true
+          },
+          {
+            "language": "en-US",
+            "automatic": false
+          }
+        ],
+        "lastAnchorWithinVideo": true,
+        "audioAlignmentVerified": false
+      }
+    },
+    {
+      "id": "Chikyugi",
+      "title": "地球儀",
+      "lrcFile": "lyrics/readable/Chikyugi.lrc",
+      "sourceFile": "lyrics/Chikyugi.json",
+      "sha256": "503c4e633593e017e57686953877eb2d69d59299a27ae82b97b3b738ecd8475e",
+      "lines": 45,
+      "first": 16.58,
+      "last": 252.18,
+      "youtubeId": "VUsURj_OYdA",
+      "timingStatus": "preview",
+      "sourceUrl": "https://lrclib.net/api/get/3069994",
+      "videoMetadata": {
+        "status": "OK",
+        "playableInEmbed": true,
+        "title": "米津玄師  - 地球儀　Kenshi Yonezu - Spinning Globe",
+        "duration": 306,
+        "captionLanguages": [
+          {
+            "language": "ja",
+            "automatic": false
+          },
+          {
+            "language": "ja",
+            "automatic": true
+          },
+          {
+            "language": "en",
+            "automatic": false
+          }
+        ],
+        "lastAnchorWithinVideo": true,
+        "audioAlignmentVerified": false
+      }
+    },
+    {
+      "id": "EineKleine",
+      "title": "アイネクライネ",
+      "lrcFile": "lyrics/readable/EineKleine.lrc",
+      "sourceFile": "lyrics/EineKleine.json",
+      "sha256": "c291b935d57ff28dc5971aa77f3321b448c851e3bc0019ba49845e9a904f6c9e",
+      "lines": 52,
+      "first": 0.85,
+      "last": 279.55,
+      "youtubeId": "-EKxzId_Sj4",
+      "timingStatus": "preview",
+      "sourceUrl": "https://lrclib.net/api/get/1883354",
+      "videoMetadata": {
+        "status": "OK",
+        "playableInEmbed": true,
+        "title": "米津玄師  - アイネクライネ , Kenshi Yonezu - Eine Kleine",
+        "duration": 295,
+        "captionLanguages": [],
+        "lastAnchorWithinVideo": true,
+        "audioAlignmentVerified": false
+      }
+    }
+  ]
+}

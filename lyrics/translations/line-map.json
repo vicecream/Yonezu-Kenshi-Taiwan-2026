@@ -59,7 +59,7 @@
           35
         ]
       ],
-      "originalSha256": "43b439cbac0ff24aeb6853770cc7020a0f52fcf88618bdecbf4794389d0a9661",
+      "originalSha256": "fdde9260bb2c837b8f72a39bb201f3d74dab716336db205f8117c7718e903f13",
       "sourceSha256": "1b68dfde9878e24a7d448dd05f43c13a9c75acf4358864af78f86f8549ddd521"
     },
     "Kanden": {
@@ -139,7 +139,7 @@
           43
         ]
       ],
-      "originalSha256": "ca512dcf8cb27ca066d2eba93c0847e97fa41fecffad7d93bd7911feea8bb6e0",
+      "originalSha256": "8af07648148bf1ac061c989c90a4ad806b82f2df8044f27c4f326f2d74b19f34",
       "sourceSha256": "1a3427b9809924f334517b8c108cb6c7badd4a3005d9b8e2cb4c5b4785d1f2a3"
     },
     "Flamingo": {
@@ -201,7 +201,7 @@
         44
       ],
       "note": "括號內ふらふらふら和聲未提供對應譯文；末尾供稿「又餓又病」與へらへらり的對應未能核實，暫不套入，其餘主句保留供稿原文。",
-      "originalSha256": "9642fef24e432c975c238e51e7a659b2b65d352fd628f6961f04bc3f2733b09c",
+      "originalSha256": "abe3dcdfb1a1d91a3b6542b95c0598598f1a9accb460dab45ad762ffb233decd",
       "sourceSha256": "a75f904a4867b521f4fdab29fceb520b35691947bf339bb5c98bab1005be283d",
       "unmappedSource": [
         {
@@ -249,7 +249,7 @@
         33,
         34
       ],
-      "originalSha256": "34f7b6ea510a1a2fd3edd00dcd4cd8b63053d27be2e1ebd92aacbe95d91a15e6",
+      "originalSha256": "a3d7af55e9057c80b8b68658c5fec86148717a6680476454aafef94b027355d9",
       "sourceSha256": "44c17ee142907bb2f8958aea7761b232a80a9f9511e1484ea6386e95d0841edd"
     },
     "Yumeutsutsu": {
@@ -327,7 +327,7 @@
         33
       ],
       "note": "括號內重複和聲未補寫；結尾四句重複經原文逐字核對後明確對齊同一供稿段落。",
-      "originalSha256": "b454a22a6b3f5c6c285f5a72edfca5e8cd574a7dfa01aa1b6142aeec1279cdd1",
+      "originalSha256": "50fd382c94cff217ba124d4da3ad035afb1f49d9787ef488d05c91e842ff4429",
       "sourceSha256": "4490b46cf68d94b9b2e9ca47d0ff5fb18d4abd6f563d3a1dfed40ac7d3136644"
     },
     "CranberryAndPancake": {
@@ -390,7 +390,7 @@
           36
         ]
       ],
-      "originalSha256": "bb04a374f1c7d3212ad50db84568b3a72825ea998535ec592a4d78d196fc4c3f",
+      "originalSha256": "6513d0d620168152a1831b717de65b96e73cdc7392c5f8a817db0b4cc227b71a",
       "sourceSha256": "76e15debf8e75396fba9092568be3d0c0f2ac3facd932d78363362529f250e66"
     },
     "Shinigami": {
@@ -451,7 +451,7 @@
         "33#才正要上演啊"
       ],
       "note": "供稿未包含 Yeah 與あちゃちゃ和聲，對應原文列維持待補。",
-      "originalSha256": "53018af498e5ce25d9b220a1b635a5840c1770ec0253c7c09322a6395c199b05",
+      "originalSha256": "5fb01137bf08dc532c5702d44821800c081ccdd40cfc12c4e9083cecb2562005",
       "sourceSha256": "d510374176901be29acd1233ebb3e019bc8ac9d6fd48dd036edb9a7e08a01071"
     },
     "SayonaraMataItsuka": {
@@ -493,7 +493,7 @@
         21,
         22
       ],
-      "originalSha256": "c690a218ca4421cdfe2b955a37becf3f3f7076837b1729c65bd567628892555c",
+      "originalSha256": "7e59f146d7f41630b98774b7570570c2b9020707af47de84e6e0a4f2939df1b8",
       "sourceSha256": "80cda34d752763caa9572833465ba32ef5a4dc369636f1d5adddbd8e3628ff75"
     },
     "MelancholyKitchen": {
@@ -548,7 +548,7 @@
         40
       ],
       "note": "供稿未包含 Uh 哼唱，對應原文列維持待補。",
-      "originalSha256": "832f5f41872192f19f9784ccd0cf4f3b9210580f93d2de19c8487e304c7a2e43",
+      "originalSha256": "8ee393ed6a0cd36b76c5ac52a61ff5a3907f76447e65da1b8608dcc6e575208b",
       "sourceSha256": "8c2c6d6c890086d97a8ca12257142da436fd63aa8824366d6851552f9c167534"
     },
     "NineteenNinetyOne": {
@@ -573,7 +573,7 @@
         16,
         17
       ],
-      "originalSha256": "4608c6c10cf22acca29f9cc26f250f24b51623789b144ae9211de04e2d97afd7",
+      "originalSha256": "3059aeac03ca04df00f1753308637149ef70d69082fd331e00aade40c5b7fb61",
       "sourceSha256": "3d6feb0f9c3da7e1a5beaca91645ac915f0cb246ba8ae008af0f58f4f1af7732"
     },
     "Lemon": {
@@ -617,7 +617,7 @@
         38,
         39
       ],
-      "originalSha256": "725fd77aa97185b43c825347a88db7ff4dea6493f023e121e256410d7c16bb1b",
+      "originalSha256": "b4b8efea03f62540822f7f9049e496b5be1e3bc581d33b7ff493a88cebe9faa3",
       "sourceSha256": "46ce63855cdcf62ddfc6c881aec9076e778b0beeed104fb6716b5f60ff87cc5d"
     },
     "JaneDoe": {
@@ -640,7 +640,7 @@
         21,
         22
       ],
-      "originalSha256": "340b5ac87b527c89aab4a6e201052bb88b3d9478c69b0d5ed3b57a5ce4241d6c",
+      "originalSha256": "f444774a120d3687e775bbefddb28dce2e16e759d60ab22f6a77ab87dcfeae8a",
       "sourceSha256": "96dacb19f7b791cf8603dd527fade0c7aaa74bcd012adbee82214e9d8c776571"
     },
     "UmiNoYuurei": {
@@ -672,7 +672,7 @@
         23,
         24
       ],
-      "originalSha256": "90283e592e0d56e55a1d5e8fc9f15328858bde7b2d0b320b0042edd7bcaca6b1",
+      "originalSha256": "92b42a45be285661cc1f9464224625eeb0034fe06e9c297da4af5dfdb44b8f8d",
       "sourceSha256": "57375e1b05281c880ac5e33afdb8df3768fe06f439ab71004a654d197c7cde28"
     },
     "Yodaka": {
@@ -713,7 +713,7 @@
         "18:1:+19"
       ],
       "note": "開頭及中段 Oh／No 和聲未提供中文，維持待補。",
-      "originalSha256": "92ddacca01cc72c85daf37a5bd42dfe73c1797bba1997a1f49af5e577d5b7e1f",
+      "originalSha256": "a158e1ae374e40a3fd1d203667826325f2a1eb5ae3d5627c3c6253cb136b59fe",
       "sourceSha256": "8d8a955ad50f6367b4567633df7afe50a62b1a4d9fe666a834db909d237d2e26"
     },
     "Loser": {
@@ -794,7 +794,7 @@
         "36:1:",
         37
       ],
-      "originalSha256": "4403e038cd2fa055b79c7afb9f525aa88ec59ea8c6291a0c2f4c633b879d2f5e",
+      "originalSha256": "b6fbf58afdfbc01020e323e23f4690bd50f43bdcd8fb4f8b6fe08a22f4f37be4",
       "sourceSha256": "e7f8c5c01dee09739827df85cc43ed70ac15b8ddd883a3dc9d4f1ab6705021e0"
     },
     "BowAndArrow": {
@@ -823,7 +823,7 @@
         22,
         23
       ],
-      "originalSha256": "be1c1fa97019677febab2a82962e1f9e24651c218b5ead276263a8ac0e7a186f",
+      "originalSha256": "55329624a2c0a9417007f166e785c9e3eae22c7bf4f9f16504d741b844786f98",
       "sourceSha256": "b5287fd9a473757d626c7dc91b435a08fbd9c27f69b3f28b6854efb1bc98cf0c"
     },
     "PeaceSign": {
@@ -890,7 +890,7 @@
         "57:0:1",
         "57:1:"
       ],
-      "originalSha256": "59418f262b11ce77e788d312c90a4aa003a002d1a245120bb93d0f2eb3ff7371",
+      "originalSha256": "e14eb24445b5d578c710f6094555ff885cec5665d3eea27b8ad90297eb5c4afc",
       "sourceSha256": "a94a8b9738628b2e822328e1e15d6fba46c3db5ddad145b914bcb4a93a274e3a"
     },
     "KickBack": {
@@ -943,7 +943,7 @@
         57,
         58
       ],
-      "originalSha256": "e8e9bedcae5c48930415a5c731742bf1322b53842787934b0becc89f4b545350",
+      "originalSha256": "3229bc8e2309027c143865fee6ff48ac77dd73bf26a17edcd6ed1ec750801190",
       "sourceSha256": "3a3d8a834a3775d6b4d3ec4329f72f237d9a21aec5c69dbec3c99eb35d890bf5"
     },
     "IrisOut": {
@@ -1000,7 +1000,7 @@
         36
       ],
       "note": "Darlin 重複和聲未提供中文；IRIS OUT 前的ア哼唱未補寫，只對齊供稿中的歌名。",
-      "originalSha256": "2973136d324d9380aac6f05e2bf9a09dea42528e1567bef57068b072722d5138",
+      "originalSha256": "1dcd30d2dc1afdecf14056de64b9ce8148dc0e7c26e2ba26b8e303583fd5704e",
       "sourceSha256": "172329b21d41e1f3a421b9a00b690543abde77d9b9aa3af3b768a128fcb6c6b7"
     },
     "Karasu": {
@@ -1039,7 +1039,7 @@
         30,
         31
       ],
-      "originalSha256": "56fd6c3d7d82d2c811ec1a8d87ed246db8c53fcf90edf240ce0694eee829f0e4",
+      "originalSha256": "d6c9d0a9bad00d64d9ef45528522c9c0fb4f5fd8dd8b1d09949dd5670d8f14f6",
       "sourceSha256": "9ea1a1d1fb929fbe5cf33bf7c3d556dbabfe9c80b7665ee362dfe0abb3737394"
     },
     "MayoeruHitsuji": {
@@ -1070,7 +1070,7 @@
         20,
         21
       ],
-      "originalSha256": "aebdaf21773badd24c8cf02e70aa97507e106edab30532c2c2123b4fec34ce75",
+      "originalSha256": "f73eb3eae74d2b7273b020d156b6675e0dc5ab790f0eca564478a36c66a85351",
       "sourceSha256": "b8b25e350f29f5bca945ac1af376fea5e56d0f12f53f91575b512e8c6ca3297b"
     },
     "Plazma": {
@@ -1106,7 +1106,7 @@
         31
       ],
       "note": "結尾兩次光っていく逐句核對後共用供稿最後一句；未改動原文或時間。",
-      "originalSha256": "623f79b03433df86ce8c4c496d689eb2744d76114155c62eabf85b7d2878fb80",
+      "originalSha256": "a4740323a4a2e2eefca069dfb17819b6671dd4052e77a510e1baf8c704173b53",
       "sourceSha256": "33ba07718b7c54eec20dd51156ab612303c305c91c1b2002c797701cdb69299a"
     },
     "M87": {
@@ -1139,7 +1139,7 @@
         24,
         25
       ],
-      "originalSha256": "6d6ebe8a2eeca6f639932c64094bf695e8973220a4000001d334ed15b8d47107",
+      "originalSha256": "021940eb0cb25be2092f189e42a0ffbfdfb0c8f513d2805a12bf0399f8e8dd37",
       "sourceSha256": "467745e1cb2265eb28777449977f3336063e4a168f65aedeb1b6bccaa4949b60"
     },
     "Chikyugi": {
@@ -1191,7 +1191,7 @@
         "23:0:1",
         "23:1:"
       ],
-      "originalSha256": "59ba87e258a15f929feb32c827af57b7222a1826d26b2bd4ee015bba885dfd6c",
+      "originalSha256": "29eb01eb918c671e8bd2eba4b48003033e2304dbe61b67113ee6286dbfe82ba9",
       "sourceSha256": "d1ea304e445832c1437e0a9aa018bf0b2127156488eb7d0ed080d8be0a7dbb50"
     },
     "EineKleine": {
@@ -1250,7 +1250,7 @@
         38,
         39
       ],
-      "originalSha256": "5d35af2548a544f9698b2fa7f24eee2201a5a3d9cd29293420880065546db0fd",
+      "originalSha256": "221db021ca4faa5fb78f8a3ee81333cf6e89fcd7b16b51ebc974ccd7708d2651",
       "sourceSha256": "d0d65c5160dfe1b14911173e88739ffc28d22d215275b3bd7332392050fab9eb"
     }
   }

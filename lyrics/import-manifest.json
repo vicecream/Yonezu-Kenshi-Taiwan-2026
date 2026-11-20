@@ -14,182 +14,208 @@
       "file": "YellowGhost.json",
       "sourceUrl": "https://lrclib.net/api/get/11926614",
       "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
-      "allowPendingReadings": true
+      "allowPendingReadings": true,
+      "timingMode": "preview"
     },
     {
       "id": "Shunrai",
       "file": "Shunrai.json",
       "sourceUrl": "https://lrclib.net/api/get/10031040",
       "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
-      "allowPendingReadings": true
+      "allowPendingReadings": true,
+      "timingMode": "preview"
     },
     {
       "id": "Kanden",
       "file": "Kanden.json",
       "sourceUrl": "https://lrclib.net/api/get/11502024",
       "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
-      "allowPendingReadings": true
+      "allowPendingReadings": true,
+      "timingMode": "preview"
     },
     {
       "id": "Flamingo",
       "file": "Flamingo.json",
       "sourceUrl": "https://lrclib.net/api/get/65587",
       "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
-      "allowPendingReadings": true
+      "allowPendingReadings": true,
+      "timingMode": "preview"
     },
     {
       "id": "Lady",
       "file": "Lady.json",
       "sourceUrl": "https://lrclib.net/api/get/11929499",
       "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
-      "allowPendingReadings": true
+      "allowPendingReadings": true,
+      "timingMode": "preview"
     },
     {
       "id": "Yumeutsutsu",
       "file": "Yumeutsutsu.json",
       "sourceUrl": "https://lrclib.net/api/get/14452926",
       "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
-      "allowPendingReadings": true
+      "allowPendingReadings": true,
+      "timingMode": "preview"
     },
     {
       "id": "CranberryAndPancake",
       "file": "CranberryAndPancake.json",
       "sourceUrl": "https://lrclib.net/api/get/10123569",
       "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
-      "allowPendingReadings": true
+      "allowPendingReadings": true,
+      "timingMode": "preview"
     },
     {
       "id": "Shinigami",
       "file": "Shinigami.json",
       "sourceUrl": "https://lrclib.net/api/get/12206559",
       "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
-      "allowPendingReadings": true
+      "allowPendingReadings": true,
+      "timingMode": "preview"
     },
     {
       "id": "SayonaraMataItsuka",
       "file": "SayonaraMataItsuka.json",
       "sourceUrl": "https://lrclib.net/api/get/14452815",
       "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
-      "allowPendingReadings": true
+      "allowPendingReadings": true,
+      "timingMode": "preview"
     },
     {
       "id": "MelancholyKitchen",
       "file": "MelancholyKitchen.json",
       "sourceUrl": "https://lrclib.net/api/get/1883852",
       "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
-      "allowPendingReadings": true
+      "allowPendingReadings": true,
+      "timingMode": "preview"
     },
     {
       "id": "NineteenNinetyOne",
       "file": "NineteenNinetyOne.lrc",
       "sourceUrl": "https://lrclib.net/api/get/24879963",
       "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
-      "allowPendingReadings": true
+      "allowPendingReadings": true,
+      "timingMode": "preview"
     },
     {
       "id": "Lemon",
       "file": "Lemon.json",
       "sourceUrl": "https://lrclib.net/api/get/65910",
       "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
-      "allowPendingReadings": true
+      "allowPendingReadings": true,
+      "timingMode": "preview"
     },
     {
       "id": "JaneDoe",
       "file": "JaneDoe.json",
       "sourceUrl": "https://lrclib.net/api/get/26422844",
       "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
-      "allowPendingReadings": true
+      "allowPendingReadings": true,
+      "timingMode": "preview"
     },
     {
       "id": "UmiNoYuurei",
       "file": "UmiNoYuurei.json",
       "sourceUrl": "https://lrclib.net/api/get/9920815",
       "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
-      "allowPendingReadings": true
+      "allowPendingReadings": true,
+      "timingMode": "preview"
     },
     {
       "id": "Yodaka",
       "file": "Yodaka.json",
       "sourceUrl": "https://lrclib.net/api/get/37790422",
       "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
-      "allowPendingReadings": true
+      "allowPendingReadings": true,
+      "timingMode": "preview"
     },
     {
       "id": "Loser",
       "file": "Loser.json",
       "sourceUrl": "https://lrclib.net/api/get/1319675",
       "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
-      "allowPendingReadings": true
+      "allowPendingReadings": true,
+      "timingMode": "preview"
     },
     {
       "id": "BowAndArrow",
       "file": "BowAndArrow.json",
       "sourceUrl": "https://lrclib.net/api/get/30476214",
       "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
-      "allowPendingReadings": true
+      "allowPendingReadings": true,
+      "timingMode": "preview"
     },
     {
       "id": "PeaceSign",
       "file": "PeaceSign.json",
       "sourceUrl": "https://lrclib.net/api/get/10123611",
       "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
-      "allowPendingReadings": true
+      "allowPendingReadings": true,
+      "timingMode": "preview"
     },
     {
       "id": "KickBack",
       "file": "KickBack.json",
       "sourceUrl": "https://lrclib.net/api/get/952051",
       "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
-      "allowPendingReadings": true
+      "allowPendingReadings": true,
+      "timingMode": "preview"
     },
     {
       "id": "IrisOut",
       "file": "IrisOut.json",
       "sourceUrl": "https://lrclib.net/api/get/24226683",
       "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
-      "allowPendingReadings": true
+      "allowPendingReadings": true,
+      "timingMode": "preview"
     },
     {
       "id": "Karasu",
       "file": "Karasu.json",
       "sourceUrl": "https://lrclib.net/api/get/36156838",
       "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
-      "allowPendingReadings": true
+      "allowPendingReadings": true,
+      "timingMode": "preview"
     },
     {
       "id": "MayoeruHitsuji",
       "file": "MayoeruHitsuji.json",
       "sourceUrl": "https://lrclib.net/api/get/1319865",
       "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
-      "allowPendingReadings": true
+      "allowPendingReadings": true,
+      "timingMode": "preview"
     },
     {
       "id": "Plazma",
       "file": "Plazma.json",
       "sourceUrl": "https://lrclib.net/api/get/16717326",
       "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
-      "allowPendingReadings": true
+      "allowPendingReadings": true,
+      "timingMode": "preview"
     },
     {
       "id": "M87",
       "file": "M87.json",
       "sourceUrl": "https://lrclib.net/api/get/13504276",
       "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
-      "allowPendingReadings": true
+      "allowPendingReadings": true,
+      "timingMode": "preview"
     },
     {
       "id": "Chikyugi",
       "file": "Chikyugi.json",
       "sourceUrl": "https://lrclib.net/api/get/3069994",
       "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
-      "allowPendingReadings": true
+      "allowPendingReadings": true,
+      "timingMode": "preview"
     },
     {
       "id": "EineKleine",
       "file": "EineKleine.json",
       "sourceUrl": "https://lrclib.net/api/get/1883354",
       "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
-      "allowPendingReadings": true
+      "allowPendingReadings": true,
+      "timingMode": "preview"
     }
   ],
   "candidateEntries": [

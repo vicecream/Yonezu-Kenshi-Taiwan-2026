@@ -1769,11 +1769,11 @@ function updateSongContentUi(song){
   page.classList.toggle("untimed-lyrics", !caps.timed);
   const status = document.getElementById("song-content-status");
   const preview = song.timingStatus === "preview";
-  status.innerHTML = `<p>${caps.hasOriginal ? (song.lyricsStatus === "partial" ? "原文歌詞部分整理" : song.lyricsStatus === "imported" ? "原文歌詞已匯入" : "原文歌詞已整理") : "原文歌詞整理中"} · ${photoOnly ? (song.photoTranslation.complete ? "照片中文已整理（尚未對齊原文）" : "照片中文部分整理（尚未對齊原文）") : caps.translationComplete ? "繁中翻譯已整理" : caps.hasTranslation ? "繁中翻譯部分整理" : "繁中翻譯整理中"}<br>${preview && caps.timed ? "LRC 時間試播・待校正" : caps.timed ? "同步時間已整理" : "同步時間整理中"}${song.readingsStatus === "pending" ? " · 日文讀音待整理" : song.readingsStatus === "partial" ? " · 日文讀音部分整理" : ""}</p>
+  status.innerHTML = `<p>${caps.hasOriginal ? (song.lyricsStatus === "partial" ? "原文歌詞部分整理" : song.lyricsStatus === "imported" ? "原文歌詞已匯入" : "原文歌詞已整理") : "原文歌詞整理中"} · ${photoOnly ? (song.photoTranslation.complete ? "照片中文已整理（尚未對齊原文）" : "照片中文部分整理（尚未對齊原文）") : caps.translationComplete ? "繁中翻譯已整理" : caps.hasTranslation ? "繁中翻譯部分整理" : "繁中翻譯整理中"}<br>${preview && caps.timed ? "LRC 逐句同步・影片待校正" : caps.timed ? "同步時間已整理" : "同步時間整理中"}${song.readingsStatus === "pending" ? " · 日文讀音待整理" : song.readingsStatus === "partial" ? " · 日文讀音部分整理" : ""}</p>
     ${photoOnly ? `<p>目前提供專輯照片中的中文閱讀，日文原文與 LRC 時間待補。${escapeHtml(song.photoTranslation.note || "")}</p>` : !caps.hasOriginal ? "<p>可先使用下方官方入口，歌詞將分批補齊。</p>" : ""}
     <a href="${song.sourceUrl}" target="_blank" rel="noopener">官方專輯與曲目資訊 ↗</a>`;
   const notes = document.querySelector(".lyrics-note-copy");
-  if (notes) notes.textContent = preview && caps.timed ? "依 LRC 時間逐句試播；點歌詞跳轉，記下不同步的歌名與時間。" : caps.timed ? "點選歌詞跳至影片位置，歌詞隨影片同步。" : photoOnly ? "目前提供照片中文閱讀，原文與同步時間待補。" : caps.hasOriginal ? caps.hasTranslation ? "目前提供中日對照閱讀，同步時間整理中。" : "目前提供原文閱讀，同步時間整理中。" : "歌詞整理中，可先開啟官方入口。";
+  if (notes) notes.textContent = preview && caps.timed ? "依 LRC 時間逐句跟隨與跳轉；MV 片頭或段落可能有時差，影片對齊仍待校正。" : caps.timed ? "點選歌詞跳至影片位置，歌詞隨影片同步。" : photoOnly ? "目前提供照片中文閱讀，原文與同步時間待補。" : caps.hasOriginal ? caps.hasTranslation ? "目前提供中日對照閱讀，同步時間整理中。" : "目前提供原文閱讀，同步時間整理中。" : "歌詞整理中，可先開啟官方入口。";
   document.getElementById("watch-on-yt").href = song.listenUrl;
   document.getElementById("watch-on-yt").textContent = song.youtubeId ? song.videoType === "official-audio" ? "在 YouTube 聆聽 ↗" : "在 YouTube 觀看 ↗" : song.previewUrl ? "官方主題歌公告／預告 ↗" : "官方聆聽與作品資訊 ↗";
   document.querySelector(".lyrics-legend").hidden = !chantGuideFor(song);
@@ -2809,7 +2809,7 @@ function buildDocumentPipViewModel(activeIdx = lastActiveIdx){
     status: !songCapabilities(currentSong).hasOriginal && songCapabilities(currentSong).hasTranslation ? "目前提供照片中文閱讀，原文與同步時間待補。"
       : !songCapabilities(currentSong).hasOriginal ? "歌詞整理中，可先開啟官方入口。"
       : !songCapabilities(currentSong).timed ? "同步時間整理中，目前提供原文閱讀。"
-      : currentSong?.timingStatus === "preview" ? "LRC 時間試播・待校正"
+      : currentSong?.timingStatus === "preview" ? "LRC 逐句同步・影片待校正"
       : playerReady ? "" : "正在等待影片播放器…"
   };
 }

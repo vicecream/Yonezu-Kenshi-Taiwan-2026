@@ -4,6 +4,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { SONGS, VISIBLE_SONGS } from "../src/song-metadata.js";
+import { SONG_LYRICS } from "../src/song-lyrics.js";
 if (!process.argv[2]) throw new Error("Pass the installed Playwright Core ESM entry.");
 const { chromium } = await import(pathToFileURL(path.resolve(process.argv[2])).href);
 const base = process.env.YONEZU_QA_BASE_URL || "http://localhost:4174/";
@@ -30,8 +31,8 @@ window.YT = {
     getPlayerState() { return this.state; }
     getVideoUrl() { return 'https://www.youtube.com/watch?v='+this.id; }
     getIframe() { return this.iframe; }
-    getCurrentTime() { return 0; }
-    getDuration() { return 0; }
+    getCurrentTime() { return this.time || 0; }
+    getDuration() { return 600; }
     getAvailablePlaybackRates() { return [.5,.75,1,1.25,1.5,2]; }
     getPlaybackRate() { return this.rate; }
     setPlaybackRate(rate) { this.rate=rate; this.emit('onPlaybackRateChange',rate); }
@@ -40,7 +41,7 @@ window.YT = {
     mute() { this.muted=true; }
     unMute() { this.muted=false; }
     isMuted() { return !!this.muted; }
-    seekTo() {}
+    seekTo(time) { this.time=time; this.lastSeek=time; }
     destroy() { this.iframe.remove(); }
   }
 };
@@ -170,6 +171,29 @@ try {
   await page.goto(base + "?debug=1#/song/YellowGhost");
   await page.waitForFunction(() => document.getElementById("dbg")?.textContent.includes("同步次數") && document.querySelectorAll("#lyrics-list .lyric-line").length === 34);
   check("Direct imported-song route and Traditional Chinese debug text load", await state() !== "pending" && /待補歌詞時為 0/.test(await page.locator("#dbg").innerText()));
+  await page.setViewportSize({ width: 390, height: 844 });
+  for (const song of VISIBLE_SONGS) {
+    const content = SONG_LYRICS.find(item => item.id === song.id);
+    await page.evaluate(id => location.hash = "#/song/" + id, song.id);
+    await page.waitForFunction(({title,count,id}) => document.getElementById("song-page-heading")?.textContent === title
+      && document.querySelectorAll("button.lyric-line").length === count && window.__ytTest.instances.at(-1)?.id === id,
+      {title:song.title,count:content.lyrics.length,id:song.youtubeId});
+    await emit("onReady");
+    await emit("onStateChange", 1);
+    assert.ok(await page.locator("#autoscroll-btn").isEnabled());
+    const indices = [0, Math.floor(content.lyrics.length / 2), content.lyrics.length - 1, 0];
+    for (const index of indices) {
+      await page.evaluate(time => { window.__ytTest.instances.at(-1).time = time; }, content.lyrics[index].time + 0.01);
+      await page.waitForFunction(index => document.querySelector(".lyric-line.active")?.dataset.idx === String(index), index);
+      assert.equal(await page.locator(".lyric-line.active").count(), 1);
+    }
+    const seekIndex = Math.floor(content.lyrics.length / 3);
+    await page.locator(".lyric-line").nth(seekIndex).click({ force: true });
+    assert.equal(await page.evaluate(() => window.__ytTest.instances.at(-1).lastSeek), content.lyrics[seekIndex].time);
+    await page.waitForFunction(index => document.querySelector(".lyric-line.active")?.dataset.idx === String(index), seekIndex);
+    check(song.id + " LRC follows first/middle/last/backward player times and seeks from a lyric click", true);
+    if (song.id === "Lemon") await page.screenshot({ path: path.join(output, "lrc-follow-lemon-mobile.png"), fullPage: true });
+  }
   await context.close();
 
   const delayed = await browser.newContext({ serviceWorkers: "block" });
