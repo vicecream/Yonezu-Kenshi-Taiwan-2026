@@ -1,5 +1,5 @@
 // User-selected preparation order, never a confirmed Taipei setlist.
-// Official source links verified on 2026-11-14; missing video IDs stay empty.
+// Official video/audio metadata checked on 2026-11-19; trailers never supply full-song IDs.
 export const ALBUMS = Object.freeze({
   "lostCorner": {
     "title": "LOST CORNER",
@@ -81,7 +81,7 @@ const tracks = [
     "YellowGhost",
     "YELLOW GHOST",
     "lostCorner",
-    null,
+    "hvZe_uu_u9A",
     "Yellow Ghost"
   ],
   [
@@ -116,14 +116,14 @@ const tracks = [
     "Yumeutsutsu",
     "ゆめうつつ",
     "lostCorner",
-    null,
+    "7yM35hOfW9E",
     "Yumeutsutsu"
   ],
   [
     "CranberryAndPancake",
     "クランベリーとパンケーキ",
     "lemon",
-    null,
+    "5r365k5-lA8",
     "Cranberry and Pancake"
   ],
   [
@@ -144,14 +144,14 @@ const tracks = [
     "MelancholyKitchen",
     "メランコリーキッチン",
     "yankee",
-    null,
+    "0GEoiLdCkUM",
     "Melancholy Kitchen"
   ],
   [
     "NineteenNinetyOne",
     "1991",
     "single1991",
-    null,
+    "1cnndBdzCAk",
     "1991"
   ],
   [
@@ -242,7 +242,7 @@ const tracks = [
     "MayoeruHitsuji",
     "迷える羊",
     "straySheep",
-    null,
+    "DAeERkHEy00",
     "Mayoeru Hitsuji"
   ],
   [
@@ -274,18 +274,46 @@ const tracks = [
     "Eine Kleine"
   ]
 ];
+// Temporarily hidden on the website; keep the full catalog and original numbers.
+// Remove an ID from this set to show that song again.
+const hiddenSongIds = new Set(["HaruGaTomori", "KonnichiwaGokigenyou"]);
 const announcements = {
   "HaruGaTomori": "https://reissuerecords.net/2026/10/22/kusuriyanohitorigoto_movie/",
   "KonnichiwaGokigenyou": "https://reissuerecords.net/2026/11/02/toranitsubasa_movie/"
 };
+const officialAudio = new Set(["YellowGhost", "Yumeutsutsu", "CranberryAndPancake", "MelancholyKitchen", "MayoeruHitsuji"]);
+// [LRCLIB record ID, translation article ID]. Links are references, not imported text.
+// Import fields and local paths: docs/song-source-fields.md.
+const sourceCandidates = {
+  YellowGhost: [11926614, 804], Shunrai: [10031040, 575],
+  Kanden: [11502024, 647], Flamingo: [65587, 610], Lady: [11929499, 751],
+  Yumeutsutsu: [14452926, 666], CranberryAndPancake: [10123569, 590],
+  Shinigami: [12206559, 667], SayonaraMataItsuka: [14452815, 778],
+  MelancholyKitchen: [1883852, 226], NineteenNinetyOne: [24879963, 825],
+  Lemon: [65910, 584], JaneDoe: [26422844, 820], UmiNoYuurei: [9920815, 635],
+  Yodaka: [37790422, 842], Loser: [1319675, 446], BowAndArrow: [30476214, 814],
+  PeaceSign: [10123611, 549], KickBack: [952051, 739], IrisOut: [24226683, 819],
+  HaruGaTomori: [null, null], KonnichiwaGokigenyou: [null, null],
+  Karasu: [36156838, 833], MayoeruHitsuji: [1319865, 686], Plazma: [16717326, 815],
+  M87: [13504276, 730], Chikyugi: [3069994, 758], EineKleine: [1883354, 625],
+};
 export const SONGS = tracks.map(([id, title, album, youtubeId, romanizedTitle]) => ({
   id, title, album, youtubeId, romanizedTitle, artist: "Kenshi Yonezu",
+  hidden: hiddenSongIds.has(id),
   language: "ja", sourceUrl: announcements[id] || ALBUMS[album].url, checkedAt: "2026-11-14",
   karaokeTitles: [...new Set([title, romanizedTitle])],
   karaokeArtists: id === "JaneDoe" ? ["Kenshi Yonezu", "米津玄師", "米津 玄師", "Kenshi Yonezu, Hikaru Utada", "米津玄師, 宇多田ヒカル"] : ["Kenshi Yonezu", "米津玄師", "米津 玄師"],
   videoSourceUrl: youtubeId ? "https://www.youtube.com/watch?v=" + youtubeId : null,
+  videoType: youtubeId ? officialAudio.has(id) ? "official-audio" : "music-video" : "pending",
+  videoCheckedAt: "2026-11-19",
+  videoReferenceUrl: id === "NineteenNinetyOne" ? "https://reissuerecords.net/2025/10/15/1991_mv/"
+    : officialAudio.has(id) ? "https://www.youtube.com/channel/UCC_OGcKdYY-aWFvVMFVGbzw" : announcements[id] || ALBUMS[album].url,
+  lyricsCandidateUrl: sourceCandidates[id][0] ? "https://lrclib.net/api/get/" + sourceCandidates[id][0] : null,
+  translationReferenceUrl: sourceCandidates[id][1] ? "https://alicepika.blog.fc2.com/blog-entry-" + sourceCandidates[id][1] + ".html" : null,
+  translationReferenceCredit: sourceCandidates[id][1] ? "Alice／箱庭博物館" : null,
   listenUrl: youtubeId ? "https://www.youtube.com/watch?v=" + youtubeId : announcements[id] || ALBUMS[album].listenUrl || ALBUMS[album].url,
   previewUrl: announcements[id] || null,
   releaseStatus: announcements[id] ? "announced" : "released",
   lyricsStatus: "pending", translationStatus: "pending", timingStatus: "pending", readingsStatus: "pending",
 }));
+export const VISIBLE_SONGS = SONGS.filter(song => !song.hidden);

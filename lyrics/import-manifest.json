@@ -1,3 +1,421 @@
 {
-  "songs": []
+  "description": "songs 只放已提供的本機檔案；candidateEntries 是逐首來源與欄位草稿，不會被匯入。",
+  "fieldDescriptions": {
+    "id": "對應 src/song-metadata.js 的固定歌曲 ID。",
+    "file": "相對此 manifest 的 UTF-8 本機檔案路徑；不是網址。",
+    "sourceUrl": "外部來源網址；LRCLIB API 回傳 JSON，syncedLyrics 才是 LRC 字串。",
+    "usageBasis": "填入本次本機檔案的提供方式及可使用依據；null 代表尚未提供，不能直接匯入。",
+    "allowPendingReadings": "沒有逐行假名及羅馬字時保留讀音待補。",
+    "candidateStatus": "候選狀態，不能作為原文完成或影片同步的證明。"
+  },
+  "songs": [
+    {
+      "id": "YellowGhost",
+      "file": "YellowGhost.json",
+      "sourceUrl": "https://lrclib.net/api/get/11926614",
+      "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
+      "allowPendingReadings": true
+    },
+    {
+      "id": "Shunrai",
+      "file": "Shunrai.json",
+      "sourceUrl": "https://lrclib.net/api/get/10031040",
+      "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
+      "allowPendingReadings": true
+    },
+    {
+      "id": "Kanden",
+      "file": "Kanden.json",
+      "sourceUrl": "https://lrclib.net/api/get/11502024",
+      "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
+      "allowPendingReadings": true
+    },
+    {
+      "id": "Flamingo",
+      "file": "Flamingo.json",
+      "sourceUrl": "https://lrclib.net/api/get/65587",
+      "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
+      "allowPendingReadings": true
+    },
+    {
+      "id": "Lady",
+      "file": "Lady.json",
+      "sourceUrl": "https://lrclib.net/api/get/11929499",
+      "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
+      "allowPendingReadings": true
+    },
+    {
+      "id": "Yumeutsutsu",
+      "file": "Yumeutsutsu.json",
+      "sourceUrl": "https://lrclib.net/api/get/14452926",
+      "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
+      "allowPendingReadings": true
+    },
+    {
+      "id": "CranberryAndPancake",
+      "file": "CranberryAndPancake.json",
+      "sourceUrl": "https://lrclib.net/api/get/10123569",
+      "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
+      "allowPendingReadings": true
+    },
+    {
+      "id": "Shinigami",
+      "file": "Shinigami.json",
+      "sourceUrl": "https://lrclib.net/api/get/12206559",
+      "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
+      "allowPendingReadings": true
+    },
+    {
+      "id": "SayonaraMataItsuka",
+      "file": "SayonaraMataItsuka.json",
+      "sourceUrl": "https://lrclib.net/api/get/14452815",
+      "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
+      "allowPendingReadings": true
+    },
+    {
+      "id": "MelancholyKitchen",
+      "file": "MelancholyKitchen.json",
+      "sourceUrl": "https://lrclib.net/api/get/1883852",
+      "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
+      "allowPendingReadings": true
+    },
+    {
+      "id": "NineteenNinetyOne",
+      "file": "NineteenNinetyOne.lrc",
+      "sourceUrl": "https://lrclib.net/api/get/24879963",
+      "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
+      "allowPendingReadings": true
+    },
+    {
+      "id": "Lemon",
+      "file": "Lemon.json",
+      "sourceUrl": "https://lrclib.net/api/get/65910",
+      "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
+      "allowPendingReadings": true
+    },
+    {
+      "id": "JaneDoe",
+      "file": "JaneDoe.json",
+      "sourceUrl": "https://lrclib.net/api/get/26422844",
+      "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
+      "allowPendingReadings": true
+    },
+    {
+      "id": "UmiNoYuurei",
+      "file": "UmiNoYuurei.json",
+      "sourceUrl": "https://lrclib.net/api/get/9920815",
+      "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
+      "allowPendingReadings": true
+    },
+    {
+      "id": "Yodaka",
+      "file": "Yodaka.json",
+      "sourceUrl": "https://lrclib.net/api/get/37790422",
+      "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
+      "allowPendingReadings": true
+    },
+    {
+      "id": "Loser",
+      "file": "Loser.json",
+      "sourceUrl": "https://lrclib.net/api/get/1319675",
+      "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
+      "allowPendingReadings": true
+    },
+    {
+      "id": "BowAndArrow",
+      "file": "BowAndArrow.json",
+      "sourceUrl": "https://lrclib.net/api/get/30476214",
+      "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
+      "allowPendingReadings": true
+    },
+    {
+      "id": "PeaceSign",
+      "file": "PeaceSign.json",
+      "sourceUrl": "https://lrclib.net/api/get/10123611",
+      "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
+      "allowPendingReadings": true
+    },
+    {
+      "id": "KickBack",
+      "file": "KickBack.json",
+      "sourceUrl": "https://lrclib.net/api/get/952051",
+      "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
+      "allowPendingReadings": true
+    },
+    {
+      "id": "IrisOut",
+      "file": "IrisOut.json",
+      "sourceUrl": "https://lrclib.net/api/get/24226683",
+      "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
+      "allowPendingReadings": true
+    },
+    {
+      "id": "Karasu",
+      "file": "Karasu.json",
+      "sourceUrl": "https://lrclib.net/api/get/36156838",
+      "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
+      "allowPendingReadings": true
+    },
+    {
+      "id": "MayoeruHitsuji",
+      "file": "MayoeruHitsuji.json",
+      "sourceUrl": "https://lrclib.net/api/get/1319865",
+      "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
+      "allowPendingReadings": true
+    },
+    {
+      "id": "Plazma",
+      "file": "Plazma.json",
+      "sourceUrl": "https://lrclib.net/api/get/16717326",
+      "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
+      "allowPendingReadings": true
+    },
+    {
+      "id": "M87",
+      "file": "M87.json",
+      "sourceUrl": "https://lrclib.net/api/get/13504276",
+      "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
+      "allowPendingReadings": true
+    },
+    {
+      "id": "Chikyugi",
+      "file": "Chikyugi.json",
+      "sourceUrl": "https://lrclib.net/api/get/3069994",
+      "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
+      "allowPendingReadings": true
+    },
+    {
+      "id": "EineKleine",
+      "file": "EineKleine.json",
+      "sourceUrl": "https://lrclib.net/api/get/1883354",
+      "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
+      "allowPendingReadings": true
+    }
+  ],
+  "candidateEntries": [
+    {
+      "id": "YellowGhost",
+      "file": "YellowGhost.lrc",
+      "sourceUrl": "https://lrclib.net/api/get/11926614",
+      "usageBasis": null,
+      "allowPendingReadings": true,
+      "candidateStatus": "provided-local-file"
+    },
+    {
+      "id": "Shunrai",
+      "file": "Shunrai.lrc",
+      "sourceUrl": "https://lrclib.net/api/get/10031040",
+      "usageBasis": null,
+      "allowPendingReadings": true,
+      "candidateStatus": "provided-local-file"
+    },
+    {
+      "id": "Kanden",
+      "file": "Kanden.lrc",
+      "sourceUrl": "https://lrclib.net/api/get/11502024",
+      "usageBasis": null,
+      "allowPendingReadings": true,
+      "candidateStatus": "provided-local-file"
+    },
+    {
+      "id": "Flamingo",
+      "file": "Flamingo.lrc",
+      "sourceUrl": "https://lrclib.net/api/get/65587",
+      "usageBasis": null,
+      "allowPendingReadings": true,
+      "candidateStatus": "provided-local-file"
+    },
+    {
+      "id": "Lady",
+      "file": "Lady.lrc",
+      "sourceUrl": "https://lrclib.net/api/get/11929499",
+      "usageBasis": null,
+      "allowPendingReadings": true,
+      "candidateStatus": "provided-local-file"
+    },
+    {
+      "id": "Yumeutsutsu",
+      "file": "Yumeutsutsu.lrc",
+      "sourceUrl": "https://lrclib.net/api/get/14452926",
+      "usageBasis": null,
+      "allowPendingReadings": true,
+      "candidateStatus": "provided-local-file"
+    },
+    {
+      "id": "CranberryAndPancake",
+      "file": "CranberryAndPancake.lrc",
+      "sourceUrl": "https://lrclib.net/api/get/10123569",
+      "usageBasis": null,
+      "allowPendingReadings": true,
+      "candidateStatus": "provided-local-file"
+    },
+    {
+      "id": "Shinigami",
+      "file": "Shinigami.lrc",
+      "sourceUrl": "https://lrclib.net/api/get/12206559",
+      "usageBasis": null,
+      "allowPendingReadings": true,
+      "candidateStatus": "provided-local-file"
+    },
+    {
+      "id": "SayonaraMataItsuka",
+      "file": "SayonaraMataItsuka.lrc",
+      "sourceUrl": "https://lrclib.net/api/get/14452815",
+      "usageBasis": null,
+      "allowPendingReadings": true,
+      "candidateStatus": "provided-local-file"
+    },
+    {
+      "id": "MelancholyKitchen",
+      "file": "MelancholyKitchen.lrc",
+      "sourceUrl": "https://lrclib.net/api/get/1883852",
+      "usageBasis": null,
+      "allowPendingReadings": true,
+      "candidateStatus": "provided-local-file"
+    },
+    {
+      "id": "NineteenNinetyOne",
+      "file": "NineteenNinetyOne.lrc",
+      "sourceUrl": "https://lrclib.net/api/get/24879963",
+      "usageBasis": null,
+      "allowPendingReadings": true,
+      "candidateStatus": "provided-local-file"
+    },
+    {
+      "id": "Lemon",
+      "file": "Lemon.lrc",
+      "sourceUrl": "https://lrclib.net/api/get/65910",
+      "usageBasis": null,
+      "allowPendingReadings": true,
+      "candidateStatus": "provided-local-file"
+    },
+    {
+      "id": "JaneDoe",
+      "file": "JaneDoe.lrc",
+      "sourceUrl": "https://lrclib.net/api/get/26422844",
+      "usageBasis": null,
+      "allowPendingReadings": true,
+      "candidateStatus": "provided-local-file"
+    },
+    {
+      "id": "UmiNoYuurei",
+      "file": "UmiNoYuurei.lrc",
+      "sourceUrl": "https://lrclib.net/api/get/9920815",
+      "usageBasis": null,
+      "allowPendingReadings": true,
+      "candidateStatus": "provided-local-file"
+    },
+    {
+      "id": "Yodaka",
+      "file": "Yodaka.lrc",
+      "sourceUrl": "https://lrclib.net/api/get/37790422",
+      "usageBasis": null,
+      "allowPendingReadings": true,
+      "candidateStatus": "provided-local-file"
+    },
+    {
+      "id": "Loser",
+      "file": "Loser.lrc",
+      "sourceUrl": "https://lrclib.net/api/get/1319675",
+      "usageBasis": null,
+      "allowPendingReadings": true,
+      "candidateStatus": "provided-local-file"
+    },
+    {
+      "id": "BowAndArrow",
+      "file": "BowAndArrow.lrc",
+      "sourceUrl": "https://lrclib.net/api/get/30476214",
+      "usageBasis": null,
+      "allowPendingReadings": true,
+      "candidateStatus": "provided-local-file"
+    },
+    {
+      "id": "PeaceSign",
+      "file": "PeaceSign.lrc",
+      "sourceUrl": "https://lrclib.net/api/get/10123611",
+      "usageBasis": null,
+      "allowPendingReadings": true,
+      "candidateStatus": "provided-local-file"
+    },
+    {
+      "id": "KickBack",
+      "file": "KickBack.lrc",
+      "sourceUrl": "https://lrclib.net/api/get/952051",
+      "usageBasis": null,
+      "allowPendingReadings": true,
+      "candidateStatus": "provided-local-file"
+    },
+    {
+      "id": "IrisOut",
+      "file": "IrisOut.lrc",
+      "sourceUrl": "https://lrclib.net/api/get/24226683",
+      "usageBasis": null,
+      "allowPendingReadings": true,
+      "candidateStatus": "provided-local-file"
+    },
+    {
+      "id": "HaruGaTomori",
+      "file": "HaruGaTomori.lrc",
+      "sourceUrl": null,
+      "usageBasis": null,
+      "allowPendingReadings": true,
+      "candidateStatus": "source-not-found"
+    },
+    {
+      "id": "KonnichiwaGokigenyou",
+      "file": "KonnichiwaGokigenyou.lrc",
+      "sourceUrl": null,
+      "usageBasis": null,
+      "allowPendingReadings": true,
+      "candidateStatus": "source-not-found"
+    },
+    {
+      "id": "Karasu",
+      "file": "Karasu.lrc",
+      "sourceUrl": "https://lrclib.net/api/get/36156838",
+      "usageBasis": null,
+      "allowPendingReadings": true,
+      "candidateStatus": "provided-local-file"
+    },
+    {
+      "id": "MayoeruHitsuji",
+      "file": "MayoeruHitsuji.lrc",
+      "sourceUrl": "https://lrclib.net/api/get/1319865",
+      "usageBasis": null,
+      "allowPendingReadings": true,
+      "candidateStatus": "provided-local-file"
+    },
+    {
+      "id": "Plazma",
+      "file": "Plazma.lrc",
+      "sourceUrl": "https://lrclib.net/api/get/16717326",
+      "usageBasis": null,
+      "allowPendingReadings": true,
+      "candidateStatus": "provided-local-file"
+    },
+    {
+      "id": "M87",
+      "file": "M87.lrc",
+      "sourceUrl": "https://lrclib.net/api/get/13504276",
+      "usageBasis": null,
+      "allowPendingReadings": true,
+      "candidateStatus": "provided-local-file"
+    },
+    {
+      "id": "Chikyugi",
+      "file": "Chikyugi.lrc",
+      "sourceUrl": "https://lrclib.net/api/get/3069994",
+      "usageBasis": null,
+      "allowPendingReadings": true,
+      "candidateStatus": "provided-local-file"
+    },
+    {
+      "id": "EineKleine",
+      "file": "EineKleine.lrc",
+      "sourceUrl": "https://lrclib.net/api/get/1883354",
+      "usageBasis": null,
+      "allowPendingReadings": true,
+      "candidateStatus": "provided-local-file"
+    }
+  ]
 }

@@ -4,7 +4,7 @@ import path from "node:path";
 import vm from "node:vm";
 import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
-import { SITE, EVENT, SHOWS, ONSITE, TICKETS, SONGS } from "../src/data.js";
+import { SITE, EVENT, SHOWS, ONSITE, TICKETS, SONGS, VISIBLE_SONGS } from "../src/data.js";
 import { SONG_LYRICS } from "../src/song-lyrics.js";
 import { showState, resolveShow, todayTimeline } from "../src/show-time.js";
 import { songCapabilities } from "../src/song-content.js";
@@ -16,6 +16,10 @@ const read = file => fs.readFileSync(path.join(root, file), "utf8");
 const pkg = JSON.parse(read("package.json"));
 assert.equal(SONGS.length, 28);
 assert.equal(new Set(SONGS.map(song => song.id)).size, 28);
+assert.equal(VISIBLE_SONGS.length, 26);
+assert.deepEqual(SONGS.filter(song => song.hidden).map(song => song.id), ["HaruGaTomori", "KonnichiwaGokigenyou"]);
+assert.ok(VISIBLE_SONGS.every(song => !song.hidden && SONGS.includes(song)));
+assert.deepEqual(VISIBLE_SONGS.map(song => SONGS.indexOf(song) + 1), [...Array.from({ length: 20 }, (_, index) => index + 1), 23, 24, 25, 26, 27, 28]);
 assert.deepEqual(SONGS.map(song => song.title), ["YELLOW GHOST", "春雷", "感電", "Flamingo", "LADY", "ゆめうつつ", "クランベリーとパンケーキ", "死神", "さよーならまたいつか！", "メランコリーキッチン", "1991", "Lemon", "JANE DOE", "海の幽霊", "夜鷹", "LOSER", "BOW AND ARROW", "ピースサイン", "KICK BACK", "IRIS OUT", "春が灯り", "こんにちはごきげんよう！", "烏", "迷える羊", "Plazma", "M八七", "地球儀", "アイネクライネ"]);
 for (const song of SONGS) {
   assert.equal(song.artist, "Kenshi Yonezu");
@@ -25,15 +29,82 @@ for (const song of SONGS) {
   else assert.ok(song.listenUrl && !song.videoSourceUrl);
   assert.ok(song.karaokeArtists.includes("米津玄師"));
 }
-assert.equal(SONGS.filter(song => song.youtubeId).length, 20);
+assert.equal(SONGS.filter(song => song.youtubeId).length, 26);
+assert.equal(SONGS.filter(song => song.videoType === "official-audio").length, 5);
 assert.equal(SONGS.filter(song => song.previewUrl).length, 2);
+const lyricInputs = JSON.parse(read("lyrics/import-manifest.json"));
+const translationInputs = JSON.parse(read("lyrics/translations/sources.json"));
+assert.deepEqual(lyricInputs.candidateEntries.map(entry => entry.id), SONGS.map(song => song.id));
+assert.deepEqual(translationInputs.references.map(entry => entry.id), SONGS.map(song => song.id));
+for (const [index, song] of SONGS.entries()) {
+  const candidate = lyricInputs.candidateEntries[index];
+  const reference = translationInputs.references[index];
+  assert.equal(candidate.file, song.id + ".lrc");
+  assert.equal(candidate.sourceUrl, song.lyricsCandidateUrl);
+  assert.equal(reference.referenceUrl, song.translationReferenceUrl);
+  assert.equal(reference.declaredTranslator, song.translationReferenceCredit);
+  assert.equal(reference.file, song.id + ".zh.txt");
+  assert.equal(reference.suggestedPdf, song.title + ".pdf");
+  assert.equal(reference.translationSourceUrl, reference.referenceUrl);
+  if (song.releaseStatus === "announced") {
+    assert.equal(song.youtubeId, null);
+    assert.equal(candidate.sourceUrl, null);
+    assert.equal(reference.referenceUrl, null);
+    assert.equal(candidate.candidateStatus, "source-not-found");
+    assert.equal(reference.status, "source-not-found");
+  } else {
+    assert.equal(new URL(candidate.sourceUrl).hostname, "lrclib.net");
+    assert.equal(new URL(reference.referenceUrl).hostname, "alicepika.blog.fc2.com");
+  }
+}
+console.log("PASS 28 matching source drafts, local import paths and separate pending announcements");
 assert.deepEqual(SONG_LYRICS.map(song => song.id), SONGS.map(song => song.id));
+const localInputs = new Map(lyricInputs.songs.map(entry => [entry.id, entry]));
+const suppliedTranslations = JSON.parse(read("lyrics/translations/user-supplied.json"));
+const localTranslations = new Map(suppliedTranslations.songs.map(entry => [entry.id, entry]));
+assert.equal(localTranslations.size, suppliedTranslations.songs.length, "Local translation imports must have unique song IDs");
+assert.equal(localInputs.size, lyricInputs.songs.length, "Local lyric imports must have unique song IDs");
+for (const entry of localInputs.values()) {
+  assert.ok(SONGS.some(song => song.id === entry.id), entry.id + ": known current song");
+  assert.equal(entry.sourceUrl, lyricInputs.candidateEntries.find(candidate => candidate.id === entry.id).sourceUrl);
+  assert.ok(entry.usageBasis?.trim(), entry.id + ": supplied-file basis");
+  const localPath = path.resolve(root, "lyrics", entry.file);
+  assert.ok(fs.existsSync(localPath), entry.id + ": local source exists");
+  if (entry.file.endsWith(".json")) {
+    const payload = JSON.parse(fs.readFileSync(localPath, "utf8"));
+    assert.equal(String(payload.id), new URL(entry.sourceUrl).pathname.split("/").at(-1), entry.id + ": provider record identity");
+  }
+}
 for (const song of SONG_LYRICS) {
   const caps = songCapabilities(song);
   assert.equal(caps.timed, false);
   assert.equal(caps.readings, false);
-  assert.equal(caps.hasOriginal, false);
-  assert.equal(caps.hasTranslation, false);
+  const input = localInputs.get(song.id);
+  assert.equal(caps.hasOriginal, Boolean(input), song.id + ": originals require supplied local input");
+  const translation = localTranslations.get(song.id);
+  assert.equal(caps.hasTranslation, Boolean(translation?.entries.length), song.id + ": translations require supplied local input");
+  if (translation) {
+    assert.ok(translation.usageBasis?.trim(), song.id + ": supplied translation basis");
+    assert.ok(fs.existsSync(path.resolve(root, "lyrics/translations", translation.file)), song.id + ": local translation exists");
+    assert.equal(song.translationCredit, translation.translationCredit);
+    assert.equal(song.lyrics.filter(line => line.tr?.trim()).length, translation.entries.length);
+    assert.equal(song.translationStatus, caps.translationComplete ? "ready" : "partial");
+    for (const row of translation.entries) {
+      assert.equal(song.lyrics[row.index]?.jp, row.jp, song.id + ": translation preserves original text");
+      assert.equal(song.lyrics[row.index]?.tr, row.tr, song.id + ": translation matches reviewed mapping");
+    }
+  }
+  if (input) {
+    assert.equal(song.lyricsStatus, "imported");
+    assert.equal(song.lyricsSourceUrl, input.sourceUrl);
+    assert.equal(song.lyricsUsageBasis, input.usageBasis);
+    assert.equal(song.timingStatus, "pending");
+    assert.equal(song.readingsStatus, "pending");
+    assert.ok(song.lyrics.every((line, index) => line.jp.trim()
+      && Number.isFinite(line.sourceTime) && line.sourceTime >= 0
+      && (index === 0 || line.sourceTime >= song.lyrics[index - 1].sourceTime)
+      && line.time === undefined), song.id + ": source timestamps do not imply video alignment");
+  }
 }
 assert.equal(songCapabilities({ language: "ja", readingsStatus: "pending", lyrics: [{ jp: "Example" }] }).readings, false);
 assert.equal(songCapabilities({ lyrics: [{ jp: "First", time: 3 }, { jp: "Second", time: 1 }] }).timed, false);
@@ -73,7 +144,8 @@ assert.equal(todayTimeline(Date.parse("2026-12-26T18:00:00+08:00")).nextIndex, -
 console.log("PASS both shows, manual choice, Taipei midnight and start boundaries across host timezones");
 
 const html = homeHtml("v" + pkg.version);
-for (const text of ["米津玄師", "12/26（六）", "12/27（日）", "28 首歌曲預習", "全程禁止拍照", "實名制", "待主辦公告"]) assert.ok(html.includes(text), text);
+for (const text of ["米津玄師", "12/26（六）", "12/27（日）", `${VISIBLE_SONGS.length} 首歌曲預習`, "全程禁止拍照", "實名制", "待主辦公告"]) assert.ok(html.includes(text), text);
+for (const text of [html, SITE.description, read("index.html"), JSON.parse(read("manifest.json")).description]) assert.doesNotMatch(text, /28 首/);
 assert.equal((html.match(/data-show-id=/g) || []).length, 2);
 assert.equal((html.match(/class="info-panel-template"/g) || []).length, 5);
 assert.match(html, /data-src="\.\/images\/taipei-seat-map.jpg"/);

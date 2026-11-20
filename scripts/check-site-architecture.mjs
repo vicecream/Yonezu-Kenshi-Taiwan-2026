@@ -4,7 +4,9 @@ import assert from "node:assert/strict";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
-import { EVENT, SITE, SONGS } from "../src/data.js";
+import { EVENT, SITE, SONGS as ALL_SONGS, VISIBLE_SONGS as SONGS } from "../src/data.js";
+import { SONG_LYRICS } from "../src/song-lyrics.js";
+import { songCapabilities } from "../src/song-content.js";
 
 if (!process.argv[2]) throw new Error("Pass the installed Playwright Core ESM entry.");
 const { chromium } = await import(pathToFileURL(path.resolve(process.argv[2])).href);
@@ -43,8 +45,10 @@ const imageReady = async selector => {
   await page.waitForFunction(selector => [...document.querySelectorAll(selector)].every(img => img.complete && img.naturalWidth > 0), selector);
 };
 const noOverflow = () => page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1);
+// The renderer inserts typographic spacing between CJK and Latin/numeric text.
+const readingText = text => text.replace(/\s+/gu, "");
 const songReady = async song => {
-  await page.waitForFunction(title => document.getElementById("song-page-heading")?.textContent === title && document.querySelectorAll("#song-sheet-list > li").length === 28, song.title);
+  await page.waitForFunction(({title,count}) => document.getElementById("song-page-heading")?.textContent === title && document.querySelectorAll("#song-sheet-list > li").length === count, {title:song.title,count:SONGS.length});
 };
 
 try {
@@ -202,19 +206,39 @@ try {
       await goto("#/song/" + song.id);
       await songReady(song);
       assert.equal(await page.locator("#song-picker-title").innerText(), song.title);
-      assert.equal(await page.locator("#song-picker-number").innerText(), String(index + 1).padStart(2, "0") + ".");
+      assert.equal(await page.locator("#song-picker-number").innerText(), String(ALL_SONGS.findIndex(item => item.id === song.id) + 1).padStart(2, "0") + ".");
       assert.equal(await page.locator("#watch-on-yt").getAttribute("href"), song.listenUrl);
-      assert.match(await page.locator("#song-content-status").innerText(), /原文歌詞整理中.*繁中翻譯整理中/s);
-      for (const selector of ["#reading-btn", "#japanese-toggle", "#chinese-toggle", "#karaoke-btn", "#autoscroll-btn"]) assert.ok(await page.locator(selector).isDisabled(), song.id + ": " + selector);
-      assert.equal(await page.locator(".lyric-line").count(), 0);
+      const content = SONG_LYRICS.find(item => item.id === song.id), caps = songCapabilities(content);
+      assert.match(await page.locator("#song-content-status").innerText(), caps.translationComplete ? /繁中翻譯已整理/ : /繁中翻譯部分整理/);
+      for (const selector of ["#reading-btn", "#karaoke-btn", "#autoscroll-btn"]) assert.ok(await page.locator(selector).isDisabled(), song.id + ": " + selector);
+      assert.ok(await page.locator("#japanese-toggle").isEnabled());
+      assert.ok(await page.locator("#chinese-toggle").isEnabled());
+      assert.equal(await page.locator(".lyric-line").count(), content.lyrics.length);
+      assert.deepEqual((await page.locator(".lyric-jp").allTextContents()).map(readingText), content.lyrics.map(line => readingText(line.jp)));
+      assert.deepEqual((await page.locator(".lyric-zh").allTextContents()).map(readingText), content.lyrics.map(line => readingText(line.tr || "")));
+      assert.ok((await page.locator("#lyrics-credit").textContent()).includes(content.translationCredit));
       if (!song.youtubeId) {
         assert.equal(await page.locator("#video-status").getAttribute("data-state"), "pending");
         assert.ok(await page.locator("#play-toggle").isDisabled());
         if (song.previewUrl) assert.match(await page.locator("#watch-on-yt").innerText(), /公告／預告/);
       }
-      report.routes.push({ id: song.id, title: song.title, video: song.youtubeId ? "official entry; streaming unverified" : "pending", lyrics: "pending" });
+      report.routes.push({ id: song.id, title: song.title, video: song.youtubeId ? "official entry; streaming unverified" : "pending", lyrics: content.lyricsStatus, translation: content.translationStatus, translatedRows: content.lyrics.filter(line => line.tr).length });
     });
   }
+  await test("Chinese and original visibility controls preserve bilingual reading preferences", async () => {
+    await goto("#/song/Lemon");
+    await songReady(SONGS.find(song => song.id === "Lemon"));
+    await page.locator("#chinese-toggle").click();
+    assert.equal(await page.locator("#song-page").evaluate(node => node.classList.contains("hide-chinese")), true);
+    await page.reload();
+    await songReady(SONGS.find(song => song.id === "Lemon"));
+    assert.equal(await page.locator("#chinese-toggle").getAttribute("aria-pressed"), "false");
+    await page.locator("#japanese-toggle").click();
+    assert.ok(await page.locator(".lyrics-hidden-message").isVisible());
+    await page.locator("#chinese-toggle").click();
+    assert.equal(await page.locator("#song-page").evaluate(node => node.classList.contains("hide-chinese")), false);
+    await page.locator("#japanese-toggle").click();
+  });
   await test("Previous/next navigation loops through fixed preparation order", async () => {
     await goto("#/song/YellowGhost");
     await songReady(SONGS[0]);
@@ -291,8 +315,10 @@ try {
       await offline.setOffline(true);
       for (const song of SONGS) {
         await offlinePage.goto(base + "#/song/" + song.id);
-        await offlinePage.waitForFunction(title => document.getElementById("song-page-heading")?.textContent === title && document.querySelectorAll("#song-sheet-list > li").length === 28, song.title);
-        assert.match(await offlinePage.locator("#song-content-status").innerText(), /原文歌詞整理中/);
+        await offlinePage.waitForFunction(({title,count}) => document.getElementById("song-page-heading")?.textContent === title && document.querySelectorAll("#song-sheet-list > li").length === count, {title:song.title,count:SONGS.length});
+        const content = SONG_LYRICS.find(item => item.id === song.id);
+        assert.match(await offlinePage.locator("#song-content-status").innerText(), /原文歌詞已匯入/);
+        assert.deepEqual((await offlinePage.locator(".lyric-zh").allTextContents()).map(readingText), content.lyrics.map(line => readingText(line.tr || "")));
         assert.equal(await offlinePage.locator("#video-status").getAttribute("data-state"), song.youtubeId ? "offline" : "pending");
       }
     } finally { await offline.close(); }

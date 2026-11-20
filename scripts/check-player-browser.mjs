@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
+import { SONGS, VISIBLE_SONGS } from "../src/song-metadata.js";
 if (!process.argv[2]) throw new Error("Pass the installed Playwright Core ESM entry.");
 const { chromium } = await import(pathToFileURL(path.resolve(process.argv[2])).href);
 const base = process.env.YONEZU_QA_BASE_URL || "http://localhost:4174/";
@@ -10,6 +11,7 @@ const output = path.resolve(process.env.YONEZU_QA_OUTPUT || "artifacts/browser-q
 await fs.mkdir(output, { recursive: true });
 const report = { mediaMode: "Controlled YouTube API fixture; live streaming not verified", checks: [], errors: [] };
 const check = (name, condition) => { assert.ok(condition, name); report.checks.push(name); console.log("PASS " + name); };
+const songViewIsOffstage = page => page.locator("#song-view").evaluate(element => element.inert && element.classList.contains("offstage") && element.getBoundingClientRect().right <= 0);
 const browser = await chromium.launch({ channel: "msedge", headless: true });
 const fixture = `
 window.__ytTest = { instances: [], requests: [] };
@@ -85,9 +87,16 @@ try {
   }
   await page.locator("#guide-btn").click();
   await page.locator(".song-row").last().waitFor();
-  check("All 28 songs render in the browser", await page.locator(".song-row").count() === 28);
+  check("Only the 26 visible songs render in the browser", await page.locator(".song-row").count() === VISIBLE_SONGS.length);
+  for (const song of SONGS.filter(song => song.hidden)) {
+    check(song.id + " is absent from the guide", await page.locator(`.song-row[data-id="${song.id}"]`).count() === 0);
+    await page.locator("#song-search-input").fill(song.title);
+    check(song.id + " cannot be found by title", await page.locator("#song-list > li:visible button").count() === 0);
+  }
   await page.locator("#song-search-input").fill("M87");
   check("Romanized alias search finds M八七", await page.locator("#song-list > li:visible button").getAttribute("data-id") === "M87");
+  await page.locator("#song-search-input").fill("23");
+  check("Original preparation number 23 still finds 烏", await page.locator("#song-list > li:visible button").getAttribute("data-id") === "Karasu");
   await page.locator("#song-search-input").fill("");
   await page.screenshot({ path: path.join(output, "guide-desktop.png"), fullPage: true });
   await page.evaluate(() => location.hash = "#/song/Lemon");
@@ -104,20 +113,49 @@ try {
   check("Pending lyric metadata does not hide a playable video", await page.locator("#yt-player").isVisible());
   await emit("onError", 150);
   check("Embed failure links the current official video", (await page.locator("#video-open").getAttribute("href")).includes("SX_ViT4Ra7k"));
-  await page.evaluate(() => location.hash = "#/song/HaruGaTomori");
-  await page.waitForFunction(() => document.getElementById("video-status").dataset.state === "pending");
-  check("Announced song shows an honest preview state", /公告與預告/.test(await page.locator("#video-status-text").innerText()));
-  check("Missing full video disables play and hides the previous iframe", await page.locator("#play-toggle").isDisabled() && await page.locator("#yt-player").isHidden());
+  for (const song of SONGS.filter(song => song.hidden)) {
+    await page.evaluate(id => location.hash = "#/song/" + id, song.id);
+    await page.locator(".pending-page").waitFor();
+    check(song.id + " direct route does not expose the hidden song", /此歌曲暫未開放/.test(await page.locator("#app").innerText()) && !(await page.locator("#app").innerText()).includes(song.title)
+      && await songViewIsOffstage(page));
+  }
   await emit("onStateChange", 1);
-  check("Delayed old player callbacks cannot start a pending song", await state() === "pending" && await page.evaluate(() => __ytTest.instances[0].state === 2));
+  check("Delayed old player callbacks cannot resume playback on a hidden route", await songViewIsOffstage(page) && await page.evaluate(() => __ytTest.instances[0].state === 2));
   await context.setOffline(true);
-  check("Pending media remains pending when offline", await state() === "pending");
+  check("Hidden route stays unavailable offline", /此歌曲暫未開放/.test(await page.locator("#app").innerText()));
   await context.setOffline(false);
   await page.evaluate(() => location.hash = "#/song/Lemon");
   await page.waitForFunction(() => !document.getElementById("yt-player").hidden);
   await emit("onStateChange", 1);
   check("Returning to a verified video reuses the player", await page.evaluate(() => __ytTest.instances.length === 1) && await state() === "playing");
-  check("Returning from a missing video restores its visible frame", await page.locator("#yt-player").isVisible());
+  check("Returning from a hidden route restores the visible player", await page.locator("#yt-player").isVisible());
+  await page.locator("#song-picker-btn").click();
+  check("Song picker contains only the 26 visible songs", await page.locator(".song-sheet-item").count() === VISIBLE_SONGS.length
+    && await page.locator('.song-sheet-item[data-id="HaruGaTomori"], .song-sheet-item[data-id="KonnichiwaGokigenyou"]').count() === 0);
+  await page.locator("#sheet-search-input").fill("M87");
+  check("Song picker alias search preserves M八七", await page.locator("#song-sheet-list > li:visible button").getAttribute("data-id") === "M87");
+  await page.locator(".song-sheet-close").click();
+  await page.evaluate(() => location.hash = "#/song/IrisOut");
+  await page.waitForFunction(() => document.getElementById("song-page-heading").textContent === "IRIS OUT");
+  await page.locator("#next-song").click();
+  await page.waitForFunction(() => location.hash === "#/song/Karasu" && document.getElementById("song-page-heading").textContent === "烏");
+  check("Next skips both hidden songs and retains preparation number 23", await page.locator("#song-picker-number").textContent() === "23.");
+  await page.locator("#prev-song").click();
+  await page.waitForFunction(() => location.hash === "#/song/IrisOut" && document.getElementById("song-page-heading").textContent === "IRIS OUT");
+  check("Previous skips both hidden songs", true);
+  for (const [songId, videoId, audio] of [
+    ["YellowGhost", "hvZe_uu_u9A", true], ["Yumeutsutsu", "7yM35hOfW9E", true],
+    ["CranberryAndPancake", "5r365k5-lA8", true], ["MelancholyKitchen", "0GEoiLdCkUM", true],
+    ["NineteenNinetyOne", "1cnndBdzCAk", false], ["MayoeruHitsuji", "DAeERkHEy00", true],
+  ]) {
+    await page.evaluate(id => location.hash = "#/song/" + id, songId);
+    await page.waitForFunction(id => window.__ytTest.instances[0].id === id, videoId);
+    check(songId + " uses its configured YouTube ID and media label", (await page.locator("#watch-on-yt").getAttribute("href")).endsWith(videoId)
+      && (await page.locator("#watch-on-yt").innerText()).includes(audio ? "聆聽" : "觀看")
+      && await page.locator("#yt-player").isVisible());
+  }
+  await page.evaluate(() => location.hash = "#/song/Lemon");
+  await page.waitForFunction(() => window.__ytTest.instances[0].id === "SX_ViT4Ra7k");
   for (const [width, height] of [[375,667],[390,844],[430,932],[768,1024],[1440,900]]) {
     await page.setViewportSize({ width, height });
     check("Song page has no horizontal overflow at " + width, await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1));
@@ -130,9 +168,31 @@ try {
   await page.locator(".pending-page").waitFor();
   check("Direct setlist route keeps Taipei concert order unconfirmed", /台北場歌單待確認/.test(await page.locator("#app").innerText()));
   await page.goto(base + "?debug=1#/song/YellowGhost");
-  await page.waitForFunction(() => document.getElementById("dbg")?.textContent.includes("同步次數"));
-  check("Direct pending-song route and Traditional Chinese debug text load", await state() === "pending" && /待補歌詞時為 0/.test(await page.locator("#dbg").innerText()));
+  await page.waitForFunction(() => document.getElementById("dbg")?.textContent.includes("同步次數") && document.querySelectorAll("#lyrics-list .lyric-line").length === 34);
+  check("Direct imported-song route and Traditional Chinese debug text load", await state() !== "pending" && /待補歌詞時為 0/.test(await page.locator("#dbg").innerText()));
   await context.close();
+
+  const delayed = await browser.newContext({ serviceWorkers: "block" });
+  const delayedPage = await delayed.newPage();
+  delayedPage.setDefaultTimeout(10000);
+  delayedPage.on("pageerror", error => report.errors.push(error.message));
+  await delayedPage.route(/youtube\.com|fonts\.(googleapis|gstatic)\.com/, route => route.abort());
+  const lyricsUrl = /\/(?:assets\/song-lyrics-[^/]+|src\/song-lyrics)\.js(?:\?.*)?$/;
+  let releaseLyrics;
+  const lyricsHeld = new Promise(resolve => { releaseLyrics = resolve; });
+  await delayedPage.route(lyricsUrl, async route => { await lyricsHeld; await route.continue(); });
+  const lyricsRequested = delayedPage.waitForRequest(lyricsUrl);
+  await delayedPage.goto(base + "#/song/Lemon", { waitUntil: "domcontentloaded" });
+  await lyricsRequested;
+  await delayedPage.evaluate(() => location.hash = "#/song/HaruGaTomori");
+  await delayedPage.locator(".pending-page").waitFor();
+  const lyricsReceived = delayedPage.waitForResponse(lyricsUrl);
+  releaseLyrics();
+  await lyricsReceived;
+  await delayedPage.waitForLoadState("networkidle");
+  check("Delayed lyric loading cannot reopen the previous song after entering a hidden route", /此歌曲暫未開放/.test(await delayedPage.locator("#app").innerText())
+    && await songViewIsOffstage(delayedPage));
+  await delayed.close();
 
   const offline = await browser.newContext({ viewport: { width: 390, height: 844 }, serviceWorkers: "allow" });
   const offlinePage = await offline.newPage();
@@ -147,8 +207,13 @@ try {
   await offlinePage.waitForFunction(() => document.getElementById("app-banner-msg")?.textContent.includes("已快取的活動資訊"));
   check("Offline message accurately describes cached local content", /影片及外部網站需要網路/.test(await offlinePage.locator("#app-banner-msg").innerText()));
   await offlinePage.evaluate(() => location.hash = "#/song/YellowGhost");
-  await offlinePage.waitForFunction(() => document.getElementById("video-status")?.dataset.state === "pending");
-  check("Lazy song data opens for the first time offline", /原文歌詞整理中/.test(await offlinePage.locator("#song-content-status").innerText()));
+  await offlinePage.waitForFunction(() => document.querySelectorAll("#lyrics-list .lyric-line").length === 34);
+  check("Visible lazy song data opens for the first time offline", /原文歌詞已匯入/.test(await offlinePage.locator("#song-content-status").innerText()));
+  for (const song of SONGS.filter(song => song.hidden)) {
+    await offlinePage.evaluate(id => location.hash = "#/song/" + id, song.id);
+    await offlinePage.locator(".pending-page").waitFor();
+    check(song.id + " stays hidden offline", /此歌曲暫未開放/.test(await offlinePage.locator("#app").innerText()) && await songViewIsOffstage(offlinePage));
+  }
   check("Official seat image is cached offline", await offlinePage.evaluate(async () => (await fetch("./images/taipei-seat-map.jpg")).status === 200));
   await offline.close();
   check("No uncaught application errors", report.errors.length === 0);

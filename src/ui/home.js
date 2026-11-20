@@ -1,5 +1,5 @@
 import { INFO_SVG, CHEVRON_SVG, EXT_LINK_SVG, NOTICE_SVG, SEAT_SVG, MAP_SVG, MANNER_SVG, SHARE_SVG, MOON_SVG } from "./icons.js";
-import { SITE, EVENT, SHOWS, TICKETS, ONSITE, SONGS } from "../data.js";
+import { SITE, EVENT, SHOWS, TICKETS, ONSITE, VISIBLE_SONGS as SONGS } from "../data.js";
 import { siteFooterHtml } from "./footer.js";
 const link = (url, label) => `<a class="info-book-link" href="${url}" target="_blank" rel="noopener">${EXT_LINK_SVG} ${label}</a>`;
 const policies = items => `<ul class="way-list">${items.map(item => `<li><b>${item.title}</b>：${item.text}</li>`).join("")}</ul>`;
@@ -37,7 +37,7 @@ export function homeHtml(build, themeToggle = `<button class="theme-toggle home-
     ${card("way", "交通與地址", MAP_SVG, `<div class="info-panel-title">${EVENT.venue}</div><p class="way-note">${EVENT.address}</p><div class="info-book-links"><button class="info-book-link" id="copy-addr" type="button">複製地址</button>${link(EVENT.mapUrl, "開啟地圖")}</div><div class="way-block"><h3 class="way-block-t">捷運板南線 · BL17 國父紀念館站</h3><ul class="way-list"><li>可由 4、5 號出口前往大巨蛋園區，實際入場入口請依票券及主辦動線。</li><li>無障礙出口與電梯資訊請查看台北捷運車站頁；演出日請預留安檢及步行時間。</li></ul></div><div class="info-book-links">${link(EVENT.stationUrl, "台北捷運出口資訊")}${link(EVENT.transitUrl, "臺北大巨蛋官方網站")}</div><p class="way-note">${ONSITE.transport}</p>`)}
     ${card("manner", "入場提醒", MANNER_SVG, `${policies(ONSITE.guidelines)}<p class="way-note">實名證件須與票券資料相符，請詳閱演出與票務資訊。再入場、包包尺寸等未核實細節以台北場後續公告為準。</p><p class="way-note">先在線上開啟指南並等待快取完成，資訊可離線閱讀；影片及外部網站仍需網路。</p>${link(EVENT.announcementUrl, "主辦常見問題與最新公告")}`)}
     <div class="menu-chips"><a class="menu-chip" href="${SITE.officialUrl}" target="_blank" rel="noopener"><span class="chip-label">米津玄師官方網站 ↗</span></a><button class="menu-chip" type="button" id="setlist-btn"><span class="chip-label">台北場歌單待確認</span></button></div></div>
-    <aside class="home-note"><div class="home-note-body"><b>把歌曲先聽熟，把驚喜留給現場。</b><p>28 首為自選預習清單，歌詞、翻譯、讀音與同步時間依來源分批整理。</p></div></aside>
+    <aside class="home-note"><div class="home-note-body"><b>把歌曲先聽熟，把驚喜留給現場。</b><p>${SONGS.length} 首為自選預習清單，歌詞、翻譯、讀音與同步時間依來源分批整理。</p></div></aside>
     <div class="home-foot"><button class="share-btn" type="button" id="share-btn">${SHARE_SVG} 分享指南</button></div></section>
   </div></section>${siteFooterHtml(build)}`;
 }

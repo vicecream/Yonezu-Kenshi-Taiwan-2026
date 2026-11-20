@@ -1,0 +1,22 @@
+{
+  "baseUrl": "http://localhost:4180/",
+  "mediaMode": "No live YouTube playback tested; external media blocked for content checks.",
+  "checks": [
+    "All 34 original rows render with exactly the 30 supplied Chinese translations",
+    "Chinese content remains Chinese after the production build",
+    "Unsupplied ending remains empty and status shows partial translation",
+    "Credit identifies the user-supplied text without assigning an unconfirmed translator",
+    "Chinese toggle is available while unverified synchronization stays disabled",
+    "Chinese can be hidden without hiding the original text",
+    "Chinese visibility preference persists after reload",
+    "Bilingual song page has no horizontal overflow at 375",
+    "Bilingual song page has no horizontal overflow at 390",
+    "Bilingual song page has no horizontal overflow at 768",
+    "Bilingual song page has no horizontal overflow at 1440",
+    "Other songs retain pending translation and a disabled Chinese toggle",
+    "Switching to an announced song retains the pending video state",
+    "Production service worker loads all original and supplied Chinese rows offline",
+    "No uncaught application errors"
+  ],
+  "errors": []
+}
