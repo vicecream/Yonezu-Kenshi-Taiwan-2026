@@ -171,6 +171,7 @@ try {
   await page.goto(base + "?debug=1#/song/YellowGhost");
   await page.waitForFunction(() => document.getElementById("dbg")?.textContent.includes("同步次數") && document.querySelectorAll("#lyrics-list .lyric-line").length === 34);
   check("Direct imported-song route and Traditional Chinese debug text load", await state() !== "pending" && /待補歌詞時為 0/.test(await page.locator("#dbg").innerText()));
+  await page.goto(base + "#/song/YellowGhost");
   await page.setViewportSize({ width: 390, height: 844 });
   for (const song of VISIBLE_SONGS) {
     const content = SONG_LYRICS.find(item => item.id === song.id);
@@ -186,6 +187,7 @@ try {
       await page.evaluate(time => { window.__ytTest.instances.at(-1).time = time; }, content.lyrics[index].time + 0.01);
       await page.waitForFunction(index => document.querySelector(".lyric-line.active")?.dataset.idx === String(index), index);
       assert.equal(await page.locator(".lyric-line.active").count(), 1);
+      if (index === content.lyrics.length - 1) await page.waitForFunction(() => document.querySelector(".lyrics-scroll").scrollTop > 0);
     }
     const seekIndex = Math.floor(content.lyrics.length / 3);
     await page.locator(".lyric-line").nth(seekIndex).click({ force: true });

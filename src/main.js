@@ -77,7 +77,7 @@ window.addEventListener("load", ()=> window.setTimeout(attachManifest, 8000), { 
 const SYNC_INTERVAL_MS   = 100;
 
 /* 畫面版本用於辨識裝置快取；須與 sw.js 的 CACHE_VERSION 一致。 */
-const BUILD = "v3.0.5";
+const BUILD = "v3.0.6";
 
 const CC_BY_NC_SA_URL = "https://creativecommons.org/licenses/by-nc-sa/4.0/";
 

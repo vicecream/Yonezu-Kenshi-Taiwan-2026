@@ -2,6 +2,14 @@
 
 [專案說明](README.md) · [儲存庫](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026) · [歷史封存](archive/fujii-kaze-2026/README.md)
 
+## v3.0.6
+
+2026-11-20 全曲 LRC 時間啟用及影片版本修正，採 PATCH 升版。
+
+- [PR #7](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/7)：確認 26 首可見歌曲的本機來源、LRC 與網站共 1,021 行原文一致，啟用逐句高亮、自動跟隨及點句跳轉；介面明示「LRC 逐句同步・影片待校正」，不將來源時間或播放器測試當成逐首音訊對齊驗證，兩首隱藏歌曲仍保留原始設定。
+- [PR #7](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/7)：將〈死神〉播放入口由 119 秒短版 MV 改為 181 秒完整官方音源，讓整首 LRC 可播放到底；來源文件保留短版 MV 連結。
+- [PR #7](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/7)：保留 987 列中文與原文、來源時間及署名，重新匯入時維持 19 首完整、7 首部分整理的翻譯狀態；補上全曲來源稽核及逐首前段、中段、尾段、倒退、點句跳轉的瀏覽器回歸檢查。
+
 ## [**v3.0.5**](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/commit/acf9e332026962df50e0f0f38ecbb73e698945ca)
 
 2026-11-20 正式站驗收發現的離線導覽修正，採 PATCH 升版。
