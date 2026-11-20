@@ -77,7 +77,7 @@ window.addEventListener("load", ()=> window.setTimeout(attachManifest, 8000), { 
 const SYNC_INTERVAL_MS   = 100;
 
 /* 畫面版本用於辨識裝置快取；須與 sw.js 的 CACHE_VERSION 一致。 */
-const BUILD = "v3.0.1";
+const BUILD = "v3.0.2";
 
 const CC_BY_NC_SA_URL = "https://creativecommons.org/licenses/by-nc-sa/4.0/";
 
@@ -1559,6 +1559,7 @@ function buildSongShell(){
     }
     const tag = (e.target && e.target.tagName || "").toLowerCase();
     if (tag === "input" || tag === "textarea") return;
+    if (e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) return;
     // 떼창만 듣기 중에는 구간 이동으로 (화면의 ‹ › 와 같은 동작)
     if (e.key === "ArrowLeft"){  e.preventDefault(); chantOnly ? skipPart(-1) : document.getElementById("prev-song").click(); }
     if (e.key === "ArrowRight"){ e.preventDefault(); chantOnly ? skipPart(1)  : document.getElementById("next-song").click(); }

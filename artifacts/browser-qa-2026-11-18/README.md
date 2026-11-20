@@ -1,29 +1,27 @@
-# 米津台北指南維護驗證
+# v3.0.1 本機修正驗證
 
-2026-11-18（Asia/Taipei），工作版本 **3.0.1（尚未發佈）**。使用 Node 24.16.0、Vite 7.3.7 與 Windows Edge 無頭瀏覽器，在 localhost:4174 的正式建置執行既有測試。維護範圍與官方資料核對見[全面維護紀錄](../../docs/maintenance-2026-11-18.md)。
+2026-11-18（Asia/Taipei）。Windows Edge，本機正式建置預覽 http://localhost:4174/，視窗約 1266 × 649。
 
-## 結果
+## 實際瀏覽器觀察
 
-[report.json](report.json) 共記錄 **42 項通過**，未捕捉的應用程式錯誤為 0。
+- 首頁與兩場日期顯示正常；選擇 12/27 後顯示「已選場次」。
+- 曲庫搜尋 Lemon 可顯示〈Lemon〉及專輯為 Lemon 的〈クランベリーとパンケーキ〉。
+- 修正前，〈Lemon〉的播放進度持續前進，但影片區空白。原因為影片隱藏樣式誤匹配歌詞來源元件的 pending 狀態。
+- 修正後，〈Lemon〉的官方 YouTube 嵌入畫面可見；按「播放影片」後看到實際 MV 與持續前進的播放進度。
+- 同頁切到〈YELLOW GHOST〉後，舊 iframe 隱藏，畫面顯示影片入口待核實及官方資訊連結。
 
-- 雙場次自動選擇、手動保存、台灣午夜與開演邊界正常。
-- 票務資訊顯示主辦公告的退票期限與 5% 手續費。
-- 座位圖展開後才建立圖片，375×667、390×844、430×932、768×1024、1440×900 均無水平溢出或圖面裁切。
-- 28 首顯示、羅馬字搜尋、舊連結及直接開啟歌單待確認頁正常。
-- 從影片換至已公告新曲時停止舊影片；延遲回呼不會啟動待補歌曲，切回有影片曲目可復用播放器。
-- 直接開啟待補歌曲與繁中除錯文字正常。
-- 真實 SW 註冊與接管、離線重整、首次離線載入歌曲資料及座位圖正常；提示明示僅可閱讀已快取內容。
+上述實際串流觀察只涵蓋〈Lemon〉，不代表其他 19 首影片、正式站、Safari 或實體手機已驗證。
 
-## 截圖
+## 程式檢查
 
-- [手機首頁與座位圖](home-390.png) · [桌面首頁與座位圖](home-1440.png)
-- [桌面預習清單](guide-desktop.png)
-- [手機歌曲頁](song-390.png) · [桌面歌曲頁](song-1440.png)
+- check:guide、check:deployment、build 及 git diff --check 通過。
+- DOM smoke 通過；新增 Alt／Ctrl／Meta／Shift＋方向鍵不攔截原生操作、不換歌，以及單獨方向鍵仍可換歌的檢查。
+- check-player-browser.mjs 新增可播放影片與從待補影片返回後的可見性斷言。本輪未重新執行該自動瀏覽器腳本；既有 38 項模擬結果仍屬 11/17 的歷史紀錄。
 
-已目視檢查手機首頁與桌面歌曲頁；影片空白框來自受控 API fixture。測試將日期固定在演出日以驗證場次邊界，截圖倒數並非驗收日的即時倒數。
+## 尚待確認
 
-## 範圍與重跑
+最新快捷鍵修正的原生瀏覽器返回操作尚未重測。電腦控制服務連線中斷，Cloudflare 首次部署、正式網址及線上驗收尚未完成；不將建置成功或 GitHub 檢查通過視為已上線。
 
-媒體狀態以受控 YouTube API fixture 檢查，沒有驗證 20 首影片的實際串流、正式站、Safari 或實體手機。第三方字型不屬於此次連線驗證範圍。
+## 同日其他測試紀錄
 
-先執行 `npm run build`，再啟動 `npm run preview -- --host localhost --port 4174 --strictPort`。將外部安裝的 Playwright Core ESM 入口傳給 `node scripts/check-player-browser.mjs <入口>`，並設定 `YONEZU_QA_BASE_URL=http://localhost:4174/`、`YONEZU_QA_OUTPUT=artifacts/browser-qa-2026-11-18`；測試工具未加入網站依賴。DOM 驗證同樣可使用外部 linkedom，詳見[專案說明](../../README.md#本機開發與檢查)。
+[受控 API 維護驗證](fixture-README.md)另存同日的 42 項自動測試與截圖，沒有將模擬畫面當作實際串流驗證。後續本機架構驗收見[完整報告](../local-architecture-2026-11-18/README.md)，正式站狀態見[目前部署文件](../../CLOUDFLARE_DEPLOY.md)。

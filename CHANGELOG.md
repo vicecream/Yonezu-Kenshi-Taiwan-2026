@@ -2,15 +2,20 @@
 
 [專案說明](README.md) · [儲存庫](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026) · [歷史封存](archive/fujii-kaze-2026/README.md)
 
-## v3.0.1
+## [**v3.0.2**](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/commit/d8d9e992f0126b3c506cdc0656b50d4508242a8c)
 
-2026-11-18 GHOST 台北指南資料、設定及資產維護，採 PATCH 升版。來源發布至本專案 main；網站部署及正式站驗收另行處理。
+2026-11-19 正式站部署與文件校正。
 
-- [PR #3](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/3)：重新核對 GHOST 台北場官方公告，維持 12/26、12/27 臺北大巨蛋、預計 15:00 入場與 18:00 開演，補上主辦公告的退票期限及手續費，保留一般販售視票況決定的條件。
-- [PR #3](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/3)：移除有效圖片目錄中已完整封存的舊場次海報與地圖，建置只複製活動資料指定的圖片，避免舊高雄場資產進入米津版輸出。
-- [PR #3](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/3)：修正離線提示及除錯文字，明示僅能閱讀已快取的活動資訊與本地內容，不宣稱已有待補歌詞或應援提示。
-- [PR #3](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/3)：更新規格設定的繁體中文與專案背景、HTML 與快取維護說明，補上全面檢查紀錄，並擴大現行來源、版本、圖片與部署產物的回歸檢查，修正 Windows 換行造成的版本檢查誤判。
-- [PR #3](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/3)：新增完整本機架構驗收腳本與截圖，56 項架構及 42 項播放器／離線檢查通過，涵蓋 28 首直接路由與首次離線載入、搜尋、排序、選歌、返回導覽、PWA 資源及響應式版面；保留未驗證 YouTube 實際串流的限制。
+- [PR #4](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/4)：登錄米津版正式網站，更新 README、維護規範及 Pages Direct Upload 建置／部署流程，明示 GitHub 推送與網站部署分開處理。
+- [PR #4](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/4)：以新的版本與快取編號重新建置完整網站，部署與已發布播放器修正一致的靜態檔案，並核對正式網址的分享與搜尋資訊。
+
+## [**v3.0.1**](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/commit/72d41ee1a45fca9772d5322eaafdf9d85e833452)
+
+2026-11-18 本機瀏覽器測試修正；正式網站仍待 Cloudflare 部署及線上驗收。
+
+- [PR #2](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/2)：修正歌詞來源待補時誤隱藏〈Lemon〉等已有官方影片的播放器；只在影片本身待補時隱藏舊影片，並補上可見性回歸檢查。
+- [PR #2](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/2)：保留 Alt＋方向鍵等瀏覽器快捷鍵，避免被上一首／下一首操作攔截。
+- [PR #2](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/2)：更新 Pages 部署準備狀態與本機實際影片驗證紀錄，清楚區分已驗證項目及待確認項目。
 
 ## [**v3.0.0**](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/commit/26b325c9c735574781ed01f36cffb118faeb68a8)
 

@@ -8,6 +8,7 @@ context: |
   src/data.js 為活動資料來源，28 首曲庫在 src/song-metadata.js；預習編號不是正式歌單。
   缺少影片、歌詞、翻譯、讀音及時間資料時明示待補，預告不能當作完整歌曲影片。
   圖片、PWA、快取及儲存設定均對應米津版；儲存與快取使用 yonezu- 命名空間。
-  正式網站尚未建立，SITE.url 保持 null；未設定部署網址時不產生 canonical 或 sitemap。
+  正式站採 Cloudflare Pages Direct Upload，GitHub 推送不會自動部署。
+  正式建置使用已核實的 SITE_URL；SITE.url 保持 null，未設定部署網址時不產生 canonical 或 sitemap。
   舊藝人資料僅供歷史追溯，不匯入有效程式或預快取。保留 public/assets 相容檔案。
   維護與版本規範以根目錄 AGENTS.md 為準；dist 為產生檔，GitHub Actions 僅檢查建置。

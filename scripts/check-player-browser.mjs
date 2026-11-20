@@ -101,6 +101,7 @@ try {
   check("Autoplay blocking offers manual playback", await page.locator("#video-start").isVisible());
   await page.locator("#video-start").click();
   check("Manual playback clears the blocked status", await state() === "playing");
+  check("Pending lyric metadata does not hide a playable video", await page.locator("#yt-player").isVisible());
   await emit("onError", 150);
   check("Embed failure links the current official video", (await page.locator("#video-open").getAttribute("href")).includes("SX_ViT4Ra7k"));
   await page.evaluate(() => location.hash = "#/song/HaruGaTomori");
@@ -116,6 +117,7 @@ try {
   await page.waitForFunction(() => !document.getElementById("yt-player").hidden);
   await emit("onStateChange", 1);
   check("Returning to a verified video reuses the player", await page.evaluate(() => __ytTest.instances.length === 1) && await state() === "playing");
+  check("Returning from a missing video restores its visible frame", await page.locator("#yt-player").isVisible());
   for (const [width, height] of [[375,667],[390,844],[430,932],[768,1024],[1440,900]]) {
     await page.setViewportSize({ width, height });
     check("Song page has no horizontal overflow at " + width, await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1));

@@ -2,9 +2,9 @@
 
 繁體中文非官方粉絲指南，對應 **KENSHI YONEZU 2026-2027 WORLD TOUR / GHOST** 台北場：**2026/12/26（六）、12/27（日）臺北大巨蛋，兩場皆預計 15:00 入場、18:00 開演**。所有時間採 `Asia/Taipei`，實際安排以主辦公告為準。
 
-[專案儲存庫](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026) · [主辦專頁](https://yk2026.abigart.com/?lang=zh) · [藝人官方網站](https://reissuerecords.net/)
+[正式網站](https://yonezu-kenshi-taiwan-2026.pages.dev/) · [專案儲存庫](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026) · [主辦專頁](https://yk2026.abigart.com/?lang=zh) · [藝人官方網站](https://reissuerecords.net/)
 
-目前來源版本為 **3.0.1**，發布內容見 [PR #3](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/3) 與[更新紀錄](CHANGELOG.md)。**正式網站尚未建立**；Cloudflare 帳號連線、部署及正式站驗收另行處理。
+目前來源版本為 **3.0.2**，發布內容見[更新紀錄](CHANGELOG.md)。[正式網站](https://yonezu-kenshi-taiwan-2026.pages.dev/)使用 Cloudflare Pages 直接上傳；GitHub 的 main 保管來源，推送不會自動更新目前網站。建置與上傳方式見[部署指南](CLOUDFLARE_DEPLOY.md)。
 
 ## 文件導覽
 
@@ -18,6 +18,7 @@
 | 設定新網站 | [Cloudflare Pages 部署](CLOUDFLARE_DEPLOY.md) |
 | 開發規範與版本 | [AGENTS](AGENTS.md) · [設計規範](DESIGN.md) · [更新紀錄](CHANGELOG.md) |
 | 本機驗收結果與截圖 | [2026-11-17 驗證紀錄](artifacts/browser-qa-2026-11-17/README.md) |
+| 實際影片與快捷鍵修正驗證 | [2026-11-18 驗證紀錄](artifacts/browser-qa-2026-11-18/README.md) |
 | 完整本機網站架構與離線流程 | [2026-11-18 架構驗收](artifacts/local-architecture-2026-11-18/README.md) |
 | 設定、圖片與文字全面檢查 | [2026-11-18 維護紀錄](docs/maintenance-2026-11-18.md) |
 | 舊指南、歌詞與測試紀錄 | [歷史封存](archive/fujii-kaze-2026/README.md) |
