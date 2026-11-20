@@ -2,7 +2,7 @@
 
 [專案說明](README.md) · [儲存庫](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026) · [歷史封存](archive/fujii-kaze-2026/README.md)
 
-## v3.0.6
+## [**v3.0.6**](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/commit/a6d0180dbded9a7c48da86c98a6ec5422dc75cde)
 
 2026-11-20 全曲 LRC 時間啟用及影片版本修正，採 PATCH 升版。
 
