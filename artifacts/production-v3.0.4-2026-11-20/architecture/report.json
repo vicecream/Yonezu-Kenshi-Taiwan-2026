@@ -1,0 +1,361 @@
+{
+  "checkedAt": "2026-11-20T10:08:59.242Z",
+  "timeZone": "Asia/Taipei",
+  "baseUrl": "https://yonezu-kenshi-taiwan-2026.pages.dev/",
+  "version": "3.0.4",
+  "browser": "Microsoft Edge (headless, isolated context)",
+  "mediaMode": "External YouTube and font requests blocked; real local navigation and assets tested",
+  "checks": [
+    "Production homepage responds with the current prerendered guide",
+    "PWA manifest and every declared icon are valid local assets",
+    "All generated SW chunks and event images return correct resource types",
+    "Homepage poster and both show selectors initialize",
+    "Home information card expands and collapses: info",
+    "Home information card expands and collapses: notice",
+    "Home information card expands and collapses: seat",
+    "Home information card expands and collapses: way",
+    "Home information card expands and collapses: manner",
+    "Expanded home links have valid destinations and safe new-tab attributes",
+    "Changelog opens, loads its split chunk, and restores focus on Escape",
+    "Home setlist navigation offers a working preparation link",
+    "Preparation list matches all fixed IDs and numbers",
+    "Original title, romanized title, number and empty search states work",
+    "Name sorting persists and switching back restores preparation numbering",
+    "Every preparation row paints correctly when scrolled into view",
+    "Reading theme toggles and survives a direct reload",
+    "Direct song route: YellowGhost",
+    "Direct song route: Shunrai",
+    "Direct song route: Kanden",
+    "Direct song route: Flamingo",
+    "Direct song route: Lady",
+    "Direct song route: Yumeutsutsu",
+    "Direct song route: CranberryAndPancake",
+    "Direct song route: Shinigami",
+    "Direct song route: SayonaraMataItsuka",
+    "Direct song route: MelancholyKitchen",
+    "Direct song route: NineteenNinetyOne",
+    "Direct song route: Lemon",
+    "Direct song route: JaneDoe",
+    "Direct song route: UmiNoYuurei",
+    "Direct song route: Yodaka",
+    "Direct song route: Loser",
+    "Direct song route: BowAndArrow",
+    "Direct song route: PeaceSign",
+    "Direct song route: KickBack",
+    "Direct song route: IrisOut",
+    "Direct song route: Karasu",
+    "Direct song route: MayoeruHitsuji",
+    "Direct song route: Plazma",
+    "Direct song route: M87",
+    "Direct song route: Chikyugi",
+    "Direct song route: EineKleine",
+    "Chinese and original visibility controls preserve bilingual reading preferences",
+    "Previous/next navigation loops through fixed preparation order",
+    "Song picker opens, searches, selects and restores focus",
+    "Compact display persists across reload and can be turned off",
+    "Song back button, browser Back and Forward keep routes usable",
+    "Malformed and legacy song routes offer working recovery links",
+    "Home, guide and pending song remain within viewport at 375",
+    "Home, guide and pending song remain within viewport at 390",
+    "Home, guide and pending song remain within viewport at 768",
+    "Home, guide and pending song remain within viewport at 1440",
+    "Every song route can first open offline after production SW precache",
+    "No uncaught application errors or failed local resource requests"
+  ],
+  "failures": [],
+  "pageErrors": [],
+  "localRequestFailures": [],
+  "routes": [
+    {
+      "id": "YellowGhost",
+      "title": "YELLOW GHOST",
+      "video": "official entry; streaming unverified",
+      "lyrics": "imported",
+      "translation": "partial",
+      "translatedRows": 30
+    },
+    {
+      "id": "Shunrai",
+      "title": "春雷",
+      "video": "official entry; streaming unverified",
+      "lyrics": "imported",
+      "translation": "ready",
+      "translatedRows": 40
+    },
+    {
+      "id": "Kanden",
+      "title": "感電",
+      "video": "official entry; streaming unverified",
+      "lyrics": "imported",
+      "translation": "ready",
+      "translatedRows": 55
+    },
+    {
+      "id": "Flamingo",
+      "title": "Flamingo",
+      "video": "official entry; streaming unverified",
+      "lyrics": "imported",
+      "translation": "partial",
+      "translatedRows": 45
+    },
+    {
+      "id": "Lady",
+      "title": "LADY",
+      "video": "official entry; streaming unverified",
+      "lyrics": "imported",
+      "translation": "ready",
+      "translatedRows": 35
+    },
+    {
+      "id": "Yumeutsutsu",
+      "title": "ゆめうつつ",
+      "video": "official entry; streaming unverified",
+      "lyrics": "imported",
+      "translation": "partial",
+      "translatedRows": 46
+    },
+    {
+      "id": "CranberryAndPancake",
+      "title": "クランベリーとパンケーキ",
+      "video": "official entry; streaming unverified",
+      "lyrics": "imported",
+      "translation": "ready",
+      "translatedRows": 49
+    },
+    {
+      "id": "Shinigami",
+      "title": "死神",
+      "video": "official entry; streaming unverified",
+      "lyrics": "imported",
+      "translation": "partial",
+      "translatedRows": 42
+    },
+    {
+      "id": "SayonaraMataItsuka",
+      "title": "さよーならまたいつか！",
+      "video": "official entry; streaming unverified",
+      "lyrics": "imported",
+      "translation": "ready",
+      "translatedRows": 35
+    },
+    {
+      "id": "MelancholyKitchen",
+      "title": "メランコリーキッチン",
+      "video": "official entry; streaming unverified",
+      "lyrics": "imported",
+      "translation": "partial",
+      "translatedRows": 41
+    },
+    {
+      "id": "NineteenNinetyOne",
+      "title": "1991",
+      "video": "official entry; streaming unverified",
+      "lyrics": "imported",
+      "translation": "ready",
+      "translatedRows": 18
+    },
+    {
+      "id": "Lemon",
+      "title": "Lemon",
+      "video": "official entry; streaming unverified",
+      "lyrics": "imported",
+      "translation": "ready",
+      "translatedRows": 37
+    },
+    {
+      "id": "JaneDoe",
+      "title": "JANE DOE",
+      "video": "official entry; streaming unverified",
+      "lyrics": "imported",
+      "translation": "ready",
+      "translatedRows": 16
+    },
+    {
+      "id": "UmiNoYuurei",
+      "title": "海の幽霊",
+      "video": "official entry; streaming unverified",
+      "lyrics": "imported",
+      "translation": "ready",
+      "translatedRows": 25
+    },
+    {
+      "id": "Yodaka",
+      "title": "夜鷹",
+      "video": "official entry; streaming unverified",
+      "lyrics": "imported",
+      "translation": "partial",
+      "translatedRows": 24
+    },
+    {
+      "id": "Loser",
+      "title": "LOSER",
+      "video": "official entry; streaming unverified",
+      "lyrics": "imported",
+      "translation": "ready",
+      "translatedRows": 74
+    },
+    {
+      "id": "BowAndArrow",
+      "title": "BOW AND ARROW",
+      "video": "official entry; streaming unverified",
+      "lyrics": "imported",
+      "translation": "ready",
+      "translatedRows": 22
+    },
+    {
+      "id": "PeaceSign",
+      "title": "ピースサイン",
+      "video": "official entry; streaming unverified",
+      "lyrics": "imported",
+      "translation": "ready",
+      "translatedRows": 60
+    },
+    {
+      "id": "KickBack",
+      "title": "KICK BACK",
+      "video": "official entry; streaming unverified",
+      "lyrics": "imported",
+      "translation": "ready",
+      "translatedRows": 46
+    },
+    {
+      "id": "IrisOut",
+      "title": "IRIS OUT",
+      "video": "official entry; streaming unverified",
+      "lyrics": "imported",
+      "translation": "partial",
+      "translatedRows": 40
+    },
+    {
+      "id": "Karasu",
+      "title": "烏",
+      "video": "official entry; streaming unverified",
+      "lyrics": "imported",
+      "translation": "ready",
+      "translatedRows": 32
+    },
+    {
+      "id": "MayoeruHitsuji",
+      "title": "迷える羊",
+      "video": "official entry; streaming unverified",
+      "lyrics": "imported",
+      "translation": "ready",
+      "translatedRows": 24
+    },
+    {
+      "id": "Plazma",
+      "title": "Plazma",
+      "video": "official entry; streaming unverified",
+      "lyrics": "imported",
+      "translation": "ready",
+      "translatedRows": 28
+    },
+    {
+      "id": "M87",
+      "title": "M八七",
+      "video": "official entry; streaming unverified",
+      "lyrics": "imported",
+      "translation": "ready",
+      "translatedRows": 26
+    },
+    {
+      "id": "Chikyugi",
+      "title": "地球儀",
+      "video": "official entry; streaming unverified",
+      "lyrics": "imported",
+      "translation": "ready",
+      "translatedRows": 45
+    },
+    {
+      "id": "EineKleine",
+      "title": "アイネクライネ",
+      "video": "official entry; streaming unverified",
+      "lyrics": "imported",
+      "translation": "ready",
+      "translatedRows": 52
+    }
+  ],
+  "assets": [
+    {
+      "path": "./assets/apple-touch-icon-DVhlL-YR.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "path": "./assets/icon-192-9r-ask7F.png",
+      "status": 200,
+      "contentType": "image/png"
+    },
+    {
+      "path": "./assets/ghost-poster-BlYnx-8K.jpg",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "path": "./assets/ghost-poster-mobile-D_EXDK-q.jpg",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "path": "./assets/index-BwGYh0Ts.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "path": "./assets/index-D8oHm-ty.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "path": "./assets/CHANGELOG-SCVSq2bx.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "path": "./assets/song-lyrics-C38IwWQY.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "path": "./assets/furigana-corrections-CazyFMhd.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "path": "./assets/furigana-Dvt41uxz.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "path": "./assets/karaoke-sources-CmSRM-Yb.js",
+      "status": 200,
+      "contentType": "application/javascript"
+    },
+    {
+      "path": "./images/ghost-poster.jpg",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "path": "./images/ghost-poster-mobile.jpg",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "path": "./images/taipei-seat-map.jpg",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "path": "./apple-touch-icon.png",
+      "status": 200,
+      "contentType": "image/png"
+    }
+  ],
+  "summary": {
+    "passed": 55,
+    "failed": 0,
+    "songs": 26,
+    "assets": 15
+  }
+}

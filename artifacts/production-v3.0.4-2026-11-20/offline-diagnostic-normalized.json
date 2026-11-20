@@ -1,0 +1,124 @@
+{
+  "requests": [],
+  "errors": [],
+  "cache": [
+    {
+      "key": "yonezu-guide-v3.0.4",
+      "url": "https://yonezu-kenshi-taiwan-2026.pages.dev/index.html",
+      "redirected": true,
+      "type": "basic",
+      "requestHeaders": [],
+      "responseHeaders": [
+        [
+          "access-control-allow-origin",
+          "*"
+        ],
+        [
+          "alt-svc",
+          "h3=\":443\"; ma=86400"
+        ],
+        [
+          "cache-control",
+          "public, max-age=0, must-revalidate"
+        ],
+        [
+          "cf-ray",
+          "a5d6ac7a3dbd085d-TPE"
+        ],
+        [
+          "content-encoding",
+          "br"
+        ],
+        [
+          "content-type",
+          "text/html; charset=utf-8"
+        ],
+        [
+          "date",
+          "Fri, 20 Nov 2026 10:11:59 GMT"
+        ],
+        [
+          "nel",
+          "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+        ],
+        [
+          "referrer-policy",
+          "strict-origin-when-cross-origin"
+        ],
+        [
+          "report-to",
+          "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=SZecd2AHufbCnNwuOJCHGjzhq0fOTQPWp8BHXDTH1V88s8MtUPP%2FIT39uGjFlmRdrixIWzsHxXo9et05AF%2FOu1hbNfnOkQiI74Ads6I64jFYCprWUlRtdJZS6bgfBVZGbFqZa9rqq6qA7VrRXdTh4CONNgZhbQ%3D%3D\"}]}"
+        ],
+        [
+          "server",
+          "cloudflare"
+        ],
+        [
+          "x-content-type-options",
+          "nosniff"
+        ]
+      ],
+      "normalMatch": true
+    },
+    {
+      "key": "yonezu-guide-v3.0.4",
+      "url": "https://yonezu-kenshi-taiwan-2026.pages.dev/",
+      "redirected": false,
+      "type": "basic",
+      "requestHeaders": [],
+      "responseHeaders": [
+        [
+          "access-control-allow-origin",
+          "*"
+        ],
+        [
+          "alt-svc",
+          "h3=\":443\"; ma=86400"
+        ],
+        [
+          "cache-control",
+          "public, max-age=0, must-revalidate"
+        ],
+        [
+          "cf-ray",
+          "a5d6ac7a2d56085d-TPE"
+        ],
+        [
+          "content-encoding",
+          "br"
+        ],
+        [
+          "content-type",
+          "text/html; charset=utf-8"
+        ],
+        [
+          "date",
+          "Fri, 20 Nov 2026 10:11:59 GMT"
+        ],
+        [
+          "nel",
+          "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+        ],
+        [
+          "referrer-policy",
+          "strict-origin-when-cross-origin"
+        ],
+        [
+          "report-to",
+          "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=yhGidz9DGEWSxSruxv6GItAMnHUzPkbNqTv%2FsRPUevXweD6CRry5XDASYwX4Gh%2FcUy7PfgsnltDeeucNoDPEieCZJNp4Mxk9LmJaFsRX7h0zUgXboyoEfn9T6Tui%2FdX6CjGytPW%2Bdil2LvtJm7aP2wDhL89mVw%3D%3D\"}]}"
+        ],
+        [
+          "server",
+          "cloudflare"
+        ],
+        [
+          "x-content-type-options",
+          "nosniff"
+        ]
+      ],
+      "normalMatch": true
+    }
+  ],
+  "reload": "success",
+  "hero": 1
+}

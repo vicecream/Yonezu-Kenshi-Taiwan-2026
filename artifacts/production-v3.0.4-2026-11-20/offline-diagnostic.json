@@ -1,0 +1,126 @@
+{
+  "requests": [
+    {
+      "url": "https://yonezu-kenshi-taiwan-2026.pages.dev/",
+      "error": {
+        "errorText": "net::ERR_FAILED"
+      }
+    }
+  ],
+  "errors": [],
+  "cache": [
+    {
+      "key": "yonezu-guide-v3.0.4",
+      "url": "https://yonezu-kenshi-taiwan-2026.pages.dev/",
+      "requestHeaders": [],
+      "responseHeaders": [
+        [
+          "access-control-allow-origin",
+          "*"
+        ],
+        [
+          "alt-svc",
+          "h3=\":443\"; ma=86400"
+        ],
+        [
+          "cache-control",
+          "public, max-age=0, must-revalidate"
+        ],
+        [
+          "cf-ray",
+          "a5d6aabb0caa8469-TPE"
+        ],
+        [
+          "content-encoding",
+          "br"
+        ],
+        [
+          "content-type",
+          "text/html; charset=utf-8"
+        ],
+        [
+          "date",
+          "Fri, 20 Nov 2026 10:10:48 GMT"
+        ],
+        [
+          "nel",
+          "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+        ],
+        [
+          "referrer-policy",
+          "strict-origin-when-cross-origin"
+        ],
+        [
+          "report-to",
+          "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=p6IS5LhxFE9RHeuategQrm8gh0BwOh%2B3SgKowLJwoYYTNLTqyjZ5YwJJlMDOIb%2BfQMIkMo%2B8TfEqVyl58CFUXLvIs3DcpBqiVirsyvaNxUwR8SljrBP%2B8syDGhujU8vNmIn7jMhSTDVsACrEpsxFKaAZCXoCNw%3D%3D\"}]}"
+        ],
+        [
+          "server",
+          "cloudflare"
+        ],
+        [
+          "x-content-type-options",
+          "nosniff"
+        ]
+      ],
+      "normalMatch": true
+    },
+    {
+      "key": "yonezu-guide-v3.0.4",
+      "url": "https://yonezu-kenshi-taiwan-2026.pages.dev/index.html",
+      "requestHeaders": [],
+      "responseHeaders": [
+        [
+          "access-control-allow-origin",
+          "*"
+        ],
+        [
+          "alt-svc",
+          "h3=\":443\"; ma=86400"
+        ],
+        [
+          "cache-control",
+          "public, max-age=0, must-revalidate"
+        ],
+        [
+          "cf-ray",
+          "a5d6aabb5d188469-TPE"
+        ],
+        [
+          "content-encoding",
+          "br"
+        ],
+        [
+          "content-type",
+          "text/html; charset=utf-8"
+        ],
+        [
+          "date",
+          "Fri, 20 Nov 2026 10:10:48 GMT"
+        ],
+        [
+          "nel",
+          "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+        ],
+        [
+          "referrer-policy",
+          "strict-origin-when-cross-origin"
+        ],
+        [
+          "report-to",
+          "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=uszytoapzv8SyJ20POrTzKu4uf%2FaAgcerS2hW8GXJjhxY9mLE0RfN0nK%2FYnJgo5RNuthWAGxgcZigZ3qtfskvkYji1%2FBEK0Qi3E6kZ7zjbtul4haIdSlNB9acJIWRiaz%2BjovSDmX4K2esXveIeGRy3Bh%2Fkh1BQ%3D%3D\"}]}"
+        ],
+        [
+          "server",
+          "cloudflare"
+        ],
+        [
+          "x-content-type-options",
+          "nosniff"
+        ]
+      ],
+      "normalMatch": true
+    }
+  ],
+  "reload": "page.reload: net::ERR_FAILED\nCall log:\n\u001b[2m  - waiting for navigation until \"domcontentloaded\"\u001b[22m\n"
+}

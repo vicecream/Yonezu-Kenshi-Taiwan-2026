@@ -1,0 +1,226 @@
+{
+  "checkedAt": "2026-11-20T10:09:40.608Z",
+  "baseUrl": "https://yonezu-kenshi-taiwan-2026.pages.dev/",
+  "version": "3.0.4",
+  "sourceCommit": "55b7767cdcdf4ad246223f223b4ae1058e833638",
+  "releaseCommit": "ed48431241f415edb235361a9983477a92b0fbde",
+  "zipSha256": "4222fe0333095f55996c3d3c110751c97811067814e94e5f000c23ded027af7a",
+  "checks": [
+    "All published files match the local production build byte-for-byte",
+    "Root homepage reports v3.0.4",
+    "Production canonical and sitemap present",
+    "Cloudflare nosniff and referrer-policy response headers verified"
+  ],
+  "files": [
+    {
+      "path": "apple-touch-icon.png",
+      "bytes": 3698,
+      "sha256": "1cd968ca24463a02f648918176457c40b7c47ee597f4dfae4d13e7d38b11a1fa",
+      "status": 200
+    },
+    {
+      "path": "assets/apple-touch-icon-DVhlL-YR.png",
+      "bytes": 3698,
+      "sha256": "1cd968ca24463a02f648918176457c40b7c47ee597f4dfae4d13e7d38b11a1fa",
+      "status": 200
+    },
+    {
+      "path": "assets/CHANGELOG-Be6e1A5E.js",
+      "bytes": 14423,
+      "sha256": "baa21486ac54d38d368de2d14e4bd545ce16744ab7920a31a1ca88514e4c08b2",
+      "status": 200
+    },
+    {
+      "path": "assets/CHANGELOG-CG_76G-L.js",
+      "bytes": 12008,
+      "sha256": "ea42954479e9a038e34e8d0f282c748fe1f8656f6cb270e6452edd4be7cc3564",
+      "status": 200
+    },
+    {
+      "path": "assets/CHANGELOG-CUs20cor.js",
+      "bytes": 13286,
+      "sha256": "97320861061e607877a0e5638113f9f3d3325abbc73f5a94b194eac4a38a3bc7",
+      "status": 200
+    },
+    {
+      "path": "assets/CHANGELOG-CvXw0s_C.js",
+      "bytes": 13812,
+      "sha256": "b9f37cb4c8b393e3df72d2bb7e6626cb79b87a78152d2d7a1cea87bc0549889a",
+      "status": 200
+    },
+    {
+      "path": "assets/CHANGELOG-D6wOiOKY.js",
+      "bytes": 12611,
+      "sha256": "a713f4060839454adf2499ab62d5f3f017e51d0e6e6aa2ffd37a12814bec7608",
+      "status": 200
+    },
+    {
+      "path": "assets/CHANGELOG-j3TVBOGK.js",
+      "bytes": 12710,
+      "sha256": "03fb886d359b807947f01413f82089db28b7a8bf9a213690fee598cf13cff75c",
+      "status": 200
+    },
+    {
+      "path": "assets/CHANGELOG-SCVSq2bx.js",
+      "bytes": 27961,
+      "sha256": "9dd8504b1c3658ea1a94312927f37840be1fdaeda4c4107393657aaa8ef5f3bb",
+      "status": 200
+    },
+    {
+      "path": "assets/furigana-corrections-CazyFMhd.js",
+      "bytes": 105,
+      "sha256": "371481e40f2a816b6db53d68c0c87a88377a57c240fad5ca4e1c406336f1cefc",
+      "status": 200
+    },
+    {
+      "path": "assets/furigana-Dvt41uxz.js",
+      "bytes": 73,
+      "sha256": "018bc506e02ee4b2ab595e27373dc9bf7680047cb63155a58ecada7e74b50db5",
+      "status": 200
+    },
+    {
+      "path": "assets/ghost-poster-BlYnx-8K.jpg",
+      "bytes": 205655,
+      "sha256": "1b01957963675e1750751fee23c0b5c48a23a62f47e15c8ebd5848ed11a08dc3",
+      "status": 200
+    },
+    {
+      "path": "assets/ghost-poster-mobile-D_EXDK-q.jpg",
+      "bytes": 185278,
+      "sha256": "7b214641ed85427d6b956bf221f56ad534d1d6350f6cfda275462f1812f65e8f",
+      "status": 200
+    },
+    {
+      "path": "assets/icon-192-9r-ask7F.png",
+      "bytes": 4044,
+      "sha256": "e7ab68d50714d0230452a3bca90f13a3ed74b5f6addbf15d01d5801ae9a926ef",
+      "status": 200
+    },
+    {
+      "path": "assets/index-B12LFyV5.js",
+      "bytes": 163066,
+      "sha256": "bb50a1f84b76d7c61907d7805a6452f6c3c5c2ad49d8cea5c129fb973226fc79",
+      "status": 200
+    },
+    {
+      "path": "assets/index-B4hh13vP.js",
+      "bytes": 162902,
+      "sha256": "15fd287d9578e06810751db3e51566839994129bfdae995e67668d1f3742d898",
+      "status": 200
+    },
+    {
+      "path": "assets/index-BLH0kM9B.js",
+      "bytes": 163527,
+      "sha256": "432c56006770474c1ba6a4fbe80a7cf88d18edbb05554fcfd9f68d62ebcf9330",
+      "status": 200
+    },
+    {
+      "path": "assets/index-BwGYh0Ts.css",
+      "bytes": 98542,
+      "sha256": "d695ef84b7b663a2c9fa8340aaeddc1c5db0cb84cf795bd8ecf3ff430d4a83ce",
+      "status": 200
+    },
+    {
+      "path": "assets/index-CDAHPXq6.js",
+      "bytes": 162902,
+      "sha256": "baaaf1a01eda76c7053361dc4b7eb12e2ba09470ea5ea7d510ec81157a1bb7f1",
+      "status": 200
+    },
+    {
+      "path": "assets/index-CTbm0jje.js",
+      "bytes": 163527,
+      "sha256": "4a0457cb72b8b971ab510d9db99c5555035d5b8d2d5027d4841401a2f409e711",
+      "status": 200
+    },
+    {
+      "path": "assets/index-D8oHm-ty.js",
+      "bytes": 137237,
+      "sha256": "aaec5ee267adc7aa2e00c0e2cd817ac67140de5a2889f30fa08e27b3c261b88c",
+      "status": 200
+    },
+    {
+      "path": "assets/index-DuEhv5Vb.js",
+      "bytes": 162902,
+      "sha256": "f5f8b29e9f1345df5b969723ba068e945c09cb6a183720fc97052f4dcbf105eb",
+      "status": 200
+    },
+    {
+      "path": "assets/karaoke-sources-CmSRM-Yb.js",
+      "bytes": 19253,
+      "sha256": "ac7e04529c43601595d1add16ac834eba8c1af9488155de26c3691d6f13b1f03",
+      "status": 200
+    },
+    {
+      "path": "assets/song-lyrics-C38IwWQY.js",
+      "bytes": 196067,
+      "sha256": "33bac402e9a63886af20cadd1063d767545238b7803c637684b4d67331668a53",
+      "status": 200
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 4044,
+      "sha256": "e7ab68d50714d0230452a3bca90f13a3ed74b5f6addbf15d01d5801ae9a926ef",
+      "status": 200
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 12438,
+      "sha256": "dd1b3f54d37281e5d762b4779199bafb23536bbb07ec2dac9dac4354cd0cb1e0",
+      "status": 200
+    },
+    {
+      "path": "icon-maskable-512.png",
+      "bytes": 12438,
+      "sha256": "dd1b3f54d37281e5d762b4779199bafb23536bbb07ec2dac9dac4354cd0cb1e0",
+      "status": 200
+    },
+    {
+      "path": "images/ghost-poster-mobile.jpg",
+      "bytes": 185278,
+      "sha256": "7b214641ed85427d6b956bf221f56ad534d1d6350f6cfda275462f1812f65e8f",
+      "status": 200
+    },
+    {
+      "path": "images/ghost-poster.jpg",
+      "bytes": 205655,
+      "sha256": "1b01957963675e1750751fee23c0b5c48a23a62f47e15c8ebd5848ed11a08dc3",
+      "status": 200
+    },
+    {
+      "path": "images/taipei-seat-map.jpg",
+      "bytes": 273181,
+      "sha256": "954c9e3e6258766b0d87130017af44a9772ac11996fa41fa0015077e7bd381c4",
+      "status": 200
+    },
+    {
+      "path": "index.html",
+      "bytes": 25641,
+      "sha256": "11c198d20ff5cabe96f1281c999999d36415e8b868f2290cc7bb1b698f9c74c4",
+      "status": 200
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 793,
+      "sha256": "4bc77da9f98134c37a7528928e314d8475bf583c943591f3319f549f3c7cb86a",
+      "status": 200
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 89,
+      "sha256": "bf2d9e73d00afca56ba078f55b7e6819507b317263040c38b76d9466b83d33a8",
+      "status": 200
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 175,
+      "sha256": "bcc7e66166f0c0d722abf254e7e23f3bc250402d41e39aecf17e71aac25d6983",
+      "status": 200
+    },
+    {
+      "path": "sw.js",
+      "bytes": 4552,
+      "sha256": "887ca43bd4dabe78fc04038f4fd6471738fddd4360255353d7abfe46125b83b2",
+      "status": 200
+    }
+  ]
+}
