@@ -2,7 +2,7 @@
 
 [專案說明](README.md) · [儲存庫](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026) · [歷史封存](archive/fujii-kaze-2026/README.md)
 
-## v3.0.3
+## [**v3.0.3**](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/commit/02f0f30c8e1b827bf82dd4ac7767472293492077)
 
 2026-11-20 GHOST 台北指南資料、設定及資產維護，採 PATCH 升版。保留已發布的播放器修正與正式站文件；本次更新 GitHub 來源，網站部署另行處理。
 
