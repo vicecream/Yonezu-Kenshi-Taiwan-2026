@@ -2,7 +2,7 @@
 
 [專案說明](README.md) · [儲存庫](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026) · [歷史封存](archive/fujii-kaze-2026/README.md)
 
-## v3.0.4
+## [**v3.0.4**](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/commit/ed48431241f415edb235361a9983477a92b0fbde)
 
 2026-11-20 歌詞、影片入口與可見曲目內容整理，採 PATCH 升版；GitHub 來源與 Cloudflare Pages 正式站分別發布及驗收。
 
