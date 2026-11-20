@@ -2,6 +2,15 @@
 
 [專案說明](README.md) · [儲存庫](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026) · [歷史封存](archive/fujii-kaze-2026/README.md)
 
+## v3.0.4
+
+2026-11-20 歌詞、影片入口與可見曲目內容整理，採 PATCH 升版；GitHub 來源與 Cloudflare Pages 正式站分別發布及驗收。
+
+- [PR #5](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/5)：補齊 26 首可見歌曲的官方影片／音源入口與本機日文原文；逐行讀音及影片時間對齊仍明確標示待補，不將原始來源時間當作影片同步資料。
+- [PR #5](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/5)：匯入使用者提供的 25 份中文 TXT，連同〈YELLOW GHOST〉整理成 26 首中日對照，1,021 列原文中 987 列已有中文；19 首完整、7 首部分整理，缺少的哼唱、和聲及未核實片語保留待補。保留原稿、署名、人工逐列映射與雜湊檢查，補上逐首來源及待補報告。
+- [PR #5](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/5)：暫時隱藏〈春が灯り〉與〈こんにちはごきげんよう！〉，完整曲庫仍保留 28 首資料；網站清單、搜尋、選歌、相鄰換歌與直接網址只開放其餘 26 首，維持原有預習編號。
+- [PR #5](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/5)：修正快速切換頁面時延遲歌詞載入可能重開舊歌曲的狀態，更新中文／原文閱讀提示及文件，完成 55 項架構與對照、62 項播放器及離線瀏覽器檢查，涵蓋全部可見歌曲與手機、桌面版面；受控播放器檢查不代表即時 YouTube 串流已驗證。
+
 ## [**v3.0.3**](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/commit/02f0f30c8e1b827bf82dd4ac7767472293492077)
 
 2026-11-20 GHOST 台北指南資料、設定及資產維護，採 PATCH 升版。保留已發布的播放器修正與正式站文件；本次更新 GitHub 來源，網站部署另行處理。

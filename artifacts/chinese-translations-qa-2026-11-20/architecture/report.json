@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-11-20T09:46:08.418Z",
+  "checkedAt": "2026-11-20T10:02:10.493Z",
   "timeZone": "Asia/Taipei",
   "baseUrl": "http://localhost:4180/",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "browser": "Microsoft Edge (headless, isolated context)",
   "mediaMode": "External YouTube and font requests blocked; real local navigation and assets tested",
   "checks": [
@@ -302,17 +302,17 @@
       "contentType": "text/css"
     },
     {
-      "path": "./assets/index-De1b1o6S.js",
+      "path": "./assets/index-gb1YD04C.js",
       "status": 200,
       "contentType": "text/javascript"
     },
     {
-      "path": "./assets/CHANGELOG-BVcHPCBr.js",
+      "path": "./assets/CHANGELOG-CiMcs3ow.js",
       "status": 200,
       "contentType": "text/javascript"
     },
     {
-      "path": "./assets/song-lyrics-D80Q0TmJ.js",
+      "path": "./assets/song-lyrics-BtDkGxbH.js",
       "status": 200,
       "contentType": "text/javascript"
     },
