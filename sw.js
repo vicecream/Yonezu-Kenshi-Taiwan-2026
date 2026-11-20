@@ -88,7 +88,14 @@ self.addEventListener("fetch", (event) => {
         return fresh;
       } catch (e) {
         const cache  = await caches.open(CACHE_NAME);
-        return (await cache.match("./index.html")) || (await cache.match("./")) || Response.error();
+        const cached = (await cache.match("./index.html", { ignoreVary: true }))
+          || (await cache.match("./", { ignoreVary: true }));
+        if (!cached) return Response.error();
+        // Pages redirects /index.html to /. Navigation cannot reuse a response
+        // with redirect history, so return its cached body as a fresh response.
+        return cached.redirected ? new Response(cached.body, {
+          status: cached.status, statusText: cached.statusText, headers: cached.headers
+        }) : cached;
       }
     })());
     return;
