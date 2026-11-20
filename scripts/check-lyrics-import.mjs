@@ -38,7 +38,7 @@ for (const offset of [-0.1, 2]) {
 assert.throws(() => prepareSong({ ...entry, timingMode: "preview", previewOffsetSeconds: -2 }, text, song), /before zero/);
 assert.throws(() => prepareSong({ ...entry, timingMode: "preview", previewOffsetSeconds: NaN }, text, song), /finite previewOffsetSeconds/);
 assert.throws(() => prepareSong({ ...entry, previewOffsetSeconds: 2 }, text, song), /requires preview mode/);
-const noVideo = SONGS.find(item => item.id === "YellowGhost");
+const noVideo = SONGS.find(item => item.id === "HaruGaTomori");
 assert.throws(() => prepareSong({ ...entry, id: noVideo.id, timingMode: "preview" }, text, noVideo), /full-song YouTube ID/);
 assert.throws(() => prepareSong({ ...alignedEntry, id: noVideo.id, alignment: { ...alignedEntry.alignment, youtubeId: null } }, text, noVideo), /full-song YouTube ID/);
 assert.throws(() => prepareSong({ ...alignedEntry, timingMode: "preview" }, text, song), /separate/);

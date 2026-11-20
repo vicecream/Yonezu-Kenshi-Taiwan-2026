@@ -1,5 +1,5 @@
 /* 米津玄師台北指南離線快取。更新內容時同步調整版本，讓裝置取得新資料。 */
-const CACHE_VERSION = "v3.0.3";
+const CACHE_VERSION = "v3.0.4";
 const CACHE_NAME    = `yonezu-guide-${CACHE_VERSION}`;
 
 /* Vite production builds include the entry, split lyrics/readings, and CSS

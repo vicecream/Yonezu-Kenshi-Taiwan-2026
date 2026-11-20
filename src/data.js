@@ -1,7 +1,9 @@
+import { VISIBLE_SONGS } from "./song-metadata.js";
+
 // Event facts shared by prerendered HTML and client navigation.
 export const SITE = Object.freeze({
   name: "米津玄師台北演唱會指南", title: "米津玄師 GHOST — 2026 台北演唱會指南",
-  description: "米津玄師 GHOST 台北場非官方指南：2026/12/26、12/27 臺北大巨蛋，演出交通資訊與 28 首歌曲預習。",
+  description: `米津玄師 GHOST 台北場非官方指南：2026/12/26、12/27 臺北大巨蛋，演出交通資訊與 ${VISIBLE_SONGS.length} 首歌曲預習。`,
   url: null, repoUrl: "https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026", officialUrl: "https://reissuerecords.net/",
 });
 export const EVENT = Object.freeze({
@@ -56,4 +58,4 @@ export const SHOW_TIMELINE = Object.freeze(Object.fromEntries(SHOWS.map(show => 
 export const NOTICES = [];
 export const PICS = {};
 export const SONG_BPM = Object.freeze({});
-export { SONGS, ALBUMS } from "./song-metadata.js";
+export { SONGS, VISIBLE_SONGS, ALBUMS } from "./song-metadata.js";

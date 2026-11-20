@@ -1,0 +1,1806 @@
+{
+  "checkedAt": "2026-11-19",
+  "scope": "Source metadata only; no lyric or translation text retained. Video playback and timeline alignment unverified.",
+  "songs": [
+    {
+      "id": "YellowGhost",
+      "title": "YELLOW GHOST",
+      "youtubeId": "hvZe_uu_u9A",
+      "sourceUrl": "https://reissuerecords.net/discography/lost-corner/",
+      "translation": {
+        "url": "https://alicepika.blog.fc2.com/blog-entry-804.html",
+        "httpStatus": 200,
+        "title": "【歌詞翻譯‧雜感】米津玄師 - YELLOW GHOST - 米津玄師 ‧ 歌詞",
+        "publishedAt": "2024-08-22",
+        "declaredCredit": "Alice / 箱庭博物館",
+        "embeddedYoutubeIds": [
+          "hvZe_uu_u9A"
+        ],
+        "titleMatches": true
+      },
+      "lrc": {
+        "url": "https://lrclib.net/api/get/11926614",
+        "httpStatus": 200,
+        "id": 11926614,
+        "title": "Yellow Ghost",
+        "artist": "Kenshi Yonezu",
+        "album": "Lost Corner",
+        "duration": 173,
+        "lineCount": 34,
+        "japaneseLines": 30,
+        "previousInspection": {
+          "checkedAt": "2026-11-17T15:39:43.654Z",
+          "state": "parseable-japanese-timing",
+          "id": 11926614,
+          "url": "https://lrclib.net/api/get/11926614",
+          "title": "Yellow Ghost",
+          "artist": "Kenshi Yonezu",
+          "album": "Lost Corner",
+          "duration": 173,
+          "hasSyncedLyrics": true,
+          "hasLyricsfile": true,
+          "lineCount": 34,
+          "japaneseLineCount": 30,
+          "firstTimestamp": 15.98,
+          "lastTimestamp": 167.76,
+          "issues": []
+        },
+        "state": "candidate"
+      },
+      "previousYoutubeId": null,
+      "videoType": "official-audio",
+      "programLinks": {
+        "videoSourceUrl": "https://www.youtube.com/watch?v=hvZe_uu_u9A",
+        "videoReferenceUrl": "https://www.youtube.com/channel/UCC_OGcKdYY-aWFvVMFVGbzw",
+        "lyricsCandidateUrl": "https://lrclib.net/api/get/11926614",
+        "translationReferenceUrl": "https://alicepika.blog.fc2.com/blog-entry-804.html"
+      }
+    },
+    {
+      "id": "Shunrai",
+      "title": "春雷",
+      "youtubeId": "zkNzxsaCunU",
+      "sourceUrl": "https://reissuerecords.net/discography/bootleg/",
+      "translation": {
+        "url": "https://alicepika.blog.fc2.com/blog-entry-575.html",
+        "httpStatus": 200,
+        "title": "【歌詞翻譯‧雜感】米津玄師 - 春雷 - 米津玄師 ‧ 歌詞",
+        "publishedAt": "2017-11-25",
+        "declaredCredit": "Alice / 箱庭博物館",
+        "embeddedYoutubeIds": [
+          "zkNzxsaCunU"
+        ],
+        "titleMatches": true
+      },
+      "lrc": {
+        "url": "https://lrclib.net/api/get/10031040",
+        "httpStatus": 200,
+        "id": 10031040,
+        "title": "春雷",
+        "artist": "Kenshi Yonezu",
+        "album": "BOOTLEG",
+        "duration": 289,
+        "lineCount": 40,
+        "japaneseLines": 40,
+        "previousInspection": {
+          "checkedAt": "2026-11-17T15:39:45.178Z",
+          "state": "parseable-japanese-timing",
+          "id": 10031040,
+          "url": "https://lrclib.net/api/get/10031040",
+          "title": "春雷",
+          "artist": "Kenshi Yonezu",
+          "album": "BOOTLEG",
+          "duration": 289,
+          "hasSyncedLyrics": true,
+          "hasLyricsfile": true,
+          "lineCount": 40,
+          "japaneseLineCount": 40,
+          "firstTimestamp": 19.07,
+          "lastTimestamp": 259.36,
+          "issues": []
+        },
+        "state": "candidate"
+      },
+      "previousYoutubeId": "zkNzxsaCunU",
+      "videoType": "music-video",
+      "programLinks": {
+        "videoSourceUrl": "https://www.youtube.com/watch?v=zkNzxsaCunU",
+        "videoReferenceUrl": "https://reissuerecords.net/discography/bootleg/",
+        "lyricsCandidateUrl": "https://lrclib.net/api/get/10031040",
+        "translationReferenceUrl": "https://alicepika.blog.fc2.com/blog-entry-575.html"
+      }
+    },
+    {
+      "id": "Kanden",
+      "title": "感電",
+      "youtubeId": "UFQEttrn6CQ",
+      "sourceUrl": "https://reissuerecords.net/discography/stray-sheep/",
+      "translation": {
+        "url": "https://alicepika.blog.fc2.com/blog-entry-647.html",
+        "httpStatus": 200,
+        "title": "【歌詞翻譯‧雜感】米津玄師 - 感電 - 米津玄師 ‧ 歌詞",
+        "publishedAt": "2020-07-06",
+        "declaredCredit": "Alice / 箱庭博物館",
+        "embeddedYoutubeIds": [
+          "UFQEttrn6CQ"
+        ],
+        "titleMatches": true
+      },
+      "lrc": {
+        "url": "https://lrclib.net/api/get/11502024",
+        "httpStatus": 200,
+        "id": 11502024,
+        "title": "感電",
+        "artist": "Kenshi Yonezu",
+        "album": "STRAY SHEEP",
+        "duration": 292,
+        "lineCount": 55,
+        "japaneseLines": 55,
+        "previousInspection": {
+          "checkedAt": "2026-11-17T15:39:48.230Z",
+          "state": "parseable-japanese-timing",
+          "id": 11502024,
+          "url": "https://lrclib.net/api/get/11502024",
+          "title": "感電",
+          "artist": "Kenshi Yonezu",
+          "album": "STRAY SHEEP",
+          "duration": 292,
+          "hasSyncedLyrics": true,
+          "hasLyricsfile": true,
+          "lineCount": 55,
+          "japaneseLineCount": 55,
+          "firstTimestamp": 19.92,
+          "lastTimestamp": 258.33,
+          "issues": []
+        },
+        "state": "candidate"
+      },
+      "previousYoutubeId": "UFQEttrn6CQ",
+      "videoType": "music-video",
+      "programLinks": {
+        "videoSourceUrl": "https://www.youtube.com/watch?v=UFQEttrn6CQ",
+        "videoReferenceUrl": "https://reissuerecords.net/discography/stray-sheep/",
+        "lyricsCandidateUrl": "https://lrclib.net/api/get/11502024",
+        "translationReferenceUrl": "https://alicepika.blog.fc2.com/blog-entry-647.html"
+      }
+    },
+    {
+      "id": "Flamingo",
+      "title": "Flamingo",
+      "youtubeId": "Uh6dkL1M9DM",
+      "sourceUrl": "https://reissuerecords.net/discography/stray-sheep/",
+      "translation": {
+        "url": "https://alicepika.blog.fc2.com/blog-entry-610.html",
+        "httpStatus": 200,
+        "title": "【歌詞翻譯‧雜感】米津玄師 - Flamingo - 米津玄師 ‧ 歌詞",
+        "publishedAt": "2018-10-20",
+        "declaredCredit": "Alice / 箱庭博物館",
+        "embeddedYoutubeIds": [
+          "Uh6dkL1M9DM"
+        ],
+        "titleMatches": true
+      },
+      "lrc": {
+        "url": "https://lrclib.net/api/get/65587",
+        "httpStatus": 200,
+        "id": 65587,
+        "title": "Flamingo",
+        "artist": "Kenshi Yonezu",
+        "album": "STRAY SHEEP",
+        "duration": 195,
+        "lineCount": 45,
+        "japaneseLines": 45,
+        "previousInspection": {
+          "checkedAt": "2026-11-17T15:39:49.789Z",
+          "state": "parseable-japanese-timing",
+          "id": 65587,
+          "url": "https://lrclib.net/api/get/65587",
+          "title": "Flamingo",
+          "artist": "Kenshi Yonezu",
+          "album": "STRAY SHEEP",
+          "duration": 195,
+          "hasSyncedLyrics": true,
+          "hasLyricsfile": true,
+          "lineCount": 45,
+          "japaneseLineCount": 45,
+          "firstTimestamp": 8.55,
+          "lastTimestamp": 189.05,
+          "issues": []
+        },
+        "state": "candidate"
+      },
+      "previousYoutubeId": "Uh6dkL1M9DM",
+      "videoType": "music-video",
+      "programLinks": {
+        "videoSourceUrl": "https://www.youtube.com/watch?v=Uh6dkL1M9DM",
+        "videoReferenceUrl": "https://reissuerecords.net/discography/stray-sheep/",
+        "lyricsCandidateUrl": "https://lrclib.net/api/get/65587",
+        "translationReferenceUrl": "https://alicepika.blog.fc2.com/blog-entry-610.html"
+      }
+    },
+    {
+      "id": "Lady",
+      "title": "LADY",
+      "youtubeId": "DdF-u3fe5pg",
+      "sourceUrl": "https://reissuerecords.net/discography/lost-corner/",
+      "translation": {
+        "url": "https://alicepika.blog.fc2.com/blog-entry-751.html",
+        "httpStatus": 200,
+        "title": "【歌詞翻譯‧雜感】米津玄師 - LADY - 米津玄師 ‧ 歌詞",
+        "publishedAt": "2023-03-21",
+        "declaredCredit": "Alice / 箱庭博物館",
+        "embeddedYoutubeIds": [
+          "DdF-u3fe5pg"
+        ],
+        "titleMatches": true
+      },
+      "lrc": {
+        "url": "https://lrclib.net/api/get/11929499",
+        "httpStatus": 200,
+        "id": 11929499,
+        "title": "LADY",
+        "artist": "Kenshi Yonezu",
+        "album": "LOST CORNER",
+        "duration": 208,
+        "lineCount": 35,
+        "japaneseLines": 35,
+        "previousInspection": {
+          "checkedAt": "2026-11-17T15:39:51.311Z",
+          "state": "parseable-japanese-timing",
+          "id": 11929499,
+          "url": "https://lrclib.net/api/get/11929499",
+          "title": "LADY",
+          "artist": "Kenshi Yonezu",
+          "album": "LOST CORNER",
+          "duration": 208,
+          "hasSyncedLyrics": true,
+          "hasLyricsfile": true,
+          "lineCount": 35,
+          "japaneseLineCount": 35,
+          "firstTimestamp": 11.227,
+          "lastTimestamp": 188.398,
+          "issues": []
+        },
+        "state": "candidate"
+      },
+      "previousYoutubeId": "DdF-u3fe5pg",
+      "videoType": "music-video",
+      "programLinks": {
+        "videoSourceUrl": "https://www.youtube.com/watch?v=DdF-u3fe5pg",
+        "videoReferenceUrl": "https://reissuerecords.net/discography/lost-corner/",
+        "lyricsCandidateUrl": "https://lrclib.net/api/get/11929499",
+        "translationReferenceUrl": "https://alicepika.blog.fc2.com/blog-entry-751.html"
+      }
+    },
+    {
+      "id": "Yumeutsutsu",
+      "title": "ゆめうつつ",
+      "youtubeId": "7yM35hOfW9E",
+      "sourceUrl": "https://reissuerecords.net/discography/lost-corner/",
+      "translation": {
+        "url": "https://alicepika.blog.fc2.com/blog-entry-666.html",
+        "httpStatus": 200,
+        "title": "【歌詞翻譯‧雜感】米津玄師 - ゆめうつつ - 米津玄師 ‧ 歌詞",
+        "publishedAt": "2021-06-16",
+        "declaredCredit": "Alice / 箱庭博物館",
+        "embeddedYoutubeIds": [
+          "7yM35hOfW9E"
+        ],
+        "titleMatches": true
+      },
+      "lrc": {
+        "url": "https://lrclib.net/api/get/14452926",
+        "httpStatus": 200,
+        "id": 14452926,
+        "title": "ゆめうつつ",
+        "artist": "Kenshi Yonezu",
+        "album": "LOST CORNER",
+        "duration": 305,
+        "lineCount": 46,
+        "japaneseLines": 46,
+        "previousInspection": {
+          "checkedAt": "2026-11-17T15:39:52.851Z",
+          "state": "parseable-japanese-timing",
+          "id": 14452926,
+          "url": "https://lrclib.net/api/get/14452926",
+          "title": "ゆめうつつ",
+          "artist": "Kenshi Yonezu",
+          "album": "LOST CORNER",
+          "duration": 305,
+          "hasSyncedLyrics": true,
+          "hasLyricsfile": true,
+          "lineCount": 46,
+          "japaneseLineCount": 46,
+          "firstTimestamp": 27.72,
+          "lastTimestamp": 272.9,
+          "issues": []
+        },
+        "state": "candidate"
+      },
+      "previousYoutubeId": null,
+      "videoType": "official-audio",
+      "programLinks": {
+        "videoSourceUrl": "https://www.youtube.com/watch?v=7yM35hOfW9E",
+        "videoReferenceUrl": "https://www.youtube.com/channel/UCC_OGcKdYY-aWFvVMFVGbzw",
+        "lyricsCandidateUrl": "https://lrclib.net/api/get/14452926",
+        "translationReferenceUrl": "https://alicepika.blog.fc2.com/blog-entry-666.html"
+      }
+    },
+    {
+      "id": "CranberryAndPancake",
+      "title": "クランベリーとパンケーキ",
+      "youtubeId": "5r365k5-lA8",
+      "sourceUrl": "https://reissuerecords.net/discography/lemon/",
+      "translation": {
+        "url": "https://alicepika.blog.fc2.com/blog-entry-590.html",
+        "httpStatus": 200,
+        "title": "【歌詞翻譯‧雜感】米津玄師 - クランベリーとパンケーキ - 米津玄師 ‧ 歌詞",
+        "publishedAt": "2018-04-30",
+        "declaredCredit": "Alice / 箱庭博物館",
+        "embeddedYoutubeIds": [
+          "5r365k5-lA8"
+        ],
+        "titleMatches": true
+      },
+      "lrc": {
+        "url": "https://lrclib.net/api/get/10123569",
+        "httpStatus": 200,
+        "id": 10123569,
+        "title": "クランベリーとパンケーキ",
+        "artist": "Kenshi Yonezu",
+        "album": "Lemon",
+        "duration": 210,
+        "lineCount": 49,
+        "japaneseLines": 49,
+        "previousInspection": {
+          "checkedAt": "2026-11-17T15:39:54.367Z",
+          "state": "parseable-japanese-timing",
+          "id": 10123569,
+          "url": "https://lrclib.net/api/get/10123569",
+          "title": "クランベリーとパンケーキ",
+          "artist": "Kenshi Yonezu",
+          "album": "Lemon",
+          "duration": 210,
+          "hasSyncedLyrics": true,
+          "hasLyricsfile": true,
+          "lineCount": 49,
+          "japaneseLineCount": 49,
+          "firstTimestamp": 0.44,
+          "lastTimestamp": 196.96,
+          "issues": []
+        },
+        "state": "candidate"
+      },
+      "previousYoutubeId": null,
+      "videoType": "official-audio",
+      "programLinks": {
+        "videoSourceUrl": "https://www.youtube.com/watch?v=5r365k5-lA8",
+        "videoReferenceUrl": "https://www.youtube.com/channel/UCC_OGcKdYY-aWFvVMFVGbzw",
+        "lyricsCandidateUrl": "https://lrclib.net/api/get/10123569",
+        "translationReferenceUrl": "https://alicepika.blog.fc2.com/blog-entry-590.html"
+      }
+    },
+    {
+      "id": "Shinigami",
+      "title": "死神",
+      "youtubeId": "8nxaZ69ElEc",
+      "sourceUrl": "https://reissuerecords.net/discography/lost-corner/",
+      "translation": {
+        "url": "https://alicepika.blog.fc2.com/blog-entry-667.html",
+        "httpStatus": 200,
+        "title": "【歌詞翻譯‧雜感】米津玄師 - 死神 - 米津玄師 ‧ 歌詞",
+        "publishedAt": "2021-06-18",
+        "declaredCredit": "Alice / 箱庭博物館",
+        "embeddedYoutubeIds": [
+          "8nxaZ69ElEc",
+          "L_pRTyuZ9fk"
+        ],
+        "titleMatches": true
+      },
+      "lrc": {
+        "url": "https://lrclib.net/api/get/12206559",
+        "httpStatus": 200,
+        "id": 12206559,
+        "title": "死神",
+        "artist": "Kenshi Yonezu",
+        "album": "LOST CORNER",
+        "duration": 181,
+        "lineCount": 53,
+        "japaneseLines": 45,
+        "previousInspection": {
+          "checkedAt": "2026-11-17T15:39:55.896Z",
+          "state": "parseable-japanese-timing",
+          "id": 12206559,
+          "url": "https://lrclib.net/api/get/12206559",
+          "title": "死神",
+          "artist": "Kenshi Yonezu",
+          "album": "LOST CORNER",
+          "duration": 181,
+          "hasSyncedLyrics": true,
+          "hasLyricsfile": true,
+          "lineCount": 53,
+          "japaneseLineCount": 45,
+          "firstTimestamp": 15.82,
+          "lastTimestamp": 177.26,
+          "issues": []
+        },
+        "state": "candidate"
+      },
+      "previousYoutubeId": "8nxaZ69ElEc",
+      "videoType": "music-video",
+      "programLinks": {
+        "videoSourceUrl": "https://www.youtube.com/watch?v=8nxaZ69ElEc",
+        "videoReferenceUrl": "https://reissuerecords.net/discography/lost-corner/",
+        "lyricsCandidateUrl": "https://lrclib.net/api/get/12206559",
+        "translationReferenceUrl": "https://alicepika.blog.fc2.com/blog-entry-667.html"
+      }
+    },
+    {
+      "id": "SayonaraMataItsuka",
+      "title": "さよーならまたいつか！",
+      "youtubeId": "-wb2PAx6aEs",
+      "sourceUrl": "https://reissuerecords.net/discography/lost-corner/",
+      "translation": {
+        "url": "https://alicepika.blog.fc2.com/blog-entry-778.html",
+        "httpStatus": 200,
+        "title": "【歌詞翻譯‧雜感】米津玄師 - さよーならまたいつか！ - 米津玄師 ‧ 歌詞",
+        "publishedAt": "2024-04-01",
+        "declaredCredit": "Alice / 箱庭博物館",
+        "embeddedYoutubeIds": [
+          "-wb2PAx6aEs",
+          "OGpfHEUpv6o"
+        ],
+        "titleMatches": true
+      },
+      "lrc": {
+        "url": "https://lrclib.net/api/get/14452815",
+        "httpStatus": 200,
+        "id": 14452815,
+        "title": "さよーならまたいつか!",
+        "artist": "Kenshi Yonezu",
+        "album": "LOST CORNER",
+        "duration": 201,
+        "lineCount": 35,
+        "japaneseLines": 35,
+        "previousInspection": {
+          "checkedAt": "2026-11-17T15:39:57.490Z",
+          "state": "parseable-japanese-timing",
+          "id": 14452815,
+          "url": "https://lrclib.net/api/get/14452815",
+          "title": "さよーならまたいつか!",
+          "artist": "Kenshi Yonezu",
+          "album": "LOST CORNER",
+          "duration": 201,
+          "hasSyncedLyrics": true,
+          "hasLyricsfile": true,
+          "lineCount": 35,
+          "japaneseLineCount": 35,
+          "firstTimestamp": 6.97,
+          "lastTimestamp": 194.79,
+          "issues": []
+        },
+        "state": "candidate"
+      },
+      "previousYoutubeId": "-wb2PAx6aEs",
+      "videoType": "music-video",
+      "programLinks": {
+        "videoSourceUrl": "https://www.youtube.com/watch?v=-wb2PAx6aEs",
+        "videoReferenceUrl": "https://reissuerecords.net/discography/lost-corner/",
+        "lyricsCandidateUrl": "https://lrclib.net/api/get/14452815",
+        "translationReferenceUrl": "https://alicepika.blog.fc2.com/blog-entry-778.html"
+      }
+    },
+    {
+      "id": "MelancholyKitchen",
+      "title": "メランコリーキッチン",
+      "youtubeId": "0GEoiLdCkUM",
+      "sourceUrl": "https://reissuerecords.net/discography/yankee/",
+      "translation": {
+        "url": "https://alicepika.blog.fc2.com/blog-entry-226.html",
+        "httpStatus": 200,
+        "title": "【音樂翻譯‧雜感】米津玄師 - メランコリーキッチン - 米津玄師 ‧ 歌詞",
+        "publishedAt": "2015-04-13",
+        "declaredCredit": "Alice / 箱庭博物館",
+        "embeddedYoutubeIds": [
+          "0GEoiLdCkUM"
+        ],
+        "titleMatches": true
+      },
+      "lrc": {
+        "url": "https://lrclib.net/api/get/1883852",
+        "httpStatus": 200,
+        "lineCount": 47,
+        "japaneseLines": 41,
+        "previousInspection": {
+          "checkedAt": "2026-11-17T15:39:59.112Z",
+          "state": "parseable-japanese-timing",
+          "id": 1883852,
+          "url": "https://lrclib.net/api/get/1883852",
+          "title": "メランコリーキッチン",
+          "artist": "Kenshi Yonezu",
+          "album": "YANKEE",
+          "duration": 219,
+          "hasSyncedLyrics": true,
+          "hasLyricsfile": true,
+          "lineCount": 47,
+          "japaneseLineCount": 41,
+          "firstTimestamp": 15.12,
+          "lastTimestamp": 212.43,
+          "issues": []
+        },
+        "id": 1883852,
+        "title": "メランコリーキッチン",
+        "artist": "Kenshi Yonezu",
+        "album": "YANKEE",
+        "duration": 219,
+        "state": "candidate",
+        "earlierAttempt": {
+          "httpStatus": 429,
+          "state": "rate-limited"
+        }
+      },
+      "previousYoutubeId": null,
+      "videoType": "official-audio",
+      "programLinks": {
+        "videoSourceUrl": "https://www.youtube.com/watch?v=0GEoiLdCkUM",
+        "videoReferenceUrl": "https://www.youtube.com/channel/UCC_OGcKdYY-aWFvVMFVGbzw",
+        "lyricsCandidateUrl": "https://lrclib.net/api/get/1883852",
+        "translationReferenceUrl": "https://alicepika.blog.fc2.com/blog-entry-226.html"
+      }
+    },
+    {
+      "id": "NineteenNinetyOne",
+      "title": "1991",
+      "youtubeId": "1cnndBdzCAk",
+      "sourceUrl": "https://reissuerecords.net/discography/1991%E3%80%80%E3%80%80%E3%80%80%E3%80%80%E3%80%80%E3%80%80%E3%80%8E%E7%A7%92%E9%80%9F5%E3%82%BB%E3%83%B3%E3%83%81%E3%83%A1%E3%83%BC%E3%83%88%E3%83%AB%E3%80%8F%E4%B8%BB%E9%A1%8C%E6%AD%8C/",
+      "translation": {
+        "url": "https://alicepika.blog.fc2.com/blog-entry-825.html",
+        "httpStatus": 200,
+        "title": "【歌詞翻譯‧雜感】米津玄師 - 1991 - 米津玄師 ‧ 歌詞",
+        "publishedAt": "2025-10-13",
+        "declaredCredit": "Alice / 箱庭博物館",
+        "embeddedYoutubeIds": [
+          "1cnndBdzCAk"
+        ],
+        "titleMatches": true
+      },
+      "lrc": {
+        "url": "https://lrclib.net/api/get/24879963",
+        "httpStatus": 200,
+        "id": 24879963,
+        "title": "1991",
+        "artist": "Kenshi Yonezu",
+        "album": "1991",
+        "duration": 228,
+        "lineCount": 17,
+        "japaneseLines": 17,
+        "previousInspection": {
+          "checkedAt": "2026-11-17T15:40:00.666Z",
+          "state": "parseable-japanese-timing",
+          "id": 24879963,
+          "url": "https://lrclib.net/api/get/24879963",
+          "title": "1991",
+          "artist": "Kenshi Yonezu",
+          "album": "1991",
+          "duration": 228,
+          "hasSyncedLyrics": true,
+          "hasLyricsfile": true,
+          "lineCount": 17,
+          "japaneseLineCount": 17,
+          "firstTimestamp": 10,
+          "lastTimestamp": 194,
+          "issues": []
+        },
+        "state": "candidate"
+      },
+      "previousYoutubeId": null,
+      "videoType": "music-video",
+      "programLinks": {
+        "videoSourceUrl": "https://www.youtube.com/watch?v=1cnndBdzCAk",
+        "videoReferenceUrl": "https://reissuerecords.net/2025/10/15/1991_mv/",
+        "lyricsCandidateUrl": "https://lrclib.net/api/get/24879963",
+        "translationReferenceUrl": "https://alicepika.blog.fc2.com/blog-entry-825.html"
+      }
+    },
+    {
+      "id": "Lemon",
+      "title": "Lemon",
+      "youtubeId": "SX_ViT4Ra7k",
+      "sourceUrl": "https://reissuerecords.net/discography/stray-sheep/",
+      "translation": {
+        "url": "https://alicepika.blog.fc2.com/blog-entry-584.html",
+        "httpStatus": 200,
+        "title": "【歌詞翻譯‧雜感】米津玄師 - Lemon - 米津玄師 ‧ 歌詞",
+        "publishedAt": "2018-02-11",
+        "declaredCredit": "Alice / 箱庭博物館",
+        "embeddedYoutubeIds": [
+          "SX_ViT4Ra7k",
+          "Hn0IiJlBV8Y"
+        ],
+        "titleMatches": true
+      },
+      "lrc": {
+        "url": "https://lrclib.net/api/get/65910",
+        "httpStatus": 200,
+        "id": 65910,
+        "title": "Lemon",
+        "artist": "Kenshi Yonezu",
+        "album": "STRAY SHEEP",
+        "duration": 256,
+        "lineCount": 37,
+        "japaneseLines": 37,
+        "previousInspection": {
+          "checkedAt": "2026-11-17T15:40:02.210Z",
+          "state": "parseable-japanese-timing",
+          "id": 65910,
+          "url": "https://lrclib.net/api/get/65910",
+          "title": "Lemon",
+          "artist": "Kenshi Yonezu",
+          "album": "STRAY SHEEP",
+          "duration": 256,
+          "hasSyncedLyrics": true,
+          "hasLyricsfile": true,
+          "lineCount": 37,
+          "japaneseLineCount": 37,
+          "firstTimestamp": 0.75,
+          "lastTimestamp": 238.03,
+          "issues": []
+        },
+        "state": "candidate"
+      },
+      "previousYoutubeId": "SX_ViT4Ra7k",
+      "videoType": "music-video",
+      "programLinks": {
+        "videoSourceUrl": "https://www.youtube.com/watch?v=SX_ViT4Ra7k",
+        "videoReferenceUrl": "https://reissuerecords.net/discography/stray-sheep/",
+        "lyricsCandidateUrl": "https://lrclib.net/api/get/65910",
+        "translationReferenceUrl": "https://alicepika.blog.fc2.com/blog-entry-584.html"
+      }
+    },
+    {
+      "id": "JaneDoe",
+      "title": "JANE DOE",
+      "youtubeId": "sPLqsLsooJY",
+      "sourceUrl": "https://reissuerecords.net/discography/irisout_janedoe/",
+      "translation": {
+        "url": "https://alicepika.blog.fc2.com/blog-entry-820.html",
+        "httpStatus": 200,
+        "title": "【歌詞翻譯‧雜感】米津玄師 - JANE DOE - 米津玄師 ‧ 歌詞",
+        "publishedAt": "2025-09-22",
+        "declaredCredit": "Alice / 箱庭博物館",
+        "embeddedYoutubeIds": [
+          "sPLqsLsooJY"
+        ],
+        "titleMatches": true
+      },
+      "lrc": {
+        "url": "https://lrclib.net/api/get/26422844",
+        "httpStatus": 200,
+        "lineCount": 16,
+        "japaneseLines": 16,
+        "previousInspection": {
+          "checkedAt": "2026-11-17T15:41:55.972Z",
+          "state": "parseable-japanese-timing",
+          "id": 26422844,
+          "url": "https://lrclib.net/api/get/26422844",
+          "title": "JANE DOE",
+          "artist": "米津玄師",
+          "album": "IRIS OUT / JANE DOE (JANE DOE盤)",
+          "duration": 235.946667,
+          "hasSyncedLyrics": true,
+          "hasLyricsfile": true,
+          "lineCount": 16,
+          "japaneseLineCount": 16,
+          "firstTimestamp": 14.43,
+          "lastTimestamp": 181.14,
+          "issues": []
+        },
+        "id": 26422844,
+        "title": "JANE DOE",
+        "artist": "米津玄師",
+        "album": "IRIS OUT / JANE DOE (JANE DOE盤)",
+        "duration": 235.946667,
+        "state": "candidate",
+        "earlierAttempt": {
+          "httpStatus": 429,
+          "state": "rate-limited"
+        }
+      },
+      "previousYoutubeId": "sPLqsLsooJY",
+      "videoType": "music-video",
+      "programLinks": {
+        "videoSourceUrl": "https://www.youtube.com/watch?v=sPLqsLsooJY",
+        "videoReferenceUrl": "https://reissuerecords.net/discography/irisout_janedoe/",
+        "lyricsCandidateUrl": "https://lrclib.net/api/get/26422844",
+        "translationReferenceUrl": "https://alicepika.blog.fc2.com/blog-entry-820.html"
+      }
+    },
+    {
+      "id": "UmiNoYuurei",
+      "title": "海の幽霊",
+      "youtubeId": "1s84rIhPuhk",
+      "sourceUrl": "https://reissuerecords.net/discography/stray-sheep/",
+      "translation": {
+        "url": "https://alicepika.blog.fc2.com/blog-entry-635.html",
+        "httpStatus": 200,
+        "title": "【歌詞翻譯‧雜談】米津玄師 - 海の幽霊 - 米津玄師 ‧ 歌詞",
+        "publishedAt": "2019-05-28",
+        "declaredCredit": "Alice / 箱庭博物館",
+        "embeddedYoutubeIds": [
+          "1s84rIhPuhk"
+        ],
+        "titleMatches": true
+      },
+      "lrc": {
+        "url": "https://lrclib.net/api/get/9920815",
+        "httpStatus": 200,
+        "lineCount": 25,
+        "japaneseLines": 25,
+        "previousInspection": {
+          "checkedAt": "2026-11-17T15:40:08.311Z",
+          "state": "parseable-japanese-timing",
+          "id": 9920815,
+          "url": "https://lrclib.net/api/get/9920815",
+          "title": "海の幽霊",
+          "artist": "Kenshi Yonezu",
+          "album": "STRAY SHEEP",
+          "duration": 234,
+          "hasSyncedLyrics": true,
+          "hasLyricsfile": true,
+          "lineCount": 25,
+          "japaneseLineCount": 25,
+          "firstTimestamp": 1.89,
+          "lastTimestamp": 207.89,
+          "issues": []
+        },
+        "id": 9920815,
+        "title": "海の幽霊",
+        "artist": "Kenshi Yonezu",
+        "album": "STRAY SHEEP",
+        "duration": 234,
+        "state": "candidate",
+        "earlierAttempt": {
+          "httpStatus": 429,
+          "state": "rate-limited"
+        }
+      },
+      "previousYoutubeId": "1s84rIhPuhk",
+      "videoType": "music-video",
+      "programLinks": {
+        "videoSourceUrl": "https://www.youtube.com/watch?v=1s84rIhPuhk",
+        "videoReferenceUrl": "https://reissuerecords.net/discography/stray-sheep/",
+        "lyricsCandidateUrl": "https://lrclib.net/api/get/9920815",
+        "translationReferenceUrl": "https://alicepika.blog.fc2.com/blog-entry-635.html"
+      }
+    },
+    {
+      "id": "Yodaka",
+      "title": "夜鷹",
+      "youtubeId": "l2jvIuTp534",
+      "sourceUrl": "https://reissuerecords.net/discography/yodaka/",
+      "translation": {
+        "url": "https://alicepika.blog.fc2.com/blog-entry-842.html",
+        "httpStatus": 200,
+        "title": "【歌詞翻譯‧雜感】米津玄師 - 夜鷹 - 米津玄師 ‧ 歌詞",
+        "publishedAt": "2026-07-13",
+        "declaredCredit": "Alice / 箱庭博物館",
+        "embeddedYoutubeIds": [
+          "l2jvIuTp534"
+        ],
+        "titleMatches": true
+      },
+      "lrc": {
+        "url": "https://lrclib.net/api/get/37790422",
+        "httpStatus": 200,
+        "lineCount": 33,
+        "japaneseLines": 24,
+        "previousInspection": {
+          "checkedAt": "2026-11-17T15:40:09.849Z",
+          "state": "parseable-japanese-timing",
+          "id": 37790422,
+          "url": "https://lrclib.net/api/get/37790422",
+          "title": "Yodaka",
+          "artist": "Kenshi Yonezu",
+          "album": "Yodaka",
+          "duration": 198,
+          "hasSyncedLyrics": true,
+          "hasLyricsfile": true,
+          "lineCount": 33,
+          "japaneseLineCount": 24,
+          "firstTimestamp": 9.39,
+          "lastTimestamp": 149.66,
+          "issues": []
+        },
+        "id": 37790422,
+        "title": "Yodaka",
+        "artist": "Kenshi Yonezu",
+        "album": "Yodaka",
+        "duration": 198,
+        "state": "candidate",
+        "earlierAttempt": {
+          "httpStatus": 429,
+          "state": "rate-limited"
+        }
+      },
+      "previousYoutubeId": "l2jvIuTp534",
+      "videoType": "music-video",
+      "programLinks": {
+        "videoSourceUrl": "https://www.youtube.com/watch?v=l2jvIuTp534",
+        "videoReferenceUrl": "https://reissuerecords.net/discography/yodaka/",
+        "lyricsCandidateUrl": "https://lrclib.net/api/get/37790422",
+        "translationReferenceUrl": "https://alicepika.blog.fc2.com/blog-entry-842.html"
+      }
+    },
+    {
+      "id": "Loser",
+      "title": "LOSER",
+      "youtubeId": "Dx_fKPBPYUI",
+      "sourceUrl": "https://reissuerecords.net/discography/bootleg/",
+      "translation": {
+        "url": "https://alicepika.blog.fc2.com/blog-entry-446.html",
+        "httpStatus": 200,
+        "title": "【音樂翻譯‧雜感】米津玄師 - LOSER - 米津玄師 ‧ 歌詞",
+        "publishedAt": "2016-09-15",
+        "declaredCredit": "Alice / 箱庭博物館",
+        "embeddedYoutubeIds": [
+          "Dx_fKPBPYUI"
+        ],
+        "titleMatches": true
+      },
+      "lrc": {
+        "url": "https://lrclib.net/api/get/1319675",
+        "httpStatus": 200,
+        "id": 1319675,
+        "title": "LOSER",
+        "artist": "Kenshi Yonezu",
+        "album": "BOOTLEG",
+        "duration": 245,
+        "lineCount": 74,
+        "japaneseLines": 74,
+        "previousInspection": {
+          "checkedAt": "2026-11-17T15:40:11.373Z",
+          "state": "parseable-japanese-timing",
+          "id": 1319675,
+          "url": "https://lrclib.net/api/get/1319675",
+          "title": "LOSER",
+          "artist": "Kenshi Yonezu",
+          "album": "BOOTLEG",
+          "duration": 245,
+          "hasSyncedLyrics": true,
+          "hasLyricsfile": true,
+          "lineCount": 74,
+          "japaneseLineCount": 74,
+          "firstTimestamp": 30.758,
+          "lastTimestamp": 223.022,
+          "issues": []
+        },
+        "state": "candidate"
+      },
+      "previousYoutubeId": "Dx_fKPBPYUI",
+      "videoType": "music-video",
+      "programLinks": {
+        "videoSourceUrl": "https://www.youtube.com/watch?v=Dx_fKPBPYUI",
+        "videoReferenceUrl": "https://reissuerecords.net/discography/bootleg/",
+        "lyricsCandidateUrl": "https://lrclib.net/api/get/1319675",
+        "translationReferenceUrl": "https://alicepika.blog.fc2.com/blog-entry-446.html"
+      }
+    },
+    {
+      "id": "BowAndArrow",
+      "title": "BOW AND ARROW",
+      "youtubeId": "M-Eyhjkepy0",
+      "sourceUrl": "https://reissuerecords.net/discography/plazma_bowandarrow/",
+      "translation": {
+        "url": "https://alicepika.blog.fc2.com/blog-entry-814.html",
+        "httpStatus": 200,
+        "title": "【歌詞翻譯‧雜感】米津玄師 - BOW AND ARROW - 米津玄師 ‧ 歌詞",
+        "publishedAt": "2025-01-05",
+        "declaredCredit": "Alice / 箱庭博物館",
+        "embeddedYoutubeIds": [
+          "M-Eyhjkepy0"
+        ],
+        "titleMatches": true
+      },
+      "lrc": {
+        "url": "https://lrclib.net/api/get/30476214",
+        "httpStatus": 200,
+        "lineCount": 22,
+        "japaneseLines": 22,
+        "previousInspection": {
+          "checkedAt": "2026-11-17T15:40:12.904Z",
+          "state": "parseable-japanese-timing",
+          "id": 30476214,
+          "url": "https://lrclib.net/api/get/30476214",
+          "title": "BOW AND ARROW",
+          "artist": "Kenshi Yonezu",
+          "album": "Plazma ⁄ BOW AND ARROW",
+          "duration": 176,
+          "hasSyncedLyrics": true,
+          "hasLyricsfile": true,
+          "lineCount": 22,
+          "japaneseLineCount": 22,
+          "firstTimestamp": 21.25,
+          "lastTimestamp": 155.26,
+          "issues": []
+        },
+        "id": 30476214,
+        "title": "BOW AND ARROW",
+        "artist": "Kenshi Yonezu",
+        "album": "Plazma ⁄ BOW AND ARROW",
+        "duration": 176,
+        "state": "candidate",
+        "earlierAttempt": {
+          "httpStatus": 429,
+          "state": "rate-limited"
+        }
+      },
+      "previousYoutubeId": "M-Eyhjkepy0",
+      "videoType": "music-video",
+      "programLinks": {
+        "videoSourceUrl": "https://www.youtube.com/watch?v=M-Eyhjkepy0",
+        "videoReferenceUrl": "https://reissuerecords.net/discography/plazma_bowandarrow/",
+        "lyricsCandidateUrl": "https://lrclib.net/api/get/30476214",
+        "translationReferenceUrl": "https://alicepika.blog.fc2.com/blog-entry-814.html"
+      }
+    },
+    {
+      "id": "PeaceSign",
+      "title": "ピースサイン",
+      "youtubeId": "9aJVr5tTTWk",
+      "sourceUrl": "https://reissuerecords.net/discography/bootleg/",
+      "translation": {
+        "url": "https://alicepika.blog.fc2.com/blog-entry-549.html",
+        "httpStatus": 200,
+        "title": "【歌詞翻譯‧雜感】米津玄師 - ピースサイン - 米津玄師 ‧ 歌詞",
+        "publishedAt": "2017-06-08",
+        "declaredCredit": "Alice / 箱庭博物館",
+        "embeddedYoutubeIds": [
+          "9aJVr5tTTWk"
+        ],
+        "titleMatches": true
+      },
+      "lrc": {
+        "url": "https://lrclib.net/api/get/10123611",
+        "httpStatus": 200,
+        "lineCount": 60,
+        "japaneseLines": 60,
+        "previousInspection": {
+          "checkedAt": "2026-11-17T15:40:14.436Z",
+          "state": "parseable-japanese-timing",
+          "id": 10123611,
+          "url": "https://lrclib.net/api/get/10123611",
+          "title": "ピースサイン",
+          "artist": "Kenshi Yonezu",
+          "album": "ピースサイン",
+          "duration": 263,
+          "hasSyncedLyrics": true,
+          "hasLyricsfile": true,
+          "lineCount": 60,
+          "japaneseLineCount": 60,
+          "firstTimestamp": 21.8,
+          "lastTimestamp": 236.84,
+          "issues": []
+        },
+        "id": 10123611,
+        "title": "ピースサイン",
+        "artist": "Kenshi Yonezu",
+        "album": "ピースサイン",
+        "duration": 263,
+        "state": "candidate",
+        "earlierAttempt": {
+          "httpStatus": 429,
+          "state": "rate-limited"
+        }
+      },
+      "previousYoutubeId": "9aJVr5tTTWk",
+      "videoType": "music-video",
+      "programLinks": {
+        "videoSourceUrl": "https://www.youtube.com/watch?v=9aJVr5tTTWk",
+        "videoReferenceUrl": "https://reissuerecords.net/discography/bootleg/",
+        "lyricsCandidateUrl": "https://lrclib.net/api/get/10123611",
+        "translationReferenceUrl": "https://alicepika.blog.fc2.com/blog-entry-549.html"
+      }
+    },
+    {
+      "id": "KickBack",
+      "title": "KICK BACK",
+      "youtubeId": "M2cckDmNLMI",
+      "sourceUrl": "https://reissuerecords.net/discography/lost-corner/",
+      "translation": {
+        "url": "https://alicepika.blog.fc2.com/blog-entry-739.html",
+        "httpStatus": 200,
+        "title": "【歌詞翻譯‧雜感】米津玄師 - KICK BACK - 米津玄師 ‧ 歌詞",
+        "publishedAt": "2022-10-12",
+        "declaredCredit": "Alice / 箱庭博物館",
+        "embeddedYoutubeIds": [
+          "M2cckDmNLMI",
+          "dFlDRhvM4L0",
+          "HSNWJbkIsmo",
+          "K9RpXW97arA",
+          "ly_4WV4rdts"
+        ],
+        "titleMatches": true
+      },
+      "lrc": {
+        "url": "https://lrclib.net/api/get/952051",
+        "httpStatus": 200,
+        "id": 952051,
+        "title": "KICK BACK",
+        "artist": "Kenshi Yonezu",
+        "album": "KICK BACK",
+        "duration": 193,
+        "lineCount": 46,
+        "japaneseLines": 46,
+        "previousInspection": {
+          "checkedAt": "2026-11-17T15:40:15.967Z",
+          "state": "parseable-japanese-timing",
+          "id": 952051,
+          "url": "https://lrclib.net/api/get/952051",
+          "title": "KICK BACK",
+          "artist": "Kenshi Yonezu",
+          "album": "KICK BACK",
+          "duration": 193,
+          "hasSyncedLyrics": true,
+          "hasLyricsfile": true,
+          "lineCount": 46,
+          "japaneseLineCount": 25,
+          "firstTimestamp": 9.406,
+          "lastTimestamp": 188.293,
+          "issues": []
+        },
+        "state": "candidate"
+      },
+      "previousYoutubeId": "M2cckDmNLMI",
+      "videoType": "music-video",
+      "programLinks": {
+        "videoSourceUrl": "https://www.youtube.com/watch?v=M2cckDmNLMI",
+        "videoReferenceUrl": "https://reissuerecords.net/discography/lost-corner/",
+        "lyricsCandidateUrl": "https://lrclib.net/api/get/952051",
+        "translationReferenceUrl": "https://alicepika.blog.fc2.com/blog-entry-739.html"
+      }
+    },
+    {
+      "id": "IrisOut",
+      "title": "IRIS OUT",
+      "youtubeId": "LmZD-TU96q4",
+      "sourceUrl": "https://reissuerecords.net/discography/irisout_janedoe/",
+      "translation": {
+        "url": "https://alicepika.blog.fc2.com/blog-entry-819.html",
+        "httpStatus": 200,
+        "title": "【歌詞翻譯‧雜感】米津玄師 - IRIS OUT - 米津玄師 ‧ 歌詞",
+        "publishedAt": "2025-09-15",
+        "declaredCredit": "Alice / 箱庭博物館",
+        "embeddedYoutubeIds": [
+          "LmZD-TU96q4"
+        ],
+        "titleMatches": true
+      },
+      "lrc": {
+        "url": "https://lrclib.net/api/get/24226683",
+        "httpStatus": 200,
+        "lineCount": 43,
+        "japaneseLines": 43,
+        "previousInspection": {
+          "checkedAt": "2026-11-17T15:40:17.545Z",
+          "state": "parseable-japanese-timing",
+          "id": 24226683,
+          "url": "https://lrclib.net/api/get/24226683",
+          "title": "IRIS OUT",
+          "artist": "Kenshi Yonezu",
+          "album": "IRIS OUT",
+          "duration": 152,
+          "hasSyncedLyrics": true,
+          "hasLyricsfile": true,
+          "lineCount": 43,
+          "japaneseLineCount": 43,
+          "firstTimestamp": 18.29,
+          "lastTimestamp": 142.72,
+          "issues": []
+        },
+        "id": 24226683,
+        "title": "IRIS OUT",
+        "artist": "Kenshi Yonezu",
+        "album": "IRIS OUT",
+        "duration": 152,
+        "state": "candidate",
+        "earlierAttempt": {
+          "httpStatus": 429,
+          "state": "rate-limited"
+        }
+      },
+      "previousYoutubeId": "LmZD-TU96q4",
+      "videoType": "music-video",
+      "programLinks": {
+        "videoSourceUrl": "https://www.youtube.com/watch?v=LmZD-TU96q4",
+        "videoReferenceUrl": "https://reissuerecords.net/discography/irisout_janedoe/",
+        "lyricsCandidateUrl": "https://lrclib.net/api/get/24226683",
+        "translationReferenceUrl": "https://alicepika.blog.fc2.com/blog-entry-819.html"
+      }
+    },
+    {
+      "id": "HaruGaTomori",
+      "title": "春が灯り",
+      "youtubeId": null,
+      "sourceUrl": "https://reissuerecords.net/2026/10/22/kusuriyanohitorigoto_movie/",
+      "translation": {
+        "state": "not-found",
+        "searchScope": "Author index and exact-title web search; no full-song Chinese translation found."
+      },
+      "lrc": {
+        "state": "not-found",
+        "latestSearch": {
+          "url": "https://lrclib.net/api/search?track_name=%E6%98%A5%E3%81%8C%E7%81%AF%E3%82%8A&artist_name=%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB",
+          "httpStatus": 200,
+          "candidates": [],
+          "checkedAt": "2026-11-19"
+        }
+      },
+      "previousYoutubeId": null,
+      "videoType": "pending",
+      "programLinks": {
+        "videoSourceUrl": null,
+        "videoReferenceUrl": "https://reissuerecords.net/2026/10/22/kusuriyanohitorigoto_movie/",
+        "lyricsCandidateUrl": null,
+        "translationReferenceUrl": null
+      }
+    },
+    {
+      "id": "KonnichiwaGokigenyou",
+      "title": "こんにちはごきげんよう！",
+      "youtubeId": null,
+      "sourceUrl": "https://reissuerecords.net/2026/11/02/toranitsubasa_movie/",
+      "translation": {
+        "state": "not-found",
+        "searchScope": "Author index and exact-title web search; no full-song Chinese translation found."
+      },
+      "lrc": {
+        "state": "not-found",
+        "latestSearch": {
+          "url": "https://lrclib.net/api/search?track_name=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF%E3%81%94%E3%81%8D%E3%81%92%E3%82%93%E3%82%88%E3%81%86%EF%BC%81&artist_name=%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB",
+          "httpStatus": 200,
+          "candidates": [],
+          "checkedAt": "2026-11-19"
+        }
+      },
+      "previousYoutubeId": null,
+      "videoType": "pending",
+      "programLinks": {
+        "videoSourceUrl": null,
+        "videoReferenceUrl": "https://reissuerecords.net/2026/11/02/toranitsubasa_movie/",
+        "lyricsCandidateUrl": null,
+        "translationReferenceUrl": null
+      }
+    },
+    {
+      "id": "Karasu",
+      "title": "烏",
+      "youtubeId": "YjPMupS1Lg4",
+      "sourceUrl": "https://reissuerecords.net/discography/karasu/",
+      "translation": {
+        "url": "https://alicepika.blog.fc2.com/blog-entry-833.html",
+        "httpStatus": 200,
+        "title": "【歌詞翻譯‧雜感】米津玄師 - 烏 - 米津玄師 ‧ 歌詞",
+        "publishedAt": "2026-05-10",
+        "declaredCredit": "Alice / 箱庭博物館",
+        "embeddedYoutubeIds": [
+          "YjPMupS1Lg4"
+        ],
+        "titleMatches": true
+      },
+      "lrc": {
+        "url": "https://lrclib.net/api/get/36156838",
+        "httpStatus": 200,
+        "lineCount": 32,
+        "japaneseLines": 32,
+        "previousInspection": {
+          "checkedAt": "2026-11-17T15:40:19.072Z",
+          "state": "parseable-japanese-timing",
+          "id": 36156838,
+          "url": "https://lrclib.net/api/get/36156838",
+          "title": "烏",
+          "artist": "Kenshi Yonezu",
+          "album": "烏 - Raven",
+          "duration": 248,
+          "hasSyncedLyrics": true,
+          "hasLyricsfile": true,
+          "lineCount": 32,
+          "japaneseLineCount": 32,
+          "firstTimestamp": 12.52,
+          "lastTimestamp": 205.44,
+          "issues": []
+        },
+        "id": 36156838,
+        "title": "烏",
+        "artist": "Kenshi Yonezu",
+        "album": "烏 - Raven",
+        "duration": 248,
+        "state": "candidate",
+        "earlierAttempt": {
+          "httpStatus": 429,
+          "state": "rate-limited"
+        }
+      },
+      "previousYoutubeId": "YjPMupS1Lg4",
+      "videoType": "music-video",
+      "programLinks": {
+        "videoSourceUrl": "https://www.youtube.com/watch?v=YjPMupS1Lg4",
+        "videoReferenceUrl": "https://reissuerecords.net/discography/karasu/",
+        "lyricsCandidateUrl": "https://lrclib.net/api/get/36156838",
+        "translationReferenceUrl": "https://alicepika.blog.fc2.com/blog-entry-833.html"
+      }
+    },
+    {
+      "id": "MayoeruHitsuji",
+      "title": "迷える羊",
+      "youtubeId": "DAeERkHEy00",
+      "sourceUrl": "https://reissuerecords.net/discography/stray-sheep/",
+      "translation": {
+        "url": "https://alicepika.blog.fc2.com/blog-entry-686.html",
+        "httpStatus": 200,
+        "title": "【歌詞翻譯‧雜感】米津玄師 - 迷える羊 - 米津玄師 ‧ 歌詞",
+        "publishedAt": "2021-08-16",
+        "declaredCredit": "Alice / 箱庭博物館",
+        "embeddedYoutubeIds": [
+          "DAeERkHEy00"
+        ],
+        "titleMatches": true
+      },
+      "lrc": {
+        "url": "https://lrclib.net/api/get/1319865",
+        "httpStatus": 200,
+        "lineCount": 24,
+        "japaneseLines": 24,
+        "previousInspection": {
+          "checkedAt": "2026-11-17T15:40:20.603Z",
+          "state": "parseable-japanese-timing",
+          "id": 1319865,
+          "url": "https://lrclib.net/api/get/1319865",
+          "title": "迷える羊",
+          "artist": "Kenshi Yonezu",
+          "album": "STRAY SHEEP",
+          "duration": 227,
+          "hasSyncedLyrics": true,
+          "hasLyricsfile": true,
+          "lineCount": 24,
+          "japaneseLineCount": 24,
+          "firstTimestamp": 23.66,
+          "lastTimestamp": 190.57,
+          "issues": []
+        },
+        "id": 1319865,
+        "title": "迷える羊",
+        "artist": "Kenshi Yonezu",
+        "album": "STRAY SHEEP",
+        "duration": 227,
+        "state": "candidate",
+        "earlierAttempt": {
+          "httpStatus": 429,
+          "state": "rate-limited"
+        }
+      },
+      "previousYoutubeId": null,
+      "videoType": "official-audio",
+      "programLinks": {
+        "videoSourceUrl": "https://www.youtube.com/watch?v=DAeERkHEy00",
+        "videoReferenceUrl": "https://www.youtube.com/channel/UCC_OGcKdYY-aWFvVMFVGbzw",
+        "lyricsCandidateUrl": "https://lrclib.net/api/get/1319865",
+        "translationReferenceUrl": "https://alicepika.blog.fc2.com/blog-entry-686.html"
+      }
+    },
+    {
+      "id": "Plazma",
+      "title": "Plazma",
+      "youtubeId": "fp3F6TqBsAU",
+      "sourceUrl": "https://reissuerecords.net/discography/plazma_bowandarrow/",
+      "translation": {
+        "url": "https://alicepika.blog.fc2.com/blog-entry-815.html",
+        "httpStatus": 200,
+        "title": "【歌詞翻譯‧雜感】米津玄師 - Plazma - 米津玄師 ‧ 歌詞",
+        "publishedAt": "2025-01-20",
+        "declaredCredit": "Alice / 箱庭博物館",
+        "embeddedYoutubeIds": [
+          "fp3F6TqBsAU",
+          "Xgi4Mc-nKgY",
+          "2aFgfKtg3V4"
+        ],
+        "titleMatches": true
+      },
+      "lrc": {
+        "url": "https://lrclib.net/api/get/16717326",
+        "httpStatus": 200,
+        "lineCount": 28,
+        "japaneseLines": 28,
+        "previousInspection": {
+          "checkedAt": "2026-11-17T15:40:22.137Z",
+          "state": "parseable-japanese-timing",
+          "id": 16717326,
+          "url": "https://lrclib.net/api/get/16717326",
+          "title": "Plazma",
+          "artist": "Kenshi Yonezu",
+          "album": "Plazma",
+          "duration": 181,
+          "hasSyncedLyrics": true,
+          "hasLyricsfile": true,
+          "lineCount": 28,
+          "japaneseLineCount": 28,
+          "firstTimestamp": 0.31,
+          "lastTimestamp": 177.04,
+          "issues": []
+        },
+        "id": 16717326,
+        "title": "Plazma",
+        "artist": "Kenshi Yonezu",
+        "album": "Plazma",
+        "duration": 181,
+        "state": "candidate",
+        "earlierAttempt": {
+          "httpStatus": 429,
+          "state": "rate-limited"
+        }
+      },
+      "previousYoutubeId": "fp3F6TqBsAU",
+      "videoType": "music-video",
+      "programLinks": {
+        "videoSourceUrl": "https://www.youtube.com/watch?v=fp3F6TqBsAU",
+        "videoReferenceUrl": "https://reissuerecords.net/discography/plazma_bowandarrow/",
+        "lyricsCandidateUrl": "https://lrclib.net/api/get/16717326",
+        "translationReferenceUrl": "https://alicepika.blog.fc2.com/blog-entry-815.html"
+      }
+    },
+    {
+      "id": "M87",
+      "title": "M八七",
+      "youtubeId": "Zhx1n6uvgUE",
+      "sourceUrl": "https://reissuerecords.net/discography/lost-corner/",
+      "translation": {
+        "url": "https://alicepika.blog.fc2.com/blog-entry-730.html",
+        "httpStatus": 200,
+        "title": "【歌詞翻譯‧雜感】米津玄師 - M八七 - 米津玄師 ‧ 歌詞",
+        "publishedAt": "2022-05-13",
+        "declaredCredit": "Alice / 箱庭博物館",
+        "embeddedYoutubeIds": [
+          "Zhx1n6uvgUE"
+        ],
+        "titleMatches": true
+      },
+      "lrc": {
+        "url": "https://lrclib.net/api/get/13504276",
+        "httpStatus": 200,
+        "id": 13504276,
+        "title": "M八七",
+        "artist": "Kenshi Yonezu",
+        "album": "LOST CORNER",
+        "duration": 263,
+        "lineCount": 26,
+        "japaneseLines": 26,
+        "previousInspection": {
+          "checkedAt": "2026-11-17T15:40:23.665Z",
+          "state": "parseable-japanese-timing",
+          "id": 13504276,
+          "url": "https://lrclib.net/api/get/13504276",
+          "title": "M八七",
+          "artist": "Kenshi Yonezu",
+          "album": "LOST CORNER",
+          "duration": 263,
+          "hasSyncedLyrics": true,
+          "hasLyricsfile": true,
+          "lineCount": 26,
+          "japaneseLineCount": 26,
+          "firstTimestamp": 0.75,
+          "lastTimestamp": 215.38,
+          "issues": []
+        },
+        "state": "candidate"
+      },
+      "previousYoutubeId": "Zhx1n6uvgUE",
+      "videoType": "music-video",
+      "programLinks": {
+        "videoSourceUrl": "https://www.youtube.com/watch?v=Zhx1n6uvgUE",
+        "videoReferenceUrl": "https://reissuerecords.net/discography/lost-corner/",
+        "lyricsCandidateUrl": "https://lrclib.net/api/get/13504276",
+        "translationReferenceUrl": "https://alicepika.blog.fc2.com/blog-entry-730.html"
+      }
+    },
+    {
+      "id": "Chikyugi",
+      "title": "地球儀",
+      "youtubeId": "VUsURj_OYdA",
+      "sourceUrl": "https://reissuerecords.net/discography/lost-corner/",
+      "translation": {
+        "url": "https://alicepika.blog.fc2.com/blog-entry-758.html",
+        "httpStatus": 200,
+        "title": "【歌詞翻譯‧雜感】米津玄師 - 地球儀 - 米津玄師 ‧ 歌詞",
+        "publishedAt": "2023-07-17",
+        "declaredCredit": "Alice / 箱庭博物館",
+        "embeddedYoutubeIds": [
+          "VUsURj_OYdA",
+          "yanhEf8jK8o",
+          "-YkKuRkngTA",
+          "ecAh4F6CjJY"
+        ],
+        "titleMatches": true
+      },
+      "lrc": {
+        "url": "https://lrclib.net/api/get/3069994",
+        "httpStatus": 200,
+        "id": 3069994,
+        "title": "地球儀",
+        "artist": "Kenshi Yonezu",
+        "album": "地球儀",
+        "duration": 273,
+        "lineCount": 45,
+        "japaneseLines": 45,
+        "previousInspection": {
+          "checkedAt": "2026-11-17T15:40:26.731Z",
+          "state": "parseable-japanese-timing",
+          "id": 3069994,
+          "url": "https://lrclib.net/api/get/3069994",
+          "title": "地球儀",
+          "artist": "Kenshi Yonezu",
+          "album": "地球儀",
+          "duration": 273,
+          "hasSyncedLyrics": true,
+          "hasLyricsfile": true,
+          "lineCount": 45,
+          "japaneseLineCount": 45,
+          "firstTimestamp": 16.58,
+          "lastTimestamp": 252.18,
+          "issues": []
+        },
+        "state": "candidate"
+      },
+      "previousYoutubeId": "VUsURj_OYdA",
+      "videoType": "music-video",
+      "programLinks": {
+        "videoSourceUrl": "https://www.youtube.com/watch?v=VUsURj_OYdA",
+        "videoReferenceUrl": "https://reissuerecords.net/discography/lost-corner/",
+        "lyricsCandidateUrl": "https://lrclib.net/api/get/3069994",
+        "translationReferenceUrl": "https://alicepika.blog.fc2.com/blog-entry-758.html"
+      }
+    },
+    {
+      "id": "EineKleine",
+      "title": "アイネクライネ",
+      "youtubeId": "-EKxzId_Sj4",
+      "sourceUrl": "https://reissuerecords.net/discography/yankee/",
+      "translation": {
+        "url": "https://alicepika.blog.fc2.com/blog-entry-625.html",
+        "httpStatus": 200,
+        "title": "【歌詞翻譯‧雜感】米津玄師 - アイネクライネ - 米津玄師 ‧ 歌詞",
+        "publishedAt": "2019-03-23",
+        "declaredCredit": "Alice / 箱庭博物館",
+        "embeddedYoutubeIds": [
+          "-EKxzId_Sj4"
+        ],
+        "titleMatches": true
+      },
+      "lrc": {
+        "url": "https://lrclib.net/api/get/1883354",
+        "httpStatus": 200,
+        "lineCount": 52,
+        "japaneseLines": 52,
+        "previousInspection": {
+          "checkedAt": "2026-11-17T15:40:28.266Z",
+          "state": "parseable-japanese-timing",
+          "id": 1883354,
+          "url": "https://lrclib.net/api/get/1883354",
+          "title": "アイネクライネ",
+          "artist": "Kenshi Yonezu",
+          "album": "YANKEE",
+          "duration": 288,
+          "hasSyncedLyrics": true,
+          "hasLyricsfile": true,
+          "lineCount": 52,
+          "japaneseLineCount": 52,
+          "firstTimestamp": 0.85,
+          "lastTimestamp": 279.55,
+          "issues": []
+        },
+        "id": 1883354,
+        "title": "アイネクライネ",
+        "artist": "Kenshi Yonezu",
+        "album": "YANKEE",
+        "duration": 288,
+        "state": "candidate",
+        "earlierAttempt": {
+          "httpStatus": 429,
+          "state": "rate-limited"
+        }
+      },
+      "previousYoutubeId": "-EKxzId_Sj4",
+      "videoType": "music-video",
+      "programLinks": {
+        "videoSourceUrl": "https://www.youtube.com/watch?v=-EKxzId_Sj4",
+        "videoReferenceUrl": "https://reissuerecords.net/discography/yankee/",
+        "lyricsCandidateUrl": "https://lrclib.net/api/get/1883354",
+        "translationReferenceUrl": "https://alicepika.blog.fc2.com/blog-entry-625.html"
+      }
+    }
+  ],
+  "youtubeMetadata": [
+    {
+      "id": "hvZe_uu_u9A",
+      "url": "https://www.youtube.com/watch?v=hvZe_uu_u9A",
+      "httpStatus": 200,
+      "title": "YELLOW GHOST",
+      "author": "Kenshi Yonezu - Topic",
+      "authorUrl": "https://www.youtube.com/channel/UCC_OGcKdYY-aWFvVMFVGbzw",
+      "watchMetadata": {
+        "songId": "YellowGhost",
+        "id": "hvZe_uu_u9A",
+        "httpStatus": 200,
+        "title": "YELLOW GHOST",
+        "channelId": "UCC_OGcKdYY-aWFvVMFVGbzw",
+        "lengthSeconds": "173",
+        "providerDeclared": true,
+        "playability": "OK"
+      }
+    },
+    {
+      "id": "zkNzxsaCunU",
+      "url": "https://www.youtube.com/watch?v=zkNzxsaCunU",
+      "httpStatus": 200,
+      "title": "米津玄師 - 春雷   Kenshi Yonezu - Shunrai",
+      "author": "Kenshi Yonezu  米津玄師",
+      "authorUrl": "https://www.youtube.com/@KenshiYonezu"
+    },
+    {
+      "id": "UFQEttrn6CQ",
+      "url": "https://www.youtube.com/watch?v=UFQEttrn6CQ",
+      "httpStatus": 200,
+      "title": "米津玄師 - 感電   Kenshi Yonezu - KANDEN",
+      "author": "Kenshi Yonezu  米津玄師",
+      "authorUrl": "https://www.youtube.com/@KenshiYonezu"
+    },
+    {
+      "id": "Uh6dkL1M9DM",
+      "url": "https://www.youtube.com/watch?v=Uh6dkL1M9DM",
+      "httpStatus": 200,
+      "title": "米津玄師  - Flamingo / Kenshi Yonezu",
+      "author": "Kenshi Yonezu  米津玄師",
+      "authorUrl": "https://www.youtube.com/@KenshiYonezu"
+    },
+    {
+      "id": "DdF-u3fe5pg",
+      "url": "https://www.youtube.com/watch?v=DdF-u3fe5pg",
+      "httpStatus": 200,
+      "title": "米津玄師  Kenshi Yonezu - LADY",
+      "author": "Kenshi Yonezu  米津玄師",
+      "authorUrl": "https://www.youtube.com/@KenshiYonezu"
+    },
+    {
+      "id": "7yM35hOfW9E",
+      "url": "https://www.youtube.com/watch?v=7yM35hOfW9E",
+      "httpStatus": 200,
+      "title": "Yumeutsutsu - Daydream",
+      "author": "Kenshi Yonezu - Topic",
+      "authorUrl": "https://www.youtube.com/channel/UCC_OGcKdYY-aWFvVMFVGbzw",
+      "watchMetadata": {
+        "songId": "Yumeutsutsu",
+        "id": "7yM35hOfW9E",
+        "httpStatus": 200,
+        "title": "Yumeutsutsu - Daydream",
+        "channelId": "UCC_OGcKdYY-aWFvVMFVGbzw",
+        "lengthSeconds": "305",
+        "providerDeclared": true,
+        "playability": "OK"
+      }
+    },
+    {
+      "id": "5r365k5-lA8",
+      "url": "https://www.youtube.com/watch?v=5r365k5-lA8",
+      "httpStatus": 200,
+      "title": "Cranberry & Pancake",
+      "author": "Kenshi Yonezu - Topic",
+      "authorUrl": "https://www.youtube.com/channel/UCC_OGcKdYY-aWFvVMFVGbzw",
+      "watchMetadata": {
+        "songId": "CranberryAndPancake",
+        "id": "5r365k5-lA8",
+        "httpStatus": 200,
+        "title": "Cranberry & Pancake",
+        "channelId": "UCC_OGcKdYY-aWFvVMFVGbzw",
+        "lengthSeconds": "211",
+        "providerDeclared": true,
+        "playability": "OK"
+      }
+    },
+    {
+      "id": "8nxaZ69ElEc",
+      "url": "https://www.youtube.com/watch?v=8nxaZ69ElEc",
+      "httpStatus": 200,
+      "title": "米津玄師 - 死神　 Kenshi Yonezu - Shinigami",
+      "author": "Kenshi Yonezu  米津玄師",
+      "authorUrl": "https://www.youtube.com/@KenshiYonezu"
+    },
+    {
+      "id": "-wb2PAx6aEs",
+      "url": "https://www.youtube.com/watch?v=-wb2PAx6aEs",
+      "httpStatus": 200,
+      "title": "米津玄師 - さよーならまたいつか！ Kenshi Yonezu - Sayonara, Mata Itsuka !",
+      "author": "Kenshi Yonezu  米津玄師",
+      "authorUrl": "https://www.youtube.com/@KenshiYonezu"
+    },
+    {
+      "id": "0GEoiLdCkUM",
+      "url": "https://www.youtube.com/watch?v=0GEoiLdCkUM",
+      "httpStatus": 200,
+      "title": "Melancholy Kitchen",
+      "author": "Kenshi Yonezu - Topic",
+      "authorUrl": "https://www.youtube.com/channel/UCC_OGcKdYY-aWFvVMFVGbzw",
+      "watchMetadata": {
+        "songId": "MelancholyKitchen",
+        "id": "0GEoiLdCkUM",
+        "httpStatus": 200,
+        "title": "Melancholy Kitchen",
+        "channelId": "UCC_OGcKdYY-aWFvVMFVGbzw",
+        "lengthSeconds": "219",
+        "providerDeclared": true,
+        "playability": "OK"
+      }
+    },
+    {
+      "id": "1cnndBdzCAk",
+      "url": "https://www.youtube.com/watch?v=1cnndBdzCAk",
+      "httpStatus": 200,
+      "title": "米津玄師  Kenshi Yonezu -  1991",
+      "author": "Kenshi Yonezu  米津玄師",
+      "authorUrl": "https://www.youtube.com/@KenshiYonezu",
+      "watchMetadata": {
+        "songId": "NineteenNinetyOne",
+        "id": "1cnndBdzCAk",
+        "httpStatus": 200,
+        "title": "米津玄師  Kenshi Yonezu -  1991",
+        "channelId": "UCUCeZaZeJbEYAAzvMgrKOPQ",
+        "lengthSeconds": "237",
+        "providerDeclared": false,
+        "playability": "OK"
+      }
+    },
+    {
+      "id": "SX_ViT4Ra7k",
+      "url": "https://www.youtube.com/watch?v=SX_ViT4Ra7k",
+      "httpStatus": 200,
+      "title": "米津玄師  Kenshi Yonezu  - Lemon",
+      "author": "Kenshi Yonezu  米津玄師",
+      "authorUrl": "https://www.youtube.com/@KenshiYonezu"
+    },
+    {
+      "id": "sPLqsLsooJY",
+      "url": "https://www.youtube.com/watch?v=sPLqsLsooJY",
+      "httpStatus": 200,
+      "title": "米津玄師, 宇多田ヒカル Kenshi Yonezu, Hikaru Utada -  JANE DOE",
+      "author": "Kenshi Yonezu  米津玄師",
+      "authorUrl": "https://www.youtube.com/@KenshiYonezu"
+    },
+    {
+      "id": "1s84rIhPuhk",
+      "url": "https://www.youtube.com/watch?v=1s84rIhPuhk",
+      "httpStatus": 200,
+      "title": "米津玄師 - 海の幽霊  Kenshi Yonezu - Spirits of the Sea",
+      "author": "Kenshi Yonezu  米津玄師",
+      "authorUrl": "https://www.youtube.com/@KenshiYonezu"
+    },
+    {
+      "id": "l2jvIuTp534",
+      "url": "https://www.youtube.com/watch?v=l2jvIuTp534",
+      "httpStatus": 200,
+      "title": "米津玄師「夜鷹」Kenshi Yonezu - Yodaka",
+      "author": "Kenshi Yonezu  米津玄師",
+      "authorUrl": "https://www.youtube.com/@KenshiYonezu"
+    },
+    {
+      "id": "Dx_fKPBPYUI",
+      "url": "https://www.youtube.com/watch?v=Dx_fKPBPYUI",
+      "httpStatus": 200,
+      "title": "米津玄師 - LOSER , Kenshi Yonezu",
+      "author": "Kenshi Yonezu  米津玄師",
+      "authorUrl": "https://www.youtube.com/@KenshiYonezu"
+    },
+    {
+      "id": "M-Eyhjkepy0",
+      "url": "https://www.youtube.com/watch?v=M-Eyhjkepy0",
+      "httpStatus": 200,
+      "title": "米津玄師 Kenshi Yonezu - BOW AND ARROW",
+      "author": "Kenshi Yonezu  米津玄師",
+      "authorUrl": "https://www.youtube.com/@KenshiYonezu"
+    },
+    {
+      "id": "9aJVr5tTTWk",
+      "url": "https://www.youtube.com/watch?v=9aJVr5tTTWk",
+      "httpStatus": 200,
+      "title": "米津玄師 - ピースサイン , Kenshi Yonezu - Peace Sign",
+      "author": "Kenshi Yonezu  米津玄師",
+      "authorUrl": "https://www.youtube.com/@KenshiYonezu"
+    },
+    {
+      "id": "M2cckDmNLMI",
+      "url": "https://www.youtube.com/watch?v=M2cckDmNLMI",
+      "httpStatus": 200,
+      "title": "米津玄師 Kenshi Yonezu - KICKBACK",
+      "author": "Kenshi Yonezu  米津玄師",
+      "authorUrl": "https://www.youtube.com/@KenshiYonezu"
+    },
+    {
+      "id": "LmZD-TU96q4",
+      "url": "https://www.youtube.com/watch?v=LmZD-TU96q4",
+      "httpStatus": 200,
+      "title": "米津玄師  Kenshi Yonezu - IRIS OUT",
+      "author": "Kenshi Yonezu  米津玄師",
+      "authorUrl": "https://www.youtube.com/@KenshiYonezu"
+    },
+    {
+      "id": "YjPMupS1Lg4",
+      "url": "https://www.youtube.com/watch?v=YjPMupS1Lg4",
+      "httpStatus": 200,
+      "title": "米津玄師 - 烏　Kenshi Yonezu -  Karasu",
+      "author": "Kenshi Yonezu  米津玄師",
+      "authorUrl": "https://www.youtube.com/@KenshiYonezu"
+    },
+    {
+      "id": "DAeERkHEy00",
+      "url": "https://www.youtube.com/watch?v=DAeERkHEy00",
+      "httpStatus": 200,
+      "title": "Stray Sheep",
+      "author": "Kenshi Yonezu - Topic",
+      "authorUrl": "https://www.youtube.com/channel/UCC_OGcKdYY-aWFvVMFVGbzw",
+      "watchMetadata": {
+        "songId": "MayoeruHitsuji",
+        "id": "DAeERkHEy00",
+        "httpStatus": 200,
+        "title": "Stray Sheep",
+        "channelId": "UCC_OGcKdYY-aWFvVMFVGbzw",
+        "lengthSeconds": "227",
+        "providerDeclared": true,
+        "playability": "OK"
+      }
+    },
+    {
+      "id": "fp3F6TqBsAU",
+      "url": "https://www.youtube.com/watch?v=fp3F6TqBsAU",
+      "httpStatus": 200,
+      "title": "米津玄師  Kenshi Yonezu - Plazma",
+      "author": "Kenshi Yonezu  米津玄師",
+      "authorUrl": "https://www.youtube.com/@KenshiYonezu"
+    },
+    {
+      "id": "Zhx1n6uvgUE",
+      "url": "https://www.youtube.com/watch?v=Zhx1n6uvgUE",
+      "httpStatus": 200,
+      "title": "米津玄師  - M八七 　Kenshi Yonezu - M87",
+      "author": "Kenshi Yonezu  米津玄師",
+      "authorUrl": "https://www.youtube.com/@KenshiYonezu"
+    },
+    {
+      "id": "VUsURj_OYdA",
+      "url": "https://www.youtube.com/watch?v=VUsURj_OYdA",
+      "httpStatus": 200,
+      "title": "米津玄師  - 地球儀　Kenshi Yonezu - Spinning Globe",
+      "author": "Kenshi Yonezu  米津玄師",
+      "authorUrl": "https://www.youtube.com/@KenshiYonezu"
+    },
+    {
+      "id": "-EKxzId_Sj4",
+      "url": "https://www.youtube.com/watch?v=-EKxzId_Sj4",
+      "httpStatus": 200,
+      "title": "米津玄師  - アイネクライネ , Kenshi Yonezu - Eine Kleine",
+      "author": "Kenshi Yonezu  米津玄師",
+      "authorUrl": "https://www.youtube.com/@KenshiYonezu"
+    }
+  ],
+  "summary": {
+    "songs": 28,
+    "youtubeEntries": 26,
+    "musicVideos": 21,
+    "officialAudio": 5,
+    "translationPages": 26,
+    "parseableLrcCandidates": 26,
+    "pendingSongs": [
+      "HaruGaTomori",
+      "KonnichiwaGokigenyou"
+    ],
+    "importedLyricLines": 0,
+    "importedTranslationLines": 0,
+    "livePlayback": "not-verified",
+    "videoTiming": "unverified"
+  }
+}

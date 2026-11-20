@@ -21,7 +21,7 @@ import {
   MOON_SVG
 } from "./ui/icons.js";
 
-import { SITE, EVENT, SHOWS, NOTICES, PICS, SONGS, ALBUMS, SONG_BPM } from "./data.js";
+import { SITE, EVENT, SHOWS, NOTICES, PICS, SONGS as ALL_SONGS, VISIBLE_SONGS as SONGS, ALBUMS, SONG_BPM } from "./data.js";
 import { JP_CHANT_GUIDES } from "./chant-guide.js";
 import { showState, todayTimeline } from "./show-time.js";
 import { songCapabilities } from "./song-content.js";
@@ -77,7 +77,7 @@ window.addEventListener("load", ()=> window.setTimeout(attachManifest, 8000), { 
 const SYNC_INTERVAL_MS   = 100;
 
 /* 畫面版本用於辨識裝置快取；須與 sw.js 的 CACHE_VERSION 一致。 */
-const BUILD = "v3.0.3";
+const BUILD = "v3.0.4";
 
 const CC_BY_NC_SA_URL = "https://creativecommons.org/licenses/by-nc-sa/4.0/";
 
@@ -273,17 +273,19 @@ function router({ resetScroll = true } = {}){
 
   const hash = location.hash.replace(/^#\/?/, "");
   let song = null;
+  let hiddenSong = false;
   if (hash.startsWith("song/")) {
     const raw = hash.slice(5);
     // 곡 id에 따옴표 등이 들어가면 브라우저가 %27 처럼 인코딩할 수 있으므로 되돌려서 비교
     let id = raw;
     try { id = decodeURIComponent(raw); } catch(e) { /* 잘못된 인코딩이면 원문 그대로 */ }
     song = SONGS.find(s => s.id === id) || SONGS.find(s => s.id === raw) || null;
+    hiddenSong = ALL_SONGS.some(s => s.hidden && (s.id === id || s.id === raw));
   }
 
   if (hash.startsWith("song/") && !song) {
     leaveSongView();
-    renderConvertedLink();
+    renderConvertedLink(hiddenSong);
   } else if (song) {
     renderSong(song);
   } else if (hash === "guide") {
@@ -788,7 +790,7 @@ function renderGuide(){
       <div class="song-sorts" role="group" aria-label="歌曲清單排序"><button class="song-sort" type="button" data-sort="default">預習編號</button><button class="song-sort" type="button" data-sort="title" id="sort-title">名稱</button></div>
       <div class="song-search-meta"><span id="song-count">共 ${SONGS.length} 首</span></div>
       <p class="song-empty" id="song-empty" hidden>找不到歌曲，請輸入部分歌名或編號。</p><ul class="song-list" id="song-list"></ul>
-      <p class="catalog-sources">曲目來源：${Object.values(ALBUMS).map(album => `<a href="${album.url}" target="_blank" rel="noopener">${album.title}</a>`).join(" · ")}<br>曲目查核：${SONGS[0].checkedAt}</p>
+      <p class="catalog-sources">曲目來源：${[...new Set(SONGS.map(song => song.album))].map(id => ALBUMS[id]).map(album => `<a href="${album.url}" target="_blank" rel="noopener">${album.title}</a>`).join(" · ")}<br>曲目查核：${SONGS[0].checkedAt}</p>
     </section>${siteFooterHtml(BUILD)}</div>`;
   document.getElementById("back-btn").addEventListener("click", ()=>{ location.hash = "#/"; });
   app.querySelectorAll(".song-sort").forEach(button => button.addEventListener("click", ()=>{
@@ -807,15 +809,15 @@ function renderSongTitle(title){ return escapeHtml(String(title ?? "")); }
 function renderSetlist(){
   app.innerHTML = `<div class="guide-page"><div class="song-topbar"><button class="back-btn" id="pending-back" aria-label="返回首頁">${BACK_SVG}</button>${themeToggleHtml()}</div>
     <section class="songs-section pending-page"><h1>台北場歌單待確認</h1>
-    <p>尚無已核實的 12/26、12/27 台北場演出歌單。</p><p>預習清單包含已發行作品及已公布新曲，不代表演出曲目或順序。</p>
+    <p>尚無已核實的 12/26、12/27 台北場演出歌單。</p><p>預習清單為自選歌曲，不代表演出曲目或順序。</p>
     <a class="info-book-link" href="#/guide">前往 ${SONGS.length} 首歌曲預習 →</a>
     <p class="catalog-sources"><a href="${EVENT.ticketUrl}" target="_blank" rel="noopener">官方活動資訊 ↗</a> · 查核：${EVENT.checkedAt}</p>
     </section>${siteFooterHtml(BUILD)}</div>`;
   document.getElementById("pending-back").addEventListener("click", ()=>{ location.hash = "#/"; });
 }
-function renderConvertedLink(){
-  app.innerHTML = `<div class="guide-page"><section class="songs-section pending-page"><h1>本指南已轉換</h1>
-    <p>目前為米津玄師台北演唱會指南，原歌曲連結已不適用。</p>
+function renderConvertedLink(hiddenSong = false){
+  app.innerHTML = `<div class="guide-page"><section class="songs-section pending-page"><h1>${hiddenSong ? "此歌曲暫未開放" : "本指南已轉換"}</h1>
+    <p>${hiddenSong ? "請從歌曲預習清單選擇其他歌曲。" : "目前為米津玄師台北演唱會指南，原歌曲連結已不適用。"}</p>
     <a class="info-book-link" href="#/guide">前往歌曲預習 →</a><a class="info-book-link" href="#/">返回首頁</a>
     </section>${siteFooterHtml(BUILD)}</div>`;
 }
@@ -1049,7 +1051,7 @@ function applyGuideFilter(){
   let hit = 0;
 
   items.forEach(li=>{
-    const title = li.querySelector(".song-title").textContent + " " + (SONGS[Number(li.dataset.no) - 1]?.romanizedTitle || "");
+    const title = li.querySelector(".song-title").textContent + " " + (ALL_SONGS[Number(li.dataset.no) - 1]?.romanizedTitle || "");
     const no = li.dataset.no;
     const ok = !q || (isNum
       ? (no === String(Number(q)) || pad(Number(no)) === q)      // 번호 검색
@@ -1129,7 +1131,7 @@ function applySheetFilter(){
   let hit = 0;
 
   items.forEach((li)=>{
-    const name = li.querySelector(".song-sheet-name").textContent + " " + (SONGS[Number(li.dataset.no) - 1]?.romanizedTitle || "");
+    const name = li.querySelector(".song-sheet-name").textContent + " " + (ALL_SONGS[Number(li.dataset.no) - 1]?.romanizedTitle || "");
     const no = li.dataset.no;
     const ok = !q || (isNum
       ? (no === String(Number(q)) || pad(Number(no)) === q)
@@ -1712,7 +1714,7 @@ function skipPart(d){
 /* 사용자가 곡을 고른 "그 탭" 안에서 재생을 먼저 걸고 화면을 이동한다.
    (모바일은 사용자 제스처 안에서 시작한 재생만 소리를 허용하기 때문) */
 function gotoSong(song){
-  if (!song) return;
+  if (!song || song.hidden) return;
   location.hash = `#/song/${song.id}`;
   if (song.youtubeId) playVideoFor(song.youtubeId);
 }
@@ -1771,9 +1773,9 @@ function updateSongContentUi(song){
     ${photoOnly ? `<p>目前提供專輯照片中的中文閱讀，日文原文與 LRC 時間待補。${escapeHtml(song.photoTranslation.note || "")}</p>` : !caps.hasOriginal ? "<p>可先使用下方官方入口，歌詞將分批補齊。</p>" : ""}
     <a href="${song.sourceUrl}" target="_blank" rel="noopener">官方專輯與曲目資訊 ↗</a>`;
   const notes = document.querySelector(".lyrics-note-copy");
-  if (notes) notes.textContent = preview && caps.timed ? "依 LRC 時間逐句試播；點歌詞跳轉，記下不同步的歌名與時間。" : caps.timed ? "點選歌詞跳至影片位置，歌詞隨影片同步。" : photoOnly ? "目前提供照片中文閱讀，原文與同步時間待補。" : caps.hasOriginal ? "目前提供原文閱讀，同步時間整理中。" : "歌詞整理中，可先開啟官方入口。";
+  if (notes) notes.textContent = preview && caps.timed ? "依 LRC 時間逐句試播；點歌詞跳轉，記下不同步的歌名與時間。" : caps.timed ? "點選歌詞跳至影片位置，歌詞隨影片同步。" : photoOnly ? "目前提供照片中文閱讀，原文與同步時間待補。" : caps.hasOriginal ? caps.hasTranslation ? "目前提供中日對照閱讀，同步時間整理中。" : "目前提供原文閱讀，同步時間整理中。" : "歌詞整理中，可先開啟官方入口。";
   document.getElementById("watch-on-yt").href = song.listenUrl;
-  document.getElementById("watch-on-yt").textContent = song.youtubeId ? "在 YouTube 觀看 ↗" : song.previewUrl ? "官方主題歌公告／預告 ↗" : "官方聆聽與作品資訊 ↗";
+  document.getElementById("watch-on-yt").textContent = song.youtubeId ? song.videoType === "official-audio" ? "在 YouTube 聆聽 ↗" : "在 YouTube 觀看 ↗" : song.previewUrl ? "官方主題歌公告／預告 ↗" : "官方聆聽與作品資訊 ↗";
   document.querySelector(".lyrics-legend").hidden = !chantGuideFor(song);
   document.getElementById("chant-btn").hidden = !chantGuideFor(song);
   document.getElementById("autoscroll-btn").disabled = !caps.timed;
@@ -2123,6 +2125,7 @@ window.addEventListener("offline", ()=>{ if (songShellBuilt) applyVenueMode(); }
 /* 곡 화면을 벗어날 때 — 플레이어는 부수지 않고 일시정지만 한다
    (iframe 을 없앴다 다시 만들면 모바일에서 소리 권한이 초기화됨) */
 function leaveSongView(){
+  ++songRenderToken;
   stopSyncTimer();
   stopActiveGuard();
   pendingVideoId = null;
@@ -3485,7 +3488,7 @@ let songSort = (()=>{
 })();
 
 /* 곡의 원래 번호(1부터). 정렬을 바꿔도 이 번호는 그대로라 번호 검색이 계속 통한다. */
-const songNumberById = new Map(SONGS.map((song, index) => [song.id, index + 1]));
+const songNumberById = new Map(ALL_SONGS.map((song, index) => [song.id, index + 1]));
 function songNo(song){ return songNumberById.get(song.id) || 0; }
 
 const startsHangul = (t)=> /^[\u3131-\u318E\uAC00-\uD7A3]/.test(String(t).trim());
@@ -3673,7 +3676,7 @@ function openSongVideo(song){
   if (iframe) iframe.hidden = false;
   ensurePlaying(song.youtubeId);
   if (navigator.onLine && videoState !== "error") loadYouTubeApi();
-  if (iframe?.tagName === "IFRAME") iframe.title = `${song.title} · 米津玄師 官方影片播放器`;
+  if (iframe?.tagName === "IFRAME") iframe.title = `${song.title} · 米津玄師 ${song.videoType === "official-audio" ? "官方音源" : "官方影片"}播放器`;
 }
 
 function isVideoRouteRequested(){
@@ -3749,7 +3752,7 @@ function ensurePlayer(){
     const iframe = player.getIframe();
     iframe.setAttribute("allow", "autoplay; encrypted-media; fullscreen; picture-in-picture");
     iframe.setAttribute("referrerpolicy", "strict-origin-when-cross-origin");
-    iframe.title = `${currentSong?.title || "米津玄師"} · 官方影片播放器`;
+    iframe.title = `${currentSong?.title || "米津玄師"} · ${currentSong?.videoType === "official-audio" ? "官方音源" : "官方影片"}播放器`;
   } catch(e){
     setVideoState("error", "無法開啟播放器，請重新載入或在 YouTube 觀看。", true);
   }

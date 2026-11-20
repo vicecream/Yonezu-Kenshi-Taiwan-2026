@@ -34,6 +34,7 @@ export function applyUserProvidedTranslation(song, entry, text) {
   requireValue(song && song.id === entry.id, "User-provided translation song ID mismatch");
   requireValue(Array.isArray(entry.entries) && entry.entries.length, `${entry.id}: missing supplied translation rows`);
   requireValue(entry.translationCredit && entry.translationCreditRole === "source", `${entry.id}: record the supplied text's source without assuming its author`);
+  if (entry.sha256) requireValue(crypto.createHash("sha256").update(text).digest("hex") === entry.sha256, `${entry.id}: supplied text changed; review its mapping again`);
   const seen = new Set();
   const lyrics = song.lyrics.map(line => ({ ...line }));
   for (const [sourceIndex, row] of entry.entries.entries()) {
@@ -43,15 +44,19 @@ export function applyUserProvidedTranslation(song, entry, text) {
     const originalTime = song.timingStatus === "preview" ? line?.sourceTime : line?.time;
     requireValue(line && row.jp === line.jp && row.time === originalTime, `${entry.id}#${row.index}: original text or timeline changed`);
     requireValue(typeof row.tr === "string" && row.tr.trim() && !/[<>]/.test(row.tr), `${entry.id}#${row.index}: translation must be plain text`);
-    requireValue(row.tr.split("／").every(fragment => normalise(text).includes(normalise(fragment))), `${entry.id}#${row.index}: translation differs from the supplied excerpt`);
-    Object.assign(line, { tr: row.tr, translationUserRef: sourceIndex, translationMapping: "user-provided-excerpt" });
+    requireValue(row.tr.split("／").every(fragment => normalise(fragment) && normalise(text).includes(normalise(fragment))), `${entry.id}#${row.index}: translation differs from the supplied excerpt`);
+    Object.assign(line, { tr: row.tr, translationUserRef: sourceIndex, translationMapping: "user-provided-text" });
+    if (row.partial) line.translationPartial = true;
+    else delete line.translationPartial;
   }
-  requireValue(!entry.complete || seen.size === song.lyrics.length, `${entry.id}: a complete translation must cover every subtitle row`);
+  requireValue(!entry.complete || (seen.size === song.lyrics.length && !entry.entries.some(row => row.partial)), `${entry.id}: a complete translation must cover every subtitle row`);
   const updated = {
     ...song, lyrics,
-    translationStatus: lyrics.every(line => line.tr?.trim()) ? "ready" : "partial",
+    translationStatus: lyrics.every(line => line.tr?.trim() && !line.translationPartial) ? "ready" : "partial",
     translationCredit: entry.translationCredit, translationCreditRole: entry.translationCreditRole,
-    translationProvenance: { method: "user-provided chat text", file: entry.file, providedAt: entry.providedAt, scope: entry.scope, complete: entry.complete === true,
+    ...(entry.usageBasis ? { translationUsageBasis: entry.usageBasis } : {}),
+    translationProvenance: { method: entry.providedVia === "local-file" ? "user-provided local text" : "user-provided chat text", file: entry.file, providedAt: entry.providedAt, scope: entry.scope, complete: entry.complete === true,
+      ...(entry.alignmentFile ? { alignmentFile: entry.alignmentFile } : {}),
       sha256: crypto.createHash("sha256").update(text).digest("hex") },
     ...(entry.translationTitle ? { translationTitle: entry.translationTitle } : {}),
   };
@@ -69,7 +74,7 @@ export async function importTranslations({ write = false, root = new URL("../", 
   const alignment = JSON.parse(await fs.readFile(new URL("alignment.json", directory), "utf8"));
   requireValue(alignment.songs.length === sources.songs.length && evidence.length === sources.songs.length, "Incomplete translation input set");
   const updates = new Map();
-  const report = { source: "user-provided PDF files", videoTiming: "unchanged; LRC preview remains unverified", songs: [] };
+  const report = { source: "user-provided translation files", videoTiming: "unchanged; LRC preview remains unverified", songs: [] };
   for (const entry of alignment.songs) {
     requireValue(!updates.has(entry.id), `Duplicate translation alignment: ${entry.id}`);
     const source = sources.songs.find(song => song.id === entry.id);
@@ -112,11 +117,17 @@ export async function importTranslations({ write = false, root = new URL("../", 
     updates.set(entry.id, song);
     const translatedLines = song.lyrics.filter(line => line.tr?.trim()).length;
     report.userProvidedSongs.push({ id: entry.id, file: entry.file, totalLines: song.lyrics.length, translatedLines,
-      status: song.translationStatus, providedAt: entry.providedAt, scope: entry.scope, sha256: song.translationProvenance.sha256 });
-    console.log(`${entry.id}: ${translatedLines}/${song.lyrics.length} lines; directly supplied excerpt`);
+      status: song.translationStatus, providedAt: entry.providedAt, scope: entry.scope, sha256: song.translationProvenance.sha256,
+      partialRows: song.lyrics.flatMap((line, index) => line.translationPartial ? [index] : []),
+      pending: song.lyrics.flatMap((line, index) => line.tr?.trim() && !line.translationPartial ? [] : [{index, original: line.jp,
+        reason: entry.entries.find(row => row.index === index)?.pendingReason || "供稿未提供可核對的對應中文。"}]),
+    });
+    console.log(`${entry.id}: ${translatedLines}/${song.lyrics.length} lines; directly supplied text`);
   }
   report.userProvidedTranslatedLines = report.userProvidedSongs.reduce((sum, song) => sum + song.translatedLines, 0);
   report.totalTranslatedLines = report.translatedLines + report.userProvidedTranslatedLines;
+  report.userProvidedPendingLines = report.userProvidedSongs.reduce((sum, song) => sum + song.pending.length, 0);
+  report.pendingLines += report.userProvidedPendingLines;
   if (!alignment.songs.length && !supplied.songs.length) {
     console.log("No translation input has been supplied; content remains unchanged.");
     return report;

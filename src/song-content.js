@@ -7,7 +7,7 @@ export function songCapabilities(song){
   const hasTranslation = lines.some(line => textOf(line.tr).trim());
   const originalLines = lines.filter(line => textOf(line.jp).trim());
   const translationComplete = hasTranslation && originalLines.length > 0
-    && originalLines.every(line => textOf(line.tr).trim());
+    && originalLines.every(line => textOf(line.tr).trim() && !line.translationPartial);
   const timed = hasOriginal && lines.every((line, index) =>
     typeof line.time === "number" && Number.isFinite(line.time) && line.time >= 0
     && (index === 0 || line.time >= lines[index - 1].time));

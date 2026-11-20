@@ -1,0 +1,4091 @@
+{
+  "checkedAt": "2026-11-17T15:37:45.709Z",
+  "architecture": "https://github.com/watain666/Vaundy-Taiwan-2026/blob/main/karaoke-sources.js",
+  "note": "Source candidates only. No lyric text is saved. Video alignment and permission to use text remain unverified.",
+  "songs": [
+    {
+      "id": "YellowGhost",
+      "title": "YELLOW GHOST",
+      "youtubeId": null,
+      "sources": {
+        "amll": {
+          "state": "miss",
+          "candidates": [],
+          "checkedAt": "2026-11-17T15:37:11.523Z"
+        },
+        "lrclib": {
+          "state": "found",
+          "candidates": [
+            {
+              "id": 11926614,
+              "title": "Yellow Ghost",
+              "artist": "Kenshi Yonezu",
+              "album": "Lost Corner",
+              "duration": 173,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/11926614"
+            }
+          ],
+          "checkedAt": "2026-11-17T15:37:11.523Z"
+        }
+      },
+      "timingInspection": {
+        "scope": "Up to three metadata-matched candidates; validates format and Japanese text presence only. Does not verify completeness, lyric accuracy or YouTube alignment.",
+        "attempts": [
+          {
+            "id": 11926614,
+            "url": "https://lrclib.net/api/get/11926614",
+            "state": "parseable-japanese-timing",
+            "title": "Yellow Ghost",
+            "artist": "Kenshi Yonezu",
+            "album": "Lost Corner",
+            "duration": 173,
+            "hasSyncedLyrics": true,
+            "hasLyricsfile": true,
+            "lineCount": 34,
+            "japaneseLineCount": 30,
+            "firstTimestamp": 15.98,
+            "lastTimestamp": 167.76,
+            "issues": [],
+            "checkedAt": "2026-11-17T15:39:43.654Z"
+          }
+        ],
+        "state": "parseable-japanese-timing",
+        "videoAlignment": "unverified",
+        "usageBasis": "unverified",
+        "exampleUrl": "https://lrclib.net/api/get/11926614"
+      },
+      "localContent": {
+        "lineCount": 0,
+        "hasOriginal": false,
+        "hasTranslation": false,
+        "translationComplete": false,
+        "timed": false,
+        "readings": false,
+        "japanese": true
+      },
+      "programLinks": {
+        "youtubeId": null,
+        "videoSourceUrl": null,
+        "listenUrl": "https://smej.lnk.to/LOSTCORNER",
+        "sourceUrl": "https://reissuerecords.net/discography/lost-corner/",
+        "previewUrl": null
+      }
+    },
+    {
+      "id": "Shunrai",
+      "title": "春雷",
+      "youtubeId": "zkNzxsaCunU",
+      "sources": {
+        "amll": {
+          "state": "miss",
+          "candidates": [],
+          "checkedAt": "2026-11-17T15:37:11.909Z"
+        },
+        "lrclib": {
+          "state": "found",
+          "candidates": [
+            {
+              "id": 21735239,
+              "title": "春雷",
+              "artist": "Kenshi Yonezu",
+              "album": "Kenshi Yonezu Videos",
+              "duration": 297.296,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/21735239"
+            },
+            {
+              "id": 10031040,
+              "title": "春雷",
+              "artist": "Kenshi Yonezu",
+              "album": "BOOTLEG",
+              "duration": 289,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/10031040"
+            },
+            {
+              "id": 10123694,
+              "title": "春雷",
+              "artist": "Kenshi Yonezu",
+              "album": "BOOTLEG",
+              "duration": 296,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/10123694"
+            },
+            {
+              "id": 36786379,
+              "title": "春雷",
+              "artist": "Kenshi Yonezu",
+              "album": "BOOTLEG",
+              "duration": 284,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/36786379"
+            },
+            {
+              "id": 38607706,
+              "title": "春雷",
+              "artist": "Kenshi Yonezu",
+              "album": "BOOTLEG",
+              "duration": 261,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/38607706"
+            }
+          ],
+          "checkedAt": "2026-11-17T15:37:11.909Z"
+        }
+      },
+      "timingInspection": {
+        "scope": "Up to three metadata-matched candidates; validates format and Japanese text presence only. Does not verify completeness, lyric accuracy or YouTube alignment.",
+        "attempts": [
+          {
+            "id": 10031040,
+            "url": "https://lrclib.net/api/get/10031040",
+            "state": "parseable-japanese-timing",
+            "title": "春雷",
+            "artist": "Kenshi Yonezu",
+            "album": "BOOTLEG",
+            "duration": 289,
+            "hasSyncedLyrics": true,
+            "hasLyricsfile": true,
+            "lineCount": 40,
+            "japaneseLineCount": 40,
+            "firstTimestamp": 19.07,
+            "lastTimestamp": 259.36,
+            "issues": [],
+            "checkedAt": "2026-11-17T15:39:45.178Z"
+          }
+        ],
+        "state": "parseable-japanese-timing",
+        "videoAlignment": "unverified",
+        "usageBasis": "unverified",
+        "exampleUrl": "https://lrclib.net/api/get/10031040"
+      },
+      "localContent": {
+        "lineCount": 0,
+        "hasOriginal": false,
+        "hasTranslation": false,
+        "translationComplete": false,
+        "timed": false,
+        "readings": false,
+        "japanese": true
+      },
+      "programLinks": {
+        "youtubeId": "zkNzxsaCunU",
+        "videoSourceUrl": "https://www.youtube.com/watch?v=zkNzxsaCunU",
+        "listenUrl": "https://www.youtube.com/watch?v=zkNzxsaCunU",
+        "sourceUrl": "https://reissuerecords.net/discography/bootleg/",
+        "previewUrl": null
+      }
+    },
+    {
+      "id": "Kanden",
+      "title": "感電",
+      "youtubeId": "UFQEttrn6CQ",
+      "sources": {
+        "amll": {
+          "state": "miss",
+          "candidates": [],
+          "checkedAt": "2026-11-17T15:37:12.257Z"
+        },
+        "lrclib": {
+          "state": "found",
+          "candidates": [
+            {
+              "id": 65443,
+              "title": "感電",
+              "artist": "Kenshi Yonezu",
+              "album": "STRAY SHEEP",
+              "duration": 265,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/65443"
+            },
+            {
+              "id": 11502024,
+              "title": "感電",
+              "artist": "Kenshi Yonezu",
+              "album": "STRAY SHEEP",
+              "duration": 292,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/11502024"
+            },
+            {
+              "id": 35818659,
+              "title": "感電",
+              "artist": "Kenshi Yonezu",
+              "album": "LOST CORNER",
+              "duration": 193,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/35818659"
+            }
+          ],
+          "checkedAt": "2026-11-17T15:37:12.257Z"
+        }
+      },
+      "timingInspection": {
+        "scope": "Up to three metadata-matched candidates; validates format and Japanese text presence only. Does not verify completeness, lyric accuracy or YouTube alignment.",
+        "attempts": [
+          {
+            "id": 65443,
+            "url": "https://lrclib.net/api/get/65443",
+            "state": "needs-review",
+            "title": "感電",
+            "artist": "Kenshi Yonezu",
+            "album": "STRAY SHEEP",
+            "duration": 265,
+            "hasSyncedLyrics": false,
+            "hasLyricsfile": true,
+            "lineCount": 0,
+            "japaneseLineCount": 0,
+            "firstTimestamp": null,
+            "lastTimestamp": null,
+            "issues": [
+              "unparseable-timing",
+              "no-japanese-kana"
+            ],
+            "checkedAt": "2026-11-17T15:39:46.708Z"
+          },
+          {
+            "id": 11502024,
+            "url": "https://lrclib.net/api/get/11502024",
+            "state": "parseable-japanese-timing",
+            "title": "感電",
+            "artist": "Kenshi Yonezu",
+            "album": "STRAY SHEEP",
+            "duration": 292,
+            "hasSyncedLyrics": true,
+            "hasLyricsfile": true,
+            "lineCount": 55,
+            "japaneseLineCount": 55,
+            "firstTimestamp": 19.92,
+            "lastTimestamp": 258.33,
+            "issues": [],
+            "checkedAt": "2026-11-17T15:39:48.230Z"
+          }
+        ],
+        "state": "parseable-japanese-timing",
+        "videoAlignment": "unverified",
+        "usageBasis": "unverified",
+        "exampleUrl": "https://lrclib.net/api/get/11502024"
+      },
+      "localContent": {
+        "lineCount": 0,
+        "hasOriginal": false,
+        "hasTranslation": false,
+        "translationComplete": false,
+        "timed": false,
+        "readings": false,
+        "japanese": true
+      },
+      "programLinks": {
+        "youtubeId": "UFQEttrn6CQ",
+        "videoSourceUrl": "https://www.youtube.com/watch?v=UFQEttrn6CQ",
+        "listenUrl": "https://www.youtube.com/watch?v=UFQEttrn6CQ",
+        "sourceUrl": "https://reissuerecords.net/discography/stray-sheep/",
+        "previewUrl": null
+      }
+    },
+    {
+      "id": "Flamingo",
+      "title": "Flamingo",
+      "youtubeId": "Uh6dkL1M9DM",
+      "sources": {
+        "amll": {
+          "state": "miss",
+          "candidates": [],
+          "checkedAt": "2026-11-17T15:37:12.608Z"
+        },
+        "lrclib": {
+          "state": "found",
+          "candidates": [
+            {
+              "id": 2613519,
+              "title": "Flamingo",
+              "artist": "Kenshi Yonezu",
+              "album": "Flamingo / TEENAGE RIOT",
+              "duration": 195,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/2613519"
+            },
+            {
+              "id": 65586,
+              "title": "Flamingo",
+              "artist": "Kenshi Yonezu",
+              "album": "Flamingo / TEENAGE RIOT - Single",
+              "duration": 195,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/65586"
+            },
+            {
+              "id": 65587,
+              "title": "Flamingo",
+              "artist": "Kenshi Yonezu",
+              "album": "STRAY SHEEP",
+              "duration": 195,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/65587"
+            },
+            {
+              "id": 32257390,
+              "title": "Flamingo",
+              "artist": "Kenshi Yonezu",
+              "album": "Motto~ Motto~",
+              "duration": 196,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/32257390"
+            },
+            {
+              "id": 21994970,
+              "title": "Flamingo",
+              "artist": "Kenshi Yonezu",
+              "album": "Flamingo / TEENAGE RIOT",
+              "duration": 217.312653,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/21994970"
+            },
+            {
+              "id": 12520499,
+              "title": "Flamingo",
+              "artist": "Kenshi Yonezu",
+              "album": "null",
+              "duration": 196,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/12520499"
+            },
+            {
+              "id": 34560247,
+              "title": "Flamingo",
+              "artist": "Kenshi Yonezu",
+              "album": "STRAY SHEEP",
+              "duration": 217,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/34560247"
+            },
+            {
+              "id": 26278406,
+              "title": "Flamingo",
+              "artist": "Kenshi Yonezu",
+              "album": "Flamingo / TEENAGE RIOT",
+              "duration": 79.84036117687083,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/26278406"
+            },
+            {
+              "id": 26278415,
+              "title": "Flamingo",
+              "artist": "Kenshi Yonezu",
+              "album": "Flamingo / TEENAGE RIOT",
+              "duration": 109.79410217687018,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/26278415"
+            },
+            {
+              "id": 38952617,
+              "title": "Flamingo",
+              "artist": "Kenshi Yonezu",
+              "album": "Flamingo / TEENAGE RIOT - Single",
+              "duration": 217,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/38952617"
+            },
+            {
+              "id": 38703508,
+              "title": "Flamingo",
+              "artist": "Kenshi Yonezu",
+              "album": "Redemption",
+              "duration": 196,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/38703508"
+            }
+          ],
+          "checkedAt": "2026-11-17T15:37:12.608Z"
+        }
+      },
+      "timingInspection": {
+        "scope": "Up to three metadata-matched candidates; validates format and Japanese text presence only. Does not verify completeness, lyric accuracy or YouTube alignment.",
+        "attempts": [
+          {
+            "id": 65587,
+            "url": "https://lrclib.net/api/get/65587",
+            "state": "parseable-japanese-timing",
+            "title": "Flamingo",
+            "artist": "Kenshi Yonezu",
+            "album": "STRAY SHEEP",
+            "duration": 195,
+            "hasSyncedLyrics": true,
+            "hasLyricsfile": true,
+            "lineCount": 45,
+            "japaneseLineCount": 45,
+            "firstTimestamp": 8.55,
+            "lastTimestamp": 189.05,
+            "issues": [],
+            "checkedAt": "2026-11-17T15:39:49.789Z"
+          }
+        ],
+        "state": "parseable-japanese-timing",
+        "videoAlignment": "unverified",
+        "usageBasis": "unverified",
+        "exampleUrl": "https://lrclib.net/api/get/65587"
+      },
+      "localContent": {
+        "lineCount": 0,
+        "hasOriginal": false,
+        "hasTranslation": false,
+        "translationComplete": false,
+        "timed": false,
+        "readings": false,
+        "japanese": true
+      },
+      "programLinks": {
+        "youtubeId": "Uh6dkL1M9DM",
+        "videoSourceUrl": "https://www.youtube.com/watch?v=Uh6dkL1M9DM",
+        "listenUrl": "https://www.youtube.com/watch?v=Uh6dkL1M9DM",
+        "sourceUrl": "https://reissuerecords.net/discography/stray-sheep/",
+        "previewUrl": null
+      }
+    },
+    {
+      "id": "Lady",
+      "title": "LADY",
+      "youtubeId": "DdF-u3fe5pg",
+      "sources": {
+        "amll": {
+          "state": "miss",
+          "candidates": [],
+          "checkedAt": "2026-11-17T15:37:12.947Z"
+        },
+        "lrclib": {
+          "state": "found",
+          "candidates": [
+            {
+              "id": 8081210,
+              "title": "LADY",
+              "artist": "Kenshi Yonezu",
+              "album": "Kenshi Yonezu Videos",
+              "duration": 244,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/8081210"
+            },
+            {
+              "id": 7233361,
+              "title": "LADY",
+              "artist": "Kenshi Yonezu",
+              "album": "Top Japan 2023",
+              "duration": 207,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/7233361"
+            },
+            {
+              "id": 3871561,
+              "title": "LADY",
+              "artist": "Kenshi Yonezu",
+              "album": "LADY",
+              "duration": 244,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/3871561"
+            },
+            {
+              "id": 3598714,
+              "title": "LADY",
+              "artist": "Kenshi Yonezu",
+              "album": "LADY (single)",
+              "duration": 207,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/3598714"
+            },
+            {
+              "id": 3340171,
+              "title": "LADY",
+              "artist": "Kenshi Yonezu",
+              "album": "LADY",
+              "duration": 207,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/3340171"
+            },
+            {
+              "id": 33279113,
+              "title": "Lady",
+              "artist": "Kenshi Yonezu",
+              "album": "Singles",
+              "duration": 244,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/33279113"
+            },
+            {
+              "id": 16164940,
+              "title": "LADY",
+              "artist": "Kenshi Yonezu",
+              "album": "Top J-Pop",
+              "duration": 207,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/16164940"
+            },
+            {
+              "id": 15082875,
+              "title": "Lady",
+              "artist": "Kenshi Yonezu",
+              "album": "Lost Conrer",
+              "duration": 208.1066669,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/15082875"
+            },
+            {
+              "id": 11929499,
+              "title": "LADY",
+              "artist": "Kenshi Yonezu",
+              "album": "LOST CORNER",
+              "duration": 208,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/11929499"
+            },
+            {
+              "id": 36061556,
+              "title": "LADY",
+              "artist": "Kenshi Yonezu",
+              "album": "LADY",
+              "duration": 50,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/36061556"
+            },
+            {
+              "id": 34122825,
+              "title": "LADY",
+              "artist": "Kenshi Yonezu",
+              "album": "LADY",
+              "duration": 190,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/34122825"
+            },
+            {
+              "id": 34069211,
+              "title": "LADY",
+              "artist": "Kenshi Yonezu",
+              "album": "LADY",
+              "duration": 3,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/34069211"
+            },
+            {
+              "id": 35424254,
+              "title": "LADY",
+              "artist": "Kenshi Yonezu",
+              "album": "LOST CORNER",
+              "duration": 242,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/35424254"
+            },
+            {
+              "id": 35424267,
+              "title": "LADY",
+              "artist": "Kenshi Yonezu",
+              "album": "LOST CORNER",
+              "duration": 248,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/35424267"
+            },
+            {
+              "id": 35424257,
+              "title": "LADY",
+              "artist": "Kenshi Yonezu",
+              "album": "LOST CORNER",
+              "duration": 241,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/35424257"
+            },
+            {
+              "id": 39896255,
+              "title": "LADY",
+              "artist": "Kenshi Yonezu",
+              "album": "LOST CORNER",
+              "duration": 212,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/39896255"
+            },
+            {
+              "id": 39988871,
+              "title": "LADY",
+              "artist": "Kenshi Yonezu",
+              "album": "Kenshi Yonezu",
+              "duration": 207,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/39988871"
+            }
+          ],
+          "checkedAt": "2026-11-17T15:37:12.947Z"
+        }
+      },
+      "timingInspection": {
+        "scope": "Up to three metadata-matched candidates; validates format and Japanese text presence only. Does not verify completeness, lyric accuracy or YouTube alignment.",
+        "attempts": [
+          {
+            "id": 11929499,
+            "url": "https://lrclib.net/api/get/11929499",
+            "state": "parseable-japanese-timing",
+            "title": "LADY",
+            "artist": "Kenshi Yonezu",
+            "album": "LOST CORNER",
+            "duration": 208,
+            "hasSyncedLyrics": true,
+            "hasLyricsfile": true,
+            "lineCount": 35,
+            "japaneseLineCount": 35,
+            "firstTimestamp": 11.227,
+            "lastTimestamp": 188.398,
+            "issues": [],
+            "checkedAt": "2026-11-17T15:39:51.311Z"
+          }
+        ],
+        "state": "parseable-japanese-timing",
+        "videoAlignment": "unverified",
+        "usageBasis": "unverified",
+        "exampleUrl": "https://lrclib.net/api/get/11929499"
+      },
+      "localContent": {
+        "lineCount": 0,
+        "hasOriginal": false,
+        "hasTranslation": false,
+        "translationComplete": false,
+        "timed": false,
+        "readings": false,
+        "japanese": true
+      },
+      "programLinks": {
+        "youtubeId": "DdF-u3fe5pg",
+        "videoSourceUrl": "https://www.youtube.com/watch?v=DdF-u3fe5pg",
+        "listenUrl": "https://www.youtube.com/watch?v=DdF-u3fe5pg",
+        "sourceUrl": "https://reissuerecords.net/discography/lost-corner/",
+        "previewUrl": null
+      }
+    },
+    {
+      "id": "Yumeutsutsu",
+      "title": "ゆめうつつ",
+      "youtubeId": null,
+      "sources": {
+        "amll": {
+          "state": "miss",
+          "candidates": [],
+          "checkedAt": "2026-11-17T15:37:13.289Z"
+        },
+        "lrclib": {
+          "state": "found",
+          "candidates": [
+            {
+              "id": 3348667,
+              "title": "ゆめうつつ",
+              "artist": "Kenshi Yonezu",
+              "album": "Pale Blue",
+              "duration": 305,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/3348667"
+            },
+            {
+              "id": 14452926,
+              "title": "ゆめうつつ",
+              "artist": "Kenshi Yonezu",
+              "album": "LOST CORNER",
+              "duration": 305,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/14452926"
+            },
+            {
+              "id": 10123543,
+              "title": "ゆめうつつ",
+              "artist": "Kenshi Yonezu",
+              "album": "ゆめうつつ",
+              "duration": 304,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/10123543"
+            }
+          ],
+          "checkedAt": "2026-11-17T15:37:13.289Z"
+        }
+      },
+      "timingInspection": {
+        "scope": "Up to three metadata-matched candidates; validates format and Japanese text presence only. Does not verify completeness, lyric accuracy or YouTube alignment.",
+        "attempts": [
+          {
+            "id": 14452926,
+            "url": "https://lrclib.net/api/get/14452926",
+            "state": "parseable-japanese-timing",
+            "title": "ゆめうつつ",
+            "artist": "Kenshi Yonezu",
+            "album": "LOST CORNER",
+            "duration": 305,
+            "hasSyncedLyrics": true,
+            "hasLyricsfile": true,
+            "lineCount": 46,
+            "japaneseLineCount": 46,
+            "firstTimestamp": 27.72,
+            "lastTimestamp": 272.9,
+            "issues": [],
+            "checkedAt": "2026-11-17T15:39:52.851Z"
+          }
+        ],
+        "state": "parseable-japanese-timing",
+        "videoAlignment": "unverified",
+        "usageBasis": "unverified",
+        "exampleUrl": "https://lrclib.net/api/get/14452926"
+      },
+      "localContent": {
+        "lineCount": 0,
+        "hasOriginal": false,
+        "hasTranslation": false,
+        "translationComplete": false,
+        "timed": false,
+        "readings": false,
+        "japanese": true
+      },
+      "programLinks": {
+        "youtubeId": null,
+        "videoSourceUrl": null,
+        "listenUrl": "https://smej.lnk.to/LOSTCORNER",
+        "sourceUrl": "https://reissuerecords.net/discography/lost-corner/",
+        "previewUrl": null
+      }
+    },
+    {
+      "id": "CranberryAndPancake",
+      "title": "クランベリーとパンケーキ",
+      "youtubeId": null,
+      "sources": {
+        "amll": {
+          "state": "miss",
+          "candidates": [],
+          "checkedAt": "2026-11-17T15:37:13.625Z"
+        },
+        "lrclib": {
+          "state": "found",
+          "candidates": [
+            {
+              "id": 10123569,
+              "title": "クランベリーとパンケーキ",
+              "artist": "Kenshi Yonezu",
+              "album": "Lemon",
+              "duration": 210,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/10123569"
+            }
+          ],
+          "checkedAt": "2026-11-17T15:37:13.625Z"
+        }
+      },
+      "timingInspection": {
+        "scope": "Up to three metadata-matched candidates; validates format and Japanese text presence only. Does not verify completeness, lyric accuracy or YouTube alignment.",
+        "attempts": [
+          {
+            "id": 10123569,
+            "url": "https://lrclib.net/api/get/10123569",
+            "state": "parseable-japanese-timing",
+            "title": "クランベリーとパンケーキ",
+            "artist": "Kenshi Yonezu",
+            "album": "Lemon",
+            "duration": 210,
+            "hasSyncedLyrics": true,
+            "hasLyricsfile": true,
+            "lineCount": 49,
+            "japaneseLineCount": 49,
+            "firstTimestamp": 0.44,
+            "lastTimestamp": 196.96,
+            "issues": [],
+            "checkedAt": "2026-11-17T15:39:54.367Z"
+          }
+        ],
+        "state": "parseable-japanese-timing",
+        "videoAlignment": "unverified",
+        "usageBasis": "unverified",
+        "exampleUrl": "https://lrclib.net/api/get/10123569"
+      },
+      "localContent": {
+        "lineCount": 0,
+        "hasOriginal": false,
+        "hasTranslation": false,
+        "translationComplete": false,
+        "timed": false,
+        "readings": false,
+        "japanese": true
+      },
+      "programLinks": {
+        "youtubeId": null,
+        "videoSourceUrl": null,
+        "listenUrl": "https://smej.lnk.to/Lemon",
+        "sourceUrl": "https://reissuerecords.net/discography/lemon/",
+        "previewUrl": null
+      }
+    },
+    {
+      "id": "Shinigami",
+      "title": "死神",
+      "youtubeId": "8nxaZ69ElEc",
+      "sources": {
+        "amll": {
+          "state": "miss",
+          "candidates": [],
+          "checkedAt": "2026-11-17T15:37:13.966Z"
+        },
+        "lrclib": {
+          "state": "found",
+          "candidates": [
+            {
+              "id": 66309,
+              "title": "死神",
+              "artist": "Kenshi Yonezu",
+              "album": "Pale Blue",
+              "duration": 181,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/66309"
+            },
+            {
+              "id": 12206559,
+              "title": "死神",
+              "artist": "Kenshi Yonezu",
+              "album": "LOST CORNER",
+              "duration": 181,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/12206559"
+            },
+            {
+              "id": 35494113,
+              "title": "死神",
+              "artist": "Kenshi Yonezu",
+              "album": "Pale Blue - Single",
+              "duration": 180,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/35494113"
+            }
+          ],
+          "checkedAt": "2026-11-17T15:37:13.966Z"
+        }
+      },
+      "timingInspection": {
+        "scope": "Up to three metadata-matched candidates; validates format and Japanese text presence only. Does not verify completeness, lyric accuracy or YouTube alignment.",
+        "attempts": [
+          {
+            "id": 12206559,
+            "url": "https://lrclib.net/api/get/12206559",
+            "state": "parseable-japanese-timing",
+            "title": "死神",
+            "artist": "Kenshi Yonezu",
+            "album": "LOST CORNER",
+            "duration": 181,
+            "hasSyncedLyrics": true,
+            "hasLyricsfile": true,
+            "lineCount": 53,
+            "japaneseLineCount": 45,
+            "firstTimestamp": 15.82,
+            "lastTimestamp": 177.26,
+            "issues": [],
+            "checkedAt": "2026-11-17T15:39:55.896Z"
+          }
+        ],
+        "state": "parseable-japanese-timing",
+        "videoAlignment": "unverified",
+        "usageBasis": "unverified",
+        "exampleUrl": "https://lrclib.net/api/get/12206559"
+      },
+      "localContent": {
+        "lineCount": 0,
+        "hasOriginal": false,
+        "hasTranslation": false,
+        "translationComplete": false,
+        "timed": false,
+        "readings": false,
+        "japanese": true
+      },
+      "programLinks": {
+        "youtubeId": "8nxaZ69ElEc",
+        "videoSourceUrl": "https://www.youtube.com/watch?v=8nxaZ69ElEc",
+        "listenUrl": "https://www.youtube.com/watch?v=8nxaZ69ElEc",
+        "sourceUrl": "https://reissuerecords.net/discography/lost-corner/",
+        "previewUrl": null
+      }
+    },
+    {
+      "id": "SayonaraMataItsuka",
+      "title": "さよーならまたいつか！",
+      "youtubeId": "-wb2PAx6aEs",
+      "sources": {
+        "amll": {
+          "state": "miss",
+          "candidates": [],
+          "checkedAt": "2026-11-17T15:37:14.312Z"
+        },
+        "lrclib": {
+          "state": "found",
+          "candidates": [
+            {
+              "id": 32191339,
+              "title": "さよーならまたいつか！",
+              "artist": "Kenshi Yonezu",
+              "album": "LOST CORNER",
+              "duration": 201,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/32191339"
+            },
+            {
+              "id": 14452815,
+              "title": "さよーならまたいつか!",
+              "artist": "Kenshi Yonezu",
+              "album": "LOST CORNER",
+              "duration": 201,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/14452815"
+            },
+            {
+              "id": 13504302,
+              "title": "さよーならまたいつか！",
+              "artist": "Kenshi Yonezu",
+              "album": "さよーならまたいつか！",
+              "duration": 201,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/13504302"
+            },
+            {
+              "id": 33717449,
+              "title": "さよーならまたいつか！",
+              "artist": "Kenshi Yonezu",
+              "album": "さよーならまたいつか！",
+              "duration": 207,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/33717449"
+            },
+            {
+              "id": 35861240,
+              "title": "さよーならまたいつか！",
+              "artist": "Kenshi Yonezu",
+              "album": "126 jt x ditonton",
+              "duration": 3,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/35861240"
+            },
+            {
+              "id": 35053864,
+              "title": "さよーならまたいつか！",
+              "artist": "Kenshi Yonezu",
+              "album": "125 jt x ditonton",
+              "duration": 3,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/35053864"
+            },
+            {
+              "id": 35397787,
+              "title": "さよーならまたいつか！",
+              "artist": "Kenshi Yonezu",
+              "album": "Kenshi Yonezu Songs",
+              "duration": 208,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/35397787"
+            },
+            {
+              "id": 28566162,
+              "title": "さよーならまたいつか！",
+              "artist": "Kenshi Yonezu",
+              "album": "Unknown",
+              "duration": 208,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/28566162"
+            },
+            {
+              "id": 38793275,
+              "title": "さよーならまたいつか！",
+              "artist": "Kenshi Yonezu",
+              "album": "LOST CORNER",
+              "duration": 208,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/38793275"
+            }
+          ],
+          "checkedAt": "2026-11-17T15:37:14.312Z"
+        }
+      },
+      "timingInspection": {
+        "scope": "Up to three metadata-matched candidates; validates format and Japanese text presence only. Does not verify completeness, lyric accuracy or YouTube alignment.",
+        "attempts": [
+          {
+            "id": 14452815,
+            "url": "https://lrclib.net/api/get/14452815",
+            "state": "parseable-japanese-timing",
+            "title": "さよーならまたいつか!",
+            "artist": "Kenshi Yonezu",
+            "album": "LOST CORNER",
+            "duration": 201,
+            "hasSyncedLyrics": true,
+            "hasLyricsfile": true,
+            "lineCount": 35,
+            "japaneseLineCount": 35,
+            "firstTimestamp": 6.97,
+            "lastTimestamp": 194.79,
+            "issues": [],
+            "checkedAt": "2026-11-17T15:39:57.490Z"
+          }
+        ],
+        "state": "parseable-japanese-timing",
+        "videoAlignment": "unverified",
+        "usageBasis": "unverified",
+        "exampleUrl": "https://lrclib.net/api/get/14452815"
+      },
+      "localContent": {
+        "lineCount": 0,
+        "hasOriginal": false,
+        "hasTranslation": false,
+        "translationComplete": false,
+        "timed": false,
+        "readings": false,
+        "japanese": true
+      },
+      "programLinks": {
+        "youtubeId": "-wb2PAx6aEs",
+        "videoSourceUrl": "https://www.youtube.com/watch?v=-wb2PAx6aEs",
+        "listenUrl": "https://www.youtube.com/watch?v=-wb2PAx6aEs",
+        "sourceUrl": "https://reissuerecords.net/discography/lost-corner/",
+        "previewUrl": null
+      }
+    },
+    {
+      "id": "MelancholyKitchen",
+      "title": "メランコリーキッチン",
+      "youtubeId": null,
+      "sources": {
+        "amll": {
+          "state": "miss",
+          "candidates": [],
+          "checkedAt": "2026-11-17T15:37:14.661Z"
+        },
+        "lrclib": {
+          "state": "found",
+          "candidates": [
+            {
+              "id": 1883852,
+              "title": "メランコリーキッチン",
+              "artist": "Kenshi Yonezu",
+              "album": "YANKEE",
+              "duration": 219,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/1883852"
+            },
+            {
+              "id": 38186937,
+              "title": "メランコリーキッチン",
+              "artist": "Kenshi Yonezu",
+              "album": "YANKEE",
+              "duration": 210,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/38186937"
+            },
+            {
+              "id": 39446023,
+              "title": "メランコリーキッチン",
+              "artist": "Kenshi Yonezu",
+              "album": "YANKEE",
+              "duration": 99,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/39446023"
+            }
+          ],
+          "checkedAt": "2026-11-17T15:37:14.661Z"
+        }
+      },
+      "timingInspection": {
+        "scope": "Up to three metadata-matched candidates; validates format and Japanese text presence only. Does not verify completeness, lyric accuracy or YouTube alignment.",
+        "attempts": [
+          {
+            "id": 1883852,
+            "url": "https://lrclib.net/api/get/1883852",
+            "state": "parseable-japanese-timing",
+            "title": "メランコリーキッチン",
+            "artist": "Kenshi Yonezu",
+            "album": "YANKEE",
+            "duration": 219,
+            "hasSyncedLyrics": true,
+            "hasLyricsfile": true,
+            "lineCount": 47,
+            "japaneseLineCount": 41,
+            "firstTimestamp": 15.12,
+            "lastTimestamp": 212.43,
+            "issues": [],
+            "checkedAt": "2026-11-17T15:39:59.112Z"
+          }
+        ],
+        "state": "parseable-japanese-timing",
+        "videoAlignment": "unverified",
+        "usageBasis": "unverified",
+        "exampleUrl": "https://lrclib.net/api/get/1883852"
+      },
+      "localContent": {
+        "lineCount": 0,
+        "hasOriginal": false,
+        "hasTranslation": false,
+        "translationComplete": false,
+        "timed": false,
+        "readings": false,
+        "japanese": true
+      },
+      "programLinks": {
+        "youtubeId": null,
+        "videoSourceUrl": null,
+        "listenUrl": "https://lnk.to/Yankee",
+        "sourceUrl": "https://reissuerecords.net/discography/yankee/",
+        "previewUrl": null
+      }
+    },
+    {
+      "id": "NineteenNinetyOne",
+      "title": "1991",
+      "youtubeId": null,
+      "sources": {
+        "amll": {
+          "state": "miss",
+          "candidates": [],
+          "checkedAt": "2026-11-17T15:37:14.999Z"
+        },
+        "lrclib": {
+          "state": "found",
+          "candidates": [
+            {
+              "id": 24888115,
+              "title": "1991",
+              "artist": "Kenshi Yonezu",
+              "album": "1991",
+              "duration": 227.422041,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/24888115"
+            },
+            {
+              "id": 24879963,
+              "title": "1991",
+              "artist": "Kenshi Yonezu",
+              "album": "1991",
+              "duration": 228,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/24879963"
+            },
+            {
+              "id": 25017426,
+              "title": "1991",
+              "artist": "Kenshi Yonezu",
+              "album": "0",
+              "duration": 190,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/25017426"
+            },
+            {
+              "id": 35903190,
+              "title": "1991",
+              "artist": "Kenshi Yonezu",
+              "album": "1991",
+              "duration": 140,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/35903190"
+            },
+            {
+              "id": 35903212,
+              "title": "1991",
+              "artist": "Kenshi Yonezu",
+              "album": "1991",
+              "duration": 220,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/35903212"
+            },
+            {
+              "id": 35903195,
+              "title": "1991",
+              "artist": "Kenshi Yonezu",
+              "album": "1991",
+              "duration": 170,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/35903195"
+            },
+            {
+              "id": 36471833,
+              "title": "1991",
+              "artist": "Kenshi Yonezu",
+              "album": "Kenshi Yonezu Videos",
+              "duration": 238,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/36471833"
+            },
+            {
+              "id": 34244602,
+              "title": "1991",
+              "artist": "Kenshi Yonezu",
+              "album": "Billboard JAPAN Hot 100 (2025-12-17)",
+              "duration": 227,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/34244602"
+            },
+            {
+              "id": 26872321,
+              "title": "1991",
+              "artist": "Kenshi Yonezu",
+              "album": "Kenshi Yonezu",
+              "duration": 227.401,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/26872321"
+            },
+            {
+              "id": 25848340,
+              "title": "1991",
+              "artist": "Kenshi Yonezu",
+              "album": "1991 - Single",
+              "duration": 228,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/25848340"
+            },
+            {
+              "id": 39253930,
+              "title": "1991",
+              "artist": "Kenshi Yonezu",
+              "album": "1991",
+              "duration": 201,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/39253930"
+            },
+            {
+              "id": 39350654,
+              "title": "1991",
+              "artist": "Kenshi Yonezu",
+              "album": "Billboard JAPAN Hot 100 (2025-11-26)",
+              "duration": 227,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/39350654"
+            }
+          ],
+          "checkedAt": "2026-11-17T15:37:14.999Z"
+        }
+      },
+      "timingInspection": {
+        "scope": "Up to three metadata-matched candidates; validates format and Japanese text presence only. Does not verify completeness, lyric accuracy or YouTube alignment.",
+        "attempts": [
+          {
+            "id": 24879963,
+            "url": "https://lrclib.net/api/get/24879963",
+            "state": "parseable-japanese-timing",
+            "title": "1991",
+            "artist": "Kenshi Yonezu",
+            "album": "1991",
+            "duration": 228,
+            "hasSyncedLyrics": true,
+            "hasLyricsfile": true,
+            "lineCount": 17,
+            "japaneseLineCount": 17,
+            "firstTimestamp": 10,
+            "lastTimestamp": 194,
+            "issues": [],
+            "checkedAt": "2026-11-17T15:40:00.666Z"
+          }
+        ],
+        "state": "parseable-japanese-timing",
+        "videoAlignment": "unverified",
+        "usageBasis": "unverified",
+        "exampleUrl": "https://lrclib.net/api/get/24879963"
+      },
+      "localContent": {
+        "lineCount": 0,
+        "hasOriginal": false,
+        "hasTranslation": false,
+        "translationComplete": false,
+        "timed": false,
+        "readings": false,
+        "japanese": true
+      },
+      "programLinks": {
+        "youtubeId": null,
+        "videoSourceUrl": null,
+        "listenUrl": "https://smej.lnk.to/1991",
+        "sourceUrl": "https://reissuerecords.net/discography/1991%E3%80%80%E3%80%80%E3%80%80%E3%80%80%E3%80%80%E3%80%80%E3%80%8E%E7%A7%92%E9%80%9F5%E3%82%BB%E3%83%B3%E3%83%81%E3%83%A1%E3%83%BC%E3%83%88%E3%83%AB%E3%80%8F%E4%B8%BB%E9%A1%8C%E6%AD%8C/",
+        "previewUrl": null
+      }
+    },
+    {
+      "id": "Lemon",
+      "title": "Lemon",
+      "youtubeId": "SX_ViT4Ra7k",
+      "sources": {
+        "amll": {
+          "state": "miss",
+          "candidates": [],
+          "checkedAt": "2026-11-17T15:37:15.336Z"
+        },
+        "lrclib": {
+          "state": "found",
+          "candidates": [
+            {
+              "id": 5394410,
+              "title": "Lemon",
+              "artist": "Kenshi Yonezu",
+              "album": "Jpop hits",
+              "duration": 256,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/5394410"
+            },
+            {
+              "id": 3991645,
+              "title": "Lemon",
+              "artist": "Kenshi Yonezu",
+              "album": "Lemon - Single",
+              "duration": 256,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/3991645"
+            },
+            {
+              "id": 1319700,
+              "title": "Lemon",
+              "artist": "Kenshi Yonezu",
+              "album": "Lemon",
+              "duration": 256,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/1319700"
+            },
+            {
+              "id": 65910,
+              "title": "Lemon",
+              "artist": "Kenshi Yonezu",
+              "album": "STRAY SHEEP",
+              "duration": 256,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/65910"
+            },
+            {
+              "id": 8993264,
+              "title": "Lemon",
+              "artist": "Kenshi Yonezu",
+              "album": "",
+              "duration": 256,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/8993264"
+            },
+            {
+              "id": 30107887,
+              "title": "Lemon",
+              "artist": "Kenshi Yonezu",
+              "album": "Lemon",
+              "duration": 210,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/30107887"
+            },
+            {
+              "id": 30107843,
+              "title": "Lemon",
+              "artist": "Kenshi Yonezu",
+              "album": "Lemon",
+              "duration": 140,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/30107843"
+            },
+            {
+              "id": 30107826,
+              "title": "Lemon",
+              "artist": "Kenshi Yonezu",
+              "album": "Lemon",
+              "duration": 80,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/30107826"
+            },
+            {
+              "id": 29937295,
+              "title": "Lemon",
+              "artist": "Kenshi Yonezu",
+              "album": "null",
+              "duration": 274,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/29937295"
+            },
+            {
+              "id": 31214421,
+              "title": "Lemon",
+              "artist": "Kenshi Yonezu",
+              "album": "Lemon",
+              "duration": 110,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/31214421"
+            },
+            {
+              "id": 31214471,
+              "title": "Lemon",
+              "artist": "Kenshi Yonezu",
+              "album": "Lemon",
+              "duration": 200,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/31214471"
+            },
+            {
+              "id": 31214489,
+              "title": "Lemon",
+              "artist": "Kenshi Yonezu",
+              "album": "Lemon",
+              "duration": 220,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/31214489"
+            },
+            {
+              "id": 31214518,
+              "title": "Lemon",
+              "artist": "Kenshi Yonezu",
+              "album": "Lemon",
+              "duration": 240,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/31214518"
+            },
+            {
+              "id": 21964405,
+              "title": "Lemon",
+              "artist": "Kenshi Yonezu",
+              "album": "Billboard Japan Hot 100 Singles Chart",
+              "duration": 256,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/21964405"
+            },
+            {
+              "id": 11002170,
+              "title": "Lemon",
+              "artist": "Kenshi Yonezu",
+              "album": "STRAY SHEEP",
+              "duration": 274,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/11002170"
+            },
+            {
+              "id": 10347505,
+              "title": "Lemon",
+              "artist": "Kenshi Yonezu",
+              "album": "STRAY SHEEP",
+              "duration": 248,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/10347505"
+            },
+            {
+              "id": 10123439,
+              "title": "Lemon",
+              "artist": "Kenshi Yonezu",
+              "album": "Lemon",
+              "duration": 273,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/10123439"
+            },
+            {
+              "id": 12599022,
+              "title": "Lemon",
+              "artist": "Kenshi Yonezu",
+              "album": "Kenshi Yonezu Videos",
+              "duration": 274.273,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/12599022"
+            },
+            {
+              "id": 36183387,
+              "title": "Lemon",
+              "artist": "Kenshi Yonezu",
+              "album": "Japan Billboard Hot 100 Singles Chart (April 2024)",
+              "duration": 256,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/36183387"
+            },
+            {
+              "id": 36029116,
+              "title": "Lemon",
+              "artist": "Kenshi Yonezu",
+              "album": "Lemon",
+              "duration": 260,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/36029116"
+            }
+          ],
+          "checkedAt": "2026-11-17T15:37:15.336Z"
+        }
+      },
+      "timingInspection": {
+        "scope": "Up to three metadata-matched candidates; validates format and Japanese text presence only. Does not verify completeness, lyric accuracy or YouTube alignment.",
+        "attempts": [
+          {
+            "id": 65910,
+            "url": "https://lrclib.net/api/get/65910",
+            "state": "parseable-japanese-timing",
+            "title": "Lemon",
+            "artist": "Kenshi Yonezu",
+            "album": "STRAY SHEEP",
+            "duration": 256,
+            "hasSyncedLyrics": true,
+            "hasLyricsfile": true,
+            "lineCount": 37,
+            "japaneseLineCount": 37,
+            "firstTimestamp": 0.75,
+            "lastTimestamp": 238.03,
+            "issues": [],
+            "checkedAt": "2026-11-17T15:40:02.210Z"
+          }
+        ],
+        "state": "parseable-japanese-timing",
+        "videoAlignment": "unverified",
+        "usageBasis": "unverified",
+        "exampleUrl": "https://lrclib.net/api/get/65910"
+      },
+      "localContent": {
+        "lineCount": 0,
+        "hasOriginal": false,
+        "hasTranslation": false,
+        "translationComplete": false,
+        "timed": false,
+        "readings": false,
+        "japanese": true
+      },
+      "programLinks": {
+        "youtubeId": "SX_ViT4Ra7k",
+        "videoSourceUrl": "https://www.youtube.com/watch?v=SX_ViT4Ra7k",
+        "listenUrl": "https://www.youtube.com/watch?v=SX_ViT4Ra7k",
+        "sourceUrl": "https://reissuerecords.net/discography/stray-sheep/",
+        "previewUrl": null
+      }
+    },
+    {
+      "id": "JaneDoe",
+      "title": "JANE DOE",
+      "youtubeId": "sPLqsLsooJY",
+      "sources": {
+        "amll": {
+          "state": "miss",
+          "candidates": [],
+          "checkedAt": "2026-11-17T15:37:15.664Z"
+        },
+        "lrclib": {
+          "state": "found",
+          "candidates": [
+            {
+              "id": 30782602,
+              "title": "JANE DOE",
+              "artist": "Kenshi Yonezu",
+              "album": "JANE DOE",
+              "duration": 232,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/30782602"
+            },
+            {
+              "id": 30230345,
+              "title": "JANE DOE",
+              "artist": "Kenshi Yonezu",
+              "album": "Kenshi Yonezu Songs",
+              "duration": 246,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/30230345"
+            },
+            {
+              "id": 29896266,
+              "title": "JANE DOE",
+              "artist": "Kenshi Yonezu",
+              "album": "Singles",
+              "duration": 236,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/29896266"
+            },
+            {
+              "id": 30230928,
+              "title": "JANE DOE",
+              "artist": "Kenshi Yonezu",
+              "album": "Kenshi Yonezu Songs",
+              "duration": 237,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/30230928"
+            },
+            {
+              "id": 31819871,
+              "title": "JANE DOE",
+              "artist": "Kenshi Yonezu",
+              "album": "undefined",
+              "duration": 236,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/31819871"
+            },
+            {
+              "id": 25296344,
+              "title": "JANE DOE",
+              "artist": "Kenshi Yonezu",
+              "album": "Kenshi Yonezu Videos",
+              "duration": 247,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/25296344"
+            },
+            {
+              "id": 24390392,
+              "title": "JANE DOE",
+              "artist": "Kenshi Yonezu",
+              "album": "JANE DOE",
+              "duration": 236,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/24390392"
+            },
+            {
+              "id": 33517252,
+              "title": "JANE DOE",
+              "artist": "Kenshi Yonezu",
+              "album": "IRIS OUT / JANE DOE",
+              "duration": 235,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/33517252"
+            },
+            {
+              "id": 35336013,
+              "title": "JANE DOE",
+              "artist": "Kenshi Yonezu",
+              "album": "Hikaru Utada",
+              "duration": 236,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/35336013"
+            },
+            {
+              "id": 35057802,
+              "title": "JANE DOE",
+              "artist": "Kenshi Yonezu",
+              "album": "Unknown Album",
+              "duration": 247,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/35057802"
+            },
+            {
+              "id": 33949828,
+              "title": "JANE DOE",
+              "artist": "Kenshi Yonezu",
+              "album": "JANE DOE",
+              "duration": 209,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/33949828"
+            },
+            {
+              "id": 35568064,
+              "title": "JANE DOE",
+              "artist": "Kenshi Yonezu",
+              "album": "JANE DOE",
+              "duration": 36,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/35568064"
+            },
+            {
+              "id": 26116364,
+              "title": "JANE DOE",
+              "artist": "Kenshi Yonezu",
+              "album": "JANE DOE - Single",
+              "duration": 235,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/26116364"
+            },
+            {
+              "id": 28699429,
+              "title": "JANE DOE",
+              "artist": "Kenshi Yonezu",
+              "album": "Kenshi Yonezu",
+              "duration": 236,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/28699429"
+            },
+            {
+              "id": 25342712,
+              "title": "JANE DOE",
+              "artist": "Kenshi Yonezu",
+              "album": "Chainsaw Man the Movie: Reze Arc - JANE DOE",
+              "duration": 235.990204,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/25342712"
+            },
+            {
+              "id": 39095114,
+              "title": "JANE DOE",
+              "artist": "Kenshi Yonezu",
+              "album": "JANE DOE",
+              "duration": 30,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/39095114"
+            },
+            {
+              "id": 39026489,
+              "title": "JANE DOE",
+              "artist": "Kenshi Yonezu",
+              "album": "oddloop",
+              "duration": 255,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/39026489"
+            },
+            {
+              "id": 37910977,
+              "title": "JANE DOE",
+              "artist": "Kenshi Yonezu",
+              "album": "JANE DOE",
+              "duration": 226,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/37910977"
+            },
+            {
+              "id": 38320087,
+              "title": "JANE DOE",
+              "artist": "Kenshi Yonezu",
+              "album": "Hikaru Utada",
+              "duration": 247,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/38320087"
+            },
+            {
+              "id": 39762558,
+              "title": "JANE DOE",
+              "artist": "Kenshi Yonezu",
+              "album": "JANE DOE",
+              "duration": 121,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/39762558"
+            }
+          ],
+          "checkedAt": "2026-11-17T15:37:15.664Z"
+        }
+      },
+      "timingInspection": {
+        "scope": "Metadata-matched candidates; expanded Japanese and collaboration artist aliases for JANE DOE. Structural timing and Japanese-presence checks only; completeness, lyric accuracy and YouTube alignment unverified.",
+        "attempts": [
+          {
+            "id": 33517252,
+            "url": "https://lrclib.net/api/get/33517252",
+            "state": "needs-review",
+            "title": "JANE DOE",
+            "artist": "Kenshi Yonezu",
+            "album": "IRIS OUT / JANE DOE",
+            "duration": 235,
+            "hasSyncedLyrics": true,
+            "hasLyricsfile": true,
+            "lineCount": 21,
+            "japaneseLineCount": 0,
+            "firstTimestamp": 14.45,
+            "lastTimestamp": 180.91,
+            "issues": [
+              "no-japanese-kana"
+            ],
+            "checkedAt": "2026-11-17T15:40:03.733Z"
+          },
+          {
+            "id": 24390392,
+            "url": "https://lrclib.net/api/get/24390392",
+            "state": "needs-review",
+            "title": "JANE DOE",
+            "artist": "Kenshi Yonezu",
+            "album": "JANE DOE",
+            "duration": 236,
+            "hasSyncedLyrics": false,
+            "hasLyricsfile": true,
+            "lineCount": 0,
+            "japaneseLineCount": 0,
+            "firstTimestamp": null,
+            "lastTimestamp": null,
+            "issues": [
+              "unparseable-timing",
+              "no-japanese-kana"
+            ],
+            "checkedAt": "2026-11-17T15:40:05.250Z"
+          },
+          {
+            "id": 25296344,
+            "url": "https://lrclib.net/api/get/25296344",
+            "state": "needs-review",
+            "title": "JANE DOE",
+            "artist": "Kenshi Yonezu",
+            "album": "Kenshi Yonezu Videos",
+            "duration": 247,
+            "hasSyncedLyrics": true,
+            "hasLyricsfile": true,
+            "lineCount": 21,
+            "japaneseLineCount": 0,
+            "firstTimestamp": 14.45,
+            "lastTimestamp": 180.91,
+            "issues": [
+              "no-japanese-kana"
+            ],
+            "checkedAt": "2026-11-17T15:40:06.772Z"
+          },
+          {
+            "id": 36800703,
+            "url": "https://lrclib.net/api/get/36800703",
+            "state": "parseable-japanese-timing",
+            "title": "JANE DOE",
+            "artist": "米津玄師",
+            "album": "JANE DOE",
+            "duration": 209,
+            "hasSyncedLyrics": true,
+            "hasLyricsfile": true,
+            "lineCount": 16,
+            "japaneseLineCount": 16,
+            "firstTimestamp": 14.43,
+            "lastTimestamp": 181.14,
+            "issues": [],
+            "checkedAt": "2026-11-17T15:41:18.329Z"
+          },
+          {
+            "id": 26422844,
+            "url": "https://lrclib.net/api/get/26422844",
+            "state": "parseable-japanese-timing",
+            "title": "JANE DOE",
+            "artist": "米津玄師",
+            "album": "IRIS OUT / JANE DOE (JANE DOE盤)",
+            "duration": 235.946667,
+            "hasSyncedLyrics": true,
+            "hasLyricsfile": true,
+            "lineCount": 16,
+            "japaneseLineCount": 16,
+            "firstTimestamp": 14.43,
+            "lastTimestamp": 181.14,
+            "issues": [],
+            "checkedAt": "2026-11-17T15:41:55.972Z"
+          }
+        ],
+        "state": "parseable-japanese-timing",
+        "videoAlignment": "unverified",
+        "usageBasis": "unverified",
+        "exampleUrl": "https://lrclib.net/api/get/26422844"
+      },
+      "supplementalSearch": {
+        "provider": "lrclib",
+        "artists": [
+          "米津玄師",
+          "Kenshi Yonezu, Hikaru Utada"
+        ],
+        "candidates": [
+          {
+            "id": 36800703,
+            "title": "JANE DOE",
+            "artist": "米津玄師",
+            "album": "JANE DOE",
+            "duration": 209,
+            "hasSyncedLyrics": true,
+            "url": "https://lrclib.net/api/get/36800703"
+          },
+          {
+            "id": 26422844,
+            "title": "JANE DOE",
+            "artist": "米津玄師",
+            "album": "IRIS OUT / JANE DOE (JANE DOE盤)",
+            "duration": 235.946667,
+            "hasSyncedLyrics": true,
+            "url": "https://lrclib.net/api/get/26422844"
+          },
+          {
+            "id": 26988064,
+            "title": "JANE DOE",
+            "artist": "米津玄師",
+            "album": "JANE DOE - Single",
+            "duration": 235,
+            "hasSyncedLyrics": true,
+            "url": "https://lrclib.net/api/get/26988064"
+          },
+          {
+            "id": 25645980,
+            "title": "JANE DOE",
+            "artist": "米津玄師",
+            "album": "JANE DOE",
+            "duration": 236,
+            "hasSyncedLyrics": true,
+            "url": "https://lrclib.net/api/get/25645980"
+          },
+          {
+            "id": 25813807,
+            "title": "JANE DOE",
+            "artist": "米津玄師",
+            "album": "IRIS OUT / JANE DOE",
+            "duration": 235.946667,
+            "hasSyncedLyrics": true,
+            "url": "https://lrclib.net/api/get/25813807"
+          },
+          {
+            "id": 24940905,
+            "title": "JANE DOE",
+            "artist": "米津玄師 & 宇多田ヒカル",
+            "album": "JANE DOE - Single",
+            "duration": 236.042449,
+            "hasSyncedLyrics": true,
+            "url": "https://lrclib.net/api/get/24940905"
+          },
+          {
+            "id": 25205333,
+            "title": "JANE DOE",
+            "artist": "米津玄師, 宇多田ヒカル",
+            "album": "IRIS OUT / JANE DOE",
+            "duration": 236,
+            "hasSyncedLyrics": true,
+            "url": "https://lrclib.net/api/get/25205333"
+          },
+          {
+            "id": 24447415,
+            "title": "JANE DOE",
+            "artist": "米津玄師 & 宇多田ヒカル",
+            "album": "JANE DOE",
+            "duration": 236,
+            "hasSyncedLyrics": true,
+            "url": "https://lrclib.net/api/get/24447415"
+          },
+          {
+            "id": 26533630,
+            "title": "JANE DOE",
+            "artist": "米津玄師, 宇多田ヒカル",
+            "album": "IRIS OUT / JANE DOE",
+            "duration": 231.05305,
+            "hasSyncedLyrics": true,
+            "url": "https://lrclib.net/api/get/26533630"
+          },
+          {
+            "id": 26600318,
+            "title": "JANE DOE",
+            "artist": "米津玄師, 宇多田ヒカル",
+            "album": "JANE DOE",
+            "duration": 246,
+            "hasSyncedLyrics": true,
+            "url": "https://lrclib.net/api/get/26600318"
+          },
+          {
+            "id": 27254379,
+            "title": "JANE DOE",
+            "artist": "米津玄師 & 宇多田ヒカル",
+            "album": "IRIS OUT / JANE DOE [IRIS OUT盤]",
+            "duration": 235.946667,
+            "hasSyncedLyrics": true,
+            "url": "https://lrclib.net/api/get/27254379"
+          },
+          {
+            "id": 25639961,
+            "title": "JANE DOE",
+            "artist": "米津玄師,宇多田ヒカル",
+            "album": "Unknown Album",
+            "duration": 246,
+            "hasSyncedLyrics": true,
+            "url": "https://lrclib.net/api/get/25639961"
+          },
+          {
+            "id": 37948691,
+            "title": "JANE DOE",
+            "artist": "米津玄師, 宇多田ヒカル",
+            "album": "IRIS OUT / JANE DOE",
+            "duration": 246,
+            "hasSyncedLyrics": true,
+            "url": "https://lrclib.net/api/get/37948691"
+          },
+          {
+            "id": 26334405,
+            "title": "JANE DOE",
+            "artist": "Kenshi Yonezu (米津玄師), Utada Hikaru (宇多田ヒカル)",
+            "album": "IRIS OUT / JANE DOE",
+            "duration": 235.946667,
+            "hasSyncedLyrics": true,
+            "url": "https://lrclib.net/api/get/26334405"
+          },
+          {
+            "id": 30802629,
+            "title": "JANE DOE",
+            "artist": "Kenshi Yonezu, Hikaru Utada",
+            "album": "JANE DOE",
+            "duration": 29,
+            "hasSyncedLyrics": true,
+            "url": "https://lrclib.net/api/get/30802629"
+          },
+          {
+            "id": 30396801,
+            "title": "JANE DOE",
+            "artist": "Kenshi Yonezu, Hikaru Utada",
+            "album": "Unknown Album",
+            "duration": 247,
+            "hasSyncedLyrics": true,
+            "url": "https://lrclib.net/api/get/30396801"
+          },
+          {
+            "id": 33161723,
+            "title": "JANE DOE",
+            "artist": "Kenshi Yonezu, Hikaru Utada",
+            "album": "JANE DOE",
+            "duration": 246,
+            "hasSyncedLyrics": true,
+            "url": "https://lrclib.net/api/get/33161723"
+          },
+          {
+            "id": 32617761,
+            "title": "Jane Doe",
+            "artist": "Kenshi Yonezu & Hikaru Utada",
+            "album": "Top 100: Global",
+            "duration": 236,
+            "hasSyncedLyrics": true,
+            "url": "https://lrclib.net/api/get/32617761"
+          },
+          {
+            "id": 24447739,
+            "title": "JANE DOE",
+            "artist": "Kenshi Yonezu, Hikaru Utada",
+            "album": "JANE DOE",
+            "duration": 236,
+            "hasSyncedLyrics": true,
+            "url": "https://lrclib.net/api/get/24447739"
+          },
+          {
+            "id": 36067443,
+            "title": "JANE DOE",
+            "artist": "Kenshi Yonezu & Hikaru Utada",
+            "album": "JANE DOE",
+            "duration": 200,
+            "hasSyncedLyrics": true,
+            "url": "https://lrclib.net/api/get/36067443"
+          },
+          {
+            "id": 35218362,
+            "title": "JANE DOE",
+            "artist": "Kenshi Yonezu, Hikaru Utada",
+            "album": "JANE DOE",
+            "duration": 4,
+            "hasSyncedLyrics": true,
+            "url": "https://lrclib.net/api/get/35218362"
+          },
+          {
+            "id": 34383114,
+            "title": "JANE DOE",
+            "artist": "Kenshi Yonezu/Hikaru Utada",
+            "album": "Billboard JAPAN Hot 100 (2025-12-17)",
+            "duration": 235,
+            "hasSyncedLyrics": true,
+            "url": "https://lrclib.net/api/get/34383114"
+          },
+          {
+            "id": 34115698,
+            "title": "JANE DOE",
+            "artist": "Kenshi Yonezu, Hikaru Utada",
+            "album": "JANE DOE",
+            "duration": 185,
+            "hasSyncedLyrics": true,
+            "url": "https://lrclib.net/api/get/34115698"
+          },
+          {
+            "id": 34314911,
+            "title": "JANE DOE",
+            "artist": "Kenshi Yonezu / Hikaru Utada",
+            "album": "Kenshi Yonezu EP's & Singles",
+            "duration": 235,
+            "hasSyncedLyrics": true,
+            "url": "https://lrclib.net/api/get/34314911"
+          },
+          {
+            "id": 37799998,
+            "title": "JANE DOE",
+            "artist": "Kenshi Yonezu, Hikaru Utada",
+            "album": "Unknown",
+            "duration": 247,
+            "hasSyncedLyrics": true,
+            "url": "https://lrclib.net/api/get/37799998"
+          },
+          {
+            "id": 38264015,
+            "title": "JANE DOE",
+            "artist": "Kenshi Yonezu & Hikaru Utada",
+            "album": "JANE DOE",
+            "duration": 24,
+            "hasSyncedLyrics": true,
+            "url": "https://lrclib.net/api/get/38264015"
+          }
+        ],
+        "checkedAt": "2026-11-17T15:41:16.808Z"
+      },
+      "localContent": {
+        "lineCount": 0,
+        "hasOriginal": false,
+        "hasTranslation": false,
+        "translationComplete": false,
+        "timed": false,
+        "readings": false,
+        "japanese": true
+      },
+      "programLinks": {
+        "youtubeId": "sPLqsLsooJY",
+        "videoSourceUrl": "https://www.youtube.com/watch?v=sPLqsLsooJY",
+        "listenUrl": "https://www.youtube.com/watch?v=sPLqsLsooJY",
+        "sourceUrl": "https://reissuerecords.net/discography/irisout_janedoe/",
+        "previewUrl": null
+      }
+    },
+    {
+      "id": "UmiNoYuurei",
+      "title": "海の幽霊",
+      "youtubeId": "1s84rIhPuhk",
+      "sources": {
+        "amll": {
+          "state": "miss",
+          "candidates": [],
+          "checkedAt": "2026-11-17T15:37:16.002Z"
+        },
+        "lrclib": {
+          "state": "found",
+          "candidates": [
+            {
+              "id": 3431029,
+              "title": "海の幽霊",
+              "artist": "Kenshi Yonezu",
+              "album": "馬と鹿",
+              "duration": 234,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/3431029"
+            },
+            {
+              "id": 1326439,
+              "title": "海の幽霊",
+              "artist": "Kenshi Yonezu",
+              "album": "海の幽霊",
+              "duration": 234,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/1326439"
+            },
+            {
+              "id": 15325010,
+              "title": "海の幽霊",
+              "artist": "Kenshi Yonezu",
+              "album": "Uma to Shika",
+              "duration": 235,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/15325010"
+            },
+            {
+              "id": 10991836,
+              "title": "海の幽霊",
+              "artist": "Kenshi Yonezu",
+              "album": "馬と鹿",
+              "duration": 237,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/10991836"
+            },
+            {
+              "id": 10123704,
+              "title": "海の幽霊",
+              "artist": "Kenshi Yonezu",
+              "album": "STRAY SHEEP",
+              "duration": 254,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/10123704"
+            },
+            {
+              "id": 9920815,
+              "title": "海の幽霊",
+              "artist": "Kenshi Yonezu",
+              "album": "STRAY SHEEP",
+              "duration": 234,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/9920815"
+            },
+            {
+              "id": 38176749,
+              "title": "海の幽霊",
+              "artist": "Kenshi Yonezu",
+              "album": "海の幽霊",
+              "duration": 237,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/38176749"
+            }
+          ],
+          "checkedAt": "2026-11-17T15:37:16.002Z"
+        }
+      },
+      "timingInspection": {
+        "scope": "Up to three metadata-matched candidates; validates format and Japanese text presence only. Does not verify completeness, lyric accuracy or YouTube alignment.",
+        "attempts": [
+          {
+            "id": 9920815,
+            "url": "https://lrclib.net/api/get/9920815",
+            "state": "parseable-japanese-timing",
+            "title": "海の幽霊",
+            "artist": "Kenshi Yonezu",
+            "album": "STRAY SHEEP",
+            "duration": 234,
+            "hasSyncedLyrics": true,
+            "hasLyricsfile": true,
+            "lineCount": 25,
+            "japaneseLineCount": 25,
+            "firstTimestamp": 1.89,
+            "lastTimestamp": 207.89,
+            "issues": [],
+            "checkedAt": "2026-11-17T15:40:08.311Z"
+          }
+        ],
+        "state": "parseable-japanese-timing",
+        "videoAlignment": "unverified",
+        "usageBasis": "unverified",
+        "exampleUrl": "https://lrclib.net/api/get/9920815"
+      },
+      "localContent": {
+        "lineCount": 0,
+        "hasOriginal": false,
+        "hasTranslation": false,
+        "translationComplete": false,
+        "timed": false,
+        "readings": false,
+        "japanese": true
+      },
+      "programLinks": {
+        "youtubeId": "1s84rIhPuhk",
+        "videoSourceUrl": "https://www.youtube.com/watch?v=1s84rIhPuhk",
+        "listenUrl": "https://www.youtube.com/watch?v=1s84rIhPuhk",
+        "sourceUrl": "https://reissuerecords.net/discography/stray-sheep/",
+        "previewUrl": null
+      }
+    },
+    {
+      "id": "Yodaka",
+      "title": "夜鷹",
+      "youtubeId": "l2jvIuTp534",
+      "sources": {
+        "amll": {
+          "state": "miss",
+          "candidates": [],
+          "checkedAt": "2026-11-17T15:37:16.973Z"
+        },
+        "lrclib": {
+          "state": "found",
+          "candidates": [
+            {
+              "id": 37790422,
+              "title": "Yodaka",
+              "artist": "Kenshi Yonezu",
+              "album": "Yodaka",
+              "duration": 198,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/37790422"
+            },
+            {
+              "id": 39999505,
+              "title": "Yodaka",
+              "artist": "Kenshi Yonezu",
+              "album": "Yodaka - Single",
+              "duration": 198,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/39999505"
+            }
+          ],
+          "checkedAt": "2026-11-17T15:37:16.973Z"
+        }
+      },
+      "timingInspection": {
+        "scope": "Up to three metadata-matched candidates; validates format and Japanese text presence only. Does not verify completeness, lyric accuracy or YouTube alignment.",
+        "attempts": [
+          {
+            "id": 37790422,
+            "url": "https://lrclib.net/api/get/37790422",
+            "state": "parseable-japanese-timing",
+            "title": "Yodaka",
+            "artist": "Kenshi Yonezu",
+            "album": "Yodaka",
+            "duration": 198,
+            "hasSyncedLyrics": true,
+            "hasLyricsfile": true,
+            "lineCount": 33,
+            "japaneseLineCount": 24,
+            "firstTimestamp": 9.39,
+            "lastTimestamp": 149.66,
+            "issues": [],
+            "checkedAt": "2026-11-17T15:40:09.849Z"
+          }
+        ],
+        "state": "parseable-japanese-timing",
+        "videoAlignment": "unverified",
+        "usageBasis": "unverified",
+        "exampleUrl": "https://lrclib.net/api/get/37790422"
+      },
+      "localContent": {
+        "lineCount": 0,
+        "hasOriginal": false,
+        "hasTranslation": false,
+        "translationComplete": false,
+        "timed": false,
+        "readings": false,
+        "japanese": true
+      },
+      "programLinks": {
+        "youtubeId": "l2jvIuTp534",
+        "videoSourceUrl": "https://www.youtube.com/watch?v=l2jvIuTp534",
+        "listenUrl": "https://www.youtube.com/watch?v=l2jvIuTp534",
+        "sourceUrl": "https://reissuerecords.net/discography/yodaka/",
+        "previewUrl": null
+      }
+    },
+    {
+      "id": "Loser",
+      "title": "LOSER",
+      "youtubeId": "Dx_fKPBPYUI",
+      "sources": {
+        "amll": {
+          "state": "miss",
+          "candidates": [],
+          "checkedAt": "2026-11-17T15:37:17.656Z"
+        },
+        "lrclib": {
+          "state": "found",
+          "candidates": [
+            {
+              "id": 5769995,
+              "title": "Loser",
+              "artist": "Kenshi Yonezu",
+              "album": "LOSER / ナンバーナイン",
+              "duration": 245,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/5769995"
+            },
+            {
+              "id": 2620773,
+              "title": "Loser",
+              "artist": "Kenshi Yonezu",
+              "album": "LOSER / NUMBER NINE",
+              "duration": 245,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/2620773"
+            },
+            {
+              "id": 1319675,
+              "title": "LOSER",
+              "artist": "Kenshi Yonezu",
+              "album": "BOOTLEG",
+              "duration": 245,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/1319675"
+            },
+            {
+              "id": 65957,
+              "title": "Loser",
+              "artist": "Kenshi Yonezu",
+              "album": "LOSER / NUMBER NINE - Single",
+              "duration": 245,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/65957"
+            },
+            {
+              "id": 30071442,
+              "title": "LOSER",
+              "artist": "Kenshi Yonezu",
+              "album": "LOSER / NUMBER NINE",
+              "duration": 230,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/30071442"
+            },
+            {
+              "id": 10347572,
+              "title": "LOSER",
+              "artist": "Kenshi Yonezu",
+              "album": "BOOTLEG",
+              "duration": 242,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/10347572"
+            },
+            {
+              "id": 11642692,
+              "title": "LOSER",
+              "artist": "Kenshi Yonezu",
+              "album": "LOSER / NUMBER NINE",
+              "duration": 241,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/11642692"
+            },
+            {
+              "id": 11354106,
+              "title": "LOSER",
+              "artist": "Kenshi Yonezu",
+              "album": "null",
+              "duration": 244,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/11354106"
+            },
+            {
+              "id": 10123438,
+              "title": "LOSER",
+              "artist": "Kenshi Yonezu",
+              "album": "LOSER / ナンバーナイン",
+              "duration": 241,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/10123438"
+            },
+            {
+              "id": 36124054,
+              "title": "LOSER",
+              "artist": "Kenshi Yonezu",
+              "album": "LOSER / NUMBER NINE",
+              "duration": 170,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/36124054"
+            },
+            {
+              "id": 36124043,
+              "title": "LOSER",
+              "artist": "Kenshi Yonezu",
+              "album": "LOSER / NUMBER NINE",
+              "duration": 50,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/36124043"
+            },
+            {
+              "id": 36124045,
+              "title": "LOSER",
+              "artist": "Kenshi Yonezu",
+              "album": "LOSER / NUMBER NINE",
+              "duration": 80,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/36124045"
+            },
+            {
+              "id": 36279435,
+              "title": "LOSER",
+              "artist": "Kenshi Yonezu",
+              "album": "BOOTLEG",
+              "duration": null,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/36279435"
+            },
+            {
+              "id": 36541228,
+              "title": "Loser",
+              "artist": "Kenshi Yonezu",
+              "album": "LOSER / NUMBER NINE - Single",
+              "duration": 70,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/36541228"
+            },
+            {
+              "id": 38943521,
+              "title": "LOSER",
+              "artist": "Kenshi Yonezu",
+              "album": "ReccoBeats",
+              "duration": 245,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/38943521"
+            }
+          ],
+          "checkedAt": "2026-11-17T15:37:17.656Z"
+        }
+      },
+      "timingInspection": {
+        "scope": "Up to three metadata-matched candidates; validates format and Japanese text presence only. Does not verify completeness, lyric accuracy or YouTube alignment.",
+        "attempts": [
+          {
+            "id": 1319675,
+            "url": "https://lrclib.net/api/get/1319675",
+            "state": "parseable-japanese-timing",
+            "title": "LOSER",
+            "artist": "Kenshi Yonezu",
+            "album": "BOOTLEG",
+            "duration": 245,
+            "hasSyncedLyrics": true,
+            "hasLyricsfile": true,
+            "lineCount": 74,
+            "japaneseLineCount": 74,
+            "firstTimestamp": 30.758,
+            "lastTimestamp": 223.022,
+            "issues": [],
+            "checkedAt": "2026-11-17T15:40:11.373Z"
+          }
+        ],
+        "state": "parseable-japanese-timing",
+        "videoAlignment": "unverified",
+        "usageBasis": "unverified",
+        "exampleUrl": "https://lrclib.net/api/get/1319675"
+      },
+      "localContent": {
+        "lineCount": 0,
+        "hasOriginal": false,
+        "hasTranslation": false,
+        "translationComplete": false,
+        "timed": false,
+        "readings": false,
+        "japanese": true
+      },
+      "programLinks": {
+        "youtubeId": "Dx_fKPBPYUI",
+        "videoSourceUrl": "https://www.youtube.com/watch?v=Dx_fKPBPYUI",
+        "listenUrl": "https://www.youtube.com/watch?v=Dx_fKPBPYUI",
+        "sourceUrl": "https://reissuerecords.net/discography/bootleg/",
+        "previewUrl": null
+      }
+    },
+    {
+      "id": "BowAndArrow",
+      "title": "BOW AND ARROW",
+      "youtubeId": "M-Eyhjkepy0",
+      "sources": {
+        "amll": {
+          "state": "miss",
+          "candidates": [],
+          "checkedAt": "2026-11-17T15:37:18.699Z"
+        },
+        "lrclib": {
+          "state": "found",
+          "candidates": [
+            {
+              "id": 35955954,
+              "title": "BOW AND ARROW",
+              "artist": "Kenshi Yonezu",
+              "album": "Kenshi Yonezu Videos",
+              "duration": 198,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/35955954"
+            },
+            {
+              "id": 16888889,
+              "title": "BOW AND ARROW",
+              "artist": "Kenshi Yonezu",
+              "album": "BOW AND ARROW",
+              "duration": 176,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/16888889"
+            },
+            {
+              "id": 36093496,
+              "title": "BOW AND ARROW",
+              "artist": "Kenshi Yonezu",
+              "album": "BOW AND ARROW",
+              "duration": 50,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/36093496"
+            },
+            {
+              "id": 36702273,
+              "title": "BOW AND ARROW",
+              "artist": "Kenshi Yonezu",
+              "album": "BOW AND ARROW",
+              "duration": 164,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/36702273"
+            },
+            {
+              "id": 39103356,
+              "title": "BOW AND ARROW",
+              "artist": "Kenshi Yonezu",
+              "album": "BOW AND ARROW",
+              "duration": 251,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/39103356"
+            },
+            {
+              "id": 37931805,
+              "title": "BOW AND ARROW",
+              "artist": "Kenshi Yonezu",
+              "album": "BOW AND ARROW",
+              "duration": 230,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/37931805"
+            },
+            {
+              "id": 30476214,
+              "title": "BOW AND ARROW",
+              "artist": "Kenshi Yonezu",
+              "album": "Plazma ⁄ BOW AND ARROW",
+              "duration": 176,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/30476214"
+            },
+            {
+              "id": 34212760,
+              "title": "BOW AND ARROW",
+              "artist": "Kenshi Yonezu",
+              "album": "BOW AND ARROW / Plazma",
+              "duration": 176,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/34212760"
+            },
+            {
+              "id": 27639280,
+              "title": "BOW AND ARROW",
+              "artist": "Kenshi Yonezu",
+              "album": "BOW AND ARROW - Single",
+              "duration": 175,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/27639280"
+            },
+            {
+              "id": 17445047,
+              "title": "BOW AND ARROW",
+              "artist": "Kenshi Yonezu",
+              "album": "null",
+              "duration": 176,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/17445047"
+            },
+            {
+              "id": 35970374,
+              "title": "BOW AND ARROW",
+              "artist": "Kenshi Yonezu",
+              "album": "Billboard JAPAN Hot 100 (2025-04-09)",
+              "duration": 175,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/35970374"
+            },
+            {
+              "id": 36260835,
+              "title": "BOW AND ARROW",
+              "artist": "Kenshi Yonezu",
+              "album": "38 mln wyświetleń",
+              "duration": 198,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/36260835"
+            },
+            {
+              "id": 35250503,
+              "title": "BOW AND ARROW",
+              "artist": "Kenshi Yonezu",
+              "album": "37 M de visualizações",
+              "duration": 198,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/35250503"
+            },
+            {
+              "id": 34311410,
+              "title": "BOW AND ARROW",
+              "artist": "Kenshi Yonezu",
+              "album": "undefined",
+              "duration": 176,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/34311410"
+            },
+            {
+              "id": 34304190,
+              "title": "bow and arrow",
+              "artist": "kenshi yonezu",
+              "album": "new music",
+              "duration": 197,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/34304190"
+            },
+            {
+              "id": 35581311,
+              "title": "BOW AND ARROW",
+              "artist": "Kenshi Yonezu",
+              "album": "Billboard JAPAN Hot 100 (2025-11-26)",
+              "duration": 175,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/35581311"
+            },
+            {
+              "id": 29196286,
+              "title": "Bow And Arrow",
+              "artist": "Kenshi Yonezu",
+              "album": "Plazma",
+              "duration": 176,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/29196286"
+            },
+            {
+              "id": 38857169,
+              "title": "Bow and arrow",
+              "artist": "Kenshi Yonezu",
+              "album": "Аниме",
+              "duration": 176,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/38857169"
+            }
+          ],
+          "checkedAt": "2026-11-17T15:37:18.699Z"
+        }
+      },
+      "timingInspection": {
+        "scope": "Up to three metadata-matched candidates; validates format and Japanese text presence only. Does not verify completeness, lyric accuracy or YouTube alignment.",
+        "attempts": [
+          {
+            "id": 30476214,
+            "url": "https://lrclib.net/api/get/30476214",
+            "state": "parseable-japanese-timing",
+            "title": "BOW AND ARROW",
+            "artist": "Kenshi Yonezu",
+            "album": "Plazma ⁄ BOW AND ARROW",
+            "duration": 176,
+            "hasSyncedLyrics": true,
+            "hasLyricsfile": true,
+            "lineCount": 22,
+            "japaneseLineCount": 22,
+            "firstTimestamp": 21.25,
+            "lastTimestamp": 155.26,
+            "issues": [],
+            "checkedAt": "2026-11-17T15:40:12.904Z"
+          }
+        ],
+        "state": "parseable-japanese-timing",
+        "videoAlignment": "unverified",
+        "usageBasis": "unverified",
+        "exampleUrl": "https://lrclib.net/api/get/30476214"
+      },
+      "localContent": {
+        "lineCount": 0,
+        "hasOriginal": false,
+        "hasTranslation": false,
+        "translationComplete": false,
+        "timed": false,
+        "readings": false,
+        "japanese": true
+      },
+      "programLinks": {
+        "youtubeId": "M-Eyhjkepy0",
+        "videoSourceUrl": "https://www.youtube.com/watch?v=M-Eyhjkepy0",
+        "listenUrl": "https://www.youtube.com/watch?v=M-Eyhjkepy0",
+        "sourceUrl": "https://reissuerecords.net/discography/plazma_bowandarrow/",
+        "previewUrl": null
+      }
+    },
+    {
+      "id": "PeaceSign",
+      "title": "ピースサイン",
+      "youtubeId": "9aJVr5tTTWk",
+      "sources": {
+        "amll": {
+          "state": "miss",
+          "candidates": [],
+          "checkedAt": "2026-11-17T15:37:19.710Z"
+        },
+        "lrclib": {
+          "state": "found",
+          "candidates": [
+            {
+              "id": 34572914,
+              "title": "ピースサイン",
+              "artist": "Kenshi Yonezu",
+              "album": "Yonezu: ピースサイン",
+              "duration": 263,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/34572914"
+            },
+            {
+              "id": 10412424,
+              "title": "ピースサイン",
+              "artist": "Kenshi Yonezu",
+              "album": "ピースサイン",
+              "duration": 239,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/10412424"
+            },
+            {
+              "id": 10123611,
+              "title": "ピースサイン",
+              "artist": "Kenshi Yonezu",
+              "album": "ピースサイン",
+              "duration": 263,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/10123611"
+            },
+            {
+              "id": 39369058,
+              "title": "ピースサイン",
+              "artist": "Kenshi Yonezu",
+              "album": "ピースサイン - Peace Sign",
+              "duration": 235,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/39369058"
+            }
+          ],
+          "checkedAt": "2026-11-17T15:37:19.710Z"
+        }
+      },
+      "timingInspection": {
+        "scope": "Up to three metadata-matched candidates; validates format and Japanese text presence only. Does not verify completeness, lyric accuracy or YouTube alignment.",
+        "attempts": [
+          {
+            "id": 10123611,
+            "url": "https://lrclib.net/api/get/10123611",
+            "state": "parseable-japanese-timing",
+            "title": "ピースサイン",
+            "artist": "Kenshi Yonezu",
+            "album": "ピースサイン",
+            "duration": 263,
+            "hasSyncedLyrics": true,
+            "hasLyricsfile": true,
+            "lineCount": 60,
+            "japaneseLineCount": 60,
+            "firstTimestamp": 21.8,
+            "lastTimestamp": 236.84,
+            "issues": [],
+            "checkedAt": "2026-11-17T15:40:14.436Z"
+          }
+        ],
+        "state": "parseable-japanese-timing",
+        "videoAlignment": "unverified",
+        "usageBasis": "unverified",
+        "exampleUrl": "https://lrclib.net/api/get/10123611"
+      },
+      "localContent": {
+        "lineCount": 0,
+        "hasOriginal": false,
+        "hasTranslation": false,
+        "translationComplete": false,
+        "timed": false,
+        "readings": false,
+        "japanese": true
+      },
+      "programLinks": {
+        "youtubeId": "9aJVr5tTTWk",
+        "videoSourceUrl": "https://www.youtube.com/watch?v=9aJVr5tTTWk",
+        "listenUrl": "https://www.youtube.com/watch?v=9aJVr5tTTWk",
+        "sourceUrl": "https://reissuerecords.net/discography/bootleg/",
+        "previewUrl": null
+      }
+    },
+    {
+      "id": "KickBack",
+      "title": "KICK BACK",
+      "youtubeId": "M2cckDmNLMI",
+      "sources": {
+        "amll": {
+          "state": "miss",
+          "candidates": [],
+          "checkedAt": "2026-11-17T15:37:20.706Z"
+        },
+        "lrclib": {
+          "state": "found",
+          "candidates": [
+            {
+              "id": 12939933,
+              "title": "KICK BACK",
+              "artist": "Kenshi Yonezu",
+              "album": "KICK BACK / Kenshi Yonezu",
+              "duration": 193,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/12939933"
+            },
+            {
+              "id": 9843615,
+              "title": "KICK BACK",
+              "artist": "Kenshi Yonezu",
+              "album": "Kenshi Yonezu",
+              "duration": 193,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/9843615"
+            },
+            {
+              "id": 35035950,
+              "title": "KICK BACK",
+              "artist": "Kenshi Yonezu",
+              "album": "Kenshi Yonezu",
+              "duration": 162,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/35035950"
+            },
+            {
+              "id": 3745688,
+              "title": "KICK BACK",
+              "artist": "Kenshi Yonezu",
+              "album": "KICK BACK",
+              "duration": 227,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/3745688"
+            },
+            {
+              "id": 952051,
+              "title": "KICK BACK",
+              "artist": "Kenshi Yonezu",
+              "album": "KICK BACK",
+              "duration": 193,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/952051"
+            },
+            {
+              "id": 10346645,
+              "title": "KICK BACK",
+              "artist": "Kenshi Yonezu",
+              "album": "KICK BACK",
+              "duration": 200,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/10346645"
+            },
+            {
+              "id": 33634434,
+              "title": "KICK BACK",
+              "artist": "Kenshi Yonezu",
+              "album": "KICK BACK",
+              "duration": 196,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/33634434"
+            },
+            {
+              "id": 36292528,
+              "title": "KICK BACK",
+              "artist": "Kenshi Yonezu",
+              "album": "KICK BACK",
+              "duration": 90,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/36292528"
+            },
+            {
+              "id": 35976003,
+              "title": "KICK BACK",
+              "artist": "Kenshi Yonezu",
+              "album": "KICK BACK",
+              "duration": 140,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/35976003"
+            },
+            {
+              "id": 36100122,
+              "title": "KICK BACK",
+              "artist": "Kenshi Yonezu",
+              "album": "KICK BACK",
+              "duration": 175,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/36100122"
+            },
+            {
+              "id": 35975977,
+              "title": "KICK BACK",
+              "artist": "Kenshi Yonezu",
+              "album": "KICK BACK",
+              "duration": 80,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/35975977"
+            },
+            {
+              "id": 36467729,
+              "title": "KICK BACK",
+              "artist": "Kenshi Yonezu",
+              "album": "KICK BACK",
+              "duration": 270,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/36467729"
+            },
+            {
+              "id": 34558229,
+              "title": "KICK BACK",
+              "artist": "Kenshi Yonezu",
+              "album": "KICK BACK",
+              "duration": 291,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/34558229"
+            },
+            {
+              "id": 34558305,
+              "title": "KICK BACK",
+              "artist": "Kenshi Yonezu",
+              "album": "KICK BACK",
+              "duration": 345,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/34558305"
+            }
+          ],
+          "checkedAt": "2026-11-17T15:37:20.706Z"
+        }
+      },
+      "timingInspection": {
+        "scope": "Up to three metadata-matched candidates; validates format and Japanese text presence only. Does not verify completeness, lyric accuracy or YouTube alignment.",
+        "attempts": [
+          {
+            "id": 952051,
+            "url": "https://lrclib.net/api/get/952051",
+            "state": "parseable-japanese-timing",
+            "title": "KICK BACK",
+            "artist": "Kenshi Yonezu",
+            "album": "KICK BACK",
+            "duration": 193,
+            "hasSyncedLyrics": true,
+            "hasLyricsfile": true,
+            "lineCount": 46,
+            "japaneseLineCount": 25,
+            "firstTimestamp": 9.406,
+            "lastTimestamp": 188.293,
+            "issues": [],
+            "checkedAt": "2026-11-17T15:40:15.967Z"
+          }
+        ],
+        "state": "parseable-japanese-timing",
+        "videoAlignment": "unverified",
+        "usageBasis": "unverified",
+        "exampleUrl": "https://lrclib.net/api/get/952051"
+      },
+      "localContent": {
+        "lineCount": 0,
+        "hasOriginal": false,
+        "hasTranslation": false,
+        "translationComplete": false,
+        "timed": false,
+        "readings": false,
+        "japanese": true
+      },
+      "programLinks": {
+        "youtubeId": "M2cckDmNLMI",
+        "videoSourceUrl": "https://www.youtube.com/watch?v=M2cckDmNLMI",
+        "listenUrl": "https://www.youtube.com/watch?v=M2cckDmNLMI",
+        "sourceUrl": "https://reissuerecords.net/discography/lost-corner/",
+        "previewUrl": null
+      }
+    },
+    {
+      "id": "IrisOut",
+      "title": "IRIS OUT",
+      "youtubeId": "LmZD-TU96q4",
+      "sources": {
+        "amll": {
+          "state": "miss",
+          "candidates": [],
+          "checkedAt": "2026-11-17T15:37:21.695Z"
+        },
+        "lrclib": {
+          "state": "found",
+          "candidates": [
+            {
+              "id": 36299741,
+              "title": "IRIS OUT",
+              "artist": "Kenshi Yonezu",
+              "album": "Kenshi Yonezu - IRIS OUT - Single",
+              "duration": 151,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/36299741"
+            },
+            {
+              "id": 26414809,
+              "title": "IRIS OUT",
+              "artist": "Kenshi Yonezu",
+              "album": "Kenshi Yonezu",
+              "duration": 151.573,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/26414809"
+            },
+            {
+              "id": 24313318,
+              "title": "IRIS OUT",
+              "artist": "Kenshi Yonezu",
+              "album": "Kenshi Yonezu Videos",
+              "duration": 154,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/24313318"
+            },
+            {
+              "id": 27000030,
+              "title": "IRIS OUT",
+              "artist": "Kenshi Yonezu",
+              "album": "Kenshi Yonezu Videos",
+              "duration": 259,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/27000030"
+            },
+            {
+              "id": 25539813,
+              "title": "IRIS OUT",
+              "artist": "Kenshi Yonezu",
+              "album": "Kenshi Yonezu Songs",
+              "duration": 154,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/25539813"
+            },
+            {
+              "id": 34314881,
+              "title": "IRIS OUT",
+              "artist": "Kenshi Yonezu",
+              "album": "Kenshi Yonezu EP's & Singles",
+              "duration": 151,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/34314881"
+            },
+            {
+              "id": 30267243,
+              "title": "IRIS OUT",
+              "artist": "Kenshi Yonezu",
+              "album": "IRIS OUT",
+              "duration": 130,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/30267243"
+            },
+            {
+              "id": 30069264,
+              "title": "IRIS OUT",
+              "artist": "Kenshi Yonezu",
+              "album": "IRIS OUT",
+              "duration": 110,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/30069264"
+            },
+            {
+              "id": 30302111,
+              "title": "IRIS OUT",
+              "artist": "Kenshi Yonezu",
+              "album": "IRIS OUT",
+              "duration": 226,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/30302111"
+            },
+            {
+              "id": 33075011,
+              "title": "IRIS OUT",
+              "artist": "Kenshi Yonezu",
+              "album": "IRIS OUT",
+              "duration": 2487,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/33075011"
+            },
+            {
+              "id": 25032092,
+              "title": "IRIS OUT",
+              "artist": "Kenshi Yonezu",
+              "album": "IRIS OUT",
+              "duration": 248,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/25032092"
+            },
+            {
+              "id": 24226683,
+              "title": "IRIS OUT",
+              "artist": "Kenshi Yonezu",
+              "album": "IRIS OUT",
+              "duration": 152,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/24226683"
+            },
+            {
+              "id": 35904587,
+              "title": "IRIS OUT",
+              "artist": "Kenshi Yonezu",
+              "album": "IRIS OUT",
+              "duration": 80,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/35904587"
+            },
+            {
+              "id": 36448098,
+              "title": "IRIS OUT",
+              "artist": "Kenshi Yonezu",
+              "album": "IRIS OUT",
+              "duration": 189,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/36448098"
+            },
+            {
+              "id": 34557385,
+              "title": "IRIS OUT",
+              "artist": "Kenshi Yonezu",
+              "album": "IRIS OUT",
+              "duration": 198,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/34557385"
+            },
+            {
+              "id": 34557171,
+              "title": "IRIS OUT",
+              "artist": "Kenshi Yonezu",
+              "album": "IRIS OUT",
+              "duration": 165,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/34557171"
+            },
+            {
+              "id": 34781152,
+              "title": "IRIS OUT",
+              "artist": "Kenshi Yonezu",
+              "album": "IRIS OUT",
+              "duration": 186,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/34781152"
+            },
+            {
+              "id": 34558119,
+              "title": "IRIS OUT",
+              "artist": "Kenshi Yonezu",
+              "album": "IRIS OUT",
+              "duration": 193,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/34558119"
+            },
+            {
+              "id": 34106944,
+              "title": "IRIS OUT",
+              "artist": "Kenshi Yonezu",
+              "album": "IRIS OUT",
+              "duration": 219,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/34106944"
+            }
+          ],
+          "checkedAt": "2026-11-17T15:37:21.695Z"
+        }
+      },
+      "timingInspection": {
+        "scope": "Up to three metadata-matched candidates; validates format and Japanese text presence only. Does not verify completeness, lyric accuracy or YouTube alignment.",
+        "attempts": [
+          {
+            "id": 24226683,
+            "url": "https://lrclib.net/api/get/24226683",
+            "state": "parseable-japanese-timing",
+            "title": "IRIS OUT",
+            "artist": "Kenshi Yonezu",
+            "album": "IRIS OUT",
+            "duration": 152,
+            "hasSyncedLyrics": true,
+            "hasLyricsfile": true,
+            "lineCount": 43,
+            "japaneseLineCount": 43,
+            "firstTimestamp": 18.29,
+            "lastTimestamp": 142.72,
+            "issues": [],
+            "checkedAt": "2026-11-17T15:40:17.545Z"
+          }
+        ],
+        "state": "parseable-japanese-timing",
+        "videoAlignment": "unverified",
+        "usageBasis": "unverified",
+        "exampleUrl": "https://lrclib.net/api/get/24226683"
+      },
+      "localContent": {
+        "lineCount": 0,
+        "hasOriginal": false,
+        "hasTranslation": false,
+        "translationComplete": false,
+        "timed": false,
+        "readings": false,
+        "japanese": true
+      },
+      "programLinks": {
+        "youtubeId": "LmZD-TU96q4",
+        "videoSourceUrl": "https://www.youtube.com/watch?v=LmZD-TU96q4",
+        "listenUrl": "https://www.youtube.com/watch?v=LmZD-TU96q4",
+        "sourceUrl": "https://reissuerecords.net/discography/irisout_janedoe/",
+        "previewUrl": null
+      }
+    },
+    {
+      "id": "HaruGaTomori",
+      "title": "春が灯り",
+      "youtubeId": null,
+      "sources": {
+        "amll": {
+          "state": "miss",
+          "candidates": [],
+          "checkedAt": "2026-11-17T15:37:47.326Z"
+        },
+        "lrclib": {
+          "state": "miss",
+          "candidates": [],
+          "checkedAt": "2026-11-17T15:37:47.326Z"
+        }
+      },
+      "timingInspection": {
+        "scope": "Up to three metadata-matched candidates; validates format and Japanese text presence only. Does not verify completeness, lyric accuracy or YouTube alignment.",
+        "attempts": [],
+        "state": "no-candidate",
+        "videoAlignment": "unverified",
+        "usageBasis": "unverified"
+      },
+      "supplementalSearch": {
+        "provider": "lrclib",
+        "url": "https://lrclib.net/api/search?track_name=%E6%98%A5%E3%81%8C%E7%81%AF%E3%82%8A&artist_name=%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB",
+        "artist": "米津玄師",
+        "state": "miss",
+        "resultCount": 0,
+        "checkedAt": "2026-11-17T15:41:57.491Z"
+      },
+      "localContent": {
+        "lineCount": 0,
+        "hasOriginal": false,
+        "hasTranslation": false,
+        "translationComplete": false,
+        "timed": false,
+        "readings": false,
+        "japanese": true
+      },
+      "programLinks": {
+        "youtubeId": null,
+        "videoSourceUrl": null,
+        "listenUrl": "https://reissuerecords.net/2026/10/22/kusuriyanohitorigoto_movie/",
+        "sourceUrl": "https://reissuerecords.net/2026/10/22/kusuriyanohitorigoto_movie/",
+        "previewUrl": "https://reissuerecords.net/2026/10/22/kusuriyanohitorigoto_movie/"
+      }
+    },
+    {
+      "id": "KonnichiwaGokigenyou",
+      "title": "こんにちはごきげんよう！",
+      "youtubeId": null,
+      "sources": {
+        "amll": {
+          "state": "miss",
+          "candidates": [],
+          "checkedAt": "2026-11-17T15:37:48.269Z"
+        },
+        "lrclib": {
+          "state": "miss",
+          "candidates": [],
+          "checkedAt": "2026-11-17T15:37:48.269Z"
+        }
+      },
+      "timingInspection": {
+        "scope": "Up to three metadata-matched candidates; validates format and Japanese text presence only. Does not verify completeness, lyric accuracy or YouTube alignment.",
+        "attempts": [],
+        "state": "no-candidate",
+        "videoAlignment": "unverified",
+        "usageBasis": "unverified"
+      },
+      "supplementalSearch": {
+        "provider": "lrclib",
+        "url": "https://lrclib.net/api/search?track_name=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF%E3%81%94%E3%81%8D%E3%81%92%E3%82%93%E3%82%88%E3%81%86%EF%BC%81&artist_name=%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB",
+        "artist": "米津玄師",
+        "state": "miss",
+        "resultCount": 0,
+        "checkedAt": "2026-11-17T15:41:59.026Z"
+      },
+      "localContent": {
+        "lineCount": 0,
+        "hasOriginal": false,
+        "hasTranslation": false,
+        "translationComplete": false,
+        "timed": false,
+        "readings": false,
+        "japanese": true
+      },
+      "programLinks": {
+        "youtubeId": null,
+        "videoSourceUrl": null,
+        "listenUrl": "https://reissuerecords.net/2026/11/02/toranitsubasa_movie/",
+        "sourceUrl": "https://reissuerecords.net/2026/11/02/toranitsubasa_movie/",
+        "previewUrl": "https://reissuerecords.net/2026/11/02/toranitsubasa_movie/"
+      }
+    },
+    {
+      "id": "Karasu",
+      "title": "烏",
+      "youtubeId": "YjPMupS1Lg4",
+      "sources": {
+        "amll": {
+          "state": "miss",
+          "candidates": [],
+          "checkedAt": "2026-11-17T15:37:24.656Z"
+        },
+        "lrclib": {
+          "state": "found",
+          "candidates": [
+            {
+              "id": 36156838,
+              "title": "烏",
+              "artist": "Kenshi Yonezu",
+              "album": "烏 - Raven",
+              "duration": 248,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/36156838"
+            },
+            {
+              "id": 37468985,
+              "title": "烏",
+              "artist": "Kenshi Yonezu",
+              "album": "烏 - Raven",
+              "duration": 257,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/37468985"
+            }
+          ],
+          "checkedAt": "2026-11-17T15:37:24.656Z"
+        }
+      },
+      "timingInspection": {
+        "scope": "Up to three metadata-matched candidates; validates format and Japanese text presence only. Does not verify completeness, lyric accuracy or YouTube alignment.",
+        "attempts": [
+          {
+            "id": 36156838,
+            "url": "https://lrclib.net/api/get/36156838",
+            "state": "parseable-japanese-timing",
+            "title": "烏",
+            "artist": "Kenshi Yonezu",
+            "album": "烏 - Raven",
+            "duration": 248,
+            "hasSyncedLyrics": true,
+            "hasLyricsfile": true,
+            "lineCount": 32,
+            "japaneseLineCount": 32,
+            "firstTimestamp": 12.52,
+            "lastTimestamp": 205.44,
+            "issues": [],
+            "checkedAt": "2026-11-17T15:40:19.072Z"
+          }
+        ],
+        "state": "parseable-japanese-timing",
+        "videoAlignment": "unverified",
+        "usageBasis": "unverified",
+        "exampleUrl": "https://lrclib.net/api/get/36156838"
+      },
+      "localContent": {
+        "lineCount": 0,
+        "hasOriginal": false,
+        "hasTranslation": false,
+        "translationComplete": false,
+        "timed": false,
+        "readings": false,
+        "japanese": true
+      },
+      "programLinks": {
+        "youtubeId": "YjPMupS1Lg4",
+        "videoSourceUrl": "https://www.youtube.com/watch?v=YjPMupS1Lg4",
+        "listenUrl": "https://www.youtube.com/watch?v=YjPMupS1Lg4",
+        "sourceUrl": "https://reissuerecords.net/discography/karasu/",
+        "previewUrl": null
+      }
+    },
+    {
+      "id": "MayoeruHitsuji",
+      "title": "迷える羊",
+      "youtubeId": null,
+      "sources": {
+        "amll": {
+          "state": "miss",
+          "candidates": [],
+          "checkedAt": "2026-11-17T15:37:25.665Z"
+        },
+        "lrclib": {
+          "state": "found",
+          "candidates": [
+            {
+              "id": 1319865,
+              "title": "迷える羊",
+              "artist": "Kenshi Yonezu",
+              "album": "STRAY SHEEP",
+              "duration": 227,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/1319865"
+            },
+            {
+              "id": 27330969,
+              "title": "迷える羊",
+              "artist": "Kenshi Yonezu",
+              "album": "STRAY SHEEP",
+              "duration": 230.530612,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/27330969"
+            },
+            {
+              "id": 38612878,
+              "title": "迷える羊",
+              "artist": "Kenshi Yonezu",
+              "album": "Lemon",
+              "duration": 211,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/38612878"
+            }
+          ],
+          "checkedAt": "2026-11-17T15:37:25.665Z"
+        }
+      },
+      "timingInspection": {
+        "scope": "Up to three metadata-matched candidates; validates format and Japanese text presence only. Does not verify completeness, lyric accuracy or YouTube alignment.",
+        "attempts": [
+          {
+            "id": 1319865,
+            "url": "https://lrclib.net/api/get/1319865",
+            "state": "parseable-japanese-timing",
+            "title": "迷える羊",
+            "artist": "Kenshi Yonezu",
+            "album": "STRAY SHEEP",
+            "duration": 227,
+            "hasSyncedLyrics": true,
+            "hasLyricsfile": true,
+            "lineCount": 24,
+            "japaneseLineCount": 24,
+            "firstTimestamp": 23.66,
+            "lastTimestamp": 190.57,
+            "issues": [],
+            "checkedAt": "2026-11-17T15:40:20.603Z"
+          }
+        ],
+        "state": "parseable-japanese-timing",
+        "videoAlignment": "unverified",
+        "usageBasis": "unverified",
+        "exampleUrl": "https://lrclib.net/api/get/1319865"
+      },
+      "localContent": {
+        "lineCount": 0,
+        "hasOriginal": false,
+        "hasTranslation": false,
+        "translationComplete": false,
+        "timed": false,
+        "readings": false,
+        "japanese": true
+      },
+      "programLinks": {
+        "youtubeId": null,
+        "videoSourceUrl": null,
+        "listenUrl": "https://smej.lnk.to/3OXrrlCi",
+        "sourceUrl": "https://reissuerecords.net/discography/stray-sheep/",
+        "previewUrl": null
+      }
+    },
+    {
+      "id": "Plazma",
+      "title": "Plazma",
+      "youtubeId": "fp3F6TqBsAU",
+      "sources": {
+        "amll": {
+          "state": "miss",
+          "candidates": [],
+          "checkedAt": "2026-11-17T15:37:48.614Z"
+        },
+        "lrclib": {
+          "state": "found",
+          "candidates": [
+            {
+              "id": 30611113,
+              "title": "Plazma",
+              "artist": "Kenshi Yonezu",
+              "album": "Plazma",
+              "duration": 170,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/30611113"
+            },
+            {
+              "id": 30611046,
+              "title": "Plazma",
+              "artist": "Kenshi Yonezu",
+              "album": "Plazma",
+              "duration": 110,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/30611046"
+            },
+            {
+              "id": 30611349,
+              "title": "Plazma",
+              "artist": "Kenshi Yonezu",
+              "album": "Plazma",
+              "duration": 197,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/30611349"
+            },
+            {
+              "id": 30610982,
+              "title": "Plazma",
+              "artist": "Kenshi Yonezu",
+              "album": "Plazma",
+              "duration": 50,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/30610982"
+            },
+            {
+              "id": 30611011,
+              "title": "Plazma",
+              "artist": "Kenshi Yonezu",
+              "album": "Plazma",
+              "duration": 80,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/30611011"
+            },
+            {
+              "id": 30611030,
+              "title": "Plazma",
+              "artist": "Kenshi Yonezu",
+              "album": "Plazma",
+              "duration": 90,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/30611030"
+            },
+            {
+              "id": 31700237,
+              "title": "Plazma",
+              "artist": "Kenshi Yonezu",
+              "album": "Plazma",
+              "duration": 3,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/31700237"
+            },
+            {
+              "id": 31424049,
+              "title": "Plazma",
+              "artist": "Kenshi Yonezu",
+              "album": "BOW AND ARROW / Plazma",
+              "duration": 200,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/31424049"
+            },
+            {
+              "id": 31494219,
+              "title": "Plazma",
+              "artist": "Kenshi Yonezu",
+              "album": "Kenshi Yonezu",
+              "duration": 181,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/31494219"
+            },
+            {
+              "id": 20496979,
+              "title": "Plazma",
+              "artist": "Kenshi Yonezu",
+              "album": "null",
+              "duration": 181,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/20496979"
+            },
+            {
+              "id": 16717326,
+              "title": "Plazma",
+              "artist": "Kenshi Yonezu",
+              "album": "Plazma",
+              "duration": 181,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/16717326"
+            },
+            {
+              "id": 34804436,
+              "title": "Plazma",
+              "artist": "Kenshi Yonezu",
+              "album": "Plazma",
+              "duration": 200,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/34804436"
+            },
+            {
+              "id": 33976293,
+              "title": "Plazma",
+              "artist": "Kenshi Yonezu",
+              "album": "Billboard JAPAN Hot 100 (2025-12-17)",
+              "duration": 180,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/33976293"
+            },
+            {
+              "id": 34213980,
+              "title": "Plazma",
+              "artist": "Kenshi Yonezu",
+              "album": "BOW AND ARROW / Plazma",
+              "duration": 181,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/34213980"
+            },
+            {
+              "id": 34314866,
+              "title": "Plazma",
+              "artist": "Kenshi Yonezu",
+              "album": "Kenshi Yonezu EP's & Singles",
+              "duration": 180,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/34314866"
+            },
+            {
+              "id": 27637850,
+              "title": "Plazma",
+              "artist": "Kenshi Yonezu",
+              "album": "Plazma - Single",
+              "duration": 180,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/27637850"
+            },
+            {
+              "id": 26233625,
+              "title": "Plazma",
+              "artist": "Kenshi Yonezu",
+              "album": "Plazma",
+              "duration": 139.74784467120185,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/26233625"
+            },
+            {
+              "id": 25401753,
+              "title": "Plazma",
+              "artist": "Kenshi Yonezu",
+              "album": "Mobile Suit Gundam GQuuuuuuX: Beginning - Plazma",
+              "duration": 181,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/25401753"
+            },
+            {
+              "id": 39063748,
+              "title": "Plazma",
+              "artist": "Kenshi Yonezu",
+              "album": "Billboard JAPAN Hot 100 (2026-01-21)",
+              "duration": 181,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/39063748"
+            },
+            {
+              "id": 38469832,
+              "title": "Plazma",
+              "artist": "Kenshi Yonezu",
+              "album": "Plazma",
+              "duration": 437,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/38469832"
+            }
+          ],
+          "checkedAt": "2026-11-17T15:37:48.614Z"
+        }
+      },
+      "timingInspection": {
+        "scope": "Up to three metadata-matched candidates; validates format and Japanese text presence only. Does not verify completeness, lyric accuracy or YouTube alignment.",
+        "attempts": [
+          {
+            "id": 16717326,
+            "url": "https://lrclib.net/api/get/16717326",
+            "state": "parseable-japanese-timing",
+            "title": "Plazma",
+            "artist": "Kenshi Yonezu",
+            "album": "Plazma",
+            "duration": 181,
+            "hasSyncedLyrics": true,
+            "hasLyricsfile": true,
+            "lineCount": 28,
+            "japaneseLineCount": 28,
+            "firstTimestamp": 0.31,
+            "lastTimestamp": 177.04,
+            "issues": [],
+            "checkedAt": "2026-11-17T15:40:22.137Z"
+          }
+        ],
+        "state": "parseable-japanese-timing",
+        "videoAlignment": "unverified",
+        "usageBasis": "unverified",
+        "exampleUrl": "https://lrclib.net/api/get/16717326"
+      },
+      "localContent": {
+        "lineCount": 0,
+        "hasOriginal": false,
+        "hasTranslation": false,
+        "translationComplete": false,
+        "timed": false,
+        "readings": false,
+        "japanese": true
+      },
+      "programLinks": {
+        "youtubeId": "fp3F6TqBsAU",
+        "videoSourceUrl": "https://www.youtube.com/watch?v=fp3F6TqBsAU",
+        "listenUrl": "https://www.youtube.com/watch?v=fp3F6TqBsAU",
+        "sourceUrl": "https://reissuerecords.net/discography/plazma_bowandarrow/",
+        "previewUrl": null
+      }
+    },
+    {
+      "id": "M87",
+      "title": "M八七",
+      "youtubeId": "Zhx1n6uvgUE",
+      "sources": {
+        "amll": {
+          "state": "miss",
+          "candidates": [],
+          "checkedAt": "2026-11-17T15:37:26.654Z"
+        },
+        "lrclib": {
+          "state": "found",
+          "candidates": [
+            {
+              "id": 13504276,
+              "title": "M八七",
+              "artist": "Kenshi Yonezu",
+              "album": "LOST CORNER",
+              "duration": 263,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/13504276"
+            },
+            {
+              "id": 13744544,
+              "title": "M八七",
+              "artist": "Kenshi Yonezu",
+              "album": "M八七",
+              "duration": 279.301224,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/13744544"
+            },
+            {
+              "id": 14209753,
+              "title": "M八七",
+              "artist": "Kenshi Yonezu",
+              "album": "M八七",
+              "duration": 263,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/14209753"
+            },
+            {
+              "id": 33829691,
+              "title": "M八七",
+              "artist": "Kenshi Yonezu",
+              "album": "LOST CORNER",
+              "duration": 117,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/33829691"
+            },
+            {
+              "id": 36039262,
+              "title": "M八七",
+              "artist": "Kenshi Yonezu",
+              "album": "LOST CORNER",
+              "duration": 279,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/36039262"
+            }
+          ],
+          "checkedAt": "2026-11-17T15:37:26.654Z"
+        }
+      },
+      "timingInspection": {
+        "scope": "Up to three metadata-matched candidates; validates format and Japanese text presence only. Does not verify completeness, lyric accuracy or YouTube alignment.",
+        "attempts": [
+          {
+            "id": 13504276,
+            "url": "https://lrclib.net/api/get/13504276",
+            "state": "parseable-japanese-timing",
+            "title": "M八七",
+            "artist": "Kenshi Yonezu",
+            "album": "LOST CORNER",
+            "duration": 263,
+            "hasSyncedLyrics": true,
+            "hasLyricsfile": true,
+            "lineCount": 26,
+            "japaneseLineCount": 26,
+            "firstTimestamp": 0.75,
+            "lastTimestamp": 215.38,
+            "issues": [],
+            "checkedAt": "2026-11-17T15:40:23.665Z"
+          }
+        ],
+        "state": "parseable-japanese-timing",
+        "videoAlignment": "unverified",
+        "usageBasis": "unverified",
+        "exampleUrl": "https://lrclib.net/api/get/13504276"
+      },
+      "localContent": {
+        "lineCount": 0,
+        "hasOriginal": false,
+        "hasTranslation": false,
+        "translationComplete": false,
+        "timed": false,
+        "readings": false,
+        "japanese": true
+      },
+      "programLinks": {
+        "youtubeId": "Zhx1n6uvgUE",
+        "videoSourceUrl": "https://www.youtube.com/watch?v=Zhx1n6uvgUE",
+        "listenUrl": "https://www.youtube.com/watch?v=Zhx1n6uvgUE",
+        "sourceUrl": "https://reissuerecords.net/discography/lost-corner/",
+        "previewUrl": null
+      }
+    },
+    {
+      "id": "Chikyugi",
+      "title": "地球儀",
+      "youtubeId": "VUsURj_OYdA",
+      "sources": {
+        "amll": {
+          "state": "miss",
+          "candidates": [],
+          "checkedAt": "2026-11-17T15:37:27.662Z"
+        },
+        "lrclib": {
+          "state": "found",
+          "candidates": [
+            {
+              "id": 3069994,
+              "title": "地球儀",
+              "artist": "Kenshi Yonezu",
+              "album": "地球儀",
+              "duration": 273,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/3069994"
+            },
+            {
+              "id": 14452825,
+              "title": "地球儀",
+              "artist": "Kenshi Yonezu",
+              "album": "LOST CORNER",
+              "duration": 275,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/14452825"
+            },
+            {
+              "id": 15638560,
+              "title": "地球儀",
+              "artist": "Kenshi Yonezu",
+              "album": "君たちはどう生きるか サウンドトラック",
+              "duration": 274,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/15638560"
+            }
+          ],
+          "checkedAt": "2026-11-17T15:37:27.662Z"
+        }
+      },
+      "timingInspection": {
+        "scope": "Up to three metadata-matched candidates; validates format and Japanese text presence only. Does not verify completeness, lyric accuracy or YouTube alignment.",
+        "attempts": [
+          {
+            "id": 14452825,
+            "url": "https://lrclib.net/api/get/14452825",
+            "state": "needs-review",
+            "title": "地球儀",
+            "artist": "Kenshi Yonezu",
+            "album": "LOST CORNER",
+            "duration": 275,
+            "hasSyncedLyrics": false,
+            "hasLyricsfile": true,
+            "lineCount": 0,
+            "japaneseLineCount": 0,
+            "firstTimestamp": null,
+            "lastTimestamp": null,
+            "issues": [
+              "unparseable-timing",
+              "no-japanese-kana"
+            ],
+            "checkedAt": "2026-11-17T15:40:25.190Z"
+          },
+          {
+            "id": 3069994,
+            "url": "https://lrclib.net/api/get/3069994",
+            "state": "parseable-japanese-timing",
+            "title": "地球儀",
+            "artist": "Kenshi Yonezu",
+            "album": "地球儀",
+            "duration": 273,
+            "hasSyncedLyrics": true,
+            "hasLyricsfile": true,
+            "lineCount": 45,
+            "japaneseLineCount": 45,
+            "firstTimestamp": 16.58,
+            "lastTimestamp": 252.18,
+            "issues": [],
+            "checkedAt": "2026-11-17T15:40:26.731Z"
+          }
+        ],
+        "state": "parseable-japanese-timing",
+        "videoAlignment": "unverified",
+        "usageBasis": "unverified",
+        "exampleUrl": "https://lrclib.net/api/get/3069994"
+      },
+      "localContent": {
+        "lineCount": 0,
+        "hasOriginal": false,
+        "hasTranslation": false,
+        "translationComplete": false,
+        "timed": false,
+        "readings": false,
+        "japanese": true
+      },
+      "programLinks": {
+        "youtubeId": "VUsURj_OYdA",
+        "videoSourceUrl": "https://www.youtube.com/watch?v=VUsURj_OYdA",
+        "listenUrl": "https://www.youtube.com/watch?v=VUsURj_OYdA",
+        "sourceUrl": "https://reissuerecords.net/discography/lost-corner/",
+        "previewUrl": null
+      }
+    },
+    {
+      "id": "EineKleine",
+      "title": "アイネクライネ",
+      "youtubeId": "-EKxzId_Sj4",
+      "sources": {
+        "amll": {
+          "state": "miss",
+          "candidates": [],
+          "checkedAt": "2026-11-17T15:37:28.663Z"
+        },
+        "lrclib": {
+          "state": "found",
+          "candidates": [
+            {
+              "id": 1883354,
+              "title": "アイネクライネ",
+              "artist": "Kenshi Yonezu",
+              "album": "YANKEE",
+              "duration": 288,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/1883354"
+            },
+            {
+              "id": 23001926,
+              "title": "アイネクライネ",
+              "artist": "Kenshi Yonezu",
+              "album": "YANKEE",
+              "duration": 290.66449,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/23001926"
+            },
+            {
+              "id": 10123546,
+              "title": "アイネクライネ",
+              "artist": "Kenshi Yonezu",
+              "album": "YANKEE",
+              "duration": 294,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/10123546"
+            },
+            {
+              "id": 33639349,
+              "title": "アイネクライネ",
+              "artist": "Kenshi Yonezu",
+              "album": "YANKEE",
+              "duration": 277,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/33639349"
+            },
+            {
+              "id": 35907431,
+              "title": "アイネクライネ",
+              "artist": "Kenshi Yonezu",
+              "album": "YANKEE",
+              "duration": 80,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/35907431"
+            },
+            {
+              "id": 35907454,
+              "title": "アイネクライネ",
+              "artist": "Kenshi Yonezu",
+              "album": "YANKEE",
+              "duration": 230,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/35907454"
+            },
+            {
+              "id": 36139651,
+              "title": "アイネクライネ",
+              "artist": "Kenshi Yonezu",
+              "album": "Damb2",
+              "duration": 288,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/36139651"
+            },
+            {
+              "id": 36139576,
+              "title": "アイネクライネ",
+              "artist": "Kenshi Yonezu",
+              "album": "Damb1",
+              "duration": 288,
+              "hasSyncedLyrics": true,
+              "url": "https://lrclib.net/api/get/36139576"
+            }
+          ],
+          "checkedAt": "2026-11-17T15:37:28.663Z"
+        }
+      },
+      "timingInspection": {
+        "scope": "Up to three metadata-matched candidates; validates format and Japanese text presence only. Does not verify completeness, lyric accuracy or YouTube alignment.",
+        "attempts": [
+          {
+            "id": 1883354,
+            "url": "https://lrclib.net/api/get/1883354",
+            "state": "parseable-japanese-timing",
+            "title": "アイネクライネ",
+            "artist": "Kenshi Yonezu",
+            "album": "YANKEE",
+            "duration": 288,
+            "hasSyncedLyrics": true,
+            "hasLyricsfile": true,
+            "lineCount": 52,
+            "japaneseLineCount": 52,
+            "firstTimestamp": 0.85,
+            "lastTimestamp": 279.55,
+            "issues": [],
+            "checkedAt": "2026-11-17T15:40:28.266Z"
+          }
+        ],
+        "state": "parseable-japanese-timing",
+        "videoAlignment": "unverified",
+        "usageBasis": "unverified",
+        "exampleUrl": "https://lrclib.net/api/get/1883354"
+      },
+      "localContent": {
+        "lineCount": 0,
+        "hasOriginal": false,
+        "hasTranslation": false,
+        "translationComplete": false,
+        "timed": false,
+        "readings": false,
+        "japanese": true
+      },
+      "programLinks": {
+        "youtubeId": "-EKxzId_Sj4",
+        "videoSourceUrl": "https://www.youtube.com/watch?v=-EKxzId_Sj4",
+        "listenUrl": "https://www.youtube.com/watch?v=-EKxzId_Sj4",
+        "sourceUrl": "https://reissuerecords.net/discography/yankee/",
+        "previewUrl": null
+      }
+    }
+  ],
+  "inspectedAt": "2026-11-17T15:41:59.027Z",
+  "inspectionNote": "Only metadata and structural timing statistics saved; no lyric text saved. Example URLs are candidates, not approved imports or verified YouTube alignment.",
+  "timeZone": "Asia/Taipei",
+  "summary": {
+    "total": 28,
+    "localOriginals": 0,
+    "localTranslations": 0,
+    "localTimed": 0,
+    "youtubeIds": 20,
+    "officialFallbackLinks": 8,
+    "lrclibCandidates": 26,
+    "parseableJapaneseTiming": 26,
+    "noCandidate": [
+      "HaruGaTomori",
+      "KonnichiwaGokigenyou"
+    ]
+  }
+}
