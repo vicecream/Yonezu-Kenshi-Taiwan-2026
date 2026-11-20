@@ -4,7 +4,7 @@
 
 [正式網站](https://yonezu-kenshi-taiwan-2026.pages.dev/) · [專案儲存庫](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026) · [主辦專頁](https://yk2026.abigart.com/?lang=zh) · [藝人官方網站](https://reissuerecords.net/)
 
-目前來源版本為 **3.0.2**，發布內容見[更新紀錄](CHANGELOG.md)。[正式網站](https://yonezu-kenshi-taiwan-2026.pages.dev/)使用 Cloudflare Pages 直接上傳；GitHub 的 main 保管來源，推送不會自動更新目前網站。建置與上傳方式見[部署指南](CLOUDFLARE_DEPLOY.md)。
+目前來源版本為 **3.0.3**，本次發布內容見 [PR #3](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/3) 與[更新紀錄](CHANGELOG.md)。[正式網站](https://yonezu-kenshi-taiwan-2026.pages.dev/)使用 Cloudflare Pages 直接上傳；GitHub 的 main 保管來源，推送不會自動更新目前網站。建置與上傳方式見[部署指南](CLOUDFLARE_DEPLOY.md)。
 
 ## 文件導覽
 
@@ -20,6 +20,7 @@
 | 本機驗收結果與截圖 | [2026-11-17 驗證紀錄](artifacts/browser-qa-2026-11-17/README.md) |
 | 實際影片與快捷鍵修正驗證 | [2026-11-18 驗證紀錄](artifacts/browser-qa-2026-11-18/README.md) |
 | 完整本機網站架構與離線流程 | [2026-11-18 架構驗收](artifacts/local-architecture-2026-11-18/README.md) |
+| v3.0.3 整合後發布檢查 | [2026-11-20 發版驗收](artifacts/release-qa-2026-11-20/README.md) |
 | 設定、圖片與文字全面檢查 | [2026-11-18 維護紀錄](docs/maintenance-2026-11-18.md) |
 | 舊指南、歌詞與測試紀錄 | [歷史封存](archive/fujii-kaze-2026/README.md) |
 
