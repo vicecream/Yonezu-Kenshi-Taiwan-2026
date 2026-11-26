@@ -6,7 +6,7 @@ const prepared = {
     "lyricsStatus": "imported",
     "translationStatus": "partial",
     "timingStatus": "preview",
-    "readingsStatus": "pending",
+    "readingsStatus": "ready",
     "lyrics": [
       {
         "jp": "さよならするならそれは置いていけな",
@@ -14,7 +14,9 @@ const prepared = {
         "tr": "要說再見的話就丟下它吧",
         "translationUserRef": 0,
         "translationMapping": "user-provided-text",
-        "time": 15.98
+        "time": 15.98,
+        "sourceEnd": 19.7,
+        "endTime": 19.7
       },
       {
         "jp": "君が思うより気に入ってんだ",
@@ -22,7 +24,9 @@ const prepared = {
         "tr": "我可是比你所想的還要喜歡",
         "translationUserRef": 1,
         "translationMapping": "user-provided-text",
-        "time": 19.7
+        "time": 19.7,
+        "sourceEnd": 23.5,
+        "endTime": 23.5
       },
       {
         "jp": "時間が過ぎたら忘れてしまうような",
@@ -30,7 +34,9 @@ const prepared = {
         "tr": "如果是時間經過就會忘記",
         "translationUserRef": 2,
         "translationMapping": "user-provided-text",
-        "time": 23.5
+        "time": 23.5,
+        "sourceEnd": 27.26,
+        "endTime": 27.26
       },
       {
         "jp": "軽いものならばよかったよな",
@@ -38,7 +44,9 @@ const prepared = {
         "tr": "那樣輕鬆的東西該有多好啊",
         "translationUserRef": 3,
         "translationMapping": "user-provided-text",
-        "time": 27.26
+        "time": 27.26,
+        "sourceEnd": 30.73,
+        "endTime": 30.73
       },
       {
         "jp": "愛は買えない 諍いは絶えない",
@@ -46,7 +54,9 @@ const prepared = {
         "tr": "愛不能買　爭執不會平息",
         "translationUserRef": 4,
         "translationMapping": "user-provided-text",
-        "time": 30.73
+        "time": 30.73,
+        "sourceEnd": 34.26,
+        "endTime": 34.26
       },
       {
         "jp": "乾き切っていない首の匂い",
@@ -54,7 +64,9 @@ const prepared = {
         "tr": "脖子尚未乾透的氣味",
         "translationUserRef": 5,
         "translationMapping": "user-provided-text",
-        "time": 34.26
+        "time": 34.26,
+        "sourceEnd": 38.22,
+        "endTime": 38.22
       },
       {
         "jp": "いつも救えない 悲しみは癒えない",
@@ -62,7 +74,9 @@ const prepared = {
         "tr": "救贖不會到來　悲傷不會痊癒",
         "translationUserRef": 6,
         "translationMapping": "user-provided-text",
-        "time": 38.22
+        "time": 38.22,
+        "sourceEnd": 42.05,
+        "endTime": 42.05
       },
       {
         "jp": "どうしても消えやしない",
@@ -70,7 +84,9 @@ const prepared = {
         "tr": "怎樣都無法消去",
         "translationUserRef": 7,
         "translationMapping": "user-provided-text",
-        "time": 42.05
+        "time": 42.05,
+        "sourceEnd": 45.55,
+        "endTime": 45.55
       },
       {
         "jp": "まだ触らないで 息をしないで",
@@ -78,7 +94,9 @@ const prepared = {
         "tr": "還不要碰我　不要呼吸",
         "translationUserRef": 8,
         "translationMapping": "user-provided-text",
-        "time": 45.55
+        "time": 45.55,
+        "sourceEnd": 49.58,
+        "endTime": 49.58
       },
       {
         "jp": "怖がらないで この目を見つめて",
@@ -86,7 +104,9 @@ const prepared = {
         "tr": "不要害怕　就看著我的眼睛",
         "translationUserRef": 9,
         "translationMapping": "user-provided-text",
-        "time": 49.58
+        "time": 49.58,
+        "sourceEnd": 53.47,
+        "endTime": 53.47
       },
       {
         "jp": "震えないで 生き足りないね",
@@ -94,7 +114,9 @@ const prepared = {
         "tr": "不要顫抖　還活得不夠對吧",
         "translationUserRef": 10,
         "translationMapping": "user-provided-text",
-        "time": 53.47
+        "time": 53.47,
+        "sourceEnd": 57.26,
+        "endTime": 57.26
       },
       {
         "jp": "この夜だけ離れないでいて",
@@ -102,7 +124,9 @@ const prepared = {
         "tr": "今夜就好別離開我身邊",
         "translationUserRef": 11,
         "translationMapping": "user-provided-text",
-        "time": 57.26
+        "time": 57.26,
+        "sourceEnd": 60.97,
+        "endTime": 60.97
       },
       {
         "jp": "叶わなかったよな 僕らの願いは",
@@ -110,7 +134,9 @@ const prepared = {
         "tr": "沒能實現呢　我們的願望",
         "translationUserRef": 12,
         "translationMapping": "user-provided-text",
-        "time": 76.78
+        "time": 76.78,
+        "sourceEnd": 80.66,
+        "endTime": 80.66
       },
       {
         "jp": "思えば初めから決まってたんだろうな",
@@ -118,7 +144,9 @@ const prepared = {
         "tr": "回想起來早在一開始就注定這樣了吧",
         "translationUserRef": 13,
         "translationMapping": "user-provided-text",
-        "time": 80.66
+        "time": 80.66,
+        "sourceEnd": 84.62,
+        "endTime": 84.62
       },
       {
         "jp": "肋が浮いた君の 肌を撫でながら",
@@ -126,7 +154,9 @@ const prepared = {
         "tr": "我輕撫你　肋骨突出的肌膚",
         "translationUserRef": 14,
         "translationMapping": "user-provided-text",
-        "time": 84.62
+        "time": 84.62,
+        "sourceEnd": 88.21,
+        "endTime": 88.21
       },
       {
         "jp": "最後まで確かめた僕ら生きていると",
@@ -134,7 +164,9 @@ const prepared = {
         "tr": "確認直到最後一刻　我們都存活了下來",
         "translationUserRef": 15,
         "translationMapping": "user-provided-text",
-        "time": 88.21
+        "time": 88.21,
+        "sourceEnd": 92.05,
+        "endTime": 92.05
       },
       {
         "jp": "エイメン どうして二人を認めなかったの？",
@@ -142,7 +174,9 @@ const prepared = {
         "tr": "阿門　為什麼不能就認同我們呢？",
         "translationUserRef": 16,
         "translationMapping": "user-provided-text",
-        "time": 92.05
+        "time": 92.05,
+        "sourceEnd": 98.64,
+        "endTime": 98.64
       },
       {
         "jp": "犠牲も罪も僕らを表す美しい歌なのに",
@@ -150,7 +184,9 @@ const prepared = {
         "tr": "明明犧牲與罪孽是最能代表我們的美麗歌曲啊",
         "translationUserRef": 17,
         "translationMapping": "user-provided-text",
-        "time": 98.64
+        "time": 98.64,
+        "sourceEnd": 106.88,
+        "endTime": 106.88
       },
       {
         "jp": "愛は買えない 諍いは絶えない",
@@ -158,7 +194,9 @@ const prepared = {
         "tr": "愛不能買　爭執不會平息",
         "translationUserRef": 18,
         "translationMapping": "user-provided-text",
-        "time": 106.88
+        "time": 106.88,
+        "sourceEnd": 110.45,
+        "endTime": 110.45
       },
       {
         "jp": "乾き切っていない首の匂い",
@@ -166,7 +204,9 @@ const prepared = {
         "tr": "脖子尚未乾透的氣味",
         "translationUserRef": 19,
         "translationMapping": "user-provided-text",
-        "time": 110.45
+        "time": 110.45,
+        "sourceEnd": 114.69,
+        "endTime": 114.69
       },
       {
         "jp": "いつも救えない 悲しみは癒えない",
@@ -174,7 +214,9 @@ const prepared = {
         "tr": "救贖不會到來　悲傷不會痊癒",
         "translationUserRef": 20,
         "translationMapping": "user-provided-text",
-        "time": 114.69
+        "time": 114.69,
+        "sourceEnd": 118.02,
+        "endTime": 118.02
       },
       {
         "jp": "どうしても消えやしない",
@@ -182,7 +224,9 @@ const prepared = {
         "tr": "怎樣都無法消去",
         "translationUserRef": 21,
         "translationMapping": "user-provided-text",
-        "time": 118.02
+        "time": 118.02,
+        "sourceEnd": 121.68,
+        "endTime": 121.68
       },
       {
         "jp": "まだ触らないで 息をしないで",
@@ -190,7 +234,9 @@ const prepared = {
         "tr": "還不要碰我　不要呼吸",
         "translationUserRef": 22,
         "translationMapping": "user-provided-text",
-        "time": 121.68
+        "time": 121.68,
+        "sourceEnd": 127.73,
+        "endTime": 127.73
       },
       {
         "jp": "怖がらないで この目を見つめて",
@@ -198,7 +244,9 @@ const prepared = {
         "tr": "不要害怕　就看著我的眼睛",
         "translationUserRef": 23,
         "translationMapping": "user-provided-text",
-        "time": 127.73
+        "time": 127.73,
+        "sourceEnd": 131.69,
+        "endTime": 131.69
       },
       {
         "jp": "震えないで 生き足りないね",
@@ -206,7 +254,9 @@ const prepared = {
         "tr": "不要顫抖　還活得不夠對吧",
         "translationUserRef": 24,
         "translationMapping": "user-provided-text",
-        "time": 131.69
+        "time": 131.69,
+        "sourceEnd": 135.25,
+        "endTime": 135.25
       },
       {
         "jp": "この夜だけ離れないでいて",
@@ -214,7 +264,9 @@ const prepared = {
         "tr": "今夜就好別離開我身邊",
         "translationUserRef": 25,
         "translationMapping": "user-provided-text",
-        "time": 135.25
+        "time": 135.25,
+        "sourceEnd": 139.03,
+        "endTime": 139.03
       },
       {
         "jp": "宙を舞い海に落ちていったあの花（離れないでいて）",
@@ -223,7 +275,9 @@ const prepared = {
         "translationUserRef": 26,
         "translationMapping": "user-provided-text",
         "translationPartial": true,
-        "time": 139.03
+        "time": 139.03,
+        "sourceEnd": 143.17,
+        "endTime": 143.17
       },
       {
         "jp": "いつまでも消えない腕の痣",
@@ -231,7 +285,9 @@ const prepared = {
         "tr": "過了多久都不會消失的手臂瘀傷",
         "translationUserRef": 27,
         "translationMapping": "user-provided-text",
-        "time": 143.17
+        "time": 143.17,
+        "sourceEnd": 146.68,
+        "endTime": 146.68
       },
       {
         "jp": "死体みたいに重ねた僕らの体（離れないでいて）",
@@ -240,7 +296,9 @@ const prepared = {
         "translationUserRef": 28,
         "translationMapping": "user-provided-text",
         "translationPartial": true,
-        "time": 146.68
+        "time": 146.68,
+        "sourceEnd": 150.65,
+        "endTime": 150.65
       },
       {
         "jp": "最後くらい笑ったままさよなら",
@@ -248,27 +306,37 @@ const prepared = {
         "tr": "至少在這最後讓我們含笑道別吧",
         "translationUserRef": 29,
         "translationMapping": "user-provided-text",
-        "time": 150.65
+        "time": 150.65,
+        "sourceEnd": 156.36,
+        "endTime": 156.36
       },
       {
         "jp": "Yeah",
         "sourceTime": 156.36,
-        "time": 156.36
+        "time": 156.36,
+        "sourceEnd": 160.06,
+        "endTime": 160.06
       },
       {
         "jp": "Yeah",
         "sourceTime": 160.06,
-        "time": 160.06
+        "time": 160.06,
+        "sourceEnd": 163.95,
+        "endTime": 163.95
       },
       {
         "jp": "Yeah",
         "sourceTime": 163.95,
-        "time": 163.95
+        "time": 163.95,
+        "sourceEnd": 167.76,
+        "endTime": 167.76
       },
       {
         "jp": "Yeah",
         "sourceTime": 167.76,
-        "time": 167.76
+        "time": 167.76,
+        "sourceEnd": 169.62,
+        "endTime": 169.62
       }
     ],
     "lyricsSourceUrl": "https://lrclib.net/api/get/11926614",
@@ -297,7 +365,7 @@ const prepared = {
     "lyricsStatus": "imported",
     "translationStatus": "ready",
     "timingStatus": "preview",
-    "readingsStatus": "pending",
+    "readingsStatus": "ready",
     "lyrics": [
       {
         "jp": "現れたそれは春の真っ最中 えも言えぬまま輝いていた",
@@ -305,7 +373,9 @@ const prepared = {
         "tr": "你出現時正值春意最濃　閃著無以名狀的光",
         "translationUserRef": 0,
         "translationMapping": "user-provided-text",
-        "time": 19.07
+        "time": 19.07,
+        "sourceEnd": 23.27,
+        "endTime": 23.27
       },
       {
         "jp": "どんな言葉もどんな手振りも足りやしないみたいんだ",
@@ -313,7 +383,9 @@ const prepared = {
         "tr": "無論用何種詞語何種手勢似乎都不足以形容",
         "translationUserRef": 1,
         "translationMapping": "user-provided-text",
-        "time": 23.27
+        "time": 23.27,
+        "sourceEnd": 26.77,
+        "endTime": 26.77
       },
       {
         "jp": "その日から僕の胸には嵐が 住み着いたまま離れないんだ",
@@ -321,7 +393,9 @@ const prepared = {
         "tr": "那天起我的胸中便有暴風棲息　不再離開",
         "translationUserRef": 2,
         "translationMapping": "user-provided-text",
-        "time": 26.77
+        "time": 26.77,
+        "sourceEnd": 30.93,
+        "endTime": 30.93
       },
       {
         "jp": "人の声を借りた 蒼い眼の落雷だ",
@@ -329,7 +403,9 @@ const prepared = {
         "tr": "你是借了人的聲音　有著藍色眼睛的落雷哪",
         "translationUserRef": 3,
         "translationMapping": "user-provided-text",
-        "time": 30.93
+        "time": 30.93,
+        "sourceEnd": 34.5,
+        "endTime": 34.5
       },
       {
         "jp": "揺れながら踊るその髪の黒が 他のどれより嫋やかでした",
@@ -337,7 +413,9 @@ const prepared = {
         "tr": "飄逸舞動的那頭黑髮　比任何東西都要來得婀娜",
         "translationUserRef": 4,
         "translationMapping": "user-provided-text",
-        "time": 34.5
+        "time": 34.5,
+        "sourceEnd": 38.63,
+        "endTime": 38.63
       },
       {
         "jp": "すっと消えそうな 真っ白い肌によく似合ってました",
@@ -345,7 +423,9 @@ const prepared = {
         "tr": "和彷彿一晃眼便會消失的　純白肌膚非常相搭",
         "translationUserRef": 5,
         "translationMapping": "user-provided-text",
-        "time": 38.63
+        "time": 38.63,
+        "sourceEnd": 42.2,
+        "endTime": 42.2
       },
       {
         "jp": "あなたにはこの世界の彩りが どう見えるのか知りたくて今",
@@ -353,7 +433,9 @@ const prepared = {
         "tr": "我好想知道這世界的色彩　在你的眼裡是什麼模樣",
         "translationUserRef": 6,
         "translationMapping": "user-provided-text",
-        "time": 42.2
+        "time": 42.2,
+        "sourceEnd": 46.42,
+        "endTime": 46.42
       },
       {
         "jp": "頬に手を伸ばした 壊れそうでただ怖かった",
@@ -361,7 +443,9 @@ const prepared = {
         "tr": "此刻朝你的雙頰伸出了手　你的易碎讓我只能害怕",
         "translationUserRef": 7,
         "translationMapping": "user-provided-text",
-        "time": 46.42
+        "time": 46.42,
+        "sourceEnd": 50.03,
+        "endTime": 50.03
       },
       {
         "jp": "全てはあなたの思い通り 悲しくって散らばった思いも全て",
@@ -369,7 +453,9 @@ const prepared = {
         "tr": "完全如你所想　悲傷四散的思緒全都",
         "translationUserRef": 8,
         "translationMapping": "user-provided-text",
-        "time": 50.03
+        "time": 50.03,
+        "sourceEnd": 55.84,
+        "endTime": 55.84
       },
       {
         "jp": "あなたがくれたプレゼント",
@@ -377,7 +463,9 @@ const prepared = {
         "tr": "是你賜予我的禮物",
         "translationUserRef": 9,
         "translationMapping": "user-provided-text",
-        "time": 55.84
+        "time": 55.84,
+        "sourceEnd": 57.94,
+        "endTime": 57.94
       },
       {
         "jp": "ゆらゆら吹かれて深い惑い 痛み 憂い 恋しい",
@@ -385,7 +473,9 @@ const prepared = {
         "tr": "被吹得搖搖晃晃那深沉困惑　痛苦　憂傷　戀慕",
         "translationUserRef": 10,
         "translationMapping": "user-provided-text",
-        "time": 57.94
+        "time": 57.94,
+        "sourceEnd": 65.71,
+        "endTime": 65.71
       },
       {
         "jp": "言葉にするのも 形にするのも そのどれもが覚束なくって",
@@ -393,7 +483,9 @@ const prepared = {
         "tr": "要訴諸話語　要塑成形體　哪個我都毫無信心",
         "translationUserRef": 11,
         "translationMapping": "user-provided-text",
-        "time": 65.71
+        "time": 65.71,
+        "sourceEnd": 73.56,
+        "endTime": 73.56
       },
       {
         "jp": "ただ目を見つめた するとあなたはふっと優しく笑ったんだ",
@@ -401,7 +493,9 @@ const prepared = {
         "tr": "只好看著你的眼睛　倏地你便綻放溫柔笑意",
         "translationUserRef": 12,
         "translationMapping": "user-provided-text",
-        "time": 73.56
+        "time": 73.56,
+        "sourceEnd": 81.28,
+        "endTime": 81.28
       },
       {
         "jp": "嗄れた心も さざめく秘密も 気がつけば粉々になって",
@@ -409,7 +503,9 @@ const prepared = {
         "tr": "嘶啞作響的心　躁動吵鬧的秘密　意識到時盡皆碎去",
         "translationUserRef": 13,
         "translationMapping": "user-provided-text",
-        "time": 81.28
+        "time": 81.28,
+        "sourceEnd": 89.16,
+        "endTime": 89.16
       },
       {
         "jp": "刹那の間に 痛みに似た恋が体を走ったんだ",
@@ -417,7 +513,9 @@ const prepared = {
         "tr": "剎那之間　似痛的戀慕竄過身體",
         "translationUserRef": 14,
         "translationMapping": "user-provided-text",
-        "time": 89.16
+        "time": 89.16,
+        "sourceEnd": 98.08,
+        "endTime": 98.08
       },
       {
         "jp": "深い惑い痛み憂い繰り返し いつの間にか春になった",
@@ -425,7 +523,9 @@ const prepared = {
         "tr": "深沉困惑痛苦憂傷反覆不停　無意間春天又來臨",
         "translationUserRef": 15,
         "translationMapping": "user-provided-text",
-        "time": 111.99
+        "time": 111.99,
+        "sourceEnd": 119.57,
+        "endTime": 119.57
       },
       {
         "jp": "甘い香り残し陰り恋焦がし 深く深く迷い込んだ",
@@ -433,7 +533,9 @@ const prepared = {
         "tr": "甜美香氣殘存陰鬱為愛焦慮　深深地深深地沉溺",
         "translationUserRef": 16,
         "translationMapping": "user-provided-text",
-        "time": 119.57
+        "time": 119.57,
+        "sourceEnd": 127.35,
+        "endTime": 127.35
       },
       {
         "jp": "花びらが散ればあなたとおさらば それなら僕と踊りませんか",
@@ -441,7 +543,9 @@ const prepared = {
         "tr": "花瓣散落之際便要與你道別離　那麼何不與我共舞一曲",
         "translationUserRef": 17,
         "translationMapping": "user-provided-text",
-        "time": 127.35
+        "time": 127.35,
+        "sourceEnd": 131.58,
+        "endTime": 131.58
       },
       {
         "jp": "宙を舞う花がどうもあなたみたいで参りました",
@@ -449,7 +553,9 @@ const prepared = {
         "tr": "空中飛舞的花朵與你太過相像我只能投降",
         "translationUserRef": 18,
         "translationMapping": "user-provided-text",
-        "time": 131.58
+        "time": 131.58,
+        "sourceEnd": 135.04,
+        "endTime": 135.04
       },
       {
         "jp": "やがてまた巡りくる春の最中 そこは豊かなひだまりでした",
@@ -457,7 +563,9 @@ const prepared = {
         "tr": "終於四季流轉又正逢春季　那裡充滿豐沛陽光",
         "translationUserRef": 19,
         "translationMapping": "user-provided-text",
-        "time": 135.04
+        "time": 135.04,
+        "sourceEnd": 139.22,
+        "endTime": 139.22
       },
       {
         "jp": "身をやつしてやまない あんな嵐はどこへやら",
@@ -465,7 +573,9 @@ const prepared = {
         "tr": "而使我身形不斷消瘦的　那陣暴風去了哪裡",
         "translationUserRef": 20,
         "translationMapping": "user-provided-text",
-        "time": 139.22
+        "time": 139.22,
+        "sourceEnd": 143.02,
+        "endTime": 143.02
       },
       {
         "jp": "まだまだ心は帰れない その細い声でどうか騙しておくれ",
@@ -473,7 +583,9 @@ const prepared = {
         "tr": "我心尚未能歸　就用你的呢喃蒙騙我吧",
         "translationUserRef": 21,
         "translationMapping": "user-provided-text",
-        "time": 143.02
+        "time": 143.02,
+        "sourceEnd": 148.88,
+        "endTime": 148.88
       },
       {
         "jp": "カラカラに枯れ果てるまで",
@@ -481,7 +593,9 @@ const prepared = {
         "tr": "直到我變得乾涸枯竭",
         "translationUserRef": 22,
         "translationMapping": "user-provided-text",
-        "time": 148.88
+        "time": 148.88,
+        "sourceEnd": 150.87,
+        "endTime": 150.87
       },
       {
         "jp": "ふらふら揺られて甘い香り 残し 陰り 幻",
@@ -489,7 +603,9 @@ const prepared = {
         "tr": "被晃得蹣蹣跚跚那甜美香氣　殘存　陰鬱　幻影",
         "translationUserRef": 23,
         "translationMapping": "user-provided-text",
-        "time": 150.87
+        "time": 150.87,
+        "sourceEnd": 158.54,
+        "endTime": 158.54
       },
       {
         "jp": "聞きたい言葉も 言いたい想いも 笑うくらい山ほどあって",
@@ -497,7 +613,9 @@ const prepared = {
         "tr": "想聽你說的話語　想告訴你的思緒　可笑得多如山積",
         "translationUserRef": 24,
         "translationMapping": "user-provided-text",
-        "time": 158.54
+        "time": 158.54,
+        "sourceEnd": 166.46,
+        "endTime": 166.46
       },
       {
         "jp": "それでもあなたを前にすると 何にも出てはこないなんて",
@@ -505,7 +623,9 @@ const prepared = {
         "tr": "即使如此到了你的面前　我竟只能沉默無語",
         "translationUserRef": 25,
         "translationMapping": "user-provided-text",
-        "time": 166.46
+        "time": 166.46,
+        "sourceEnd": 174.05,
+        "endTime": 174.05
       },
       {
         "jp": "焦げ付く痛みも 刺し込む痺れも 口をつぐんだ恋とわかって",
@@ -513,7 +633,9 @@ const prepared = {
         "tr": "知道那焦心的痛處　刺入的麻痺　全是噤聲的愛戀",
         "translationUserRef": 26,
         "translationMapping": "user-provided-text",
-        "time": 174.05
+        "time": 174.05,
+        "sourceEnd": 181.94,
+        "endTime": 181.94
       },
       {
         "jp": "あなたの心に 橋をかける大事な雷雨だと知ったんだ",
@@ -521,7 +643,9 @@ const prepared = {
         "tr": "也明白往你的心裡搭上橋的　是那場珍貴的雷雨",
         "translationUserRef": 27,
         "translationMapping": "user-provided-text",
-        "time": 181.94
+        "time": 181.94,
+        "sourceEnd": 191.53,
+        "endTime": 191.53
       },
       {
         "jp": "どうか騙しておくれ 「愛」と笑っておくれ",
@@ -529,7 +653,9 @@ const prepared = {
         "tr": "求你就騙我吧　就嘲笑我的「愛」吧",
         "translationUserRef": 28,
         "translationMapping": "user-provided-text",
-        "time": 205.1
+        "time": 205.1,
+        "sourceEnd": 209.06,
+        "endTime": 209.06
       },
       {
         "jp": "いつか消える日まで そのままでいて",
@@ -537,7 +663,9 @@ const prepared = {
         "tr": "到哪天消失之前　就維持現在這樣",
         "translationUserRef": 29,
         "translationMapping": "user-provided-text",
-        "time": 209.06
+        "time": 209.06,
+        "sourceEnd": 213.01,
+        "endTime": 213.01
       },
       {
         "jp": "どうか騙しておくれ 「愛」と笑っておくれ",
@@ -545,7 +673,9 @@ const prepared = {
         "tr": "求你就騙我吧　就嘲笑我的「愛」吧",
         "translationUserRef": 30,
         "translationMapping": "user-provided-text",
-        "time": 213.01
+        "time": 213.01,
+        "sourceEnd": 216.77,
+        "endTime": 216.77
       },
       {
         "jp": "いつか消える日まで そのままでいて",
@@ -553,7 +683,9 @@ const prepared = {
         "tr": "到哪天消失之前　就維持現在這樣",
         "translationUserRef": 31,
         "translationMapping": "user-provided-text",
-        "time": 216.77
+        "time": 216.77,
+        "sourceEnd": 220.73,
+        "endTime": 220.73
       },
       {
         "jp": "どうか騙しておくれ 「愛」と笑っておくれ",
@@ -561,7 +693,9 @@ const prepared = {
         "tr": "求你就騙我吧　就嘲笑我的「愛」吧",
         "translationUserRef": 32,
         "translationMapping": "user-provided-text",
-        "time": 220.73
+        "time": 220.73,
+        "sourceEnd": 224.58,
+        "endTime": 224.58
       },
       {
         "jp": "いつか消える日まで そのままでいて",
@@ -569,7 +703,9 @@ const prepared = {
         "tr": "到哪天消失之前　就維持現在這樣",
         "translationUserRef": 33,
         "translationMapping": "user-provided-text",
-        "time": 224.58
+        "time": 224.58,
+        "sourceEnd": 228.41,
+        "endTime": 228.41
       },
       {
         "jp": "どうか騙しておくれ 「愛」と笑っておくれ",
@@ -577,7 +713,9 @@ const prepared = {
         "tr": "求你就騙我吧　就嘲笑我的「愛」吧",
         "translationUserRef": 34,
         "translationMapping": "user-provided-text",
-        "time": 228.41
+        "time": 228.41,
+        "sourceEnd": 232.24,
+        "endTime": 232.24
       },
       {
         "jp": "いつか消える日まで そのままでいて",
@@ -585,7 +723,9 @@ const prepared = {
         "tr": "到哪天消失之前　就維持現在這樣",
         "translationUserRef": 35,
         "translationMapping": "user-provided-text",
-        "time": 232.24
+        "time": 232.24,
+        "sourceEnd": 236.02,
+        "endTime": 236.02
       },
       {
         "jp": "言葉にするのも 形にするのも そのどれもが覚束なくって",
@@ -593,7 +733,9 @@ const prepared = {
         "tr": "要訴諸話語　要塑成形體　哪個我都毫無信心",
         "translationUserRef": 36,
         "translationMapping": "user-provided-text",
-        "time": 236.02
+        "time": 236.02,
+        "sourceEnd": 243.81,
+        "endTime": 243.81
       },
       {
         "jp": "ただ目を見つめた するとあなたはふっと優しく笑ったんだ",
@@ -601,7 +743,9 @@ const prepared = {
         "tr": "只好看著你的眼睛　倏地你便綻放溫柔笑意",
         "translationUserRef": 37,
         "translationMapping": "user-provided-text",
-        "time": 243.81
+        "time": 243.81,
+        "sourceEnd": 251.56,
+        "endTime": 251.56
       },
       {
         "jp": "嗄れた心も さざめく秘密も 気がつけば粉々になって",
@@ -609,7 +753,9 @@ const prepared = {
         "tr": "嘶啞作響的心　躁動吵鬧的秘密　意識到時盡皆碎去",
         "translationUserRef": 38,
         "translationMapping": "user-provided-text",
-        "time": 251.56
+        "time": 251.56,
+        "sourceEnd": 259.36,
+        "endTime": 259.36
       },
       {
         "jp": "刹那の間に 痛みに似た恋が体を走ったんだ",
@@ -617,7 +763,9 @@ const prepared = {
         "tr": "剎那之間　似痛的戀慕竄過身體",
         "translationUserRef": 39,
         "translationMapping": "user-provided-text",
-        "time": 259.36
+        "time": 259.36,
+        "sourceEnd": 266.66,
+        "endTime": 266.66
       }
     ],
     "lyricsSourceUrl": "https://lrclib.net/api/get/10031040",
@@ -646,7 +794,7 @@ const prepared = {
     "lyricsStatus": "imported",
     "translationStatus": "ready",
     "timingStatus": "preview",
-    "readingsStatus": "pending",
+    "readingsStatus": "ready",
     "lyrics": [
       {
         "jp": "逃げ出したい夜の往来 行方は未だ不明",
@@ -654,7 +802,9 @@ const prepared = {
         "tr": "好想逃走在夜的大街上　去向依舊不明",
         "translationUserRef": 0,
         "translationMapping": "user-provided-text",
-        "time": 19.92
+        "time": 19.92,
+        "sourceEnd": 24.72,
+        "endTime": 24.72
       },
       {
         "jp": "回り回って虚しくって 困っちゃったワンワンワン",
@@ -662,7 +812,9 @@ const prepared = {
         "tr": "兜來轉去空虛起來　真是困擾啊汪汪汪",
         "translationUserRef": 1,
         "translationMapping": "user-provided-text",
-        "time": 24.72
+        "time": 24.72,
+        "sourceEnd": 29.53,
+        "endTime": 29.53
       },
       {
         "jp": "失ったつもりもないが 何か足りない気分",
@@ -670,7 +822,9 @@ const prepared = {
         "tr": "沒打算追丟　卻感到缺少了些什麼",
         "translationUserRef": 2,
         "translationMapping": "user-provided-text",
-        "time": 29.53
+        "time": 29.53,
+        "sourceEnd": 34.11,
+        "endTime": 34.11
       },
       {
         "jp": "ちょっと変にハイになって 吹かし込んだ四輪車",
@@ -678,7 +832,9 @@ const prepared = {
         "tr": "有些奇怪的 high 了起來　在引擎空轉的汽車裡",
         "translationUserRef": 3,
         "translationMapping": "user-provided-text",
-        "time": 34.11
+        "time": 34.11,
+        "sourceEnd": 39.67,
+        "endTime": 39.67
       },
       {
         "jp": "兄弟よ如何かしよう",
@@ -686,7 +842,9 @@ const prepared = {
         "tr": "兄弟啊　做些什麼吧",
         "translationUserRef": 4,
         "translationMapping": "user-provided-text",
-        "time": 39.67
+        "time": 39.67,
+        "sourceEnd": 42.32,
+        "endTime": 42.32
       },
       {
         "jp": "もう何も考えない様",
@@ -694,7 +852,9 @@ const prepared = {
         "tr": "別再多想",
         "translationUserRef": 5,
         "translationMapping": "user-provided-text",
-        "time": 42.32
+        "time": 42.32,
+        "sourceEnd": 44.33,
+        "endTime": 44.33
       },
       {
         "jp": "銀河系の外れへと さようなら",
@@ -702,7 +862,9 @@ const prepared = {
         "tr": "現在向銀河系的盡頭　道聲再見",
         "translationUserRef": 6,
         "translationMapping": "user-provided-text",
-        "time": 44.33
+        "time": 44.33,
+        "sourceEnd": 48.73,
+        "endTime": 48.73
       },
       {
         "jp": "真実も 道徳も",
@@ -710,7 +872,9 @@ const prepared = {
         "tr": "即使在真實　和道德",
         "translationUserRef": 7,
         "translationMapping": "user-provided-text",
-        "time": 48.73
+        "time": 48.73,
+        "sourceEnd": 51.18,
+        "endTime": 51.18
       },
       {
         "jp": "動作しないイカれた夜でも",
@@ -718,7 +882,9 @@ const prepared = {
         "tr": "都不運作的瘋狂夜晚",
         "translationUserRef": 8,
         "translationMapping": "user-provided-text",
-        "time": 51.18
+        "time": 51.18,
+        "sourceEnd": 53.55,
+        "endTime": 53.55
       },
       {
         "jp": "僕ら手を叩いて笑い合う",
@@ -726,7 +892,9 @@ const prepared = {
         "tr": "我們也拍著手相視而笑",
         "translationUserRef": 9,
         "translationMapping": "user-provided-text",
-        "time": 53.55
+        "time": 53.55,
+        "sourceEnd": 57.59,
+        "endTime": 57.59
       },
       {
         "jp": "誰にも知られないまま",
@@ -734,7 +902,9 @@ const prepared = {
         "tr": "沒有任何人發現",
         "translationUserRef": 10,
         "translationMapping": "user-provided-text",
-        "time": 57.59
+        "time": 57.59,
+        "sourceEnd": 61.47,
+        "endTime": 61.47
       },
       {
         "jp": "たった一瞬の このきらめきを",
@@ -742,7 +912,9 @@ const prepared = {
         "tr": "僅此一瞬的　這道耀眼",
         "translationUserRef": 11,
         "translationMapping": "user-provided-text",
-        "time": 64.54
+        "time": 64.54,
+        "sourceEnd": 69.09,
+        "endTime": 69.09
       },
       {
         "jp": "食べ尽くそう二人で くたばるまで",
@@ -750,7 +922,9 @@ const prepared = {
         "tr": "讓我們全數吞下　直到兩人筋疲力竭",
         "translationUserRef": 12,
         "translationMapping": "user-provided-text",
-        "time": 69.09
+        "time": 69.09,
+        "sourceEnd": 73.67,
+        "endTime": 73.67
       },
       {
         "jp": "そして幸運を 僕らに祈りを",
@@ -758,7 +932,9 @@ const prepared = {
         "tr": "接著便祝我們好運",
         "translationUserRef": 13,
         "translationMapping": "user-provided-text",
-        "time": 73.67
+        "time": 73.67,
+        "sourceEnd": 78.38,
+        "endTime": 78.38
       },
       {
         "jp": "まだ行こう 誰も追いつけないくらいのスピードで",
@@ -766,7 +942,9 @@ const prepared = {
         "tr": "再次用誰也追不上的速度向前",
         "translationUserRef": 14,
         "translationMapping": "user-provided-text",
-        "time": 78.38
+        "time": 78.38,
+        "sourceEnd": 83.68,
+        "endTime": 83.68
       },
       {
         "jp": "稲妻の様に生きていたいだけ",
@@ -774,7 +952,9 @@ const prepared = {
         "tr": "只想活得像一道閃電",
         "translationUserRef": 15,
         "translationMapping": "user-provided-text",
-        "time": 83.68
+        "time": 83.68,
+        "sourceEnd": 87.9,
+        "endTime": 87.9
       },
       {
         "jp": "お前はどうしたい？",
@@ -782,7 +962,9 @@ const prepared = {
         "tr": "你想怎麼做？",
         "translationUserRef": 16,
         "translationMapping": "user-provided-text",
-        "time": 87.9
+        "time": 87.9,
+        "sourceEnd": 90.33,
+        "endTime": 90.33
       },
       {
         "jp": "返事はいらない",
@@ -790,7 +972,9 @@ const prepared = {
         "tr": "不必告訴我",
         "translationUserRef": 17,
         "translationMapping": "user-provided-text",
-        "time": 90.33
+        "time": 90.33,
+        "sourceEnd": 94.16,
+        "endTime": 94.16
       },
       {
         "jp": "転がした車窓と情景 動機は未だ不明",
@@ -798,7 +982,9 @@ const prepared = {
         "tr": "滾動的車窗和情景　動機依舊不明",
         "translationUserRef": 18,
         "translationMapping": "user-provided-text",
-        "time": 101.77
+        "time": 101.77,
+        "sourceEnd": 106.46,
+        "endTime": 106.46
       },
       {
         "jp": "邪魔臭くて苛ついて 迷い込んだニャンニャンニャン",
@@ -806,7 +992,9 @@ const prepared = {
         "tr": "真是麻煩令人焦躁　誤入迷途啦喵喵喵",
         "translationUserRef": 19,
         "translationMapping": "user-provided-text",
-        "time": 106.46
+        "time": 106.46,
+        "sourceEnd": 110.96,
+        "endTime": 110.96
       },
       {
         "jp": "ここいらで落とした財布 誰か見ませんでした？",
@@ -814,7 +1002,9 @@ const prepared = {
         "tr": "掉在這裡的錢包　有沒有誰看見？",
         "translationUserRef": 20,
         "translationMapping": "user-provided-text",
-        "time": 110.96
+        "time": 110.96,
+        "sourceEnd": 115.61,
+        "endTime": 115.61
       },
       {
         "jp": "馬鹿みたいについてないね 茶化してくれハイウェイ・スター",
@@ -822,7 +1012,9 @@ const prepared = {
         "tr": "運氣糟得像個笨蛋　挖苦我吧公路之星",
         "translationUserRef": 21,
         "translationMapping": "user-provided-text",
-        "time": 115.61
+        "time": 115.61,
+        "sourceEnd": 121.04,
+        "endTime": 121.04
       },
       {
         "jp": "よう相棒 もう一丁",
@@ -830,7 +1022,9 @@ const prepared = {
         "tr": "嘿搭擋　再來啊",
         "translationUserRef": 22,
         "translationMapping": "user-provided-text",
-        "time": 121.04
+        "time": 121.04,
+        "sourceEnd": 123.52,
+        "endTime": 123.52
       },
       {
         "jp": "漫画みたいな喧嘩しようよ",
@@ -838,7 +1032,9 @@ const prepared = {
         "tr": "讓我們像漫畫那樣爭吵",
         "translationUserRef": 23,
         "translationMapping": "user-provided-text",
-        "time": 123.52
+        "time": 123.52,
+        "sourceEnd": 125.77,
+        "endTime": 125.77
       },
       {
         "jp": "酒落になんないくらいのやつを お試しで",
@@ -846,7 +1042,9 @@ const prepared = {
         "tr": "試試那些　不能亂開玩笑的事兒",
         "translationUserRef": 24,
         "translationMapping": "user-provided-text",
-        "time": 125.77
+        "time": 125.77,
+        "sourceEnd": 130.41,
+        "endTime": 130.41
       },
       {
         "jp": "正論と 暴論の",
@@ -854,7 +1052,9 @@ const prepared = {
         "tr": "就從這連確論　或謬論",
         "translationUserRef": 25,
         "translationMapping": "user-provided-text",
-        "time": 130.41
+        "time": 130.41,
+        "sourceEnd": 132.75,
+        "endTime": 132.75
       },
       {
         "jp": "分類さえ出来やしない街を",
@@ -862,7 +1062,9 @@ const prepared = {
         "tr": "都無法分辨的城市",
         "translationUserRef": 26,
         "translationMapping": "user-provided-text",
-        "time": 132.75
+        "time": 132.75,
+        "sourceEnd": 135.18,
+        "endTime": 135.18
       },
       {
         "jp": "抜け出して互いに笑い合う",
@@ -870,7 +1072,9 @@ const prepared = {
         "tr": "逃出去吧　相視而笑的我們",
         "translationUserRef": 27,
         "translationMapping": "user-provided-text",
-        "time": 135.18
+        "time": 135.18,
+        "sourceEnd": 139.03,
+        "endTime": 139.03
       },
       {
         "jp": "目指すのは メロウなエンディング",
@@ -878,7 +1082,9 @@ const prepared = {
         "tr": "目標是　熟甜完滿的劇終",
         "translationUserRef": 28,
         "translationMapping": "user-provided-text",
-        "time": 139.03
+        "time": 139.03,
+        "sourceEnd": 145.89,
+        "endTime": 145.89
       },
       {
         "jp": "それは心臓を 刹那に揺らすもの",
@@ -886,7 +1092,9 @@ const prepared = {
         "tr": "那是在剎那間　撼動心臟的東西",
         "translationUserRef": 29,
         "translationMapping": "user-provided-text",
-        "time": 145.89
+        "time": 145.89,
+        "sourceEnd": 150.65,
+        "endTime": 150.65
       },
       {
         "jp": "追いかけた途端に 見失っちゃうの",
@@ -894,7 +1102,9 @@ const prepared = {
         "tr": "卻是一追上去　就會追丟",
         "translationUserRef": 30,
         "translationMapping": "user-provided-text",
-        "time": 150.65
+        "time": 150.65,
+        "sourceEnd": 155.26,
+        "endTime": 155.26
       },
       {
         "jp": "きっと永遠が どっかにあるんだと",
@@ -902,7 +1112,9 @@ const prepared = {
         "tr": "一定在某處　有著所謂的永遠",
         "translationUserRef": 31,
         "translationMapping": "user-provided-text",
-        "time": 155.26
+        "time": 155.26,
+        "sourceEnd": 159.91,
+        "endTime": 159.91
       },
       {
         "jp": "明後日を 探し回るのも 悪くはないでしょう",
@@ -910,7 +1122,9 @@ const prepared = {
         "tr": "那麼就改天　再到處去找找也不壞吧",
         "translationUserRef": 32,
         "translationMapping": "user-provided-text",
-        "time": 159.91
+        "time": 159.91,
+        "sourceEnd": 165.38,
+        "endTime": 165.38
       },
       {
         "jp": "お前がどっかに消えた朝より",
@@ -918,7 +1132,9 @@ const prepared = {
         "tr": "比起你突然從哪消失的早晨",
         "translationUserRef": 33,
         "translationMapping": "user-provided-text",
-        "time": 165.38
+        "time": 165.38,
+        "sourceEnd": 169.77,
+        "endTime": 169.77
       },
       {
         "jp": "こんな夜の方が",
@@ -926,7 +1142,9 @@ const prepared = {
         "tr": "這樣的夜晚",
         "translationUserRef": 34,
         "translationMapping": "user-provided-text",
-        "time": 169.77
+        "time": 169.77,
+        "sourceEnd": 171.79,
+        "endTime": 171.79
       },
       {
         "jp": "まだましさ",
@@ -934,7 +1152,9 @@ const prepared = {
         "tr": "我更寧願選擇",
         "translationUserRef": 35,
         "translationMapping": "user-provided-text",
-        "time": 171.79
+        "time": 171.79,
+        "sourceEnd": 174.41,
+        "endTime": 174.41
       },
       {
         "jp": "肺に睡蓮 遠くのサイレン",
@@ -942,7 +1162,9 @@ const prepared = {
         "tr": "肺生睡蓮　遠處警報",
         "translationUserRef": 36,
         "translationMapping": "user-provided-text",
-        "time": 174.41
+        "time": 174.41,
+        "sourceEnd": 178.7,
+        "endTime": 178.7
       },
       {
         "jp": "響き合う境界線",
@@ -950,7 +1172,9 @@ const prepared = {
         "tr": "共鳴的邊界",
         "translationUserRef": 37,
         "translationMapping": "user-provided-text",
-        "time": 178.7
+        "time": 178.7,
+        "sourceEnd": 183.42,
+        "endTime": 183.42
       },
       {
         "jp": "愛し合う様に 喧嘩しようぜ",
@@ -958,7 +1182,9 @@ const prepared = {
         "tr": "讓我們如彼此相愛般的　來吵架吧",
         "translationUserRef": 38,
         "translationMapping": "user-provided-text",
-        "time": 183.42
+        "time": 183.42,
+        "sourceEnd": 188.29,
+        "endTime": 188.29
       },
       {
         "jp": "遺る瀬無さ引っさげて",
@@ -966,7 +1192,9 @@ const prepared = {
         "tr": "強行驅使這份鬱悶不樂",
         "translationUserRef": 39,
         "translationMapping": "user-provided-text",
-        "time": 188.29
+        "time": 188.29,
+        "sourceEnd": 192.96,
+        "endTime": 192.96
       },
       {
         "jp": "肺に睡蓮 遠くのサイレン",
@@ -974,7 +1202,9 @@ const prepared = {
         "tr": "肺生睡蓮　遠處警報",
         "translationUserRef": 40,
         "translationMapping": "user-provided-text",
-        "time": 192.96
+        "time": 192.96,
+        "sourceEnd": 197.32,
+        "endTime": 197.32
       },
       {
         "jp": "響き合う境界線",
@@ -982,7 +1212,9 @@ const prepared = {
         "tr": "共鳴的邊界",
         "translationUserRef": 41,
         "translationMapping": "user-provided-text",
-        "time": 197.32
+        "time": 197.32,
+        "sourceEnd": 202.33,
+        "endTime": 202.33
       },
       {
         "jp": "愛し合う様に 喧嘩しようぜ",
@@ -990,7 +1222,9 @@ const prepared = {
         "tr": "讓我們如彼此相愛般的　來吵架吧",
         "translationUserRef": 42,
         "translationMapping": "user-provided-text",
-        "time": 202.33
+        "time": 202.33,
+        "sourceEnd": 206.65,
+        "endTime": 206.65
       },
       {
         "jp": "遺る瀬無さ引っさげて",
@@ -998,7 +1232,9 @@ const prepared = {
         "tr": "強行驅使這份鬱悶不樂",
         "translationUserRef": 43,
         "translationMapping": "user-provided-text",
-        "time": 206.65
+        "time": 206.65,
+        "sourceEnd": 213.6,
+        "endTime": 213.6
       },
       {
         "jp": "たった一瞬の このきらめきを",
@@ -1006,7 +1242,9 @@ const prepared = {
         "tr": "僅此一瞬的　這道耀眼",
         "translationUserRef": 44,
         "translationMapping": "user-provided-text",
-        "time": 213.6
+        "time": 213.6,
+        "sourceEnd": 218.21,
+        "endTime": 218.21
       },
       {
         "jp": "食べ尽くそう二人で くたばるまで",
@@ -1014,7 +1252,9 @@ const prepared = {
         "tr": "讓我們全數吞下　直到兩人筋疲力竭",
         "translationUserRef": 45,
         "translationMapping": "user-provided-text",
-        "time": 218.21
+        "time": 218.21,
+        "sourceEnd": 222.94,
+        "endTime": 222.94
       },
       {
         "jp": "そして幸運を 僕らに祈りを",
@@ -1022,7 +1262,9 @@ const prepared = {
         "tr": "接著便祝我們好運",
         "translationUserRef": 46,
         "translationMapping": "user-provided-text",
-        "time": 222.94
+        "time": 222.94,
+        "sourceEnd": 227.5,
+        "endTime": 227.5
       },
       {
         "jp": "まだ行こう 誰も追いつけないくらいのスピードで",
@@ -1030,7 +1272,9 @@ const prepared = {
         "tr": "再次用誰也追不上的速度向前",
         "translationUserRef": 47,
         "translationMapping": "user-provided-text",
-        "time": 227.5
+        "time": 227.5,
+        "sourceEnd": 232.34,
+        "endTime": 232.34
       },
       {
         "jp": "それは心臓を 刹那に揺らすもの",
@@ -1038,7 +1282,9 @@ const prepared = {
         "tr": "那是在剎那間　撼動心臟的東西",
         "translationUserRef": 48,
         "translationMapping": "user-provided-text",
-        "time": 232.34
+        "time": 232.34,
+        "sourceEnd": 236.92,
+        "endTime": 236.92
       },
       {
         "jp": "追いかけた途端に 見失っちゃうの",
@@ -1046,7 +1292,9 @@ const prepared = {
         "tr": "卻是一追上去　就會追丟",
         "translationUserRef": 49,
         "translationMapping": "user-provided-text",
-        "time": 236.92
+        "time": 236.92,
+        "sourceEnd": 241.57,
+        "endTime": 241.57
       },
       {
         "jp": "きっと永遠が どっかにあるんだと",
@@ -1054,7 +1302,9 @@ const prepared = {
         "tr": "一定在某處　有著所謂的永遠",
         "translationUserRef": 50,
         "translationMapping": "user-provided-text",
-        "time": 241.57
+        "time": 241.57,
+        "sourceEnd": 246.11,
+        "endTime": 246.11
       },
       {
         "jp": "明後日を 探し回るのも 悪くはないでしょう",
@@ -1062,7 +1312,9 @@ const prepared = {
         "tr": "那麼就改天　再到處去找找也不壞吧",
         "translationUserRef": 51,
         "translationMapping": "user-provided-text",
-        "time": 246.11
+        "time": 246.11,
+        "sourceEnd": 251.63,
+        "endTime": 251.63
       },
       {
         "jp": "稲妻の様に生きていたいだけ",
@@ -1070,7 +1322,9 @@ const prepared = {
         "tr": "只想活得像一道閃電",
         "translationUserRef": 52,
         "translationMapping": "user-provided-text",
-        "time": 251.63
+        "time": 251.63,
+        "sourceEnd": 255.92,
+        "endTime": 255.92
       },
       {
         "jp": "お前はどうしたい？",
@@ -1078,7 +1332,9 @@ const prepared = {
         "tr": "你想怎麼做？",
         "translationUserRef": 53,
         "translationMapping": "user-provided-text",
-        "time": 255.92
+        "time": 255.92,
+        "sourceEnd": 258.33,
+        "endTime": 258.33
       },
       {
         "jp": "返事はいらない",
@@ -1086,7 +1342,9 @@ const prepared = {
         "tr": "不必告訴我",
         "translationUserRef": 54,
         "translationMapping": "user-provided-text",
-        "time": 258.33
+        "time": 258.33,
+        "sourceEnd": 259.79,
+        "endTime": 259.79
       }
     ],
     "lyricsSourceUrl": "https://lrclib.net/api/get/11502024",
@@ -1115,7 +1373,7 @@ const prepared = {
     "lyricsStatus": "imported",
     "translationStatus": "partial",
     "timingStatus": "preview",
-    "readingsStatus": "pending",
+    "readingsStatus": "ready",
     "lyrics": [
       {
         "jp": "宵闇に 爪弾き",
@@ -1123,7 +1381,9 @@ const prepared = {
         "tr": "夜始之際　被孤立",
         "translationUserRef": 0,
         "translationMapping": "user-provided-text",
-        "time": 8.55
+        "time": 16.31,
+        "sourceEnd": 11.549,
+        "endTime": 19.309
       },
       {
         "jp": "悲しみに雨曝し 花曇り",
@@ -1131,7 +1391,9 @@ const prepared = {
         "tr": "我的悲傷傾盆大雨　在這花開和煦",
         "translationUserRef": 1,
         "translationMapping": "user-provided-text",
-        "time": 12.81
+        "time": 20.57,
+        "sourceEnd": 15.723,
+        "endTime": 23.483
       },
       {
         "jp": "枯れた街 にべもなし",
@@ -1139,7 +1401,9 @@ const prepared = {
         "tr": "乾涸的街上　無人聞問",
         "translationUserRef": 2,
         "translationMapping": "user-provided-text",
-        "time": 17.37
+        "time": 25.13,
+        "sourceEnd": 20.318,
+        "endTime": 28.078
       },
       {
         "jp": "侘びしげに鼻垂らし へらへらり",
@@ -1147,7 +1411,9 @@ const prepared = {
         "tr": "失望地垂著鼻水　嘲笑嘻嘻",
         "translationUserRef": 3,
         "translationMapping": "user-provided-text",
-        "time": 21.32
+        "time": 29.08,
+        "sourceEnd": 24.504,
+        "endTime": 32.264
       },
       {
         "jp": "笑えないこのチンケな泥仕合",
@@ -1155,7 +1421,9 @@ const prepared = {
         "tr": "笑不出來啊　這場廉價的互揭瘡疤",
         "translationUserRef": 4,
         "translationMapping": "user-provided-text",
-        "time": 26.09
+        "time": 33.85,
+        "sourceEnd": 28.856,
+        "endTime": 36.616
       },
       {
         "jp": "唐紅の髪飾り あらましき恋敵",
@@ -1163,7 +1431,9 @@ const prepared = {
         "tr": "唐紅色的髮飾　粗暴的情敵",
         "translationUserRef": 5,
         "translationMapping": "user-provided-text",
-        "time": 29.43
+        "time": 37.19,
+        "sourceEnd": 33.395,
+        "endTime": 41.155
       },
       {
         "jp": "触りたいベルベットのまなじりに",
@@ -1171,7 +1441,9 @@ const prepared = {
         "tr": "好想觸碰　你那天鵝絨的眼梢",
         "translationUserRef": 6,
         "translationMapping": "user-provided-text",
-        "time": 34.52
+        "time": 42.28,
+        "sourceEnd": 37.201,
+        "endTime": 44.961
       },
       {
         "jp": "薄ら寒い笑みに",
@@ -1179,7 +1451,9 @@ const prepared = {
         "tr": "和那抹淺淺冷笑",
         "translationUserRef": 7,
         "translationMapping": "user-provided-text",
-        "time": 37.97
+        "time": 45.73,
+        "sourceEnd": 40.451,
+        "endTime": 48.211
       },
       {
         "jp": "あなた(ふらふらふら)フラミンゴ",
@@ -1188,7 +1462,9 @@ const prepared = {
         "translationUserRef": 8,
         "translationMapping": "user-provided-text",
         "translationPartial": true,
-        "time": 41.79
+        "time": 49.55,
+        "sourceEnd": 44.922,
+        "endTime": 52.682
       },
       {
         "jp": "鮮やかな(ふらふらふら)フラミンゴ",
@@ -1197,7 +1473,9 @@ const prepared = {
         "translationUserRef": 9,
         "translationMapping": "user-provided-text",
         "translationPartial": true,
-        "time": 45.3
+        "time": 53.06,
+        "sourceEnd": 48.766,
+        "endTime": 56.526
       },
       {
         "jp": "踊るまま",
@@ -1205,7 +1483,9 @@ const prepared = {
         "tr": "翩翩起舞",
         "translationUserRef": 10,
         "translationMapping": "user-provided-text",
-        "time": 49.81
+        "time": 57.57,
+        "sourceEnd": 50.643,
+        "endTime": 58.403
       },
       {
         "jp": "ふらふら笑ってもう帰らない",
@@ -1213,7 +1493,9 @@ const prepared = {
         "tr": "搖搖晃晃　笑著不再歸來",
         "translationUserRef": 11,
         "translationMapping": "user-provided-text",
-        "time": 50.72
+        "time": 58.48,
+        "sourceEnd": 53.452,
+        "endTime": 61.212
       },
       {
         "jp": "寂しさと嫉妬ばっか残して",
@@ -1221,7 +1503,9 @@ const prepared = {
         "tr": "徒留寂寞和妒忌",
         "translationUserRef": 12,
         "translationMapping": "user-provided-text",
-        "time": 54.52
+        "time": 62.28,
+        "sourceEnd": 57.669,
+        "endTime": 65.429
       },
       {
         "jp": "毎度あり 次はもっと大事にして",
@@ -1229,7 +1513,9 @@ const prepared = {
         "tr": "感謝你的每次光臨　下次對我請更珍惜",
         "translationUserRef": 13,
         "translationMapping": "user-provided-text",
-        "time": 58.8
+        "time": 66.56,
+        "sourceEnd": 62.117,
+        "endTime": 69.877
       },
       {
         "jp": "御目通り 有難し",
@@ -1237,7 +1523,9 @@ const prepared = {
         "tr": "晉見一面　便不勝感激",
         "translationUserRef": 14,
         "translationMapping": "user-provided-text",
-        "time": 71.9
+        "time": 79.66,
+        "sourceEnd": 74.799,
+        "endTime": 82.559
       },
       {
         "jp": "闇雲に舞い上がり 上滑り",
@@ -1245,7 +1533,9 @@ const prepared = {
         "tr": "盲目雀躍　膚淺行徑",
         "translationUserRef": 15,
         "translationMapping": "user-provided-text",
-        "time": 75.86
+        "time": 83.62,
+        "sourceEnd": 78.891,
+        "endTime": 86.651
       },
       {
         "jp": "虚仮威し 口遊み",
@@ -1253,7 +1543,9 @@ const prepared = {
         "tr": "裝腔作勢　隨口哼旋律",
         "translationUserRef": 16,
         "translationMapping": "user-provided-text",
-        "time": 80.36
+        "time": 88.12,
+        "sourceEnd": 82.859,
+        "endTime": 90.619
       },
       {
         "jp": "狼狽に軽はずみ 阿呆晒し",
@@ -1261,7 +1553,9 @@ const prepared = {
         "tr": "狼狽輕浮　醜態露盡",
         "translationUserRef": 17,
         "translationMapping": "user-provided-text",
-        "time": 84.24
+        "time": 92,
+        "sourceEnd": 87.238,
+        "endTime": 94.998
       },
       {
         "jp": "愛おしいその声だけ聴いていたい",
@@ -1269,7 +1563,9 @@ const prepared = {
         "tr": "只想聽見我深愛的那聲音",
         "translationUserRef": 18,
         "translationMapping": "user-provided-text",
-        "time": 89.11
+        "time": 96.87,
+        "sourceEnd": 92.441,
+        "endTime": 100.201
       },
       {
         "jp": "半端に稼いだ泡銭 タカリ出す昼鳶",
@@ -1277,7 +1573,9 @@ const prepared = {
         "tr": "零碎賺些不義之財　被白日大盜騙去",
         "translationUserRef": 19,
         "translationMapping": "user-provided-text",
-        "time": 92.67
+        "time": 100.43,
+        "sourceEnd": 96.417,
+        "endTime": 104.177
       },
       {
         "jp": "くだらないこのステージで光るのは",
@@ -1285,7 +1583,9 @@ const prepared = {
         "tr": "在荒誕無趣的舞台上光豔動人的",
         "translationUserRef": 20,
         "translationMapping": "user-provided-text",
-        "time": 97.41
+        "time": 105.17,
+        "sourceEnd": 100.126,
+        "endTime": 107.886
       },
       {
         "jp": "あなただけでもいい",
@@ -1293,7 +1593,9 @@ const prepared = {
         "tr": "有你便足矣",
         "translationUserRef": 21,
         "translationMapping": "user-provided-text",
-        "time": 101.12
+        "time": 108.88,
+        "sourceEnd": 103.669,
+        "endTime": 111.429
       },
       {
         "jp": "それは(ふらふらふら)フラミンゴ",
@@ -1302,7 +1604,9 @@ const prepared = {
         "translationUserRef": 22,
         "translationMapping": "user-provided-text",
         "translationPartial": true,
-        "time": 104.74
+        "time": 112.5,
+        "sourceEnd": 107.759,
+        "endTime": 115.519
       },
       {
         "jp": "恐ろしや(ふらふらふら)フラミンゴ",
@@ -1311,7 +1615,9 @@ const prepared = {
         "translationUserRef": 23,
         "translationMapping": "user-provided-text",
         "translationPartial": true,
-        "time": 108.44
+        "time": 116.2,
+        "sourceEnd": 111.872,
+        "endTime": 119.632
       },
       {
         "jp": "はにかんだ",
@@ -1319,7 +1625,9 @@ const prepared = {
         "tr": "靦腆一笑",
         "translationUserRef": 24,
         "translationMapping": "user-provided-text",
-        "time": 112.51
+        "time": 120.27,
+        "sourceEnd": 113.257,
+        "endTime": 121.017
       },
       {
         "jp": "ふわふわ浮かんでもうさいなら",
@@ -1327,7 +1635,9 @@ const prepared = {
         "tr": "輕飄飄地　飄走就要道別離",
         "translationUserRef": 25,
         "translationMapping": "user-provided-text",
-        "time": 113.85
+        "time": 121.61,
+        "sourceEnd": 116.932,
+        "endTime": 124.692
       },
       {
         "jp": "そりゃないね",
@@ -1335,7 +1645,9 @@ const prepared = {
         "tr": "沒那回事吧",
         "translationUserRef": 26,
         "translationMapping": "user-provided-text",
-        "time": 117.68
+        "time": 125.44,
+        "sourceEnd": 118.711,
+        "endTime": 126.471
       },
       {
         "jp": "もっとちゃんと話そうぜ",
@@ -1343,7 +1655,9 @@ const prepared = {
         "tr": "再多和我好好說說話",
         "translationUserRef": 27,
         "translationMapping": "user-provided-text",
-        "time": 119.53
+        "time": 127.29,
+        "sourceEnd": 120.945,
+        "endTime": 128.705
       },
       {
         "jp": "畜生め 吐いた唾も飲まないで",
@@ -1351,7 +1665,9 @@ const prepared = {
         "tr": "喂畜生東西　說出口就別反悔",
         "translationUserRef": 28,
         "translationMapping": "user-provided-text",
-        "time": 121.86
+        "time": 129.62,
+        "sourceEnd": 125.123,
+        "endTime": 132.883
       },
       {
         "jp": "氷雨に打たれて鼻垂らし",
@@ -1359,7 +1675,9 @@ const prepared = {
         "tr": "雨雪淋身　垂著鼻水",
         "translationUserRef": 29,
         "translationMapping": "user-provided-text",
-        "time": 127.05
+        "time": 134.81,
+        "sourceEnd": 129.933,
+        "endTime": 137.693
       },
       {
         "jp": "あたしは右手にねこじゃらし",
@@ -1367,7 +1685,9 @@ const prepared = {
         "tr": "我的右手抓著一只逗貓棒",
         "translationUserRef": 30,
         "translationMapping": "user-provided-text",
-        "time": 131
+        "time": 138.76,
+        "sourceEnd": 134.149,
+        "endTime": 141.909
       },
       {
         "jp": "今日日この程度じゃ騙せない",
@@ -1375,7 +1695,9 @@ const prepared = {
         "tr": "今世這點程度的東西已騙不了人",
         "translationUserRef": 31,
         "translationMapping": "user-provided-text",
-        "time": 135.43
+        "time": 143.19,
+        "sourceEnd": 138.43,
+        "endTime": 146.19
       },
       {
         "jp": "間で彷徨う常しえに",
@@ -1383,7 +1705,9 @@ const prepared = {
         "tr": "只能在這夾縫裡永世徘徊",
         "translationUserRef": 32,
         "translationMapping": "user-provided-text",
-        "time": 139.36
+        "time": 147.12,
+        "sourceEnd": 142.278,
+        "endTime": 150.038
       },
       {
         "jp": "地獄の閻魔に申し入り",
@@ -1391,7 +1715,9 @@ const prepared = {
         "tr": "地獄的閻王哪拜託祢",
         "translationUserRef": 33,
         "translationMapping": "user-provided-text",
-        "time": 143.57
+        "time": 151.33,
+        "sourceEnd": 146.521,
+        "endTime": 154.281
       },
       {
         "jp": "あの子を見受けておくんなまし",
@@ -1399,7 +1725,9 @@ const prepared = {
         "tr": "那孩子幫我鑑定鑑定",
         "translationUserRef": 34,
         "translationMapping": "user-provided-text",
-        "time": 147.75
+        "time": 155.51,
+        "sourceEnd": 151.237,
+        "endTime": 158.997
       },
       {
         "jp": "酔いどれ張り子の物語",
@@ -1407,7 +1735,9 @@ const prepared = {
         "tr": "酒醉紙糊玩偶的故事",
         "translationUserRef": 35,
         "translationMapping": "user-provided-text",
-        "time": 152.16
+        "time": 159.92,
+        "sourceEnd": 155.192,
+        "endTime": 162.952
       },
       {
         "jp": "やったれ死ぬまで猿芝居",
@@ -1415,7 +1745,9 @@ const prepared = {
         "tr": "來演到死吧這場鬧劇",
         "translationUserRef": 36,
         "translationMapping": "user-provided-text",
-        "time": 156.2
+        "time": 163.96,
+        "sourceEnd": 159.633,
+        "endTime": 167.393
       },
       {
         "jp": "あなた(ふらふらふら)フラミンゴ",
@@ -1424,7 +1756,9 @@ const prepared = {
         "translationUserRef": 37,
         "translationMapping": "user-provided-text",
         "translationPartial": true,
-        "time": 164.07
+        "time": 171.83,
+        "sourceEnd": 167.372,
+        "endTime": 175.132
       },
       {
         "jp": "鮮やかな(ふらふらふら)フラミンゴ",
@@ -1433,7 +1767,9 @@ const prepared = {
         "translationUserRef": 38,
         "translationMapping": "user-provided-text",
         "translationPartial": true,
-        "time": 167.53
+        "time": 175.29,
+        "sourceEnd": 171.262,
+        "endTime": 179.022
       },
       {
         "jp": "踊るまま",
@@ -1441,7 +1777,9 @@ const prepared = {
         "tr": "翩翩起舞",
         "translationUserRef": 39,
         "translationMapping": "user-provided-text",
-        "time": 171.7
+        "time": 179.46,
+        "sourceEnd": 172.747,
+        "endTime": 180.507
       },
       {
         "jp": "ふらふら笑ってもう帰らない",
@@ -1449,7 +1787,9 @@ const prepared = {
         "tr": "搖搖晃晃　笑著不再歸來",
         "translationUserRef": 40,
         "translationMapping": "user-provided-text",
-        "time": 172.97
+        "time": 180.73,
+        "sourceEnd": 176.152,
+        "endTime": 183.912
       },
       {
         "jp": "嫉妬ばっか残して",
@@ -1457,7 +1797,9 @@ const prepared = {
         "tr": "徒留妒忌",
         "translationUserRef": 41,
         "translationMapping": "user-provided-text",
-        "time": 178.65
+        "time": 186.41,
+        "sourceEnd": 180.234,
+        "endTime": 187.994
       },
       {
         "jp": "毎度あり 次はもっと大事にして",
@@ -1465,7 +1807,9 @@ const prepared = {
         "tr": "感謝你的每次光臨　下次對我請更珍惜",
         "translationUserRef": 42,
         "translationMapping": "user-provided-text",
-        "time": 180.82
+        "time": 188.58,
+        "sourceEnd": 184.22,
+        "endTime": 191.98
       },
       {
         "jp": "宵闇に 爪弾き 花曇り",
@@ -1473,7 +1817,9 @@ const prepared = {
         "tr": "夜始之際　被孤立　在這花開和煦",
         "translationUserRef": 43,
         "translationMapping": "user-provided-text",
-        "time": 185.1
+        "time": 192.86,
+        "sourceEnd": 187.868,
+        "endTime": 195.628
       },
       {
         "jp": "枯れた街 にべもなし へらへらり",
@@ -1482,7 +1828,9 @@ const prepared = {
         "translationUserRef": 44,
         "translationMapping": "user-provided-text",
         "translationPartial": true,
-        "time": 189.05
+        "time": 196.81,
+        "sourceEnd": 192.11,
+        "endTime": 199.87
       }
     ],
     "lyricsSourceUrl": "https://lrclib.net/api/get/65587",
@@ -1502,7 +1850,7 @@ const prepared = {
     },
     "timingPreview": {
       "youtubeId": "Uh6dkL1M9DM",
-      "offsetSeconds": 0,
+      "offsetSeconds": 7.76,
       "source": "user-provided LRC"
     }
   },
@@ -1511,7 +1859,7 @@ const prepared = {
     "lyricsStatus": "imported",
     "translationStatus": "ready",
     "timingStatus": "preview",
-    "readingsStatus": "pending",
+    "readingsStatus": "ready",
     "lyrics": [
       {
         "jp": "例えば僕ら二人 煌めく映画のように",
@@ -1519,7 +1867,9 @@ const prepared = {
         "tr": "好比說我們倆　像一場光彩奪目的電影",
         "translationUserRef": 0,
         "translationMapping": "user-provided-text",
-        "time": 11.227
+        "time": 25.3,
+        "sourceEnd": 15.821,
+        "endTime": 29.894
       },
       {
         "jp": "出会いなおせたらどうしたい",
@@ -1527,7 +1877,9 @@ const prepared = {
         "tr": "就這樣再次相遇的話　你想怎麼進行",
         "translationUserRef": 1,
         "translationMapping": "user-provided-text",
-        "time": 16.63
+        "time": 30.703,
+        "sourceEnd": 19.853,
+        "endTime": 33.926
       },
       {
         "jp": "何も謎めいてない 今日は昨日の続き",
@@ -1535,7 +1887,9 @@ const prepared = {
         "tr": "現實卻毫不神秘　今天不過是昨天的延續",
         "translationUserRef": 2,
         "translationMapping": "user-provided-text",
-        "time": 21.848
+        "time": 35.921,
+        "sourceEnd": 26.509,
+        "endTime": 40.582
       },
       {
         "jp": "日々は続くただぼんやり",
@@ -1543,7 +1897,9 @@ const prepared = {
         "tr": "而日常會繼續　漫不經心地",
         "translationUserRef": 3,
         "translationMapping": "user-provided-text",
-        "time": 27.131
+        "time": 41.204,
+        "sourceEnd": 30.367,
+        "endTime": 44.44
       },
       {
         "jp": "微かな足音 シーツの置く場所",
@@ -1551,7 +1907,9 @@ const prepared = {
         "tr": "細微的腳步聲　床單疊放的位置",
         "translationUserRef": 4,
         "translationMapping": "user-provided-text",
-        "time": 31.79
+        "time": 45.863,
+        "sourceEnd": 36.477,
+        "endTime": 50.55
       },
       {
         "jp": "それだけで全てわかってしまうよ",
@@ -1559,7 +1917,9 @@ const prepared = {
         "tr": "光是這些我就已知悉了一切唷",
         "translationUserRef": 5,
         "translationMapping": "user-provided-text",
-        "time": 37.193
+        "time": 51.266,
+        "sourceEnd": 40.852,
+        "endTime": 54.925
       },
       {
         "jp": "見え透いた嘘も隠した本当も",
@@ -1567,7 +1927,9 @@ const prepared = {
         "tr": "顯而易見的謊言和深藏不露的真心",
         "translationUserRef": 6,
         "translationMapping": "user-provided-text",
-        "time": 42.294
+        "time": 56.367,
+        "sourceEnd": 46.708,
+        "endTime": 60.781
       },
       {
         "jp": "その全て愛おしかった",
@@ -1575,7 +1937,9 @@ const prepared = {
         "tr": "全都如此惹人憐愛",
         "translationUserRef": 7,
         "translationMapping": "user-provided-text",
-        "time": 47.368
+        "time": 61.441,
+        "sourceEnd": 50.055,
+        "endTime": 64.128
       },
       {
         "jp": "レディー 笑わないで聞いて",
@@ -1583,7 +1947,9 @@ const prepared = {
         "tr": "Lady　別笑就聽我說",
         "translationUserRef": 8,
         "translationMapping": "user-provided-text",
-        "time": 52.861
+        "time": 66.934,
+        "sourceEnd": 55.193,
+        "endTime": 69.266
       },
       {
         "jp": "ハニー 見つめ合っていたくて",
@@ -1591,7 +1957,9 @@ const prepared = {
         "tr": "Honey　多想望進你的眼",
         "translationUserRef": 9,
         "translationMapping": "user-provided-text",
-        "time": 55.535
+        "time": 69.608,
+        "sourceEnd": 57.856,
+        "endTime": 71.929
       },
       {
         "jp": "君と二人 行ったり来たりしたいだけ",
@@ -1599,7 +1967,9 @@ const prepared = {
         "tr": "我只是　想與你兩人往復進退",
         "translationUserRef": 10,
         "translationMapping": "user-provided-text",
-        "time": 58.147
+        "time": 72.22,
+        "sourceEnd": 62.626,
+        "endTime": 76.699
       },
       {
         "jp": "ベイビー 子供みたいに恋がしたい",
@@ -1607,7 +1977,9 @@ const prepared = {
         "tr": "Baby　想如孩童般與你相戀",
         "translationUserRef": 11,
         "translationMapping": "user-provided-text",
-        "time": 63.546
+        "time": 77.619,
+        "sourceEnd": 67.612,
+        "endTime": 81.685
       },
       {
         "jp": "書き散らしていく僕らのストーリーライン",
@@ -1615,7 +1987,9 @@ const prepared = {
         "tr": "盡情去寫　屬於我們的故事線",
         "translationUserRef": 12,
         "translationMapping": "user-provided-text",
-        "time": 68.428
+        "time": 82.501,
+        "sourceEnd": 74.117,
+        "endTime": 88.19
       },
       {
         "jp": "例えばどっちか一人 ひどい不幸が襲い",
@@ -1623,7 +1997,9 @@ const prepared = {
         "tr": "好比說我們之中的誰　遭遇了慘痛的不幸",
         "translationUserRef": 13,
         "translationMapping": "user-provided-text",
-        "time": 85.071
+        "time": 99.144,
+        "sourceEnd": 89.891,
+        "endTime": 103.964
       },
       {
         "jp": "二度と会えなくなったら",
@@ -1631,7 +2007,9 @@ const prepared = {
         "tr": "就這樣再也無法相見的話",
         "translationUserRef": 14,
         "translationMapping": "user-provided-text",
-        "time": 90.489
+        "time": 104.562,
+        "sourceEnd": 92.41,
+        "endTime": 106.483
       },
       {
         "jp": "考えた矢先に 泣けてしまうくらい",
@@ -1639,7 +2017,9 @@ const prepared = {
         "tr": "才光是想想而已　眼淚就快要潰堤",
         "translationUserRef": 15,
         "translationMapping": "user-provided-text",
-        "time": 94.502
+        "time": 108.575,
+        "sourceEnd": 98.805,
+        "endTime": 112.878
       },
       {
         "jp": "日々は続く一層確かに",
@@ -1647,7 +2027,9 @@ const prepared = {
         "tr": "而日常會繼續　更加確實地",
         "translationUserRef": 16,
         "translationMapping": "user-provided-text",
-        "time": 99.941
+        "time": 114.014,
+        "sourceEnd": 103.124,
+        "endTime": 117.197
       },
       {
         "jp": "いつもの暗い顔 チープな戯言",
@@ -1655,7 +2037,9 @@ const prepared = {
         "tr": "如常陰沉的表情　廉價的玩笑話",
         "translationUserRef": 17,
         "translationMapping": "user-provided-text",
-        "time": 104.502
+        "time": 118.575,
+        "sourceEnd": 109.344,
+        "endTime": 123.417
       },
       {
         "jp": "見過ごすようにまた優しいんだろう",
@@ -1663,7 +2047,9 @@ const prepared = {
         "tr": "你也會視而不見依然那麼溫柔吧",
         "translationUserRef": 18,
         "translationMapping": "user-provided-text",
-        "time": 109.67
+        "time": 123.743,
+        "sourceEnd": 113.352,
+        "endTime": 127.425
       },
       {
         "jp": "見え透いた嘘も隠した本当も",
@@ -1671,7 +2057,9 @@ const prepared = {
         "tr": "顯而易見的謊言和深藏不露的真心",
         "translationUserRef": 19,
         "translationMapping": "user-provided-text",
-        "time": 114.964
+        "time": 129.037,
+        "sourceEnd": 119.367,
+        "endTime": 133.44
       },
       {
         "jp": "その目から伝わってきた",
@@ -1679,7 +2067,9 @@ const prepared = {
         "tr": "都從那雙眼裡傳來這裡",
         "translationUserRef": 20,
         "translationMapping": "user-provided-text",
-        "time": 119.877
+        "time": 133.95,
+        "sourceEnd": 122.585,
+        "endTime": 136.658
       },
       {
         "jp": "引っ張ったり噛み付いたり 傷ついたふりしてみたり",
@@ -1687,7 +2077,9 @@ const prepared = {
         "tr": "時而拉扯不放　時而激烈爭論　時而佯裝受傷",
         "translationUserRef": 21,
         "translationMapping": "user-provided-text",
-        "time": 125.875
+        "time": 139.948,
+        "sourceEnd": 130.882,
+        "endTime": 144.955
       },
       {
         "jp": "明日の朝に持ち越したり 浮ついたりして",
@@ -1695,7 +2087,9 @@ const prepared = {
         "tr": "時而拖到隔日早上　時而心浮氣躁",
         "translationUserRef": 22,
         "translationMapping": "user-provided-text",
-        "time": 130.932
+        "time": 145.005,
+        "sourceEnd": 134.988,
+        "endTime": 149.061
       },
       {
         "jp": "思いきり傷つきたい いつまでもそばにいたい",
@@ -1703,7 +2097,9 @@ const prepared = {
         "tr": "好想被誰狠狠傷害　好想永遠伴誰身旁",
         "translationUserRef": 23,
         "translationMapping": "user-provided-text",
-        "time": 136.306
+        "time": 150.379,
+        "sourceEnd": 141.083,
+        "endTime": 155.156
       },
       {
         "jp": "今すぐ行方をくらまそう",
@@ -1711,7 +2107,9 @@ const prepared = {
         "tr": "現在就讓我們逃離這裡吧",
         "translationUserRef": 24,
         "translationMapping": "user-provided-text",
-        "time": 142.039
+        "time": 156.112,
+        "sourceEnd": 147.141,
+        "endTime": 161.214
       },
       {
         "jp": "レディー 何も言わないで",
@@ -1719,7 +2117,9 @@ const prepared = {
         "tr": "Lady　什麼都別說",
         "translationUserRef": 25,
         "translationMapping": "user-provided-text",
-        "time": 151.905
+        "time": 165.978,
+        "sourceEnd": 154.308,
+        "endTime": 168.381
       },
       {
         "jp": "ハニー 僕の手を取ってくれ",
@@ -1727,7 +2127,9 @@ const prepared = {
         "tr": "Honey　就牽起我的手",
         "translationUserRef": 26,
         "translationMapping": "user-provided-text",
-        "time": 154.423
+        "time": 168.496,
+        "sourceEnd": 156.681,
+        "endTime": 170.754
       },
       {
         "jp": "君以外に 考えられないだけ",
@@ -1735,7 +2137,9 @@ const prepared = {
         "tr": "我只是　除了你以外無法思考",
         "translationUserRef": 27,
         "translationMapping": "user-provided-text",
-        "time": 157.038
+        "time": 171.111,
+        "sourceEnd": 161.295,
+        "endTime": 175.368
       },
       {
         "jp": "ベイビー あの頃みたいに恋がしたい",
@@ -1743,7 +2147,9 @@ const prepared = {
         "tr": "Baby　想如那時般與你相戀",
         "translationUserRef": 28,
         "translationMapping": "user-provided-text",
-        "time": 162.449
+        "time": 176.522,
+        "sourceEnd": 166.527,
+        "endTime": 180.6
       },
       {
         "jp": "書き散らしていく 踊り続ける",
@@ -1751,7 +2157,9 @@ const prepared = {
         "tr": "盡情去寫　舞不停歇",
         "translationUserRef": 29,
         "translationMapping": "user-provided-text",
-        "time": 167.24
+        "time": 181.313,
+        "sourceEnd": 171.718,
+        "endTime": 185.791
       },
       {
         "jp": "レディー 笑わないで聞いて",
@@ -1759,7 +2167,9 @@ const prepared = {
         "tr": "Lady　別笑就聽我說",
         "translationUserRef": 30,
         "translationMapping": "user-provided-text",
-        "time": 172.912
+        "time": 186.985,
+        "sourceEnd": 175.331,
+        "endTime": 189.404
       },
       {
         "jp": "ハニー 見つめ合っていたくて",
@@ -1767,7 +2177,9 @@ const prepared = {
         "tr": "Honey　多想望進你的眼",
         "translationUserRef": 31,
         "translationMapping": "user-provided-text",
-        "time": 175.565
+        "time": 189.638,
+        "sourceEnd": 177.881,
+        "endTime": 191.954
       },
       {
         "jp": "君と二人 行ったり来たりしたいだけ",
@@ -1775,7 +2187,9 @@ const prepared = {
         "tr": "我只是　想與你兩人往復進退",
         "translationUserRef": 32,
         "translationMapping": "user-provided-text",
-        "time": 178.18
+        "time": 192.253,
+        "sourceEnd": 182.759,
+        "endTime": 196.832
       },
       {
         "jp": "ベイビー 子供みたいに恋がしたい",
@@ -1783,7 +2197,9 @@ const prepared = {
         "tr": "Baby　想如孩童般與你相戀",
         "translationUserRef": 33,
         "translationMapping": "user-provided-text",
-        "time": 183.56
+        "time": 197.633,
+        "sourceEnd": 187.539,
+        "endTime": 201.612
       },
       {
         "jp": "書き散らしていく僕らのストーリーライン",
@@ -1791,7 +2207,9 @@ const prepared = {
         "tr": "盡情去寫　屬於我們的故事線",
         "translationUserRef": 34,
         "translationMapping": "user-provided-text",
-        "time": 188.398
+        "time": 202.471,
+        "sourceEnd": 194.033,
+        "endTime": 208.106
       }
     ],
     "lyricsSourceUrl": "https://lrclib.net/api/get/11929499",
@@ -1811,7 +2229,7 @@ const prepared = {
     },
     "timingPreview": {
       "youtubeId": "DdF-u3fe5pg",
-      "offsetSeconds": 0,
+      "offsetSeconds": 14.073,
       "source": "user-provided LRC"
     }
   },
@@ -1820,7 +2238,7 @@ const prepared = {
     "lyricsStatus": "imported",
     "translationStatus": "partial",
     "timingStatus": "preview",
-    "readingsStatus": "pending",
+    "readingsStatus": "ready",
     "lyrics": [
       {
         "jp": "夢の続きを いつまでも探していた",
@@ -1828,7 +2246,9 @@ const prepared = {
         "tr": "一直在尋找　夢的後續",
         "translationUserRef": 0,
         "translationMapping": "user-provided-text",
-        "time": 27.72
+        "time": 27.72,
+        "sourceEnd": 30.43,
+        "endTime": 30.43
       },
       {
         "jp": "あまねく町の側で 揺蕩う路地裏",
@@ -1836,7 +2256,9 @@ const prepared = {
         "tr": "腳步遍及街道旁　躊躇於深巷裡",
         "translationUserRef": 1,
         "translationMapping": "user-provided-text",
-        "time": 33.08
+        "time": 33.08,
+        "sourceEnd": 36.19,
+        "endTime": 36.19
       },
       {
         "jp": "広告を携えて 飛び立つ紙飛行機",
@@ -1844,7 +2266,9 @@ const prepared = {
         "tr": "載著廣告傳單起飛的紙飛機",
         "translationUserRef": 2,
         "translationMapping": "user-provided-text",
-        "time": 38.28
+        "time": 38.28,
+        "sourceEnd": 40.81,
+        "endTime": 40.81
       },
       {
         "jp": "何処まで飛んで行くんだろう",
@@ -1852,7 +2276,9 @@ const prepared = {
         "tr": "會飛到哪裡去呢",
         "translationUserRef": 3,
         "translationMapping": "user-provided-text",
-        "time": 43.4
+        "time": 43.4,
+        "sourceEnd": 46.21,
+        "endTime": 46.21
       },
       {
         "jp": "虚しさばっかり 見つめ続けるのは",
@@ -1860,7 +2286,9 @@ const prepared = {
         "tr": "這雙眼　只注視著虛無",
         "translationUserRef": 4,
         "translationMapping": "user-provided-text",
-        "time": 48.6
+        "time": 48.6,
+        "sourceEnd": 51.4,
+        "endTime": 51.4
       },
       {
         "jp": "誰かの痛みに気づきたかった ひたすら",
@@ -1868,7 +2296,9 @@ const prepared = {
         "tr": "是希望發現誰的痛苦　一心一意",
         "translationUserRef": 5,
         "translationMapping": "user-provided-text",
-        "time": 53.96
+        "time": 53.96,
+        "sourceEnd": 56.87,
+        "endTime": 56.87
       },
       {
         "jp": "何かを得れば何かが 目の前を通り過ぎる",
@@ -1876,7 +2306,9 @@ const prepared = {
         "tr": "得到了什麼便會有什麼自眼前溜走",
         "translationUserRef": 6,
         "translationMapping": "user-provided-text",
-        "time": 59.13
+        "time": 59.13,
+        "sourceEnd": 61.83,
+        "endTime": 61.83
       },
       {
         "jp": "さよならまた会えるかな",
@@ -1884,7 +2316,9 @@ const prepared = {
         "tr": "再見了　我們還能再見嗎",
         "translationUserRef": 7,
         "translationMapping": "user-provided-text",
-        "time": 64.26
+        "time": 64.26,
+        "sourceEnd": 66.96,
+        "endTime": 66.96
       },
       {
         "jp": "背中合わせの旅は まだ続いてく",
@@ -1892,7 +2326,9 @@ const prepared = {
         "tr": "背靠著背的旅程　路尚且長",
         "translationUserRef": 8,
         "translationMapping": "user-provided-text",
-        "time": 70.03
+        "time": 70.03,
+        "sourceEnd": 72.73,
+        "endTime": 72.73
       },
       {
         "jp": "誰も知り得ない傷が 癒えずに増える",
@@ -1900,7 +2336,9 @@ const prepared = {
         "tr": "無人知曉的傷　沒有痊癒反而增加",
         "translationUserRef": 9,
         "translationMapping": "user-provided-text",
-        "time": 75.25
+        "time": 75.25,
+        "sourceEnd": 77.93,
+        "endTime": 77.93
       },
       {
         "jp": "どうせいつかは 風に溶け消える",
@@ -1908,7 +2346,9 @@ const prepared = {
         "tr": "但那終究有天會溶進風裡消失",
         "translationUserRef": 10,
         "translationMapping": "user-provided-text",
-        "time": 80.55
+        "time": 80.55,
+        "sourceEnd": 83.17,
+        "endTime": 83.17
       },
       {
         "jp": "ならば今夜くらいは",
@@ -1916,7 +2356,9 @@ const prepared = {
         "tr": "那至少今夜就好",
         "translationUserRef": 11,
         "translationMapping": "user-provided-text",
-        "time": 85.68
+        "time": 85.68,
+        "sourceEnd": 88.33,
+        "endTime": 88.33
       },
       {
         "jp": "羽が（羽が生）生 えるような（るような）身軽さが（軽さが）",
@@ -1925,7 +2367,9 @@ const prepared = {
         "translationUserRef": 12,
         "translationMapping": "user-provided-text",
         "translationPartial": true,
-        "time": 92.37
+        "time": 92.37,
+        "sourceEnd": 95.1,
+        "endTime": 95.1
       },
       {
         "jp": "君に宿り続けますように",
@@ -1933,7 +2377,9 @@ const prepared = {
         "tr": "長存你身",
         "translationUserRef": 13,
         "translationMapping": "user-provided-text",
-        "time": 99.56
+        "time": 99.56,
+        "sourceEnd": 104.07,
+        "endTime": 104.07
       },
       {
         "jp": "むくれ顔の蛇も気づきはしない",
@@ -1941,7 +2387,9 @@ const prepared = {
         "tr": "沒察覺蛇露出不滿表情",
         "translationUserRef": 14,
         "translationMapping": "user-provided-text",
-        "time": 104.07
+        "time": 104.07,
+        "sourceEnd": 106.7,
+        "endTime": 106.7
       },
       {
         "jp": "日々の隙間でおやすみ",
@@ -1949,7 +2397,9 @@ const prepared = {
         "tr": "在換日的間隙道聲晚安",
         "translationUserRef": 15,
         "translationMapping": "user-provided-text",
-        "time": 108.76
+        "time": 108.76,
+        "sourceEnd": 113.12,
+        "endTime": 113.12
       },
       {
         "jp": "君が（君が）安らかな（らかな）夢の中（の中）",
@@ -1958,7 +2408,9 @@ const prepared = {
         "translationUserRef": 16,
         "translationMapping": "user-provided-text",
         "translationPartial": true,
-        "time": 113.12
+        "time": 113.12,
+        "sourceEnd": 115.73,
+        "endTime": 115.73
       },
       {
         "jp": "眠り続けられますように",
@@ -1966,7 +2418,9 @@ const prepared = {
         "tr": "繼續熟睡",
         "translationUserRef": 17,
         "translationMapping": "user-provided-text",
-        "time": 120.31
+        "time": 120.31,
+        "sourceEnd": 122.92,
+        "endTime": 122.92
       },
       {
         "jp": "あんな姿じゃいられない",
@@ -1974,7 +2428,9 @@ const prepared = {
         "tr": "不想再維持那個模樣",
         "translationUserRef": 18,
         "translationMapping": "user-provided-text",
-        "time": 124.95
+        "time": 124.95,
+        "sourceEnd": 127.6,
+        "endTime": 127.6
       },
       {
         "jp": "子供みたいなまま遊び疲れてそれじゃ",
@@ -1982,7 +2438,9 @@ const prepared = {
         "tr": "像個孩子玩耍直到疲憊　那麼就",
         "translationUserRef": 19,
         "translationMapping": "user-provided-text",
-        "time": 129.65
+        "time": 129.65,
+        "sourceEnd": 133.99,
+        "endTime": 133.99
       },
       {
         "jp": "また明日",
@@ -1990,7 +2448,9 @@ const prepared = {
         "tr": "明天見吧",
         "translationUserRef": 20,
         "translationMapping": "user-provided-text",
-        "time": 133.99
+        "time": 133.99,
+        "sourceEnd": 136.69,
+        "endTime": 136.69
       },
       {
         "jp": "間抜けな惑星に 住み着いた羊の群れ",
@@ -1998,7 +2458,9 @@ const prepared = {
         "tr": "安居在糊塗行星上的羊群",
         "translationUserRef": 21,
         "translationMapping": "user-provided-text",
-        "time": 145.05
+        "time": 145.05,
+        "sourceEnd": 147.65,
+        "endTime": 147.65
       },
       {
         "jp": "風と花と鳥に開かれた 瀟洒な宇宙船",
@@ -2006,7 +2468,9 @@ const prepared = {
         "tr": "向風向花向鳥兒開放的雅緻太空船",
         "translationUserRef": 22,
         "translationMapping": "user-provided-text",
-        "time": 150.49
+        "time": 150.49,
+        "sourceEnd": 153.07,
+        "endTime": 153.07
       },
       {
         "jp": "何かを探し何かを 見捨てるアドバルーン",
@@ -2014,7 +2478,9 @@ const prepared = {
         "tr": "尋找著什麼拋下了什麼的廣告汽球",
         "translationUserRef": 23,
         "translationMapping": "user-provided-text",
-        "time": 155.52
+        "time": 155.52,
+        "sourceEnd": 158.17,
+        "endTime": 158.17
       },
       {
         "jp": "わたしは何処にいるんだろう",
@@ -2022,7 +2488,9 @@ const prepared = {
         "tr": "我現在身處何方呢",
         "translationUserRef": 24,
         "translationMapping": "user-provided-text",
-        "time": 160.78
+        "time": 160.78,
+        "sourceEnd": 163.71,
+        "endTime": 163.71
       },
       {
         "jp": "眩い光に絶えず 誘われている",
@@ -2030,7 +2498,9 @@ const prepared = {
         "tr": "炫目的光不停誘惑",
         "translationUserRef": 25,
         "translationMapping": "user-provided-text",
-        "time": 166.53
+        "time": 166.53,
+        "sourceEnd": 169.14,
+        "endTime": 169.14
       },
       {
         "jp": "零れ落ちた羊は まだ夢をみる",
@@ -2038,7 +2508,9 @@ const prepared = {
         "tr": "落單的羊卻仍做著夢",
         "translationUserRef": 26,
         "translationMapping": "user-provided-text",
-        "time": 171.88
+        "time": 171.88,
+        "sourceEnd": 174.51,
+        "endTime": 174.51
       },
       {
         "jp": "どうせわたしも 風になり消える",
@@ -2046,7 +2518,9 @@ const prepared = {
         "tr": "終究我也會化作風消失",
         "translationUserRef": 27,
         "translationMapping": "user-provided-text",
-        "time": 177.25
+        "time": 177.25,
+        "sourceEnd": 179.9,
+        "endTime": 179.9
       },
       {
         "jp": "ならば今夜くらいは",
@@ -2054,7 +2528,9 @@ const prepared = {
         "tr": "那至少今夜就好",
         "translationUserRef": 28,
         "translationMapping": "user-provided-text",
-        "time": 182.03
+        "time": 182.03,
+        "sourceEnd": 184.64,
+        "endTime": 184.64
       },
       {
         "jp": "声が（声が）出せるような（るような）喜びが（喜びが）",
@@ -2063,7 +2539,9 @@ const prepared = {
         "translationUserRef": 29,
         "translationMapping": "user-provided-text",
         "translationPartial": true,
-        "time": 188.97
+        "time": 188.97,
+        "sourceEnd": 191.7,
+        "endTime": 191.7
       },
       {
         "jp": "君に宿り続けますように",
@@ -2071,7 +2549,9 @@ const prepared = {
         "tr": "長存你心",
         "translationUserRef": 30,
         "translationMapping": "user-provided-text",
-        "time": 196.07
+        "time": 196.07,
+        "sourceEnd": 200.55,
+        "endTime": 200.55
       },
       {
         "jp": "革命家の野次も届きはしない",
@@ -2079,7 +2559,9 @@ const prepared = {
         "tr": "在革命家的奚落也無法到達的",
         "translationUserRef": 31,
         "translationMapping": "user-provided-text",
-        "time": 200.55
+        "time": 200.55,
+        "sourceEnd": 203.15,
+        "endTime": 203.15
       },
       {
         "jp": "夜の淵で踊りましょう",
@@ -2087,7 +2569,9 @@ const prepared = {
         "tr": "深夜裡跳支舞吧",
         "translationUserRef": 32,
         "translationMapping": "user-provided-text",
-        "time": 205.16
+        "time": 205.16,
+        "sourceEnd": 209.66,
+        "endTime": 209.66
       },
       {
         "jp": "君が（君が）望むなら（むなら）その歌は（歌は）",
@@ -2096,7 +2580,9 @@ const prepared = {
         "translationUserRef": 33,
         "translationMapping": "user-provided-text",
         "translationPartial": true,
-        "time": 209.66
+        "time": 209.66,
+        "sourceEnd": 212.32,
+        "endTime": 212.32
       },
       {
         "jp": "誰かの夢に繋がるだろう",
@@ -2104,7 +2590,9 @@ const prepared = {
         "tr": "就會聯繫上某個人的夢吧",
         "translationUserRef": 34,
         "translationMapping": "user-provided-text",
-        "time": 216.85
+        "time": 216.85,
+        "sourceEnd": 219.46,
+        "endTime": 219.46
       },
       {
         "jp": "あんな人には解らない",
@@ -2112,7 +2600,9 @@ const prepared = {
         "tr": "那些人是不會理解的",
         "translationUserRef": 35,
         "translationMapping": "user-provided-text",
-        "time": 221.56
+        "time": 221.56,
+        "sourceEnd": 226.02,
+        "endTime": 226.02
       },
       {
         "jp": "物語の裏 隠れたままそれじゃ",
@@ -2120,7 +2610,9 @@ const prepared = {
         "tr": "故事的內幕尚未揭曉　那麼就",
         "translationUserRef": 36,
         "translationMapping": "user-provided-text",
-        "time": 226.02
+        "time": 226.02,
+        "sourceEnd": 228.57,
+        "endTime": 228.57
       },
       {
         "jp": "また明日",
@@ -2128,7 +2620,9 @@ const prepared = {
         "tr": "明天見吧",
         "translationUserRef": 37,
         "translationMapping": "user-provided-text",
-        "time": 230.59
+        "time": 230.59,
+        "sourceEnd": 233.04,
+        "endTime": 233.04
       },
       {
         "jp": "夢うつつで生きていく 一つずつ愛し合う",
@@ -2136,7 +2630,9 @@ const prepared = {
         "tr": "在夢境和現實間生活　一個接一個彼此相愛",
         "translationUserRef": 38,
         "translationMapping": "user-provided-text",
-        "time": 236.53
+        "time": 236.53,
+        "sourceEnd": 239.01,
+        "endTime": 239.01
       },
       {
         "jp": "躊躇わず渡っていく 君の元へ",
@@ -2144,7 +2640,9 @@ const prepared = {
         "tr": "不帶躊躇地航向　你的方向",
         "translationUserRef": 39,
         "translationMapping": "user-provided-text",
-        "time": 241.75
+        "time": 241.75,
+        "sourceEnd": 244.2,
+        "endTime": 244.2
       },
       {
         "jp": "やるせなくて嫌んなる 面影は遠くなる",
@@ -2152,7 +2650,9 @@ const prepared = {
         "tr": "滿腹鬱悶令人討厭的　昔日面貌遠去",
         "translationUserRef": 40,
         "translationMapping": "user-provided-text",
-        "time": 246.84
+        "time": 246.84,
+        "sourceEnd": 249.44,
+        "endTime": 249.44
       },
       {
         "jp": "疲れたら言ってよ 話をしよう",
@@ -2160,7 +2660,9 @@ const prepared = {
         "tr": "累了的話就告訴我　讓我們聊聊吧",
         "translationUserRef": 41,
         "translationMapping": "user-provided-text",
-        "time": 252.28
+        "time": 252.28,
+        "sourceEnd": 254.81,
+        "endTime": 254.81
       },
       {
         "jp": "夢うつつで生きていく 一つずつ愛し合う",
@@ -2168,7 +2670,9 @@ const prepared = {
         "tr": "在夢境和現實間生活　一個接一個彼此相愛",
         "translationUserRef": 42,
         "translationMapping": "user-provided-text",
-        "time": 257.43
+        "time": 257.43,
+        "sourceEnd": 260.04,
+        "endTime": 260.04
       },
       {
         "jp": "躊躇わず渡っていく 君の元へ",
@@ -2176,7 +2680,9 @@ const prepared = {
         "tr": "不帶躊躇地航向　你的方向",
         "translationUserRef": 43,
         "translationMapping": "user-provided-text",
-        "time": 262.52
+        "time": 262.52,
+        "sourceEnd": 265.02,
+        "endTime": 265.02
       },
       {
         "jp": "やるせなくて嫌んなる 面影は遠くなる",
@@ -2184,7 +2690,9 @@ const prepared = {
         "tr": "滿腹鬱悶令人討厭的　昔日面貌遠去",
         "translationUserRef": 44,
         "translationMapping": "user-provided-text",
-        "time": 267.74
+        "time": 267.74,
+        "sourceEnd": 270.3,
+        "endTime": 270.3
       },
       {
         "jp": "疲れたら言ってよ 話をしよう",
@@ -2192,7 +2700,9 @@ const prepared = {
         "tr": "累了的話就告訴我　讓我們聊聊吧",
         "translationUserRef": 45,
         "translationMapping": "user-provided-text",
-        "time": 272.9
+        "time": 272.9,
+        "sourceEnd": 273.41,
+        "endTime": 273.41
       }
     ],
     "lyricsSourceUrl": "https://lrclib.net/api/get/14452926",
@@ -2221,7 +2731,7 @@ const prepared = {
     "lyricsStatus": "imported",
     "translationStatus": "ready",
     "timingStatus": "preview",
-    "readingsStatus": "pending",
+    "readingsStatus": "ready",
     "lyrics": [
       {
         "jp": "不意に見かけたブロンズの女神の",
@@ -2229,7 +2739,9 @@ const prepared = {
         "tr": "在偶然看見的古銅色女神的",
         "translationUserRef": 0,
         "translationMapping": "user-provided-text",
-        "time": 0.44
+        "time": 0.44,
+        "sourceEnd": 3.94,
+        "endTime": 3.94
       },
       {
         "jp": "お臍に煙草擦り付けて笑う",
@@ -2237,7 +2749,9 @@ const prepared = {
         "tr": "肚臍擦上菸頭後笑了",
         "translationUserRef": 1,
         "translationMapping": "user-provided-text",
-        "time": 3.94
+        "time": 3.94,
+        "sourceEnd": 7.72,
+        "endTime": 7.72
       },
       {
         "jp": "思い返せば馬鹿げている",
@@ -2245,7 +2759,9 @@ const prepared = {
         "tr": "回想起來真是愚蠢至極",
         "translationUserRef": 2,
         "translationMapping": "user-provided-text",
-        "time": 7.72
+        "time": 7.72,
+        "sourceEnd": 11.97,
+        "endTime": 11.97
       },
       {
         "jp": "大体そんな毎日",
@@ -2253,7 +2769,9 @@ const prepared = {
         "tr": "大抵每天皆是如此",
         "translationUserRef": 3,
         "translationMapping": "user-provided-text",
-        "time": 11.97
+        "time": 11.97,
+        "sourceEnd": 15.28,
+        "endTime": 15.28
       },
       {
         "jp": "その日限りの甘い夜を抜け",
@@ -2261,7 +2779,9 @@ const prepared = {
         "tr": "度過僅只一次的甜蜜夜晚",
         "translationUserRef": 4,
         "translationMapping": "user-provided-text",
-        "time": 15.28
+        "time": 15.28,
+        "sourceEnd": 18.8,
+        "endTime": 18.8
       },
       {
         "jp": "今じゃ彷徨う惨めなストーリーライター",
@@ -2269,7 +2789,9 @@ const prepared = {
         "tr": "如今成了徬徨悲慘的作家",
         "translationUserRef": 5,
         "translationMapping": "user-provided-text",
-        "time": 18.8
+        "time": 18.8,
+        "sourceEnd": 22.54,
+        "endTime": 22.54
       },
       {
         "jp": "誰かわたしと踊りましょう",
@@ -2277,7 +2799,9 @@ const prepared = {
         "tr": "誰來和我跳支舞吧",
         "translationUserRef": 6,
         "translationMapping": "user-provided-text",
-        "time": 22.54
+        "time": 22.54,
+        "sourceEnd": 26.8,
+        "endTime": 26.8
       },
       {
         "jp": "なんてその気もないのに",
@@ -2285,7 +2809,9 @@ const prepared = {
         "tr": "明明也沒這種心情",
         "translationUserRef": 7,
         "translationMapping": "user-provided-text",
-        "time": 26.8
+        "time": 26.8,
+        "sourceEnd": 29.97,
+        "endTime": 29.97
       },
       {
         "jp": "ヒッピヒッピシェイク",
@@ -2293,7 +2819,9 @@ const prepared = {
         "tr": "Hippi Hippi Shake",
         "translationUserRef": 8,
         "translationMapping": "user-provided-text",
-        "time": 29.97
+        "time": 29.97,
+        "sourceEnd": 31.86,
+        "endTime": 31.86
       },
       {
         "jp": "ダンディダンディドンで",
@@ -2301,7 +2829,9 @@ const prepared = {
         "tr": "Dandy Dandy Dong",
         "translationUserRef": 9,
         "translationMapping": "user-provided-text",
-        "time": 31.86
+        "time": 31.86,
+        "sourceEnd": 33.77,
+        "endTime": 33.77
       },
       {
         "jp": "クランベリーのジャムでも作ろうね",
@@ -2309,7 +2839,9 @@ const prepared = {
         "tr": "來做蔓越莓果醬吧",
         "translationUserRef": 10,
         "translationMapping": "user-provided-text",
-        "time": 33.77
+        "time": 33.77,
+        "sourceEnd": 37.17,
+        "endTime": 37.17
       },
       {
         "jp": "パンケーキと一緒に食べようね ほら丁寧に切り分けて",
@@ -2317,7 +2849,9 @@ const prepared = {
         "tr": "要和鬆餅一起吃喔　來吧仔細地切開分好",
         "translationUserRef": 11,
         "translationMapping": "user-provided-text",
-        "time": 37.17
+        "time": 37.17,
+        "sourceEnd": 44.73,
+        "endTime": 44.73
       },
       {
         "jp": "ヒッピヒッピシェイク",
@@ -2325,7 +2859,9 @@ const prepared = {
         "tr": "Hippi Hippi Shake",
         "translationUserRef": 12,
         "translationMapping": "user-provided-text",
-        "time": 44.73
+        "time": 44.73,
+        "sourceEnd": 46.6,
+        "endTime": 46.6
       },
       {
         "jp": "ダンディダンディドンで",
@@ -2333,7 +2869,9 @@ const prepared = {
         "tr": "Dandy Dandy Dong",
         "translationUserRef": 13,
         "translationMapping": "user-provided-text",
-        "time": 46.6
+        "time": 46.6,
+        "sourceEnd": 48.53,
+        "endTime": 48.53
       },
       {
         "jp": "全部頬張って隠してしまえ",
@@ -2341,7 +2879,9 @@ const prepared = {
         "tr": "全部塞滿嘴裡藏好",
         "translationUserRef": 14,
         "translationMapping": "user-provided-text",
-        "time": 48.53
+        "time": 48.53,
+        "sourceEnd": 52,
+        "endTime": 52
       },
       {
         "jp": "やがて熱さにも耐えかねて",
@@ -2349,7 +2889,9 @@ const prepared = {
         "tr": "最後耐不住燙口",
         "translationUserRef": 15,
         "translationMapping": "user-provided-text",
-        "time": 52
+        "time": 52,
+        "sourceEnd": 55.42,
+        "endTime": 55.42
       },
       {
         "jp": "嗚呼きみは吐き出した",
@@ -2357,7 +2899,9 @@ const prepared = {
         "tr": "啊呀你吐了出來",
         "translationUserRef": 16,
         "translationMapping": "user-provided-text",
-        "time": 55.42
+        "time": 55.42,
+        "sourceEnd": 59.76,
+        "endTime": 59.76
       },
       {
         "jp": "戯れ哀れハメ外すあまり",
@@ -2365,7 +2909,9 @@ const prepared = {
         "tr": "嬉鬧悲哀醜態盡出",
         "translationUserRef": 17,
         "translationMapping": "user-provided-text",
-        "time": 67.33
+        "time": 67.33,
+        "sourceEnd": 70.84,
+        "endTime": 70.84
       },
       {
         "jp": "足滑らせて砂を噛むばかり",
@@ -2373,7 +2919,9 @@ const prepared = {
         "tr": "滑了一跤滿嘴沙子",
         "translationUserRef": 18,
         "translationMapping": "user-provided-text",
-        "time": 70.84
+        "time": 70.84,
+        "sourceEnd": 74.64,
+        "endTime": 74.64
       },
       {
         "jp": "憶えちゃいない痣だらけ",
@@ -2381,7 +2929,9 @@ const prepared = {
         "tr": "渾身想不起來的瘀青",
         "translationUserRef": 19,
         "translationMapping": "user-provided-text",
-        "time": 74.64
+        "time": 74.64,
+        "sourceEnd": 79.01,
+        "endTime": 79.01
       },
       {
         "jp": "大体そんな毎日",
@@ -2389,7 +2939,9 @@ const prepared = {
         "tr": "大抵每天皆是如此",
         "translationUserRef": 20,
         "translationMapping": "user-provided-text",
-        "time": 79.01
+        "time": 79.01,
+        "sourceEnd": 82.06,
+        "endTime": 82.06
       },
       {
         "jp": "廃墟だらけのメルヘン市街じゃ",
@@ -2397,7 +2949,9 @@ const prepared = {
         "tr": "廢墟林立的空想城鎮",
         "translationUserRef": 21,
         "translationMapping": "user-provided-text",
-        "time": 82.06
+        "time": 82.06,
+        "sourceEnd": 85.98,
+        "endTime": 85.98
       },
       {
         "jp": "マセガキ達が隠れてキスする",
@@ -2405,7 +2959,9 @@ const prepared = {
         "tr": "早熟的孩子們躲起來接吻",
         "translationUserRef": 22,
         "translationMapping": "user-provided-text",
-        "time": 85.98
+        "time": 85.98,
+        "sourceEnd": 89.46,
+        "endTime": 89.46
       },
       {
         "jp": "涙交じりの恋になりませんように",
@@ -2413,7 +2969,9 @@ const prepared = {
         "tr": "但願那些不會成為淚水交織的戀情",
         "translationUserRef": 23,
         "translationMapping": "user-provided-text",
-        "time": 89.46
+        "time": 89.46,
+        "sourceEnd": 96.69,
+        "endTime": 96.69
       },
       {
         "jp": "ヒッピヒッピシェイク",
@@ -2421,7 +2979,9 @@ const prepared = {
         "tr": "Hippi Hippi Shake",
         "translationUserRef": 24,
         "translationMapping": "user-provided-text",
-        "time": 96.69
+        "time": 96.69,
+        "sourceEnd": 98.77,
+        "endTime": 98.77
       },
       {
         "jp": "ダンディダンディドンで",
@@ -2429,7 +2989,9 @@ const prepared = {
         "tr": "Dandy Dandy Dong",
         "translationUserRef": 25,
         "translationMapping": "user-provided-text",
-        "time": 98.77
+        "time": 98.77,
+        "sourceEnd": 100.65,
+        "endTime": 100.65
       },
       {
         "jp": "ランドリーまで歩いてこうね",
@@ -2437,7 +2999,9 @@ const prepared = {
         "tr": "用走的去洗衣店吧",
         "translationUserRef": 26,
         "translationMapping": "user-provided-text",
-        "time": 100.65
+        "time": 100.65,
+        "sourceEnd": 104.08,
+        "endTime": 104.08
       },
       {
         "jp": "汚れたシーツを洗おうね",
@@ -2445,7 +3009,9 @@ const prepared = {
         "tr": "把弄髒的床單拿去洗喔",
         "translationUserRef": 27,
         "translationMapping": "user-provided-text",
-        "time": 104.08
+        "time": 104.08,
+        "sourceEnd": 107.54,
+        "endTime": 107.54
       },
       {
         "jp": "ほら丁寧に取り分けて",
@@ -2453,7 +3019,9 @@ const prepared = {
         "tr": "來吧仔細地拿來分好",
         "translationUserRef": 28,
         "translationMapping": "user-provided-text",
-        "time": 107.54
+        "time": 107.54,
+        "sourceEnd": 111.62,
+        "endTime": 111.62
       },
       {
         "jp": "ヒッピヒッピシェイク",
@@ -2461,7 +3029,9 @@ const prepared = {
         "tr": "Hippi Hippi Shake",
         "translationUserRef": 29,
         "translationMapping": "user-provided-text",
-        "time": 111.62
+        "time": 111.62,
+        "sourceEnd": 113.52,
+        "endTime": 113.52
       },
       {
         "jp": "ダンディダンディドンで",
@@ -2469,7 +3039,9 @@ const prepared = {
         "tr": "Dandy Dandy Dong",
         "translationUserRef": 30,
         "translationMapping": "user-provided-text",
-        "time": 113.52
+        "time": 113.52,
+        "sourceEnd": 115.48,
+        "endTime": 115.48
       },
       {
         "jp": "もう一度浮かれた祈りの方へ",
@@ -2477,7 +3049,9 @@ const prepared = {
         "tr": "再次往祈求沉醉的方向而去",
         "translationUserRef": 31,
         "translationMapping": "user-provided-text",
-        "time": 115.48
+        "time": 115.48,
+        "sourceEnd": 119.07,
+        "endTime": 119.07
       },
       {
         "jp": "こんな馬鹿な歌ですいません",
@@ -2485,7 +3059,9 @@ const prepared = {
         "tr": "做了這樣愚蠢的歌真是抱歉",
         "translationUserRef": 32,
         "translationMapping": "user-provided-text",
-        "time": 119.07
+        "time": 119.07,
+        "sourceEnd": 122.44,
+        "endTime": 122.44
       },
       {
         "jp": "嗚呼毎度ありがたし",
@@ -2493,7 +3069,9 @@ const prepared = {
         "tr": "啊呀感謝您總是賞臉",
         "translationUserRef": 33,
         "translationMapping": "user-provided-text",
-        "time": 122.44
+        "time": 122.44,
+        "sourceEnd": 127.44,
+        "endTime": 127.44
       },
       {
         "jp": "微睡んでいたい きみみたいに この宇宙が 終わるまで",
@@ -2501,7 +3079,9 @@ const prepared = {
         "tr": "想打個盹　像你一樣　直到宇宙　結束之前",
         "translationUserRef": 34,
         "translationMapping": "user-provided-text",
-        "time": 134.46
+        "time": 134.46,
+        "sourceEnd": 141.66,
+        "endTime": 141.66
       },
       {
         "jp": "微睡んでいたい きみみたいに この宇宙が 終わるまで",
@@ -2509,7 +3089,9 @@ const prepared = {
         "tr": "想打個盹　像你一樣　直到宇宙　結束之前",
         "translationUserRef": 35,
         "translationMapping": "user-provided-text",
-        "time": 141.66
+        "time": 141.66,
+        "sourceEnd": 149.15,
+        "endTime": 149.15
       },
       {
         "jp": "微睡んでいたい きみみたいに この宇宙が 終わるまで",
@@ -2517,7 +3099,9 @@ const prepared = {
         "tr": "想打個盹　像你一樣　直到宇宙　結束之前",
         "translationUserRef": 36,
         "translationMapping": "user-provided-text",
-        "time": 149.15
+        "time": 149.15,
+        "sourceEnd": 156.5,
+        "endTime": 156.5
       },
       {
         "jp": "微睡んでいたい きみと一緒に この世界が 終わるまで",
@@ -2525,7 +3109,9 @@ const prepared = {
         "tr": "想打個盹　與你一起　直到世界　結束之前",
         "translationUserRef": 37,
         "translationMapping": "user-provided-text",
-        "time": 156.5
+        "time": 156.5,
+        "sourceEnd": 164.26,
+        "endTime": 164.26
       },
       {
         "jp": "ヒッピヒッピシェイク",
@@ -2533,7 +3119,9 @@ const prepared = {
         "tr": "Hippi Hippi Shake",
         "translationUserRef": 38,
         "translationMapping": "user-provided-text",
-        "time": 164.26
+        "time": 164.26,
+        "sourceEnd": 165.81,
+        "endTime": 165.81
       },
       {
         "jp": "ダンディダンディドンで",
@@ -2541,7 +3129,9 @@ const prepared = {
         "tr": "Dandy Dandy Dong",
         "translationUserRef": 39,
         "translationMapping": "user-provided-text",
-        "time": 165.81
+        "time": 165.81,
+        "sourceEnd": 167.57,
+        "endTime": 167.57
       },
       {
         "jp": "クランベリーのジャムでも作ろうね",
@@ -2549,7 +3139,9 @@ const prepared = {
         "tr": "來做蔓越莓果醬吧",
         "translationUserRef": 40,
         "translationMapping": "user-provided-text",
-        "time": 167.57
+        "time": 167.57,
+        "sourceEnd": 170.93,
+        "endTime": 170.93
       },
       {
         "jp": "パンケーキと一緒に食べようね ほら丁寧に切り分けて",
@@ -2557,7 +3149,9 @@ const prepared = {
         "tr": "要和鬆餅一起吃喔　來吧仔細地切開分好",
         "translationUserRef": 41,
         "translationMapping": "user-provided-text",
-        "time": 170.93
+        "time": 170.93,
+        "sourceEnd": 178.58,
+        "endTime": 178.58
       },
       {
         "jp": "ヒッピヒッピシェイク",
@@ -2565,7 +3159,9 @@ const prepared = {
         "tr": "Hippi Hippi Shake",
         "translationUserRef": 42,
         "translationMapping": "user-provided-text",
-        "time": 178.58
+        "time": 178.58,
+        "sourceEnd": 180.51,
+        "endTime": 180.51
       },
       {
         "jp": "ダンディダンディドンで",
@@ -2573,7 +3169,9 @@ const prepared = {
         "tr": "Dandy Dandy Dong",
         "translationUserRef": 43,
         "translationMapping": "user-provided-text",
-        "time": 180.51
+        "time": 180.51,
+        "sourceEnd": 182.34,
+        "endTime": 182.34
       },
       {
         "jp": "全部頬張って隠してしまえ",
@@ -2581,7 +3179,9 @@ const prepared = {
         "tr": "全部塞滿嘴裡藏好",
         "translationUserRef": 44,
         "translationMapping": "user-provided-text",
-        "time": 182.34
+        "time": 182.34,
+        "sourceEnd": 186.02,
+        "endTime": 186.02
       },
       {
         "jp": "やがて熱さにも耐えかねて",
@@ -2589,7 +3189,9 @@ const prepared = {
         "tr": "最後耐不住燙口",
         "translationUserRef": 45,
         "translationMapping": "user-provided-text",
-        "time": 186.02
+        "time": 186.02,
+        "sourceEnd": 189.31,
+        "endTime": 189.31
       },
       {
         "jp": "嗚呼きみは吐き出した",
@@ -2597,7 +3199,9 @@ const prepared = {
         "tr": "啊呀你吐了出來",
         "translationUserRef": 46,
         "translationMapping": "user-provided-text",
-        "time": 189.31
+        "time": 189.31,
+        "sourceEnd": 193.36,
+        "endTime": 193.36
       },
       {
         "jp": "こんな馬鹿な歌ですいません",
@@ -2605,7 +3209,9 @@ const prepared = {
         "tr": "做了這樣愚蠢的歌真是抱歉",
         "translationUserRef": 47,
         "translationMapping": "user-provided-text",
-        "time": 193.36
+        "time": 193.36,
+        "sourceEnd": 196.96,
+        "endTime": 196.96
       },
       {
         "jp": "嗚呼毎度ありがたし",
@@ -2613,7 +3219,9 @@ const prepared = {
         "tr": "啊呀感謝您總是賞臉",
         "translationUserRef": 48,
         "translationMapping": "user-provided-text",
-        "time": 196.96
+        "time": 196.96,
+        "sourceEnd": 200.45,
+        "endTime": 200.45
       }
     ],
     "lyricsSourceUrl": "https://lrclib.net/api/get/10123569",
@@ -2642,7 +3250,7 @@ const prepared = {
     "lyricsStatus": "imported",
     "translationStatus": "partial",
     "timingStatus": "preview",
-    "readingsStatus": "pending",
+    "readingsStatus": "ready",
     "lyrics": [
       {
         "jp": "くだらねえ いつになりゃ終わる？",
@@ -2650,7 +3258,9 @@ const prepared = {
         "tr": "無聊死了　什麼時候才會結束啊？",
         "translationUserRef": 0,
         "translationMapping": "user-provided-text",
-        "time": 15.82
+        "time": 15.82,
+        "sourceEnd": 20.03,
+        "endTime": 20.03
       },
       {
         "jp": "なんか死にてえ気持ちで ブラ ブラ ブラ",
@@ -2658,7 +3268,9 @@ const prepared = {
         "tr": "好想死翹翹　過得前景茫茫",
         "translationUserRef": 1,
         "translationMapping": "user-provided-text",
-        "time": 20.03
+        "time": 20.03,
+        "sourceEnd": 24.28,
+        "endTime": 24.28
       },
       {
         "jp": "残念 手前じゃ所在ねえ",
@@ -2666,7 +3278,9 @@ const prepared = {
         "tr": "真是可惜　眼下無事可做",
         "translationUserRef": 2,
         "translationMapping": "user-provided-text",
-        "time": 24.28
+        "time": 24.28,
+        "sourceEnd": 28.13,
+        "endTime": 28.13
       },
       {
         "jp": "アジャラカモクレン テケレッツのパー",
@@ -2674,7 +3288,9 @@ const prepared = {
         "tr": "啊賈啦咖摩哭咧　得可咧茲諾趴",
         "translationUserRef": 3,
         "translationMapping": "user-provided-text",
-        "time": 28.13
+        "time": 28.13,
+        "sourceEnd": 31.6,
+        "endTime": 31.6
       },
       {
         "jp": "うぜえ じゃらくれたタコが",
@@ -2682,7 +3298,9 @@ const prepared = {
         "tr": "吵死了　愚弄人的廢物",
         "translationUserRef": 4,
         "translationMapping": "user-provided-text",
-        "time": 31.6
+        "time": 31.6,
+        "sourceEnd": 35.32,
+        "endTime": 35.32
       },
       {
         "jp": "やってらんねえ 与太吹きブラ ブラ ブラ",
@@ -2690,7 +3308,9 @@ const prepared = {
         "tr": "誰還要做啊　胡謅亂吹搖搖晃晃",
         "translationUserRef": 5,
         "translationMapping": "user-provided-text",
-        "time": 35.32
+        "time": 35.32,
+        "sourceEnd": 39.43,
+        "endTime": 39.43
       },
       {
         "jp": "悪銭 抱えどこへ行く",
@@ -2698,7 +3318,9 @@ const prepared = {
         "tr": "不義之財　你抱著要到哪去啊",
         "translationUserRef": 6,
         "translationMapping": "user-provided-text",
-        "time": 39.43
+        "time": 39.43,
+        "sourceEnd": 43.48,
+        "endTime": 43.48
       },
       {
         "jp": "アジャラカモクレン テケレッツのパー",
@@ -2706,12 +3328,16 @@ const prepared = {
         "tr": "啊賈啦咖摩哭咧　得可咧茲諾趴",
         "translationUserRef": 7,
         "translationMapping": "user-provided-text",
-        "time": 43.48
+        "time": 43.48,
+        "sourceEnd": 46.97,
+        "endTime": 46.97
       },
       {
         "jp": "Yeah, yeah",
         "sourceTime": 46.97,
-        "time": 46.97
+        "time": 46.97,
+        "sourceEnd": 48.55,
+        "endTime": 48.55
       },
       {
         "jp": "Please, please help me",
@@ -2719,7 +3345,9 @@ const prepared = {
         "tr": "Please help me　（請救救我）",
         "translationUserRef": 8,
         "translationMapping": "user-provided-text",
-        "time": 48.55
+        "time": 48.55,
+        "sourceEnd": 50.79,
+        "endTime": 50.79
       },
       {
         "jp": "ちっとこんがらがって 目が眩んだだけなんだわ",
@@ -2727,12 +3355,16 @@ const prepared = {
         "tr": "只是一時腦袋糊塗　鬼迷心竅而已呀",
         "translationUserRef": 9,
         "translationMapping": "user-provided-text",
-        "time": 50.79
+        "time": 50.79,
+        "sourceEnd": 54.23,
+        "endTime": 54.23
       },
       {
         "jp": "Yeah, yeah",
         "sourceTime": 54.23,
-        "time": 54.23
+        "time": 54.23,
+        "sourceEnd": 56.67,
+        "endTime": 56.67
       },
       {
         "jp": "Please, please help me",
@@ -2740,7 +3372,9 @@ const prepared = {
         "tr": "Please help me　（請救救我）",
         "translationUserRef": 10,
         "translationMapping": "user-provided-text",
-        "time": 56.67
+        "time": 56.67,
+        "sourceEnd": 58.66,
+        "endTime": 58.66
       },
       {
         "jp": "そんなけったいなことばっか言わんで容赦したってや",
@@ -2748,7 +3382,9 @@ const prepared = {
         "tr": "別淨說那些奇怪的話　饒我一命呀",
         "translationUserRef": 11,
         "translationMapping": "user-provided-text",
-        "time": 58.66
+        "time": 58.66,
+        "sourceEnd": 63.05,
+        "endTime": 63.05
       },
       {
         "jp": "あぁ 火が消える 火が 火が消える",
@@ -2756,7 +3392,9 @@ const prepared = {
         "tr": "啊啊　火要熄滅啦",
         "translationUserRef": 12,
         "translationMapping": "user-provided-text",
-        "time": 63.05
+        "time": 63.05,
+        "sourceEnd": 67.13,
+        "endTime": 67.13
       },
       {
         "jp": "夜明けを待たず",
@@ -2764,12 +3402,16 @@ const prepared = {
         "tr": "等不到天亮啦",
         "translationUserRef": 13,
         "translationMapping": "user-provided-text",
-        "time": 67.13
+        "time": 67.13,
+        "sourceEnd": 69.65,
+        "endTime": 69.65
       },
       {
         "jp": "（あちゃちゃちゃちゃちゃちゃ）",
         "sourceTime": 69.65,
-        "time": 69.65
+        "time": 69.65,
+        "sourceEnd": 71.04,
+        "endTime": 71.04
       },
       {
         "jp": "あぁ 面白く 面 面白く",
@@ -2777,7 +3419,9 @@ const prepared = {
         "tr": "啊啊　明明好戲",
         "translationUserRef": 14,
         "translationMapping": "user-provided-text",
-        "time": 71.04
+        "time": 71.04,
+        "sourceEnd": 75.1,
+        "endTime": 75.1
       },
       {
         "jp": "なるところだったのに",
@@ -2785,22 +3429,30 @@ const prepared = {
         "tr": "才正要上演啊",
         "translationUserRef": 15,
         "translationMapping": "user-provided-text",
-        "time": 75.1
+        "time": 75.1,
+        "sourceEnd": 78.06,
+        "endTime": 78.06
       },
       {
         "jp": "（あちゃちゃちゃちゃちゃちゃ）",
         "sourceTime": 78.06,
-        "time": 78.06
+        "time": 78.06,
+        "sourceEnd": 81.88,
+        "endTime": 81.88
       },
       {
         "jp": "（あちゃちゃちゃちゃちゃちゃ）",
         "sourceTime": 81.88,
-        "time": 81.88
+        "time": 81.88,
+        "sourceEnd": 85.61,
+        "endTime": 85.61
       },
       {
         "jp": "（あちゃちゃちゃちゃちゃちゃ）",
         "sourceTime": 85.61,
-        "time": 85.61
+        "time": 85.61,
+        "sourceEnd": 87.38,
+        "endTime": 87.38
       },
       {
         "jp": "だらしねえ 義理も糸瓜もねえ",
@@ -2808,7 +3460,9 @@ const prepared = {
         "tr": "懶死了　一概情面不留",
         "translationUserRef": 16,
         "translationMapping": "user-provided-text",
-        "time": 87.38
+        "time": 87.38,
+        "sourceEnd": 91.25,
+        "endTime": 91.25
       },
       {
         "jp": "半端抜かしい 死ぬまでブラ ブラ ブラ",
@@ -2816,7 +3470,9 @@ const prepared = {
         "tr": "半吊子粗心大意　到死都渾渾噩噩",
         "translationUserRef": 17,
         "translationMapping": "user-provided-text",
-        "time": 91.25
+        "time": 91.25,
+        "sourceEnd": 95.31,
+        "endTime": 95.31
       },
       {
         "jp": "雑念 そりゃ渡りに船",
@@ -2824,7 +3480,9 @@ const prepared = {
         "tr": "這般雜念　讓我來助你一把",
         "translationUserRef": 18,
         "translationMapping": "user-provided-text",
-        "time": 95.31
+        "time": 95.31,
+        "sourceEnd": 99.33,
+        "endTime": 99.33
       },
       {
         "jp": "アジャラカモクレン テケレッツのパー",
@@ -2832,7 +3490,9 @@ const prepared = {
         "tr": "啊賈啦咖摩哭咧　得可咧茲諾趴",
         "translationUserRef": 19,
         "translationMapping": "user-provided-text",
-        "time": 99.33
+        "time": 99.33,
+        "sourceEnd": 102.71,
+        "endTime": 102.71
       },
       {
         "jp": "つれえ いちびりのガキが",
@@ -2840,7 +3500,9 @@ const prepared = {
         "tr": "累死了　得意忘形的小鬼",
         "translationUserRef": 20,
         "translationMapping": "user-provided-text",
-        "time": 102.71
+        "time": 102.71,
+        "sourceEnd": 106.57,
+        "endTime": 106.57
       },
       {
         "jp": "勝手やらかし お上はブラ ブラ ブラ",
@@ -2848,7 +3510,9 @@ const prepared = {
         "tr": "擅自亂搞　主人都病病殃殃",
         "translationUserRef": 21,
         "translationMapping": "user-provided-text",
-        "time": 106.57
+        "time": 106.57,
+        "sourceEnd": 110.69,
+        "endTime": 110.69
       },
       {
         "jp": "怨念 これじゃ気が済まねぇ",
@@ -2856,7 +3520,9 @@ const prepared = {
         "tr": "滿心怨念　這我可看不下去了",
         "translationUserRef": 22,
         "translationMapping": "user-provided-text",
-        "time": 110.69
+        "time": 110.69,
+        "sourceEnd": 114.59,
+        "endTime": 114.59
       },
       {
         "jp": "アジャラカモクレン テレケッツのパー",
@@ -2864,7 +3530,9 @@ const prepared = {
         "tr": "啊賈啦咖摩哭咧　得可咧茲諾趴",
         "translationUserRef": 23,
         "translationMapping": "user-provided-text",
-        "time": 114.59
+        "time": 114.59,
+        "sourceEnd": 118.09,
+        "endTime": 118.09
       },
       {
         "jp": "さあどこからどこまでやればいい",
@@ -2872,7 +3540,9 @@ const prepared = {
         "tr": "那麼該做到什麼程度再收手才好呢",
         "translationUserRef": 24,
         "translationMapping": "user-provided-text",
-        "time": 118.09
+        "time": 118.09,
+        "sourceEnd": 121.52,
+        "endTime": 121.52
       },
       {
         "jp": "責め苦の果てに覗けるやつがいい",
@@ -2880,7 +3550,9 @@ const prepared = {
         "tr": "能瞥一眼你受盡折磨的後果就好",
         "translationUserRef": 25,
         "translationMapping": "user-provided-text",
-        "time": 121.52
+        "time": 121.52,
+        "sourceEnd": 125.43,
+        "endTime": 125.43
       },
       {
         "jp": "飛んで滑って泣いて喚いた顔が見たい",
@@ -2888,7 +3560,9 @@ const prepared = {
         "tr": "好想看見你又跳又摔又哭又叫的臉",
         "translationUserRef": 26,
         "translationMapping": "user-provided-text",
-        "time": 125.43
+        "time": 125.43,
+        "sourceEnd": 129.28,
+        "endTime": 129.28
       },
       {
         "jp": "どうせ俺らの仲間入り",
@@ -2896,12 +3570,16 @@ const prepared = {
         "tr": "反正最後都會成為我們的同伴嘛",
         "translationUserRef": 27,
         "translationMapping": "user-provided-text",
-        "time": 129.28
+        "time": 129.28,
+        "sourceEnd": 133.05,
+        "endTime": 133.05
       },
       {
         "jp": "Yeah, yeah",
         "sourceTime": 133.05,
-        "time": 133.05
+        "time": 133.05,
+        "sourceEnd": 134.65,
+        "endTime": 134.65
       },
       {
         "jp": "Please, please help me",
@@ -2909,7 +3587,9 @@ const prepared = {
         "tr": "Please help me　（請救救我）",
         "translationUserRef": 28,
         "translationMapping": "user-provided-text",
-        "time": 134.65
+        "time": 134.65,
+        "sourceEnd": 136.5,
+        "endTime": 136.5
       },
       {
         "jp": "そうだ過つは人の常",
@@ -2917,7 +3597,9 @@ const prepared = {
         "tr": "對啊犯錯是人之常情",
         "translationUserRef": 29,
         "translationMapping": "user-provided-text",
-        "time": 136.5
+        "time": 136.5,
+        "sourceEnd": 138.99,
+        "endTime": 138.99
       },
       {
         "jp": "なああんたはどうすんだ",
@@ -2925,12 +3607,16 @@ const prepared = {
         "tr": "吶這點你怎麼看",
         "translationUserRef": 30,
         "translationMapping": "user-provided-text",
-        "time": 138.99
+        "time": 138.99,
+        "sourceEnd": 141.02,
+        "endTime": 141.02
       },
       {
         "jp": "Yeah, yeah",
         "sourceTime": 141.02,
-        "time": 141.02
+        "time": 141.02,
+        "sourceEnd": 142.58,
+        "endTime": 142.58
       },
       {
         "jp": "Please, please help me",
@@ -2938,7 +3624,9 @@ const prepared = {
         "tr": "Please help me　（請救救我）",
         "translationUserRef": 31,
         "translationMapping": "user-provided-text",
-        "time": 142.58
+        "time": 142.58,
+        "sourceEnd": 144.55,
+        "endTime": 144.55
       },
       {
         "jp": "あんなええもん持ったらこうなるわ",
@@ -2946,7 +3634,9 @@ const prepared = {
         "tr": "有這樣的好東西我才落得如此下場",
         "translationUserRef": 32,
         "translationMapping": "user-provided-text",
-        "time": 144.55
+        "time": 144.55,
+        "sourceEnd": 147.22,
+        "endTime": 147.22
       },
       {
         "jp": "そりゃあんたのせいやんか",
@@ -2954,7 +3644,9 @@ const prepared = {
         "tr": "這不全是你的錯嗎",
         "translationUserRef": 33,
         "translationMapping": "user-provided-text",
-        "time": 147.22
+        "time": 147.22,
+        "sourceEnd": 149.31,
+        "endTime": 149.31
       },
       {
         "jp": "あぁ どこへ行く どこ どこへ行く",
@@ -2962,7 +3654,9 @@ const prepared = {
         "tr": "啊啊　你要去哪",
         "translationUserRef": 34,
         "translationMapping": "user-provided-text",
-        "time": 149.31
+        "time": 149.31,
+        "sourceEnd": 153.12,
+        "endTime": 153.12
       },
       {
         "jp": "妻子もいるんです",
@@ -2970,12 +3664,16 @@ const prepared = {
         "tr": "我還有妻小啊",
         "translationUserRef": 35,
         "translationMapping": "user-provided-text",
-        "time": 153.12
+        "time": 153.12,
+        "sourceEnd": 155.89,
+        "endTime": 155.89
       },
       {
         "jp": "（あちゃちゃちゃちゃちゃちゃ）",
         "sourceTime": 155.89,
-        "time": 155.89
+        "time": 155.89,
+        "sourceEnd": 157.27,
+        "endTime": 157.27
       },
       {
         "jp": "あぁ 香り立つ 香 香り立つ",
@@ -2983,7 +3681,9 @@ const prepared = {
         "tr": "啊啊　飄來一陣",
         "translationUserRef": 36,
         "translationMapping": "user-provided-text",
-        "time": 157.27
+        "time": 157.27,
+        "sourceEnd": 161.15,
+        "endTime": 161.15
       },
       {
         "jp": "おしまいのフレグランス",
@@ -2991,12 +3691,16 @@ const prepared = {
         "tr": "結局的殘香",
         "translationUserRef": 37,
         "translationMapping": "user-provided-text",
-        "time": 161.15
+        "time": 161.15,
+        "sourceEnd": 163.84,
+        "endTime": 163.84
       },
       {
         "jp": "（あちゃちゃちゃちゃちゃちゃ）",
         "sourceTime": 163.84,
-        "time": 163.84
+        "time": 163.84,
+        "sourceEnd": 165.31,
+        "endTime": 165.31
       },
       {
         "jp": "あぁ 火が消える 火が 火が消える",
@@ -3004,7 +3708,9 @@ const prepared = {
         "tr": "啊啊　火要熄滅啦",
         "translationUserRef": 38,
         "translationMapping": "user-provided-text",
-        "time": 165.31
+        "time": 165.31,
+        "sourceEnd": 169.25,
+        "endTime": 169.25
       },
       {
         "jp": "夜明けを待たず",
@@ -3012,12 +3718,16 @@ const prepared = {
         "tr": "等不到天亮啦",
         "translationUserRef": 39,
         "translationMapping": "user-provided-text",
-        "time": 169.25
+        "time": 169.25,
+        "sourceEnd": 171.8,
+        "endTime": 171.8
       },
       {
         "jp": "（あちゃちゃちゃちゃちゃちゃ）",
         "sourceTime": 171.8,
-        "time": 171.8
+        "time": 171.8,
+        "sourceEnd": 173.78,
+        "endTime": 173.78
       },
       {
         "jp": "あぁ 面白く 面 面白く",
@@ -3025,7 +3735,9 @@ const prepared = {
         "tr": "啊啊　明明好戲",
         "translationUserRef": 40,
         "translationMapping": "user-provided-text",
-        "time": 173.78
+        "time": 173.78,
+        "sourceEnd": 177.26,
+        "endTime": 177.26
       },
       {
         "jp": "なるところだったのに",
@@ -3033,7 +3745,9 @@ const prepared = {
         "tr": "才正要上演啊",
         "translationUserRef": 41,
         "translationMapping": "user-provided-text",
-        "time": 177.26
+        "time": 177.26,
+        "sourceEnd": 179.68,
+        "endTime": 179.68
       }
     ],
     "lyricsSourceUrl": "https://lrclib.net/api/get/12206559",
@@ -3062,7 +3776,7 @@ const prepared = {
     "lyricsStatus": "imported",
     "translationStatus": "ready",
     "timingStatus": "preview",
-    "readingsStatus": "pending",
+    "readingsStatus": "ready",
     "lyrics": [
       {
         "jp": "どこから春が巡り来るのか",
@@ -3070,7 +3784,9 @@ const prepared = {
         "tr": "還不曉得春天會從哪更迭而至",
         "translationUserRef": 0,
         "translationMapping": "user-provided-text",
-        "time": 6.97
+        "time": 8.011,
+        "sourceEnd": 10.87,
+        "endTime": 11.911
       },
       {
         "jp": "知らず知らず大人になった",
@@ -3078,7 +3794,9 @@ const prepared = {
         "tr": "不知不覺間便已長大成人",
         "translationUserRef": 1,
         "translationMapping": "user-provided-text",
-        "time": 10.87
+        "time": 11.911,
+        "sourceEnd": 15.26,
+        "endTime": 16.301
       },
       {
         "jp": "見上げた先には燕が飛んでた",
@@ -3086,7 +3804,9 @@ const prepared = {
         "tr": "抬頭望去只見燕子高飛",
         "translationUserRef": 2,
         "translationMapping": "user-provided-text",
-        "time": 15.26
+        "time": 16.301,
+        "sourceEnd": 19.77,
+        "endTime": 20.811
       },
       {
         "jp": "気のない顔で",
@@ -3094,7 +3814,9 @@ const prepared = {
         "tr": "臉上表情索然無味",
         "translationUserRef": 3,
         "translationMapping": "user-provided-text",
-        "time": 19.77
+        "time": 20.811,
+        "sourceEnd": 22.61,
+        "endTime": 23.651
       },
       {
         "jp": "もしもわたしに翼があれば",
@@ -3102,7 +3824,9 @@ const prepared = {
         "tr": "要是我有翅膀的話",
         "translationUserRef": 4,
         "translationMapping": "user-provided-text",
-        "time": 22.61
+        "time": 23.651,
+        "sourceEnd": 26.67,
+        "endTime": 27.711
       },
       {
         "jp": "願う度に悲しみに暮れた",
@@ -3110,7 +3834,9 @@ const prepared = {
         "tr": "每當這麼想就會深陷悲傷",
         "translationUserRef": 5,
         "translationMapping": "user-provided-text",
-        "time": 26.67
+        "time": 27.711,
+        "sourceEnd": 30.83,
+        "endTime": 31.871
       },
       {
         "jp": "さよなら 100年先でまた会いましょう",
@@ -3118,7 +3844,9 @@ const prepared = {
         "tr": "莎喲娜啦 100 年後我們再會吧",
         "translationUserRef": 6,
         "translationMapping": "user-provided-text",
-        "time": 30.83
+        "time": 31.871,
+        "sourceEnd": 35.3,
+        "endTime": 36.341
       },
       {
         "jp": "心配しないで",
@@ -3126,7 +3854,9 @@ const prepared = {
         "tr": "別為我牽掛",
         "translationUserRef": 7,
         "translationMapping": "user-provided-text",
-        "time": 35.3
+        "time": 36.341,
+        "sourceEnd": 39.07,
+        "endTime": 40.111
       },
       {
         "jp": "いつの間にか 花が落ちた",
@@ -3134,7 +3864,9 @@ const prepared = {
         "tr": "回過神來花都凋謝啦",
         "translationUserRef": 8,
         "translationMapping": "user-provided-text",
-        "time": 39.07
+        "time": 40.111,
+        "sourceEnd": 43.05,
+        "endTime": 44.091
       },
       {
         "jp": "誰かがわたしに嘘をついた",
@@ -3142,7 +3874,9 @@ const prepared = {
         "tr": "誰又對我說了謊",
         "translationUserRef": 9,
         "translationMapping": "user-provided-text",
-        "time": 43.05
+        "time": 44.091,
+        "sourceEnd": 47.02,
+        "endTime": 48.061
       },
       {
         "jp": "土砂降りでも構わず飛んでく",
@@ -3150,7 +3884,9 @@ const prepared = {
         "tr": "大雨傾盆　也能無畏高飛的力量",
         "translationUserRef": 10,
         "translationMapping": "user-provided-text",
-        "time": 47.02
+        "time": 48.061,
+        "sourceEnd": 51.01,
+        "endTime": 52.051
       },
       {
         "jp": "その力が欲しかった",
@@ -3158,7 +3894,9 @@ const prepared = {
         "tr": "多想要有",
         "translationUserRef": 11,
         "translationMapping": "user-provided-text",
-        "time": 51.01
+        "time": 52.051,
+        "sourceEnd": 56.85,
+        "endTime": 57.891
       },
       {
         "jp": "誰かと恋に落ちて また砕けて やがて離れ離れ",
@@ -3166,7 +3904,9 @@ const prepared = {
         "tr": "與誰陷入熱戀　接著破滅　最後終須一別",
         "translationUserRef": 12,
         "translationMapping": "user-provided-text",
-        "time": 56.85
+        "time": 57.891,
+        "sourceEnd": 64.92,
+        "endTime": 65.961
       },
       {
         "jp": "口の中はたと血が滲んで 空に唾を吐く",
@@ -3174,7 +3914,9 @@ const prepared = {
         "tr": "嘴裡嘩地滲出了血　我向天空吐去輕蔑",
         "translationUserRef": 13,
         "translationMapping": "user-provided-text",
-        "time": 64.92
+        "time": 65.961,
+        "sourceEnd": 72.57,
+        "endTime": 73.611
       },
       {
         "jp": "瞬け 羽を広げ 気儘に飛べ どこまでもゆけ",
@@ -3182,7 +3924,9 @@ const prepared = {
         "tr": "眨眼之間張開翅膀　隨心所欲高飛　飛往任何地方",
         "translationUserRef": 14,
         "translationMapping": "user-provided-text",
-        "time": 72.57
+        "time": 73.611,
+        "sourceEnd": 80.52,
+        "endTime": 81.561
       },
       {
         "jp": "100年先も憶えてるかな 知らねえけれど",
@@ -3190,7 +3934,9 @@ const prepared = {
         "tr": "100 年後還會有人記得嗎　我哪會知道嘛但還是",
         "translationUserRef": 15,
         "translationMapping": "user-provided-text",
-        "time": 80.52
+        "time": 81.561,
+        "sourceEnd": 86.56,
+        "endTime": 87.601
       },
       {
         "jp": "さよーならまたいつか！",
@@ -3198,7 +3944,9 @@ const prepared = {
         "tr": "莎喲～娜啦改天再見啦！",
         "translationUserRef": 16,
         "translationMapping": "user-provided-text",
-        "time": 86.56
+        "time": 87.601,
+        "sourceEnd": 90.82,
+        "endTime": 91.861
       },
       {
         "jp": "しぐるるやしぐるる町へ歩み入る",
@@ -3206,7 +3954,9 @@ const prepared = {
         "tr": "雨漉漉街濡濡邁開腳步",
         "translationUserRef": 17,
         "translationMapping": "user-provided-text",
-        "time": 99.28
+        "time": 100.321,
+        "sourceEnd": 104.49,
+        "endTime": 105.531
       },
       {
         "jp": "そこかしこで袖触れる",
@@ -3214,7 +3964,9 @@ const prepared = {
         "tr": "這兒那兒我邂逅他和她",
         "translationUserRef": 18,
         "translationMapping": "user-provided-text",
-        "time": 104.49
+        "time": 105.531,
+        "sourceEnd": 107.87,
+        "endTime": 108.911
       },
       {
         "jp": "見上げた先には何も居なかった",
@@ -3222,7 +3974,9 @@ const prepared = {
         "tr": "抬頭望去那裡誰也不在呀",
         "translationUserRef": 19,
         "translationMapping": "user-provided-text",
-        "time": 107.87
+        "time": 108.911,
+        "sourceEnd": 112,
+        "endTime": 113.041
       },
       {
         "jp": "ああ居なかった",
@@ -3230,7 +3984,9 @@ const prepared = {
         "tr": "啊啊誰也不在呀",
         "translationUserRef": 20,
         "translationMapping": "user-provided-text",
-        "time": 112
+        "time": 113.041,
+        "sourceEnd": 115.83,
+        "endTime": 116.871
       },
       {
         "jp": "したり顔で 触らないで",
@@ -3238,7 +3994,9 @@ const prepared = {
         "tr": "別用那驕傲神情　隨意碰我呀",
         "translationUserRef": 21,
         "translationMapping": "user-provided-text",
-        "time": 115.83
+        "time": 116.871,
+        "sourceEnd": 119.81,
+        "endTime": 120.851
       },
       {
         "jp": "背中を殴りつける的外れ",
@@ -3246,7 +4004,9 @@ const prepared = {
         "tr": "背地裡對我的攻擊揮了個偏",
         "translationUserRef": 22,
         "translationMapping": "user-provided-text",
-        "time": 119.81
+        "time": 120.851,
+        "sourceEnd": 123.81,
+        "endTime": 124.851
       },
       {
         "jp": "人が宣う地獄の先にこそ",
@@ -3254,7 +4014,9 @@ const prepared = {
         "tr": "人們口中的地獄前方正是",
         "translationUserRef": 23,
         "translationMapping": "user-provided-text",
-        "time": 123.81
+        "time": 124.851,
+        "sourceEnd": 128.29,
+        "endTime": 129.331
       },
       {
         "jp": "わたしは春を見る",
@@ -3262,7 +4024,9 @@ const prepared = {
         "tr": "我盼著的春天",
         "translationUserRef": 24,
         "translationMapping": "user-provided-text",
-        "time": 128.29
+        "time": 129.331,
+        "sourceEnd": 133.61,
+        "endTime": 134.651
       },
       {
         "jp": "誰かを愛したくて でも痛くて いつしか雨霰",
@@ -3270,7 +4034,9 @@ const prepared = {
         "tr": "想為誰熱戀　卻痛徹心扉　轉眼深陷雨水",
         "translationUserRef": 25,
         "translationMapping": "user-provided-text",
-        "time": 133.61
+        "time": 134.651,
+        "sourceEnd": 141.66,
+        "endTime": 142.701
       },
       {
         "jp": "繋がれてた縄を握りしめて しかと噛みちぎる",
@@ -3278,7 +4044,9 @@ const prepared = {
         "tr": "緊緊抓住繫著我的繩子　狠狠咬斷",
         "translationUserRef": 26,
         "translationMapping": "user-provided-text",
-        "time": 141.66
+        "time": 142.701,
+        "sourceEnd": 149.25,
+        "endTime": 150.291
       },
       {
         "jp": "貫け 狙い定め 蓋し虎へ どこまでもゆけ",
@@ -3286,7 +4054,9 @@ const prepared = {
         "tr": "貫穿一切牙無虛張　迅猛如虎　去往任何地方",
         "translationUserRef": 27,
         "translationMapping": "user-provided-text",
-        "time": 149.25
+        "time": 150.291,
+        "sourceEnd": 157.45,
+        "endTime": 158.491
       },
       {
         "jp": "100年先のあなたに会いたい 消え失せるなよ",
@@ -3294,7 +4064,9 @@ const prepared = {
         "tr": "100 年後我還想見你　可別死翹翹喔",
         "translationUserRef": 28,
         "translationMapping": "user-provided-text",
-        "time": 157.45
+        "time": 158.491,
+        "sourceEnd": 163.35,
+        "endTime": 164.391
       },
       {
         "jp": "さよーならまたいつか！",
@@ -3302,7 +4074,9 @@ const prepared = {
         "tr": "莎喲～娜啦改天再見啦！",
         "translationUserRef": 29,
         "translationMapping": "user-provided-text",
-        "time": 163.35
+        "time": 164.391,
+        "sourceEnd": 166.48,
+        "endTime": 167.521
       },
       {
         "jp": "今恋に落ちて また砕けて 離れ離れ",
@@ -3310,7 +4084,9 @@ const prepared = {
         "tr": "此刻陷入熱戀　接著破滅　終須一別",
         "translationUserRef": 30,
         "translationMapping": "user-provided-text",
-        "time": 166.48
+        "time": 167.521,
+        "sourceEnd": 173.13,
+        "endTime": 174.171
       },
       {
         "jp": "口の中はたと血が滲んで 空に唾を吐く",
@@ -3318,7 +4094,9 @@ const prepared = {
         "tr": "嘴裡嘩地滲出了血　我向天空吐去輕蔑",
         "translationUserRef": 31,
         "translationMapping": "user-provided-text",
-        "time": 173.13
+        "time": 174.171,
+        "sourceEnd": 182.13,
+        "endTime": 183.171
       },
       {
         "jp": "今羽を広げ 気儘に飛べ どこまでもゆけ",
@@ -3326,7 +4104,9 @@ const prepared = {
         "tr": "此刻張開翅膀　隨心所欲高飛　飛往任何地方",
         "translationUserRef": 32,
         "translationMapping": "user-provided-text",
-        "time": 182.13
+        "time": 183.171,
+        "sourceEnd": 188.93,
+        "endTime": 189.971
       },
       {
         "jp": "生まれた日からわたしでいたんだ 知らなかっただろ",
@@ -3334,7 +4114,9 @@ const prepared = {
         "tr": "從出生那天起我就已經是我啦　你不曉得吧",
         "translationUserRef": 33,
         "translationMapping": "user-provided-text",
-        "time": 188.93
+        "time": 189.971,
+        "sourceEnd": 194.79,
+        "endTime": 195.831
       },
       {
         "jp": "さよーならまたいつか！",
@@ -3342,7 +4124,9 @@ const prepared = {
         "tr": "莎喲～娜啦改天再見啦！",
         "translationUserRef": 34,
         "translationMapping": "user-provided-text",
-        "time": 194.79
+        "time": 195.831,
+        "sourceEnd": 197.22,
+        "endTime": 198.261
       }
     ],
     "lyricsSourceUrl": "https://lrclib.net/api/get/14452815",
@@ -3362,7 +4146,7 @@ const prepared = {
     },
     "timingPreview": {
       "youtubeId": "-wb2PAx6aEs",
-      "offsetSeconds": 0,
+      "offsetSeconds": 1.041,
       "source": "user-provided LRC"
     }
   },
@@ -3371,7 +4155,7 @@ const prepared = {
     "lyricsStatus": "imported",
     "translationStatus": "partial",
     "timingStatus": "preview",
-    "readingsStatus": "pending",
+    "readingsStatus": "ready",
     "lyrics": [
       {
         "jp": "あなたの横顔や髪の色が",
@@ -3379,7 +4163,9 @@ const prepared = {
         "tr": "你的側臉和頭髮的顏色",
         "translationUserRef": 0,
         "translationMapping": "user-provided-text",
-        "time": 15.12
+        "time": 15.12,
+        "sourceEnd": 18.14,
+        "endTime": 18.14
       },
       {
         "jp": "静かな机に並んで見えた",
@@ -3387,7 +4173,9 @@ const prepared = {
         "tr": "就在桌上一盤盤放好的",
         "translationUserRef": 1,
         "translationMapping": "user-provided-text",
-        "time": 18.94
+        "time": 18.94,
+        "sourceEnd": 21.937,
+        "endTime": 21.937
       },
       {
         "jp": "少し薄味のポテトの中",
@@ -3395,7 +4183,9 @@ const prepared = {
         "tr": "這味道稍淡的馬鈴薯中",
         "translationUserRef": 2,
         "translationMapping": "user-provided-text",
-        "time": 22.74
+        "time": 22.74,
+        "sourceEnd": 25.604,
+        "endTime": 25.604
       },
       {
         "jp": "塩っけ多すぎたパスタの中",
@@ -3403,7 +4193,9 @@ const prepared = {
         "tr": "和放太多鹽的義大利麵裡",
         "translationUserRef": 3,
         "translationMapping": "user-provided-text",
-        "time": 26.21
+        "time": 26.21,
+        "sourceEnd": 29.359,
+        "endTime": 29.359
       },
       {
         "jp": "あなたがそばにいない夜の底で",
@@ -3411,7 +4203,9 @@ const prepared = {
         "tr": "你不在身旁的無盡黑夜裡",
         "translationUserRef": 4,
         "translationMapping": "user-provided-text",
-        "time": 30.15
+        "time": 30.15,
+        "sourceEnd": 33.189,
+        "endTime": 33.189
       },
       {
         "jp": "嫌ってほど自分の小ささを見た",
@@ -3419,7 +4213,9 @@ const prepared = {
         "tr": "幾近厭惡地看見自己的渺小",
         "translationUserRef": 5,
         "translationMapping": "user-provided-text",
-        "time": 33.78
+        "time": 33.78,
+        "sourceEnd": 36.703,
+        "endTime": 36.703
       },
       {
         "jp": "下らない諍いや涙の中",
@@ -3427,7 +4223,9 @@ const prepared = {
         "tr": "自那無謂爭吵和眼淚中",
         "translationUserRef": 6,
         "translationMapping": "user-provided-text",
-        "time": 37.43
+        "time": 37.43,
+        "sourceEnd": 40.419,
+        "endTime": 40.419
       },
       {
         "jp": "おどけて笑ったその顔の中",
@@ -3435,7 +4233,9 @@ const prepared = {
         "tr": "和那扮著鬼臉的笑容裡",
         "translationUserRef": 7,
         "translationMapping": "user-provided-text",
-        "time": 41.06
+        "time": 41.06,
+        "sourceEnd": 43.858,
+        "endTime": 43.858
       },
       {
         "jp": "誰もいないキッチン 靡かないカーテン",
@@ -3443,7 +4243,9 @@ const prepared = {
         "tr": "空無一人的廚房　文風不動的窗簾",
         "translationUserRef": 8,
         "translationMapping": "user-provided-text",
-        "time": 44.55
+        "time": 44.55,
+        "sourceEnd": 47.965,
+        "endTime": 47.965
       },
       {
         "jp": "いえない いえないな",
@@ -3451,7 +4253,9 @@ const prepared = {
         "tr": "說不出口　說不出口啊",
         "translationUserRef": 9,
         "translationMapping": "user-provided-text",
-        "time": 48.49
+        "time": 48.49,
+        "sourceEnd": 49.904,
+        "endTime": 49.904
       },
       {
         "jp": "独りでいいやなんて",
@@ -3459,7 +4263,9 @@ const prepared = {
         "tr": "說不出一個人也無所謂",
         "translationUserRef": 10,
         "translationMapping": "user-provided-text",
-        "time": 50.22
+        "time": 50.22,
+        "sourceEnd": 51.16,
+        "endTime": 51.16
       },
       {
         "jp": "話そう声を出して 明るい未来について",
@@ -3467,7 +4273,9 @@ const prepared = {
         "tr": "來說說話吧發出聲音　就聊聊充滿希望的未來",
         "translationUserRef": 11,
         "translationMapping": "user-provided-text",
-        "time": 51.16
+        "time": 51.16,
+        "sourceEnd": 54.174,
+        "endTime": 54.174
       },
       {
         "jp": "間違えて凍えてもそばにいれるように",
@@ -3475,7 +4283,9 @@ const prepared = {
         "tr": "哪怕出錯了受凍了也想陪在你身邊",
         "translationUserRef": 12,
         "translationMapping": "user-provided-text",
-        "time": 55.57
+        "time": 55.57,
+        "sourceEnd": 59.312,
+        "endTime": 59.312
       },
       {
         "jp": "笑って 笑って 笑って そうやって",
@@ -3483,7 +4293,9 @@ const prepared = {
         "tr": "笑吧　笑吧　笑吧　只要這樣",
         "translationUserRef": 13,
         "translationMapping": "user-provided-text",
-        "time": 59.95
+        "time": 59.95,
+        "sourceEnd": 63.15,
+        "endTime": 63.15
       },
       {
         "jp": "きっと魔法にかかったように世界は作り変わって",
@@ -3491,7 +4303,9 @@ const prepared = {
         "tr": "世界一定會像被施了魔法般開始改變",
         "translationUserRef": 14,
         "translationMapping": "user-provided-text",
-        "time": 63.76
+        "time": 63.76,
+        "sourceEnd": 67.231,
+        "endTime": 67.231
       },
       {
         "jp": "この部屋に立ちこめた救えない憂鬱を",
@@ -3499,7 +4313,9 @@ const prepared = {
         "tr": "你將瀰漫在這房間裡得不到救贖的憂鬱",
         "translationUserRef": 15,
         "translationMapping": "user-provided-text",
-        "time": 67.7
+        "time": 67.7,
+        "sourceEnd": 70.69,
+        "endTime": 70.69
       },
       {
         "jp": "おいしそうによく噛んであなたはのみ込んだ",
@@ -3507,12 +4323,16 @@ const prepared = {
         "tr": "津津有味地細細咀嚼後吞了下去",
         "translationUserRef": 16,
         "translationMapping": "user-provided-text",
-        "time": 71.27
+        "time": 71.27,
+        "sourceEnd": 74.376,
+        "endTime": 74.376
       },
       {
         "jp": "Uh... uh...",
         "sourceTime": 74.83,
-        "time": 74.83
+        "time": 74.83,
+        "sourceEnd": 78.071,
+        "endTime": 78.071
       },
       {
         "jp": "それにどれだけ救われたことか 多分あなたは知らないな",
@@ -3520,12 +4340,16 @@ const prepared = {
         "tr": "那對我來說是多麼大的救贖　你大概不會知道吧",
         "translationUserRef": 17,
         "translationMapping": "user-provided-text",
-        "time": 78.6
+        "time": 78.6,
+        "sourceEnd": 81.946,
+        "endTime": 81.946
       },
       {
         "jp": "Uh... uh...",
         "sourceTime": 82.67,
-        "time": 82.67
+        "time": 82.67,
+        "sourceEnd": 85.639,
+        "endTime": 85.639
       },
       {
         "jp": "明日会えたらそのときは 素直になれたらいいな",
@@ -3533,7 +4357,9 @@ const prepared = {
         "tr": "若明天見到你時　我也能變得坦率該有多好",
         "translationUserRef": 18,
         "translationMapping": "user-provided-text",
-        "time": 86.15
+        "time": 86.15,
+        "sourceEnd": 89.298,
+        "endTime": 89.298
       },
       {
         "jp": "あなたの頬や鼻筋が今",
@@ -3541,7 +4367,9 @@ const prepared = {
         "tr": "你的臉龐和鼻樑如今",
         "translationUserRef": 19,
         "translationMapping": "user-provided-text",
-        "time": 96.92
+        "time": 96.92,
+        "sourceEnd": 100.185,
+        "endTime": 100.185
       },
       {
         "jp": "静かな机に並んで見えた",
@@ -3549,7 +4377,9 @@ const prepared = {
         "tr": "就在桌上一盤盤放好的",
         "translationUserRef": 20,
         "translationMapping": "user-provided-text",
-        "time": 100.8
+        "time": 100.8,
+        "sourceEnd": 103.713,
+        "endTime": 103.713
       },
       {
         "jp": "部屋に残してった甘いチェリーボンボン",
@@ -3557,7 +4387,9 @@ const prepared = {
         "tr": "這留在房間的甜櫻桃巧克力",
         "translationUserRef": 21,
         "translationMapping": "user-provided-text",
-        "time": 104.45
+        "time": 104.45,
+        "sourceEnd": 107.698,
+        "endTime": 107.698
       },
       {
         "jp": "無理して焼き上げたタルトタタン",
@@ -3565,7 +4397,9 @@ const prepared = {
         "tr": "和胡亂烤出來的翻轉蘋果塔",
         "translationUserRef": 22,
         "translationMapping": "user-provided-text",
-        "time": 108.21
+        "time": 108.21,
+        "sourceEnd": 110.976,
+        "endTime": 110.976
       },
       {
         "jp": "張りつめたキッチン 電池の切れたタイマー",
@@ -3573,7 +4407,9 @@ const prepared = {
         "tr": "氣氛緊繃的廚房　沒電的計時器",
         "translationUserRef": 23,
         "translationMapping": "user-provided-text",
-        "time": 111.57
+        "time": 111.57,
+        "sourceEnd": 114.667,
+        "endTime": 114.667
       },
       {
         "jp": "いえない いえないな",
@@ -3581,7 +4417,9 @@ const prepared = {
         "tr": "說不出口　說不出口啊",
         "translationUserRef": 24,
         "translationMapping": "user-provided-text",
-        "time": 115.11
+        "time": 115.11,
+        "sourceEnd": 116.647,
+        "endTime": 116.647
       },
       {
         "jp": "嫌いになったよなんて",
@@ -3589,7 +4427,9 @@ const prepared = {
         "tr": "說不出我討厭你了",
         "translationUserRef": 25,
         "translationMapping": "user-provided-text",
-        "time": 117.16
+        "time": 117.16,
+        "sourceEnd": 118.407,
+        "endTime": 118.407
       },
       {
         "jp": "話そう声を出して 二人の思いについて",
@@ -3597,7 +4437,9 @@ const prepared = {
         "tr": "來說說話吧發出聲音　就聊聊兩個人的想法",
         "translationUserRef": 26,
         "translationMapping": "user-provided-text",
-        "time": 118.88
+        "time": 118.88,
+        "sourceEnd": 122.068,
+        "endTime": 122.068
       },
       {
         "jp": "恥ずかしがらないであなたに言えるように",
@@ -3605,7 +4447,9 @@ const prepared = {
         "tr": "希望我能毫不害臊地全告訴你",
         "translationUserRef": 27,
         "translationMapping": "user-provided-text",
-        "time": 122.59
+        "time": 122.59,
+        "sourceEnd": 126.638,
+        "endTime": 126.638
       },
       {
         "jp": "笑って 笑って 笑って そうやって",
@@ -3613,7 +4457,9 @@ const prepared = {
         "tr": "笑吧　笑吧　笑吧　只要這樣",
         "translationUserRef": 28,
         "translationMapping": "user-provided-text",
-        "time": 127.17
+        "time": 127.17,
+        "sourceEnd": 130.284,
+        "endTime": 130.284
       },
       {
         "jp": "やっと自由に許すようになれた世界を持って",
@@ -3621,7 +4467,9 @@ const prepared = {
         "tr": "就終於擁有可以自由原諒他人的世界",
         "translationUserRef": 29,
         "translationMapping": "user-provided-text",
-        "time": 130.7
+        "time": 130.7,
+        "sourceEnd": 133.722,
+        "endTime": 133.722
       },
       {
         "jp": "作り上げた食事のその一口目を掬って",
@@ -3629,7 +4477,9 @@ const prepared = {
         "tr": "你將剛做好的食物舀起一口",
         "translationUserRef": 30,
         "translationMapping": "user-provided-text",
-        "time": 134.43
+        "time": 134.43,
+        "sourceEnd": 137.429,
+        "endTime": 137.429
       },
       {
         "jp": "嬉しそうに息を吹いて僕に差し出したんだ",
@@ -3637,12 +4487,16 @@ const prepared = {
         "tr": "滿心喜悅地吹涼後湊近我面前",
         "translationUserRef": 31,
         "translationMapping": "user-provided-text",
-        "time": 138.01
+        "time": 138.01,
+        "sourceEnd": 141.475,
+        "endTime": 141.475
       },
       {
         "jp": "Uh... uh...",
         "sourceTime": 142.32,
-        "time": 142.32
+        "time": 142.32,
+        "sourceEnd": 145.086,
+        "endTime": 145.086
       },
       {
         "jp": "それにどれだけ救われたことか もしもあなたが知ってても",
@@ -3650,12 +4504,16 @@ const prepared = {
         "tr": "那對我來說是多麼大的救贖　就算你相當清楚",
         "translationUserRef": 32,
         "translationMapping": "user-provided-text",
-        "time": 145.68
+        "time": 145.68,
+        "sourceEnd": 148.951,
+        "endTime": 148.951
       },
       {
         "jp": "Uh... uh...",
         "sourceTime": 149.5,
-        "time": 149.5
+        "time": 149.5,
+        "sourceEnd": 152.188,
+        "endTime": 152.188
       },
       {
         "jp": "明日会えたらそのときは 言葉にできたらいいな",
@@ -3663,7 +4521,9 @@ const prepared = {
         "tr": "若明天見到你時　我也能說出口該有多好",
         "translationUserRef": 33,
         "translationMapping": "user-provided-text",
-        "time": 153.05
+        "time": 153.05,
+        "sourceEnd": 156.314,
+        "endTime": 156.314
       },
       {
         "jp": "もう一度！",
@@ -3671,7 +4531,9 @@ const prepared = {
         "tr": "再來一次！",
         "translationUserRef": 34,
         "translationMapping": "user-provided-text",
-        "time": 185.35
+        "time": 185.35,
+        "sourceEnd": 186.327,
+        "endTime": 186.327
       },
       {
         "jp": "笑って 笑って 笑って そうやって",
@@ -3679,7 +4541,9 @@ const prepared = {
         "tr": "笑吧　笑吧　笑吧　只要這樣",
         "translationUserRef": 35,
         "translationMapping": "user-provided-text",
-        "time": 186.85
+        "time": 186.85,
+        "sourceEnd": 189.722,
+        "endTime": 189.722
       },
       {
         "jp": "きっと魔法にかかったように世界は作り変わって",
@@ -3687,7 +4551,9 @@ const prepared = {
         "tr": "世界一定會像被施了魔法般開始改變",
         "translationUserRef": 36,
         "translationMapping": "user-provided-text",
-        "time": 190.25
+        "time": 190.25,
+        "sourceEnd": 193.667,
+        "endTime": 193.667
       },
       {
         "jp": "この部屋に立ちこめた救えない憂鬱を",
@@ -3695,7 +4561,9 @@ const prepared = {
         "tr": "你將瀰漫在這房間裡得不到救贖的憂鬱",
         "translationUserRef": 37,
         "translationMapping": "user-provided-text",
-        "time": 194.28
+        "time": 194.28,
+        "sourceEnd": 197.244,
+        "endTime": 197.244
       },
       {
         "jp": "おいしそうによく噛んであなたはのみ込んだ",
@@ -3703,12 +4571,16 @@ const prepared = {
         "tr": "津津有味地細細咀嚼後吞了下去",
         "translationUserRef": 38,
         "translationMapping": "user-provided-text",
-        "time": 197.82
+        "time": 197.82,
+        "sourceEnd": 200.944,
+        "endTime": 200.944
       },
       {
         "jp": "Uh... uh...",
         "sourceTime": 201.62,
-        "time": 201.62
+        "time": 201.62,
+        "sourceEnd": 204.576,
+        "endTime": 204.576
       },
       {
         "jp": "それにどれだけ救われたことか 多分あなたは知らないな",
@@ -3716,12 +4588,16 @@ const prepared = {
         "tr": "那對我來說是多麼大的救贖　你大概不會知道吧",
         "translationUserRef": 39,
         "translationMapping": "user-provided-text",
-        "time": 205.13
+        "time": 205.13,
+        "sourceEnd": 208.656,
+        "endTime": 208.656
       },
       {
         "jp": "Uh... uh...",
         "sourceTime": 209.48,
-        "time": 209.48
+        "time": 209.48,
+        "sourceEnd": 211.964,
+        "endTime": 211.964
       },
       {
         "jp": "明日会えたらそのときは 素直になれたらいいな",
@@ -3729,7 +4605,9 @@ const prepared = {
         "tr": "若明天見到你時　我也能變得坦率該有多好",
         "translationUserRef": 40,
         "translationMapping": "user-provided-text",
-        "time": 212.43
+        "time": 212.43,
+        "sourceEnd": 215.6,
+        "endTime": 215.6
       }
     ],
     "lyricsSourceUrl": "https://lrclib.net/api/get/1883852",
@@ -3758,7 +4636,7 @@ const prepared = {
     "lyricsStatus": "imported",
     "translationStatus": "ready",
     "timingStatus": "preview",
-    "readingsStatus": "pending",
+    "readingsStatus": "ready",
     "lyrics": [
       {
         "jp": "君の声が聞こえたような気がして僕は振り向いた",
@@ -3965,7 +4843,7 @@ const prepared = {
     "lyricsStatus": "imported",
     "translationStatus": "ready",
     "timingStatus": "preview",
-    "readingsStatus": "pending",
+    "readingsStatus": "ready",
     "lyrics": [
       {
         "jp": "夢ならばどれほどよかったでしょう",
@@ -3973,7 +4851,9 @@ const prepared = {
         "tr": "如果是場夢該有多好",
         "translationUserRef": 0,
         "translationMapping": "user-provided-text",
-        "time": 0.75
+        "time": 0.75,
+        "sourceEnd": 5.513,
+        "endTime": 5.513
       },
       {
         "jp": "未だにあなたのことを夢にみる",
@@ -3981,7 +4861,9 @@ const prepared = {
         "tr": "至今仍會不時夢見你",
         "translationUserRef": 1,
         "translationMapping": "user-provided-text",
-        "time": 6.55
+        "time": 6.55,
+        "sourceEnd": 10.933,
+        "endTime": 10.933
       },
       {
         "jp": "忘れた物を取りに帰るように",
@@ -3989,7 +4871,9 @@ const prepared = {
         "tr": "就像要取回遺忘的東西",
         "translationUserRef": 2,
         "translationMapping": "user-provided-text",
-        "time": 11.87
+        "time": 11.87,
+        "sourceEnd": 16.404,
+        "endTime": 16.404
       },
       {
         "jp": "古びた思い出の埃を払う",
@@ -3997,7 +4881,9 @@ const prepared = {
         "tr": "將陳舊回憶上的灰塵拂去",
         "translationUserRef": 3,
         "translationMapping": "user-provided-text",
-        "time": 17.32
+        "time": 17.32,
+        "sourceEnd": 22.145,
+        "endTime": 22.145
       },
       {
         "jp": "戻らない幸せがあることを",
@@ -4005,7 +4891,9 @@ const prepared = {
         "tr": "有些幸福一去不復返",
         "translationUserRef": 4,
         "translationMapping": "user-provided-text",
-        "time": 25.61
+        "time": 25.61,
+        "sourceEnd": 30.152,
+        "endTime": 30.152
       },
       {
         "jp": "最後にあなたが教えてくれた",
@@ -4013,7 +4901,9 @@ const prepared = {
         "tr": "這是最後你教會我的",
         "translationUserRef": 5,
         "translationMapping": "user-provided-text",
-        "time": 31.01
+        "time": 31.01,
+        "sourceEnd": 35.707,
+        "endTime": 35.707
       },
       {
         "jp": "言えずに隠してた昏い過去も",
@@ -4021,7 +4911,9 @@ const prepared = {
         "tr": "隱藏起來沒說出口的晦暗過去",
         "translationUserRef": 6,
         "translationMapping": "user-provided-text",
-        "time": 36.74
+        "time": 36.74,
+        "sourceEnd": 41.184,
+        "endTime": 41.184
       },
       {
         "jp": "あなたがいなきゃ永遠に昏いまま",
@@ -4029,7 +4921,9 @@ const prepared = {
         "tr": "沒有了你也將永遠黑暗",
         "translationUserRef": 7,
         "translationMapping": "user-provided-text",
-        "time": 42.36
+        "time": 42.36,
+        "sourceEnd": 46.86,
+        "endTime": 46.86
       },
       {
         "jp": "きっともうこれ以上傷つくことなど",
@@ -4037,7 +4931,9 @@ const prepared = {
         "tr": "我知道今後一定",
         "translationUserRef": 8,
         "translationMapping": "user-provided-text",
-        "time": 47.92
+        "time": 47.92,
+        "sourceEnd": 52.803,
+        "endTime": 52.803
       },
       {
         "jp": "ありはしないとわかっている",
@@ -4045,7 +4941,9 @@ const prepared = {
         "tr": "沒有比這更傷人的了",
         "translationUserRef": 9,
         "translationMapping": "user-provided-text",
-        "time": 53.62
+        "time": 53.62,
+        "sourceEnd": 57.682,
+        "endTime": 57.682
       },
       {
         "jp": "あの日の悲しみさえ あの日の苦しみさえ",
@@ -4053,7 +4951,9 @@ const prepared = {
         "tr": "那些日子的悲傷　那些日子的痛苦",
         "translationUserRef": 10,
         "translationMapping": "user-provided-text",
-        "time": 58.53
+        "time": 58.53,
+        "sourceEnd": 63.617,
+        "endTime": 63.617
       },
       {
         "jp": "そのすべてを愛してた あなたとともに",
@@ -4061,7 +4961,9 @@ const prepared = {
         "tr": "我全都深愛著　連你一起",
         "translationUserRef": 11,
         "translationMapping": "user-provided-text",
-        "time": 63.91
+        "time": 63.91,
+        "sourceEnd": 68.581,
+        "endTime": 68.581
       },
       {
         "jp": "胸に残り離れない 苦いレモンの匂い",
@@ -4069,7 +4971,9 @@ const prepared = {
         "tr": "殘留胸中消散不去　苦澀檸檬的氣味",
         "translationUserRef": 12,
         "translationMapping": "user-provided-text",
-        "time": 69.57
+        "time": 69.57,
+        "sourceEnd": 74.57,
+        "endTime": 74.57
       },
       {
         "jp": "雨が降り止むまでは帰れない",
@@ -4077,7 +4981,9 @@ const prepared = {
         "tr": "在雨停歇前無法回去",
         "translationUserRef": 13,
         "translationMapping": "user-provided-text",
-        "time": 75.12
+        "time": 75.12,
+        "sourceEnd": 79.625,
+        "endTime": 79.625
       },
       {
         "jp": "今でもあなたはわたしの光",
@@ -4085,7 +4991,9 @@ const prepared = {
         "tr": "至今你依然是我的光",
         "translationUserRef": 14,
         "translationMapping": "user-provided-text",
-        "time": 80.83
+        "time": 80.83,
+        "sourceEnd": 85.854,
+        "endTime": 85.854
       },
       {
         "jp": "暗闇であなたの背をなぞった",
@@ -4093,7 +5001,9 @@ const prepared = {
         "tr": "曾在黑暗中描摹你的背影",
         "translationUserRef": 15,
         "translationMapping": "user-provided-text",
-        "time": 97.43
+        "time": 97.43,
+        "sourceEnd": 102.116,
+        "endTime": 102.116
       },
       {
         "jp": "その輪郭を鮮明に覚えている",
@@ -4101,7 +5011,9 @@ const prepared = {
         "tr": "那輪廓我仍然記憶鮮明",
         "translationUserRef": 16,
         "translationMapping": "user-provided-text",
-        "time": 102.88
+        "time": 102.88,
+        "sourceEnd": 107.594,
+        "endTime": 107.594
       },
       {
         "jp": "受け止めきれないものと出会うたび",
@@ -4109,7 +5021,9 @@ const prepared = {
         "tr": "每當遇見無法接受的事物",
         "translationUserRef": 17,
         "translationMapping": "user-provided-text",
-        "time": 108.45
+        "time": 108.45,
+        "sourceEnd": 113.062,
+        "endTime": 113.062
       },
       {
         "jp": "溢れてやまないのは涙だけ",
@@ -4117,7 +5031,9 @@ const prepared = {
         "tr": "便只有眼淚不住滿溢",
         "translationUserRef": 18,
         "translationMapping": "user-provided-text",
-        "time": 113.99
+        "time": 113.99,
+        "sourceEnd": 118.583,
+        "endTime": 118.583
       },
       {
         "jp": "何をしていたの 何を見ていたの",
@@ -4125,7 +5041,9 @@ const prepared = {
         "tr": "你做了些什麼　你看見了些什麼",
         "translationUserRef": 19,
         "translationMapping": "user-provided-text",
-        "time": 119.74
+        "time": 119.74,
+        "sourceEnd": 124.686,
+        "endTime": 124.686
       },
       {
         "jp": "わたしの知らない横顔で",
@@ -4133,7 +5051,9 @@ const prepared = {
         "tr": "用我所不知道的另一種表情",
         "translationUserRef": 20,
         "translationMapping": "user-provided-text",
-        "time": 125.49
+        "time": 125.49,
+        "sourceEnd": 129.544,
+        "endTime": 129.544
       },
       {
         "jp": "どこかであなたが今",
@@ -4141,7 +5061,9 @@ const prepared = {
         "tr": "如果你此刻也在某處",
         "translationUserRef": 21,
         "translationMapping": "user-provided-text",
-        "time": 130.07
+        "time": 130.07,
+        "sourceEnd": 132.324,
+        "endTime": 132.324
       },
       {
         "jp": "わたしと同じ様な",
@@ -4149,7 +5071,9 @@ const prepared = {
         "tr": "和我一樣",
         "translationUserRef": 22,
         "translationMapping": "user-provided-text",
-        "time": 132.881
+        "time": 132.881,
+        "sourceEnd": 135.105,
+        "endTime": 135.105
       },
       {
         "jp": "涙にくれ淋しさの中にいるなら",
@@ -4157,7 +5081,9 @@ const prepared = {
         "tr": "淚眼婆娑地　身陷寂寞裡",
         "translationUserRef": 23,
         "translationMapping": "user-provided-text",
-        "time": 135.58
+        "time": 135.58,
+        "sourceEnd": 140.155,
+        "endTime": 140.155
       },
       {
         "jp": "わたしのことなどどうか忘れてください",
@@ -4165,7 +5091,9 @@ const prepared = {
         "tr": "有關我的一切　就請你忘記",
         "translationUserRef": 24,
         "translationMapping": "user-provided-text",
-        "time": 141
+        "time": 141,
+        "sourceEnd": 146.107,
+        "endTime": 146.107
       },
       {
         "jp": "そんなことを心から願うほどに",
@@ -4173,7 +5101,9 @@ const prepared = {
         "tr": "打從心底如此希望",
         "translationUserRef": 25,
         "translationMapping": "user-provided-text",
-        "time": 146.93
+        "time": 146.93,
+        "sourceEnd": 151.571,
+        "endTime": 151.571
       },
       {
         "jp": "今でもあなたはわたしの光",
@@ -4181,7 +5111,9 @@ const prepared = {
         "tr": "至今你依然是我的光",
         "translationUserRef": 26,
         "translationMapping": "user-provided-text",
-        "time": 152.67
+        "time": 152.67,
+        "sourceEnd": 157.491,
+        "endTime": 157.491
       },
       {
         "jp": "自分が思うより 恋をしていたあなたに",
@@ -4189,7 +5121,9 @@ const prepared = {
         "tr": "我比自己所想的　更戀慕你",
         "translationUserRef": 27,
         "translationMapping": "user-provided-text",
-        "time": 161.06
+        "time": 161.06,
+        "sourceEnd": 170.957,
+        "endTime": 170.957
       },
       {
         "jp": "あれから思うように 息ができない",
@@ -4197,7 +5131,9 @@ const prepared = {
         "tr": "自那刻起便無法如所想般　順暢呼吸",
         "translationUserRef": 28,
         "translationMapping": "user-provided-text",
-        "time": 172.16
+        "time": 172.16,
+        "sourceEnd": 181.139,
+        "endTime": 181.139
       },
       {
         "jp": "あんなに側にいたのに まるで嘘みたい",
@@ -4205,7 +5141,9 @@ const prepared = {
         "tr": "你曾如此近在身旁　好似騙局",
         "translationUserRef": 29,
         "translationMapping": "user-provided-text",
-        "time": 182.81
+        "time": 182.81,
+        "sourceEnd": 192.617,
+        "endTime": 192.617
       },
       {
         "jp": "とても忘れられない それだけが確か",
@@ -4213,7 +5151,9 @@ const prepared = {
         "tr": "卻只有忘不掉你　無庸置疑",
         "translationUserRef": 30,
         "translationMapping": "user-provided-text",
-        "time": 193.74
+        "time": 193.74,
+        "sourceEnd": 205.2,
+        "endTime": 205.2
       },
       {
         "jp": "あの日の悲しみさえ あの日の苦しみさえ",
@@ -4221,7 +5161,9 @@ const prepared = {
         "tr": "那些日子的悲傷　那些日子的痛苦",
         "translationUserRef": 31,
         "translationMapping": "user-provided-text",
-        "time": 210.12
+        "time": 210.12,
+        "sourceEnd": 214.955,
+        "endTime": 214.955
       },
       {
         "jp": "そのすべてを愛してた あなたとともに",
@@ -4229,7 +5171,9 @@ const prepared = {
         "tr": "我全都深愛著　連你一起",
         "translationUserRef": 32,
         "translationMapping": "user-provided-text",
-        "time": 215.57
+        "time": 215.57,
+        "sourceEnd": 220.312,
+        "endTime": 220.312
       },
       {
         "jp": "胸に残り離れない苦いレモンの匂い",
@@ -4237,7 +5181,9 @@ const prepared = {
         "tr": "殘留胸中消散不去　苦澀檸檬的氣味",
         "translationUserRef": 33,
         "translationMapping": "user-provided-text",
-        "time": 221.31
+        "time": 221.31,
+        "sourceEnd": 226.223,
+        "endTime": 226.223
       },
       {
         "jp": "雨が降り止むまでは帰れない",
@@ -4245,7 +5191,9 @@ const prepared = {
         "tr": "在雨停歇前無法回去",
         "translationUserRef": 34,
         "translationMapping": "user-provided-text",
-        "time": 226.95
+        "time": 226.95,
+        "sourceEnd": 231.589,
+        "endTime": 231.589
       },
       {
         "jp": "切り分けた果実の片方の様に",
@@ -4253,7 +5201,9 @@ const prepared = {
         "tr": "就像果實切開的其中一半",
         "translationUserRef": 35,
         "translationMapping": "user-provided-text",
-        "time": 232.48
+        "time": 232.48,
+        "sourceEnd": 237.259,
+        "endTime": 237.259
       },
       {
         "jp": "今でもあなたはわたしの光",
@@ -4261,7 +5211,9 @@ const prepared = {
         "tr": "至今你依然是我的光",
         "translationUserRef": 36,
         "translationMapping": "user-provided-text",
-        "time": 238.03
+        "time": 238.03,
+        "sourceEnd": 242.809,
+        "endTime": 242.809
       }
     ],
     "lyricsSourceUrl": "https://lrclib.net/api/get/65910",
@@ -4290,7 +5242,7 @@ const prepared = {
     "lyricsStatus": "imported",
     "translationStatus": "ready",
     "timingStatus": "preview",
-    "readingsStatus": "pending",
+    "readingsStatus": "ready",
     "lyrics": [
       {
         "jp": "まるでこの世界で二人だけみたいだね",
@@ -4298,7 +5250,9 @@ const prepared = {
         "tr": "彷彿這世界上只剩下我和你呢",
         "translationUserRef": 0,
         "translationMapping": "user-provided-text",
-        "time": 14.43
+        "time": 14.43,
+        "sourceEnd": 25.25,
+        "endTime": 25.25
       },
       {
         "jp": "なんて少しだけ夢をみてしまっただけ",
@@ -4306,7 +5260,9 @@ const prepared = {
         "tr": "然而不過是做了一場短暫的夢",
         "translationUserRef": 1,
         "translationMapping": "user-provided-text",
-        "time": 25.25
+        "time": 25.25,
+        "sourceEnd": 35.57,
+        "endTime": 35.57
       },
       {
         "jp": "つま先に月明かり 花束の香り 指に触れる指",
@@ -4314,7 +5270,9 @@ const prepared = {
         "tr": "月光灑落腳尖　花束的香氣　指頭與指頭相依",
         "translationUserRef": 2,
         "translationMapping": "user-provided-text",
-        "time": 36.05
+        "time": 36.05,
+        "sourceEnd": 46.65,
+        "endTime": 46.65
       },
       {
         "jp": "さよなら もう行かなきゃ 何もかも忘れて",
@@ -4322,7 +5280,9 @@ const prepared = {
         "tr": "再見了　不走不行了　還請你忘記這一切",
         "translationUserRef": 3,
         "translationMapping": "user-provided-text",
-        "time": 46.65
+        "time": 46.65,
+        "sourceEnd": 57.18,
+        "endTime": 57.18
       },
       {
         "jp": "硝子の上を裸足のまま歩く 痛むごとに血が流れて落ちていく",
@@ -4330,7 +5290,9 @@ const prepared = {
         "tr": "在玻璃碎片上赤著腳走路　伴隨著疼痛　鮮血沿途倘落",
         "translationUserRef": 4,
         "translationMapping": "user-provided-text",
-        "time": 58.96
+        "time": 58.96,
+        "sourceEnd": 71.18,
+        "endTime": 71.18
       },
       {
         "jp": "お願い その赤い足跡を辿って 会いにきて",
@@ -4338,7 +5300,9 @@ const prepared = {
         "tr": "請你　循著這紅色的足跡　來見我",
         "translationUserRef": 5,
         "translationMapping": "user-provided-text",
-        "time": 71.18
+        "time": 71.18,
+        "sourceEnd": 84.75,
+        "endTime": 84.75
       },
       {
         "jp": "錆びたプールに放たれていく金魚 靴箱の中隠した林檎",
@@ -4346,7 +5310,9 @@ const prepared = {
         "tr": "被放逐進鏽斑泳池裡的金魚　藏在鞋櫃中的蘋果",
         "translationUserRef": 6,
         "translationMapping": "user-provided-text",
-        "time": 92.45
+        "time": 92.45,
+        "sourceEnd": 102.72,
+        "endTime": 102.72
       },
       {
         "jp": "萎びた君の肌に残る傷跡 犬のように泳いだ迷子",
@@ -4354,7 +5320,9 @@ const prepared = {
         "tr": "你乾涸肌膚上未癒的傷痕　落水狗般泅泳的迷童",
         "translationUserRef": 7,
         "translationMapping": "user-provided-text",
-        "time": 102.72
+        "time": 102.72,
+        "sourceEnd": 113.15,
+        "endTime": 113.15
       },
       {
         "jp": "どこにいるの 何をしているの (ここにいるよ ずっと見てるよ)",
@@ -4362,7 +5330,9 @@ const prepared = {
         "tr": "你在哪裡呢？　（我就在這裡哦）　你在做什麼呢？　（我一直看著你哦）",
         "translationUserRef": 8,
         "translationMapping": "user-provided-text",
-        "time": 113.62
+        "time": 113.62,
+        "sourceEnd": 118.89,
+        "endTime": 118.89
       },
       {
         "jp": "この世を間違いで満たそう",
@@ -4370,7 +5340,9 @@ const prepared = {
         "tr": "就讓此生此世被填滿錯謬",
         "translationUserRef": 9,
         "translationMapping": "user-provided-text",
-        "time": 118.89
+        "time": 118.89,
+        "sourceEnd": 124.14,
+        "endTime": 124.14
       },
       {
         "jp": "側にいてよ 遊びに行こうよ",
@@ -4378,7 +5350,9 @@ const prepared = {
         "tr": "待在我身邊吧　一起去玩嘛",
         "translationUserRef": 10,
         "translationMapping": "user-provided-text",
-        "time": 124.14
+        "time": 124.14,
+        "sourceEnd": 130.04,
+        "endTime": 130.04
       },
       {
         "jp": "どこにいるの",
@@ -4386,7 +5360,9 @@ const prepared = {
         "tr": "你到底在哪裡呢？",
         "translationUserRef": 11,
         "translationMapping": "user-provided-text",
-        "time": 130.04
+        "time": 130.04,
+        "sourceEnd": 134.03,
+        "endTime": 134.03
       },
       {
         "jp": "硝子の上を裸足のまま歩く 痛むごとに血が流れて落ちていく",
@@ -4394,7 +5370,9 @@ const prepared = {
         "tr": "在玻璃碎片上赤著腳走路　伴隨著疼痛　鮮血沿途倘落",
         "translationUserRef": 12,
         "translationMapping": "user-provided-text",
-        "time": 136.93
+        "time": 136.93,
+        "sourceEnd": 148.89,
+        "endTime": 148.89
       },
       {
         "jp": "お願い その赤い足跡を辿って 会いにきて",
@@ -4402,7 +5380,9 @@ const prepared = {
         "tr": "請你　循著這紅色的足跡　來見我",
         "translationUserRef": 13,
         "translationMapping": "user-provided-text",
-        "time": 148.89
+        "time": 148.89,
+        "sourceEnd": 169.67,
+        "endTime": 169.67
       },
       {
         "jp": "まるでこの世界で二人だけみたいだね",
@@ -4410,7 +5390,9 @@ const prepared = {
         "tr": "彷彿這個世界只剩下我和你呢",
         "translationUserRef": 14,
         "translationMapping": "user-provided-text",
-        "time": 170.28
+        "time": 170.28,
+        "sourceEnd": 181.14,
+        "endTime": 181.14
       },
       {
         "jp": "なんて少しだけ夢をみてしまっただけ",
@@ -4418,7 +5400,9 @@ const prepared = {
         "tr": "然而不過是做了一場短暫的夢",
         "translationUserRef": 15,
         "translationMapping": "user-provided-text",
-        "time": 181.14
+        "time": 181.14,
+        "sourceEnd": 190.67,
+        "endTime": 190.67
       }
     ],
     "lyricsSourceUrl": "https://lrclib.net/api/get/26422844",
@@ -4447,7 +5431,7 @@ const prepared = {
     "lyricsStatus": "imported",
     "translationStatus": "ready",
     "timingStatus": "preview",
-    "readingsStatus": "pending",
+    "readingsStatus": "ready",
     "lyrics": [
       {
         "jp": "開け放たれた この部屋には誰もいない",
@@ -4455,7 +5439,9 @@ const prepared = {
         "tr": "敞開著的　這個房間裡誰也不在",
         "translationUserRef": 0,
         "translationMapping": "user-provided-text",
-        "time": 1.89
+        "time": 1.89,
+        "sourceEnd": 11.83,
+        "endTime": 11.83
       },
       {
         "jp": "潮風の匂い 滲みついた椅子がひとつ",
@@ -4463,7 +5449,9 @@ const prepared = {
         "tr": "只有滲入　海風氣味的椅子一張",
         "translationUserRef": 1,
         "translationMapping": "user-provided-text",
-        "time": 11.83
+        "time": 11.83,
+        "sourceEnd": 20.92,
+        "endTime": 20.92
       },
       {
         "jp": "あなたが迷わないように 空けておくよ",
@@ -4471,7 +5459,9 @@ const prepared = {
         "tr": "為了不讓你迷失　我會先為你空下",
         "translationUserRef": 2,
         "translationMapping": "user-provided-text",
-        "time": 20.92
+        "time": 20.92,
+        "sourceEnd": 27.25,
+        "endTime": 27.25
       },
       {
         "jp": "軋む戸を叩いて",
@@ -4479,7 +5469,9 @@ const prepared = {
         "tr": "敲響嘎吱的門扉",
         "translationUserRef": 3,
         "translationMapping": "user-provided-text",
-        "time": 27.25
+        "time": 27.25,
+        "sourceEnd": 31.8,
+        "endTime": 31.8
       },
       {
         "jp": "なにから話せばいいのか わからなくなるかな",
@@ -4487,7 +5479,9 @@ const prepared = {
         "tr": "該從何說起才好呢　好像也弄不清楚了",
         "translationUserRef": 4,
         "translationMapping": "user-provided-text",
-        "time": 31.8
+        "time": 31.8,
+        "sourceEnd": 44.48,
+        "endTime": 44.48
       },
       {
         "jp": "星が降る夜にあなたにあえた",
@@ -4495,7 +5489,9 @@ const prepared = {
         "tr": "星星墜落的夜晚　我遇見了你",
         "translationUserRef": 5,
         "translationMapping": "user-provided-text",
-        "time": 44.48
+        "time": 44.48,
+        "sourceEnd": 50.18,
+        "endTime": 50.18
       },
       {
         "jp": "あの夜を忘れはしない",
@@ -4503,7 +5499,9 @@ const prepared = {
         "tr": "再也不會忘記那一夜",
         "translationUserRef": 6,
         "translationMapping": "user-provided-text",
-        "time": 50.18
+        "time": 50.18,
+        "sourceEnd": 54.72,
+        "endTime": 54.72
       },
       {
         "jp": "大切なことは言葉にならない",
@@ -4511,7 +5509,9 @@ const prepared = {
         "tr": "重要的東西　無法訴諸言語",
         "translationUserRef": 7,
         "translationMapping": "user-provided-text",
-        "time": 54.72
+        "time": 54.72,
+        "sourceEnd": 60.74,
+        "endTime": 60.74
       },
       {
         "jp": "夏の日に起きた全て",
@@ -4519,7 +5519,9 @@ const prepared = {
         "tr": "在那夏日發生的一切",
         "translationUserRef": 8,
         "translationMapping": "user-provided-text",
-        "time": 60.74
+        "time": 60.74,
+        "sourceEnd": 65.93,
+        "endTime": 65.93
       },
       {
         "jp": "思いがけず光るのは 海の幽霊",
@@ -4527,7 +5529,9 @@ const prepared = {
         "tr": "意料之外發著光的是　海的幽靈",
         "translationUserRef": 9,
         "translationMapping": "user-provided-text",
-        "time": 65.93
+        "time": 65.93,
+        "sourceEnd": 88.52,
+        "endTime": 88.52
       },
       {
         "jp": "茹だる夏の夕に梢が 船を見送る",
@@ -4535,7 +5539,9 @@ const prepared = {
         "tr": "酷暑夏日的黃昏　樹梢目送船隻行遠",
         "translationUserRef": 10,
         "translationMapping": "user-provided-text",
-        "time": 88.52
+        "time": 88.52,
+        "sourceEnd": 99.09,
+        "endTime": 99.09
       },
       {
         "jp": "いくつかの歌を囁く 花を散らして",
@@ -4543,7 +5549,9 @@ const prepared = {
         "tr": "喃喃輕唱數首歌曲　打落花瓣",
         "translationUserRef": 11,
         "translationMapping": "user-provided-text",
-        "time": 99.09
+        "time": 99.09,
+        "sourceEnd": 109.51,
+        "endTime": 109.51
       },
       {
         "jp": "あなたがどこかで笑う 声が聞こえる",
@@ -4551,7 +5559,9 @@ const prepared = {
         "tr": "聽見了某處　傳來你的笑聲",
         "translationUserRef": 12,
         "translationMapping": "user-provided-text",
-        "time": 109.51
+        "time": 109.51,
+        "sourceEnd": 115.23,
+        "endTime": 115.23
       },
       {
         "jp": "熱い頬の手触り",
@@ -4559,7 +5569,9 @@ const prepared = {
         "tr": "曬熱臉頰上有著手的觸感",
         "translationUserRef": 13,
         "translationMapping": "user-provided-text",
-        "time": 115.23
+        "time": 115.23,
+        "sourceEnd": 119.58,
+        "endTime": 119.58
       },
       {
         "jp": "ねじれた道を進んだら その瞼が開く",
@@ -4567,7 +5579,9 @@ const prepared = {
         "tr": "若沿著彎曲小徑前行　那雙眼瞼便會張開",
         "translationUserRef": 14,
         "translationMapping": "user-provided-text",
-        "time": 119.58
+        "time": 119.58,
+        "sourceEnd": 153.06,
+        "endTime": 153.06
       },
       {
         "jp": "離れ離れでもときめくもの",
@@ -4575,7 +5589,9 @@ const prepared = {
         "tr": "相距遙遠　心中仍激動不已",
         "translationUserRef": 15,
         "translationMapping": "user-provided-text",
-        "time": 153.06
+        "time": 153.06,
+        "sourceEnd": 159.63,
+        "endTime": 159.63
       },
       {
         "jp": "叫ぼう今は幸せと",
@@ -4583,7 +5599,9 @@ const prepared = {
         "tr": "大喊出來吧「此刻我很幸福」",
         "translationUserRef": 16,
         "translationMapping": "user-provided-text",
-        "time": 159.63
+        "time": 159.63,
+        "sourceEnd": 164.03,
+        "endTime": 164.03
       },
       {
         "jp": "大切なことは言葉にならない",
@@ -4591,7 +5609,9 @@ const prepared = {
         "tr": "重要的東西　無法訴諸言語",
         "translationUserRef": 17,
         "translationMapping": "user-provided-text",
-        "time": 164.03
+        "time": 164.03,
+        "sourceEnd": 170.09,
+        "endTime": 170.09
       },
       {
         "jp": "跳ねる光に溶かして",
@@ -4599,7 +5619,9 @@ const prepared = {
         "tr": "融化進四濺的光芒中",
         "translationUserRef": 18,
         "translationMapping": "user-provided-text",
-        "time": 170.09
+        "time": 170.09,
+        "sourceEnd": 175.9,
+        "endTime": 175.9
       },
       {
         "jp": "星が降る夜にあなたにあえた",
@@ -4607,7 +5629,9 @@ const prepared = {
         "tr": "星星墜落的夜晚　我遇見了你",
         "translationUserRef": 19,
         "translationMapping": "user-provided-text",
-        "time": 175.9
+        "time": 175.9,
+        "sourceEnd": 180.91,
+        "endTime": 180.91
       },
       {
         "jp": "あのときを忘れはしない",
@@ -4615,7 +5639,9 @@ const prepared = {
         "tr": "再也不會忘記那一刻",
         "translationUserRef": 20,
         "translationMapping": "user-provided-text",
-        "time": 180.91
+        "time": 180.91,
+        "sourceEnd": 185.24,
+        "endTime": 185.24
       },
       {
         "jp": "大切なことは言葉にならない",
@@ -4623,7 +5649,9 @@ const prepared = {
         "tr": "重要的東西　無法訴諸言語",
         "translationUserRef": 21,
         "translationMapping": "user-provided-text",
-        "time": 185.24
+        "time": 185.24,
+        "sourceEnd": 191.26,
+        "endTime": 191.26
       },
       {
         "jp": "夏の日に起きた全て",
@@ -4631,7 +5659,9 @@ const prepared = {
         "tr": "在那夏日發生的一切",
         "translationUserRef": 22,
         "translationMapping": "user-provided-text",
-        "time": 191.26
+        "time": 191.26,
+        "sourceEnd": 196.87,
+        "endTime": 196.87
       },
       {
         "jp": "思いがけず光るのは 海の幽霊",
@@ -4639,7 +5669,9 @@ const prepared = {
         "tr": "意料之外發著光的是　海的幽靈",
         "translationUserRef": 23,
         "translationMapping": "user-provided-text",
-        "time": 196.87
+        "time": 196.87,
+        "sourceEnd": 207.89,
+        "endTime": 207.89
       },
       {
         "jp": "風薫る砂浜で また会いましょう",
@@ -4647,7 +5679,9 @@ const prepared = {
         "tr": "薰風吹拂的海灘邊　讓我們再次相見",
         "translationUserRef": 24,
         "translationMapping": "user-provided-text",
-        "time": 207.89
+        "time": 207.89,
+        "sourceEnd": 233.32,
+        "endTime": 233.32
       }
     ],
     "lyricsSourceUrl": "https://lrclib.net/api/get/9920815",
@@ -4676,32 +5710,42 @@ const prepared = {
     "lyricsStatus": "imported",
     "translationStatus": "partial",
     "timingStatus": "preview",
-    "readingsStatus": "pending",
+    "readingsStatus": "ready",
     "lyrics": [
       {
         "jp": "Oh, whoa-oh",
         "sourceTime": 9.39,
-        "time": 9.39
+        "time": 9.39,
+        "sourceEnd": 10.64,
+        "endTime": 10.64
       },
       {
         "jp": "No, oh-whoa-oh",
         "sourceTime": 10.64,
-        "time": 10.64
+        "time": 10.64,
+        "sourceEnd": 13.11,
+        "endTime": 13.11
       },
       {
         "jp": "No, oh-whoa-oh",
         "sourceTime": 13.11,
-        "time": 13.11
+        "time": 13.11,
+        "sourceEnd": 15.69,
+        "endTime": 15.69
       },
       {
         "jp": "No, oh-whoa-oh",
         "sourceTime": 15.69,
-        "time": 15.69
+        "time": 15.69,
+        "sourceEnd": 17.85,
+        "endTime": 17.85
       },
       {
         "jp": "Oh, oh-oh-oh-oh-oh-oh",
         "sourceTime": 17.85,
-        "time": 17.85
+        "time": 17.85,
+        "sourceEnd": 20.82,
+        "endTime": 20.82
       },
       {
         "jp": "怒りに飲まれて僕らは佇んだ",
@@ -4709,7 +5753,9 @@ const prepared = {
         "tr": "為憤怒所吞噬　我們佇立原處",
         "translationUserRef": 0,
         "translationMapping": "user-provided-text",
-        "time": 20.82
+        "time": 20.82,
+        "sourceEnd": 25.92,
+        "endTime": 25.92
       },
       {
         "jp": "背中に三日月 荒れ払った住処",
@@ -4717,7 +5763,9 @@ const prepared = {
         "tr": "背對著新月　在已然荒廢的棲所",
         "translationUserRef": 1,
         "translationMapping": "user-provided-text",
-        "time": 25.92
+        "time": 25.92,
+        "sourceEnd": 30.94,
+        "endTime": 30.94
       },
       {
         "jp": "あまりに綺麗で見惚れた篝火",
@@ -4725,7 +5773,9 @@ const prepared = {
         "tr": "看著太過美麗　為之入迷的篝火",
         "translationUserRef": 2,
         "translationMapping": "user-provided-text",
-        "time": 30.94
+        "time": 30.94,
+        "sourceEnd": 35.88,
+        "endTime": 35.88
       },
       {
         "jp": "誰もがお前の闇に気づくだろう",
@@ -4733,7 +5783,9 @@ const prepared = {
         "tr": "任誰都會察覺你裡頭的黑暗吧",
         "translationUserRef": 3,
         "translationMapping": "user-provided-text",
-        "time": 35.88
+        "time": 35.88,
+        "sourceEnd": 41.24,
+        "endTime": 41.24
       },
       {
         "jp": "僕らは夜鷹",
@@ -4741,7 +5793,9 @@ const prepared = {
         "tr": "我們是夜鷹",
         "translationUserRef": 4,
         "translationMapping": "user-provided-text",
-        "time": 41.24
+        "time": 41.24,
+        "sourceEnd": 43.98,
+        "endTime": 43.98
       },
       {
         "jp": "伽藍堂の空を棚引く嵐",
@@ -4749,7 +5803,9 @@ const prepared = {
         "tr": "是盤旋寥寂大空中的狂風",
         "translationUserRef": 5,
         "translationMapping": "user-provided-text",
-        "time": 43.98
+        "time": 43.98,
+        "sourceEnd": 51.24,
+        "endTime": 51.24
       },
       {
         "jp": "お前が言うなら",
@@ -4757,7 +5813,9 @@ const prepared = {
         "tr": "若是你開口",
         "translationUserRef": 6,
         "translationMapping": "user-provided-text",
-        "time": 51.24
+        "time": 51.24,
+        "sourceEnd": 54.04,
+        "endTime": 54.04
       },
       {
         "jp": "ただ願うなら全ては叶うだろう",
@@ -4765,27 +5823,37 @@ const prepared = {
         "tr": "只要你祈求　一切都會如願以償的吧",
         "translationUserRef": 7,
         "translationMapping": "user-provided-text",
-        "time": 54.04
+        "time": 54.04,
+        "sourceEnd": 61.09,
+        "endTime": 61.09
       },
       {
         "jp": "No, oh-whoa-oh",
         "sourceTime": 61.09,
-        "time": 61.09
+        "time": 61.09,
+        "sourceEnd": 63.49,
+        "endTime": 63.49
       },
       {
         "jp": "No, oh-whoa-oh",
         "sourceTime": 63.49,
-        "time": 63.49
+        "time": 63.49,
+        "sourceEnd": 66.05,
+        "endTime": 66.05
       },
       {
         "jp": "No, oh-whoa-oh",
         "sourceTime": 66.05,
-        "time": 66.05
+        "time": 66.05,
+        "sourceEnd": 68.14,
+        "endTime": 68.14
       },
       {
         "jp": "Oh, oh-oh-oh-oh-oh-oh",
         "sourceTime": 68.14,
-        "time": 68.14
+        "time": 68.14,
+        "sourceEnd": 71.31,
+        "endTime": 71.31
       },
       {
         "jp": "なけなしのボロ切れを",
@@ -4793,7 +5861,9 @@ const prepared = {
         "tr": "為了誇耀這塊僅存的破布",
         "translationUserRef": 8,
         "translationMapping": "user-provided-text",
-        "time": 71.31
+        "time": 71.31,
+        "sourceEnd": 75.23,
+        "endTime": 75.23
       },
       {
         "jp": "誇るには見開くしかなかった",
@@ -4801,7 +5871,9 @@ const prepared = {
         "tr": "除了瞪大雙眼別無他法",
         "translationUserRef": 9,
         "translationMapping": "user-provided-text",
-        "time": 75.23
+        "time": 75.23,
+        "sourceEnd": 81.46,
+        "endTime": 81.46
       },
       {
         "jp": "込み上げる擦れっ枯らしの歌",
@@ -4809,7 +5881,9 @@ const prepared = {
         "tr": "湧上心頭那世故之人的歌",
         "translationUserRef": 10,
         "translationMapping": "user-provided-text",
-        "time": 81.46
+        "time": 81.46,
+        "sourceEnd": 85.15,
+        "endTime": 85.15
       },
       {
         "jp": "目玉の奥が痛み冴え渡る",
@@ -4817,7 +5891,9 @@ const prepared = {
         "tr": "眼底深處痛楚冷冽清澈",
         "translationUserRef": 11,
         "translationMapping": "user-provided-text",
-        "time": 85.15
+        "time": 85.15,
+        "sourceEnd": 91.45,
+        "endTime": 91.45
       },
       {
         "jp": "嘲り笑われ蔑み尽くされ",
@@ -4825,7 +5901,9 @@ const prepared = {
         "tr": "任人嘲笑　受盡輕蔑",
         "translationUserRef": 12,
         "translationMapping": "user-provided-text",
-        "time": 91.45
+        "time": 91.45,
+        "sourceEnd": 96.4,
+        "endTime": 96.4
       },
       {
         "jp": "突き刺すことだけ覚えた獣",
@@ -4833,7 +5911,9 @@ const prepared = {
         "tr": "只學會了向前突刺的野獸",
         "translationUserRef": 13,
         "translationMapping": "user-provided-text",
-        "time": 96.4
+        "time": 96.4,
+        "sourceEnd": 101.46,
+        "endTime": 101.46
       },
       {
         "jp": "くたばり損ねて迎えた朝ぼらけ",
@@ -4841,7 +5921,9 @@ const prepared = {
         "tr": "苟活賤命　迎接朦朧晨曦",
         "translationUserRef": 14,
         "translationMapping": "user-provided-text",
-        "time": 101.46
+        "time": 101.46,
+        "sourceEnd": 106.3,
+        "endTime": 106.3
       },
       {
         "jp": "亀裂の奥から光が射し込む",
@@ -4849,7 +5931,9 @@ const prepared = {
         "tr": "從裂縫深處照進一道光芒",
         "translationUserRef": 15,
         "translationMapping": "user-provided-text",
-        "time": 106.3
+        "time": 106.3,
+        "sourceEnd": 116.79,
+        "endTime": 116.79
       },
       {
         "jp": "腐れ散ろうとも 千切れようとも",
@@ -4857,7 +5941,9 @@ const prepared = {
         "tr": "哪怕腐爛凋零　即便支離破碎",
         "translationUserRef": 16,
         "translationMapping": "user-provided-text",
-        "time": 116.79
+        "time": 116.79,
+        "sourceEnd": 122.06,
+        "endTime": 122.06
       },
       {
         "jp": "それでも堪らず春は来る",
@@ -4865,7 +5951,9 @@ const prepared = {
         "tr": "春天仍會按捺不住到來",
         "translationUserRef": 17,
         "translationMapping": "user-provided-text",
-        "time": 122.06
+        "time": 122.06,
+        "sourceEnd": 126.88,
+        "endTime": 126.88
       },
       {
         "jp": "お前が眩んだら 膝をつくなら",
@@ -4873,7 +5961,9 @@ const prepared = {
         "tr": "若你迷失目光　或是屈膝跪下",
         "translationUserRef": 18,
         "translationMapping": "user-provided-text",
-        "time": 126.88
+        "time": 126.88,
+        "sourceEnd": 132.07,
+        "endTime": 132.07
       },
       {
         "jp": "そのときは終わらせてやるよ",
@@ -4881,7 +5971,9 @@ const prepared = {
         "tr": "到時就由我來畫下句點吧",
         "translationUserRef": 19,
         "translationMapping": "user-provided-text",
-        "time": 132.07
+        "time": 132.07,
+        "sourceEnd": 136.72,
+        "endTime": 136.72
       },
       {
         "jp": "僕らは夜鷹",
@@ -4889,7 +5981,9 @@ const prepared = {
         "tr": "我們是夜鷹",
         "translationUserRef": 20,
         "translationMapping": "user-provided-text",
-        "time": 136.72
+        "time": 136.72,
+        "sourceEnd": 139.62,
+        "endTime": 139.62
       },
       {
         "jp": "伽藍堂の空を棚引く嵐",
@@ -4897,7 +5991,9 @@ const prepared = {
         "tr": "是盤旋寥寂大空中的狂風",
         "translationUserRef": 21,
         "translationMapping": "user-provided-text",
-        "time": 139.62
+        "time": 139.62,
+        "sourceEnd": 146.97,
+        "endTime": 146.97
       },
       {
         "jp": "お前が言うなら",
@@ -4905,7 +6001,9 @@ const prepared = {
         "tr": "若是你開口",
         "translationUserRef": 22,
         "translationMapping": "user-provided-text",
-        "time": 146.97
+        "time": 146.97,
+        "sourceEnd": 149.66,
+        "endTime": 149.66
       },
       {
         "jp": "ただ願うなら全ては叶うだろう",
@@ -4913,7 +6011,9 @@ const prepared = {
         "tr": "只要你祈求　一切都會如願以償的吧",
         "translationUserRef": 23,
         "translationMapping": "user-provided-text",
-        "time": 149.66
+        "time": 149.66,
+        "sourceEnd": 156.64,
+        "endTime": 156.64
       }
     ],
     "lyricsSourceUrl": "https://lrclib.net/api/get/37790422",
@@ -4942,7 +6042,7 @@ const prepared = {
     "lyricsStatus": "imported",
     "translationStatus": "ready",
     "timingStatus": "preview",
-    "readingsStatus": "pending",
+    "readingsStatus": "ready",
     "lyrics": [
       {
         "jp": "いつもどおりの通り独り",
@@ -4950,7 +6050,9 @@ const prepared = {
         "tr": "獨自走在往常的街道上",
         "translationUserRef": 0,
         "translationMapping": "user-provided-text",
-        "time": 30.758
+        "time": 30.758,
+        "sourceEnd": 32.85,
+        "endTime": 32.85
       },
       {
         "jp": "こんな日々もはや懲り懲り",
@@ -4958,7 +6060,9 @@ const prepared = {
         "tr": "如此度日也成折磨折磨",
         "translationUserRef": 1,
         "translationMapping": "user-provided-text",
-        "time": 32.85
+        "time": 32.85,
+        "sourceEnd": 33.714,
+        "endTime": 33.714
       },
       {
         "jp": "もうどこにも行けやしないのに",
@@ -4966,7 +6070,9 @@ const prepared = {
         "tr": "早已是哪裡也去不了",
         "translationUserRef": 2,
         "translationMapping": "user-provided-text",
-        "time": 34.614
+        "time": 34.614,
+        "sourceEnd": 36.044,
+        "endTime": 36.044
       },
       {
         "jp": "夢見ておやすみ",
@@ -4974,7 +6080,9 @@ const prepared = {
         "tr": "就作個夢道聲晚安",
         "translationUserRef": 3,
         "translationMapping": "user-provided-text",
-        "time": 36.46
+        "time": 36.46,
+        "sourceEnd": 37.346,
+        "endTime": 37.346
       },
       {
         "jp": "いつでも僕らはこんな風に",
@@ -4982,7 +6090,9 @@ const prepared = {
         "tr": "我們總像這樣",
         "translationUserRef": 4,
         "translationMapping": "user-provided-text",
-        "time": 38.702
+        "time": 38.702,
+        "sourceEnd": 40.155,
+        "endTime": 40.155
       },
       {
         "jp": "ぼんくらな夜に飽き飽き",
@@ -4990,7 +6100,9 @@ const prepared = {
         "tr": "對愚蠢的夜晚感到好膩好膩",
         "translationUserRef": 5,
         "translationMapping": "user-provided-text",
-        "time": 40.582
+        "time": 40.582,
+        "sourceEnd": 41.579,
+        "endTime": 41.579
       },
       {
         "jp": "また踊り踊り出す明日に",
@@ -4998,7 +6110,9 @@ const prepared = {
         "tr": "為了迎接盡情起舞的明天",
         "translationUserRef": 6,
         "translationMapping": "user-provided-text",
-        "time": 42.664
+        "time": 42.664,
+        "sourceEnd": 43.976,
+        "endTime": 43.976
       },
       {
         "jp": "出会うためにさよなら",
@@ -5006,7 +6120,9 @@ const prepared = {
         "tr": "現在先說聲再見",
         "translationUserRef": 7,
         "translationMapping": "user-provided-text",
-        "time": 44.188
+        "time": 44.188,
+        "sourceEnd": 45.636,
+        "endTime": 45.636
       },
       {
         "jp": "歩き回ってやっとついた",
@@ -5014,7 +6130,9 @@ const prepared = {
         "tr": "四處閒晃終於抵達",
         "translationUserRef": 8,
         "translationMapping": "user-provided-text",
-        "time": 46.943
+        "time": 46.943,
+        "sourceEnd": 48.366,
+        "endTime": 48.366
       },
       {
         "jp": "ここはどうだ楽園か？",
@@ -5022,7 +6140,9 @@ const prepared = {
         "tr": "這裡是哪是樂園嗎？",
         "translationUserRef": 9,
         "translationMapping": "user-provided-text",
-        "time": 49.084
+        "time": 49.084,
+        "sourceEnd": 50.297,
+        "endTime": 50.297
       },
       {
         "jp": "今となっちゃもうわからない",
@@ -5030,7 +6150,9 @@ const prepared = {
         "tr": "事到如今什麼也不確定",
         "translationUserRef": 10,
         "translationMapping": "user-provided-text",
-        "time": 51.23
+        "time": 51.23,
+        "sourceEnd": 53.626,
+        "endTime": 53.626
       },
       {
         "jp": "四半世紀の結果出来た",
@@ -5038,7 +6160,9 @@ const prepared = {
         "tr": "用上四分之一世紀的結果公布了",
         "translationUserRef": 11,
         "translationMapping": "user-provided-text",
-        "time": 54.853
+        "time": 54.853,
+        "sourceEnd": 56.55,
+        "endTime": 56.55
       },
       {
         "jp": "青い顔のスーパースターが",
@@ -5046,7 +6170,9 @@ const prepared = {
         "tr": "面色蒼白的超級巨星",
         "translationUserRef": 12,
         "translationMapping": "user-provided-text",
-        "time": 57.062
+        "time": 57.062,
+        "sourceEnd": 58.524,
+        "endTime": 58.524
       },
       {
         "jp": "お腹すかしては待ってる",
@@ -5054,7 +6180,9 @@ const prepared = {
         "tr": "餓著肚子在等待",
         "translationUserRef": 13,
         "translationMapping": "user-provided-text",
-        "time": 59.12
+        "time": 59.12,
+        "sourceEnd": 60.043,
+        "endTime": 60.043
       },
       {
         "jp": "アイムアルーザー どうせだったら",
@@ -5062,7 +6190,9 @@ const prepared = {
         "tr": "I'M A LOSER　這樣的話",
         "translationUserRef": 14,
         "translationMapping": "user-provided-text",
-        "time": 62.558
+        "time": 62.558,
+        "sourceEnd": 64.037,
+        "endTime": 64.037
       },
       {
         "jp": "遠吠えだっていいだろう",
@@ -5070,7 +6200,9 @@ const prepared = {
         "tr": "在暗處吠叫也無所謂吧",
         "translationUserRef": 15,
         "translationMapping": "user-provided-text",
-        "time": 64.359
+        "time": 64.359,
+        "sourceEnd": 65.354,
+        "endTime": 65.354
       },
       {
         "jp": "もう一回 もう一回行こうぜ",
@@ -5078,7 +6210,9 @@ const prepared = {
         "tr": "再一次　再一次　前進吧",
         "translationUserRef": 16,
         "translationMapping": "user-provided-text",
-        "time": 66.533
+        "time": 66.533,
+        "sourceEnd": 68.208,
+        "endTime": 68.208
       },
       {
         "jp": "僕らの声",
@@ -5086,7 +6220,9 @@ const prepared = {
         "tr": "我們的聲音",
         "translationUserRef": 17,
         "translationMapping": "user-provided-text",
-        "time": 68.687
+        "time": 68.687,
+        "sourceEnd": 69.554,
+        "endTime": 69.554
       },
       {
         "jp": "アイムアルーザー",
@@ -5094,7 +6230,9 @@ const prepared = {
         "tr": "I'M A LOSER",
         "translationUserRef": 18,
         "translationMapping": "user-provided-text",
-        "time": 70.549
+        "time": 70.549,
+        "sourceEnd": 71.206,
+        "endTime": 71.206
       },
       {
         "jp": "ずっと前から 聞こえてた",
@@ -5102,7 +6240,9 @@ const prepared = {
         "tr": "從好久以前開始就聽得見",
         "translationUserRef": 19,
         "translationMapping": "user-provided-text",
-        "time": 71.892
+        "time": 71.892,
+        "sourceEnd": 73.34,
+        "endTime": 73.34
       },
       {
         "jp": "いつか ポケットに隠した声が",
@@ -5110,7 +6250,9 @@ const prepared = {
         "tr": "那天藏進口袋裡的聲音",
         "translationUserRef": 20,
         "translationMapping": "user-provided-text",
-        "time": 74.226
+        "time": 74.226,
+        "sourceEnd": 76.922,
+        "endTime": 76.922
       },
       {
         "jp": "ああだのこうだの知ったもんか",
@@ -5118,7 +6260,9 @@ const prepared = {
         "tr": "啊啊這也好那也好我才不管",
         "translationUserRef": 21,
         "translationMapping": "user-provided-text",
-        "time": 86.646
+        "time": 86.646,
+        "sourceEnd": 87.911,
+        "endTime": 87.911
       },
       {
         "jp": "幸先の空は悪天候",
@@ -5126,7 +6270,9 @@ const prepared = {
         "tr": "壞天氣預兆出不祥",
         "translationUserRef": 22,
         "translationMapping": "user-provided-text",
-        "time": 88.189
+        "time": 88.189,
+        "sourceEnd": 89.381,
+        "endTime": 89.381
       },
       {
         "jp": "ほら窓から覗いた摩天楼",
@@ -5134,7 +6280,9 @@ const prepared = {
         "tr": "你瞧從高樓大廈的窗戶看出去",
         "translationUserRef": 23,
         "translationMapping": "user-provided-text",
-        "time": 90.157
+        "time": 90.157,
+        "sourceEnd": 91.549,
+        "endTime": 91.549
       },
       {
         "jp": "からすりゃ塵のよう",
@@ -5142,7 +6290,9 @@ const prepared = {
         "tr": "看來就只是微塵般渺小",
         "translationUserRef": 24,
         "translationMapping": "user-provided-text",
-        "time": 92.035
+        "time": 92.035,
+        "sourceEnd": 93.123,
+        "endTime": 93.123
       },
       {
         "jp": "イアンもカートも昔の人よ",
@@ -5150,7 +6300,9 @@ const prepared = {
         "tr": "伊恩和科特都是過去的人了",
         "translationUserRef": 25,
         "translationMapping": "user-provided-text",
-        "time": 94.03
+        "time": 94.03,
+        "sourceEnd": 95.486,
+        "endTime": 95.486
       },
       {
         "jp": "中指立ててもしょうがないの",
@@ -5158,7 +6310,9 @@ const prepared = {
         "tr": "你比中指也沒有用",
         "translationUserRef": 26,
         "translationMapping": "user-provided-text",
-        "time": 96.284
+        "time": 96.284,
+        "sourceEnd": 97.702,
+        "endTime": 97.702
       },
       {
         "jp": "今勝ち上がるためのお勉強",
@@ -5166,7 +6320,9 @@ const prepared = {
         "tr": "這是為了重返勝利得先做的功課",
         "translationUserRef": 27,
         "translationMapping": "user-provided-text",
-        "time": 98.358
+        "time": 98.358,
+        "sourceEnd": 99.816,
+        "endTime": 99.816
       },
       {
         "jp": "朗らかな表情",
@@ -5174,7 +6330,9 @@ const prepared = {
         "tr": "露出愉快的表情",
         "translationUserRef": 28,
         "translationMapping": "user-provided-text",
-        "time": 100.159
+        "time": 100.159,
+        "sourceEnd": 101.366,
+        "endTime": 101.366
       },
       {
         "jp": "踊る阿呆に見る阿呆",
@@ -5182,7 +6340,9 @@ const prepared = {
         "tr": "傻子看著跳舞的傻子",
         "translationUserRef": 29,
         "translationMapping": "user-provided-text",
-        "time": 102.376
+        "time": 102.376,
+        "sourceEnd": 103.386,
+        "endTime": 103.386
       },
       {
         "jp": "我らそれを端から笑う阿呆",
@@ -5190,7 +6350,9 @@ const prepared = {
         "tr": "我們則是從一開始就嘲笑他們的傻子",
         "translationUserRef": 30,
         "translationMapping": "user-provided-text",
-        "time": 103.83
+        "time": 103.83,
+        "sourceEnd": 104.992,
+        "endTime": 104.992
       },
       {
         "jp": "デカイ自意識抱え込んではもう 磨耗",
@@ -5198,7 +6360,9 @@ const prepared = {
         "tr": "抱持的強大自我也漸次　磨損",
         "translationUserRef": 31,
         "translationMapping": "user-provided-text",
-        "time": 105.913
+        "time": 105.913,
+        "sourceEnd": 107.311,
+        "endTime": 107.311
       },
       {
         "jp": "すり減って残る酸っぱい葡萄",
@@ -5206,7 +6370,9 @@ const prepared = {
         "tr": "削減後剩下的則是酸葡萄心態",
         "translationUserRef": 32,
         "translationMapping": "user-provided-text",
-        "time": 108.118
+        "time": 108.118,
+        "sourceEnd": 109.158,
+        "endTime": 109.158
       },
       {
         "jp": "膝抱えてもなんもねえ",
@@ -5214,7 +6380,9 @@ const prepared = {
         "tr": "在那抱膝蹲坐又能做些什麼",
         "translationUserRef": 33,
         "translationMapping": "user-provided-text",
-        "time": 110.243
+        "time": 110.243,
+        "sourceEnd": 111.648,
+        "endTime": 111.648
       },
       {
         "jp": "ほら 長い前髪で前が見えねえ",
@@ -5222,7 +6390,9 @@ const prepared = {
         "tr": "你看看你　瀏海太長連前方都看不見",
         "translationUserRef": 34,
         "translationMapping": "user-provided-text",
-        "time": 111.968
+        "time": 111.968,
+        "sourceEnd": 113.239,
+        "endTime": 113.239
       },
       {
         "jp": "笑っちまうねパッと沸き立って",
@@ -5230,7 +6400,9 @@ const prepared = {
         "tr": "很可笑吧　忽地興奮起來",
         "translationUserRef": 35,
         "translationMapping": "user-provided-text",
-        "time": 114.028
+        "time": 114.028,
+        "sourceEnd": 115.359,
+        "endTime": 115.359
       },
       {
         "jp": "フワッと消えちゃえるこんな輪廻",
@@ -5238,7 +6410,9 @@ const prepared = {
         "tr": "又嘩地消失不見　重複著這樣的輪迴",
         "translationUserRef": 36,
         "translationMapping": "user-provided-text",
-        "time": 115.828
+        "time": 115.828,
+        "sourceEnd": 117.025,
+        "endTime": 117.025
       },
       {
         "jp": "愛されたいならそう言おうぜ",
@@ -5246,7 +6420,9 @@ const prepared = {
         "tr": "想被愛就直接說出來嘛",
         "translationUserRef": 37,
         "translationMapping": "user-provided-text",
-        "time": 118.337
+        "time": 118.337,
+        "sourceEnd": 119.634,
+        "endTime": 119.634
       },
       {
         "jp": "思ってるだけじゃ伝わらないね",
@@ -5254,7 +6430,9 @@ const prepared = {
         "tr": "只是想想怎麼讓人瞭解",
         "translationUserRef": 38,
         "translationMapping": "user-provided-text",
-        "time": 119.714
+        "time": 119.714,
+        "sourceEnd": 121.21,
+        "endTime": 121.21
       },
       {
         "jp": "永遠の淑女もそっぽ向いて",
@@ -5262,7 +6440,9 @@ const prepared = {
         "tr": "不理會永遠的淑女",
         "translationUserRef": 39,
         "translationMapping": "user-provided-text",
-        "time": 121.873
+        "time": 121.873,
+        "sourceEnd": 123.092,
+        "endTime": 123.092
       },
       {
         "jp": "天国は遠く向こうのほうへ",
@@ -5270,7 +6450,9 @@ const prepared = {
         "tr": "天國也在好遠的對面",
         "translationUserRef": 40,
         "translationMapping": "user-provided-text",
-        "time": 124.024
+        "time": 124.024,
+        "sourceEnd": 125.538,
+        "endTime": 125.538
       },
       {
         "jp": "ああわかってるって",
@@ -5278,7 +6460,9 @@ const prepared = {
         "tr": "啊啊　我知道啦",
         "translationUserRef": 41,
         "translationMapping": "user-provided-text",
-        "time": 126.136
+        "time": 126.136,
+        "sourceEnd": 127.291,
+        "endTime": 127.291
       },
       {
         "jp": "深く転がる 俺は負け犬",
@@ -5286,7 +6470,9 @@ const prepared = {
         "tr": "跌得好深的我　不過是頭敗犬",
         "translationUserRef": 42,
         "translationMapping": "user-provided-text",
-        "time": 128.236
+        "time": 128.236,
+        "sourceEnd": 129.649,
+        "endTime": 129.649
       },
       {
         "jp": "ただどこでもいいから遠くへ行きたいんだ",
@@ -5294,7 +6480,9 @@ const prepared = {
         "tr": "管他哪裡都好我只想遠走高飛",
         "translationUserRef": 43,
         "translationMapping": "user-provided-text",
-        "time": 130.084
+        "time": 130.084,
+        "sourceEnd": 131.977,
+        "endTime": 131.977
       },
       {
         "jp": "それだけなんだ",
@@ -5302,7 +6490,9 @@ const prepared = {
         "tr": "就只是這樣而已啊",
         "translationUserRef": 44,
         "translationMapping": "user-provided-text",
-        "time": 132.454
+        "time": 132.454,
+        "sourceEnd": 133.445,
+        "endTime": 133.445
       },
       {
         "jp": "耳をすませ遠くで今",
@@ -5310,7 +6500,9 @@ const prepared = {
         "tr": "豎起兩耳",
         "translationUserRef": 45,
         "translationMapping": "user-provided-text",
-        "time": 134.494
+        "time": 134.494,
+        "sourceEnd": 135.844,
+        "endTime": 135.844
       },
       {
         "jp": "響きだした音を逃すな",
@@ -5318,7 +6510,9 @@ const prepared = {
         "tr": "別讓遠方響起的聲音逃走了",
         "translationUserRef": 46,
         "translationMapping": "user-provided-text",
-        "time": 136.241
+        "time": 136.241,
+        "sourceEnd": 137.656,
+        "endTime": 137.656
       },
       {
         "jp": "呼吸を整えて",
@@ -5326,7 +6520,9 @@ const prepared = {
         "tr": "調整好呼吸",
         "translationUserRef": 47,
         "translationMapping": "user-provided-text",
-        "time": 138.398
+        "time": 138.398,
+        "sourceEnd": 140.67,
+        "endTime": 140.67
       },
       {
         "jp": "いつかは出会えるはずの",
@@ -5334,7 +6530,9 @@ const prepared = {
         "tr": "哪天一定會遇上",
         "translationUserRef": 48,
         "translationMapping": "user-provided-text",
-        "time": 142.08
+        "time": 142.08,
+        "sourceEnd": 143.663,
+        "endTime": 143.663
       },
       {
         "jp": "黄金の色したアイオライトを",
@@ -5342,7 +6540,9 @@ const prepared = {
         "tr": "那金黃色的堇青石",
         "translationUserRef": 49,
         "translationMapping": "user-provided-text",
-        "time": 144.182
+        "time": 144.182,
+        "sourceEnd": 145.635,
+        "endTime": 145.635
       },
       {
         "jp": "きっと掴んで離すな",
@@ -5350,7 +6550,9 @@ const prepared = {
         "tr": "到時可要抓緊別再放手",
         "translationUserRef": 50,
         "translationMapping": "user-provided-text",
-        "time": 146.281
+        "time": 146.281,
+        "sourceEnd": 147.445,
+        "endTime": 147.445
       },
       {
         "jp": "アイムアルーザー なんもないなら",
@@ -5358,7 +6560,9 @@ const prepared = {
         "tr": "I'M A LOSER　既然一無所有",
         "translationUserRef": 51,
         "translationMapping": "user-provided-text",
-        "time": 149.509
+        "time": 149.509,
+        "sourceEnd": 150.858,
+        "endTime": 150.858
       },
       {
         "jp": "どうなったっていいだろう",
@@ -5366,7 +6570,9 @@ const prepared = {
         "tr": "那會怎樣也無所謂吧",
         "translationUserRef": 52,
         "translationMapping": "user-provided-text",
-        "time": 151.935
+        "time": 151.935,
+        "sourceEnd": 152.718,
+        "endTime": 152.718
       },
       {
         "jp": "うだうだしてフラフラしていちゃ今に",
@@ -5374,7 +6580,9 @@ const prepared = {
         "tr": "對懶散度日　游移不定的現在說聲",
         "translationUserRef": 53,
         "translationMapping": "user-provided-text",
-        "time": 153.779
+        "time": 153.779,
+        "sourceEnd": 155.277,
+        "endTime": 155.277
       },
       {
         "jp": "灰 左様なら",
@@ -5382,7 +6590,9 @@ const prepared = {
         "tr": "成灰　永別",
         "translationUserRef": 54,
         "translationMapping": "user-provided-text",
-        "time": 155.761
+        "time": 155.761,
+        "sourceEnd": 156.644,
+        "endTime": 156.644
       },
       {
         "jp": "アイムアルーザー きっといつかって願うまま",
@@ -5390,7 +6600,9 @@ const prepared = {
         "tr": "I'M A LOSER　祈禱著「總會有那麼一天」",
         "translationUserRef": 55,
         "translationMapping": "user-provided-text",
-        "time": 157.47
+        "time": 157.47,
+        "sourceEnd": 160.264,
+        "endTime": 160.264
       },
       {
         "jp": "進め ロスタイムのそのまた奥へ行け",
@@ -5398,7 +6610,9 @@ const prepared = {
         "tr": "前進吧　就往傷停時間的更深處邁進",
         "translationUserRef": 56,
         "translationMapping": "user-provided-text",
-        "time": 161.112
+        "time": 161.112,
+        "sourceEnd": 164.309,
+        "endTime": 164.309
       },
       {
         "jp": "愛されたいならそう言おうぜ",
@@ -5406,7 +6620,9 @@ const prepared = {
         "tr": "想被愛就直接說出來嘛",
         "translationUserRef": 57,
         "translationMapping": "user-provided-text",
-        "time": 167.348
+        "time": 167.348,
+        "sourceEnd": 168.723,
+        "endTime": 168.723
       },
       {
         "jp": "思ってるだけじゃ伝わらないね",
@@ -5414,7 +6630,9 @@ const prepared = {
         "tr": "只是想想怎麼讓人瞭解",
         "translationUserRef": 58,
         "translationMapping": "user-provided-text",
-        "time": 171.521
+        "time": 171.521,
+        "sourceEnd": 173.129,
+        "endTime": 173.129
       },
       {
         "jp": "永遠の淑女もそっぽ向いて",
@@ -5422,7 +6640,9 @@ const prepared = {
         "tr": "不理會永遠的淑女",
         "translationUserRef": 59,
         "translationMapping": "user-provided-text",
-        "time": 175.478
+        "time": 175.478,
+        "sourceEnd": 177.057,
+        "endTime": 177.057
       },
       {
         "jp": "天国は遠く向こうのほうへ",
@@ -5430,7 +6650,9 @@ const prepared = {
         "tr": "天國也在好遠的對面",
         "translationUserRef": 60,
         "translationMapping": "user-provided-text",
-        "time": 179.316
+        "time": 179.316,
+        "sourceEnd": 180.984,
+        "endTime": 180.984
       },
       {
         "jp": "ここいらでひとつ踊ってみようぜ",
@@ -5438,7 +6660,9 @@ const prepared = {
         "tr": "就在這裡試著跳一支舞吧",
         "translationUserRef": 61,
         "translationMapping": "user-provided-text",
-        "time": 183.251
+        "time": 183.251,
+        "sourceEnd": 184.944,
+        "endTime": 184.944
       },
       {
         "jp": "夜が明けるまで転がっていこうぜ",
@@ -5446,7 +6670,9 @@ const prepared = {
         "tr": "在夜揭明前讓我們跌著跤前進吧",
         "translationUserRef": 62,
         "translationMapping": "user-provided-text",
-        "time": 187.182
+        "time": 187.182,
+        "sourceEnd": 188.862,
+        "endTime": 188.862
       },
       {
         "jp": "聞こえてんなら声出していこうぜ",
@@ -5454,7 +6680,9 @@ const prepared = {
         "tr": "聽見了的話就大聲吠叫著前進吧",
         "translationUserRef": 63,
         "translationMapping": "user-provided-text",
-        "time": 191.236
+        "time": 191.236,
+        "sourceEnd": 192.938,
+        "endTime": 192.938
       },
       {
         "jp": "アイムアルーザー どうせだったら",
@@ -5462,7 +6690,9 @@ const prepared = {
         "tr": "I'M A LOSER　這樣的話",
         "translationUserRef": 64,
         "translationMapping": "user-provided-text",
-        "time": 197.293
+        "time": 197.293,
+        "sourceEnd": 198.579,
+        "endTime": 198.579
       },
       {
         "jp": "遠吠えだっていいだろう",
@@ -5470,7 +6700,9 @@ const prepared = {
         "tr": "在暗處吠叫也無所謂吧",
         "translationUserRef": 65,
         "translationMapping": "user-provided-text",
-        "time": 199.253
+        "time": 199.253,
+        "sourceEnd": 200.357,
+        "endTime": 200.357
       },
       {
         "jp": "もう一回 もう一回行こうぜ",
@@ -5478,7 +6710,9 @@ const prepared = {
         "tr": "再一次　再一次　前進吧",
         "translationUserRef": 66,
         "translationMapping": "user-provided-text",
-        "time": 201.465
+        "time": 201.465,
+        "sourceEnd": 203.037,
+        "endTime": 203.037
       },
       {
         "jp": "僕らの声",
@@ -5486,7 +6720,9 @@ const prepared = {
         "tr": "我們的聲音",
         "translationUserRef": 67,
         "translationMapping": "user-provided-text",
-        "time": 203.515
+        "time": 203.515,
+        "sourceEnd": 204.332,
+        "endTime": 204.332
       },
       {
         "jp": "アイムアルーザー",
@@ -5494,7 +6730,9 @@ const prepared = {
         "tr": "I'M A LOSER",
         "translationUserRef": 68,
         "translationMapping": "user-provided-text",
-        "time": 205.189
+        "time": 205.189,
+        "sourceEnd": 205.685,
+        "endTime": 205.685
       },
       {
         "jp": "ずっと前から 聞こえてた",
@@ -5502,7 +6740,9 @@ const prepared = {
         "tr": "從好久以前開始就聽得見",
         "translationUserRef": 69,
         "translationMapping": "user-provided-text",
-        "time": 206.371
+        "time": 206.371,
+        "sourceEnd": 208.194,
+        "endTime": 208.194
       },
       {
         "jp": "いつか ポケットに隠した声が",
@@ -5510,7 +6750,9 @@ const prepared = {
         "tr": "那天藏進口袋裡的聲音",
         "translationUserRef": 70,
         "translationMapping": "user-provided-text",
-        "time": 208.996
+        "time": 208.996,
+        "sourceEnd": 211.281,
+        "endTime": 211.281
       },
       {
         "jp": "ここいらでひとつ踊ってみようぜ",
@@ -5518,7 +6760,9 @@ const prepared = {
         "tr": "就在這裡試著跳一支舞吧",
         "translationUserRef": 71,
         "translationMapping": "user-provided-text",
-        "time": 215.32
+        "time": 215.32,
+        "sourceEnd": 216.493,
+        "endTime": 216.493
       },
       {
         "jp": "夜が明けるまで転がっていこうぜ",
@@ -5526,7 +6770,9 @@ const prepared = {
         "tr": "在夜揭明前讓我們跌著跤前進吧",
         "translationUserRef": 72,
         "translationMapping": "user-provided-text",
-        "time": 219.109
+        "time": 219.109,
+        "sourceEnd": 220.444,
+        "endTime": 220.444
       },
       {
         "jp": "聞こえてんなら声出していこうぜ",
@@ -5534,7 +6780,9 @@ const prepared = {
         "tr": "聽見了的話就大聲吠叫著前進吧",
         "translationUserRef": 73,
         "translationMapping": "user-provided-text",
-        "time": 223.022
+        "time": 223.022,
+        "sourceEnd": 226.828,
+        "endTime": 226.828
       }
     ],
     "lyricsSourceUrl": "https://lrclib.net/api/get/1319675",
@@ -5563,7 +6811,7 @@ const prepared = {
     "lyricsStatus": "imported",
     "translationStatus": "ready",
     "timingStatus": "preview",
-    "readingsStatus": "pending",
+    "readingsStatus": "ready",
     "lyrics": [
       {
         "jp": "気づけば靴は汚れ 錆びついた諸刃を伝う雨",
@@ -5571,7 +6819,9 @@ const prepared = {
         "tr": "回過神時髒了的溜冰鞋　雨水滑過生鏽的冰刀片",
         "translationUserRef": 0,
         "translationMapping": "user-provided-text",
-        "time": 21.25
+        "time": 21.25,
+        "sourceEnd": 26.54,
+        "endTime": 26.54
       },
       {
         "jp": "憧れはそのままで 夢から目醒めた先には夢",
@@ -5579,7 +6829,9 @@ const prepared = {
         "tr": "即使如此依然憧憬　夢醒之後仍做著夢",
         "translationUserRef": 1,
         "translationMapping": "user-provided-text",
-        "time": 26.54
+        "time": 26.54,
+        "sourceEnd": 31.85,
+        "endTime": 31.85
       },
       {
         "jp": "聞こえたその泣き声 消えいる手前の咽ぶソワレ",
@@ -5587,7 +6839,9 @@ const prepared = {
         "tr": "聽見了那聲哭喊　在那場即將結束的窒息夜演",
         "translationUserRef": 2,
         "translationMapping": "user-provided-text",
-        "time": 31.85
+        "time": 31.85,
+        "sourceEnd": 37.17,
+        "endTime": 37.17
       },
       {
         "jp": "憧れのその先へ 蹲る君を見つける為",
@@ -5595,7 +6849,9 @@ const prepared = {
         "tr": "我前往比憧憬更遠的前方　只為找到抱膝蜷縮的你",
         "translationUserRef": 3,
         "translationMapping": "user-provided-text",
-        "time": 37.17
+        "time": 37.17,
+        "sourceEnd": 42.87,
+        "endTime": 42.87
       },
       {
         "jp": "行け 行け 追いつけない速度で 飛べ インパルス加速して",
@@ -5603,7 +6859,9 @@ const prepared = {
         "tr": "去吧　去吧　用誰也追不上的速度　起跳　靠著衝動加速前進",
         "translationUserRef": 4,
         "translationMapping": "user-provided-text",
-        "time": 42.87
+        "time": 42.87,
+        "sourceEnd": 48.84,
+        "endTime": 48.84
       },
       {
         "jp": "行け きっとこの時を感じる為に生まれてきたんだ",
@@ -5611,7 +6869,9 @@ const prepared = {
         "tr": "去吧　我們一定是為了感受這一刻　才誕生在這個世界",
         "translationUserRef": 5,
         "translationMapping": "user-provided-text",
-        "time": 48.84
+        "time": 48.84,
+        "sourceEnd": 53.87,
+        "endTime": 53.87
       },
       {
         "jp": "未来を掴んで 期待値を超えて 額に吹き刺す風",
@@ -5619,7 +6879,9 @@ const prepared = {
         "tr": "緊抓未來　超越期待　風吹向額前",
         "translationUserRef": 6,
         "translationMapping": "user-provided-text",
-        "time": 53.87
+        "time": 53.87,
+        "sourceEnd": 58.47,
+        "endTime": 58.47
       },
       {
         "jp": "今に見なよ きっと君の眩しさに誰もが気づくだろう",
@@ -5627,7 +6889,9 @@ const prepared = {
         "tr": "現在看好了　他們都會發現你有多耀眼",
         "translationUserRef": 7,
         "translationMapping": "user-provided-text",
-        "time": 58.47
+        "time": 58.47,
+        "sourceEnd": 64.48,
+        "endTime": 64.48
       },
       {
         "jp": "相応しい声で 視線追い越して 虚空を超えて行け",
@@ -5635,7 +6899,9 @@ const prepared = {
         "tr": "以相稱的聲音　飆離視線　劃破虛空而去",
         "translationUserRef": 8,
         "translationMapping": "user-provided-text",
-        "time": 64.48
+        "time": 64.48,
+        "sourceEnd": 69.93,
+        "endTime": 69.93
       },
       {
         "jp": "見違えていく君の指から今 手を放す",
@@ -5643,7 +6909,9 @@ const prepared = {
         "tr": "漸漸難以辨識　你啊此刻自我手中　化作離弓之箭",
         "translationUserRef": 9,
         "translationMapping": "user-provided-text",
-        "time": 69.93
+        "time": 69.93,
+        "sourceEnd": 85.23,
+        "endTime": 85.23
       },
       {
         "jp": "気づけば謎は解かれ 木目ごと見慣れた板の上",
@@ -5651,7 +6919,9 @@ const prepared = {
         "tr": "猛然回首　謎團已然開解　在這滿是木紋般見慣了的地面",
         "translationUserRef": 10,
         "translationMapping": "user-provided-text",
-        "time": 85.23
+        "time": 85.23,
+        "sourceEnd": 90.38,
+        "endTime": 90.38
       },
       {
         "jp": "あの頃焦がれたような大人になれたかな",
@@ -5659,7 +6929,9 @@ const prepared = {
         "tr": "我是否已成為當初嚮往的那個大人了呢",
         "translationUserRef": 11,
         "translationMapping": "user-provided-text",
-        "time": 90.38
+        "time": 90.38,
+        "sourceEnd": 95.26,
+        "endTime": 95.26
       },
       {
         "jp": "そう君の苦悩は君が自分で選んだ痛みだ",
@@ -5667,7 +6939,9 @@ const prepared = {
         "tr": "是啊你的苦惱　是你親手選擇的痛苦",
         "translationUserRef": 12,
         "translationMapping": "user-provided-text",
-        "time": 95.26
+        "time": 95.26,
+        "sourceEnd": 99.92,
+        "endTime": 99.92
       },
       {
         "jp": "そして掴んだあの煌めきも全て君のものだ",
@@ -5675,7 +6949,9 @@ const prepared = {
         "tr": "而你緊抓住的輝煌　也全都屬於你啊",
         "translationUserRef": 13,
         "translationMapping": "user-provided-text",
-        "time": 99.92
+        "time": 99.92,
+        "sourceEnd": 105.97,
+        "endTime": 105.97
       },
       {
         "jp": "僕は弓になって 君の白んだ掌をとって強く引いた",
@@ -5683,7 +6959,9 @@ const prepared = {
         "tr": "我成為弓　握住你發白的手掌　用力拉開",
         "translationUserRef": 14,
         "translationMapping": "user-provided-text",
-        "time": 105.97
+        "time": 105.97,
+        "sourceEnd": 112.22,
+        "endTime": 112.22
       },
       {
         "jp": "今君は決して風に流れない矢になって",
@@ -5691,7 +6969,9 @@ const prepared = {
         "tr": "現在你將化作絕不屈服於風的箭",
         "translationUserRef": 15,
         "translationMapping": "user-provided-text",
-        "time": 112.22
+        "time": 112.22,
+        "sourceEnd": 117.56,
+        "endTime": 117.56
       },
       {
         "jp": "行け（行け）決して振り向かないで（飛べ）もう届かない場所へ",
@@ -5699,7 +6979,9 @@ const prepared = {
         "tr": "去吧　去吧　千萬不要回望　起跳　去往誰也抵達不了的地方",
         "translationUserRef": 16,
         "translationMapping": "user-provided-text",
-        "time": 117.56
+        "time": 117.56,
+        "sourceEnd": 123.3,
+        "endTime": 123.3
       },
       {
         "jp": "行け 行け 行け 君はいつだって輝いていた！",
@@ -5707,7 +6989,9 @@ const prepared = {
         "tr": "去吧　去吧　你一直都是如此令人目眩！",
         "translationUserRef": 17,
         "translationMapping": "user-provided-text",
-        "time": 123.3
+        "time": 123.3,
+        "sourceEnd": 139.17,
+        "endTime": 139.17
       },
       {
         "jp": "未来を掴んで 期待値を超えて 額に吹き刺す風",
@@ -5715,7 +6999,9 @@ const prepared = {
         "tr": "緊抓未來　超越期待　風吹向額前",
         "translationUserRef": 18,
         "translationMapping": "user-provided-text",
-        "time": 139.17
+        "time": 139.17,
+        "sourceEnd": 143.73,
+        "endTime": 143.73
       },
       {
         "jp": "今に見なよ きっと君の眩しさに誰もが気づくだろう",
@@ -5723,7 +7009,9 @@ const prepared = {
         "tr": "現在看好了　他們都會發現你有多耀眼",
         "translationUserRef": 19,
         "translationMapping": "user-provided-text",
-        "time": 143.73
+        "time": 143.73,
+        "sourceEnd": 149.86,
+        "endTime": 149.86
       },
       {
         "jp": "相応しい声で 視線追い越して 虚空を超えて行け",
@@ -5731,7 +7019,9 @@ const prepared = {
         "tr": "以相稱的聲音　飆離視線　劃破虛空而去",
         "translationUserRef": 20,
         "translationMapping": "user-provided-text",
-        "time": 149.86
+        "time": 149.86,
+        "sourceEnd": 155.26,
+        "endTime": 155.26
       },
       {
         "jp": "見違えていく君の指から今 手を放す",
@@ -5739,7 +7029,9 @@ const prepared = {
         "tr": "漸漸難以辨識　你啊此刻自我手中　化作離弓之箭",
         "translationUserRef": 21,
         "translationMapping": "user-provided-text",
-        "time": 155.26
+        "time": 155.26,
+        "sourceEnd": 160.92,
+        "endTime": 160.92
       }
     ],
     "lyricsSourceUrl": "https://lrclib.net/api/get/30476214",
@@ -5768,7 +7060,7 @@ const prepared = {
     "lyricsStatus": "imported",
     "translationStatus": "ready",
     "timingStatus": "preview",
-    "readingsStatus": "pending",
+    "readingsStatus": "ready",
     "lyrics": [
       {
         "jp": "いつか僕らの上をスレスレに",
@@ -5776,7 +7068,9 @@ const prepared = {
         "tr": "某日低空飛過",
         "translationUserRef": 0,
         "translationMapping": "user-provided-text",
-        "time": 21.8
+        "time": 21.8,
+        "sourceEnd": 25.29,
+        "endTime": 25.29
       },
       {
         "jp": "通りすぎていったあの飛行機を",
@@ -5784,7 +7078,9 @@ const prepared = {
         "tr": "我們頭頂的那架飛機",
         "translationUserRef": 1,
         "translationMapping": "user-provided-text",
-        "time": 25.29
+        "time": 25.29,
+        "sourceEnd": 27.17,
+        "endTime": 27.17
       },
       {
         "jp": "不思議なくらいに憶えてる",
@@ -5792,7 +7088,9 @@ const prepared = {
         "tr": "我們竟奇妙地一直記在心底",
         "translationUserRef": 2,
         "translationMapping": "user-provided-text",
-        "time": 27.17
+        "time": 27.17,
+        "sourceEnd": 29.26,
+        "endTime": 29.26
       },
       {
         "jp": "意味もないのに 何故か",
@@ -5800,7 +7098,9 @@ const prepared = {
         "tr": "明明毫無意義　為什麼呢",
         "translationUserRef": 3,
         "translationMapping": "user-provided-text",
-        "time": 29.26
+        "time": 29.26,
+        "sourceEnd": 32.43,
+        "endTime": 32.43
       },
       {
         "jp": "不甲斐なくて泣いた日の夜に",
@@ -5808,7 +7108,9 @@ const prepared = {
         "tr": "窩囊哭泣的夜裡",
         "translationUserRef": 4,
         "translationMapping": "user-provided-text",
-        "time": 32.43
+        "time": 32.43,
+        "sourceEnd": 34.84,
+        "endTime": 34.84
       },
       {
         "jp": "ただ強くなりたいと願ってた",
@@ -5816,7 +7118,9 @@ const prepared = {
         "tr": "一心祈禱能變得更堅強",
         "translationUserRef": 5,
         "translationMapping": "user-provided-text",
-        "time": 34.84
+        "time": 34.84,
+        "sourceEnd": 37.05,
+        "endTime": 37.05
       },
       {
         "jp": "そのために必要な勇気を",
@@ -5824,7 +7128,9 @@ const prepared = {
         "tr": "不可或缺的勇氣",
         "translationUserRef": 6,
         "translationMapping": "user-provided-text",
-        "time": 37.05
+        "time": 37.05,
+        "sourceEnd": 39.42,
+        "endTime": 39.42
       },
       {
         "jp": "探し求めていた",
@@ -5832,7 +7138,9 @@ const prepared = {
         "tr": "為此我們追尋著",
         "translationUserRef": 7,
         "translationMapping": "user-provided-text",
-        "time": 39.42
+        "time": 39.42,
+        "sourceEnd": 41.27,
+        "endTime": 41.27
       },
       {
         "jp": "残酷な運命が定まっているとして",
@@ -5840,7 +7148,9 @@ const prepared = {
         "tr": "即使殘酷的命運已注定無法改變",
         "translationUserRef": 8,
         "translationMapping": "user-provided-text",
-        "time": 41.27
+        "time": 41.27,
+        "sourceEnd": 46.39,
+        "endTime": 46.39
       },
       {
         "jp": "それがいつの日か僕の前に現れるとして",
@@ -5848,7 +7158,9 @@ const prepared = {
         "tr": "即使那總有一天會降臨在我的面前",
         "translationUserRef": 9,
         "translationMapping": "user-provided-text",
-        "time": 46.39
+        "time": 46.39,
+        "sourceEnd": 51.21,
+        "endTime": 51.21
       },
       {
         "jp": "ただ一瞬 この一瞬 息ができるなら",
@@ -5856,7 +7168,9 @@ const prepared = {
         "tr": "但只要一瞬　就這一瞬　還能呼吸",
         "translationUserRef": 10,
         "translationMapping": "user-provided-text",
-        "time": 51.21
+        "time": 51.21,
+        "sourceEnd": 56.05,
+        "endTime": 56.05
       },
       {
         "jp": "どうでもいいと思えた",
@@ -5864,7 +7178,9 @@ const prepared = {
         "tr": "便覺得怎樣都無所謂",
         "translationUserRef": 11,
         "translationMapping": "user-provided-text",
-        "time": 56.05
+        "time": 56.05,
+        "sourceEnd": 58.21,
+        "endTime": 58.21
       },
       {
         "jp": "その心を",
@@ -5872,7 +7188,9 @@ const prepared = {
         "tr": "這顆心",
         "translationUserRef": 12,
         "translationMapping": "user-provided-text",
-        "time": 58.21
+        "time": 58.21,
+        "sourceEnd": 61.98,
+        "endTime": 61.98
       },
       {
         "jp": "もう一度 遠くへ行け 遠くへ行けと",
@@ -5880,7 +7198,9 @@ const prepared = {
         "tr": "再一次　往遠方前進往遠方前進",
         "translationUserRef": 13,
         "translationMapping": "user-provided-text",
-        "time": 61.98
+        "time": 61.98,
+        "sourceEnd": 66.27,
+        "endTime": 66.27
       },
       {
         "jp": "僕の中で誰かが歌う",
@@ -5888,7 +7208,9 @@ const prepared = {
         "tr": "在我之中的某個誰如此高歌",
         "translationUserRef": 14,
         "translationMapping": "user-provided-text",
-        "time": 66.27
+        "time": 66.27,
+        "sourceEnd": 68.38,
+        "endTime": 68.38
       },
       {
         "jp": "どうしようもないほど熱烈に",
@@ -5896,7 +7218,9 @@ const prepared = {
         "tr": "熱烈地無法自拔",
         "translationUserRef": 15,
         "translationMapping": "user-provided-text",
-        "time": 68.38
+        "time": 68.38,
+        "sourceEnd": 72.37,
+        "endTime": 72.37
       },
       {
         "jp": "いつだって目を腫らした君が二度と",
@@ -5904,7 +7228,9 @@ const prepared = {
         "tr": "無論何時　只為讓哭腫雙眼的你",
         "translationUserRef": 16,
         "translationMapping": "user-provided-text",
-        "time": 72.37
+        "time": 72.37,
+        "sourceEnd": 75.63,
+        "endTime": 75.63
       },
       {
         "jp": "悲しまないように笑える",
@@ -5912,7 +7238,9 @@ const prepared = {
         "tr": "不再悲傷　我會展露笑容",
         "translationUserRef": 17,
         "translationMapping": "user-provided-text",
-        "time": 75.63
+        "time": 75.63,
+        "sourceEnd": 78.2,
+        "endTime": 78.2
       },
       {
         "jp": "そんなヒーローになるための歌",
@@ -5920,7 +7248,9 @@ const prepared = {
         "tr": "這是為了成為那樣的英雄而生的歌",
         "translationUserRef": 18,
         "translationMapping": "user-provided-text",
-        "time": 78.2
+        "time": 78.2,
+        "sourceEnd": 81.24,
+        "endTime": 81.24
       },
       {
         "jp": "さらば掲げろ ピースサイン",
@@ -5928,7 +7258,9 @@ const prepared = {
         "tr": "再會了　高舉勝利手勢",
         "translationUserRef": 19,
         "translationMapping": "user-provided-text",
-        "time": 81.24
+        "time": 81.24,
+        "sourceEnd": 84.9,
+        "endTime": 84.9
       },
       {
         "jp": "転がっていくストーリーを",
@@ -5936,7 +7268,9 @@ const prepared = {
         "tr": "讓我們的故事繼續轉動",
         "translationUserRef": 20,
         "translationMapping": "user-provided-text",
-        "time": 84.9
+        "time": 84.9,
+        "sourceEnd": 89,
+        "endTime": 89
       },
       {
         "jp": "「守りたい」だなんて言えるほど",
@@ -5944,7 +7278,9 @@ const prepared = {
         "tr": "我不會說我想要保護你",
         "translationUserRef": 21,
         "translationMapping": "user-provided-text",
-        "time": 97.03
+        "time": 97.03,
+        "sourceEnd": 99.44,
+        "endTime": 99.44
       },
       {
         "jp": "君が弱くはないの分かってた",
@@ -5952,7 +7288,9 @@ const prepared = {
         "tr": "因為我知道你並沒有那麼脆弱",
         "translationUserRef": 22,
         "translationMapping": "user-provided-text",
-        "time": 99.44
+        "time": 99.44,
+        "sourceEnd": 101.55,
+        "endTime": 101.55
       },
       {
         "jp": "それ以上に僕は弱くてさ",
@@ -5960,7 +7298,9 @@ const prepared = {
         "tr": "而比起你我更加軟弱",
         "translationUserRef": 23,
         "translationMapping": "user-provided-text",
-        "time": 101.55
+        "time": 101.55,
+        "sourceEnd": 104.04,
+        "endTime": 104.04
       },
       {
         "jp": "君が大事だったんだ",
@@ -5968,7 +7308,9 @@ const prepared = {
         "tr": "是因為你對我來說很重要啊",
         "translationUserRef": 24,
         "translationMapping": "user-provided-text",
-        "time": 104.04
+        "time": 104.04,
+        "sourceEnd": 106.11,
+        "endTime": 106.11
       },
       {
         "jp": "「一人で生きていくんだ」なんてさ",
@@ -5976,7 +7318,9 @@ const prepared = {
         "tr": "「要一個人活下去」",
         "translationUserRef": 25,
         "translationMapping": "user-provided-text",
-        "time": 106.11
+        "time": 106.11,
+        "sourceEnd": 109.16,
+        "endTime": 109.16
       },
       {
         "jp": "口を突いて叫んだあの日から",
@@ -5984,7 +7328,9 @@ const prepared = {
         "tr": "曾經將這句話掛在嘴邊的我",
         "translationUserRef": 26,
         "translationMapping": "user-provided-text",
-        "time": 109.16
+        "time": 109.16,
+        "sourceEnd": 111.59,
+        "endTime": 111.59
       },
       {
         "jp": "変わっていく僕を笑えばいい",
@@ -5992,7 +7338,9 @@ const prepared = {
         "tr": "如今正逐漸改變　就笑吧",
         "translationUserRef": 27,
         "translationMapping": "user-provided-text",
-        "time": 111.59
+        "time": 111.59,
+        "sourceEnd": 113.96,
+        "endTime": 113.96
       },
       {
         "jp": "独りが怖い僕を",
@@ -6000,7 +7348,9 @@ const prepared = {
         "tr": "嘲笑變得害怕一個人的我",
         "translationUserRef": 28,
         "translationMapping": "user-provided-text",
-        "time": 113.96
+        "time": 113.96,
+        "sourceEnd": 116.09,
+        "endTime": 116.09
       },
       {
         "jp": "蹴飛ばして 噛み付いて",
@@ -6008,7 +7358,9 @@ const prepared = {
         "tr": "用力踢遠用力咬緊",
         "translationUserRef": 29,
         "translationMapping": "user-provided-text",
-        "time": 116.09
+        "time": 116.09,
+        "sourceEnd": 118.77,
+        "endTime": 118.77
       },
       {
         "jp": "息もできなくて",
@@ -6016,7 +7368,9 @@ const prepared = {
         "tr": "就快要不能呼吸",
         "translationUserRef": 30,
         "translationMapping": "user-provided-text",
-        "time": 118.77
+        "time": 118.77,
+        "sourceEnd": 120.85,
+        "endTime": 120.85
       },
       {
         "jp": "騒ぐ頭と 腹の奥が",
@@ -6024,7 +7378,9 @@ const prepared = {
         "tr": "哪怕吵雜的腦袋和體內深處",
         "translationUserRef": 31,
         "translationMapping": "user-provided-text",
-        "time": 120.85
+        "time": 120.85,
+        "sourceEnd": 123.59,
+        "endTime": 123.59
       },
       {
         "jp": "くしゃくしゃになったって",
@@ -6032,7 +7388,9 @@ const prepared = {
         "tr": "亂成一團",
         "translationUserRef": 32,
         "translationMapping": "user-provided-text",
-        "time": 123.59
+        "time": 123.59,
+        "sourceEnd": 125.74,
+        "endTime": 125.74
       },
       {
         "jp": "衒いも外連も消えてしまうくらいに",
@@ -6040,7 +7398,9 @@ const prepared = {
         "tr": "連裝模作樣和騙人花招都要消失般",
         "translationUserRef": 33,
         "translationMapping": "user-provided-text",
-        "time": 125.74
+        "time": 125.74,
+        "sourceEnd": 130.22,
+        "endTime": 130.22
       },
       {
         "jp": "今は触っていたいんだ 君の心に",
@@ -6048,7 +7408,9 @@ const prepared = {
         "tr": "我現在就想碰到　你的心",
         "translationUserRef": 34,
         "translationMapping": "user-provided-text",
-        "time": 130.22
+        "time": 130.22,
+        "sourceEnd": 135.82,
+        "endTime": 135.82
       },
       {
         "jp": "僕たちはきっといつか",
@@ -6056,7 +7418,9 @@ const prepared = {
         "tr": "我們　一定總有一天",
         "translationUserRef": 35,
         "translationMapping": "user-provided-text",
-        "time": 135.82
+        "time": 135.82,
+        "sourceEnd": 139.08,
+        "endTime": 139.08
       },
       {
         "jp": "遠く離れた太陽にすら手が届いて",
@@ -6064,7 +7428,9 @@ const prepared = {
         "tr": "連遠在天邊的太陽　都能伸手觸及",
         "translationUserRef": 36,
         "translationMapping": "user-provided-text",
-        "time": 139.08
+        "time": 139.08,
+        "sourceEnd": 142.88,
+        "endTime": 142.88
       },
       {
         "jp": "夜明け前を手に入れて笑おう",
@@ -6072,7 +7438,9 @@ const prepared = {
         "tr": "讓我們抓緊破曉並相視而笑吧",
         "translationUserRef": 37,
         "translationMapping": "user-provided-text",
-        "time": 142.88
+        "time": 142.88,
+        "sourceEnd": 145.74,
+        "endTime": 145.74
       },
       {
         "jp": "そうやって青く燃える色に染まり",
@@ -6080,7 +7448,9 @@ const prepared = {
         "tr": "就這樣染上燒得青藍的顏色",
         "translationUserRef": 38,
         "translationMapping": "user-provided-text",
-        "time": 145.74
+        "time": 145.74,
+        "sourceEnd": 149.77,
+        "endTime": 149.77
       },
       {
         "jp": "朧げな街の向こうへ",
@@ -6088,7 +7458,9 @@ const prepared = {
         "tr": "往朦朧的城鎮出發",
         "translationUserRef": 39,
         "translationMapping": "user-provided-text",
-        "time": 149.77
+        "time": 149.77,
+        "sourceEnd": 152.45,
+        "endTime": 152.45
       },
       {
         "jp": "手を繋いで走って行けるはずだ",
@@ -6096,7 +7468,9 @@ const prepared = {
         "tr": "我相信我們能牽著手向那奔去",
         "translationUserRef": 40,
         "translationMapping": "user-provided-text",
-        "time": 152.45
+        "time": 152.45,
+        "sourceEnd": 155.45,
+        "endTime": 155.45
       },
       {
         "jp": "君と未来を盗み描く",
@@ -6104,7 +7478,9 @@ const prepared = {
         "tr": "與你一起去偷偷描繪未來",
         "translationUserRef": 41,
         "translationMapping": "user-provided-text",
-        "time": 155.45
+        "time": 155.45,
+        "sourceEnd": 159.4,
+        "endTime": 159.4
       },
       {
         "jp": "捻りのないストーリーを",
@@ -6112,7 +7488,9 @@ const prepared = {
         "tr": "描繪那平凡無奇的故事",
         "translationUserRef": 42,
         "translationMapping": "user-provided-text",
-        "time": 159.4
+        "time": 159.4,
+        "sourceEnd": 163.78,
+        "endTime": 163.78
       },
       {
         "jp": "瘡蓋だらけ 荒くれた日々が",
@@ -6120,7 +7498,9 @@ const prepared = {
         "tr": "遍體鱗傷粗暴胡來的那些日子",
         "translationUserRef": 43,
         "translationMapping": "user-provided-text",
-        "time": 171.76
+        "time": 171.76,
+        "sourceEnd": 174.72,
+        "endTime": 174.72
       },
       {
         "jp": "削り削られ 擦切れた今が",
@@ -6128,7 +7508,9 @@ const prepared = {
         "tr": "削減被削減而殘破不堪的現在",
         "translationUserRef": 44,
         "translationMapping": "user-provided-text",
-        "time": 174.72
+        "time": 174.72,
+        "sourceEnd": 176.88,
+        "endTime": 176.88
       },
       {
         "jp": "君の言葉で蘇る",
@@ -6136,7 +7518,9 @@ const prepared = {
         "tr": "都因你說的話再次甦醒",
         "translationUserRef": 45,
         "translationMapping": "user-provided-text",
-        "time": 176.88
+        "time": 176.88,
+        "sourceEnd": 178.73,
+        "endTime": 178.73
       },
       {
         "jp": "鮮やかにも 現れてく",
@@ -6144,7 +7528,9 @@ const prepared = {
         "tr": "逐漸鮮明地　浮現眼前",
         "translationUserRef": 46,
         "translationMapping": "user-provided-text",
-        "time": 178.73
+        "time": 178.73,
+        "sourceEnd": 181.49,
+        "endTime": 181.49
       },
       {
         "jp": "蛹のままで 眠る魂も",
@@ -6152,7 +7538,9 @@ const prepared = {
         "tr": "作繭自縛沉睡的靈魂",
         "translationUserRef": 47,
         "translationMapping": "user-provided-text",
-        "time": 181.49
+        "time": 181.49,
+        "sourceEnd": 183.51,
+        "endTime": 183.51
       },
       {
         "jp": "食べかけのまま 捨てたあの夢を",
@@ -6160,7 +7548,9 @@ const prepared = {
         "tr": "淺嚐幾口便捨棄的那個夢想",
         "translationUserRef": 48,
         "translationMapping": "user-provided-text",
-        "time": 183.51
+        "time": 183.51,
+        "sourceEnd": 186.24,
+        "endTime": 186.24
       },
       {
         "jp": "もう一度 取り戻せ",
@@ -6168,7 +7558,9 @@ const prepared = {
         "tr": "讓我們再次去搶奪回來吧",
         "translationUserRef": 49,
         "translationMapping": "user-provided-text",
-        "time": 186.24
+        "time": 186.24,
+        "sourceEnd": 191.24,
+        "endTime": 191.24
       },
       {
         "jp": "もう一度 遠くへ行け 遠くへ行けと",
@@ -6176,7 +7568,9 @@ const prepared = {
         "tr": "再一次　往遠方前進往遠方前進",
         "translationUserRef": 50,
         "translationMapping": "user-provided-text",
-        "time": 208.23
+        "time": 208.23,
+        "sourceEnd": 212.41,
+        "endTime": 212.41
       },
       {
         "jp": "僕の中で誰かが歌う",
@@ -6184,7 +7578,9 @@ const prepared = {
         "tr": "在我之中的某個誰如此高歌",
         "translationUserRef": 51,
         "translationMapping": "user-provided-text",
-        "time": 212.41
+        "time": 212.41,
+        "sourceEnd": 215.16,
+        "endTime": 215.16
       },
       {
         "jp": "どうしようもないほど熱烈に",
@@ -6192,7 +7588,9 @@ const prepared = {
         "tr": "熱烈地無法自拔",
         "translationUserRef": 52,
         "translationMapping": "user-provided-text",
-        "time": 215.16
+        "time": 215.16,
+        "sourceEnd": 217.87,
+        "endTime": 217.87
       },
       {
         "jp": "いつだって目を腫らした君が二度と",
@@ -6200,7 +7598,9 @@ const prepared = {
         "tr": "無論何時　只為讓哭腫雙眼的你",
         "translationUserRef": 53,
         "translationMapping": "user-provided-text",
-        "time": 217.87
+        "time": 217.87,
+        "sourceEnd": 222.16,
+        "endTime": 222.16
       },
       {
         "jp": "悲しまないように笑える",
@@ -6208,7 +7608,9 @@ const prepared = {
         "tr": "不再悲傷　我會展露笑容",
         "translationUserRef": 54,
         "translationMapping": "user-provided-text",
-        "time": 222.16
+        "time": 222.16,
+        "sourceEnd": 224.22,
+        "endTime": 224.22
       },
       {
         "jp": "そんなヒーローになるための歌",
@@ -6216,7 +7618,9 @@ const prepared = {
         "tr": "這是為了成為那樣的英雄而生的歌",
         "translationUserRef": 55,
         "translationMapping": "user-provided-text",
-        "time": 224.22
+        "time": 224.22,
+        "sourceEnd": 227.27,
+        "endTime": 227.27
       },
       {
         "jp": "さらば掲げろ ピースサイン",
@@ -6224,7 +7628,9 @@ const prepared = {
         "tr": "再會了　高舉勝利手勢",
         "translationUserRef": 56,
         "translationMapping": "user-provided-text",
-        "time": 227.27
+        "time": 227.27,
+        "sourceEnd": 232.02,
+        "endTime": 232.02
       },
       {
         "jp": "転がっていくストーリーを",
@@ -6232,7 +7638,9 @@ const prepared = {
         "tr": "讓我們的故事繼續轉動",
         "translationUserRef": 57,
         "translationMapping": "user-provided-text",
-        "time": 232.02
+        "time": 232.02,
+        "sourceEnd": 234.5,
+        "endTime": 234.5
       },
       {
         "jp": "君と未来を盗み描く",
@@ -6240,7 +7648,9 @@ const prepared = {
         "tr": "與你一起去偷偷描繪未來",
         "translationUserRef": 58,
         "translationMapping": "user-provided-text",
-        "time": 234.5
+        "time": 234.5,
+        "sourceEnd": 236.84,
+        "endTime": 236.84
       },
       {
         "jp": "捻りのないストーリーを",
@@ -6248,7 +7658,9 @@ const prepared = {
         "tr": "描繪那平凡無奇的故事",
         "translationUserRef": 59,
         "translationMapping": "user-provided-text",
-        "time": 236.84
+        "time": 236.84,
+        "sourceEnd": 239.26,
+        "endTime": 239.26
       }
     ],
     "lyricsSourceUrl": "https://lrclib.net/api/get/10123611",
@@ -6277,7 +7689,7 @@ const prepared = {
     "lyricsStatus": "imported",
     "translationStatus": "ready",
     "timingStatus": "preview",
-    "readingsStatus": "pending",
+    "readingsStatus": "ready",
     "lyrics": [
       {
         "jp": "努力 未来 a beautiful star",
@@ -6285,7 +7697,9 @@ const prepared = {
         "tr": "努力　未來　A BEAUTIFUL STAR",
         "translationUserRef": 0,
         "translationMapping": "user-provided-text",
-        "time": 9.406
+        "time": 9.406,
+        "sourceEnd": 11.062,
+        "endTime": 11.062
       },
       {
         "jp": "努力 未来 a beautiful star",
@@ -6293,7 +7707,9 @@ const prepared = {
         "tr": "努力　未來　A BEAUTIFUL STAR",
         "translationUserRef": 1,
         "translationMapping": "user-provided-text",
-        "time": 11.712
+        "time": 11.712,
+        "sourceEnd": 13.524,
+        "endTime": 13.524
       },
       {
         "jp": "努力 未来 a beautiful star",
@@ -6301,7 +7717,9 @@ const prepared = {
         "tr": "努力　未來　A BEAUTIFUL STAR",
         "translationUserRef": 2,
         "translationMapping": "user-provided-text",
-        "time": 13.828
+        "time": 13.828,
+        "sourceEnd": 15.618,
+        "endTime": 15.618
       },
       {
         "jp": "努力 未来 a beautiful star",
@@ -6309,7 +7727,9 @@ const prepared = {
         "tr": "努力　未來　A BEAUTIFUL STAR",
         "translationUserRef": 3,
         "translationMapping": "user-provided-text",
-        "time": 16.536
+        "time": 16.536,
+        "sourceEnd": 18.248,
+        "endTime": 18.248
       },
       {
         "jp": "ランドリー今日はガラ空きでラッキーデイ",
@@ -6317,7 +7737,9 @@ const prepared = {
         "tr": "洗衣店今天空無一人真是 Lucky Day",
         "translationUserRef": 4,
         "translationMapping": "user-provided-text",
-        "time": 19.397
+        "time": 19.397,
+        "sourceEnd": 22.074,
+        "endTime": 22.074
       },
       {
         "jp": "かったりい油汚れもこれでバイバイ",
@@ -6325,7 +7747,9 @@ const prepared = {
         "tr": "這樣就可以跟討厭的油漬說 Bye Bye",
         "translationUserRef": 5,
         "translationMapping": "user-provided-text",
-        "time": 24.28
+        "time": 24.28,
+        "sourceEnd": 27.392,
+        "endTime": 27.392
       },
       {
         "jp": "誰だ誰だ頭の中 呼びかける声は",
@@ -6333,7 +7757,9 @@ const prepared = {
         "tr": "是誰啊　是誰啊　腦裡呼喚我的聲音",
         "translationUserRef": 6,
         "translationMapping": "user-provided-text",
-        "time": 28.176
+        "time": 28.176,
+        "sourceEnd": 31.757,
+        "endTime": 31.757
       },
       {
         "jp": "あれが欲しいこれが欲しいと歌っている",
@@ -6341,7 +7767,9 @@ const prepared = {
         "tr": "好想要那個　好想要這個　不斷歌唱",
         "translationUserRef": 7,
         "translationMapping": "user-provided-text",
-        "time": 32.559
+        "time": 32.559,
+        "sourceEnd": 35.616,
+        "endTime": 35.616
       },
       {
         "jp": "幸せになりたい 楽して生きていたい",
@@ -6349,7 +7777,9 @@ const prepared = {
         "tr": "好想變得幸福　好想活得輕鬆",
         "translationUserRef": 8,
         "translationMapping": "user-provided-text",
-        "time": 37.4
+        "time": 37.4,
+        "sourceEnd": 40.887,
+        "endTime": 40.887
       },
       {
         "jp": "この手に掴みたい あなたのその胸の中",
@@ -6357,7 +7787,9 @@ const prepared = {
         "tr": "好想用這隻手抓住　你胸中之物",
         "translationUserRef": 9,
         "translationMapping": "user-provided-text",
-        "time": 41.932
+        "time": 41.932,
+        "sourceEnd": 49.027,
+        "endTime": 49.027
       },
       {
         "jp": "ハッピーで埋め尽くして レストインピースまで行こうぜ",
@@ -6365,7 +7797,9 @@ const prepared = {
         "tr": "用 Happy 掩埋我吧　直到 Rest in Peace 都一起前進",
         "translationUserRef": 10,
         "translationMapping": "user-provided-text",
-        "time": 51.743
+        "time": 51.743,
+        "sourceEnd": 55.623,
+        "endTime": 55.623
       },
       {
         "jp": "いつかみた地獄もいいところ 愛をばら撒いて",
@@ -6373,7 +7807,9 @@ const prepared = {
         "tr": "那日所見的地獄也是個好地方　就在那裡散播愛吧",
         "translationUserRef": 11,
         "translationMapping": "user-provided-text",
-        "time": 56.364
+        "time": 56.364,
+        "sourceEnd": 60.013,
+        "endTime": 60.013
       },
       {
         "jp": "アイラブユー貶してくれ 全部奪って笑ってくれマイハニー",
@@ -6381,7 +7817,9 @@ const prepared = {
         "tr": "I Love You　儘管瞧不起我啊　就奪走我的一切再嘲笑我啊 My Honey",
         "translationUserRef": 12,
         "translationMapping": "user-provided-text",
-        "time": 60.896
+        "time": 60.896,
+        "sourceEnd": 65.37,
+        "endTime": 65.37
       },
       {
         "jp": "努力 未来 A BEAUTIFUL STAR",
@@ -6389,7 +7827,9 @@ const prepared = {
         "tr": "努力　未來　A BEAUTIFUL STAR",
         "translationUserRef": 13,
         "translationMapping": "user-provided-text",
-        "time": 66.388
+        "time": 66.388,
+        "sourceEnd": 68.443,
+        "endTime": 68.443
       },
       {
         "jp": "努力 未来 A BEAUTIFUL STAR",
@@ -6397,7 +7837,9 @@ const prepared = {
         "tr": "努力　未來　A BEAUTIFUL STAR",
         "translationUserRef": 14,
         "translationMapping": "user-provided-text",
-        "time": 68.604
+        "time": 68.604,
+        "sourceEnd": 70.363,
+        "endTime": 70.363
       },
       {
         "jp": "努力 未来 A BEAUTIFUL STAR",
@@ -6405,7 +7847,9 @@ const prepared = {
         "tr": "努力　未來　A BEAUTIFUL STAR",
         "translationUserRef": 15,
         "translationMapping": "user-provided-text",
-        "time": 71.092
+        "time": 71.092,
+        "sourceEnd": 72.825,
+        "endTime": 72.825
       },
       {
         "jp": "なんか忘れちゃってんだ",
@@ -6413,7 +7857,9 @@ const prepared = {
         "tr": "總覺得不小心忘記了什麼呢",
         "translationUserRef": 16,
         "translationMapping": "user-provided-text",
-        "time": 73.162
+        "time": 73.162,
+        "sourceEnd": 74.858,
+        "endTime": 74.858
       },
       {
         "jp": "努力 未来 a beautiful star",
@@ -6421,7 +7867,9 @@ const prepared = {
         "tr": "努力　未來　A BEAUTIFUL STAR",
         "translationUserRef": 17,
         "translationMapping": "user-provided-text",
-        "time": 75.442
+        "time": 75.442,
+        "sourceEnd": 76.824,
+        "endTime": 76.824
       },
       {
         "jp": "努力 未来 a beautiful star",
@@ -6429,7 +7877,9 @@ const prepared = {
         "tr": "努力　未來　A BEAUTIFUL STAR",
         "translationUserRef": 18,
         "translationMapping": "user-provided-text",
-        "time": 77.893
+        "time": 77.893,
+        "sourceEnd": 79.676,
+        "endTime": 79.676
       },
       {
         "jp": "努力 未来 a beautiful star",
@@ -6437,7 +7887,9 @@ const prepared = {
         "tr": "努力　未來　A BEAUTIFUL STAR",
         "translationUserRef": 19,
         "translationMapping": "user-provided-text",
-        "time": 80.196
+        "time": 80.196,
+        "sourceEnd": 82.259,
+        "endTime": 82.259
       },
       {
         "jp": "努力 未来 a beautiful star",
@@ -6445,7 +7897,9 @@ const prepared = {
         "tr": "努力　未來　A BEAUTIFUL STAR",
         "translationUserRef": 20,
         "translationMapping": "user-provided-text",
-        "time": 82.335
+        "time": 82.335,
+        "sourceEnd": 84.236,
+        "endTime": 84.236
       },
       {
         "jp": "4443で外れる炭酸水",
@@ -6453,7 +7907,9 @@ const prepared = {
         "tr": "４４４接著卻是３沒能再來一瓶氣泡水",
         "translationUserRef": 21,
         "translationMapping": "user-provided-text",
-        "time": 85.006
+        "time": 85.006,
+        "sourceEnd": 87.756,
+        "endTime": 87.756
       },
       {
         "jp": "ハングリー拗らせて吐きそうな人生",
@@ -6461,7 +7917,9 @@ const prepared = {
         "tr": "Hungry 難以擺脫快要吐出來的人生",
         "translationUserRef": 22,
         "translationMapping": "user-provided-text",
-        "time": 89.761
+        "time": 89.761,
+        "sourceEnd": 92.872,
+        "endTime": 92.872
       },
       {
         "jp": "「止まない雨はない」より先に その傘をくれよ",
@@ -6469,7 +7927,9 @@ const prepared = {
         "tr": "比起說什麼沒有不會停的雨　不如你就先把傘給我",
         "translationUserRef": 23,
         "translationMapping": "user-provided-text",
-        "time": 93.996
+        "time": 93.996,
+        "sourceEnd": 97.82,
+        "endTime": 97.82
       },
       {
         "jp": "あれが欲しい これが欲しい 全て欲しい ただ虚しい",
@@ -6477,7 +7937,9 @@ const prepared = {
         "tr": "好想要那個　好想要這個　好想要一切　都只是空虛",
         "translationUserRef": 24,
         "translationMapping": "user-provided-text",
-        "time": 98.072
+        "time": 98.072,
+        "sourceEnd": 101.805,
+        "endTime": 101.805
       },
       {
         "jp": "幸せになりたい 楽して生きていたい",
@@ -6485,7 +7947,9 @@ const prepared = {
         "tr": "好想變得幸福　好想活得輕鬆",
         "translationUserRef": 25,
         "translationMapping": "user-provided-text",
-        "time": 104.292
+        "time": 104.292,
+        "sourceEnd": 112.39,
+        "endTime": 112.39
       },
       {
         "jp": "全部滅茶苦茶にしたい 何もかも消し去りたい",
@@ -6493,7 +7957,9 @@ const prepared = {
         "tr": "好想把一切弄得亂七八糟　好想讓這些那些都消失",
         "translationUserRef": 26,
         "translationMapping": "user-provided-text",
-        "time": 113.343
+        "time": 113.343,
+        "sourceEnd": 121.305,
+        "endTime": 121.305
       },
       {
         "jp": "あなたのその胸の中",
@@ -6501,7 +7967,9 @@ const prepared = {
         "tr": "在你的胸裡",
         "translationUserRef": 27,
         "translationMapping": "user-provided-text",
-        "time": 122.206
+        "time": 122.206,
+        "sourceEnd": 128.821,
+        "endTime": 128.821
       },
       {
         "jp": "ラッキーで埋め尽くして レストインピースまで行こうぜ",
@@ -6509,7 +7977,9 @@ const prepared = {
         "tr": "用 Lucky 掩埋我吧　直到 Rest in Peace 都一起前進",
         "translationUserRef": 28,
         "translationMapping": "user-provided-text",
-        "time": 133.919
+        "time": 133.919,
+        "sourceEnd": 137.802,
+        "endTime": 137.802
       },
       {
         "jp": "良い子だけ迎える天国じゃ どうも生きらんない",
@@ -6517,7 +7987,9 @@ const prepared = {
         "tr": "如果是只歡迎好孩子的天堂　我還真是活不下去呢",
         "translationUserRef": 29,
         "translationMapping": "user-provided-text",
-        "time": 138.7
+        "time": 138.7,
+        "sourceEnd": 142.662,
+        "endTime": 142.662
       },
       {
         "jp": "アイラブユー貶して奪って笑ってくれマイハニー",
@@ -6525,7 +7997,9 @@ const prepared = {
         "tr": "I Love You　儘管瞧不起我　儘管剝奪我　然後再嘲笑我啊 My Honey",
         "translationUserRef": 30,
         "translationMapping": "user-provided-text",
-        "time": 143.315
+        "time": 143.315,
+        "sourceEnd": 148.037,
+        "endTime": 148.037
       },
       {
         "jp": "努力 未来 a beautiful star",
@@ -6533,7 +8007,9 @@ const prepared = {
         "tr": "努力　未來　A BEAUTIFUL STAR",
         "translationUserRef": 31,
         "translationMapping": "user-provided-text",
-        "time": 148.823
+        "time": 148.823,
+        "sourceEnd": 150.748,
+        "endTime": 150.748
       },
       {
         "jp": "努力 未来 a beautiful star",
@@ -6541,7 +8017,9 @@ const prepared = {
         "tr": "努力　未來　A BEAUTIFUL STAR",
         "translationUserRef": 32,
         "translationMapping": "user-provided-text",
-        "time": 150.903
+        "time": 150.903,
+        "sourceEnd": 152.695,
+        "endTime": 152.695
       },
       {
         "jp": "努力 未来 a beautiful star",
@@ -6549,7 +8027,9 @@ const prepared = {
         "tr": "努力　未來　A BEAUTIFUL STAR",
         "translationUserRef": 33,
         "translationMapping": "user-provided-text",
-        "time": 153.532
+        "time": 153.532,
+        "sourceEnd": 155.363,
+        "endTime": 155.363
       },
       {
         "jp": "なんか忘れちゃってんだ",
@@ -6557,7 +8037,9 @@ const prepared = {
         "tr": "總覺得不小心忘記了什麼呢",
         "translationUserRef": 34,
         "translationMapping": "user-provided-text",
-        "time": 155.653
+        "time": 155.653,
+        "sourceEnd": 157.328,
+        "endTime": 157.328
       },
       {
         "jp": "ハッピー ラッキー こんにちはベイビー",
@@ -6565,7 +8047,9 @@ const prepared = {
         "tr": "Happy Lucky　你們好啊 Baby",
         "translationUserRef": 35,
         "translationMapping": "user-provided-text",
-        "time": 157.901
+        "time": 157.901,
+        "sourceEnd": 161.538,
+        "endTime": 161.538
       },
       {
         "jp": "良い子でいたい そりゃつまらない",
@@ -6573,7 +8057,9 @@ const prepared = {
         "tr": "好想當個乖孩子　但那樣很無聊吧",
         "translationUserRef": 36,
         "translationMapping": "user-provided-text",
-        "time": 162.129
+        "time": 162.129,
+        "sourceEnd": 166.03,
+        "endTime": 166.03
       },
       {
         "jp": "ハッピーラッキー こんにちはベイビーソースイート",
@@ -6581,7 +8067,9 @@ const prepared = {
         "tr": "Happy Lucky　你們好啊 Baby So Sweet",
         "translationUserRef": 37,
         "translationMapping": "user-provided-text",
-        "time": 167.021
+        "time": 167.021,
+        "sourceEnd": 171.95,
+        "endTime": 171.95
       },
       {
         "jp": "努力 未来 a beautiful star",
@@ -6589,7 +8077,9 @@ const prepared = {
         "tr": "努力　未來　A BEAUTIFUL STAR",
         "translationUserRef": 38,
         "translationMapping": "user-provided-text",
-        "time": 172.05
+        "time": 172.05,
+        "sourceEnd": 173.999,
+        "endTime": 173.999
       },
       {
         "jp": "努力 未来 a beautiful star",
@@ -6597,7 +8087,9 @@ const prepared = {
         "tr": "努力　未來　A BEAUTIFUL STAR",
         "translationUserRef": 39,
         "translationMapping": "user-provided-text",
-        "time": 174.421
+        "time": 174.421,
+        "sourceEnd": 176.298,
+        "endTime": 176.298
       },
       {
         "jp": "努力 未来 a beautiful star",
@@ -6605,7 +8097,9 @@ const prepared = {
         "tr": "努力　未來　A BEAUTIFUL STAR",
         "translationUserRef": 40,
         "translationMapping": "user-provided-text",
-        "time": 176.765
+        "time": 176.765,
+        "sourceEnd": 178.65,
+        "endTime": 178.65
       },
       {
         "jp": "なんかすごい良い感じ",
@@ -6613,7 +8107,9 @@ const prepared = {
         "tr": "總覺得舒服到不行",
         "translationUserRef": 41,
         "translationMapping": "user-provided-text",
-        "time": 179.308
+        "time": 179.308,
+        "sourceEnd": 181.233,
+        "endTime": 181.233
       },
       {
         "jp": "努力 未来 a beautiful star",
@@ -6621,7 +8117,9 @@ const prepared = {
         "tr": "努力　未來　A BEAUTIFUL STAR",
         "translationUserRef": 42,
         "translationMapping": "user-provided-text",
-        "time": 181.498
+        "time": 181.498,
+        "sourceEnd": 183.126,
+        "endTime": 183.126
       },
       {
         "jp": "努力 未来 a beautiful star",
@@ -6629,7 +8127,9 @@ const prepared = {
         "tr": "努力　未來　A BEAUTIFUL STAR",
         "translationUserRef": 43,
         "translationMapping": "user-provided-text",
-        "time": 183.552
+        "time": 183.552,
+        "sourceEnd": 185.486,
+        "endTime": 185.486
       },
       {
         "jp": "努力 未来 a beautiful star",
@@ -6637,7 +8137,9 @@ const prepared = {
         "tr": "努力　未來　A BEAUTIFUL STAR",
         "translationUserRef": 44,
         "translationMapping": "user-provided-text",
-        "time": 185.888
+        "time": 185.888,
+        "sourceEnd": 187.754,
+        "endTime": 187.754
       },
       {
         "jp": "努力 未来 a beautiful star",
@@ -6645,7 +8147,9 @@ const prepared = {
         "tr": "努力　未來　A BEAUTIFUL STAR",
         "translationUserRef": 45,
         "translationMapping": "user-provided-text",
-        "time": 188.293
+        "time": 188.293,
+        "sourceEnd": 190.333,
+        "endTime": 190.333
       }
     ],
     "lyricsSourceUrl": "https://lrclib.net/api/get/952051",
@@ -6674,7 +8178,7 @@ const prepared = {
     "lyricsStatus": "imported",
     "translationStatus": "partial",
     "timingStatus": "preview",
-    "readingsStatus": "pending",
+    "readingsStatus": "ready",
     "lyrics": [
       {
         "jp": "駄目駄目駄目",
@@ -6682,7 +8186,9 @@ const prepared = {
         "tr": "不行不行不行",
         "translationUserRef": 0,
         "translationMapping": "user-provided-text",
-        "time": 18.37
+        "time": 18.37,
+        "sourceEnd": 19.465,
+        "endTime": 19.465
       },
       {
         "jp": "脳みその中から「やめろ馬鹿」と喚くモラリティ",
@@ -6690,7 +8196,9 @@ const prepared = {
         "tr": "腦袋裡的道德感在大喊著「快住手啊笨蛋」",
         "translationUserRef": 1,
         "translationMapping": "user-provided-text",
-        "time": 20.01
+        "time": 20.01,
+        "sourceEnd": 24.783,
+        "endTime": 24.783
       },
       {
         "jp": "ダーリンベイビーダーリン",
@@ -6698,7 +8206,9 @@ const prepared = {
         "tr": "Darling Baby Darling",
         "translationUserRef": 2,
         "translationMapping": "user-provided-text",
-        "time": 25.56
+        "time": 25.56,
+        "sourceEnd": 26.957,
+        "endTime": 26.957
       },
       {
         "jp": "半端なくラブ！ときらめき浮き足立つフィロソフィ",
@@ -6706,7 +8216,9 @@ const prepared = {
         "tr": "極致的 LOVE！這信念卻閃耀到讓人飄飄然",
         "translationUserRef": 3,
         "translationMapping": "user-provided-text",
-        "time": 27.18
+        "time": 27.18,
+        "sourceEnd": 31.817,
+        "endTime": 31.817
       },
       {
         "jp": "死ぬほど可愛い上目遣い",
@@ -6714,7 +8226,9 @@ const prepared = {
         "tr": "可愛得要死的仰望眼神",
         "translationUserRef": 4,
         "translationMapping": "user-provided-text",
-        "time": 32.29
+        "time": 32.29,
+        "sourceEnd": 33.629,
+        "endTime": 33.629
       },
       {
         "jp": "なにがし法に触れるくらい",
@@ -6722,7 +8236,9 @@ const prepared = {
         "tr": "可愛到好像犯了什麼法",
         "translationUserRef": 5,
         "translationMapping": "user-provided-text",
-        "time": 34.18
+        "time": 34.18,
+        "sourceEnd": 35.64,
+        "endTime": 35.64
       },
       {
         "jp": "ばら撒く乱心 気づけば蕩尽",
@@ -6730,7 +8246,9 @@ const prepared = {
         "tr": "到處散播瘋狂　回過神已揮霍殆盡",
         "translationUserRef": 6,
         "translationMapping": "user-provided-text",
-        "time": 35.9
+        "time": 35.9,
+        "sourceEnd": 37.423,
+        "endTime": 37.423
       },
       {
         "jp": "この世に生まれた君が悪い",
@@ -6738,7 +8256,9 @@ const prepared = {
         "tr": "都是誕生在這個世界上的你不對",
         "translationUserRef": 7,
         "translationMapping": "user-provided-text",
-        "time": 37.63
+        "time": 37.63,
+        "sourceEnd": 38.943,
+        "endTime": 38.943
       },
       {
         "jp": "やたらとしんどい恋煩い",
@@ -6746,7 +8266,9 @@ const prepared = {
         "tr": "動不動就心力交瘁又戀愛腦",
         "translationUserRef": 8,
         "translationMapping": "user-provided-text",
-        "time": 39.52
+        "time": 39.52,
+        "sourceEnd": 40.91,
+        "endTime": 40.91
       },
       {
         "jp": "バラバラんなる頭とこの身体",
@@ -6754,7 +8276,9 @@ const prepared = {
         "tr": "四分五裂的這個腦袋與身體",
         "translationUserRef": 9,
         "translationMapping": "user-provided-text",
-        "time": 40.91
+        "time": 40.91,
+        "sourceEnd": 42.381,
+        "endTime": 42.381
       },
       {
         "jp": "頸動脈からアイラブユーが噴き出て",
@@ -6762,7 +8286,9 @@ const prepared = {
         "tr": "從頸動脈 I LOVE YOU 噴湧而出",
         "translationUserRef": 10,
         "translationMapping": "user-provided-text",
-        "time": 42.98
+        "time": 42.98,
+        "sourceEnd": 45.012,
+        "endTime": 45.012
       },
       {
         "jp": "アイリスアウト",
@@ -6770,7 +8296,9 @@ const prepared = {
         "tr": "IRIS OUT",
         "translationUserRef": 11,
         "translationMapping": "user-provided-text",
-        "time": 45.1
+        "time": 45.1,
+        "sourceEnd": 46.243,
+        "endTime": 46.243
       },
       {
         "jp": "一体どうしようこの想いを",
@@ -6778,7 +8306,9 @@ const prepared = {
         "tr": "到底該拿這份心情　怎麼辦才好",
         "translationUserRef": 12,
         "translationMapping": "user-provided-text",
-        "time": 46.45
+        "time": 46.45,
+        "sourceEnd": 48.281,
+        "endTime": 48.281
       },
       {
         "jp": "どうしようあばらの奥を",
@@ -6786,7 +8316,9 @@ const prepared = {
         "tr": "怎麼辦才好　肋骨的深處",
         "translationUserRef": 13,
         "translationMapping": "user-provided-text",
-        "time": 48.75
+        "time": 48.75,
+        "sourceEnd": 50.306,
+        "endTime": 50.306
       },
       {
         "jp": "ザラメが溶けてゲロになりそう",
@@ -6794,7 +8326,9 @@ const prepared = {
         "tr": "好像粗砂糖全都融化變成嘔吐物",
         "translationUserRef": 14,
         "translationMapping": "user-provided-text",
-        "time": 50.45
+        "time": 50.45,
+        "sourceEnd": 53.386,
+        "endTime": 53.386
       },
       {
         "jp": "瞳孔バチ開いて溺れ死にそう",
@@ -6802,7 +8336,9 @@ const prepared = {
         "tr": "就快要瞳孔放大溺死在這裡面",
         "translationUserRef": 15,
         "translationMapping": "user-provided-text",
-        "time": 54.05
+        "time": 54.05,
+        "sourceEnd": 57.077,
+        "endTime": 57.077
       },
       {
         "jp": "今この世で君だけ大正解",
@@ -6810,17 +8346,23 @@ const prepared = {
         "tr": "此生此世此刻只有你是正確答案",
         "translationUserRef": 16,
         "translationMapping": "user-provided-text",
-        "time": 57.18
+        "time": 57.18,
+        "sourceEnd": 60.476,
+        "endTime": 60.476
       },
       {
         "jp": "Darlin', darlin', darlin', darlin'",
         "sourceTime": 61.12,
-        "time": 61.12
+        "time": 61.12,
+        "sourceEnd": 64.285,
+        "endTime": 64.285
       },
       {
         "jp": "Darlin', darlin', darlin', darlin'",
         "sourceTime": 64.72,
-        "time": 64.72
+        "time": 64.72,
+        "sourceEnd": 67.662,
+        "endTime": 67.662
       },
       {
         "jp": "ひっくり返っても勝ちようない",
@@ -6828,7 +8370,9 @@ const prepared = {
         "tr": "絕地大反攻也毫無勝算",
         "translationUserRef": 17,
         "translationMapping": "user-provided-text",
-        "time": 74.94
+        "time": 74.94,
+        "sourceEnd": 76.435,
+        "endTime": 76.435
       },
       {
         "jp": "君だけルールは適用外",
@@ -6836,7 +8380,9 @@ const prepared = {
         "tr": "只有你完全是規則外",
         "translationUserRef": 18,
         "translationMapping": "user-provided-text",
-        "time": 76.78
+        "time": 76.78,
+        "sourceEnd": 78.105,
+        "endTime": 78.105
       },
       {
         "jp": "四つともオセロは黒しかない",
@@ -6844,7 +8390,9 @@ const prepared = {
         "tr": "黑白棋開局就四個黑子",
         "translationUserRef": 19,
         "translationMapping": "user-provided-text",
-        "time": 78.53
+        "time": 78.53,
+        "sourceEnd": 79.935,
+        "endTime": 79.935
       },
       {
         "jp": "カツアゲ放題",
@@ -6852,7 +8400,9 @@ const prepared = {
         "tr": "只能任你予取予求",
         "translationUserRef": 20,
         "translationMapping": "user-provided-text",
-        "time": 80.1
+        "time": 80.1,
+        "sourceEnd": 80.958,
+        "endTime": 80.958
       },
       {
         "jp": "君が笑顔で放ったアバダケダブラ",
@@ -6860,7 +8410,9 @@ const prepared = {
         "tr": "你面帶笑容施展啊哇呾喀呾啦",
         "translationUserRef": 21,
         "translationMapping": "user-provided-text",
-        "time": 82.12
+        "time": 82.12,
+        "sourceEnd": 84.082,
+        "endTime": 84.082
       },
       {
         "jp": "デコにスティグマ 申し訳ねえな",
@@ -6868,7 +8420,9 @@ const prepared = {
         "tr": "真抱歉啊我額頭上烙著這個疤",
         "translationUserRef": 22,
         "translationMapping": "user-provided-text",
-        "time": 84.13
+        "time": 84.13,
+        "sourceEnd": 85.749,
+        "endTime": 85.749
       },
       {
         "jp": "矢を刺して 貫いて",
@@ -6876,7 +8430,9 @@ const prepared = {
         "tr": "用箭刺入　貫穿",
         "translationUserRef": 23,
         "translationMapping": "user-provided-text",
-        "time": 86.18
+        "time": 86.18,
+        "sourceEnd": 87.55,
+        "endTime": 87.55
       },
       {
         "jp": "ここ弱点",
@@ -6884,7 +8440,9 @@ const prepared = {
         "tr": "這裡就是弱點？",
         "translationUserRef": 24,
         "translationMapping": "user-provided-text",
-        "time": 88.07
+        "time": 88.07,
+        "sourceEnd": 88.788,
+        "endTime": 88.788
       },
       {
         "jp": "死ぬほど可愛い上目遣い",
@@ -6892,7 +8450,9 @@ const prepared = {
         "tr": "可愛得要死的仰望眼神",
         "translationUserRef": 25,
         "translationMapping": "user-provided-text",
-        "time": 89.15
+        "time": 89.15,
+        "sourceEnd": 90.437,
+        "endTime": 90.437
       },
       {
         "jp": "なにがし法に触れるくらい",
@@ -6900,7 +8460,9 @@ const prepared = {
         "tr": "可愛到好像犯了什麼法",
         "translationUserRef": 26,
         "translationMapping": "user-provided-text",
-        "time": 90.99
+        "time": 90.99,
+        "sourceEnd": 92.49,
+        "endTime": 92.49
       },
       {
         "jp": "ばら撒く乱心 気づけば蕩尽",
@@ -6908,7 +8470,9 @@ const prepared = {
         "tr": "到處散播瘋狂　回過神已揮霍殆盡",
         "translationUserRef": 27,
         "translationMapping": "user-provided-text",
-        "time": 92.73
+        "time": 92.73,
+        "sourceEnd": 94.314,
+        "endTime": 94.314
       },
       {
         "jp": "この世に生まれた君が悪い",
@@ -6916,7 +8480,9 @@ const prepared = {
         "tr": "都是誕生在這個世界上的你不對",
         "translationUserRef": 28,
         "translationMapping": "user-provided-text",
-        "time": 94.57
+        "time": 94.57,
+        "sourceEnd": 95.879,
+        "endTime": 95.879
       },
       {
         "jp": "パチモンでもいい何でもいい",
@@ -6924,7 +8490,9 @@ const prepared = {
         "tr": "仿冒品也好什麼都好",
         "translationUserRef": 29,
         "translationMapping": "user-provided-text",
-        "time": 96.26
+        "time": 96.26,
+        "sourceEnd": 97.669,
+        "endTime": 97.669
       },
       {
         "jp": "今君と名付いてる全て欲しい",
@@ -6932,7 +8500,9 @@ const prepared = {
         "tr": "現在所有以你為名的東西我全都想要",
         "translationUserRef": 30,
         "translationMapping": "user-provided-text",
-        "time": 97.95
+        "time": 97.95,
+        "sourceEnd": 99.436,
+        "endTime": 99.436
       },
       {
         "jp": "頸動脈からアイラブユーが噴き出て",
@@ -6940,7 +8510,9 @@ const prepared = {
         "tr": "從頸動脈 I LOVE YOU 噴湧而出",
         "translationUserRef": 31,
         "translationMapping": "user-provided-text",
-        "time": 99.73
+        "time": 99.73,
+        "sourceEnd": 101.851,
+        "endTime": 101.851
       },
       {
         "jp": "ア、ア、ア、ア、アイリスアウト",
@@ -6949,7 +8521,9 @@ const prepared = {
         "translationUserRef": 32,
         "translationMapping": "user-provided-text",
         "translationPartial": true,
-        "time": 102.25
+        "time": 102.25,
+        "sourceEnd": 103.81,
+        "endTime": 103.81
       },
       {
         "jp": "ア、ア、ア、ア、アイリスアウト",
@@ -6958,7 +8532,9 @@ const prepared = {
         "translationUserRef": 33,
         "translationMapping": "user-provided-text",
         "translationPartial": true,
-        "time": 109.04
+        "time": 109.04,
+        "sourceEnd": 110.783,
+        "endTime": 110.783
       },
       {
         "jp": "ア、ア、ア、ア、アイリスアウト",
@@ -6967,7 +8543,9 @@ const prepared = {
         "translationUserRef": 34,
         "translationMapping": "user-provided-text",
         "translationPartial": true,
-        "time": 115.3
+        "time": 115.3,
+        "sourceEnd": 117.022,
+        "endTime": 117.022
       },
       {
         "jp": "一体どうしようこの想いを",
@@ -6975,7 +8553,9 @@ const prepared = {
         "tr": "到底該拿這份心情　怎麼辦才好",
         "translationUserRef": 35,
         "translationMapping": "user-provided-text",
-        "time": 117.56
+        "time": 117.56,
+        "sourceEnd": 119.39,
+        "endTime": 119.39
       },
       {
         "jp": "どうしようあばらの奥を",
@@ -6983,7 +8563,9 @@ const prepared = {
         "tr": "怎麼辦才好　肋骨的深處",
         "translationUserRef": 36,
         "translationMapping": "user-provided-text",
-        "time": 119.97
+        "time": 119.97,
+        "sourceEnd": 121.42,
+        "endTime": 121.42
       },
       {
         "jp": "ザラメが溶けてゲロになりそう",
@@ -6991,7 +8573,9 @@ const prepared = {
         "tr": "好像粗砂糖全都融化變成嘔吐物",
         "translationUserRef": 37,
         "translationMapping": "user-provided-text",
-        "time": 121.61
+        "time": 121.61,
+        "sourceEnd": 124.28,
+        "endTime": 124.28
       },
       {
         "jp": "瞳孔バチ開いて溺れ死にそう",
@@ -6999,7 +8583,9 @@ const prepared = {
         "tr": "就快要瞳孔放大溺死在這裡面",
         "translationUserRef": 38,
         "translationMapping": "user-provided-text",
-        "time": 125.08
+        "time": 125.08,
+        "sourceEnd": 127.964,
+        "endTime": 127.964
       },
       {
         "jp": "今この世で君だけ大正解",
@@ -7007,17 +8593,23 @@ const prepared = {
         "tr": "此生此世此刻只有你是正確答案",
         "translationUserRef": 39,
         "translationMapping": "user-provided-text",
-        "time": 128.35
+        "time": 128.35,
+        "sourceEnd": 131.349,
+        "endTime": 131.349
       },
       {
         "jp": "Darlin', darlin', darlin', darlin'",
         "sourceTime": 132.21,
-        "time": 132.21
+        "time": 132.21,
+        "sourceEnd": 135.263,
+        "endTime": 135.263
       },
       {
         "jp": "Darlin', darlin', darlin', darlin'",
         "sourceTime": 135.73,
-        "time": 135.73
+        "time": 135.73,
+        "sourceEnd": 139.01,
+        "endTime": 139.01
       }
     ],
     "lyricsSourceUrl": "https://lrclib.net/api/get/24226683",
@@ -7046,7 +8638,7 @@ const prepared = {
     "lyricsStatus": "imported",
     "translationStatus": "ready",
     "timingStatus": "preview",
-    "readingsStatus": "pending",
+    "readingsStatus": "ready",
     "lyrics": [
       {
         "jp": "子供のころに見ていた漫画の世界はいつも",
@@ -7054,7 +8646,9 @@ const prepared = {
         "tr": "小時候看的漫畫　那裡頭的世界",
         "translationUserRef": 0,
         "translationMapping": "user-provided-text",
-        "time": 12.52
+        "time": 12.52,
+        "sourceEnd": 17.55,
+        "endTime": 17.55
       },
       {
         "jp": "誰かを守って救うことが何より大切だった",
@@ -7062,7 +8656,9 @@ const prepared = {
         "tr": "最重要的往往是要去保護或是拯救誰",
         "translationUserRef": 1,
         "translationMapping": "user-provided-text",
-        "time": 17.55
+        "time": 17.55,
+        "sourceEnd": 24.01,
+        "endTime": 24.01
       },
       {
         "jp": "自分の幼さも知らず大口叩きまくって",
@@ -7070,7 +8666,9 @@ const prepared = {
         "tr": "那時尚不覺自己幼稚而總是大放厥詞",
         "translationUserRef": 2,
         "translationMapping": "user-provided-text",
-        "time": 24.01
+        "time": 24.01,
+        "sourceEnd": 28.99,
+        "endTime": 28.99
       },
       {
         "jp": "滴った血の黒さをまだ憶えてる",
@@ -7078,7 +8676,9 @@ const prepared = {
         "tr": "至今仍記得鮮血滴落時的黑",
         "translationUserRef": 3,
         "translationMapping": "user-provided-text",
-        "time": 28.99
+        "time": 28.99,
+        "sourceEnd": 34.87,
+        "endTime": 34.87
       },
       {
         "jp": "星の名前を知るたび僕らは大人になった",
@@ -7086,7 +8686,9 @@ const prepared = {
         "tr": "每當認識一顆星星　我們就長大了一點",
         "translationUserRef": 4,
         "translationMapping": "user-provided-text",
-        "time": 34.87
+        "time": 34.87,
+        "sourceEnd": 40.68,
+        "endTime": 40.68
       },
       {
         "jp": "誰にも渡せない秘密が一つずつ増えていった",
@@ -7094,7 +8696,9 @@ const prepared = {
         "tr": "無法讓渡他人的秘密也隨之增加了一些",
         "translationUserRef": 5,
         "translationMapping": "user-provided-text",
-        "time": 40.68
+        "time": 40.68,
+        "sourceEnd": 46.34,
+        "endTime": 46.34
       },
       {
         "jp": "願うだけ強くなるたび眠るのが怖くなった",
@@ -7102,7 +8706,9 @@ const prepared = {
         "tr": "渴求越是強烈　就越來越害怕入睡",
         "translationUserRef": 6,
         "translationMapping": "user-provided-text",
-        "time": 46.34
+        "time": 46.34,
+        "sourceEnd": 52.48,
+        "endTime": 52.48
       },
       {
         "jp": "なあ お前には何が見える？",
@@ -7110,7 +8716,9 @@ const prepared = {
         "tr": "哪　你到底看見了什麼？",
         "translationUserRef": 7,
         "translationMapping": "user-provided-text",
-        "time": 52.48
+        "time": 52.48,
+        "sourceEnd": 57.53,
+        "endTime": 57.53
       },
       {
         "jp": "今だけは誰の声も聞こえない場所へ行こう",
@@ -7118,7 +8726,9 @@ const prepared = {
         "tr": "現在就好　去一個聽不見任何人聲音的地方吧",
         "translationUserRef": 8,
         "translationMapping": "user-provided-text",
-        "time": 57.53
+        "time": 57.53,
+        "sourceEnd": 63.16,
+        "endTime": 63.16
       },
       {
         "jp": "寄せ書きもそっと机にしまって澄み渡る青い方へ",
@@ -7126,7 +8736,9 @@ const prepared = {
         "tr": "祝福板也悄悄塞進桌子裡　朝青空萬里的那片藍色而去",
         "translationUserRef": 9,
         "translationMapping": "user-provided-text",
-        "time": 63.16
+        "time": 63.16,
+        "sourceEnd": 69.16,
+        "endTime": 69.16
       },
       {
         "jp": "僕らは今日ただ一羽の夢見がちな烏になって",
@@ -7134,7 +8746,9 @@ const prepared = {
         "tr": "今日的我們僅僅化作一隻愛做夢的烏鴉",
         "translationUserRef": 10,
         "translationMapping": "user-provided-text",
-        "time": 69.16
+        "time": 69.16,
+        "sourceEnd": 75.31,
+        "endTime": 75.31
       },
       {
         "jp": "光を受けて続くこの道を辿り直していく",
@@ -7142,7 +8756,9 @@ const prepared = {
         "tr": "領受著光前行　重新追尋那條航線",
         "translationUserRef": 11,
         "translationMapping": "user-provided-text",
-        "time": 75.31
+        "time": 75.31,
+        "sourceEnd": 93.46,
+        "endTime": 93.46
       },
       {
         "jp": "不意に物置の奥から見つけた古いカセット",
@@ -7150,7 +8766,9 @@ const prepared = {
         "tr": "無意間在儲藏室深處發現的老舊錄音帶",
         "translationUserRef": 12,
         "translationMapping": "user-provided-text",
-        "time": 93.46
+        "time": 93.46,
+        "sourceEnd": 98.36,
+        "endTime": 98.36
       },
       {
         "jp": "直書きされていた名前が燻んで消えかけていた",
@@ -7158,7 +8776,9 @@ const prepared = {
         "tr": "手寫在上頭的名字褪了色就快要看不見",
         "translationUserRef": 13,
         "translationMapping": "user-provided-text",
-        "time": 98.36
+        "time": 98.36,
+        "sourceEnd": 105.03,
+        "endTime": 105.03
       },
       {
         "jp": "携帯電話の中にまだ残ってた写真は",
@@ -7166,7 +8786,9 @@ const prepared = {
         "tr": "那些過去留在手機裡的照片",
         "translationUserRef": 14,
         "translationMapping": "user-provided-text",
-        "time": 105.03
+        "time": 105.03,
+        "sourceEnd": 110.18,
+        "endTime": 110.18
       },
       {
         "jp": "何故かその殆ど空ばかりだった",
@@ -7174,7 +8796,9 @@ const prepared = {
         "tr": "不知為何拍的幾乎都是天空",
         "translationUserRef": 15,
         "translationMapping": "user-provided-text",
-        "time": 110.18
+        "time": 110.18,
+        "sourceEnd": 115.74,
+        "endTime": 115.74
       },
       {
         "jp": "人が嫌いなあの子に気付けば子供ができた",
@@ -7182,7 +8806,9 @@ const prepared = {
         "tr": "總說討厭人類的那女孩一轉眼有了小孩",
         "translationUserRef": 16,
         "translationMapping": "user-provided-text",
-        "time": 115.74
+        "time": 115.74,
+        "sourceEnd": 121.6,
+        "endTime": 121.6
       },
       {
         "jp": "同じ夢を見てたあいつは心を壊していった",
@@ -7190,7 +8816,9 @@ const prepared = {
         "tr": "曾經擁有同樣夢想的那傢伙把心給弄壞了",
         "translationUserRef": 17,
         "translationMapping": "user-provided-text",
-        "time": 121.6
+        "time": 121.6,
+        "sourceEnd": 127.22,
+        "endTime": 127.22
       },
       {
         "jp": "さよならも言えないままあの人はいなくなった",
@@ -7198,7 +8826,9 @@ const prepared = {
         "tr": "連再見都還來不及說那個人已經不在",
         "translationUserRef": 18,
         "translationMapping": "user-provided-text",
-        "time": 127.22
+        "time": 127.22,
+        "sourceEnd": 133.44,
+        "endTime": 133.44
       },
       {
         "jp": "なあ そこからは何が見える？",
@@ -7206,7 +8836,9 @@ const prepared = {
         "tr": "哪　你們從那裡能看見什麼？",
         "translationUserRef": 19,
         "translationMapping": "user-provided-text",
-        "time": 133.44
+        "time": 133.44,
+        "sourceEnd": 142.89,
+        "endTime": 142.89
       },
       {
         "jp": "子供のころに見た漫画の世界から",
@@ -7214,7 +8846,9 @@ const prepared = {
         "tr": "小時候看的漫畫　那裡頭的世界",
         "translationUserRef": 20,
         "translationMapping": "user-provided-text",
-        "time": 142.89
+        "time": 142.89,
+        "sourceEnd": 148.66,
+        "endTime": 148.66
       },
       {
         "jp": "誰かの為に生きることを教わった",
@@ -7222,7 +8856,9 @@ const prepared = {
         "tr": "教會了我要為某個誰而活",
         "translationUserRef": 21,
         "translationMapping": "user-provided-text",
-        "time": 148.66
+        "time": 148.66,
+        "sourceEnd": 154.53,
+        "endTime": 154.53
       },
       {
         "jp": "上手く言えないけど僕が生まれたのは",
@@ -7230,7 +8866,9 @@ const prepared = {
         "tr": "雖然不太會表達但其實",
         "translationUserRef": 22,
         "translationMapping": "user-provided-text",
-        "time": 154.53
+        "time": 154.53,
+        "sourceEnd": 160.24,
+        "endTime": 160.24
       },
       {
         "jp": "誰かの為じゃなかったんだ",
@@ -7238,7 +8876,9 @@ const prepared = {
         "tr": "我生來並不是為了任何人啊",
         "translationUserRef": 23,
         "translationMapping": "user-provided-text",
-        "time": 160.24
+        "time": 160.24,
+        "sourceEnd": 165.89,
+        "endTime": 165.89
       },
       {
         "jp": "紙吹雪を散らそうあの空席を目掛けて",
@@ -7246,7 +8886,9 @@ const prepared = {
         "tr": "讓紙花撒向那張空蕩蕩的座位吧",
         "translationUserRef": 24,
         "translationMapping": "user-provided-text",
-        "time": 165.89
+        "time": 165.89,
+        "sourceEnd": 170.65,
+        "endTime": 170.65
       },
       {
         "jp": "更地になった公園でひたすら日が暮れるまで",
@@ -7254,7 +8896,9 @@ const prepared = {
         "tr": "在變成了空地的公園固執等到太陽落下",
         "translationUserRef": 25,
         "translationMapping": "user-provided-text",
-        "time": 170.65
+        "time": 170.65,
+        "sourceEnd": 177.26,
+        "endTime": 177.26
       },
       {
         "jp": "自分の幼さも知らず大口叩きまくって",
@@ -7262,7 +8906,9 @@ const prepared = {
         "tr": "那時尚不覺自己幼稚而總是大放厥詞",
         "translationUserRef": 26,
         "translationMapping": "user-provided-text",
-        "time": 177.26
+        "time": 177.26,
+        "sourceEnd": 182.18,
+        "endTime": 182.18
       },
       {
         "jp": "滴った血の黒さをまだ憶えてる",
@@ -7270,7 +8916,9 @@ const prepared = {
         "tr": "至今仍記得鮮血滴落時的黑",
         "translationUserRef": 27,
         "translationMapping": "user-provided-text",
-        "time": 182.18
+        "time": 182.18,
+        "sourceEnd": 187.72,
+        "endTime": 187.72
       },
       {
         "jp": "今だけは誰の声も聞こえない場所へ行こう",
@@ -7278,7 +8926,9 @@ const prepared = {
         "tr": "現在就好　去一個聽不見任何人聲音的地方吧",
         "translationUserRef": 28,
         "translationMapping": "user-provided-text",
-        "time": 187.72
+        "time": 187.72,
+        "sourceEnd": 193.12,
+        "endTime": 193.12
       },
       {
         "jp": "寄せ書きもそっと机にしまって澄み渡る青い方へ",
@@ -7286,7 +8936,9 @@ const prepared = {
         "tr": "祝福板也悄悄塞進桌子裡　朝青空萬里的那片藍色而去",
         "translationUserRef": 29,
         "translationMapping": "user-provided-text",
-        "time": 193.12
+        "time": 193.12,
+        "sourceEnd": 199.31,
+        "endTime": 199.31
       },
       {
         "jp": "僕らは今日ただ一羽の夢見がちな烏になって",
@@ -7294,7 +8946,9 @@ const prepared = {
         "tr": "今日的我們僅僅化作一隻愛做夢的烏鴉",
         "translationUserRef": 30,
         "translationMapping": "user-provided-text",
-        "time": 199.31
+        "time": 199.31,
+        "sourceEnd": 205.44,
+        "endTime": 205.44
       },
       {
         "jp": "埃まみれで続く路地裏を辿り直していく",
@@ -7302,7 +8956,9 @@ const prepared = {
         "tr": "滿身塵埃前行　重新追尋那條小巷",
         "translationUserRef": 31,
         "translationMapping": "user-provided-text",
-        "time": 205.44
+        "time": 205.44,
+        "sourceEnd": 212.46,
+        "endTime": 212.46
       }
     ],
     "lyricsSourceUrl": "https://lrclib.net/api/get/36156838",
@@ -7331,7 +8987,7 @@ const prepared = {
     "lyricsStatus": "imported",
     "translationStatus": "ready",
     "timingStatus": "preview",
-    "readingsStatus": "pending",
+    "readingsStatus": "ready",
     "lyrics": [
       {
         "jp": "ねえ 生まれてきた日を 思い出せるかい",
@@ -7339,7 +8995,9 @@ const prepared = {
         "tr": "嘿　你還想得起來　出生那天的事嗎",
         "translationUserRef": 0,
         "translationMapping": "user-provided-text",
-        "time": 23.66
+        "time": 23.66,
+        "sourceEnd": 29.32,
+        "endTime": 29.32
       },
       {
         "jp": "シナリオの 最初の台詞を",
@@ -7347,7 +9005,9 @@ const prepared = {
         "tr": "那劇本上的　第一句台詞",
         "translationUserRef": 1,
         "translationMapping": "user-provided-text",
-        "time": 29.32
+        "time": 29.32,
+        "sourceEnd": 34.07,
+        "endTime": 34.07
       },
       {
         "jp": "舞台は巡り 演劇は続く",
@@ -7355,7 +9015,9 @@ const prepared = {
         "tr": "舞台旋轉　戲劇續演",
         "translationUserRef": 2,
         "translationMapping": "user-provided-text",
-        "time": 34.07
+        "time": 34.07,
+        "sourceEnd": 38.72,
+        "endTime": 38.72
       },
       {
         "jp": "楽屋には サンタマリアがいない",
@@ -7363,7 +9025,9 @@ const prepared = {
         "tr": "後台休息室裡　聖瑪利亞缺席",
         "translationUserRef": 3,
         "translationMapping": "user-provided-text",
-        "time": 38.72
+        "time": 38.72,
+        "sourceEnd": 42.6,
+        "endTime": 42.6
       },
       {
         "jp": "最初で最後の歌を 上手く歌えないのに",
@@ -7371,7 +9035,9 @@ const prepared = {
         "tr": "最初也是最後的那首歌　明明沒唱好",
         "translationUserRef": 4,
         "translationMapping": "user-provided-text",
-        "time": 51.86
+        "time": 51.86,
+        "sourceEnd": 57.4,
+        "endTime": 57.4
       },
       {
         "jp": "監督たちは 沈黙を守る",
@@ -7379,7 +9045,9 @@ const prepared = {
         "tr": "導演們卻　始終保持著沉默",
         "translationUserRef": 5,
         "translationMapping": "user-provided-text",
-        "time": 57.4
+        "time": 57.4,
+        "sourceEnd": 62.37,
+        "endTime": 62.37
       },
       {
         "jp": "脚本の終わりは 書きあがっていない",
@@ -7387,7 +9055,9 @@ const prepared = {
         "tr": "劇本的結局　並沒有寫完",
         "translationUserRef": 6,
         "translationMapping": "user-provided-text",
-        "time": 62.37
+        "time": 62.37,
+        "sourceEnd": 67.03,
+        "endTime": 67.03
       },
       {
         "jp": "祈る様に 僕は口を開いた",
@@ -7395,7 +9065,9 @@ const prepared = {
         "tr": "像禱告般的　我張開了口",
         "translationUserRef": 7,
         "translationMapping": "user-provided-text",
-        "time": 67.03
+        "time": 67.03,
+        "sourceEnd": 73.06,
+        "endTime": 73.06
       },
       {
         "jp": "「千年後の未来には 僕らは生きていない",
@@ -7403,7 +9075,9 @@ const prepared = {
         "tr": "「千年後的未來　我們已不復存在",
         "translationUserRef": 8,
         "translationMapping": "user-provided-text",
-        "time": 73.06
+        "time": 73.06,
+        "sourceEnd": 82.46,
+        "endTime": 82.46
       },
       {
         "jp": "友達よ いつの日も 愛してるよ きっと」",
@@ -7411,7 +9085,9 @@ const prepared = {
         "tr": "但朋友啊無論何時　我一定都會　愛著你的」",
         "translationUserRef": 9,
         "translationMapping": "user-provided-text",
-        "time": 82.46
+        "time": 82.46,
+        "sourceEnd": 91.21,
+        "endTime": 91.21
       },
       {
         "jp": "誰かが待っている 僕らの物語を",
@@ -7419,7 +9095,9 @@ const prepared = {
         "tr": "有誰正在等待　我們的故事",
         "translationUserRef": 10,
         "translationMapping": "user-provided-text",
-        "time": 91.21
+        "time": 91.21,
+        "sourceEnd": 101.6,
+        "endTime": 101.6
       },
       {
         "jp": "背骨をなくした 大きな機械が",
@@ -7427,7 +9105,9 @@ const prepared = {
         "tr": "沒了脊椎骨的　巨大機械",
         "translationUserRef": 11,
         "translationMapping": "user-provided-text",
-        "time": 110.79
+        "time": 110.79,
+        "sourceEnd": 116.23,
+        "endTime": 116.23
       },
       {
         "jp": "美しく 都市を跨いでいく",
@@ -7435,7 +9115,9 @@ const prepared = {
         "tr": "美麗地　跨越過都市",
         "translationUserRef": 12,
         "translationMapping": "user-provided-text",
-        "time": 116.23
+        "time": 116.23,
+        "sourceEnd": 120.92,
+        "endTime": 120.92
       },
       {
         "jp": "屋台は崩れ 照明が落ちる",
@@ -7443,7 +9125,9 @@ const prepared = {
         "tr": "搭棚崩塌　燈光熄滅",
         "translationUserRef": 13,
         "translationMapping": "user-provided-text",
-        "time": 120.92
+        "time": 120.92,
+        "sourceEnd": 125.87,
+        "endTime": 125.87
       },
       {
         "jp": "観客は 白い眼",
@@ -7451,7 +9135,9 @@ const prepared = {
         "tr": "觀眾們　冷眼旁觀",
         "translationUserRef": 14,
         "translationMapping": "user-provided-text",
-        "time": 125.87
+        "time": 125.87,
+        "sourceEnd": 129.42,
+        "endTime": 129.42
       },
       {
         "jp": "列なす様に 演劇は続く",
@@ -7459,7 +9145,9 @@ const prepared = {
         "tr": "成群結隊的　戲劇續演",
         "translationUserRef": 15,
         "translationMapping": "user-provided-text",
-        "time": 129.42
+        "time": 129.42,
+        "sourceEnd": 134.14,
+        "endTime": 134.14
       },
       {
         "jp": "今も新たに 羊は迷う",
@@ -7467,7 +9155,9 @@ const prepared = {
         "tr": "現下也有　新羊迷途",
         "translationUserRef": 16,
         "translationMapping": "user-provided-text",
-        "time": 134.14
+        "time": 134.14,
+        "sourceEnd": 139.04,
+        "endTime": 139.04
       },
       {
         "jp": "堪うる限りに 歌を歌おう",
@@ -7475,7 +9165,9 @@ const prepared = {
         "tr": "盡己所能的　高唱著歌",
         "translationUserRef": 17,
         "translationMapping": "user-provided-text",
-        "time": 139.04
+        "time": 139.04,
+        "sourceEnd": 144.03,
+        "endTime": 144.03
       },
       {
         "jp": "フィルムは回り続けている",
@@ -7483,7 +9175,9 @@ const prepared = {
         "tr": "而膠卷持續轉動",
         "translationUserRef": 18,
         "translationMapping": "user-provided-text",
-        "time": 144.03
+        "time": 144.03,
+        "sourceEnd": 152.99,
+        "endTime": 152.99
       },
       {
         "jp": "「千年後の未来には 僕らは生きていない",
@@ -7491,7 +9185,9 @@ const prepared = {
         "tr": "「千年後的未來　我們已不復存在",
         "translationUserRef": 19,
         "translationMapping": "user-provided-text",
-        "time": 152.99
+        "time": 152.99,
+        "sourceEnd": 162.49,
+        "endTime": 162.49
       },
       {
         "jp": "友達よ いつの日も 愛してるよ きっと」",
@@ -7499,7 +9195,9 @@ const prepared = {
         "tr": "但朋友啊無論何時　我一定都會　愛著你的」",
         "translationUserRef": 20,
         "translationMapping": "user-provided-text",
-        "time": 162.49
+        "time": 162.49,
+        "sourceEnd": 171.99,
+        "endTime": 171.99
       },
       {
         "jp": "「君の持つ寂しさが 遥かな時を超え",
@@ -7507,7 +9205,9 @@ const prepared = {
         "tr": "「你所懷抱的寂寞　會跨越悠遠的時間",
         "translationUserRef": 21,
         "translationMapping": "user-provided-text",
-        "time": 171.99
+        "time": 171.99,
+        "sourceEnd": 181.26,
+        "endTime": 181.26
       },
       {
         "jp": "誰かを救うその日を 待っているよ ずっと」",
@@ -7515,7 +9215,9 @@ const prepared = {
         "tr": "一直等待著　拯救了誰的　那天到來」",
         "translationUserRef": 22,
         "translationMapping": "user-provided-text",
-        "time": 181.26
+        "time": 181.26,
+        "sourceEnd": 190.57,
+        "endTime": 190.57
       },
       {
         "jp": "誰かが待っている 僕らの物語を",
@@ -7523,7 +9225,9 @@ const prepared = {
         "tr": "有誰正在等待　我們的故事",
         "translationUserRef": 23,
         "translationMapping": "user-provided-text",
-        "time": 190.57
+        "time": 190.57,
+        "sourceEnd": 199.63,
+        "endTime": 199.63
       }
     ],
     "lyricsSourceUrl": "https://lrclib.net/api/get/1319865",
@@ -7552,7 +9256,7 @@ const prepared = {
     "lyricsStatus": "imported",
     "translationStatus": "ready",
     "timingStatus": "preview",
-    "readingsStatus": "pending",
+    "readingsStatus": "ready",
     "lyrics": [
       {
         "jp": "もしもあの改札の前で 立ち止まらず歩いていれば",
@@ -7560,7 +9264,9 @@ const prepared = {
         "tr": "如果我沒有停在剪票口前　就這樣邁出步伐",
         "translationUserRef": 0,
         "translationMapping": "user-provided-text",
-        "time": 0.31
+        "time": 0.31,
+        "sourceEnd": 4.791,
+        "endTime": 4.791
       },
       {
         "jp": "君の顔も知らずのまま 幸せに生きていただろうか",
@@ -7568,7 +9274,9 @@ const prepared = {
         "tr": "是否就能不認得你的樣貌　幸福地活下去呢",
         "translationUserRef": 1,
         "translationMapping": "user-provided-text",
-        "time": 6.12
+        "time": 6.12,
+        "sourceEnd": 11.409,
+        "endTime": 11.409
       },
       {
         "jp": "もしもあの裏門を越えて 外へ抜け出していなければ",
@@ -7576,7 +9284,9 @@ const prepared = {
         "tr": "如果我沒有穿過那扇後門　像這樣溜到外頭",
         "translationUserRef": 2,
         "translationMapping": "user-provided-text",
-        "time": 22.5
+        "time": 22.5,
+        "sourceEnd": 27.18,
+        "endTime": 27.18
       },
       {
         "jp": "仰ぎ見た星の輝きも 靴の汚れに変わっていた",
@@ -7584,7 +9294,9 @@ const prepared = {
         "tr": "仰望所見的閃耀星群　就會變成鞋底的髒汙",
         "translationUserRef": 3,
         "translationMapping": "user-provided-text",
-        "time": 28.23
+        "time": 28.23,
+        "sourceEnd": 33.261,
+        "endTime": 33.261
       },
       {
         "jp": "寝転んだリノリウムの上 逆立ちして擦りむいた両手",
@@ -7592,7 +9304,9 @@ const prepared = {
         "tr": "倒臥在油氈地毯上　雙手因為倒立而擦傷",
         "translationUserRef": 4,
         "translationMapping": "user-provided-text",
-        "time": 34.05
+        "time": 34.05,
+        "sourceEnd": 39.05,
+        "endTime": 39.05
       },
       {
         "jp": "ここも銀河の果てだと知って 眩暈がした夜明け前",
@@ -7600,7 +9314,9 @@ const prepared = {
         "tr": "意識到這裡也是銀河的盡頭　是在暈眩的破曉之前",
         "translationUserRef": 5,
         "translationMapping": "user-provided-text",
-        "time": 39.3
+        "time": 39.3,
+        "sourceEnd": 43.881,
+        "endTime": 43.881
       },
       {
         "jp": "聞こえて 答えて 届いて 欲しくて 光って 光って 光って 叫んだ",
@@ -7608,7 +9324,9 @@ const prepared = {
         "tr": "聽到吧　回答吧　多希望　能傳達　快亮吧　快亮吧　快亮吧　我大喊",
         "translationUserRef": 6,
         "translationMapping": "user-provided-text",
-        "time": 45.72
+        "time": 45.72,
+        "sourceEnd": 51.12,
+        "endTime": 51.12
       },
       {
         "jp": "金網を越えて転がり落ちた 刹那 世界が色づいてく",
@@ -7616,7 +9334,9 @@ const prepared = {
         "tr": "越過鐵絲網時摔了下來　剎那　世界漸漸有了色彩",
         "translationUserRef": 7,
         "translationMapping": "user-provided-text",
-        "time": 51.12
+        "time": 51.12,
+        "sourceEnd": 54.989,
+        "endTime": 54.989
       },
       {
         "jp": "飛び出していけ宇宙の彼方 目の前をぶち抜くプラズマ",
@@ -7624,7 +9344,9 @@ const prepared = {
         "tr": "向前飛去吧　往宇宙的彼方　望著貫穿眼前的那道電漿",
         "translationUserRef": 8,
         "translationMapping": "user-provided-text",
-        "time": 56.25
+        "time": 56.25,
+        "sourceEnd": 61.5,
+        "endTime": 61.5
       },
       {
         "jp": "ただひたすら見蕩れていた 痣も傷も知らずに",
@@ -7632,7 +9354,9 @@ const prepared = {
         "tr": "看得出神的我　忘記了瘀青與傷疤",
         "translationUserRef": 9,
         "translationMapping": "user-provided-text",
-        "time": 61.92
+        "time": 61.92,
+        "sourceEnd": 66.501,
+        "endTime": 66.501
       },
       {
         "jp": "何光年と離れていても 踏み出した体が止まらない",
@@ -7640,7 +9364,9 @@ const prepared = {
         "tr": "無論相距多少光年　踏出那步的身體絕不會停下",
         "translationUserRef": 10,
         "translationMapping": "user-provided-text",
-        "time": 67.36
+        "time": 67.36,
+        "sourceEnd": 72.9,
+        "endTime": 72.9
       },
       {
         "jp": "今君の声が遠く聞こえている",
@@ -7648,7 +9374,9 @@ const prepared = {
         "tr": "此刻遠遠聽見你的聲響",
         "translationUserRef": 11,
         "translationMapping": "user-provided-text",
-        "time": 72.9
+        "time": 72.9,
+        "sourceEnd": 76.569,
+        "endTime": 76.569
       },
       {
         "jp": "光っていく",
@@ -7656,7 +9384,9 @@ const prepared = {
         "tr": "我化作一道光芒",
         "translationUserRef": 12,
         "translationMapping": "user-provided-text",
-        "time": 77.192
+        "time": 77.192,
+        "sourceEnd": 78.08,
+        "endTime": 78.08
       },
       {
         "jp": "改メ口の中くぐり抜け 肌を突き刺す粒子",
@@ -7664,7 +9394,9 @@ const prepared = {
         "tr": "穿過檢修口　粒子刺穿肌膚",
         "translationUserRef": 13,
         "translationMapping": "user-provided-text",
-        "time": 89.25
+        "time": 89.25,
+        "sourceEnd": 94.12,
+        "endTime": 94.12
       },
       {
         "jp": "路地裏の夜空に流れ星 酷く逃げ惑う鼠",
@@ -7672,7 +9404,9 @@ const prepared = {
         "tr": "流星劃過小巷夜空　鼠輩瘋狂逃竄",
         "translationUserRef": 14,
         "translationMapping": "user-provided-text",
-        "time": 94.78
+        "time": 94.78,
+        "sourceEnd": 99.611,
+        "endTime": 99.611
       },
       {
         "jp": "もしもあの人混みの前で 君の手を離さなければ",
@@ -7680,7 +9414,9 @@ const prepared = {
         "tr": "如果我沒有在那人群前　鬆開你的手",
         "translationUserRef": 15,
         "translationMapping": "user-provided-text",
-        "time": 100.49
+        "time": 100.49,
+        "sourceEnd": 105.261,
+        "endTime": 105.261
       },
       {
         "jp": "もしも不意に出たあの声を きつく飲み込んでいれば",
@@ -7688,7 +9424,9 @@ const prepared = {
         "tr": "如果我將不經意發出的聲音　使勁吞下",
         "translationUserRef": 16,
         "translationMapping": "user-provided-text",
-        "time": 105.95
+        "time": 105.95,
+        "sourceEnd": 110.519,
+        "endTime": 110.519
       },
       {
         "jp": "もしもあの改札の前で 立ち止まらず歩いていれば",
@@ -7696,7 +9434,9 @@ const prepared = {
         "tr": "如果我沒有停在剪票口前　就這樣邁出步伐",
         "translationUserRef": 17,
         "translationMapping": "user-provided-text",
-        "time": 111.54
+        "time": 111.54,
+        "sourceEnd": 116.49,
+        "endTime": 116.49
       },
       {
         "jp": "君はどこにもいやしなくて 僕もここにいなかった",
@@ -7704,7 +9444,9 @@ const prepared = {
         "tr": "你就不會存在於任何地方　我也不會在這啊",
         "translationUserRef": 18,
         "translationMapping": "user-provided-text",
-        "time": 117.04
+        "time": 117.04,
+        "sourceEnd": 122.941,
+        "endTime": 122.941
       },
       {
         "jp": "あの日君の放ったボールが額に当たって",
@@ -7712,7 +9454,9 @@ const prepared = {
         "tr": "那天你丟出去的球打中我的額頭",
         "translationUserRef": 19,
         "translationMapping": "user-provided-text",
-        "time": 133.94
+        "time": 133.94,
+        "sourceEnd": 136.54,
+        "endTime": 136.54
       },
       {
         "jp": "倒れる刹那僕は確かに見た",
@@ -7720,7 +9464,9 @@ const prepared = {
         "tr": "倒下的瞬間我親眼見到",
         "translationUserRef": 20,
         "translationMapping": "user-provided-text",
-        "time": 136.54
+        "time": 136.54,
+        "sourceEnd": 138.409,
+        "endTime": 138.409
       },
       {
         "jp": "ネイビーの空を走った飛行機雲を",
@@ -7728,7 +9474,9 @@ const prepared = {
         "tr": "飛機雲劃過藏青色的天空",
         "translationUserRef": 21,
         "translationMapping": "user-provided-text",
-        "time": 139.38
+        "time": 139.38,
+        "sourceEnd": 141.48,
+        "endTime": 141.48
       },
       {
         "jp": "これが愛だと知った",
@@ -7736,7 +9484,9 @@ const prepared = {
         "tr": "我意識到這就是愛啊",
         "translationUserRef": 22,
         "translationMapping": "user-provided-text",
-        "time": 142.15
+        "time": 142.15,
+        "sourceEnd": 143.869,
+        "endTime": 143.869
       },
       {
         "jp": "飛び出していけ宇宙の彼方 目の前をぶち抜くプラズマ",
@@ -7744,7 +9494,9 @@ const prepared = {
         "tr": "向前飛去吧　往宇宙的彼方　望著貫穿眼前的那道電漿",
         "translationUserRef": 23,
         "translationMapping": "user-provided-text",
-        "time": 144.91
+        "time": 144.91,
+        "sourceEnd": 150.291,
+        "endTime": 150.291
       },
       {
         "jp": "ただひたすら見蕩れていた 痛みにすら気づかずに",
@@ -7752,7 +9504,9 @@ const prepared = {
         "tr": "看得出神的我　連疼痛都未曾覺察",
         "translationUserRef": 24,
         "translationMapping": "user-provided-text",
-        "time": 150.68
+        "time": 150.68,
+        "sourceEnd": 155.18,
+        "endTime": 155.18
       },
       {
         "jp": "何光年と離れていても 踏み出した体が止まらない",
@@ -7760,7 +9514,9 @@ const prepared = {
         "tr": "無論相距多少光年　踏出那步的身體絕不會停下",
         "translationUserRef": 25,
         "translationMapping": "user-provided-text",
-        "time": 155.92
+        "time": 155.92,
+        "sourceEnd": 161.319,
+        "endTime": 161.319
       },
       {
         "jp": "今君の声が遠く聞こえている 光っていく",
@@ -7768,7 +9524,9 @@ const prepared = {
         "tr": "此刻遠遠聽見你的聲響　我化作一道光芒",
         "translationUserRef": 26,
         "translationMapping": "user-provided-text",
-        "time": 161.72
+        "time": 161.72,
+        "sourceEnd": 166.921,
+        "endTime": 166.921
       },
       {
         "jp": "光っていく",
@@ -7776,7 +9534,9 @@ const prepared = {
         "tr": "我化作一道光芒",
         "translationUserRef": 27,
         "translationMapping": "user-provided-text",
-        "time": 177.04
+        "time": 177.04,
+        "sourceEnd": 178.09,
+        "endTime": 178.09
       }
     ],
     "lyricsSourceUrl": "https://lrclib.net/api/get/16717326",
@@ -7805,7 +9565,7 @@ const prepared = {
     "lyricsStatus": "imported",
     "translationStatus": "ready",
     "timingStatus": "preview",
-    "readingsStatus": "pending",
+    "readingsStatus": "ready",
     "lyrics": [
       {
         "jp": "遥か空の星がひどく輝いて見えたから",
@@ -7813,7 +9573,9 @@ const prepared = {
         "tr": "遙遠天空中的星星看起來非常明亮",
         "translationUserRef": 0,
         "translationMapping": "user-provided-text",
-        "time": 0.75
+        "time": 0.75,
+        "sourceEnd": 9.48,
+        "endTime": 9.48
       },
       {
         "jp": "僕は震えながら その光を追いかけた",
@@ -7821,7 +9583,9 @@ const prepared = {
         "tr": "所以我顫抖著　追隨那道光芒",
         "translationUserRef": 1,
         "translationMapping": "user-provided-text",
-        "time": 9.48
+        "time": 9.48,
+        "sourceEnd": 17.82,
+        "endTime": 17.82
       },
       {
         "jp": "割れた鏡の中いつかの自分を見つめていた",
@@ -7829,7 +9593,9 @@ const prepared = {
         "tr": "凝視著碎掉鏡子裡　那往日的自己",
         "translationUserRef": 2,
         "translationMapping": "user-provided-text",
-        "time": 17.82
+        "time": 17.82,
+        "sourceEnd": 26.32,
+        "endTime": 26.32
       },
       {
         "jp": "強くなりたかった 何もかもに憧れていた",
@@ -7837,7 +9603,9 @@ const prepared = {
         "tr": "好想變得堅強　對一切都抱持嚮往",
         "translationUserRef": 3,
         "translationMapping": "user-provided-text",
-        "time": 26.32
+        "time": 26.32,
+        "sourceEnd": 35.83,
+        "endTime": 35.83
       },
       {
         "jp": "君は風に吹かれて 翻る帽子見上げ",
@@ -7845,7 +9613,9 @@ const prepared = {
         "tr": "被風吹過的你　抬頭望著翻飛的帽子",
         "translationUserRef": 4,
         "translationMapping": "user-provided-text",
-        "time": 35.83
+        "time": 35.83,
+        "sourceEnd": 44.38,
+        "endTime": 44.38
       },
       {
         "jp": "長く短い旅をゆく",
@@ -7853,7 +9623,9 @@ const prepared = {
         "tr": "踏上咫尺天涯的旅程",
         "translationUserRef": 5,
         "translationMapping": "user-provided-text",
-        "time": 44.38
+        "time": 44.38,
+        "sourceEnd": 48.43,
+        "endTime": 48.43
       },
       {
         "jp": "遠い日の面影",
@@ -7861,7 +9633,9 @@ const prepared = {
         "tr": "遙遠過往的殘影浮現",
         "translationUserRef": 6,
         "translationMapping": "user-provided-text",
-        "time": 48.43
+        "time": 48.43,
+        "sourceEnd": 54.7,
+        "endTime": 54.7
       },
       {
         "jp": "君が望むなら それは強く応えてくれるのだ",
@@ -7869,7 +9643,9 @@ const prepared = {
         "tr": "若你心有所想　他便會強烈回應你啊",
         "translationUserRef": 7,
         "translationMapping": "user-provided-text",
-        "time": 54.7
+        "time": 54.7,
+        "sourceEnd": 63.42,
+        "endTime": 63.42
       },
       {
         "jp": "今は全てに恐れるな",
@@ -7877,7 +9653,9 @@ const prepared = {
         "tr": "此刻什麼都別害怕",
         "translationUserRef": 8,
         "translationMapping": "user-provided-text",
-        "time": 63.42
+        "time": 63.42,
+        "sourceEnd": 67.43,
+        "endTime": 67.43
       },
       {
         "jp": "痛みを知るただ一人であれ",
@@ -7885,7 +9663,9 @@ const prepared = {
         "tr": "成為唯一一個　明白何謂痛苦的人吧",
         "translationUserRef": 9,
         "translationMapping": "user-provided-text",
-        "time": 67.43
+        "time": 67.43,
+        "sourceEnd": 72.24,
+        "endTime": 72.24
       },
       {
         "jp": "いまに枯れる花が 最後に僕へと語りかけた",
@@ -7893,7 +9673,9 @@ const prepared = {
         "tr": "一朵即將凋謝的花　對我說了最後一句話",
         "translationUserRef": 10,
         "translationMapping": "user-provided-text",
-        "time": 88.68
+        "time": 88.68,
+        "sourceEnd": 97.07,
+        "endTime": 97.07
       },
       {
         "jp": "「姿見えなくとも 遥か先で見守っている」と",
@@ -7901,7 +9683,9 @@ const prepared = {
         "tr": "「即使你看不見我的身影　我也會在遠方守護著你」",
         "translationUserRef": 11,
         "translationMapping": "user-provided-text",
-        "time": 97.07
+        "time": 97.07,
+        "sourceEnd": 105.75,
+        "endTime": 105.75
       },
       {
         "jp": "そうだ 君は打ちひしがれて 削れていく心根",
@@ -7909,7 +9693,9 @@ const prepared = {
         "tr": "是呀　遭受打擊的你　本質逐漸磨損",
         "translationUserRef": 12,
         "translationMapping": "user-provided-text",
-        "time": 105.75
+        "time": 105.75,
+        "sourceEnd": 115.09,
+        "endTime": 115.09
       },
       {
         "jp": "物語の始まりは",
@@ -7917,7 +9703,9 @@ const prepared = {
         "tr": "故事開頭總是",
         "translationUserRef": 13,
         "translationMapping": "user-provided-text",
-        "time": 115.09
+        "time": 115.09,
+        "sourceEnd": 119.13,
+        "endTime": 119.13
       },
       {
         "jp": "微かな寂しさ",
@@ -7925,7 +9713,9 @@ const prepared = {
         "tr": "帶著些許寂寞",
         "translationUserRef": 14,
         "translationMapping": "user-provided-text",
-        "time": 119.13
+        "time": 119.13,
+        "sourceEnd": 125.57,
+        "endTime": 125.57
       },
       {
         "jp": "君の手が触れた それは引き合う孤独の力なら",
@@ -7933,7 +9723,9 @@ const prepared = {
         "tr": "你的手碰到了我　若孤獨有著拉近彼此的力量",
         "translationUserRef": 15,
         "translationMapping": "user-provided-text",
-        "time": 125.57
+        "time": 125.57,
+        "sourceEnd": 134.26,
+        "endTime": 134.26
       },
       {
         "jp": "誰がどうして奪えるものか",
@@ -7941,7 +9733,9 @@ const prepared = {
         "tr": "又有誰能奪走它",
         "translationUserRef": 16,
         "translationMapping": "user-provided-text",
-        "time": 134.26
+        "time": 134.26,
+        "sourceEnd": 138.05,
+        "endTime": 138.05
       },
       {
         "jp": "求めあえる 命果てるまで",
@@ -7949,7 +9743,9 @@ const prepared = {
         "tr": "讓我們互相渴望　直到生命盡頭",
         "translationUserRef": 17,
         "translationMapping": "user-provided-text",
-        "time": 138.05
+        "time": 138.05,
+        "sourceEnd": 144.59,
+        "endTime": 144.59
       },
       {
         "jp": "輝く星は言う 木の葉の向こうから",
@@ -7957,7 +9753,9 @@ const prepared = {
         "tr": "發光的星星在說話　從枝葉的那頭傳來",
         "translationUserRef": 18,
         "translationMapping": "user-provided-text",
-        "time": 151.43
+        "time": 151.43,
+        "sourceEnd": 159.75,
+        "endTime": 159.75
       },
       {
         "jp": "君はただ見つめる 未来を想いながら",
@@ -7965,7 +9763,9 @@ const prepared = {
         "tr": "你只是凝視著它　揣想著未來",
         "translationUserRef": 19,
         "translationMapping": "user-provided-text",
-        "time": 159.75
+        "time": 159.75,
+        "sourceEnd": 168.34,
+        "endTime": 168.34
       },
       {
         "jp": "僕らは進む 何も知らずに彼方のほうへ",
@@ -7973,7 +9773,9 @@ const prepared = {
         "tr": "一無所知的我們　將前往那方向",
         "translationUserRef": 20,
         "translationMapping": "user-provided-text",
-        "time": 168.34
+        "time": 168.34,
+        "sourceEnd": 183.1,
+        "endTime": 183.1
       },
       {
         "jp": "君が望むなら それは強く応えてくれるのだ",
@@ -7981,7 +9783,9 @@ const prepared = {
         "tr": "若你心有所想　他便會強烈回應你啊",
         "translationUserRef": 21,
         "translationMapping": "user-provided-text",
-        "time": 185.5
+        "time": 185.5,
+        "sourceEnd": 194.16,
+        "endTime": 194.16
       },
       {
         "jp": "今は全てに恐れるな",
@@ -7989,7 +9793,9 @@ const prepared = {
         "tr": "此刻什麼都別害怕",
         "translationUserRef": 22,
         "translationMapping": "user-provided-text",
-        "time": 194.16
+        "time": 194.16,
+        "sourceEnd": 198.27,
+        "endTime": 198.27
       },
       {
         "jp": "痛みを知る ただ一人であれ",
@@ -7997,7 +9803,9 @@ const prepared = {
         "tr": "成為唯一一個　明白何謂痛苦的人吧",
         "translationUserRef": 23,
         "translationMapping": "user-provided-text",
-        "time": 198.27
+        "time": 198.27,
+        "sourceEnd": 207.31,
+        "endTime": 207.31
       },
       {
         "jp": "微かに笑え あの星のように",
@@ -8005,7 +9813,9 @@ const prepared = {
         "tr": "微微笑一個吧　像那顆星星一樣",
         "translationUserRef": 24,
         "translationMapping": "user-provided-text",
-        "time": 207.31
+        "time": 207.31,
+        "sourceEnd": 215.38,
+        "endTime": 215.38
       },
       {
         "jp": "痛みを知る ただ一人であれ",
@@ -8013,7 +9823,9 @@ const prepared = {
         "tr": "成為唯一一個　明白何謂痛苦的人吧",
         "translationUserRef": 25,
         "translationMapping": "user-provided-text",
-        "time": 215.38
+        "time": 215.38,
+        "sourceEnd": 221.77,
+        "endTime": 221.77
       }
     ],
     "lyricsSourceUrl": "https://lrclib.net/api/get/13504276",
@@ -8042,7 +9854,7 @@ const prepared = {
     "lyricsStatus": "imported",
     "translationStatus": "ready",
     "timingStatus": "preview",
-    "readingsStatus": "pending",
+    "readingsStatus": "ready",
     "lyrics": [
       {
         "jp": "僕が生まれた日の空は",
@@ -8050,7 +9862,9 @@ const prepared = {
         "tr": "我誕生在這世上的那日天空",
         "translationUserRef": 0,
         "translationMapping": "user-provided-text",
-        "time": 16.58
+        "time": 16.58,
+        "sourceEnd": 23.77,
+        "endTime": 23.77
       },
       {
         "jp": "高く遠く晴れ渡っていた",
@@ -8058,7 +9872,9 @@ const prepared = {
         "tr": "又高又遠　青空萬里",
         "translationUserRef": 1,
         "translationMapping": "user-provided-text",
-        "time": 23.77
+        "time": 23.77,
+        "sourceEnd": 31.94,
+        "endTime": 31.94
       },
       {
         "jp": "行っておいでと背中を撫でる",
@@ -8066,7 +9882,9 @@ const prepared = {
         "tr": "也是聽到那輕撫我的背　說著去吧",
         "translationUserRef": 2,
         "translationMapping": "user-provided-text",
-        "time": 31.94
+        "time": 31.94,
+        "sourceEnd": 39.16,
+        "endTime": 39.16
       },
       {
         "jp": "声を聞いたあの日",
@@ -8074,7 +9892,9 @@ const prepared = {
         "tr": "聲音的那一天",
         "translationUserRef": 3,
         "translationMapping": "user-provided-text",
-        "time": 39.16
+        "time": 39.16,
+        "sourceEnd": 45.75,
+        "endTime": 45.75
       },
       {
         "jp": "季節の中ですれ違い",
@@ -8082,7 +9902,9 @@ const prepared = {
         "tr": "在四季更迭中錯身而過",
         "translationUserRef": 4,
         "translationMapping": "user-provided-text",
-        "time": 45.75
+        "time": 45.75,
+        "sourceEnd": 52.94,
+        "endTime": 52.94
       },
       {
         "jp": "時に人を傷つけながら",
@@ -8090,7 +9912,9 @@ const prepared = {
         "tr": "有時也會傷害了誰",
         "translationUserRef": 5,
         "translationMapping": "user-provided-text",
-        "time": 52.94
+        "time": 52.94,
+        "sourceEnd": 61,
+        "endTime": 61
       },
       {
         "jp": "光に触れて影を伸ばして",
@@ -8098,7 +9922,9 @@ const prepared = {
         "tr": "碰觸了光後影子便拉長",
         "translationUserRef": 6,
         "translationMapping": "user-provided-text",
-        "time": 61
+        "time": 61,
+        "sourceEnd": 68.26,
+        "endTime": 68.26
       },
       {
         "jp": "更に空は遠く",
@@ -8106,7 +9932,9 @@ const prepared = {
         "tr": "天空則變得更遙遠",
         "translationUserRef": 7,
         "translationMapping": "user-provided-text",
-        "time": 68.26
+        "time": 68.26,
+        "sourceEnd": 73.22,
+        "endTime": 73.22
       },
       {
         "jp": "風を受け走り出す",
@@ -8114,7 +9942,9 @@ const prepared = {
         "tr": "迎著風奔跑起來",
         "translationUserRef": 8,
         "translationMapping": "user-provided-text",
-        "time": 77.41
+        "time": 77.41,
+        "sourceEnd": 80.57,
+        "endTime": 80.57
       },
       {
         "jp": "瓦礫を越えていく",
@@ -8122,7 +9952,9 @@ const prepared = {
         "tr": "越過層層瓦礫堆",
         "translationUserRef": 9,
         "translationMapping": "user-provided-text",
-        "time": 80.57
+        "time": 80.57,
+        "sourceEnd": 83.63,
+        "endTime": 83.63
       },
       {
         "jp": "この道の行く先に",
@@ -8130,7 +9962,9 @@ const prepared = {
         "tr": "在這條路的前方",
         "translationUserRef": 10,
         "translationMapping": "user-provided-text",
-        "time": 83.63
+        "time": 83.63,
+        "sourceEnd": 86.88,
+        "endTime": 86.88
       },
       {
         "jp": "誰かが待っている",
@@ -8138,7 +9972,9 @@ const prepared = {
         "tr": "有著誰在等候",
         "translationUserRef": 11,
         "translationMapping": "user-provided-text",
-        "time": 86.88
+        "time": 86.88,
+        "sourceEnd": 89.51,
+        "endTime": 89.51
       },
       {
         "jp": "光さす夢を見る いつの日も",
@@ -8146,7 +9982,9 @@ const prepared = {
         "tr": "無論何時都做著　光芒萬丈的夢",
         "translationUserRef": 12,
         "translationMapping": "user-provided-text",
-        "time": 89.51
+        "time": 89.51,
+        "sourceEnd": 99.04,
+        "endTime": 99.04
       },
       {
         "jp": "扉を今開け放つ",
@@ -8154,7 +9992,9 @@ const prepared = {
         "tr": "此刻推開門扉",
         "translationUserRef": 13,
         "translationMapping": "user-provided-text",
-        "time": 99.04
+        "time": 99.04,
+        "sourceEnd": 101.82,
+        "endTime": 101.82
       },
       {
         "jp": "秘密を暴くように",
@@ -8162,7 +10002,9 @@ const prepared = {
         "tr": "如同親手揭曉秘密",
         "translationUserRef": 14,
         "translationMapping": "user-provided-text",
-        "time": 101.82
+        "time": 101.82,
+        "sourceEnd": 105.11,
+        "endTime": 105.11
       },
       {
         "jp": "飽き足らず思い馳せる",
@@ -8170,7 +10012,9 @@ const prepared = {
         "tr": "思緒永無止盡",
         "translationUserRef": 15,
         "translationMapping": "user-provided-text",
-        "time": 105.11
+        "time": 105.11,
+        "sourceEnd": 108.16,
+        "endTime": 108.16
       },
       {
         "jp": "地球儀を回すように",
@@ -8178,7 +10022,9 @@ const prepared = {
         "tr": "彷彿轉動著地球儀",
         "translationUserRef": 16,
         "translationMapping": "user-provided-text",
-        "time": 108.16
+        "time": 108.16,
+        "sourceEnd": 111.72,
+        "endTime": 111.72
       },
       {
         "jp": "僕が愛したあの人は",
@@ -8186,7 +10032,9 @@ const prepared = {
         "tr": "我曾深愛的那人",
         "translationUserRef": 17,
         "translationMapping": "user-provided-text",
-        "time": 123.96
+        "time": 123.96,
+        "sourceEnd": 131.35,
+        "endTime": 131.35
       },
       {
         "jp": "誰も知らないところへ行った",
@@ -8194,7 +10042,9 @@ const prepared = {
         "tr": "去往了無人知曉的地方",
         "translationUserRef": 18,
         "translationMapping": "user-provided-text",
-        "time": 131.35
+        "time": 131.35,
+        "sourceEnd": 139.42,
+        "endTime": 139.42
       },
       {
         "jp": "あの日のままの優しい顔で",
@@ -8202,7 +10052,9 @@ const prepared = {
         "tr": "那如常溫柔的面容",
         "translationUserRef": 19,
         "translationMapping": "user-provided-text",
-        "time": 139.42
+        "time": 139.42,
+        "sourceEnd": 146.77,
+        "endTime": 146.77
       },
       {
         "jp": "今もどこか遠く",
@@ -8210,7 +10062,9 @@ const prepared = {
         "tr": "如今也感覺遠在他方",
         "translationUserRef": 20,
         "translationMapping": "user-provided-text",
-        "time": 146.77
+        "time": 146.77,
+        "sourceEnd": 155.93,
+        "endTime": 155.93
       },
       {
         "jp": "雨を受け歌い出す",
@@ -8218,7 +10072,9 @@ const prepared = {
         "tr": "淋著雨高歌起來",
         "translationUserRef": 21,
         "translationMapping": "user-provided-text",
-        "time": 155.93
+        "time": 155.93,
+        "sourceEnd": 159.09,
+        "endTime": 159.09
       },
       {
         "jp": "人目も構わず",
@@ -8226,7 +10082,9 @@ const prepared = {
         "tr": "他人側目也無所謂",
         "translationUserRef": 22,
         "translationMapping": "user-provided-text",
-        "time": 159.09
+        "time": 159.09,
+        "sourceEnd": 162.03,
+        "endTime": 162.03
       },
       {
         "jp": "この道が続くのは",
@@ -8234,7 +10092,9 @@ const prepared = {
         "tr": "這條路不見終點",
         "translationUserRef": 23,
         "translationMapping": "user-provided-text",
-        "time": 162.03
+        "time": 162.03,
+        "sourceEnd": 165.02,
+        "endTime": 165.02
       },
       {
         "jp": "続けと願ったから",
@@ -8242,7 +10102,9 @@ const prepared = {
         "tr": "是因為還渴望前方",
         "translationUserRef": 24,
         "translationMapping": "user-provided-text",
-        "time": 165.02
+        "time": 165.02,
+        "sourceEnd": 168.27,
+        "endTime": 168.27
       },
       {
         "jp": "また出会う夢を見る いつまでも",
@@ -8250,7 +10112,9 @@ const prepared = {
         "tr": "自始至終都做著　再次相見的夢",
         "translationUserRef": 25,
         "translationMapping": "user-provided-text",
-        "time": 168.27
+        "time": 168.27,
+        "sourceEnd": 177.69,
+        "endTime": 177.69
       },
       {
         "jp": "一欠片握り込んだ",
@@ -8258,7 +10122,9 @@ const prepared = {
         "tr": "緊握一塊碎片",
         "translationUserRef": 26,
         "translationMapping": "user-provided-text",
-        "time": 177.69
+        "time": 177.69,
+        "sourceEnd": 180.4,
+        "endTime": 180.4
       },
       {
         "jp": "秘密を忘れぬように",
@@ -8266,7 +10132,9 @@ const prepared = {
         "tr": "為了不將秘密忘記",
         "translationUserRef": 27,
         "translationMapping": "user-provided-text",
-        "time": 180.4
+        "time": 180.4,
+        "sourceEnd": 183.41,
+        "endTime": 183.41
       },
       {
         "jp": "最後まで思い馳せる",
@@ -8274,7 +10142,9 @@ const prepared = {
         "tr": "思緒直至止息",
         "translationUserRef": 28,
         "translationMapping": "user-provided-text",
-        "time": 183.41
+        "time": 183.41,
+        "sourceEnd": 186.62,
+        "endTime": 186.62
       },
       {
         "jp": "地球儀を回すように",
@@ -8282,7 +10152,9 @@ const prepared = {
         "tr": "彷彿轉動著地球儀",
         "translationUserRef": 29,
         "translationMapping": "user-provided-text",
-        "time": 186.62
+        "time": 186.62,
+        "sourceEnd": 190.44,
+        "endTime": 190.44
       },
       {
         "jp": "小さな自分の",
@@ -8290,7 +10162,9 @@ const prepared = {
         "tr": "一切始於渺小的自己",
         "translationUserRef": 30,
         "translationMapping": "user-provided-text",
-        "time": 196.22
+        "time": 196.22,
+        "sourceEnd": 198.6,
+        "endTime": 198.6
       },
       {
         "jp": "正しい願いから始まるもの",
@@ -8298,7 +10172,9 @@ const prepared = {
         "tr": "許下的正確心願",
         "translationUserRef": 31,
         "translationMapping": "user-provided-text",
-        "time": 198.6
+        "time": 198.6,
+        "sourceEnd": 204.09,
+        "endTime": 204.09
       },
       {
         "jp": "ひとつ寂しさを抱え",
@@ -8306,7 +10182,9 @@ const prepared = {
         "tr": "懷抱一股寂寞",
         "translationUserRef": 32,
         "translationMapping": "user-provided-text",
-        "time": 204.09
+        "time": 204.09,
+        "sourceEnd": 208.16,
+        "endTime": 208.16
       },
       {
         "jp": "僕は道を曲がる",
@@ -8314,7 +10192,9 @@ const prepared = {
         "tr": "我在這條路上轉了彎",
         "translationUserRef": 33,
         "translationMapping": "user-provided-text",
-        "time": 208.16
+        "time": 208.16,
+        "sourceEnd": 215.36,
+        "endTime": 215.36
       },
       {
         "jp": "風を受け走り出す",
@@ -8322,7 +10202,9 @@ const prepared = {
         "tr": "迎著風奔跑起來",
         "translationUserRef": 34,
         "translationMapping": "user-provided-text",
-        "time": 215.36
+        "time": 215.36,
+        "sourceEnd": 218.44,
+        "endTime": 218.44
       },
       {
         "jp": "瓦礫を越えていく",
@@ -8330,7 +10212,9 @@ const prepared = {
         "tr": "越過層層瓦礫堆",
         "translationUserRef": 35,
         "translationMapping": "user-provided-text",
-        "time": 218.44
+        "time": 218.44,
+        "sourceEnd": 221.41,
+        "endTime": 221.41
       },
       {
         "jp": "この道の行く先に",
@@ -8338,7 +10222,9 @@ const prepared = {
         "tr": "在這條路的前方",
         "translationUserRef": 36,
         "translationMapping": "user-provided-text",
-        "time": 221.41
+        "time": 221.41,
+        "sourceEnd": 224.57,
+        "endTime": 224.57
       },
       {
         "jp": "誰かが待っている",
@@ -8346,7 +10232,9 @@ const prepared = {
         "tr": "有著誰在等候",
         "translationUserRef": 37,
         "translationMapping": "user-provided-text",
-        "time": 224.57
+        "time": 224.57,
+        "sourceEnd": 227.61,
+        "endTime": 227.61
       },
       {
         "jp": "光さす夢を見る いつの日も",
@@ -8354,7 +10242,9 @@ const prepared = {
         "tr": "無論何時都做著　光芒萬丈的夢",
         "translationUserRef": 38,
         "translationMapping": "user-provided-text",
-        "time": 227.61
+        "time": 227.61,
+        "sourceEnd": 236.92,
+        "endTime": 236.92
       },
       {
         "jp": "扉を今開け放つ",
@@ -8362,7 +10252,9 @@ const prepared = {
         "tr": "此刻推開門扉",
         "translationUserRef": 39,
         "translationMapping": "user-provided-text",
-        "time": 236.92
+        "time": 236.92,
+        "sourceEnd": 239.84,
+        "endTime": 239.84
       },
       {
         "jp": "秘密を暴くように",
@@ -8370,7 +10262,9 @@ const prepared = {
         "tr": "如同親手揭曉秘密",
         "translationUserRef": 40,
         "translationMapping": "user-provided-text",
-        "time": 239.84
+        "time": 239.84,
+        "sourceEnd": 242.84,
+        "endTime": 242.84
       },
       {
         "jp": "手が触れ合う喜びも",
@@ -8378,7 +10272,9 @@ const prepared = {
         "tr": "手與手相觸的喜悅",
         "translationUserRef": 41,
         "translationMapping": "user-provided-text",
-        "time": 242.84
+        "time": 242.84,
+        "sourceEnd": 245.91,
+        "endTime": 245.91
       },
       {
         "jp": "手放した悲しみも",
@@ -8386,7 +10282,9 @@ const prepared = {
         "tr": "手將手放開的傷悲",
         "translationUserRef": 42,
         "translationMapping": "user-provided-text",
-        "time": 245.91
+        "time": 245.91,
+        "sourceEnd": 249.15,
+        "endTime": 249.15
       },
       {
         "jp": "飽き足らず描いていく",
@@ -8394,7 +10292,9 @@ const prepared = {
         "tr": "持續描繪永不滿足",
         "translationUserRef": 43,
         "translationMapping": "user-provided-text",
-        "time": 249.15
+        "time": 249.15,
+        "sourceEnd": 252.18,
+        "endTime": 252.18
       },
       {
         "jp": "地球儀を回すように",
@@ -8402,7 +10302,9 @@ const prepared = {
         "tr": "彷彿轉動著地球儀",
         "translationUserRef": 44,
         "translationMapping": "user-provided-text",
-        "time": 252.18
+        "time": 252.18,
+        "sourceEnd": 255.83,
+        "endTime": 255.83
       }
     ],
     "lyricsSourceUrl": "https://lrclib.net/api/get/3069994",
@@ -8431,7 +10333,7 @@ const prepared = {
     "lyricsStatus": "imported",
     "translationStatus": "ready",
     "timingStatus": "preview",
-    "readingsStatus": "pending",
+    "readingsStatus": "ready",
     "lyrics": [
       {
         "jp": "あたしあなたに会えて 本当に嬉しいのに",
@@ -8439,7 +10341,9 @@ const prepared = {
         "tr": "能遇見你我真的很開心",
         "translationUserRef": 0,
         "translationMapping": "user-provided-text",
-        "time": 0.85
+        "time": 0.85,
+        "sourceEnd": 5.702,
+        "endTime": 5.702
       },
       {
         "jp": "当たり前のように それらすべてが悲しいんだ",
@@ -8447,7 +10351,9 @@ const prepared = {
         "tr": "同時一切卻又是理所當然的傷心",
         "translationUserRef": 1,
         "translationMapping": "user-provided-text",
-        "time": 6.51
+        "time": 6.51,
+        "sourceEnd": 11.661,
+        "endTime": 11.661
       },
       {
         "jp": "今痛いくらい幸せな思い出が",
@@ -8455,7 +10361,9 @@ const prepared = {
         "tr": "此刻幸福到近乎作痛的回憶",
         "translationUserRef": 2,
         "translationMapping": "user-provided-text",
-        "time": 12.13
+        "time": 12.13,
+        "sourceEnd": 16.55,
+        "endTime": 16.55
       },
       {
         "jp": "いつか来るお別れを育てて歩く",
@@ -8463,7 +10371,9 @@ const prepared = {
         "tr": "也步步孕育著終將到來的別離",
         "translationUserRef": 3,
         "translationMapping": "user-provided-text",
-        "time": 17.51
+        "time": 17.51,
+        "sourceEnd": 22.182,
+        "endTime": 22.182
       },
       {
         "jp": "誰かの居場所を奪い 生きるくらいならもう",
@@ -8471,7 +10381,9 @@ const prepared = {
         "tr": "如果要奪去誰的棲身之所而活",
         "translationUserRef": 4,
         "translationMapping": "user-provided-text",
-        "time": 25.87
+        "time": 25.87,
+        "sourceEnd": 31.088,
+        "endTime": 31.088
       },
       {
         "jp": "あたしは石ころにでもなれたならいいな",
@@ -8479,7 +10391,9 @@ const prepared = {
         "tr": "那我變作一顆石子也沒有關係",
         "translationUserRef": 5,
         "translationMapping": "user-provided-text",
-        "time": 31.49
+        "time": 31.49,
+        "sourceEnd": 36.528,
+        "endTime": 36.528
       },
       {
         "jp": "だとしたら勘違いも 戸惑いもない",
@@ -8487,7 +10401,9 @@ const prepared = {
         "tr": "這樣的話就既沒有誤解也不會猶豫",
         "translationUserRef": 6,
         "translationMapping": "user-provided-text",
-        "time": 36.79
+        "time": 36.79,
+        "sourceEnd": 41.591,
+        "endTime": 41.591
       },
       {
         "jp": "そうやってあなたまでも 知らないままで",
@@ -8495,7 +10411,9 @@ const prepared = {
         "tr": "這樣的話就連你也不會認識了",
         "translationUserRef": 7,
         "translationMapping": "user-provided-text",
-        "time": 42.09
+        "time": 42.09,
+        "sourceEnd": 46.563,
+        "endTime": 46.563
       },
       {
         "jp": "あなたにあたしの思いが",
@@ -8503,7 +10421,9 @@ const prepared = {
         "tr": "明明想將我所有的想法",
         "translationUserRef": 8,
         "translationMapping": "user-provided-text",
-        "time": 51.02
+        "time": 51.02,
+        "sourceEnd": 52.873,
+        "endTime": 52.873
       },
       {
         "jp": "全部伝わって欲しいのに",
@@ -8511,7 +10431,9 @@ const prepared = {
         "tr": "都告訴你",
         "translationUserRef": 9,
         "translationMapping": "user-provided-text",
-        "time": 53.03
+        "time": 53.03,
+        "sourceEnd": 55.652,
+        "endTime": 55.652
       },
       {
         "jp": "誰にも言えない秘密があって",
@@ -8519,7 +10441,9 @@ const prepared = {
         "tr": "卻因有著無法向人訴說的秘密",
         "translationUserRef": 10,
         "translationMapping": "user-provided-text",
-        "time": 56.68
+        "time": 56.68,
+        "sourceEnd": 59.15,
+        "endTime": 59.15
       },
       {
         "jp": "嘘をついてしまうのだ",
@@ -8527,7 +10451,9 @@ const prepared = {
         "tr": "而撒了謊",
         "translationUserRef": 11,
         "translationMapping": "user-provided-text",
-        "time": 59.15
+        "time": 59.15,
+        "sourceEnd": 61.067,
+        "endTime": 61.067
       },
       {
         "jp": "あなたが思えば思うより",
@@ -8535,7 +10461,9 @@ const prepared = {
         "tr": "明明我比你所想的",
         "translationUserRef": 12,
         "translationMapping": "user-provided-text",
-        "time": 62.04
+        "time": 62.04,
+        "sourceEnd": 63.743,
+        "endTime": 63.743
       },
       {
         "jp": "いくつもあたしは意気地ないのに",
@@ -8543,7 +10471,9 @@ const prepared = {
         "tr": "還要來得懦弱",
         "translationUserRef": 13,
         "translationMapping": "user-provided-text",
-        "time": 64.3
+        "time": 64.3,
+        "sourceEnd": 67.818,
+        "endTime": 67.818
       },
       {
         "jp": "どうして どうして どうして",
@@ -8551,7 +10481,9 @@ const prepared = {
         "tr": "卻為什麼　為什麼　為什麼",
         "translationUserRef": 14,
         "translationMapping": "user-provided-text",
-        "time": 68.19
+        "time": 68.19,
+        "sourceEnd": 71.723,
+        "endTime": 71.723
       },
       {
         "jp": "消えない悲しみも 綻びもあなたといれば",
@@ -8559,7 +10491,9 @@ const prepared = {
         "tr": "無法抹滅的的悲傷和綻裂只要是與你一起",
         "translationUserRef": 15,
         "translationMapping": "user-provided-text",
-        "time": 76.62
+        "time": 76.62,
+        "sourceEnd": 81.885,
+        "endTime": 81.885
       },
       {
         "jp": "それで良かったねと笑えるのが",
@@ -8567,7 +10501,9 @@ const prepared = {
         "tr": "都能夠笑著說「那樣也好」",
         "translationUserRef": 16,
         "translationMapping": "user-provided-text",
-        "time": 82.08
+        "time": 82.08,
+        "sourceEnd": 84.902,
+        "endTime": 84.902
       },
       {
         "jp": "どんなに嬉しいか",
@@ -8575,7 +10511,9 @@ const prepared = {
         "tr": "該有多麼開心",
         "translationUserRef": 17,
         "translationMapping": "user-provided-text",
-        "time": 85.75
+        "time": 85.75,
+        "sourceEnd": 87.351,
+        "endTime": 87.351
       },
       {
         "jp": "目の前の全てがぼやけては溶けてゆくような",
@@ -8583,7 +10521,9 @@ const prepared = {
         "tr": "眼前所見一切變得朦朧並逐漸融化",
         "translationUserRef": 18,
         "translationMapping": "user-provided-text",
-        "time": 87.62
+        "time": 87.62,
+        "sourceEnd": 92.872,
+        "endTime": 92.872
       },
       {
         "jp": "奇跡であふれて足りないや",
@@ -8591,7 +10531,9 @@ const prepared = {
         "tr": "說是奇蹟滿溢仍不足以形容",
         "translationUserRef": 19,
         "translationMapping": "user-provided-text",
-        "time": 93.31
+        "time": 93.31,
+        "sourceEnd": 97.478,
+        "endTime": 97.478
       },
       {
         "jp": "あたしの名前を呼んでくれた",
@@ -8599,7 +10541,9 @@ const prepared = {
         "tr": "你呼喚了我的名字",
         "translationUserRef": 20,
         "translationMapping": "user-provided-text",
-        "time": 98.82
+        "time": 98.82,
+        "sourceEnd": 103.353,
+        "endTime": 103.353
       },
       {
         "jp": "あなたが居場所を失くし",
@@ -8607,7 +10551,9 @@ const prepared = {
         "tr": "如果你因失去棲身之所",
         "translationUserRef": 21,
         "translationMapping": "user-provided-text",
-        "time": 109.09
+        "time": 109.09,
+        "sourceEnd": 111.408,
+        "endTime": 111.408
       },
       {
         "jp": "彷徨うくらいならばもう",
@@ -8615,7 +10561,9 @@ const prepared = {
         "tr": "而徬徨",
         "translationUserRef": 22,
         "translationMapping": "user-provided-text",
-        "time": 112.07
+        "time": 112.07,
+        "sourceEnd": 114.456,
+        "endTime": 114.456
       },
       {
         "jp": "誰かが身代わりになればなんて思うんだ",
@@ -8623,7 +10571,9 @@ const prepared = {
         "tr": "我甚至希望能有個誰來代替你",
         "translationUserRef": 23,
         "translationMapping": "user-provided-text",
-        "time": 114.55
+        "time": 114.55,
+        "sourceEnd": 119.531,
+        "endTime": 119.531
       },
       {
         "jp": "今 ささやかで確かな見ないふり",
@@ -8631,7 +10581,9 @@ const prepared = {
         "tr": "此刻　只要對確實存在的小事視而不見",
         "translationUserRef": 24,
         "translationMapping": "user-provided-text",
-        "time": 120.34
+        "time": 120.34,
+        "sourceEnd": 124.573,
+        "endTime": 124.573
       },
       {
         "jp": "きっと繰り返しながら笑い合うんだ",
@@ -8639,7 +10591,9 @@ const prepared = {
         "tr": "反覆不斷之下我們一定能相視而笑",
         "translationUserRef": 25,
         "translationMapping": "user-provided-text",
-        "time": 125.41
+        "time": 125.41,
+        "sourceEnd": 129.926,
+        "endTime": 129.926
       },
       {
         "jp": "何度誓っても 何度祈っても",
@@ -8647,7 +10601,9 @@ const prepared = {
         "tr": "無論起誓幾次祈求幾次",
         "translationUserRef": 26,
         "translationMapping": "user-provided-text",
-        "time": 134.35
+        "time": 134.35,
+        "sourceEnd": 137.066,
+        "endTime": 137.066
       },
       {
         "jp": "惨憺たる夢を見る",
@@ -8655,7 +10611,9 @@ const prepared = {
         "tr": "都仍然夢見悲淒",
         "translationUserRef": 27,
         "translationMapping": "user-provided-text",
-        "time": 137.11
+        "time": 137.11,
+        "sourceEnd": 138.959,
+        "endTime": 138.959
       },
       {
         "jp": "小さな歪みが いつかあなたを",
@@ -8663,7 +10621,9 @@ const prepared = {
         "tr": "似乎總有一天你就會被小小的歪曲",
         "translationUserRef": 28,
         "translationMapping": "user-provided-text",
-        "time": 139.88
+        "time": 139.88,
+        "sourceEnd": 142.452,
+        "endTime": 142.452
       },
       {
         "jp": "呑んでなくしてしまうような",
@@ -8671,7 +10631,9 @@ const prepared = {
         "tr": "吞噬",
         "translationUserRef": 29,
         "translationMapping": "user-provided-text",
-        "time": 142.96
+        "time": 142.96,
+        "sourceEnd": 145.026,
+        "endTime": 145.026
       },
       {
         "jp": "あなたが思うより大げさにあたしは",
@@ -8679,7 +10641,9 @@ const prepared = {
         "tr": "明明我比你所想的還要更加",
         "translationUserRef": 30,
         "translationMapping": "user-provided-text",
-        "time": 145.58
+        "time": 145.58,
+        "sourceEnd": 149.64,
+        "endTime": 149.64
       },
       {
         "jp": "不甲斐ないのに",
@@ -8687,7 +10651,9 @@ const prepared = {
         "tr": "沒用",
         "translationUserRef": 31,
         "translationMapping": "user-provided-text",
-        "time": 149.64
+        "time": 149.64,
+        "sourceEnd": 150.893,
+        "endTime": 150.893
       },
       {
         "jp": "どうして どうして どうして",
@@ -8695,7 +10661,9 @@ const prepared = {
         "tr": "卻為什麼　為什麼　為什麼",
         "translationUserRef": 32,
         "translationMapping": "user-provided-text",
-        "time": 151.78
+        "time": 151.78,
+        "sourceEnd": 155.196,
+        "endTime": 155.196
       },
       {
         "jp": "お願い いつまでも いつまでも",
@@ -8703,7 +10671,9 @@ const prepared = {
         "tr": "拜託了　只願永遠永遠",
         "translationUserRef": 33,
         "translationMapping": "user-provided-text",
-        "time": 160.02
+        "time": 160.02,
+        "sourceEnd": 163.206,
+        "endTime": 163.206
       },
       {
         "jp": "超えられない夜を",
@@ -8711,7 +10681,9 @@ const prepared = {
         "tr": "在這難以度過的夜晚",
         "translationUserRef": 34,
         "translationMapping": "user-provided-text",
-        "time": 163.75
+        "time": 163.75,
+        "sourceEnd": 165.335,
+        "endTime": 165.335
       },
       {
         "jp": "超えようと手をつなぐ この日々が",
@@ -8719,7 +10691,9 @@ const prepared = {
         "tr": "我們都能牽著手跨越並讓這些日子",
         "translationUserRef": 35,
         "translationMapping": "user-provided-text",
-        "time": 165.66
+        "time": 165.66,
+        "sourceEnd": 168.765,
+        "endTime": 168.765
       },
       {
         "jp": "続きますように",
@@ -8727,7 +10701,9 @@ const prepared = {
         "tr": "繼續下去",
         "translationUserRef": 36,
         "translationMapping": "user-provided-text",
-        "time": 169.11
+        "time": 169.11,
+        "sourceEnd": 170.728,
+        "endTime": 170.728
       },
       {
         "jp": "閉じた瞼さえ 鮮やかに彩るために",
@@ -8735,7 +10711,9 @@ const prepared = {
         "tr": "為了讓閉起的眼簾也能染上鮮豔的色彩",
         "translationUserRef": 37,
         "translationMapping": "user-provided-text",
-        "time": 171.35
+        "time": 171.35,
+        "sourceEnd": 176.582,
+        "endTime": 176.582
       },
       {
         "jp": "そのために 何ができるかな",
@@ -8743,7 +10721,9 @@ const prepared = {
         "tr": "為此我可以做些什麼呢",
         "translationUserRef": 38,
         "translationMapping": "user-provided-text",
-        "time": 176.75
+        "time": 176.75,
+        "sourceEnd": 180.983,
+        "endTime": 180.983
       },
       {
         "jp": "あなたの名前を呼んでいいかな",
@@ -8751,7 +10731,9 @@ const prepared = {
         "tr": "我可以呼喚你的名字嗎",
         "translationUserRef": 39,
         "translationMapping": "user-provided-text",
-        "time": 182.33
+        "time": 182.33,
+        "sourceEnd": 186.952,
+        "endTime": 186.952
       },
       {
         "jp": "生まれてきたその瞬間にあたし",
@@ -8759,7 +10741,9 @@ const prepared = {
         "tr": "誕生下來的那瞬間我啊",
         "translationUserRef": 40,
         "translationMapping": "user-provided-text",
-        "time": 214.28
+        "time": 214.28,
+        "sourceEnd": 218.146,
+        "endTime": 218.146
       },
       {
         "jp": "「消えてしまいたい」って泣き喚いたんだ",
@@ -8767,7 +10751,9 @@ const prepared = {
         "tr": "就哭喊著「好想消失」",
         "translationUserRef": 41,
         "translationMapping": "user-provided-text",
-        "time": 219.64
+        "time": 219.64,
+        "sourceEnd": 223.939,
+        "endTime": 223.939
       },
       {
         "jp": "それからずっと探していたんだ",
@@ -8775,7 +10761,9 @@ const prepared = {
         "tr": "從那天開始我就不斷在尋覓",
         "translationUserRef": 42,
         "translationMapping": "user-provided-text",
-        "time": 224.99
+        "time": 224.99,
+        "sourceEnd": 229.295,
+        "endTime": 229.295
       },
       {
         "jp": "いつか出会える",
@@ -8783,7 +10771,9 @@ const prepared = {
         "tr": "尋覓終有一天",
         "translationUserRef": 43,
         "translationMapping": "user-provided-text",
-        "time": 229.92
+        "time": 229.92,
+        "sourceEnd": 231.285,
+        "endTime": 231.285
       },
       {
         "jp": "あなたのことを",
@@ -8791,7 +10781,9 @@ const prepared = {
         "tr": "會遇見的你",
         "translationUserRef": 44,
         "translationMapping": "user-provided-text",
-        "time": 232.64
+        "time": 232.64,
+        "sourceEnd": 234.205,
+        "endTime": 234.205
       },
       {
         "jp": "消えない悲しみも 綻びもあなたといれば",
@@ -8799,7 +10791,9 @@ const prepared = {
         "tr": "無法抹滅的的悲傷和綻裂只要是與你一起",
         "translationUserRef": 45,
         "translationMapping": "user-provided-text",
-        "time": 251.78
+        "time": 251.78,
+        "sourceEnd": 256.764,
+        "endTime": 256.764
       },
       {
         "jp": "それで良かったねと笑えるのが",
@@ -8807,7 +10801,9 @@ const prepared = {
         "tr": "都能夠笑著說「那樣也好」",
         "translationUserRef": 46,
         "translationMapping": "user-provided-text",
-        "time": 257.25
+        "time": 257.25,
+        "sourceEnd": 260.25,
+        "endTime": 260.25
       },
       {
         "jp": "どんなに嬉しいか",
@@ -8815,7 +10811,9 @@ const prepared = {
         "tr": "該有多麼開心",
         "translationUserRef": 47,
         "translationMapping": "user-provided-text",
-        "time": 260.93
+        "time": 260.93,
+        "sourceEnd": 262.565,
+        "endTime": 262.565
       },
       {
         "jp": "目の前の全てが ぼやけては溶けてゆくような",
@@ -8823,7 +10821,9 @@ const prepared = {
         "tr": "眼前所見一切變得朦朧並逐漸融化",
         "translationUserRef": 48,
         "translationMapping": "user-provided-text",
-        "time": 262.83
+        "time": 262.83,
+        "sourceEnd": 268.062,
+        "endTime": 268.062
       },
       {
         "jp": "奇跡で溢れて足りないや",
@@ -8831,7 +10831,9 @@ const prepared = {
         "tr": "說是奇蹟滿溢仍不足以形容",
         "translationUserRef": 49,
         "translationMapping": "user-provided-text",
-        "time": 268.58
+        "time": 268.58,
+        "sourceEnd": 272.679,
+        "endTime": 272.679
       },
       {
         "jp": "あたしの名前を呼んでくれた",
@@ -8839,7 +10841,9 @@ const prepared = {
         "tr": "你呼喚了我的名字",
         "translationUserRef": 50,
         "translationMapping": "user-provided-text",
-        "time": 273.95
+        "time": 273.95,
+        "sourceEnd": 278.456,
+        "endTime": 278.456
       },
       {
         "jp": "あなたの名前を呼んでいいかな",
@@ -8847,7 +10851,9 @@ const prepared = {
         "tr": "我也可以呼喚你的名字嗎",
         "translationUserRef": 51,
         "translationMapping": "user-provided-text",
-        "time": 279.55
+        "time": 279.55,
+        "sourceEnd": 284.182,
+        "endTime": 284.182
       }
     ],
     "lyricsSourceUrl": "https://lrclib.net/api/get/1883354",

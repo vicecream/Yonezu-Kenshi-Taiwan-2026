@@ -4,7 +4,7 @@
 
 [正式網站](https://yonezu-kenshi-taiwan-2026.pages.dev/) · [專案儲存庫](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026) · [主辦專頁](https://yk2026.abigart.com/?lang=zh) · [藝人官方網站](https://reissuerecords.net/)
 
-目前來源版本為 **3.0.6**，本次發布內容見 [PR #7](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/7) 與[更新紀錄](CHANGELOG.md)。[正式網站](https://yonezu-kenshi-taiwan-2026.pages.dev/)使用 Cloudflare Pages 直接上傳；GitHub 的 main 保管來源，推送不會自動更新目前網站。建置與上傳方式見[部署指南](CLOUDFLARE_DEPLOY.md)。
+目前來源版本為 **3.1.0**，本次發布內容見 [PR #8](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/8) 與[更新紀錄](CHANGELOG.md)。[正式網站](https://yonezu-kenshi-taiwan-2026.pages.dev/)使用 Cloudflare Pages 直接上傳；GitHub 的 main 保管來源，推送不會自動更新目前網站。建置與上傳方式見[部署指南](CLOUDFLARE_DEPLOY.md)。
 
 ## 文件導覽
 
@@ -14,6 +14,7 @@
 | 28 首曲目、官方影片與待補資料 | [歌曲來源清單](docs/lyric-sources.md) |
 | YouTube、LRC、翻譯要填在哪裡 | [來源欄位與匯入入口](docs/song-source-fields.md) |
 | 提供原文或 LRC | [歌詞資料夾](lyrics/README.md) · [匯入流程](docs/karaoke-import.md) |
+| 歌詞時間軸逐句／逐字聽校 | [本機校對網頁與匯出](docs/timing-review.md) · [初始對照資料](artifacts/timing-review/README.md) |
 | 提供繁體中文翻譯 | [供稿說明](lyrics/translations/README.md) · [翻譯匯入](docs/translation-import.md) |
 | 假名與羅馬字 | [讀音維護](docs/furigana.md) |
 | 設定新網站 | [Cloudflare Pages 部署](CLOUDFLARE_DEPLOY.md) |
@@ -22,7 +23,6 @@
 | 實際影片與快捷鍵修正驗證 | [2026-11-18 驗證紀錄](artifacts/browser-qa-2026-11-18/README.md) |
 | 完整本機網站架構與離線流程 | [2026-11-18 架構驗收](artifacts/local-architecture-2026-11-18/README.md) |
 | v3.0.3 整合後發布檢查 | [2026-11-20 發版驗收](artifacts/release-qa-2026-11-20/README.md) |
-| v3.0.6 LRC 同步正式站檢查 | [2026-11-20 線上驗收與部署對應](artifacts/production-v3.0.6-2026-11-20/README.md) |
 | 設定、圖片與文字全面檢查 | [2026-11-18 維護紀錄](docs/maintenance-2026-11-18.md) |
 | 舊指南、歌詞與測試紀錄 | [歷史封存](archive/fujii-kaze-2026/README.md) |
 
@@ -52,7 +52,8 @@ Node 設定見 `.node-version`；CI 直接讀取該檔。可額外傳入外部�
 - 首頁提供兩場選擇、倒數、票務、座位圖、交通與入場提醒。無手動選擇時優先當日場次，再選下一個演出日期；手動選擇會保存。開演當日維持「已開演」，隔日才視為該場日期已過。
 - 完整曲庫保留 28 首，網站目前顯示 26 首；〈春が灯り〉、〈こんにちはごきげんよう！〉暫時隱藏，清單、搜尋、換歌及直接歌曲網址均不展示這兩首。其餘歌曲沿用原本預習編號，保留名稱排序、原題／羅馬字／編號搜尋及播放器。編號不是演出順序；`#/setlist` 顯示台北場歌單待確認。
 - 26 首已有 YouTube 入口：20 首 MV、6 首官方發行音源。〈死神〉改用完整官方音源，避免短版 MV 截斷整首 LRC。〈春が灯り〉、〈こんにちはごきげんよう！〉目前只確認主題歌公告與預告，不當成完整 MV。
-- 已從本機 LRCLIB JSON 匯入 26 首、1,021 行日文原文，並對齊使用者提供的 26 首中文稿，共 987 列有譯文；19 首完整、7 首部分整理。34 列未附譯文，另 16 列的和聲或片段仍待補，範圍見[翻譯對照報告](artifacts/translations-alignment-review-2026-11-20.md)。26 首 LRC 已啟用逐句高亮、自動跟隨及點句跳轉，使用 `timingMode: preview` 明示影片待校正；`sourceTime` 原樣保留，`time` 用於試播，不宣稱已逐首聽辨對齊。兩首隱藏曲的原文及同步、全部逐行讀音仍待補。
+- 已從本機 LRCLIB JSON 匯入 26 首、1,021 行日文原文，並對齊使用者提供的 26 首中文稿，共 987 列有譯文；19 首完整、7 首部分整理。34 列未附譯文，另 16 列的和聲或片段仍待補，範圍見[翻譯對照報告](artifacts/translations-alignment-review-2026-11-20.md)。26 首 LRC 已啟用逐句高亮、自動跟隨及點句跳轉，使用 `timingMode: preview` 明示影片待校正；`sourceTime` 原樣保留，`time` 用於試播，不宣稱已逐首聽辨對齊。兩首隱藏曲的原文及同步仍待補。
+- 26 首、1,021 行提供參考讀音，可用「讀音」切換振り仮名、羅馬拼音及兩者並列；偏好會保存，已快取頁面可離線使用。詞彙修正與整理方式見[讀音維護](docs/furigana.md)，特殊唱法仍可逐句校正。
 - 保留換歌、倍速、簡潔模式及支援瀏覽器的 Document PiP。影片載入、離線及嵌入錯誤有各自提示，另提供官方入口。
 - 周邊、票區入口、動線、專屬接駁及未核實的攜入細節維持待公告，不沿用舊場次安排。
 
@@ -65,7 +66,8 @@ Node 設定見 `.node-version`；CI 直接讀取該檔。可額外傳入外部�
 | `src/song-metadata.js` | 28 首固定 ID、名稱、專輯、來源、別名與影片 |
 | `src/song-lyrics.js` | 延後載入的原文、翻譯、時間及逐首出處 |
 | `src/song-content.js` | 原文、翻譯、讀音及同步功能是否可用 |
-| `furigana.js`、`src/furigana-corrections.js` | 已核對的逐行假名及羅馬字 |
+| `furigana.js`、`src/furigana-corrections.js` | 逐行參考假名、羅馬拼音與全文修正 |
+| `lyrics/readings/overrides.json`、`scripts/generate-readings.mjs` | 詞彙讀音修正及本地產生工具 |
 | `karaoke-sources.js` | 外部時間來源、對齊與快取 |
 | `src/main.js`、`src/ui/` | 路由、播放器及共用頁面 |
 | `sw.js`、`vite.config.js` | 離線、相對路徑、部署網址與靜態輸出 |

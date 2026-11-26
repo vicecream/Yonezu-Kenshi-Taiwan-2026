@@ -1,7 +1,7 @@
 {
   "name": "yonezu-kenshi-taipei-2026-guide",
   "private": true,
-  "version": "3.0.6",
+  "version": "3.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,7 +11,11 @@
     "preview": "vite preview",
     "check:guide": "node scripts/check-guide.mjs",
     "check:imports": "node scripts/check-lyrics-import.mjs && node scripts/check-song-translations.mjs",
-    "check:deployment": "node scripts/check-deployment.mjs"
+    "check:deployment": "node scripts/check-deployment.mjs",
+    "timing:review": "node tools/timing-review/server.mjs",
+    "timing:export": "node scripts/export-timing-review.mjs",
+    "check:timing": "node scripts/check-timing-review.mjs",
+    "check:timing-candidates": "node scripts/check-timing-candidates.mjs"
   },
   "devDependencies": {
     "vite": "^7.1.7"

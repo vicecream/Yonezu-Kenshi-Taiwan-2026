@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>歌詞時間軸聽校 · 米津玄師</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="page-head">
+    <div><p class="eyebrow">KENSHI YONEZU · LOCAL WORKSPACE</p><h1>歌詞時間軸聽校</h1><p>原始 LRC、影片時間與人工修正，一句一句對照。</p></div>
+    <div class="head-note"><span class="tag">本機校對工具</span><p>時間單位：秒 · 初始資料待聽校<br>修改自動儲存，匯出後可再匯入接續。</p></div>
+  </header>
+  <main>
+    <section class="toolbar panel" aria-label="歌曲與匯出">
+      <label class="song-label">選擇歌曲<select id="song" disabled></select></label>
+      <label>校對者<input id="reviewer" autocomplete="name" placeholder="姓名或代號"></label>
+      <div class="export-buttons"><button id="export-json">匯出修正 JSON</button><button id="export-csv">匯出本曲 CSV</button><button id="export-lrc">匯出 LRC</button><button id="export-all">全曲庫對照 CSV</button></div>
+      <label class="file-button">匯入修正 JSON<input id="import-json" type="file" accept=".json,application/json"></label>
+      <p id="catalog-info" class="muted"></p>
+      <p id="save-status" role="status">正在讀取曲庫…</p>
+    </section>
+    <div id="workspace" hidden>
+      <div class="top-grid">
+        <section class="panel media-panel" aria-label="試聽播放器">
+          <div class="section-head"><h2 id="song-title"></h2><span id="video-kind" class="tag"></span></div>
+          <p id="song-stats" class="muted"></p>
+          <div id="youtube-shell"><div id="youtube-player"></div><div id="video-placeholder"><p>開啟目前指定的官方影片，或載入同版本音訊開始聽校。</p><button id="connect-video" class="primary">連線 YouTube 播放器</button></div></div>
+          <audio id="audio" controls preload="metadata" hidden></audio>
+          <div class="media-actions"><a id="video-link" target="_blank" rel="noopener">開啟官方影片</a><label class="file-button">載入本機音訊<input id="audio-file" type="file" accept="audio/*,.webm,.mp4"></label><button id="use-youtube" hidden>切回 YouTube</button><button id="retry-video" hidden>重試連線</button></div>
+          <p id="media-status" role="status">影片需要網路；本機音訊僅在你的瀏覽器播放。</p>
+          <div class="transport"><button id="toggle-play">播放／暫停</button><button id="rewind">倒退 2 秒</button><label>速度<select id="rate"><option value="0.5">0.5×</option><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option></select></label><output id="clock">00:00.000</output></div>
+          <div class="preview"><p class="eyebrow">卡拉 OK 預覽 · 目前草稿</p><p id="preview-jp" lang="ja"></p><p id="preview-tr"></p><p id="preview-state" class="muted"></p></div>
+          <label class="inline"><input id="follow" type="checkbox" checked>播放時跟隨句子</label>
+        </section>
+        <section class="panel source-panel" aria-label="時間資料與整曲偏移">
+          <h2>時間資料</h2><p id="source-info" class="muted"></p>
+          <p>選擇句子即可直接校對。原文、中文與來源秒數保留供比較；試聽後可逐句標記通過。</p>
+          <p id="candidate-info" class="muted"></p>
+          <details><summary>整曲偏移與資料說明</summary><p>來源秒數 + 偏移 = 影片秒數。已有的偏移已套用在初始時間，不要重複加上。</p><label>再調整全曲（秒）<input id="offset" type="number" value="0" step="0.01"></label><button id="shift-song">套用全曲調整</button><p>負數提前，正數延後；調整會取消全部通過標記，保留原始 LRC。</p><p id="storage-info" class="muted"></p></details>
+        </section>
+      </div>
+      <div class="review-grid">
+        <section class="panel line-panel" aria-label="歌詞清單">
+          <div class="section-head"><h2>逐句對照</h2><span id="progress" class="tag"></span></div>
+          <label>尋找歌詞<input id="search" type="search" placeholder="原文、中文或句子編號"></label>
+          <label>顯示<select id="filter"><option value="all">全部句子</option><option value="pending">待聽校</option><option value="needs-fix">待修</option><option value="passed">已聽校</option><option value="issues">時間缺漏／順序異常</option></select></label>
+          <ol id="lines"></ol><p id="empty-list" hidden>沒有符合條件的句子。</p>
+        </section>
+        <section class="panel editor" aria-label="目前句子校對">
+          <div class="section-head"><h2 id="line-title"></h2><div><button id="previous">上一句</button><button id="next">下一句</button></div></div>
+          <p id="line-jp" lang="ja"></p><p id="line-tr"></p><p id="line-flags" class="flags"></p>
+          <div class="baseline"><div><span>原始 LRC</span><strong id="source-time"></strong></div><div><span>目前網站時間</span><strong id="baseline-time"></strong></div></div>
+          <div class="bounds">
+            <div class="bound-field">
+              <label>修正開始（秒）<input id="line-start" type="number" min="0" step="0.01" aria-describedby="timing-shortcuts" aria-keyshortcuts="Alt+ArrowDown Alt+ArrowUp"></label>
+              <div class="bound-actions"><button data-adjust-bound="start" data-delta="-0.1">開始 −0.1 秒</button><button data-adjust-bound="start" data-delta="0.1">開始 ＋0.1 秒</button></div>
+            </div>
+            <button id="stamp-start">取播放時間為開始</button>
+            <div class="bound-field">
+              <label>修正結束（秒）<input id="line-end" type="number" min="0" step="0.01" aria-describedby="timing-shortcuts" aria-keyshortcuts="Alt+ArrowDown Alt+ArrowUp"></label>
+              <div class="bound-actions"><button data-adjust-bound="end" data-delta="-0.1">結束 −0.1 秒</button><button data-adjust-bound="end" data-delta="0.1">結束 ＋0.1 秒</button></div>
+            </div>
+            <button id="stamp-end">取播放時間為結束</button>
+          </div>
+          <p id="timing-shortcuts" class="muted">開始與結束可分開調整，不會連動字詞時間。焦點在對應欄位時，按 Alt + ↓／↑ 可減／加 0.1 秒；也可直接輸入秒數。</p>
+          <div class="line-actions"><button id="play-line" class="primary">試聽本句</button><button id="shift-back">整句 −0.10 秒</button><button id="shift-forward">整句 ＋0.10 秒</button><label class="inline"><input id="loop" type="checkbox">循環本句</label></div>
+          <details id="word-panel"><summary>逐字／詞時間與卡拉 OK 對照表</summary><p>新草稿會先保守填入已有的音訊候選，其餘留白待補。重新對齊會分析目前修正起訖內的原音，只更新字詞時間，保留本句起訖與既有逐句通過；新字詞仍需實聽校正，不平均分配時間。分析期間可取消。</p><button id="apply-candidate">依目前區段重新對齊字詞</button><button id="cancel-word-alignment" hidden>取消重新對齊</button><p id="word-align-status" class="muted" role="status"></p><div class="table-scroll"><table><thead><tr><th>字詞／讀音</th><th>開始（秒）</th><th>結束（秒）</th><th>試聽</th></tr></thead><tbody id="words"></tbody></table></div><button id="fit-bounds">依字詞起訖更新本句</button><button id="export-words">匯出本曲字詞 CSV</button></details>
+          <label>備註／待修原因<textarea id="note" rows="2" placeholder="例如：副歌第一個字偏早、句尾有延音"></textarea></label>
+          <div class="review-controls"><label>通過範圍<select id="level"><option value="line">逐句時間</option><option value="word">逐字／詞時間</option></select></label><label class="inline"><input id="listened" type="checkbox">我已實際聽過這份修正</label><button id="pass" class="primary">標記本句通過</button><button id="needs-fix">標記待修</button><button id="pending">重設待聽校</button></div>
+          <p id="review-status" role="status"></p>
+        </section>
+      </div>
+    </div>
+    <p id="feedback" role="status" aria-live="polite"></p>
+  </main>
+  <footer>本機修正與正式網站分開保存 · CSV／JSON 含待聽校資料，通過狀態以人工紀錄為準 · 影片需連網，本機音訊可離線聽校</footer>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

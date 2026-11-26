@@ -13,7 +13,7 @@ export function songCapabilities(song){
     && (index === 0 || line.time >= lines[index - 1].time));
   return {
     hasOriginal, hasTranslation, translationComplete, timed,
-    readings: song?.language === "ja" && hasOriginal && song?.readingsStatus !== "pending",
+    readings: song?.language === "ja" && hasOriginal && song?.readingsStatus === "ready",
     japanese: song?.language === "ja",
   };
 }

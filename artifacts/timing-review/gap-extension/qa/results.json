@@ -1,0 +1,42 @@
+{
+  "maxGapSeconds": 2,
+  "basis": "Isolated current drafts; synthetic clock; no actual video listening",
+  "songs": [
+    "YellowGhost",
+    "Shunrai",
+    "Kanden",
+    "Flamingo",
+    "Lady",
+    "Yumeutsutsu",
+    "CranberryAndPancake",
+    "Shinigami",
+    "SayonaraMataItsuka",
+    "MelancholyKitchen",
+    "NineteenNinetyOne",
+    "Lemon",
+    "JaneDoe",
+    "UmiNoYuurei",
+    "Yodaka",
+    "Loser",
+    "BowAndArrow",
+    "PeaceSign",
+    "KickBack",
+    "IrisOut",
+    "Karasu",
+    "MayoeruHitsuji",
+    "Plazma",
+    "M87",
+    "Chikyugi",
+    "EineKleine"
+  ],
+  "checks": [
+    "Flamingo: 1.261s gap remains joined",
+    "Exact next-line transition",
+    "Flamingo: >2s gap restored at 169s",
+    "Flamingo: >2s gap restored at 185s",
+    "Desktop/mobile layout without overflow",
+    "Final word progresses through a valid <=2s tail",
+    "All 26 saved routes and line counts"
+  ],
+  "errors": []
+}

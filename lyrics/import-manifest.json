@@ -39,7 +39,8 @@
       "sourceUrl": "https://lrclib.net/api/get/65587",
       "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
       "allowPendingReadings": true,
-      "timingMode": "preview"
+      "timingMode": "preview",
+      "previewOffsetSeconds": 7.76
     },
     {
       "id": "Lady",
@@ -47,7 +48,8 @@
       "sourceUrl": "https://lrclib.net/api/get/11929499",
       "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
       "allowPendingReadings": true,
-      "timingMode": "preview"
+      "timingMode": "preview",
+      "previewOffsetSeconds": 14.073
     },
     {
       "id": "Yumeutsutsu",
@@ -79,7 +81,8 @@
       "sourceUrl": "https://lrclib.net/api/get/14452815",
       "usageBasis": "使用者提供本機 LRCLIB JSON，並要求整理及匯入本專案。",
       "allowPendingReadings": true,
-      "timingMode": "preview"
+      "timingMode": "preview",
+      "previewOffsetSeconds": 1.041
     },
     {
       "id": "MelancholyKitchen",

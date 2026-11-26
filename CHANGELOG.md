@@ -2,6 +2,18 @@
 
 [專案說明](README.md) · [儲存庫](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026) · [歷史封存](archive/fujii-kaze-2026/README.md)
 
+## [**v3.1.0**](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/commit/5a05bf7c7067f822fc105027f7d5c2b971ad7bd3)
+
+2026-11-27 新增全曲參考讀音及本機逐句／逐字校對功能，採 MINOR 升版。正式網站與 GitHub 來源分別發布及驗收。
+
+- [PR #8](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/8)：補齊 26 首、1,021 行歌詞的參考振り仮名與羅馬拼音，支援「振り仮名 → 羅馬拼音 → 假名＋拼音」切換、偏好保存及已快取頁面的離線閱讀；提供讀音產生工具與詞彙修正，兩首隱藏曲仍維持待補。
+- [PR #8](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/8)：修正讀音延遲載入與錯誤重試，載入完成後更新歌詞與無障礙標示，避免未完成資料被標成可用；切換讀音保留目前歌曲、播放進度及繁中字幕。
+- [PR #8](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/8)：補回 25 首、1,003 句結構化 JSON 的來源句尾，保留原文、中譯及原始秒數，改善句尾與空檔的對照；〈1991〉末句仍明示缺少來源句尾，影片時間精校維持待確認。
+- [PR #8](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/8)：納入 〈Flamingo〉 +7.760 秒、〈LADY〉 +14.073 秒與 〈さよーならまたいつか！〉 +1.041 秒的影片試播偏移，保留對照依據與原始時間，不將整曲偏移或模型候選宣稱為逐句實聽通過。
+- [PR #8](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/8)：新增獨立於正式網站的本機時間軸校對頁，支援逐句／字詞試聽、循環、起訖各自 ±0.1 秒微調、全曲偏移、JSON／CSV／LRC 匯出、自動儲存、備份與跨分頁版本衝突保護。
+- [PR #8](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/8)：本機字詞重新對齊優先使用目前手動起訖範圍的原音，只更新字詞時間並保留句子邊界及既有逐句通過；支援取消、失敗保留及過期結果拒絕，新字詞仍待實聽校正。原音與模型留在專案外，不加入公開網站。
+- [PR #8](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/8)：本機預覽僅接續 2 秒內（含 2 秒）的句間空檔，延長上一句及有效尾字，較長空檔顯示「(~間奏♪~)」；保留人工修正與舊版備份，補上全曲讀音、音訊來源、手動區段及手機／桌面與離線回歸紀錄。
+
 ## [**v3.0.6**](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/commit/a6d0180dbded9a7c48da86c98a6ec5422dc75cde)
 
 2026-11-20 全曲 LRC 時間啟用及影片版本修正，採 PATCH 升版。

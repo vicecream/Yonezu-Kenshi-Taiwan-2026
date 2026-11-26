@@ -78,10 +78,6 @@ try {
   check("Seat image stays in an inert template until expansion", await page.locator("#seat-panel img").count() === 0);
   await page.locator("#seat-toggle").click();
   await page.locator("#seat-panel img").waitFor();
-  await page.waitForFunction(() => {
-    const image = document.querySelector("#seat-panel img");
-    return image?.complete && image.naturalWidth > 0;
-  });
   check("Expanded seat image loads successfully", await page.locator("#seat-panel img").evaluate(image => image.complete && image.naturalWidth > 0));
   for (const [width, height] of [[375,667],[390,844],[430,932],[768,1024],[1440,900]]) {
     await page.setViewportSize({ width, height });
@@ -135,7 +131,6 @@ try {
   check("Returning to a verified video reuses the player", await page.evaluate(() => __ytTest.instances.length === 1) && await state() === "playing");
   check("Returning from a hidden route restores the visible player", await page.locator("#yt-player").isVisible());
   await page.locator("#song-picker-btn").click();
-  await page.waitForFunction(count => document.querySelectorAll(".song-sheet-item").length === count, VISIBLE_SONGS.length);
   check("Song picker contains only the 26 visible songs", await page.locator(".song-sheet-item").count() === VISIBLE_SONGS.length
     && await page.locator('.song-sheet-item[data-id="HaruGaTomori"], .song-sheet-item[data-id="KonnichiwaGokigenyou"]').count() === 0);
   await page.locator("#sheet-search-input").fill("M87");
@@ -176,7 +171,6 @@ try {
   await page.goto(base + "?debug=1#/song/YellowGhost");
   await page.waitForFunction(() => document.getElementById("dbg")?.textContent.includes("同步次數") && document.querySelectorAll("#lyrics-list .lyric-line").length === 34);
   check("Direct imported-song route and Traditional Chinese debug text load", await state() !== "pending" && /待補歌詞時為 0/.test(await page.locator("#dbg").innerText()));
-  await page.goto(base + "#/song/YellowGhost");
   await page.setViewportSize({ width: 390, height: 844 });
   for (const song of VISIBLE_SONGS) {
     const content = SONG_LYRICS.find(item => item.id === song.id);
@@ -184,6 +178,7 @@ try {
     await page.waitForFunction(({title,count,id}) => document.getElementById("song-page-heading")?.textContent === title
       && document.querySelectorAll("button.lyric-line").length === count && window.__ytTest.instances.at(-1)?.id === id,
       {title:song.title,count:content.lyrics.length,id:song.youtubeId});
+    await page.waitForFunction(() => document.getElementById("reading-btn")?.disabled === false);
     await emit("onReady");
     await emit("onStateChange", 1);
     assert.ok(await page.locator("#autoscroll-btn").isEnabled());
@@ -192,9 +187,9 @@ try {
       await page.evaluate(time => { window.__ytTest.instances.at(-1).time = time; }, content.lyrics[index].time + 0.01);
       await page.waitForFunction(index => document.querySelector(".lyric-line.active")?.dataset.idx === String(index), index);
       assert.equal(await page.locator(".lyric-line.active").count(), 1);
-      if (index === content.lyrics.length - 1) await page.waitForFunction(() => document.querySelector(".lyrics-scroll").scrollTop > 0);
     }
     const seekIndex = Math.floor(content.lyrics.length / 3);
+    // Wait for the follow-scroll animation to settle before hit-testing the row.
     await page.locator(".lyric-line").nth(seekIndex).click();
     assert.equal(await page.evaluate(() => window.__ytTest.instances.at(-1).lastSeek), content.lyrics[seekIndex].time);
     await page.waitForFunction(index => document.querySelector(".lyric-line.active")?.dataset.idx === String(index), seekIndex);

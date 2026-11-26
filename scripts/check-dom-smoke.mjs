@@ -124,7 +124,20 @@ for (const query of ["21", "22", ...ALL_SONGS.filter(song => song.hidden).flatMa
 }
 await route("#/song/Lemon");
 assert.match(document.getElementById("song-content-status").textContent, /原文歌詞已匯入/);
-assert.equal(document.getElementById("reading-btn").disabled, true);
+assert.equal(document.getElementById("reading-btn").disabled, false);
+assert.ok(document.querySelectorAll(".lyric-jp ruby rt").length > 0, "Real imported lyrics show furigana");
+const originalTranslation = document.querySelector(".lyric-zh").textContent;
+document.getElementById("reading-btn").click();
+assert.equal(storage.get("yonezu-reading"), "romaji");
+assert.doesNotMatch(document.querySelector(".lyric-jp").textContent, /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}]/u);
+assert.equal(document.querySelector(".lyric-jp").lang, "ja-Latn");
+document.getElementById("reading-btn").click();
+assert.equal(storage.get("yonezu-reading"), "both");
+assert.ok(document.getElementById("song-page").classList.contains("reading-both"));
+assert.ok(document.querySelector(".lyric-romaji").textContent.trim());
+assert.equal(document.querySelector(".lyric-zh").textContent, originalTranslation);
+document.getElementById("reading-btn").click();
+assert.equal(storage.get("yonezu-reading"), "kana");
 assert.equal(document.getElementById("autoscroll-btn").disabled, false);
 assert.equal(document.querySelectorAll(".lyric-line").length, SONG_LYRICS.find(song => song.id === "Lemon").lyrics.length);
 assert.ok(document.querySelectorAll("button.lyric-line").length > 0, "Requested LRC preview enables lyric seeking");

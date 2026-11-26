@@ -55,7 +55,10 @@ export function loadFurigana(){
       loadCorrections()
     ])
       .then(([, corrections]) => applyFuriganaCorrections(corrections))
-      .catch(() => undefined);
+      .catch(error => {
+        furiganaPromise = null;
+        throw error;
+      });
   }
   return furiganaPromise;
 }
