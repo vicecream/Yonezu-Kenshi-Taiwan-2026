@@ -1,0 +1,41 @@
+{
+  "basis": "Isolated saved drafts; synthetic player clock, not live YouTube or listening verification",
+  "songs": [
+    "YellowGhost",
+    "Shunrai",
+    "Kanden",
+    "Flamingo",
+    "Lady",
+    "Yumeutsutsu",
+    "CranberryAndPancake",
+    "Shinigami",
+    "SayonaraMataItsuka",
+    "MelancholyKitchen",
+    "NineteenNinetyOne",
+    "Lemon",
+    "JaneDoe",
+    "UmiNoYuurei",
+    "Yodaka",
+    "Loser",
+    "BowAndArrow",
+    "PeaceSign",
+    "KickBack",
+    "IrisOut",
+    "Karasu",
+    "MayoeruHitsuji",
+    "Plazma",
+    "M87",
+    "Chikyugi",
+    "EineKleine"
+  ],
+  "checks": [
+    "Saved timing and synthetic clock ready",
+    "Flamingo held through old short gap",
+    "Exact next-line transition",
+    "Long interlude preserved",
+    "Desktop/mobile layout without overflow",
+    "Final word progresses through extended tail",
+    "All 26 saved routes and line counts"
+  ],
+  "errors": []
+}

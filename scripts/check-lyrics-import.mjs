@@ -60,6 +60,10 @@ assert.throws(() => prepareSong({ ...entry, format: "plain-text", timingMode: "p
 assert.throws(() => prepareSong({ ...entry, format: "plain-text" }, text, song), /must not contain LRC timestamps/);
 const provider = prepareSong({ ...entry, file: "sample.json" }, JSON.stringify({ syncedLyrics: text }), song);
 assert.deepEqual(provider.lyrics.map(({ sourceEnd, ...line }) => line), reading.lyrics.map(({ sourceEnd, ...line }) => line));
+assert.ok(provider.lyrics.every(line => line.sourceEnd === undefined), "Plain syncedLyrics must not import synthetic adapter ends");
+const structuredProvider = JSON.stringify({ lyricsfile: "lines:\n- text: Example first line\n  start_ms: 1000\n  end_ms: 2250\n- text: Example second line\n  start_ms: 3500\n  end_ms: 4200\n" });
+const structured = prepareSong({ ...entry, file: "sample.json", timingMode: "preview", previewOffsetSeconds: 2 }, structuredProvider, song);
+assert.deepEqual(structured.lyrics.map(line => [line.sourceTime, line.sourceEnd, line.time, line.endTime]), [[1, 2.25, 3, 4.25], [3.5, 4.2, 5.5, 6.2]], "Preserve explicit provider ends and apply the offset once");
 
 // End-to-end preview must not change the content files.
 const contentFiles = ["src/song-lyrics.js", "src/furigana-corrections.js"];

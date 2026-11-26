@@ -1,0 +1,66 @@
+{
+  "method": "Real specified-video audio within exact current bounds; not human listening",
+  "songId": "Flamingo",
+  "originalBaseline": [
+    16.31,
+    19.309
+  ],
+  "manualBounds": [
+    16.31,
+    20.57
+  ],
+  "candidate": {
+    "index": 0,
+    "text": "宵闇に 爪弾き",
+    "start": 16.31,
+    "end": 20.57,
+    "words": [
+      {
+        "text": "宵闇",
+        "reading": "よいやみ",
+        "start": 16.31,
+        "end": 17.17,
+        "score": 0.6184
+      },
+      {
+        "text": "に",
+        "reading": "に",
+        "start": 17.17,
+        "end": 18.45,
+        "score": 0.9963
+      },
+      {
+        "text": "爪弾",
+        "reading": "つまはじ",
+        "start": 18.45,
+        "end": 19.29,
+        "score": 0.7553
+      },
+      {
+        "text": "き",
+        "reading": "き",
+        "start": 19.29,
+        "end": 19.91,
+        "score": 0.9978
+      }
+    ],
+    "flags": [],
+    "status": "unreviewed",
+    "alignment": {
+      "backend": "whisper",
+      "runId": "line-realign-V1R7dc",
+      "generatedAt": "2026-11-22T09:44:38.891Z",
+      "rangeStart": 16.31,
+      "rangeEnd": 20.57,
+      "sourceFingerprint": "7f47fa752a7fa2b473d9844264ecd34743cfda0699bac9126b3caf6ebaeda164",
+      "audioSha256": "1b8304fc66d74236449ef9c3c8ba8ab0512750103ed238de854f4a3d9a921cd3",
+      "alignmentAudioSha256": "14e2206754386d36aaac73454ddb417c8a571fe63d749d7f21047b90ea8049a7",
+      "models": {
+        "whisper": {
+          "id": "openai/whisper-medium",
+          "sha256": "345ae4da62f9b3d59415adc60127b97c714f32e89e936602e85993674d08dcb1"
+        }
+      }
+    }
+  }
+}

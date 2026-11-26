@@ -45,6 +45,7 @@ let venueMode = false;          // 단축모드 (첫 실행 때 저장값을 읽
 const READING_MODES = ["kana", "romaji", "both"];
 const storedReadingMode = store("yonezu-reading");
 let readingMode = READING_MODES.includes(storedReadingMode) ? storedReadingMode : "kana";
+let readingsLoadError = false;
 let showJapanese = store("yonezu-show-japanese") !== "0";
 let showChinese = store("yonezu-show-chinese") !== "0";
 const chantVersion = "jp";
@@ -1512,6 +1513,11 @@ function buildSongShell(){
   });
 
   document.getElementById("reading-btn").addEventListener("click", ()=>{
+    if (readingsLoadError) {
+      prepareSongReadings(currentSong);
+      updateReadingUi();
+      return;
+    }
     const current = READING_MODES.indexOf(readingMode);
     readingMode = READING_MODES[(current + 1) % READING_MODES.length];
     store("yonezu-reading", readingMode);
@@ -1771,6 +1777,7 @@ function updateSongContentUi(song){
   const preview = song.timingStatus === "preview";
   status.innerHTML = `<p>${caps.hasOriginal ? (song.lyricsStatus === "partial" ? "原文歌詞部分整理" : song.lyricsStatus === "imported" ? "原文歌詞已匯入" : "原文歌詞已整理") : "原文歌詞整理中"} · ${photoOnly ? (song.photoTranslation.complete ? "照片中文已整理（尚未對齊原文）" : "照片中文部分整理（尚未對齊原文）") : caps.translationComplete ? "繁中翻譯已整理" : caps.hasTranslation ? "繁中翻譯部分整理" : "繁中翻譯整理中"}<br>${preview && caps.timed ? "LRC 逐句同步・影片待校正" : caps.timed ? "同步時間已整理" : "同步時間整理中"}${song.readingsStatus === "pending" ? " · 日文讀音待整理" : song.readingsStatus === "partial" ? " · 日文讀音部分整理" : ""}</p>
     ${photoOnly ? `<p>目前提供專輯照片中的中文閱讀，日文原文與 LRC 時間待補。${escapeHtml(song.photoTranslation.note || "")}</p>` : !caps.hasOriginal ? "<p>可先使用下方官方入口，歌詞將分批補齊。</p>" : ""}
+    ${caps.readings ? '<p>參考讀音：振り仮名／羅馬拼音，可用「讀音」切換。</p>' : ""}
     <a href="${song.sourceUrl}" target="_blank" rel="noopener">官方專輯與曲目資訊 ↗</a>`;
   const notes = document.querySelector(".lyrics-note-copy");
   if (notes) notes.textContent = preview && caps.timed ? "依 LRC 時間逐句跟隨與跳轉；MV 片頭或段落可能有時差，影片對齊仍待校正。" : caps.timed ? "點選歌詞跳至影片位置，歌詞隨影片同步。" : photoOnly ? "目前提供照片中文閱讀，原文與同步時間待補。" : caps.hasOriginal ? caps.hasTranslation ? "目前提供中日對照閱讀，同步時間整理中。" : "目前提供原文閱讀，同步時間整理中。" : "歌詞整理中，可先開啟官方入口。";
@@ -1829,11 +1836,8 @@ function renderSong(song){
     return;
   }
 
-  if (songCapabilities(song).readings) loadFurigana().then(()=>{
-    if (currentSong === song) repaintJapaneseReadings();
-  });
-
   currentSong = song;
+  if (songCapabilities(song).readings) prepareSongReadings(song);
   resetPlaybackProgress();
   lastActiveIdx = -1;
   karaokeActiveLine = null;
@@ -1892,7 +1896,7 @@ function renderSong(song){
         <span class="lyric-icons">${lyricIconsHtml(l, song)}</span>
         <span class="lyric-body">
           ${song.timingStatus === "preview" ? `<span class="lyric-timestamp">${formatPlaybackTime(l.time)}</span>` : ""}
-          <span class="lyric-jp" lang="${song.language || "ja"}">${song.language === "en" ? withIcons(l.jp) : renderJapaneseLyricLine(l, song)}</span>
+          <span class="lyric-jp" lang="${readingMode === "romaji" && songReadingsLoaded(song) ? "ja-Latn" : song.language || "ja"}">${song.language === "en" ? withIcons(l.jp) : renderJapaneseLyricLine(l, song)}</span>
           <span class="lyric-romaji" lang="ja-Latn">${song.language === "ja" && readingMode === "both" ? renderRomajiLyricLine(l, song) : ""}</span>
           <span class="lyric-zh">${withIcons(l.tr || "")}</span>
         </span>
@@ -2016,22 +2020,45 @@ function applyVenueMode(){
   updateLyricsSync(true);
 }
 
+function songReadingsLoaded(song = currentSong){
+  return songCapabilities(song).readings && Boolean(window.JP_FURIGANA && window.JP_ROMAJI);
+}
+
+function prepareSongReadings(song){
+  readingsLoadError = false;
+  loadFurigana().then(() => {
+    if (!window.JP_FURIGANA || !window.JP_ROMAJI) throw new Error("Missing lyric readings");
+    if (currentSong !== song) return;
+    updateReadingUi();
+    repaintJapaneseReadings();
+  }).catch(() => {
+    if (currentSong !== song) return;
+    readingsLoadError = true;
+    updateReadingUi();
+  });
+}
+
 function updateReadingUi(){
   const btn = document.getElementById("reading-btn");
   const value = document.getElementById("reading-value");
   const shortValue = document.getElementById("reading-value-mobile");
-  const label = readingModeLabel();
-  const shortLabel = readingModeShortLabel();
+  const available = songCapabilities(currentSong).readings;
+  const loaded = songReadingsLoaded();
+  const label = available && !loaded ? readingsLoadError ? "重試讀音" : "讀音載入中" : readingModeLabel();
+  const shortLabel = available && !loaded ? readingsLoadError ? "重試" : "載入中" : readingModeShortLabel();
   const page = document.getElementById("song-page");
-  if (page) page.classList.toggle("reading-both", readingMode === "both" && songCapabilities(currentSong).readings);
+  if (page) page.classList.toggle("reading-both", readingMode === "both" && loaded);
   if (value) value.textContent = label;
   if (shortValue) shortValue.textContent = shortLabel;
   if (btn){
     btn.hidden = currentSong?.language !== "ja";
-    btn.disabled = !songCapabilities(currentSong).readings;
+    btn.disabled = !available || (!loaded && !readingsLoadError);
     btn.classList.toggle("active", readingMode !== "kana");
     btn.setAttribute("aria-pressed", readingMode !== "kana" ? "true" : "false");
-    btn.setAttribute("aria-label", `切換日文讀音：目前顯示${label}`);
+    const next = readingModeLabel(READING_MODES[(READING_MODES.indexOf(readingMode) + 1) % READING_MODES.length]);
+    const description = !available ? "日文讀音待整理" : !loaded ? readingsLoadError ? "讀音載入失敗，點選重試" : "讀音載入中" : `切換日文讀音：目前顯示${label}，點選切換為${next}`;
+    btn.setAttribute("aria-label", description);
+    btn.title = description;
   }
   updateDocumentPip();
 }
@@ -2103,6 +2130,7 @@ function repaintJapaneseReadings(){
     const romajiTarget = line.querySelector(".lyric-romaji");
     if (!lyric || !target) return;
     target.innerHTML = renderJapaneseLyricLine(lyric, currentSong);
+    target.lang = readingMode === "romaji" && songReadingsLoaded() ? "ja-Latn" : currentSong.language || "ja";
     if (romajiTarget){
       romajiTarget.innerHTML = readingMode === "both"
         ? renderRomajiLyricLine(lyric, currentSong)
@@ -2354,9 +2382,9 @@ function renderRomajiLine(str, includeIcons = true){
 }
 
 function readingModeLabel(mode = readingMode){
-  if (mode === "romaji") return "羅馬字";
-  if (mode === "both") return "假名+羅馬字";
-  return "假名";
+  if (mode === "romaji") return "羅馬拼音";
+  if (mode === "both") return "假名＋拼音";
+  return "振り仮名";
 }
 
 function readingModeShortLabel(mode = readingMode){
@@ -2367,7 +2395,7 @@ function readingModeShortLabel(mode = readingMode){
 
 function renderJapaneseLine(str){
   if (currentSong?.language === "en") return withIcons(str);
-  if (!songCapabilities(currentSong).readings) return withIcons(str);
+  if (!songReadingsLoaded()) return withIcons(str);
   return readingMode === "romaji" ? renderRomajiLine(str) : renderKanaLine(str);
 }
 
@@ -2475,7 +2503,7 @@ function renderJapaneseLyricLine(line, song = currentSong){
 }
 
 function renderRomajiLyricLine(line, song = currentSong){
-  if (!songCapabilities(song).readings) return "";
+  if (!songReadingsLoaded(song)) return "";
   const source = line && line.jp || "";
   return renderChantAwareLine(source, line, song, text => renderRomajiLine(text, false), "romaji");
 }

@@ -787,6 +787,7 @@ button{touch-action:manipulation;}
 .song-page .player-controls{justify-content:center;}
 .song-page .venue-label-mobile,
 .song-page .reading-value-mobile{display:none;}
+.song-page .reading-toggle{min-height:44px;}
 @media (max-width:600px){
   .song-page .venue-label-desktop,
   .song-page .reading-value-desktop{display:none;}

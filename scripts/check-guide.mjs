@@ -79,7 +79,7 @@ for (const entry of localInputs.values()) {
 for (const song of SONG_LYRICS) {
   const caps = songCapabilities(song);
   assert.equal(caps.timed, !song.hidden);
-  assert.equal(caps.readings, false);
+  assert.equal(caps.readings, !song.hidden);
   const input = localInputs.get(song.id);
   assert.equal(caps.hasOriginal, Boolean(input), song.id + ": originals require supplied local input");
   const translation = localTranslations.get(song.id);
@@ -102,14 +102,19 @@ for (const song of SONG_LYRICS) {
     assert.equal(input.timingMode, "preview");
     assert.equal(song.timingStatus, "preview");
     assert.equal(song.timingPreview.youtubeId, song.youtubeId);
-    assert.equal(song.readingsStatus, "pending");
+    const previewOffset = input.previewOffsetSeconds ?? 0;
+    assert.equal(song.timingPreview.offsetSeconds, previewOffset);
+    assert.equal(song.readingsStatus, "ready");
     assert.ok(song.lyrics.every((line, index) => line.jp.trim()
       && Number.isFinite(line.sourceTime) && line.sourceTime >= 0
       && (index === 0 || line.sourceTime >= song.lyrics[index - 1].sourceTime)
-      && line.time === line.sourceTime), song.id + ": explicitly requested LRC preview preserves every source timestamp");
+      && line.time === Math.round((line.sourceTime + previewOffset) * 1000) / 1000), song.id + ": LRC preview applies the configured video offset to every source timestamp");
   }
 }
 assert.equal(songCapabilities({ language: "ja", readingsStatus: "pending", lyrics: [{ jp: "Example" }] }).readings, false);
+for (const readingsStatus of [undefined, "partial", "pending"]) {
+  assert.equal(songCapabilities({ language: "ja", readingsStatus, lyrics: [{ jp: "日本語" }] }).readings, false, "Incomplete readings must not enable the switch");
+}
 assert.equal(songCapabilities({ lyrics: [{ jp: "First", time: 3 }, { jp: "Second", time: 1 }] }).timed, false);
 assert.equal(songCapabilities({ lyrics: [{ jp: "First", tr: "測試", time: 0 }, { jp: "Second", time: 1 }] }).translationComplete, false);
 assert.equal(songCapabilities({ lyrics: [{ jp: "First", time: 0 }, { jp: "Second", time: 1 }] }).timed, true);

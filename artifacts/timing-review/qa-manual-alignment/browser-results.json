@@ -1,0 +1,19 @@
+{
+  "basis": "Synthetic model results in isolated temporary storage; not actual audio or human listening",
+  "checks": [
+    "Request uses manually corrected 16.4–20.2 rather than original bounds",
+    "Manual bounds and line-only approval survive new words",
+    "Preview identifies the retained approval as line-only",
+    "Word table and progressive preview show new complete text",
+    "Synthetic word approval can be distinguished",
+    "Recomputed words cannot inherit a word-level approval",
+    "Unavailable model preserves original words and bounds",
+    "In-flight analysis exposes cancellation and disables repeated submission",
+    "Cancel stops the server job without overwriting data",
+    "Editing during analysis cancels stale results and keeps the new start",
+    "Another tab's revision blocks stale word results",
+    "New controls fit mobile without document overflow",
+    "No page errors or production service worker"
+  ],
+  "errors": []
+}

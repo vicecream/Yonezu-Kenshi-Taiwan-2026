@@ -49,6 +49,7 @@ const noOverflow = () => page.evaluate(() => document.documentElement.scrollWidt
 const readingText = text => text.replace(/\s+/gu, "");
 const songReady = async song => {
   await page.waitForFunction(({title,count}) => document.getElementById("song-page-heading")?.textContent === title && document.querySelectorAll("#song-sheet-list > li").length === count, {title:song.title,count:SONGS.length});
+  await page.waitForFunction(() => document.getElementById("reading-btn")?.disabled === false);
 };
 
 try {
@@ -210,14 +211,19 @@ try {
       assert.equal(await page.locator("#watch-on-yt").getAttribute("href"), song.listenUrl);
       const content = SONG_LYRICS.find(item => item.id === song.id), caps = songCapabilities(content);
       assert.match(await page.locator("#song-content-status").innerText(), caps.translationComplete ? /繁中翻譯已整理/ : /繁中翻譯部分整理/);
-      assert.ok(await page.locator("#reading-btn").isDisabled());
+      assert.ok(await page.locator("#reading-btn").isEnabled());
+      assert.ok(await page.locator(".lyric-jp ruby rt").count() > 0);
       for (const selector of ["#karaoke-btn", "#autoscroll-btn"]) assert.equal(await page.locator(selector).isEnabled(), caps.timed, song.id + ": " + selector);
       assert.match(await page.locator("#song-content-status").innerText(), /LRC.*待校正/);
       assert.deepEqual(await page.locator(".lyric-line").evaluateAll(rows => rows.map(row => Number(row.dataset.time))), content.lyrics.map(row => row.time));
       assert.ok(await page.locator("#japanese-toggle").isEnabled());
       assert.ok(await page.locator("#chinese-toggle").isEnabled());
       assert.equal(await page.locator(".lyric-line").count(), content.lyrics.length);
-      assert.deepEqual((await page.locator(".lyric-jp").allTextContents()).map(readingText), content.lyrics.map(line => readingText(line.jp)));
+      assert.deepEqual((await page.locator(".lyric-jp").evaluateAll(nodes => nodes.map(node => {
+        const copy = node.cloneNode(true);
+        copy.querySelectorAll("rt, rp").forEach(reading => reading.remove());
+        return copy.textContent;
+      }))).map(readingText), content.lyrics.map(line => readingText(line.jp)));
       assert.deepEqual((await page.locator(".lyric-zh").allTextContents()).map(readingText), content.lyrics.map(line => readingText(line.tr || "")));
       assert.ok((await page.locator("#lyrics-credit").textContent()).includes(content.translationCredit));
       if (!song.youtubeId) {
@@ -228,6 +234,79 @@ try {
       report.routes.push({ id: song.id, title: song.title, video: song.youtubeId ? "official entry; streaming unverified" : "pending", lyrics: content.lyricsStatus, translation: content.translationStatus, translatedRows: content.lyrics.filter(line => line.tr).length });
     });
   }
+  await test("Furigana, romaji and both modes persist across reloads and songs", async () => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await goto("#/song/Lemon");
+    await songReady(SONGS.find(song => song.id === "Lemon"));
+    const chinese = await page.locator(".lyric-zh").allTextContents();
+    assert.equal(await page.locator("#reading-value").textContent(), "振り仮名");
+    const touch = await page.locator("#reading-btn").boundingBox();
+    assert.ok(touch.width >= 44 && touch.height >= 44, "Reading switch meets the touch target size");
+    await page.screenshot({ path: path.join(output, "readings-kana-mobile.png") });
+    await page.locator("#reading-btn").click();
+    assert.equal(await page.locator("#reading-value").textContent(), "羅馬拼音");
+    assert.equal(await page.locator(".lyric-jp").first().getAttribute("lang"), "ja-Latn");
+    assert.doesNotMatch((await page.locator(".lyric-jp").allTextContents()).join(""), /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}]/u);
+    await page.screenshot({ path: path.join(output, "readings-romaji-mobile.png") });
+    await page.locator("#reading-btn").click();
+    assert.equal(await page.locator("#reading-value").textContent(), "假名＋拼音");
+    assert.ok(await page.locator(".lyric-romaji").first().isVisible());
+    await page.screenshot({ path: path.join(output, "readings-both-mobile.png") });
+    assert.ok(await noOverflow());
+    await page.setViewportSize({ width: 1440, height: 1000 });
+    assert.ok(await noOverflow());
+    await page.screenshot({ path: path.join(output, "readings-both-desktop.png") });
+    assert.deepEqual(await page.locator(".lyric-zh").allTextContents(), chinese);
+    await page.reload();
+    await songReady(SONGS.find(song => song.id === "Lemon"));
+    assert.equal(await page.locator("#reading-value").textContent(), "假名＋拼音");
+    await page.locator("#next-song").click();
+    await songReady(SONGS.find(song => song.id === "JaneDoe"));
+    assert.equal(await page.locator("#reading-value").textContent(), "假名＋拼音");
+    await page.locator("#reading-btn").click();
+    assert.equal(await page.locator("#reading-value").textContent(), "振り仮名");
+    assert.equal(await page.evaluate(() => localStorage.getItem("yonezu-reading")), "kana");
+  });
+  await test("Reading loading keeps both mode empty and cannot repaint an old song", async () => {
+    const isolated = await browser.newContext({ serviceWorkers: "block" });
+    let release;
+    const held = new Promise(resolve => { release = resolve; });
+    try {
+      const delayed = await isolated.newPage();
+      delayed.on("pageerror", error => report.pageErrors.push(error.message));
+      await delayed.addInitScript(() => localStorage.setItem("yonezu-reading", "both"));
+      await delayed.route(/youtube\.com|fonts\.(googleapis|gstatic)\.com/, route => route.abort());
+      await delayed.route(/\/assets\/furigana-[^/]+\.js$/, async route => { await held; await route.continue(); });
+      await delayed.goto(base + "#/song/Lemon");
+      await delayed.waitForFunction(() => document.getElementById("reading-value")?.textContent === "讀音載入中");
+      assert.ok(await delayed.locator("#reading-btn").isDisabled());
+      assert.ok((await delayed.locator(".lyric-romaji").allTextContents()).every(text => !text.trim()));
+      await delayed.locator("#next-song").click();
+      await delayed.waitForFunction(() => document.getElementById("song-page-heading")?.textContent === "JANE DOE");
+      release();
+      await delayed.waitForFunction(() => document.getElementById("reading-btn")?.disabled === false);
+      assert.equal(await delayed.locator("#song-page-heading").textContent(), "JANE DOE");
+      assert.equal(await delayed.locator(".lyric-line").count(), SONG_LYRICS.find(song => song.id === "JaneDoe").lyrics.length);
+      assert.ok(await delayed.locator(".lyric-jp ruby rt").count() > 0);
+      assert.ok(await delayed.locator(".lyric-romaji").first().isVisible());
+    } finally { release(); await isolated.close(); }
+  });
+  await test("A failed reading chunk offers a working retry", async () => {
+    const isolated = await browser.newContext({ serviceWorkers: "block" });
+    try {
+      const retryPage = await isolated.newPage();
+      retryPage.on("pageerror", error => report.pageErrors.push(error.message));
+      await retryPage.route(/youtube\.com|fonts\.(googleapis|gstatic)\.com/, route => route.abort());
+      let attempts = 0;
+      await retryPage.route(/\/assets\/furigana-[^/]+\.js$/, route => ++attempts === 1 ? route.abort() : route.continue());
+      await retryPage.goto(base + "#/song/Lemon");
+      await retryPage.waitForFunction(() => document.getElementById("reading-value")?.textContent === "重試讀音");
+      await retryPage.locator("#reading-btn").click();
+      await retryPage.waitForFunction(() => document.querySelector(".lyric-jp ruby rt"));
+      assert.equal(await retryPage.locator("#reading-value").textContent(), "振り仮名");
+      assert.ok(await retryPage.locator("#reading-btn").isEnabled());
+    } finally { await isolated.close(); }
+  });
   await test("Chinese and original visibility controls preserve bilingual reading preferences", async () => {
     await goto("#/song/Lemon");
     await songReady(SONGS.find(song => song.id === "Lemon"));
@@ -311,18 +390,34 @@ try {
     const offline = await browser.newContext({ viewport: { width: 390, height: 844 }, locale: "zh-TW", timezoneId: "Asia/Taipei", serviceWorkers: "allow" });
     try {
       const offlinePage = await offline.newPage();
+      offlinePage.setDefaultTimeout(15000);
       offlinePage.on("pageerror", error => report.pageErrors.push(error.message));
       await offlinePage.route(/^https:\/\/(?:www\.youtube\.com|fonts\.googleapis\.com|fonts\.gstatic\.com)\//, route => route.abort());
       await offlinePage.goto(base);
       await offlinePage.waitForFunction(() => navigator.serviceWorker.controller !== null, null, { timeout: 25000 });
+      // Let the startup connectivity hint settle before dismissing its offline form.
+      await offlinePage.waitForFunction(() => performance.now() > 2000);
       await offline.setOffline(true);
+      await offlinePage.locator("#app-banner.offline.show").waitFor();
+      await offlinePage.locator("#app-banner-close").click();
       for (const song of SONGS) {
         await offlinePage.goto(base + "#/song/" + song.id);
         await offlinePage.waitForFunction(({title,count}) => document.getElementById("song-page-heading")?.textContent === title && document.querySelectorAll("#song-sheet-list > li").length === count, {title:song.title,count:SONGS.length});
         const content = SONG_LYRICS.find(item => item.id === song.id);
+        await offlinePage.waitForFunction(() => document.getElementById("reading-btn")?.disabled === false);
+        if (await offlinePage.locator("#app-banner.offline.show").isVisible()) {
+          await offlinePage.locator("#app-banner-close").click({ noWaitAfter: true });
+        }
+        assert.ok(await offlinePage.locator(".lyric-jp ruby rt").count() > 0, song.id + ": offline furigana");
+        await offlinePage.locator("#reading-btn").click({ noWaitAfter: true });
+        assert.doesNotMatch((await offlinePage.locator(".lyric-jp").allTextContents()).join(""), /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}]/u);
+        await offlinePage.locator("#reading-btn").click({ noWaitAfter: true });
+        await offlinePage.locator("#reading-btn").click({ noWaitAfter: true });
+        await offlinePage.waitForFunction(() => document.getElementById("reading-value")?.textContent === "振り仮名");
         assert.match(await offlinePage.locator("#song-content-status").innerText(), /原文歌詞已匯入/);
         assert.deepEqual((await offlinePage.locator(".lyric-zh").allTextContents()).map(readingText), content.lyrics.map(line => readingText(line.tr || "")));
         assert.equal(await offlinePage.locator("#video-status").getAttribute("data-state"), song.youtubeId ? "offline" : "pending");
+        console.log("PASS Offline reading route: " + song.id);
       }
     } finally { await offline.close(); }
   });

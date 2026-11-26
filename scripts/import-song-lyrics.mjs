@@ -25,6 +25,7 @@ export function prepareSong(entry, text, song) {
   const plainText = entry.format === "plain-text";
   let timed;
   let boundaries = [];
+  let explicitProviderEnds = false;
   if (plainText) {
     requireValue(!entry.alignment && entry.timingMode !== "preview", `${entry.id}: plain text has no synchronization timestamps`);
     requireValue(!/^\s*\[\d+:/m.test(text), `${entry.id}: plain text must not contain LRC timestamps`);
@@ -37,6 +38,10 @@ export function prepareSong(entry, text, song) {
   } else if (entry.file.endsWith(".json")) {
     const payload = JSON.parse(text);
     timed = karaoke.parseLrclib(payload) || karaoke.normaliseBeautifulLyrics(payload);
+    // syncedLyrics adapters synthesize line ends; only structured providers
+    // carry supplied ends that can be preserved as source data.
+    explicitProviderEnds = Boolean(payload.lyricsfile && timed?.source?.includes("lyricsfile"))
+      || Boolean(payload.Content || payload.content);
   }
   requireValue(timed?.lines?.length, `${entry.id}: expected a synced LRC or supported provider JSON file`);
   if (entry.pairedRomaji) {
@@ -69,7 +74,8 @@ export function prepareSong(entry, text, song) {
     if (plainText) return { jp };
     requireValue(Number.isFinite(line.start) && line.start >= 0, `${entry.id}: invalid line timestamp`);
     const nextRawBoundary = boundaries.find(value => value > line.start);
-    const nextBoundary = nextRawBoundary === undefined ? undefined : Math.round(nextRawBoundary * 1000) / 1000;
+    const sourceEnd = explicitProviderEnds && Number.isFinite(line.end) && line.end > line.start ? line.end : nextRawBoundary;
+    const nextBoundary = sourceEnd === undefined ? undefined : Math.round(sourceEnd * 1000) / 1000;
     const sourceTime = Math.round(line.start * 1000) / 1000;
     const source = {
       jp, sourceTime,

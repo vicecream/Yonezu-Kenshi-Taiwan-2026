@@ -1,0 +1,6458 @@
+{
+  "format": "yonezu-audio-timing-candidate-v1",
+  "songId": "Shunrai",
+  "youtubeId": "zkNzxsaCunU",
+  "sourceFingerprint": "bac1a73113a07f76744bdb1615984c6de5df58845fcb92ff5b8ad624e39b8ea3",
+  "sourceSha256": "7e6f6e036ea17a10b21c11a97b903071c3430b2e2f038772782a85b7124e639f",
+  "audioSha256": "f44dacd274ae9c92e0eb91b361b8cc0b802bab51c7ef302eb2b3b3f81117f4c9",
+  "alignmentAudioSha256": "c543a016b0e715ac4ed4c9a4f9b974f3dc65708336e6fb6eac9912dccfe4153e",
+  "duration": 297.3083125,
+  "models": {
+    "ja": {
+      "id": "jonatasgrosman/wav2vec2-large-xlsr-53-japanese",
+      "revision": "cf031e020336460d15a417eba710bbc5bb43be9a"
+    }
+  },
+  "method": "CTC known-text alignment on original mix; no vocal separation",
+  "helperScriptSha256": "a053e6af7d468e76005494dc03c3c1e1a7c86f080a46583570e352a90d8330ab",
+  "versions": {
+    "torch": "2.15.0",
+    "transformers": "4.57.6",
+    "stable-ts": "2.19.1",
+    "demucs": "4.1.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "soundfile": "0.14.0"
+  },
+  "source": {
+    "youtubeId": "zkNzxsaCunU",
+    "title": "米津玄師 - 春雷   Kenshi Yonezu - Shunrai",
+    "channelId": "UCUCeZaZeJbEYAAzvMgrKOPQ",
+    "channel": "Kenshi Yonezu  米津玄師",
+    "duration": 297,
+    "basis": "downloaded specified video",
+    "audioSha256": "f44dacd274ae9c92e0eb91b361b8cc0b802bab51c7ef302eb2b3b3f81117f4c9"
+  },
+  "status": "unreviewed",
+  "lines": [
+    {
+      "index": 0,
+      "text": "現れたそれは春の真っ最中 えも言えぬまま輝いていた",
+      "start": 19.492,
+      "end": 23.253,
+      "words": [
+        {
+          "text": "現",
+          "reading": "あらわ",
+          "start": 19.492,
+          "end": 19.512,
+          "score": 0.0035
+        },
+        {
+          "text": "れ",
+          "reading": "れ",
+          "start": 19.712,
+          "end": 19.733,
+          "score": 0.9499
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 19.852,
+          "end": 19.872,
+          "score": 0.9967
+        },
+        {
+          "text": "そ",
+          "reading": "そ",
+          "start": 20.052,
+          "end": 20.073,
+          "score": 0.0015
+        },
+        {
+          "text": "れ",
+          "reading": "れ",
+          "start": 20.192,
+          "end": 20.212,
+          "score": 0.0142
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "start": 20.312,
+          "end": 20.332,
+          "score": 0.0488
+        },
+        {
+          "text": "春",
+          "reading": "はる",
+          "start": 20.433,
+          "end": 20.453,
+          "score": 0.01
+        },
+        {
+          "text": "の",
+          "reading": "の",
+          "start": 20.672,
+          "end": 20.692,
+          "score": 0.9965
+        },
+        {
+          "text": "真",
+          "reading": "ま",
+          "start": 20.793,
+          "end": 20.812,
+          "score": 0
+        },
+        {
+          "text": "っ",
+          "reading": "っ",
+          "start": 20.953,
+          "end": 20.973,
+          "score": 0.0074
+        },
+        {
+          "text": "最中",
+          "reading": "さいちゅう",
+          "start": 21.032,
+          "end": 21.172,
+          "score": 0.0006
+        },
+        {
+          "text": "え",
+          "reading": "え",
+          "start": 21.372,
+          "end": 21.392,
+          "score": 0
+        },
+        {
+          "text": "も",
+          "reading": "も",
+          "start": 21.753,
+          "end": 21.773,
+          "score": 0.2245
+        },
+        {
+          "text": "言",
+          "reading": "い",
+          "start": 21.913,
+          "end": 21.933,
+          "score": 0.0047
+        },
+        {
+          "text": "え",
+          "reading": "え",
+          "start": 22.093,
+          "end": 22.113,
+          "score": 0.0004
+        },
+        {
+          "text": "ぬ",
+          "reading": "ぬ",
+          "start": 22.192,
+          "end": 22.212,
+          "score": 0.0005
+        },
+        {
+          "text": "ま",
+          "reading": "ま",
+          "start": 22.233,
+          "end": 22.253,
+          "score": 0.0738
+        },
+        {
+          "text": "ま",
+          "reading": "ま",
+          "start": 22.352,
+          "end": 22.372,
+          "score": 0.0003
+        },
+        {
+          "text": "輝",
+          "reading": "かがや",
+          "start": 22.613,
+          "end": 22.633,
+          "score": 0
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 22.733,
+          "end": 22.753,
+          "score": 0.1743
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 23.032,
+          "end": 23.052,
+          "score": 0.0002
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 23.133,
+          "end": 23.152,
+          "score": 0.8358
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 23.233,
+          "end": 23.253,
+          "score": 0.0004
+        }
+      ],
+      "flags": [
+        "low-model-score"
+      ],
+      "usable": true,
+      "meanScore": 0.1889,
+      "status": "unreviewed"
+    },
+    {
+      "index": 1,
+      "text": "どんな言葉もどんな手振りも足りやしないみたいんだ",
+      "start": 23.433,
+      "end": 27.593,
+      "words": [
+        {
+          "text": "ど",
+          "reading": "ど",
+          "start": 23.433,
+          "end": 23.453,
+          "score": 0.6523
+        },
+        {
+          "text": "ん",
+          "reading": "ん",
+          "start": 23.652,
+          "end": 23.672,
+          "score": 0.0001
+        },
+        {
+          "text": "な",
+          "reading": "な",
+          "start": 23.712,
+          "end": 23.733,
+          "score": 0.1824
+        },
+        {
+          "text": "言葉",
+          "reading": "ことば",
+          "start": 24.052,
+          "end": 24.233,
+          "score": 0.0041
+        },
+        {
+          "text": "も",
+          "reading": "も",
+          "start": 24.312,
+          "end": 24.332,
+          "score": 0.2405
+        },
+        {
+          "text": "ど",
+          "reading": "ど",
+          "start": 24.413,
+          "end": 24.433,
+          "score": 0.3979
+        },
+        {
+          "text": "ん",
+          "reading": "ん",
+          "start": 24.512,
+          "end": 24.532,
+          "score": 0
+        },
+        {
+          "text": "な",
+          "reading": "な",
+          "start": 24.672,
+          "end": 24.692,
+          "score": 0.0158
+        },
+        {
+          "text": "手振",
+          "reading": "てぶ",
+          "start": 24.872,
+          "end": 25.172,
+          "score": 0.0006
+        },
+        {
+          "text": "り",
+          "reading": "り",
+          "start": 25.212,
+          "end": 25.233,
+          "score": 0.0119
+        },
+        {
+          "text": "も",
+          "reading": "も",
+          "start": 25.273,
+          "end": 25.293,
+          "score": 0.1564
+        },
+        {
+          "text": "足",
+          "reading": "た",
+          "start": 25.413,
+          "end": 25.433,
+          "score": 0
+        },
+        {
+          "text": "り",
+          "reading": "り",
+          "start": 25.552,
+          "end": 25.573,
+          "score": 0.0068
+        },
+        {
+          "text": "や",
+          "reading": "や",
+          "start": 25.613,
+          "end": 25.633,
+          "score": 0.0053
+        },
+        {
+          "text": "し",
+          "reading": "し",
+          "start": 25.733,
+          "end": 25.753,
+          "score": 0.366
+        },
+        {
+          "text": "な",
+          "reading": "な",
+          "start": 25.812,
+          "end": 25.832,
+          "score": 0.9985
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 25.933,
+          "end": 25.953,
+          "score": 0.0004
+        },
+        {
+          "text": "み",
+          "reading": "み",
+          "start": 26.032,
+          "end": 26.052,
+          "score": 0.8725
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 26.113,
+          "end": 26.133,
+          "score": 0.0159
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 26.312,
+          "end": 26.332,
+          "score": 0.904
+        },
+        {
+          "text": "ん",
+          "reading": "ん",
+          "start": 27.172,
+          "end": 27.192,
+          "score": 0.2143
+        },
+        {
+          "text": "だ",
+          "reading": "だ",
+          "start": 27.573,
+          "end": 27.593,
+          "score": 0.9984
+        }
+      ],
+      "flags": [
+        "low-model-score"
+      ],
+      "usable": true,
+      "meanScore": 0.2747,
+      "status": "unreviewed"
+    },
+    {
+      "index": 2,
+      "text": "その日から僕の胸には嵐が 住み着いたまま離れないんだ",
+      "start": 27.052,
+      "end": 30.992,
+      "words": [
+        {
+          "text": "そ",
+          "reading": "そ",
+          "start": 27.052,
+          "end": 27.073,
+          "score": 0.9993
+        },
+        {
+          "text": "の",
+          "reading": "の",
+          "start": 27.212,
+          "end": 27.233,
+          "score": 0.9686
+        },
+        {
+          "text": "日",
+          "reading": "ひ",
+          "start": 27.312,
+          "end": 27.332,
+          "score": 0.0009
+        },
+        {
+          "text": "か",
+          "reading": "か",
+          "start": 27.433,
+          "end": 27.453,
+          "score": 0.2039
+        },
+        {
+          "text": "ら",
+          "reading": "ら",
+          "start": 27.573,
+          "end": 27.593,
+          "score": 0.0011
+        },
+        {
+          "text": "僕",
+          "reading": "ぼく",
+          "start": 27.793,
+          "end": 27.812,
+          "score": 0.0002
+        },
+        {
+          "text": "の",
+          "reading": "の",
+          "start": 28.032,
+          "end": 28.052,
+          "score": 0.934
+        },
+        {
+          "text": "胸",
+          "reading": "むね",
+          "start": 28.172,
+          "end": 28.192,
+          "score": 0.0255
+        },
+        {
+          "text": "に",
+          "reading": "に",
+          "start": 28.413,
+          "end": 28.433,
+          "score": 0.0834
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "start": 28.532,
+          "end": 28.552,
+          "score": 0.2229
+        },
+        {
+          "text": "嵐",
+          "reading": "あらし",
+          "start": 28.872,
+          "end": 28.892,
+          "score": 0.0234
+        },
+        {
+          "text": "が",
+          "reading": "が",
+          "start": 28.992,
+          "end": 29.012,
+          "score": 0.0001
+        },
+        {
+          "text": "住",
+          "reading": "す",
+          "start": 29.352,
+          "end": 29.372,
+          "score": 0
+        },
+        {
+          "text": "み",
+          "reading": "み",
+          "start": 29.473,
+          "end": 29.492,
+          "score": 0.0488
+        },
+        {
+          "text": "着",
+          "reading": "つ",
+          "start": 29.613,
+          "end": 29.633,
+          "score": 0.0036
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 29.753,
+          "end": 29.773,
+          "score": 0.0178
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 29.812,
+          "end": 29.832,
+          "score": 0.0001
+        },
+        {
+          "text": "ま",
+          "reading": "ま",
+          "start": 29.992,
+          "end": 30.012,
+          "score": 0.6842
+        },
+        {
+          "text": "ま",
+          "reading": "ま",
+          "start": 30.113,
+          "end": 30.133,
+          "score": 0.9992
+        },
+        {
+          "text": "離",
+          "reading": "はな",
+          "start": 30.233,
+          "end": 30.253,
+          "score": 0.0004
+        },
+        {
+          "text": "れ",
+          "reading": "れ",
+          "start": 30.473,
+          "end": 30.492,
+          "score": 0.0043
+        },
+        {
+          "text": "な",
+          "reading": "な",
+          "start": 30.573,
+          "end": 30.613,
+          "score": 0.8213
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 30.692,
+          "end": 30.712,
+          "score": 0.3954
+        },
+        {
+          "text": "ん",
+          "reading": "ん",
+          "start": 30.892,
+          "end": 30.933,
+          "score": 0.5751
+        },
+        {
+          "text": "だ",
+          "reading": "だ",
+          "start": 30.973,
+          "end": 30.992,
+          "score": 0.9928
+        }
+      ],
+      "flags": [
+        "low-model-score"
+      ],
+      "usable": true,
+      "meanScore": 0.3203,
+      "status": "unreviewed"
+    },
+    {
+      "index": 3,
+      "text": "人の声を借りた 蒼い眼の落雷だ",
+      "start": 29.812,
+      "end": 35.352,
+      "words": [
+        {
+          "text": "人",
+          "reading": "ひと",
+          "start": 29.812,
+          "end": 29.832,
+          "score": 0.7695
+        },
+        {
+          "text": "の",
+          "reading": "の",
+          "start": 30.573,
+          "end": 30.593,
+          "score": 0.1151
+        },
+        {
+          "text": "声",
+          "reading": "こえ",
+          "start": 30.773,
+          "end": 30.793,
+          "score": 0
+        },
+        {
+          "text": "を",
+          "reading": "を",
+          "start": 31.652,
+          "end": 31.672,
+          "score": 0.9999
+        },
+        {
+          "text": "借",
+          "reading": "か",
+          "start": 31.913,
+          "end": 31.933,
+          "score": 0.0167
+        },
+        {
+          "text": "り",
+          "reading": "り",
+          "start": 32.053,
+          "end": 32.072,
+          "score": 0.1156
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 32.172,
+          "end": 32.193,
+          "score": 0.8911
+        },
+        {
+          "text": "蒼",
+          "reading": "あお",
+          "start": 32.833,
+          "end": 32.852,
+          "score": 0
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 32.932,
+          "end": 32.953,
+          "score": 0.0794
+        },
+        {
+          "text": "眼",
+          "reading": "め",
+          "start": 33.032,
+          "end": 33.053,
+          "score": 0
+        },
+        {
+          "text": "の",
+          "reading": "の",
+          "start": 33.492,
+          "end": 33.513,
+          "score": 0.4149
+        },
+        {
+          "text": "落雷",
+          "reading": "らくらい",
+          "start": 33.612,
+          "end": 33.733,
+          "score": 0.0045
+        },
+        {
+          "text": "だ",
+          "reading": "だ",
+          "start": 35.333,
+          "end": 35.352,
+          "score": 0.9776
+        }
+      ],
+      "flags": [
+        "large-start-change-listen",
+        "low-model-score"
+      ],
+      "usable": false,
+      "meanScore": 0.3373,
+      "status": "unreviewed"
+    },
+    {
+      "index": 4,
+      "text": "揺れながら踊るその髪の黒が 他のどれより嫋やかでした",
+      "start": 33.322,
+      "end": 39.322,
+      "words": [
+        {
+          "text": "揺",
+          "reading": "ゆ",
+          "start": 33.322,
+          "end": 33.343,
+          "score": 0
+        },
+        {
+          "text": "れ",
+          "reading": "れ",
+          "start": 33.602,
+          "end": 33.623,
+          "score": 0.0015
+        },
+        {
+          "text": "な",
+          "reading": "な",
+          "start": 34.362,
+          "end": 34.383,
+          "score": 0.0126
+        },
+        {
+          "text": "が",
+          "reading": "が",
+          "start": 35.203,
+          "end": 35.222,
+          "score": 0.0004
+        },
+        {
+          "text": "ら",
+          "reading": "ら",
+          "start": 35.322,
+          "end": 35.343,
+          "score": 0.9847
+        },
+        {
+          "text": "踊",
+          "reading": "おど",
+          "start": 35.642,
+          "end": 35.803,
+          "score": 0.4454
+        },
+        {
+          "text": "る",
+          "reading": "る",
+          "start": 35.803,
+          "end": 35.822,
+          "score": 0.0002
+        },
+        {
+          "text": "そ",
+          "reading": "そ",
+          "start": 35.903,
+          "end": 35.922,
+          "score": 0.0007
+        },
+        {
+          "text": "の",
+          "reading": "の",
+          "start": 36.023,
+          "end": 36.042,
+          "score": 0.004
+        },
+        {
+          "text": "髪",
+          "reading": "かみ",
+          "start": 36.163,
+          "end": 36.322,
+          "score": 0.249
+        },
+        {
+          "text": "の",
+          "reading": "の",
+          "start": 36.383,
+          "end": 36.403,
+          "score": 0.9997
+        },
+        {
+          "text": "黒",
+          "reading": "くろ",
+          "start": 36.502,
+          "end": 36.623,
+          "score": 0.0257
+        },
+        {
+          "text": "が",
+          "reading": "が",
+          "start": 36.763,
+          "end": 36.782,
+          "score": 0.1194
+        },
+        {
+          "text": "他",
+          "reading": "ほか",
+          "start": 37.102,
+          "end": 37.263,
+          "score": 0.0993
+        },
+        {
+          "text": "の",
+          "reading": "の",
+          "start": 37.362,
+          "end": 37.383,
+          "score": 0.996
+        },
+        {
+          "text": "ど",
+          "reading": "ど",
+          "start": 37.483,
+          "end": 37.502,
+          "score": 0.0562
+        },
+        {
+          "text": "れ",
+          "reading": "れ",
+          "start": 37.682,
+          "end": 37.703,
+          "score": 0.4704
+        },
+        {
+          "text": "よ",
+          "reading": "よ",
+          "start": 37.782,
+          "end": 37.803,
+          "score": 0.0002
+        },
+        {
+          "text": "り",
+          "reading": "り",
+          "start": 37.843,
+          "end": 37.862,
+          "score": 0.0007
+        },
+        {
+          "text": "嫋",
+          "reading": "たお",
+          "start": 37.962,
+          "end": 38.163,
+          "score": 0.5784
+        },
+        {
+          "text": "や",
+          "reading": "や",
+          "start": 38.222,
+          "end": 38.263,
+          "score": 0.781
+        },
+        {
+          "text": "か",
+          "reading": "か",
+          "start": 38.322,
+          "end": 38.343,
+          "score": 0.9947
+        },
+        {
+          "text": "で",
+          "reading": "で",
+          "start": 38.462,
+          "end": 38.483,
+          "score": 0.0173
+        },
+        {
+          "text": "し",
+          "reading": "し",
+          "start": 38.602,
+          "end": 38.623,
+          "score": 0.0117
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 39.303,
+          "end": 39.322,
+          "score": 0
+        }
+      ],
+      "flags": [
+        "analysis-window-edge",
+        "large-start-change-listen",
+        "low-model-score"
+      ],
+      "usable": false,
+      "meanScore": 0.274,
+      "status": "unreviewed"
+    },
+    {
+      "index": 5,
+      "text": "すっと消えそうな 真っ白い肌によく似合ってました",
+      "start": 38.612,
+      "end": 41.852,
+      "words": [
+        {
+          "text": "す",
+          "reading": "す",
+          "start": 38.612,
+          "end": 38.633,
+          "score": 0.0259
+        },
+        {
+          "text": "っ",
+          "reading": "っ",
+          "start": 39.153,
+          "end": 39.172,
+          "score": 0.6973
+        },
+        {
+          "text": "と",
+          "reading": "と",
+          "start": 39.172,
+          "end": 39.193,
+          "score": 0.9393
+        },
+        {
+          "text": "消",
+          "reading": "き",
+          "start": 39.292,
+          "end": 39.312,
+          "score": 0.7812
+        },
+        {
+          "text": "え",
+          "reading": "え",
+          "start": 39.392,
+          "end": 39.413,
+          "score": 0.0015
+        },
+        {
+          "text": "そ",
+          "reading": "そ",
+          "start": 39.513,
+          "end": 39.532,
+          "score": 0.7426
+        },
+        {
+          "text": "う",
+          "reading": "う",
+          "start": 39.693,
+          "end": 39.712,
+          "score": 0.0209
+        },
+        {
+          "text": "な",
+          "reading": "な",
+          "start": 39.773,
+          "end": 39.792,
+          "score": 0.6809
+        },
+        {
+          "text": "真",
+          "reading": "ま",
+          "start": 39.913,
+          "end": 39.932,
+          "score": 0
+        },
+        {
+          "text": "っ",
+          "reading": "っ",
+          "start": 40.072,
+          "end": 40.093,
+          "score": 0.0006
+        },
+        {
+          "text": "白",
+          "reading": "しろ",
+          "start": 40.112,
+          "end": 40.273,
+          "score": 0.0268
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 40.392,
+          "end": 40.413,
+          "score": 0.0067
+        },
+        {
+          "text": "肌",
+          "reading": "はだ",
+          "start": 40.492,
+          "end": 40.653,
+          "score": 0.3344
+        },
+        {
+          "text": "に",
+          "reading": "に",
+          "start": 40.733,
+          "end": 40.752,
+          "score": 0.0105
+        },
+        {
+          "text": "よ",
+          "reading": "よ",
+          "start": 40.873,
+          "end": 40.892,
+          "score": 0.0016
+        },
+        {
+          "text": "く",
+          "reading": "く",
+          "start": 41.112,
+          "end": 41.133,
+          "score": 0.0275
+        },
+        {
+          "text": "似合",
+          "reading": "にあ",
+          "start": 41.172,
+          "end": 41.292,
+          "score": 0.5034
+        },
+        {
+          "text": "っ",
+          "reading": "っ",
+          "start": 41.392,
+          "end": 41.413,
+          "score": 0.0018
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 41.453,
+          "end": 41.472,
+          "score": 0
+        },
+        {
+          "text": "ま",
+          "reading": "ま",
+          "start": 41.593,
+          "end": 41.612,
+          "score": 0.9999
+        },
+        {
+          "text": "し",
+          "reading": "し",
+          "start": 41.733,
+          "end": 41.773,
+          "score": 0.9631
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 41.833,
+          "end": 41.852,
+          "score": 0.0204
+        }
+      ],
+      "flags": [
+        "low-model-score"
+      ],
+      "usable": true,
+      "meanScore": 0.3085,
+      "status": "unreviewed"
+    },
+    {
+      "index": 6,
+      "text": "あなたにはこの世界の彩りが どう見えるのか知りたくて今",
+      "start": 41.462,
+      "end": 47.282,
+      "words": [
+        {
+          "text": "あ",
+          "reading": "あ",
+          "start": 41.462,
+          "end": 41.483,
+          "score": 0.0033
+        },
+        {
+          "text": "な",
+          "reading": "な",
+          "start": 41.922,
+          "end": 41.943,
+          "score": 0.013
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 42.123,
+          "end": 42.142,
+          "score": 0.2665
+        },
+        {
+          "text": "に",
+          "reading": "に",
+          "start": 42.962,
+          "end": 42.983,
+          "score": 0.0238
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "start": 43.062,
+          "end": 43.083,
+          "score": 0.0237
+        },
+        {
+          "text": "こ",
+          "reading": "こ",
+          "start": 43.263,
+          "end": 43.282,
+          "score": 0.1021
+        },
+        {
+          "text": "の",
+          "reading": "の",
+          "start": 43.383,
+          "end": 43.403,
+          "score": 0
+        },
+        {
+          "text": "世界",
+          "reading": "せかい",
+          "start": 43.523,
+          "end": 43.663,
+          "score": 0.0074
+        },
+        {
+          "text": "の",
+          "reading": "の",
+          "start": 43.903,
+          "end": 43.922,
+          "score": 0.004
+        },
+        {
+          "text": "彩",
+          "reading": "いろど",
+          "start": 44.123,
+          "end": 44.142,
+          "score": 0
+        },
+        {
+          "text": "り",
+          "reading": "り",
+          "start": 44.362,
+          "end": 44.383,
+          "score": 0.0023
+        },
+        {
+          "text": "が",
+          "reading": "が",
+          "start": 44.523,
+          "end": 44.542,
+          "score": 0.7758
+        },
+        {
+          "text": "ど",
+          "reading": "ど",
+          "start": 44.862,
+          "end": 44.883,
+          "score": 0.0104
+        },
+        {
+          "text": "う",
+          "reading": "う",
+          "start": 45.002,
+          "end": 45.023,
+          "score": 0.0018
+        },
+        {
+          "text": "見",
+          "reading": "み",
+          "start": 45.123,
+          "end": 45.142,
+          "score": 0.0271
+        },
+        {
+          "text": "え",
+          "reading": "え",
+          "start": 45.222,
+          "end": 45.242,
+          "score": 0.0019
+        },
+        {
+          "text": "る",
+          "reading": "る",
+          "start": 45.303,
+          "end": 45.322,
+          "score": 0.003
+        },
+        {
+          "text": "の",
+          "reading": "の",
+          "start": 45.443,
+          "end": 45.462,
+          "score": 0.1039
+        },
+        {
+          "text": "か",
+          "reading": "か",
+          "start": 45.562,
+          "end": 45.583,
+          "score": 0.0575
+        },
+        {
+          "text": "知",
+          "reading": "し",
+          "start": 45.703,
+          "end": 45.722,
+          "score": 0
+        },
+        {
+          "text": "り",
+          "reading": "り",
+          "start": 45.843,
+          "end": 45.862,
+          "score": 0.0021
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 45.943,
+          "end": 45.962,
+          "score": 0.9974
+        },
+        {
+          "text": "く",
+          "reading": "く",
+          "start": 46.182,
+          "end": 46.203,
+          "score": 0.0012
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 47.042,
+          "end": 47.062,
+          "score": 0.167
+        },
+        {
+          "text": "今",
+          "reading": "いま",
+          "start": 47.263,
+          "end": 47.282,
+          "score": 0
+        }
+      ],
+      "flags": [
+        "low-average-model-score",
+        "low-model-score"
+      ],
+      "usable": false,
+      "meanScore": 0.1038,
+      "status": "unreviewed"
+    },
+    {
+      "index": 7,
+      "text": "頬に手を伸ばした 壊れそうでただ怖かった",
+      "start": 45.322,
+      "end": 49.602,
+      "words": [
+        {
+          "text": "頬",
+          "reading": "ほお",
+          "start": 45.322,
+          "end": 45.343,
+          "score": 0
+        },
+        {
+          "text": "に",
+          "reading": "に",
+          "start": 45.562,
+          "end": 45.583,
+          "score": 0
+        },
+        {
+          "text": "手",
+          "reading": "て",
+          "start": 46.182,
+          "end": 46.203,
+          "score": 0.0041
+        },
+        {
+          "text": "を",
+          "reading": "を",
+          "start": 46.803,
+          "end": 46.843,
+          "score": 0.9191
+        },
+        {
+          "text": "伸",
+          "reading": "の",
+          "start": 46.922,
+          "end": 46.943,
+          "score": 0
+        },
+        {
+          "text": "ば",
+          "reading": "ば",
+          "start": 47.403,
+          "end": 47.422,
+          "score": 0.1708
+        },
+        {
+          "text": "し",
+          "reading": "し",
+          "start": 47.583,
+          "end": 47.602,
+          "score": 0.9953
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 47.642,
+          "end": 47.663,
+          "score": 0.996
+        },
+        {
+          "text": "壊",
+          "reading": "こわ",
+          "start": 48.123,
+          "end": 48.142,
+          "score": 0
+        },
+        {
+          "text": "れ",
+          "reading": "れ",
+          "start": 48.362,
+          "end": 48.383,
+          "score": 0.0001
+        },
+        {
+          "text": "そ",
+          "reading": "そ",
+          "start": 48.483,
+          "end": 48.502,
+          "score": 0.0013
+        },
+        {
+          "text": "う",
+          "reading": "う",
+          "start": 48.623,
+          "end": 48.642,
+          "score": 0.0007
+        },
+        {
+          "text": "で",
+          "reading": "で",
+          "start": 48.742,
+          "end": 48.763,
+          "score": 0.2911
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 48.862,
+          "end": 48.883,
+          "score": 0.5788
+        },
+        {
+          "text": "だ",
+          "reading": "だ",
+          "start": 48.983,
+          "end": 49.002,
+          "score": 0.0815
+        },
+        {
+          "text": "怖",
+          "reading": "こわ",
+          "start": 49.222,
+          "end": 49.242,
+          "score": 0
+        },
+        {
+          "text": "か",
+          "reading": "か",
+          "start": 49.403,
+          "end": 49.422,
+          "score": 0.0025
+        },
+        {
+          "text": "っ",
+          "reading": "っ",
+          "start": 49.542,
+          "end": 49.562,
+          "score": 0.9721
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 49.583,
+          "end": 49.602,
+          "score": 0.9466
+        }
+      ],
+      "flags": [
+        "large-start-change-listen",
+        "low-model-score"
+      ],
+      "usable": false,
+      "meanScore": 0.3137,
+      "status": "unreviewed"
+    },
+    {
+      "index": 8,
+      "text": "全てはあなたの思い通り 悲しくって散らばった思いも全て",
+      "start": 48.852,
+      "end": 56.013,
+      "words": [
+        {
+          "text": "全",
+          "reading": "すべ",
+          "start": 48.852,
+          "end": 48.873,
+          "score": 0
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 49.112,
+          "end": 49.133,
+          "score": 0.0031
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "start": 49.212,
+          "end": 49.233,
+          "score": 0.674
+        },
+        {
+          "text": "あ",
+          "reading": "あ",
+          "start": 49.672,
+          "end": 49.693,
+          "score": 0.0846
+        },
+        {
+          "text": "な",
+          "reading": "な",
+          "start": 50.913,
+          "end": 50.932,
+          "score": 0.1328
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 51.553,
+          "end": 51.572,
+          "score": 0.3726
+        },
+        {
+          "text": "の",
+          "reading": "の",
+          "start": 52.153,
+          "end": 52.172,
+          "score": 0.9592
+        },
+        {
+          "text": "思",
+          "reading": "おも",
+          "start": 52.472,
+          "end": 52.492,
+          "score": 0.0014
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 52.852,
+          "end": 52.873,
+          "score": 0.0846
+        },
+        {
+          "text": "通",
+          "reading": "どお",
+          "start": 53.172,
+          "end": 53.193,
+          "score": 0.0006
+        },
+        {
+          "text": "り",
+          "reading": "り",
+          "start": 53.312,
+          "end": 53.333,
+          "score": 0.001
+        },
+        {
+          "text": "悲",
+          "reading": "かな",
+          "start": 53.932,
+          "end": 53.953,
+          "score": 0
+        },
+        {
+          "text": "し",
+          "reading": "し",
+          "start": 54.233,
+          "end": 54.252,
+          "score": 0.0004
+        },
+        {
+          "text": "く",
+          "reading": "く",
+          "start": 54.333,
+          "end": 54.352,
+          "score": 0.0035
+        },
+        {
+          "text": "っ",
+          "reading": "っ",
+          "start": 54.492,
+          "end": 54.513,
+          "score": 0.0014
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 54.532,
+          "end": 54.553,
+          "score": 0
+        },
+        {
+          "text": "散",
+          "reading": "ち",
+          "start": 54.653,
+          "end": 54.672,
+          "score": 0.0005
+        },
+        {
+          "text": "ら",
+          "reading": "ら",
+          "start": 54.773,
+          "end": 54.792,
+          "score": 0.0221
+        },
+        {
+          "text": "ば",
+          "reading": "ば",
+          "start": 54.892,
+          "end": 54.913,
+          "score": 0.0107
+        },
+        {
+          "text": "っ",
+          "reading": "っ",
+          "start": 55.093,
+          "end": 55.112,
+          "score": 0.0542
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 55.133,
+          "end": 55.153,
+          "score": 0.1023
+        },
+        {
+          "text": "思",
+          "reading": "おも",
+          "start": 55.392,
+          "end": 55.413,
+          "score": 0.041
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 55.492,
+          "end": 55.513,
+          "score": 0.0063
+        },
+        {
+          "text": "も",
+          "reading": "も",
+          "start": 55.593,
+          "end": 55.612,
+          "score": 0.0067
+        },
+        {
+          "text": "全",
+          "reading": "すべ",
+          "start": 55.852,
+          "end": 55.873,
+          "score": 0
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 55.992,
+          "end": 56.013,
+          "score": 0.0015
+        }
+      ],
+      "flags": [
+        "analysis-window-edge",
+        "large-start-change-listen",
+        "low-average-model-score",
+        "low-model-score"
+      ],
+      "usable": false,
+      "meanScore": 0.0986,
+      "status": "unreviewed"
+    },
+    {
+      "index": 9,
+      "text": "あなたがくれたプレゼント",
+      "start": 56.242,
+      "end": 57.822,
+      "words": [
+        {
+          "text": "あ",
+          "reading": "あ",
+          "start": 56.242,
+          "end": 56.263,
+          "score": 0.0708
+        },
+        {
+          "text": "な",
+          "reading": "な",
+          "start": 56.483,
+          "end": 56.502,
+          "score": 0.0062
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 56.602,
+          "end": 56.623,
+          "score": 0.2067
+        },
+        {
+          "text": "が",
+          "reading": "が",
+          "start": 56.722,
+          "end": 56.742,
+          "score": 0.7649
+        },
+        {
+          "text": "く",
+          "reading": "く",
+          "start": 56.843,
+          "end": 56.862,
+          "score": 0.4595
+        },
+        {
+          "text": "れ",
+          "reading": "れ",
+          "start": 56.943,
+          "end": 56.962,
+          "score": 0.0005
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 57.083,
+          "end": 57.102,
+          "score": 0.9886
+        },
+        {
+          "text": "プ",
+          "reading": "プ",
+          "start": 57.222,
+          "end": 57.242,
+          "score": 0.9903
+        },
+        {
+          "text": "レ",
+          "reading": "レ",
+          "start": 57.343,
+          "end": 57.362,
+          "score": 0.0024
+        },
+        {
+          "text": "ゼ",
+          "reading": "ゼ",
+          "start": 57.602,
+          "end": 57.623,
+          "score": 0.4724
+        },
+        {
+          "text": "ン",
+          "reading": "ン",
+          "start": 57.722,
+          "end": 57.742,
+          "score": 0.3094
+        },
+        {
+          "text": "ト",
+          "reading": "ト",
+          "start": 57.803,
+          "end": 57.822,
+          "score": 0.0045
+        }
+      ],
+      "flags": [
+        "low-model-score"
+      ],
+      "usable": true,
+      "meanScore": 0.3564,
+      "status": "unreviewed"
+    },
+    {
+      "index": 10,
+      "text": "ゆらゆら吹かれて深い惑い 痛み 憂い 恋しい",
+      "start": 57.222,
+      "end": 64.823,
+      "words": [
+        {
+          "text": "ゆ",
+          "reading": "ゆ",
+          "start": 57.222,
+          "end": 57.242,
+          "score": 0
+        },
+        {
+          "text": "ら",
+          "reading": "ら",
+          "start": 57.343,
+          "end": 57.362,
+          "score": 0.0007
+        },
+        {
+          "text": "ゆ",
+          "reading": "ゆ",
+          "start": 57.443,
+          "end": 57.462,
+          "score": 0
+        },
+        {
+          "text": "ら",
+          "reading": "ら",
+          "start": 57.803,
+          "end": 57.822,
+          "score": 0
+        },
+        {
+          "text": "吹",
+          "reading": "ふ",
+          "start": 58.083,
+          "end": 58.102,
+          "score": 0.1362
+        },
+        {
+          "text": "か",
+          "reading": "か",
+          "start": 59.362,
+          "end": 59.383,
+          "score": 0.0258
+        },
+        {
+          "text": "れ",
+          "reading": "れ",
+          "start": 59.962,
+          "end": 59.983,
+          "score": 0.1477
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 60.203,
+          "end": 60.222,
+          "score": 0.0116
+        },
+        {
+          "text": "深",
+          "reading": "ふか",
+          "start": 60.443,
+          "end": 60.462,
+          "score": 0
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 60.562,
+          "end": 60.583,
+          "score": 0.1459
+        },
+        {
+          "text": "惑",
+          "reading": "まど",
+          "start": 60.803,
+          "end": 60.822,
+          "score": 0.0001
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 61.242,
+          "end": 61.263,
+          "score": 0.206
+        },
+        {
+          "text": "痛",
+          "reading": "いた",
+          "start": 62.163,
+          "end": 62.182,
+          "score": 0
+        },
+        {
+          "text": "み",
+          "reading": "み",
+          "start": 62.383,
+          "end": 62.403,
+          "score": 0.0003
+        },
+        {
+          "text": "憂",
+          "reading": "うれ",
+          "start": 62.883,
+          "end": 62.903,
+          "score": 0
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 63.343,
+          "end": 63.362,
+          "score": 0.0148
+        },
+        {
+          "text": "恋",
+          "reading": "こい",
+          "start": 64.082,
+          "end": 64.103,
+          "score": 0.0001
+        },
+        {
+          "text": "し",
+          "reading": "し",
+          "start": 64.642,
+          "end": 64.662,
+          "score": 0.8606
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 64.802,
+          "end": 64.823,
+          "score": 0.1196
+        }
+      ],
+      "flags": [
+        "low-average-model-score",
+        "low-model-score"
+      ],
+      "usable": false,
+      "meanScore": 0.0879,
+      "status": "unreviewed"
+    },
+    {
+      "index": 11,
+      "text": "言葉にするのも 形にするのも そのどれもが覚束なくって",
+      "start": 66.252,
+      "end": 74.032,
+      "words": [
+        {
+          "text": "言葉",
+          "reading": "ことば",
+          "start": 66.252,
+          "end": 66.532,
+          "score": 0.0001
+        },
+        {
+          "text": "に",
+          "reading": "に",
+          "start": 66.892,
+          "end": 66.912,
+          "score": 0.0009
+        },
+        {
+          "text": "す",
+          "reading": "す",
+          "start": 66.993,
+          "end": 67.013,
+          "score": 0.0003
+        },
+        {
+          "text": "る",
+          "reading": "る",
+          "start": 67.532,
+          "end": 67.552,
+          "score": 0.0015
+        },
+        {
+          "text": "の",
+          "reading": "の",
+          "start": 67.733,
+          "end": 67.752,
+          "score": 0.0165
+        },
+        {
+          "text": "も",
+          "reading": "も",
+          "start": 67.853,
+          "end": 67.873,
+          "score": 0.0107
+        },
+        {
+          "text": "形",
+          "reading": "かたち",
+          "start": 68.192,
+          "end": 68.213,
+          "score": 0
+        },
+        {
+          "text": "に",
+          "reading": "に",
+          "start": 68.293,
+          "end": 68.312,
+          "score": 0.0019
+        },
+        {
+          "text": "す",
+          "reading": "す",
+          "start": 68.972,
+          "end": 68.993,
+          "score": 0.0054
+        },
+        {
+          "text": "る",
+          "reading": "る",
+          "start": 69.493,
+          "end": 69.513,
+          "score": 0.0004
+        },
+        {
+          "text": "の",
+          "reading": "の",
+          "start": 69.672,
+          "end": 69.692,
+          "score": 0.5634
+        },
+        {
+          "text": "も",
+          "reading": "も",
+          "start": 69.793,
+          "end": 69.812,
+          "score": 0.013
+        },
+        {
+          "text": "そ",
+          "reading": "そ",
+          "start": 71.112,
+          "end": 71.132,
+          "score": 0
+        },
+        {
+          "text": "の",
+          "reading": "の",
+          "start": 71.332,
+          "end": 71.353,
+          "score": 0.5083
+        },
+        {
+          "text": "ど",
+          "reading": "ど",
+          "start": 71.433,
+          "end": 71.453,
+          "score": 0.0002
+        },
+        {
+          "text": "れ",
+          "reading": "れ",
+          "start": 72.052,
+          "end": 72.073,
+          "score": 0.0002
+        },
+        {
+          "text": "も",
+          "reading": "も",
+          "start": 72.293,
+          "end": 72.312,
+          "score": 0.0013
+        },
+        {
+          "text": "が",
+          "reading": "が",
+          "start": 72.653,
+          "end": 72.672,
+          "score": 0.0296
+        },
+        {
+          "text": "覚束",
+          "reading": "おぼつか",
+          "start": 72.793,
+          "end": 73.093,
+          "score": 0
+        },
+        {
+          "text": "な",
+          "reading": "な",
+          "start": 73.593,
+          "end": 73.612,
+          "score": 0.0151
+        },
+        {
+          "text": "く",
+          "reading": "く",
+          "start": 73.873,
+          "end": 73.892,
+          "score": 0.0087
+        },
+        {
+          "text": "っ",
+          "reading": "っ",
+          "start": 73.953,
+          "end": 73.972,
+          "score": 0.0545
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 74.013,
+          "end": 74.032,
+          "score": 0.064
+        }
+      ],
+      "flags": [
+        "low-average-model-score",
+        "low-model-score",
+        "repeated-occurrence-listen"
+      ],
+      "usable": false,
+      "meanScore": 0.0563,
+      "status": "unreviewed"
+    },
+    {
+      "index": 12,
+      "text": "ただ目を見つめた するとあなたはふっと優しく笑ったんだ",
+      "start": 72.642,
+      "end": 81.282,
+      "words": [
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 72.642,
+          "end": 72.662,
+          "score": 0.0021
+        },
+        {
+          "text": "だ",
+          "reading": "だ",
+          "start": 73.403,
+          "end": 73.422,
+          "score": 0.0077
+        },
+        {
+          "text": "目",
+          "reading": "め",
+          "start": 74.502,
+          "end": 74.522,
+          "score": 0.0009
+        },
+        {
+          "text": "を",
+          "reading": "を",
+          "start": 74.603,
+          "end": 74.623,
+          "score": 0.0018
+        },
+        {
+          "text": "見",
+          "reading": "み",
+          "start": 75.002,
+          "end": 75.022,
+          "score": 0
+        },
+        {
+          "text": "つ",
+          "reading": "つ",
+          "start": 75.203,
+          "end": 75.222,
+          "score": 0.0004
+        },
+        {
+          "text": "め",
+          "reading": "め",
+          "start": 75.463,
+          "end": 75.483,
+          "score": 0.0346
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 75.603,
+          "end": 75.623,
+          "score": 0.7813
+        },
+        {
+          "text": "す",
+          "reading": "す",
+          "start": 76.183,
+          "end": 76.203,
+          "score": 0.0001
+        },
+        {
+          "text": "る",
+          "reading": "る",
+          "start": 76.763,
+          "end": 76.782,
+          "score": 0.0019
+        },
+        {
+          "text": "と",
+          "reading": "と",
+          "start": 76.922,
+          "end": 76.942,
+          "score": 0.0182
+        },
+        {
+          "text": "あ",
+          "reading": "あ",
+          "start": 77.403,
+          "end": 77.422,
+          "score": 0.0018
+        },
+        {
+          "text": "な",
+          "reading": "な",
+          "start": 77.582,
+          "end": 77.603,
+          "score": 0.0222
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 77.642,
+          "end": 77.662,
+          "score": 0.088
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "start": 78.082,
+          "end": 78.103,
+          "score": 0.0789
+        },
+        {
+          "text": "ふ",
+          "reading": "ふ",
+          "start": 78.203,
+          "end": 78.222,
+          "score": 0.0149
+        },
+        {
+          "text": "っ",
+          "reading": "っ",
+          "start": 78.302,
+          "end": 78.323,
+          "score": 0.0242
+        },
+        {
+          "text": "と",
+          "reading": "と",
+          "start": 78.362,
+          "end": 78.382,
+          "score": 0.006
+        },
+        {
+          "text": "優",
+          "reading": "やさ",
+          "start": 78.802,
+          "end": 78.823,
+          "score": 0
+        },
+        {
+          "text": "し",
+          "reading": "し",
+          "start": 79.162,
+          "end": 79.183,
+          "score": 0.0009
+        },
+        {
+          "text": "く",
+          "reading": "く",
+          "start": 80.062,
+          "end": 80.082,
+          "score": 0.0128
+        },
+        {
+          "text": "笑",
+          "reading": "わら",
+          "start": 80.183,
+          "end": 80.203,
+          "score": 0.001
+        },
+        {
+          "text": "っ",
+          "reading": "っ",
+          "start": 80.483,
+          "end": 80.502,
+          "score": 0.0035
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 80.543,
+          "end": 80.562,
+          "score": 0.0038
+        },
+        {
+          "text": "ん",
+          "reading": "ん",
+          "start": 80.802,
+          "end": 80.823,
+          "score": 0.0019
+        },
+        {
+          "text": "だ",
+          "reading": "だ",
+          "start": 81.263,
+          "end": 81.282,
+          "score": 0.1875
+        }
+      ],
+      "flags": [
+        "large-start-change-listen",
+        "low-average-model-score",
+        "low-model-score",
+        "repeated-occurrence-listen"
+      ],
+      "usable": false,
+      "meanScore": 0.0499,
+      "status": "unreviewed"
+    },
+    {
+      "index": 13,
+      "text": "嗄れた心も さざめく秘密も 気がつけば粉々になって",
+      "start": 82.222,
+      "end": 89.543,
+      "words": [
+        {
+          "text": "嗄",
+          "reading": "か",
+          "start": 82.222,
+          "end": 82.243,
+          "score": 0.0167
+        },
+        {
+          "text": "れ",
+          "reading": "れ",
+          "start": 82.343,
+          "end": 82.362,
+          "score": 0.003
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 82.483,
+          "end": 82.502,
+          "score": 0.3775
+        },
+        {
+          "text": "心",
+          "reading": "こころ",
+          "start": 82.703,
+          "end": 83.123,
+          "score": 0.0101
+        },
+        {
+          "text": "も",
+          "reading": "も",
+          "start": 83.343,
+          "end": 83.362,
+          "score": 0.0003
+        },
+        {
+          "text": "さ",
+          "reading": "さ",
+          "start": 83.743,
+          "end": 83.763,
+          "score": 0.002
+        },
+        {
+          "text": "ざ",
+          "reading": "ざ",
+          "start": 84.043,
+          "end": 84.062,
+          "score": 0.0002
+        },
+        {
+          "text": "め",
+          "reading": "め",
+          "start": 84.162,
+          "end": 84.183,
+          "score": 0.0082
+        },
+        {
+          "text": "く",
+          "reading": "く",
+          "start": 84.422,
+          "end": 84.442,
+          "score": 0.0002
+        },
+        {
+          "text": "秘密",
+          "reading": "ひみつ",
+          "start": 84.642,
+          "end": 85.142,
+          "score": 0.0012
+        },
+        {
+          "text": "も",
+          "reading": "も",
+          "start": 85.263,
+          "end": 85.282,
+          "score": 0.5965
+        },
+        {
+          "text": "気",
+          "reading": "き",
+          "start": 85.603,
+          "end": 85.623,
+          "score": 0.0054
+        },
+        {
+          "text": "が",
+          "reading": "が",
+          "start": 85.862,
+          "end": 85.882,
+          "score": 0.0121
+        },
+        {
+          "text": "つ",
+          "reading": "つ",
+          "start": 86.103,
+          "end": 86.123,
+          "score": 0.0007
+        },
+        {
+          "text": "け",
+          "reading": "け",
+          "start": 86.343,
+          "end": 86.362,
+          "score": 0.0077
+        },
+        {
+          "text": "ば",
+          "reading": "ば",
+          "start": 87.442,
+          "end": 87.463,
+          "score": 0.0007
+        },
+        {
+          "text": "粉々",
+          "reading": "こなごな",
+          "start": 87.543,
+          "end": 88.422,
+          "score": 0.0219
+        },
+        {
+          "text": "に",
+          "reading": "に",
+          "start": 88.882,
+          "end": 88.903,
+          "score": 0.0057
+        },
+        {
+          "text": "な",
+          "reading": "な",
+          "start": 88.983,
+          "end": 89.002,
+          "score": 0.7387
+        },
+        {
+          "text": "っ",
+          "reading": "っ",
+          "start": 89.502,
+          "end": 89.522,
+          "score": 0.0003
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 89.522,
+          "end": 89.543,
+          "score": 0.0003
+        }
+      ],
+      "flags": [
+        "large-start-change-listen",
+        "low-average-model-score",
+        "low-model-score",
+        "repeated-occurrence-listen"
+      ],
+      "usable": false,
+      "meanScore": 0.0862,
+      "status": "unreviewed"
+    },
+    {
+      "index": 14,
+      "text": "刹那の間に 痛みに似た恋が体を走ったんだ",
+      "start": 88.782,
+      "end": 98.442,
+      "words": [
+        {
+          "text": "刹那",
+          "reading": "せつな",
+          "start": 88.782,
+          "end": 90.022,
+          "score": 0
+        },
+        {
+          "text": "の",
+          "reading": "の",
+          "start": 90.162,
+          "end": 90.183,
+          "score": 0.0191
+        },
+        {
+          "text": "間",
+          "reading": "ま",
+          "start": 90.562,
+          "end": 90.582,
+          "score": 0.002
+        },
+        {
+          "text": "に",
+          "reading": "に",
+          "start": 90.802,
+          "end": 90.823,
+          "score": 0.0072
+        },
+        {
+          "text": "痛",
+          "reading": "いた",
+          "start": 92.043,
+          "end": 92.062,
+          "score": 0.0001
+        },
+        {
+          "text": "み",
+          "reading": "み",
+          "start": 92.183,
+          "end": 92.203,
+          "score": 0.0045
+        },
+        {
+          "text": "に",
+          "reading": "に",
+          "start": 92.403,
+          "end": 92.422,
+          "score": 0.0015
+        },
+        {
+          "text": "似",
+          "reading": "に",
+          "start": 93.203,
+          "end": 93.222,
+          "score": 0.0002
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 94.162,
+          "end": 94.183,
+          "score": 0.473
+        },
+        {
+          "text": "恋",
+          "reading": "こい",
+          "start": 94.343,
+          "end": 94.362,
+          "score": 0
+        },
+        {
+          "text": "が",
+          "reading": "が",
+          "start": 94.422,
+          "end": 94.442,
+          "score": 0.0301
+        },
+        {
+          "text": "体",
+          "reading": "からだ",
+          "start": 94.823,
+          "end": 94.843,
+          "score": 0.0066
+        },
+        {
+          "text": "を",
+          "reading": "を",
+          "start": 94.903,
+          "end": 94.922,
+          "score": 0.1061
+        },
+        {
+          "text": "走",
+          "reading": "はし",
+          "start": 96.382,
+          "end": 96.403,
+          "score": 0.0001
+        },
+        {
+          "text": "っ",
+          "reading": "っ",
+          "start": 96.502,
+          "end": 96.522,
+          "score": 0.0268
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 96.743,
+          "end": 96.763,
+          "score": 0.3352
+        },
+        {
+          "text": "ん",
+          "reading": "ん",
+          "start": 98.362,
+          "end": 98.382,
+          "score": 0.0772
+        },
+        {
+          "text": "だ",
+          "reading": "だ",
+          "start": 98.422,
+          "end": 98.442,
+          "score": 0.0307
+        }
+      ],
+      "flags": [
+        "low-average-model-score",
+        "low-model-score",
+        "repeated-occurrence-listen"
+      ],
+      "usable": false,
+      "meanScore": 0.0622,
+      "status": "unreviewed"
+    },
+    {
+      "index": 15,
+      "text": "深い惑い痛み憂い繰り返し いつの間にか春になった",
+      "start": 112.213,
+      "end": 119.272,
+      "words": [
+        {
+          "text": "深",
+          "reading": "ふか",
+          "start": 112.213,
+          "end": 112.233,
+          "score": 0.0002
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 112.892,
+          "end": 112.912,
+          "score": 0.4896
+        },
+        {
+          "text": "惑",
+          "reading": "まど",
+          "start": 112.993,
+          "end": 113.013,
+          "score": 0
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 113.653,
+          "end": 113.672,
+          "score": 0.507
+        },
+        {
+          "text": "痛",
+          "reading": "いた",
+          "start": 113.933,
+          "end": 113.953,
+          "score": 0.0001
+        },
+        {
+          "text": "み",
+          "reading": "み",
+          "start": 114.252,
+          "end": 114.272,
+          "score": 0.0001
+        },
+        {
+          "text": "憂",
+          "reading": "うれ",
+          "start": 114.653,
+          "end": 114.672,
+          "score": 0.0003
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 114.972,
+          "end": 114.993,
+          "score": 0.0004
+        },
+        {
+          "text": "繰",
+          "reading": "く",
+          "start": 115.153,
+          "end": 115.172,
+          "score": 0
+        },
+        {
+          "text": "り",
+          "reading": "り",
+          "start": 115.373,
+          "end": 115.392,
+          "score": 0
+        },
+        {
+          "text": "返",
+          "reading": "かえ",
+          "start": 115.493,
+          "end": 115.513,
+          "score": 0
+        },
+        {
+          "text": "し",
+          "reading": "し",
+          "start": 115.612,
+          "end": 115.632,
+          "score": 0
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 116.593,
+          "end": 116.612,
+          "score": 0
+        },
+        {
+          "text": "つ",
+          "reading": "つ",
+          "start": 116.793,
+          "end": 116.812,
+          "score": 0.0112
+        },
+        {
+          "text": "の",
+          "reading": "の",
+          "start": 117.052,
+          "end": 117.073,
+          "score": 0.0008
+        },
+        {
+          "text": "間",
+          "reading": "ま",
+          "start": 117.312,
+          "end": 117.332,
+          "score": 0
+        },
+        {
+          "text": "に",
+          "reading": "に",
+          "start": 117.552,
+          "end": 117.573,
+          "score": 0.1994
+        },
+        {
+          "text": "か",
+          "reading": "か",
+          "start": 117.812,
+          "end": 117.832,
+          "score": 0.0001
+        },
+        {
+          "text": "春",
+          "reading": "はる",
+          "start": 118.073,
+          "end": 118.093,
+          "score": 0
+        },
+        {
+          "text": "に",
+          "reading": "に",
+          "start": 118.293,
+          "end": 118.312,
+          "score": 0.0002
+        },
+        {
+          "text": "な",
+          "reading": "な",
+          "start": 118.772,
+          "end": 118.793,
+          "score": 0.0021
+        },
+        {
+          "text": "っ",
+          "reading": "っ",
+          "start": 119.213,
+          "end": 119.233,
+          "score": 0.0897
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 119.252,
+          "end": 119.272,
+          "score": 0.0037
+        }
+      ],
+      "flags": [
+        "low-average-model-score",
+        "low-model-score"
+      ],
+      "usable": false,
+      "meanScore": 0.0567,
+      "status": "unreviewed"
+    },
+    {
+      "index": 16,
+      "text": "甘い香り残し陰り恋焦がし 深く深く迷い込んだ",
+      "start": 120.532,
+      "end": 128.232,
+      "words": [
+        {
+          "text": "甘",
+          "reading": "あま",
+          "start": 120.532,
+          "end": 120.552,
+          "score": 0
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 120.612,
+          "end": 120.632,
+          "score": 0.2941
+        },
+        {
+          "text": "香",
+          "reading": "かお",
+          "start": 120.993,
+          "end": 121.013,
+          "score": 0
+        },
+        {
+          "text": "り",
+          "reading": "り",
+          "start": 121.192,
+          "end": 121.213,
+          "score": 0.018
+        },
+        {
+          "text": "残",
+          "reading": "のこ",
+          "start": 121.433,
+          "end": 121.453,
+          "score": 0
+        },
+        {
+          "text": "し",
+          "reading": "し",
+          "start": 121.912,
+          "end": 121.933,
+          "score": 0.0051
+        },
+        {
+          "text": "陰",
+          "reading": "かげ",
+          "start": 122.153,
+          "end": 122.172,
+          "score": 0
+        },
+        {
+          "text": "り",
+          "reading": "り",
+          "start": 122.272,
+          "end": 122.293,
+          "score": 0.0001
+        },
+        {
+          "text": "恋",
+          "reading": "こい",
+          "start": 122.392,
+          "end": 122.412,
+          "score": 0.0003
+        },
+        {
+          "text": "焦",
+          "reading": "こ",
+          "start": 122.552,
+          "end": 122.573,
+          "score": 0
+        },
+        {
+          "text": "が",
+          "reading": "が",
+          "start": 123.573,
+          "end": 123.593,
+          "score": 0.0114
+        },
+        {
+          "text": "し",
+          "reading": "し",
+          "start": 123.832,
+          "end": 123.853,
+          "score": 0.3853
+        },
+        {
+          "text": "深",
+          "reading": "ふか",
+          "start": 124.332,
+          "end": 124.353,
+          "score": 0
+        },
+        {
+          "text": "く",
+          "reading": "く",
+          "start": 124.552,
+          "end": 124.573,
+          "score": 0.1172
+        },
+        {
+          "text": "深",
+          "reading": "ふか",
+          "start": 125.052,
+          "end": 125.073,
+          "score": 0.0002
+        },
+        {
+          "text": "く",
+          "reading": "く",
+          "start": 125.532,
+          "end": 125.552,
+          "score": 0.0126
+        },
+        {
+          "text": "迷",
+          "reading": "まよ",
+          "start": 125.772,
+          "end": 125.793,
+          "score": 0
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 126.332,
+          "end": 126.353,
+          "score": 0.9714
+        },
+        {
+          "text": "込",
+          "reading": "こ",
+          "start": 126.513,
+          "end": 126.532,
+          "score": 0.0001
+        },
+        {
+          "text": "ん",
+          "reading": "ん",
+          "start": 126.912,
+          "end": 126.933,
+          "score": 0.0018
+        },
+        {
+          "text": "だ",
+          "reading": "だ",
+          "start": 128.213,
+          "end": 128.232,
+          "score": 0.0004
+        }
+      ],
+      "flags": [
+        "large-start-change-listen",
+        "low-average-model-score",
+        "low-model-score"
+      ],
+      "usable": false,
+      "meanScore": 0.0866,
+      "status": "unreviewed"
+    },
+    {
+      "index": 17,
+      "text": "花びらが散ればあなたとおさらば それなら僕と踊りませんか",
+      "start": 127.713,
+      "end": 132.713,
+      "words": [
+        {
+          "text": "花",
+          "reading": "はな",
+          "start": 127.713,
+          "end": 127.733,
+          "score": 0.9778
+        },
+        {
+          "text": "び",
+          "reading": "び",
+          "start": 127.972,
+          "end": 127.993,
+          "score": 0
+        },
+        {
+          "text": "ら",
+          "reading": "ら",
+          "start": 128.093,
+          "end": 128.113,
+          "score": 0.0072
+        },
+        {
+          "text": "が",
+          "reading": "が",
+          "start": 128.213,
+          "end": 128.232,
+          "score": 0.0058
+        },
+        {
+          "text": "散",
+          "reading": "ち",
+          "start": 128.433,
+          "end": 128.452,
+          "score": 0.0003
+        },
+        {
+          "text": "れ",
+          "reading": "れ",
+          "start": 128.553,
+          "end": 128.572,
+          "score": 0
+        },
+        {
+          "text": "ば",
+          "reading": "ば",
+          "start": 128.713,
+          "end": 128.732,
+          "score": 0.0001
+        },
+        {
+          "text": "あ",
+          "reading": "あ",
+          "start": 128.792,
+          "end": 128.812,
+          "score": 0.2937
+        },
+        {
+          "text": "な",
+          "reading": "な",
+          "start": 128.933,
+          "end": 128.952,
+          "score": 0.0007
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 129.053,
+          "end": 129.072,
+          "score": 0.341
+        },
+        {
+          "text": "と",
+          "reading": "と",
+          "start": 129.173,
+          "end": 129.192,
+          "score": 0.0029
+        },
+        {
+          "text": "お",
+          "reading": "お",
+          "start": 129.412,
+          "end": 129.433,
+          "score": 0.0013
+        },
+        {
+          "text": "さ",
+          "reading": "さ",
+          "start": 129.553,
+          "end": 129.572,
+          "score": 0.0002
+        },
+        {
+          "text": "ら",
+          "reading": "ら",
+          "start": 129.613,
+          "end": 129.632,
+          "score": 0.0001
+        },
+        {
+          "text": "ば",
+          "reading": "ば",
+          "start": 129.653,
+          "end": 129.673,
+          "score": 0
+        },
+        {
+          "text": "そ",
+          "reading": "そ",
+          "start": 130.012,
+          "end": 130.032,
+          "score": 0.0086
+        },
+        {
+          "text": "れ",
+          "reading": "れ",
+          "start": 130.153,
+          "end": 130.173,
+          "score": 0.0018
+        },
+        {
+          "text": "な",
+          "reading": "な",
+          "start": 130.252,
+          "end": 130.273,
+          "score": 0.9929
+        },
+        {
+          "text": "ら",
+          "reading": "ら",
+          "start": 130.373,
+          "end": 130.393,
+          "score": 0.3754
+        },
+        {
+          "text": "僕",
+          "reading": "ぼく",
+          "start": 130.472,
+          "end": 130.493,
+          "score": 0
+        },
+        {
+          "text": "と",
+          "reading": "と",
+          "start": 130.732,
+          "end": 130.752,
+          "score": 0.0285
+        },
+        {
+          "text": "踊",
+          "reading": "おど",
+          "start": 130.972,
+          "end": 130.993,
+          "score": 0.0002
+        },
+        {
+          "text": "り",
+          "reading": "り",
+          "start": 131.113,
+          "end": 131.132,
+          "score": 0.3575
+        },
+        {
+          "text": "ま",
+          "reading": "ま",
+          "start": 132.213,
+          "end": 132.232,
+          "score": 0.8883
+        },
+        {
+          "text": "せ",
+          "reading": "せ",
+          "start": 132.433,
+          "end": 132.452,
+          "score": 0.1557
+        },
+        {
+          "text": "ん",
+          "reading": "ん",
+          "start": 132.512,
+          "end": 132.532,
+          "score": 0.2781
+        },
+        {
+          "text": "か",
+          "reading": "か",
+          "start": 132.692,
+          "end": 132.713,
+          "score": 0.1169
+        }
+      ],
+      "flags": [
+        "analysis-window-edge",
+        "large-end-change-listen",
+        "low-model-score"
+      ],
+      "usable": false,
+      "meanScore": 0.1791,
+      "status": "unreviewed"
+    },
+    {
+      "index": 18,
+      "text": "宙を舞う花がどうもあなたみたいで参りました",
+      "start": 131.843,
+      "end": 134.762,
+      "words": [
+        {
+          "text": "宙",
+          "reading": "ちゅう",
+          "start": 131.843,
+          "end": 131.863,
+          "score": 0.0009
+        },
+        {
+          "text": "を",
+          "reading": "を",
+          "start": 132.023,
+          "end": 132.042,
+          "score": 0.0002
+        },
+        {
+          "text": "舞",
+          "reading": "ま",
+          "start": 132.202,
+          "end": 132.222,
+          "score": 0.0033
+        },
+        {
+          "text": "う",
+          "reading": "う",
+          "start": 132.303,
+          "end": 132.322,
+          "score": 0.0033
+        },
+        {
+          "text": "花",
+          "reading": "はな",
+          "start": 132.583,
+          "end": 132.602,
+          "score": 0
+        },
+        {
+          "text": "が",
+          "reading": "が",
+          "start": 132.683,
+          "end": 132.702,
+          "score": 0.1905
+        },
+        {
+          "text": "ど",
+          "reading": "ど",
+          "start": 132.803,
+          "end": 132.822,
+          "score": 0.0154
+        },
+        {
+          "text": "う",
+          "reading": "う",
+          "start": 133.042,
+          "end": 133.062,
+          "score": 0.0035
+        },
+        {
+          "text": "も",
+          "reading": "も",
+          "start": 133.162,
+          "end": 133.183,
+          "score": 0.0041
+        },
+        {
+          "text": "あ",
+          "reading": "あ",
+          "start": 133.243,
+          "end": 133.282,
+          "score": 0.7704
+        },
+        {
+          "text": "な",
+          "reading": "な",
+          "start": 133.382,
+          "end": 133.403,
+          "score": 0.0134
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 133.542,
+          "end": 133.562,
+          "score": 0.3618
+        },
+        {
+          "text": "み",
+          "reading": "み",
+          "start": 133.662,
+          "end": 133.683,
+          "score": 0.0114
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 133.782,
+          "end": 133.803,
+          "score": 0.1769
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 133.963,
+          "end": 133.982,
+          "score": 0.0187
+        },
+        {
+          "text": "で",
+          "reading": "で",
+          "start": 134.023,
+          "end": 134.042,
+          "score": 0.1966
+        },
+        {
+          "text": "参",
+          "reading": "まい",
+          "start": 134.143,
+          "end": 134.162,
+          "score": 0
+        },
+        {
+          "text": "り",
+          "reading": "り",
+          "start": 134.423,
+          "end": 134.442,
+          "score": 0.0021
+        },
+        {
+          "text": "ま",
+          "reading": "ま",
+          "start": 134.502,
+          "end": 134.523,
+          "score": 0.988
+        },
+        {
+          "text": "し",
+          "reading": "し",
+          "start": 134.643,
+          "end": 134.662,
+          "score": 0.8864
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 134.743,
+          "end": 134.762,
+          "score": 0.98
+        }
+      ],
+      "flags": [
+        "low-model-score"
+      ],
+      "usable": true,
+      "meanScore": 0.2203,
+      "status": "unreviewed"
+    },
+    {
+      "index": 19,
+      "text": "やがてまた巡りくる春の最中 そこは豊かなひだまりでした",
+      "start": 134.023,
+      "end": 140.243,
+      "words": [
+        {
+          "text": "や",
+          "reading": "や",
+          "start": 134.023,
+          "end": 134.042,
+          "score": 0.0001
+        },
+        {
+          "text": "が",
+          "reading": "が",
+          "start": 134.143,
+          "end": 134.162,
+          "score": 0.0004
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 134.343,
+          "end": 134.363,
+          "score": 0.1629
+        },
+        {
+          "text": "ま",
+          "reading": "ま",
+          "start": 134.502,
+          "end": 134.523,
+          "score": 0.9993
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 134.743,
+          "end": 134.762,
+          "score": 0.9927
+        },
+        {
+          "text": "巡",
+          "reading": "めぐ",
+          "start": 135.482,
+          "end": 135.502,
+          "score": 0
+        },
+        {
+          "text": "り",
+          "reading": "り",
+          "start": 136.423,
+          "end": 136.442,
+          "score": 0.2787
+        },
+        {
+          "text": "く",
+          "reading": "く",
+          "start": 136.562,
+          "end": 136.583,
+          "score": 0.4157
+        },
+        {
+          "text": "る",
+          "reading": "る",
+          "start": 136.662,
+          "end": 136.683,
+          "score": 0.0197
+        },
+        {
+          "text": "春",
+          "reading": "はる",
+          "start": 136.782,
+          "end": 136.803,
+          "score": 0.0017
+        },
+        {
+          "text": "の",
+          "reading": "の",
+          "start": 137.023,
+          "end": 137.042,
+          "score": 0.0636
+        },
+        {
+          "text": "最中",
+          "reading": "さいちゅう",
+          "start": 137.123,
+          "end": 137.162,
+          "score": 0
+        },
+        {
+          "text": "そ",
+          "reading": "そ",
+          "start": 137.262,
+          "end": 137.282,
+          "score": 0.3012
+        },
+        {
+          "text": "こ",
+          "reading": "こ",
+          "start": 137.743,
+          "end": 137.762,
+          "score": 0.5635
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "start": 138.002,
+          "end": 138.023,
+          "score": 0.0036
+        },
+        {
+          "text": "豊",
+          "reading": "ゆた",
+          "start": 138.222,
+          "end": 138.243,
+          "score": 0.0073
+        },
+        {
+          "text": "か",
+          "reading": "か",
+          "start": 138.363,
+          "end": 138.382,
+          "score": 0.1639
+        },
+        {
+          "text": "な",
+          "reading": "な",
+          "start": 138.502,
+          "end": 138.523,
+          "score": 0.8937
+        },
+        {
+          "text": "ひ",
+          "reading": "ひ",
+          "start": 138.623,
+          "end": 138.643,
+          "score": 0.1856
+        },
+        {
+          "text": "だ",
+          "reading": "だ",
+          "start": 138.743,
+          "end": 138.762,
+          "score": 0.0178
+        },
+        {
+          "text": "ま",
+          "reading": "ま",
+          "start": 138.863,
+          "end": 138.882,
+          "score": 0.004
+        },
+        {
+          "text": "り",
+          "reading": "り",
+          "start": 138.963,
+          "end": 138.982,
+          "score": 0.1447
+        },
+        {
+          "text": "で",
+          "reading": "で",
+          "start": 139.803,
+          "end": 139.822,
+          "score": 0.0034
+        },
+        {
+          "text": "し",
+          "reading": "し",
+          "start": 140.123,
+          "end": 140.143,
+          "score": 0.5784
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 140.222,
+          "end": 140.243,
+          "score": 0.0001
+        }
+      ],
+      "flags": [
+        "large-end-change-listen",
+        "large-start-change-listen",
+        "low-model-score"
+      ],
+      "usable": false,
+      "meanScore": 0.2321,
+      "status": "unreviewed"
+    },
+    {
+      "index": 20,
+      "text": "身をやつしてやまない あんな嵐はどこへやら",
+      "start": 138.243,
+      "end": 143.803,
+      "words": [
+        {
+          "text": "身",
+          "reading": "み",
+          "start": 138.243,
+          "end": 138.262,
+          "score": 0
+        },
+        {
+          "text": "を",
+          "reading": "を",
+          "start": 138.502,
+          "end": 138.523,
+          "score": 0.0005
+        },
+        {
+          "text": "や",
+          "reading": "や",
+          "start": 139.442,
+          "end": 139.463,
+          "score": 0.0045
+        },
+        {
+          "text": "つ",
+          "reading": "つ",
+          "start": 139.583,
+          "end": 139.602,
+          "score": 0.0002
+        },
+        {
+          "text": "し",
+          "reading": "し",
+          "start": 140.123,
+          "end": 140.143,
+          "score": 0.0012
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 140.222,
+          "end": 140.243,
+          "score": 0.0773
+        },
+        {
+          "text": "や",
+          "reading": "や",
+          "start": 140.303,
+          "end": 140.322,
+          "score": 0.0009
+        },
+        {
+          "text": "ま",
+          "reading": "ま",
+          "start": 140.423,
+          "end": 140.442,
+          "score": 0.0002
+        },
+        {
+          "text": "な",
+          "reading": "な",
+          "start": 140.743,
+          "end": 140.762,
+          "score": 0.0039
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 140.762,
+          "end": 140.782,
+          "score": 0.0243
+        },
+        {
+          "text": "あ",
+          "reading": "あ",
+          "start": 141.023,
+          "end": 141.042,
+          "score": 0.0661
+        },
+        {
+          "text": "ん",
+          "reading": "ん",
+          "start": 141.202,
+          "end": 141.222,
+          "score": 0.004
+        },
+        {
+          "text": "な",
+          "reading": "な",
+          "start": 141.282,
+          "end": 141.303,
+          "score": 0.0391
+        },
+        {
+          "text": "嵐",
+          "reading": "あらし",
+          "start": 141.523,
+          "end": 141.542,
+          "score": 0.0001
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "start": 141.863,
+          "end": 141.882,
+          "score": 0.0066
+        },
+        {
+          "text": "ど",
+          "reading": "ど",
+          "start": 141.982,
+          "end": 142.002,
+          "score": 0.0012
+        },
+        {
+          "text": "こ",
+          "reading": "こ",
+          "start": 142.083,
+          "end": 142.102,
+          "score": 0.0027
+        },
+        {
+          "text": "へ",
+          "reading": "へ",
+          "start": 142.322,
+          "end": 142.343,
+          "score": 0.0549
+        },
+        {
+          "text": "や",
+          "reading": "や",
+          "start": 142.722,
+          "end": 142.743,
+          "score": 0.0037
+        },
+        {
+          "text": "ら",
+          "reading": "ら",
+          "start": 143.782,
+          "end": 143.803,
+          "score": 0.1337
+        }
+      ],
+      "flags": [
+        "large-start-change-listen",
+        "low-average-model-score",
+        "low-model-score"
+      ],
+      "usable": false,
+      "meanScore": 0.0213,
+      "status": "unreviewed"
+    },
+    {
+      "index": 21,
+      "text": "まだまだ心は帰れない その細い声でどうか騙しておくれ",
+      "start": 141.882,
+      "end": 150.023,
+      "words": [
+        {
+          "text": "ま",
+          "reading": "ま",
+          "start": 141.882,
+          "end": 141.903,
+          "score": 0.2773
+        },
+        {
+          "text": "だ",
+          "reading": "だ",
+          "start": 142.502,
+          "end": 142.523,
+          "score": 0.1857
+        },
+        {
+          "text": "ま",
+          "reading": "ま",
+          "start": 143.442,
+          "end": 143.463,
+          "score": 0.7636
+        },
+        {
+          "text": "だ",
+          "reading": "だ",
+          "start": 143.683,
+          "end": 143.702,
+          "score": 0.0006
+        },
+        {
+          "text": "心",
+          "reading": "こころ",
+          "start": 143.923,
+          "end": 143.942,
+          "score": 0
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "start": 145.202,
+          "end": 145.222,
+          "score": 0.081
+        },
+        {
+          "text": "帰",
+          "reading": "かえ",
+          "start": 145.382,
+          "end": 145.403,
+          "score": 0
+        },
+        {
+          "text": "れ",
+          "reading": "れ",
+          "start": 145.602,
+          "end": 145.623,
+          "score": 0.0029
+        },
+        {
+          "text": "な",
+          "reading": "な",
+          "start": 145.722,
+          "end": 145.762,
+          "score": 0.1756
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 145.863,
+          "end": 145.882,
+          "score": 0
+        },
+        {
+          "text": "そ",
+          "reading": "そ",
+          "start": 146.822,
+          "end": 146.843,
+          "score": 0.0358
+        },
+        {
+          "text": "の",
+          "reading": "の",
+          "start": 146.942,
+          "end": 146.963,
+          "score": 0.9737
+        },
+        {
+          "text": "細",
+          "reading": "ほそ",
+          "start": 147.183,
+          "end": 147.202,
+          "score": 0
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 147.262,
+          "end": 147.282,
+          "score": 0
+        },
+        {
+          "text": "声",
+          "reading": "こえ",
+          "start": 147.363,
+          "end": 147.382,
+          "score": 0.0012
+        },
+        {
+          "text": "で",
+          "reading": "で",
+          "start": 147.702,
+          "end": 147.722,
+          "score": 0.9432
+        },
+        {
+          "text": "ど",
+          "reading": "ど",
+          "start": 147.803,
+          "end": 147.822,
+          "score": 0.0009
+        },
+        {
+          "text": "う",
+          "reading": "う",
+          "start": 148.002,
+          "end": 148.023,
+          "score": 0.0003
+        },
+        {
+          "text": "か",
+          "reading": "か",
+          "start": 148.062,
+          "end": 148.083,
+          "score": 0.0392
+        },
+        {
+          "text": "騙",
+          "reading": "だま",
+          "start": 148.303,
+          "end": 148.322,
+          "score": 0
+        },
+        {
+          "text": "し",
+          "reading": "し",
+          "start": 148.482,
+          "end": 148.502,
+          "score": 0.2826
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 148.523,
+          "end": 148.542,
+          "score": 0.2298
+        },
+        {
+          "text": "お",
+          "reading": "お",
+          "start": 148.643,
+          "end": 148.662,
+          "score": 0.0273
+        },
+        {
+          "text": "く",
+          "reading": "く",
+          "start": 148.762,
+          "end": 148.782,
+          "score": 0.1361
+        },
+        {
+          "text": "れ",
+          "reading": "れ",
+          "start": 150.002,
+          "end": 150.023,
+          "score": 0.0034
+        }
+      ],
+      "flags": [
+        "analysis-window-edge",
+        "large-end-change-listen",
+        "large-start-change-listen",
+        "low-model-score"
+      ],
+      "usable": false,
+      "meanScore": 0.1664,
+      "status": "unreviewed"
+    },
+    {
+      "index": 22,
+      "text": "カラカラに枯れ果てるまで",
+      "start": 148.062,
+      "end": 151.683,
+      "words": [
+        {
+          "text": "カ",
+          "reading": "カ",
+          "start": 148.062,
+          "end": 148.083,
+          "score": 0.3714
+        },
+        {
+          "text": "ラ",
+          "reading": "ラ",
+          "start": 148.143,
+          "end": 148.162,
+          "score": 0.0009
+        },
+        {
+          "text": "カ",
+          "reading": "カ",
+          "start": 148.183,
+          "end": 148.202,
+          "score": 0.0005
+        },
+        {
+          "text": "ラ",
+          "reading": "ラ",
+          "start": 148.303,
+          "end": 148.322,
+          "score": 0.0001
+        },
+        {
+          "text": "に",
+          "reading": "に",
+          "start": 148.643,
+          "end": 148.662,
+          "score": 0.5603
+        },
+        {
+          "text": "枯",
+          "reading": "か",
+          "start": 149.502,
+          "end": 149.523,
+          "score": 0.0009
+        },
+        {
+          "text": "れ",
+          "reading": "れ",
+          "start": 149.882,
+          "end": 149.903,
+          "score": 0.0001
+        },
+        {
+          "text": "果",
+          "reading": "は",
+          "start": 150.102,
+          "end": 150.123,
+          "score": 0.1019
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 150.243,
+          "end": 150.282,
+          "score": 0.7179
+        },
+        {
+          "text": "る",
+          "reading": "る",
+          "start": 150.363,
+          "end": 150.382,
+          "score": 0.9761
+        },
+        {
+          "text": "ま",
+          "reading": "ま",
+          "start": 150.482,
+          "end": 150.502,
+          "score": 0.0577
+        },
+        {
+          "text": "で",
+          "reading": "で",
+          "start": 151.662,
+          "end": 151.683,
+          "score": 0.3172
+        }
+      ],
+      "flags": [
+        "large-start-change-listen",
+        "low-model-score"
+      ],
+      "usable": false,
+      "meanScore": 0.2587,
+      "status": "unreviewed"
+    },
+    {
+      "index": 23,
+      "text": "ふらふら揺られて甘い香り 残し 陰り 幻",
+      "start": 150.113,
+      "end": 159.433,
+      "words": [
+        {
+          "text": "ふ",
+          "reading": "ふ",
+          "start": 150.113,
+          "end": 150.132,
+          "score": 0.0006
+        },
+        {
+          "text": "ら",
+          "reading": "ら",
+          "start": 150.812,
+          "end": 150.833,
+          "score": 0.1999
+        },
+        {
+          "text": "ふ",
+          "reading": "ふ",
+          "start": 151.192,
+          "end": 151.213,
+          "score": 0
+        },
+        {
+          "text": "ら",
+          "reading": "ら",
+          "start": 151.972,
+          "end": 151.993,
+          "score": 0.0378
+        },
+        {
+          "text": "揺",
+          "reading": "ゆ",
+          "start": 152.173,
+          "end": 152.192,
+          "score": 0
+        },
+        {
+          "text": "ら",
+          "reading": "ら",
+          "start": 152.292,
+          "end": 152.312,
+          "score": 0.0192
+        },
+        {
+          "text": "れ",
+          "reading": "れ",
+          "start": 152.852,
+          "end": 152.873,
+          "score": 0.9439
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 152.952,
+          "end": 152.972,
+          "score": 0.0014
+        },
+        {
+          "text": "甘",
+          "reading": "あま",
+          "start": 153.132,
+          "end": 153.153,
+          "score": 0
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 153.472,
+          "end": 153.493,
+          "score": 0.6085
+        },
+        {
+          "text": "香",
+          "reading": "かお",
+          "start": 153.613,
+          "end": 153.632,
+          "score": 0.0001
+        },
+        {
+          "text": "り",
+          "reading": "り",
+          "start": 154.213,
+          "end": 154.232,
+          "score": 0.0129
+        },
+        {
+          "text": "残",
+          "reading": "のこ",
+          "start": 154.833,
+          "end": 154.852,
+          "score": 0.0004
+        },
+        {
+          "text": "し",
+          "reading": "し",
+          "start": 155.053,
+          "end": 155.072,
+          "score": 0.0128
+        },
+        {
+          "text": "陰",
+          "reading": "かげ",
+          "start": 157.232,
+          "end": 157.252,
+          "score": 0
+        },
+        {
+          "text": "り",
+          "reading": "り",
+          "start": 157.572,
+          "end": 157.593,
+          "score": 0
+        },
+        {
+          "text": "幻",
+          "reading": "まぼろし",
+          "start": 159.412,
+          "end": 159.433,
+          "score": 0
+        }
+      ],
+      "flags": [
+        "large-start-change-listen",
+        "low-average-model-score",
+        "low-model-score"
+      ],
+      "usable": false,
+      "meanScore": 0.1081,
+      "status": "unreviewed"
+    },
+    {
+      "index": 24,
+      "text": "聞きたい言葉も 言いたい想いも 笑うくらい山ほどあって",
+      "start": 159.403,
+      "end": 167.442,
+      "words": [
+        {
+          "text": "聞",
+          "reading": "き",
+          "start": 159.403,
+          "end": 159.423,
+          "score": 0
+        },
+        {
+          "text": "き",
+          "reading": "き",
+          "start": 159.502,
+          "end": 159.523,
+          "score": 0.0314
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 159.683,
+          "end": 159.702,
+          "score": 0.1258
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 160.023,
+          "end": 160.042,
+          "score": 0.1197
+        },
+        {
+          "text": "言葉",
+          "reading": "ことば",
+          "start": 160.123,
+          "end": 160.523,
+          "score": 0.0007
+        },
+        {
+          "text": "も",
+          "reading": "も",
+          "start": 160.743,
+          "end": 160.762,
+          "score": 0.2964
+        },
+        {
+          "text": "言",
+          "reading": "い",
+          "start": 161.243,
+          "end": 161.262,
+          "score": 0.0093
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 161.423,
+          "end": 161.442,
+          "score": 0.0015
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 161.602,
+          "end": 161.623,
+          "score": 0.0776
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 161.722,
+          "end": 161.743,
+          "score": 0.0002
+        },
+        {
+          "text": "想",
+          "reading": "おも",
+          "start": 161.882,
+          "end": 161.903,
+          "score": 0.0002
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 162.002,
+          "end": 162.023,
+          "score": 0.0526
+        },
+        {
+          "text": "も",
+          "reading": "も",
+          "start": 162.303,
+          "end": 162.322,
+          "score": 0.8071
+        },
+        {
+          "text": "笑",
+          "reading": "わら",
+          "start": 162.602,
+          "end": 162.623,
+          "score": 0.0001
+        },
+        {
+          "text": "う",
+          "reading": "う",
+          "start": 163.243,
+          "end": 163.262,
+          "score": 0.0519
+        },
+        {
+          "text": "く",
+          "reading": "く",
+          "start": 164.002,
+          "end": 164.023,
+          "score": 0.002
+        },
+        {
+          "text": "ら",
+          "reading": "ら",
+          "start": 164.143,
+          "end": 164.162,
+          "score": 0.0024
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 164.382,
+          "end": 164.403,
+          "score": 0.0058
+        },
+        {
+          "text": "山",
+          "reading": "やま",
+          "start": 164.482,
+          "end": 164.502,
+          "score": 0.0008
+        },
+        {
+          "text": "ほ",
+          "reading": "ほ",
+          "start": 165.322,
+          "end": 165.343,
+          "score": 0.8307
+        },
+        {
+          "text": "ど",
+          "reading": "ど",
+          "start": 165.463,
+          "end": 165.482,
+          "score": 0.7477
+        },
+        {
+          "text": "あ",
+          "reading": "あ",
+          "start": 165.722,
+          "end": 165.743,
+          "score": 0.0047
+        },
+        {
+          "text": "っ",
+          "reading": "っ",
+          "start": 167.382,
+          "end": 167.403,
+          "score": 0.3686
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 167.423,
+          "end": 167.442,
+          "score": 0.1305
+        }
+      ],
+      "flags": [
+        "large-start-change-listen",
+        "low-model-score"
+      ],
+      "usable": false,
+      "meanScore": 0.1528,
+      "status": "unreviewed"
+    },
+    {
+      "index": 25,
+      "text": "それでもあなたを前にすると 何にも出てはこないなんて",
+      "start": 165.963,
+      "end": 173.722,
+      "words": [
+        {
+          "text": "そ",
+          "reading": "そ",
+          "start": 165.963,
+          "end": 165.982,
+          "score": 0.0024
+        },
+        {
+          "text": "れ",
+          "reading": "れ",
+          "start": 166.143,
+          "end": 166.162,
+          "score": 0.0001
+        },
+        {
+          "text": "で",
+          "reading": "で",
+          "start": 166.183,
+          "end": 166.202,
+          "score": 0.5017
+        },
+        {
+          "text": "も",
+          "reading": "も",
+          "start": 166.282,
+          "end": 166.303,
+          "score": 0
+        },
+        {
+          "text": "あ",
+          "reading": "あ",
+          "start": 166.303,
+          "end": 166.322,
+          "score": 0.21
+        },
+        {
+          "text": "な",
+          "reading": "な",
+          "start": 166.322,
+          "end": 166.343,
+          "score": 0.0013
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 166.442,
+          "end": 166.463,
+          "score": 0.1388
+        },
+        {
+          "text": "を",
+          "reading": "を",
+          "start": 169.062,
+          "end": 169.083,
+          "score": 0.058
+        },
+        {
+          "text": "前",
+          "reading": "まえ",
+          "start": 169.343,
+          "end": 169.363,
+          "score": 0.0019
+        },
+        {
+          "text": "に",
+          "reading": "に",
+          "start": 170.042,
+          "end": 170.062,
+          "score": 0.0012
+        },
+        {
+          "text": "す",
+          "reading": "す",
+          "start": 170.162,
+          "end": 170.183,
+          "score": 0.0012
+        },
+        {
+          "text": "る",
+          "reading": "る",
+          "start": 170.243,
+          "end": 170.262,
+          "score": 0.0025
+        },
+        {
+          "text": "と",
+          "reading": "と",
+          "start": 170.303,
+          "end": 170.322,
+          "score": 0.0039
+        },
+        {
+          "text": "何",
+          "reading": "なん",
+          "start": 170.722,
+          "end": 170.743,
+          "score": 0
+        },
+        {
+          "text": "に",
+          "reading": "に",
+          "start": 170.782,
+          "end": 170.803,
+          "score": 0.0002
+        },
+        {
+          "text": "も",
+          "reading": "も",
+          "start": 171.023,
+          "end": 171.042,
+          "score": 0.0077
+        },
+        {
+          "text": "出",
+          "reading": "で",
+          "start": 171.463,
+          "end": 171.482,
+          "score": 0.0044
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 171.882,
+          "end": 171.903,
+          "score": 0.0072
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "start": 171.982,
+          "end": 172.002,
+          "score": 0.019
+        },
+        {
+          "text": "こ",
+          "reading": "こ",
+          "start": 172.222,
+          "end": 172.243,
+          "score": 0
+        },
+        {
+          "text": "な",
+          "reading": "な",
+          "start": 172.722,
+          "end": 172.743,
+          "score": 0.0007
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 172.843,
+          "end": 172.863,
+          "score": 0.0032
+        },
+        {
+          "text": "な",
+          "reading": "な",
+          "start": 172.942,
+          "end": 172.963,
+          "score": 0.0051
+        },
+        {
+          "text": "ん",
+          "reading": "ん",
+          "start": 173.343,
+          "end": 173.382,
+          "score": 0.1651
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 173.702,
+          "end": 173.722,
+          "score": 0.0102
+        }
+      ],
+      "flags": [
+        "low-average-model-score",
+        "low-model-score"
+      ],
+      "usable": false,
+      "meanScore": 0.0458,
+      "status": "unreviewed"
+    },
+    {
+      "index": 26,
+      "text": "焦げ付く痛みも 刺し込む痺れも 口をつぐんだ恋とわかって",
+      "start": 173.072,
+      "end": 181.192,
+      "words": [
+        {
+          "text": "焦",
+          "reading": "こ",
+          "start": 173.072,
+          "end": 173.093,
+          "score": 0.0019
+        },
+        {
+          "text": "げ",
+          "reading": "げ",
+          "start": 173.333,
+          "end": 173.352,
+          "score": 0
+        },
+        {
+          "text": "付",
+          "reading": "つ",
+          "start": 173.452,
+          "end": 173.472,
+          "score": 0.0001
+        },
+        {
+          "text": "く",
+          "reading": "く",
+          "start": 173.692,
+          "end": 173.713,
+          "score": 0.0075
+        },
+        {
+          "text": "痛",
+          "reading": "いた",
+          "start": 173.792,
+          "end": 174.192,
+          "score": 0.2152
+        },
+        {
+          "text": "み",
+          "reading": "み",
+          "start": 174.653,
+          "end": 174.673,
+          "score": 0.0001
+        },
+        {
+          "text": "も",
+          "reading": "も",
+          "start": 176.213,
+          "end": 176.232,
+          "score": 0.0031
+        },
+        {
+          "text": "刺",
+          "reading": "さ",
+          "start": 176.572,
+          "end": 176.593,
+          "score": 0.0001
+        },
+        {
+          "text": "し",
+          "reading": "し",
+          "start": 176.912,
+          "end": 176.933,
+          "score": 0.0005
+        },
+        {
+          "text": "込",
+          "reading": "こ",
+          "start": 177.312,
+          "end": 177.333,
+          "score": 0.0308
+        },
+        {
+          "text": "む",
+          "reading": "む",
+          "start": 177.433,
+          "end": 177.452,
+          "score": 0.0001
+        },
+        {
+          "text": "痺",
+          "reading": "しび",
+          "start": 177.512,
+          "end": 177.553,
+          "score": 0.0055
+        },
+        {
+          "text": "れ",
+          "reading": "れ",
+          "start": 177.653,
+          "end": 177.673,
+          "score": 0.0024
+        },
+        {
+          "text": "も",
+          "reading": "も",
+          "start": 178.173,
+          "end": 178.192,
+          "score": 0.0387
+        },
+        {
+          "text": "口",
+          "reading": "くち",
+          "start": 178.752,
+          "end": 179.012,
+          "score": 0.0015
+        },
+        {
+          "text": "を",
+          "reading": "を",
+          "start": 179.012,
+          "end": 179.032,
+          "score": 0.0362
+        },
+        {
+          "text": "つ",
+          "reading": "つ",
+          "start": 179.252,
+          "end": 179.273,
+          "score": 0.0002
+        },
+        {
+          "text": "ぐ",
+          "reading": "ぐ",
+          "start": 179.493,
+          "end": 179.512,
+          "score": 0.0001
+        },
+        {
+          "text": "ん",
+          "reading": "ん",
+          "start": 179.912,
+          "end": 179.952,
+          "score": 0.675
+        },
+        {
+          "text": "だ",
+          "reading": "だ",
+          "start": 179.993,
+          "end": 180.012,
+          "score": 0.5416
+        },
+        {
+          "text": "恋",
+          "reading": "こい",
+          "start": 180.433,
+          "end": 180.632,
+          "score": 0.0459
+        },
+        {
+          "text": "と",
+          "reading": "と",
+          "start": 180.713,
+          "end": 180.732,
+          "score": 0.7697
+        },
+        {
+          "text": "わ",
+          "reading": "わ",
+          "start": 181.012,
+          "end": 181.032,
+          "score": 0.028
+        },
+        {
+          "text": "か",
+          "reading": "か",
+          "start": 181.032,
+          "end": 181.053,
+          "score": 0.0097
+        },
+        {
+          "text": "っ",
+          "reading": "っ",
+          "start": 181.132,
+          "end": 181.153,
+          "score": 0.8062
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 181.173,
+          "end": 181.192,
+          "score": 0.6342
+        }
+      ],
+      "flags": [
+        "large-start-change-listen",
+        "low-average-model-score",
+        "low-model-score"
+      ],
+      "usable": false,
+      "meanScore": 0.1482,
+      "status": "unreviewed"
+    },
+    {
+      "index": 27,
+      "text": "あなたの心に 橋をかける大事な雷雨だと知ったんだ",
+      "start": 181.042,
+      "end": 189.382,
+      "words": [
+        {
+          "text": "あ",
+          "reading": "あ",
+          "start": 181.042,
+          "end": 181.062,
+          "score": 0.3335
+        },
+        {
+          "text": "な",
+          "reading": "な",
+          "start": 181.303,
+          "end": 181.322,
+          "score": 0.0012
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 181.442,
+          "end": 181.463,
+          "score": 0.003
+        },
+        {
+          "text": "の",
+          "reading": "の",
+          "start": 181.702,
+          "end": 181.722,
+          "score": 0.0194
+        },
+        {
+          "text": "心",
+          "reading": "こころ",
+          "start": 183.363,
+          "end": 183.382,
+          "score": 0
+        },
+        {
+          "text": "に",
+          "reading": "に",
+          "start": 183.602,
+          "end": 183.623,
+          "score": 0.0056
+        },
+        {
+          "text": "橋",
+          "reading": "はし",
+          "start": 184.643,
+          "end": 184.662,
+          "score": 0.064
+        },
+        {
+          "text": "を",
+          "reading": "を",
+          "start": 184.923,
+          "end": 184.942,
+          "score": 0.0147
+        },
+        {
+          "text": "か",
+          "reading": "か",
+          "start": 185.042,
+          "end": 185.062,
+          "score": 0
+        },
+        {
+          "text": "け",
+          "reading": "け",
+          "start": 185.303,
+          "end": 185.322,
+          "score": 0.0364
+        },
+        {
+          "text": "る",
+          "reading": "る",
+          "start": 185.542,
+          "end": 185.562,
+          "score": 0.0104
+        },
+        {
+          "text": "大事",
+          "reading": "だいじ",
+          "start": 186.083,
+          "end": 186.583,
+          "score": 0.0091
+        },
+        {
+          "text": "な",
+          "reading": "な",
+          "start": 186.803,
+          "end": 186.822,
+          "score": 0.0012
+        },
+        {
+          "text": "雷雨",
+          "reading": "らいう",
+          "start": 187.023,
+          "end": 187.343,
+          "score": 0.0001
+        },
+        {
+          "text": "だ",
+          "reading": "だ",
+          "start": 187.542,
+          "end": 187.562,
+          "score": 0.5359
+        },
+        {
+          "text": "と",
+          "reading": "と",
+          "start": 187.923,
+          "end": 187.942,
+          "score": 0.0001
+        },
+        {
+          "text": "知",
+          "reading": "し",
+          "start": 188.442,
+          "end": 188.463,
+          "score": 0.0002
+        },
+        {
+          "text": "っ",
+          "reading": "っ",
+          "start": 188.882,
+          "end": 188.903,
+          "score": 0.2667
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 188.923,
+          "end": 188.942,
+          "score": 0.0013
+        },
+        {
+          "text": "ん",
+          "reading": "ん",
+          "start": 189.262,
+          "end": 189.282,
+          "score": 0.0029
+        },
+        {
+          "text": "だ",
+          "reading": "だ",
+          "start": 189.363,
+          "end": 189.382,
+          "score": 0.1347
+        }
+      ],
+      "flags": [
+        "large-end-change-listen",
+        "large-start-change-listen",
+        "low-average-model-score",
+        "low-model-score"
+      ],
+      "usable": false,
+      "meanScore": 0.0686,
+      "status": "unreviewed"
+    },
+    {
+      "index": 28,
+      "text": "どうか騙しておくれ 「愛」と笑っておくれ",
+      "start": 205.602,
+      "end": 209.123,
+      "words": [
+        {
+          "text": "ど",
+          "reading": "ど",
+          "start": 205.602,
+          "end": 205.623,
+          "score": 0.0003
+        },
+        {
+          "text": "う",
+          "reading": "う",
+          "start": 205.822,
+          "end": 205.843,
+          "score": 0.0001
+        },
+        {
+          "text": "か",
+          "reading": "か",
+          "start": 206.222,
+          "end": 206.243,
+          "score": 0.0001
+        },
+        {
+          "text": "騙",
+          "reading": "だま",
+          "start": 206.363,
+          "end": 206.382,
+          "score": 0
+        },
+        {
+          "text": "し",
+          "reading": "し",
+          "start": 206.523,
+          "end": 206.542,
+          "score": 0.0001
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 206.583,
+          "end": 206.602,
+          "score": 0.188
+        },
+        {
+          "text": "お",
+          "reading": "お",
+          "start": 206.782,
+          "end": 206.822,
+          "score": 0.4028
+        },
+        {
+          "text": "く",
+          "reading": "く",
+          "start": 206.843,
+          "end": 206.863,
+          "score": 0.0002
+        },
+        {
+          "text": "れ",
+          "reading": "れ",
+          "start": 206.903,
+          "end": 206.923,
+          "score": 0.0005
+        },
+        {
+          "text": "愛",
+          "reading": "あい",
+          "start": 207.882,
+          "end": 207.903,
+          "score": 0
+        },
+        {
+          "text": "と",
+          "reading": "と",
+          "start": 208.162,
+          "end": 208.183,
+          "score": 0.0001
+        },
+        {
+          "text": "笑",
+          "reading": "わら",
+          "start": 208.303,
+          "end": 208.322,
+          "score": 0
+        },
+        {
+          "text": "っ",
+          "reading": "っ",
+          "start": 208.482,
+          "end": 208.523,
+          "score": 0.8384
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 208.523,
+          "end": 208.542,
+          "score": 0.1634
+        },
+        {
+          "text": "お",
+          "reading": "お",
+          "start": 208.662,
+          "end": 208.683,
+          "score": 0.0051
+        },
+        {
+          "text": "く",
+          "reading": "く",
+          "start": 208.843,
+          "end": 208.863,
+          "score": 0
+        },
+        {
+          "text": "れ",
+          "reading": "れ",
+          "start": 209.102,
+          "end": 209.123,
+          "score": 0.0143
+        }
+      ],
+      "flags": [
+        "low-average-model-score",
+        "low-model-score",
+        "repeated-occurrence-listen"
+      ],
+      "usable": false,
+      "meanScore": 0.0949,
+      "status": "unreviewed"
+    },
+    {
+      "index": 29,
+      "text": "いつか消える日まで そのままでいて",
+      "start": 207.903,
+      "end": 212.903,
+      "words": [
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 207.903,
+          "end": 207.923,
+          "score": 0
+        },
+        {
+          "text": "つ",
+          "reading": "つ",
+          "start": 208.162,
+          "end": 208.183,
+          "score": 0
+        },
+        {
+          "text": "か",
+          "reading": "か",
+          "start": 208.303,
+          "end": 208.322,
+          "score": 0.0004
+        },
+        {
+          "text": "消",
+          "reading": "き",
+          "start": 208.662,
+          "end": 208.683,
+          "score": 0
+        },
+        {
+          "text": "え",
+          "reading": "え",
+          "start": 208.863,
+          "end": 208.882,
+          "score": 0.0004
+        },
+        {
+          "text": "る",
+          "reading": "る",
+          "start": 209.102,
+          "end": 209.123,
+          "score": 0.0008
+        },
+        {
+          "text": "日",
+          "reading": "ひ",
+          "start": 209.482,
+          "end": 209.502,
+          "score": 0.0003
+        },
+        {
+          "text": "ま",
+          "reading": "ま",
+          "start": 210.202,
+          "end": 210.222,
+          "score": 0.0032
+        },
+        {
+          "text": "で",
+          "reading": "で",
+          "start": 210.222,
+          "end": 210.243,
+          "score": 0.1101
+        },
+        {
+          "text": "そ",
+          "reading": "そ",
+          "start": 210.782,
+          "end": 210.803,
+          "score": 0.0868
+        },
+        {
+          "text": "の",
+          "reading": "の",
+          "start": 211.282,
+          "end": 211.303,
+          "score": 0.037
+        },
+        {
+          "text": "ま",
+          "reading": "ま",
+          "start": 211.423,
+          "end": 211.442,
+          "score": 0.1544
+        },
+        {
+          "text": "ま",
+          "reading": "ま",
+          "start": 212.162,
+          "end": 212.183,
+          "score": 0.0006
+        },
+        {
+          "text": "で",
+          "reading": "で",
+          "start": 212.643,
+          "end": 212.662,
+          "score": 0.5387
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 212.762,
+          "end": 212.782,
+          "score": 0.016
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 212.882,
+          "end": 212.903,
+          "score": 0.0335
+        }
+      ],
+      "flags": [
+        "analysis-window-edge",
+        "large-start-change-listen",
+        "low-average-model-score",
+        "low-model-score",
+        "repeated-occurrence-listen"
+      ],
+      "usable": false,
+      "meanScore": 0.0614,
+      "status": "unreviewed"
+    },
+    {
+      "index": 30,
+      "text": "どうか騙しておくれ 「愛」と笑っておくれ",
+      "start": 211.933,
+      "end": 216.873,
+      "words": [
+        {
+          "text": "ど",
+          "reading": "ど",
+          "start": 211.933,
+          "end": 211.952,
+          "score": 0.0038
+        },
+        {
+          "text": "う",
+          "reading": "う",
+          "start": 212.553,
+          "end": 212.572,
+          "score": 0.0003
+        },
+        {
+          "text": "か",
+          "reading": "か",
+          "start": 212.893,
+          "end": 212.912,
+          "score": 0.0067
+        },
+        {
+          "text": "騙",
+          "reading": "だま",
+          "start": 213.593,
+          "end": 213.613,
+          "score": 0.0001
+        },
+        {
+          "text": "し",
+          "reading": "し",
+          "start": 213.713,
+          "end": 213.732,
+          "score": 0.0248
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 214.333,
+          "end": 214.352,
+          "score": 0.0066
+        },
+        {
+          "text": "お",
+          "reading": "お",
+          "start": 214.452,
+          "end": 214.472,
+          "score": 0.0027
+        },
+        {
+          "text": "く",
+          "reading": "く",
+          "start": 214.632,
+          "end": 214.653,
+          "score": 0.0008
+        },
+        {
+          "text": "れ",
+          "reading": "れ",
+          "start": 214.812,
+          "end": 214.833,
+          "score": 0.0043
+        },
+        {
+          "text": "愛",
+          "reading": "あい",
+          "start": 215.452,
+          "end": 215.472,
+          "score": 0.0167
+        },
+        {
+          "text": "と",
+          "reading": "と",
+          "start": 215.512,
+          "end": 215.532,
+          "score": 0.0001
+        },
+        {
+          "text": "笑",
+          "reading": "わら",
+          "start": 215.632,
+          "end": 215.653,
+          "score": 0
+        },
+        {
+          "text": "っ",
+          "reading": "っ",
+          "start": 215.912,
+          "end": 215.933,
+          "score": 0.0001
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 216.273,
+          "end": 216.292,
+          "score": 0.0004
+        },
+        {
+          "text": "お",
+          "reading": "お",
+          "start": 216.472,
+          "end": 216.493,
+          "score": 0.0385
+        },
+        {
+          "text": "く",
+          "reading": "く",
+          "start": 216.752,
+          "end": 216.773,
+          "score": 0.0148
+        },
+        {
+          "text": "れ",
+          "reading": "れ",
+          "start": 216.852,
+          "end": 216.873,
+          "score": 0.002
+        }
+      ],
+      "flags": [
+        "large-start-change-listen",
+        "low-average-model-score",
+        "low-model-score",
+        "repeated-occurrence-listen"
+      ],
+      "usable": false,
+      "meanScore": 0.0072,
+      "status": "unreviewed"
+    },
+    {
+      "index": 31,
+      "text": "いつか消える日まで そのままでいて",
+      "start": 215.653,
+      "end": 220.653,
+      "words": [
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 215.653,
+          "end": 215.673,
+          "score": 0.0001
+        },
+        {
+          "text": "つ",
+          "reading": "つ",
+          "start": 215.912,
+          "end": 215.933,
+          "score": 0
+        },
+        {
+          "text": "か",
+          "reading": "か",
+          "start": 216.072,
+          "end": 216.093,
+          "score": 0.0003
+        },
+        {
+          "text": "消",
+          "reading": "き",
+          "start": 216.273,
+          "end": 216.292,
+          "score": 0
+        },
+        {
+          "text": "え",
+          "reading": "え",
+          "start": 216.593,
+          "end": 216.613,
+          "score": 0.0023
+        },
+        {
+          "text": "る",
+          "reading": "る",
+          "start": 216.852,
+          "end": 216.873,
+          "score": 0
+        },
+        {
+          "text": "日",
+          "reading": "ひ",
+          "start": 217.232,
+          "end": 217.252,
+          "score": 0.0038
+        },
+        {
+          "text": "ま",
+          "reading": "ま",
+          "start": 217.893,
+          "end": 217.912,
+          "score": 0
+        },
+        {
+          "text": "で",
+          "reading": "で",
+          "start": 217.972,
+          "end": 217.993,
+          "score": 0.0136
+        },
+        {
+          "text": "そ",
+          "reading": "そ",
+          "start": 218.532,
+          "end": 218.553,
+          "score": 0.0673
+        },
+        {
+          "text": "の",
+          "reading": "の",
+          "start": 219.433,
+          "end": 219.452,
+          "score": 0.1498
+        },
+        {
+          "text": "ま",
+          "reading": "ま",
+          "start": 219.673,
+          "end": 219.692,
+          "score": 0.0005
+        },
+        {
+          "text": "ま",
+          "reading": "ま",
+          "start": 219.893,
+          "end": 219.912,
+          "score": 0.0008
+        },
+        {
+          "text": "で",
+          "reading": "で",
+          "start": 220.393,
+          "end": 220.412,
+          "score": 0.2485
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 220.512,
+          "end": 220.532,
+          "score": 0.0084
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 220.632,
+          "end": 220.653,
+          "score": 0.0558
+        }
+      ],
+      "flags": [
+        "large-start-change-listen",
+        "low-average-model-score",
+        "low-model-score",
+        "repeated-occurrence-listen"
+      ],
+      "usable": false,
+      "meanScore": 0.0345,
+      "status": "unreviewed"
+    },
+    {
+      "index": 32,
+      "text": "どうか騙しておくれ 「愛」と笑っておくれ",
+      "start": 219.673,
+      "end": 224.613,
+      "words": [
+        {
+          "text": "ど",
+          "reading": "ど",
+          "start": 219.673,
+          "end": 219.692,
+          "score": 0.2114
+        },
+        {
+          "text": "う",
+          "reading": "う",
+          "start": 220.512,
+          "end": 220.532,
+          "score": 0.0005
+        },
+        {
+          "text": "か",
+          "reading": "か",
+          "start": 221.312,
+          "end": 221.333,
+          "score": 0.0022
+        },
+        {
+          "text": "騙",
+          "reading": "だま",
+          "start": 221.572,
+          "end": 221.593,
+          "score": 0
+        },
+        {
+          "text": "し",
+          "reading": "し",
+          "start": 221.852,
+          "end": 221.873,
+          "score": 0
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 222.093,
+          "end": 222.113,
+          "score": 0.0171
+        },
+        {
+          "text": "お",
+          "reading": "お",
+          "start": 222.292,
+          "end": 222.312,
+          "score": 0.0154
+        },
+        {
+          "text": "く",
+          "reading": "く",
+          "start": 222.553,
+          "end": 222.572,
+          "score": 0.0072
+        },
+        {
+          "text": "れ",
+          "reading": "れ",
+          "start": 222.653,
+          "end": 222.673,
+          "score": 0.1323
+        },
+        {
+          "text": "愛",
+          "reading": "あい",
+          "start": 223.192,
+          "end": 223.213,
+          "score": 0.0222
+        },
+        {
+          "text": "と",
+          "reading": "と",
+          "start": 223.373,
+          "end": 223.393,
+          "score": 0.0001
+        },
+        {
+          "text": "笑",
+          "reading": "わら",
+          "start": 223.792,
+          "end": 223.812,
+          "score": 0
+        },
+        {
+          "text": "っ",
+          "reading": "っ",
+          "start": 223.972,
+          "end": 223.993,
+          "score": 0.006
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 224.012,
+          "end": 224.032,
+          "score": 0.5142
+        },
+        {
+          "text": "お",
+          "reading": "お",
+          "start": 224.232,
+          "end": 224.252,
+          "score": 0.0379
+        },
+        {
+          "text": "く",
+          "reading": "く",
+          "start": 224.333,
+          "end": 224.352,
+          "score": 0.0002
+        },
+        {
+          "text": "れ",
+          "reading": "れ",
+          "start": 224.593,
+          "end": 224.613,
+          "score": 0.2081
+        }
+      ],
+      "flags": [
+        "large-start-change-listen",
+        "low-average-model-score",
+        "low-model-score",
+        "repeated-occurrence-listen"
+      ],
+      "usable": false,
+      "meanScore": 0.0691,
+      "status": "unreviewed"
+    },
+    {
+      "index": 33,
+      "text": "いつか消える日まで そのままでいて",
+      "start": 223.423,
+      "end": 228.382,
+      "words": [
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 223.423,
+          "end": 223.442,
+          "score": 0
+        },
+        {
+          "text": "つ",
+          "reading": "つ",
+          "start": 223.662,
+          "end": 223.683,
+          "score": 0
+        },
+        {
+          "text": "か",
+          "reading": "か",
+          "start": 223.803,
+          "end": 223.822,
+          "score": 0
+        },
+        {
+          "text": "消",
+          "reading": "き",
+          "start": 224.343,
+          "end": 224.363,
+          "score": 0
+        },
+        {
+          "text": "え",
+          "reading": "え",
+          "start": 224.482,
+          "end": 224.502,
+          "score": 0.0006
+        },
+        {
+          "text": "る",
+          "reading": "る",
+          "start": 224.602,
+          "end": 224.623,
+          "score": 0.0103
+        },
+        {
+          "text": "日",
+          "reading": "ひ",
+          "start": 224.982,
+          "end": 225.002,
+          "score": 0.003
+        },
+        {
+          "text": "ま",
+          "reading": "ま",
+          "start": 225.843,
+          "end": 225.863,
+          "score": 0.1112
+        },
+        {
+          "text": "で",
+          "reading": "で",
+          "start": 225.942,
+          "end": 225.963,
+          "score": 0.1824
+        },
+        {
+          "text": "そ",
+          "reading": "そ",
+          "start": 226.282,
+          "end": 226.303,
+          "score": 0.0084
+        },
+        {
+          "text": "の",
+          "reading": "の",
+          "start": 227.023,
+          "end": 227.042,
+          "score": 0.0024
+        },
+        {
+          "text": "ま",
+          "reading": "ま",
+          "start": 227.403,
+          "end": 227.423,
+          "score": 0.0004
+        },
+        {
+          "text": "ま",
+          "reading": "ま",
+          "start": 227.643,
+          "end": 227.662,
+          "score": 0.0001
+        },
+        {
+          "text": "で",
+          "reading": "で",
+          "start": 228.123,
+          "end": 228.143,
+          "score": 0.114
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 228.243,
+          "end": 228.262,
+          "score": 0.002
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 228.363,
+          "end": 228.382,
+          "score": 0.2374
+        }
+      ],
+      "flags": [
+        "analysis-window-edge",
+        "large-start-change-listen",
+        "low-average-model-score",
+        "low-model-score",
+        "repeated-occurrence-listen"
+      ],
+      "usable": false,
+      "meanScore": 0.042,
+      "status": "unreviewed"
+    },
+    {
+      "index": 34,
+      "text": "どうか騙しておくれ 「愛」と笑っておくれ",
+      "start": 227.412,
+      "end": 233.093,
+      "words": [
+        {
+          "text": "ど",
+          "reading": "ど",
+          "start": 227.412,
+          "end": 227.433,
+          "score": 0.0134
+        },
+        {
+          "text": "う",
+          "reading": "う",
+          "start": 228.252,
+          "end": 228.273,
+          "score": 0.0008
+        },
+        {
+          "text": "か",
+          "reading": "か",
+          "start": 228.472,
+          "end": 228.493,
+          "score": 0.0013
+        },
+        {
+          "text": "騙",
+          "reading": "だま",
+          "start": 229.053,
+          "end": 229.072,
+          "score": 0
+        },
+        {
+          "text": "し",
+          "reading": "し",
+          "start": 229.192,
+          "end": 229.213,
+          "score": 0.0079
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 229.833,
+          "end": 229.852,
+          "score": 0.523
+        },
+        {
+          "text": "お",
+          "reading": "お",
+          "start": 230.153,
+          "end": 230.173,
+          "score": 0.0002
+        },
+        {
+          "text": "く",
+          "reading": "く",
+          "start": 230.292,
+          "end": 230.312,
+          "score": 0.0091
+        },
+        {
+          "text": "れ",
+          "reading": "れ",
+          "start": 230.393,
+          "end": 230.412,
+          "score": 0.008
+        },
+        {
+          "text": "愛",
+          "reading": "あい",
+          "start": 230.993,
+          "end": 231.012,
+          "score": 0.0032
+        },
+        {
+          "text": "と",
+          "reading": "と",
+          "start": 231.132,
+          "end": 231.153,
+          "score": 0
+        },
+        {
+          "text": "笑",
+          "reading": "わら",
+          "start": 231.393,
+          "end": 231.412,
+          "score": 0.0001
+        },
+        {
+          "text": "っ",
+          "reading": "っ",
+          "start": 231.713,
+          "end": 231.752,
+          "score": 0.826
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 231.752,
+          "end": 231.773,
+          "score": 0.9509
+        },
+        {
+          "text": "お",
+          "reading": "お",
+          "start": 231.873,
+          "end": 231.893,
+          "score": 0.3769
+        },
+        {
+          "text": "く",
+          "reading": "く",
+          "start": 232.213,
+          "end": 232.232,
+          "score": 0.0277
+        },
+        {
+          "text": "れ",
+          "reading": "れ",
+          "start": 233.072,
+          "end": 233.093,
+          "score": 0
+        }
+      ],
+      "flags": [
+        "large-start-change-listen",
+        "low-model-score",
+        "repeated-occurrence-listen"
+      ],
+      "usable": false,
+      "meanScore": 0.1617,
+      "status": "unreviewed"
+    },
+    {
+      "index": 35,
+      "text": "いつか消える日まで そのままでいて",
+      "start": 231.143,
+      "end": 236.843,
+      "words": [
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 231.143,
+          "end": 231.162,
+          "score": 0
+        },
+        {
+          "text": "つ",
+          "reading": "つ",
+          "start": 232.083,
+          "end": 232.102,
+          "score": 0.0004
+        },
+        {
+          "text": "か",
+          "reading": "か",
+          "start": 232.222,
+          "end": 232.243,
+          "score": 0.0402
+        },
+        {
+          "text": "消",
+          "reading": "き",
+          "start": 232.722,
+          "end": 232.743,
+          "score": 0
+        },
+        {
+          "text": "え",
+          "reading": "え",
+          "start": 232.923,
+          "end": 232.942,
+          "score": 0.0032
+        },
+        {
+          "text": "る",
+          "reading": "る",
+          "start": 233.062,
+          "end": 233.083,
+          "score": 0.0004
+        },
+        {
+          "text": "日",
+          "reading": "ひ",
+          "start": 233.343,
+          "end": 233.363,
+          "score": 0.0003
+        },
+        {
+          "text": "ま",
+          "reading": "ま",
+          "start": 233.423,
+          "end": 233.442,
+          "score": 0
+        },
+        {
+          "text": "で",
+          "reading": "で",
+          "start": 233.463,
+          "end": 233.482,
+          "score": 0.2811
+        },
+        {
+          "text": "そ",
+          "reading": "そ",
+          "start": 233.803,
+          "end": 233.822,
+          "score": 0.0009
+        },
+        {
+          "text": "の",
+          "reading": "の",
+          "start": 233.942,
+          "end": 233.963,
+          "score": 0.0997
+        },
+        {
+          "text": "ま",
+          "reading": "ま",
+          "start": 233.982,
+          "end": 234.002,
+          "score": 0.0001
+        },
+        {
+          "text": "ま",
+          "reading": "ま",
+          "start": 234.062,
+          "end": 234.083,
+          "score": 0.2802
+        },
+        {
+          "text": "で",
+          "reading": "で",
+          "start": 234.183,
+          "end": 234.202,
+          "score": 0.0003
+        },
+        {
+          "text": "い",
+          "reading": "い",
+          "start": 234.282,
+          "end": 234.303,
+          "score": 0.0013
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 236.822,
+          "end": 236.843,
+          "score": 0.0016
+        }
+      ],
+      "flags": [
+        "large-start-change-listen",
+        "low-average-model-score",
+        "low-model-score",
+        "repeated-occurrence-listen"
+      ],
+      "usable": false,
+      "meanScore": 0.0444,
+      "status": "unreviewed"
+    },
+    {
+      "index": 36,
+      "text": "言葉にするのも 形にするのも そのどれもが覚束なくって",
+      "start": 236.583,
+      "end": 244.363,
+      "words": [
+        {
+          "text": "言葉",
+          "reading": "ことば",
+          "start": 236.583,
+          "end": 236.863,
+          "score": 0.0001
+        },
+        {
+          "text": "に",
+          "reading": "に",
+          "start": 237.083,
+          "end": 237.102,
+          "score": 0.0001
+        },
+        {
+          "text": "す",
+          "reading": "す",
+          "start": 237.343,
+          "end": 237.363,
+          "score": 0.0028
+        },
+        {
+          "text": "る",
+          "reading": "る",
+          "start": 237.683,
+          "end": 237.702,
+          "score": 0
+        },
+        {
+          "text": "の",
+          "reading": "の",
+          "start": 237.822,
+          "end": 237.843,
+          "score": 0.0523
+        },
+        {
+          "text": "も",
+          "reading": "も",
+          "start": 238.183,
+          "end": 238.202,
+          "score": 0.0231
+        },
+        {
+          "text": "形",
+          "reading": "かたち",
+          "start": 238.523,
+          "end": 238.542,
+          "score": 0
+        },
+        {
+          "text": "に",
+          "reading": "に",
+          "start": 238.762,
+          "end": 238.782,
+          "score": 0.0006
+        },
+        {
+          "text": "す",
+          "reading": "す",
+          "start": 239.303,
+          "end": 239.322,
+          "score": 0.0013
+        },
+        {
+          "text": "る",
+          "reading": "る",
+          "start": 239.602,
+          "end": 239.623,
+          "score": 0.0372
+        },
+        {
+          "text": "の",
+          "reading": "の",
+          "start": 239.743,
+          "end": 239.762,
+          "score": 0.8788
+        },
+        {
+          "text": "も",
+          "reading": "も",
+          "start": 239.863,
+          "end": 239.882,
+          "score": 0.0082
+        },
+        {
+          "text": "そ",
+          "reading": "そ",
+          "start": 240.282,
+          "end": 240.303,
+          "score": 0.0072
+        },
+        {
+          "text": "の",
+          "reading": "の",
+          "start": 240.702,
+          "end": 240.722,
+          "score": 0.1135
+        },
+        {
+          "text": "ど",
+          "reading": "ど",
+          "start": 240.743,
+          "end": 240.762,
+          "score": 0.0566
+        },
+        {
+          "text": "れ",
+          "reading": "れ",
+          "start": 240.963,
+          "end": 240.982,
+          "score": 0.0002
+        },
+        {
+          "text": "も",
+          "reading": "も",
+          "start": 241.423,
+          "end": 241.442,
+          "score": 0.0018
+        },
+        {
+          "text": "が",
+          "reading": "が",
+          "start": 241.903,
+          "end": 241.923,
+          "score": 0.0205
+        },
+        {
+          "text": "覚束",
+          "reading": "おぼつか",
+          "start": 242.162,
+          "end": 242.762,
+          "score": 0.0001
+        },
+        {
+          "text": "な",
+          "reading": "な",
+          "start": 242.982,
+          "end": 243.002,
+          "score": 0.0034
+        },
+        {
+          "text": "く",
+          "reading": "く",
+          "start": 243.123,
+          "end": 243.143,
+          "score": 0.0003
+        },
+        {
+          "text": "っ",
+          "reading": "っ",
+          "start": 244.183,
+          "end": 244.202,
+          "score": 0.4407
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 244.343,
+          "end": 244.363,
+          "score": 0.0016
+        }
+      ],
+      "flags": [
+        "low-average-model-score",
+        "low-model-score",
+        "repeated-occurrence-listen"
+      ],
+      "usable": false,
+      "meanScore": 0.0718,
+      "status": "unreviewed"
+    },
+    {
+      "index": 37,
+      "text": "ただ目を見つめた するとあなたはふっと優しく笑ったんだ",
+      "start": 242.632,
+      "end": 251.132,
+      "words": [
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 242.632,
+          "end": 242.653,
+          "score": 0.0082
+        },
+        {
+          "text": "だ",
+          "reading": "だ",
+          "start": 243.632,
+          "end": 243.653,
+          "score": 0.2373
+        },
+        {
+          "text": "目",
+          "reading": "め",
+          "start": 243.852,
+          "end": 243.873,
+          "score": 0.0011
+        },
+        {
+          "text": "を",
+          "reading": "を",
+          "start": 245.053,
+          "end": 245.072,
+          "score": 0.0013
+        },
+        {
+          "text": "見",
+          "reading": "み",
+          "start": 245.312,
+          "end": 245.333,
+          "score": 0.0001
+        },
+        {
+          "text": "つ",
+          "reading": "つ",
+          "start": 245.532,
+          "end": 245.553,
+          "score": 0.0003
+        },
+        {
+          "text": "め",
+          "reading": "め",
+          "start": 245.792,
+          "end": 245.812,
+          "score": 0.0298
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 245.912,
+          "end": 245.933,
+          "score": 0.8855
+        },
+        {
+          "text": "す",
+          "reading": "す",
+          "start": 246.412,
+          "end": 246.433,
+          "score": 0.0002
+        },
+        {
+          "text": "る",
+          "reading": "る",
+          "start": 246.512,
+          "end": 246.532,
+          "score": 0.6213
+        },
+        {
+          "text": "と",
+          "reading": "と",
+          "start": 246.993,
+          "end": 247.012,
+          "score": 0.2626
+        },
+        {
+          "text": "あ",
+          "reading": "あ",
+          "start": 247.093,
+          "end": 247.113,
+          "score": 0.0009
+        },
+        {
+          "text": "な",
+          "reading": "な",
+          "start": 247.352,
+          "end": 247.373,
+          "score": 0.0234
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 247.472,
+          "end": 247.493,
+          "score": 0.0018
+        },
+        {
+          "text": "は",
+          "reading": "は",
+          "start": 248.412,
+          "end": 248.452,
+          "score": 0.1946
+        },
+        {
+          "text": "ふ",
+          "reading": "ふ",
+          "start": 248.532,
+          "end": 248.553,
+          "score": 0.0575
+        },
+        {
+          "text": "っ",
+          "reading": "っ",
+          "start": 248.632,
+          "end": 248.653,
+          "score": 0.0026
+        },
+        {
+          "text": "と",
+          "reading": "と",
+          "start": 248.692,
+          "end": 248.713,
+          "score": 0.0085
+        },
+        {
+          "text": "優",
+          "reading": "やさ",
+          "start": 248.873,
+          "end": 248.893,
+          "score": 0
+        },
+        {
+          "text": "し",
+          "reading": "し",
+          "start": 249.132,
+          "end": 249.153,
+          "score": 0.0014
+        },
+        {
+          "text": "く",
+          "reading": "く",
+          "start": 249.393,
+          "end": 249.412,
+          "score": 0.0004
+        },
+        {
+          "text": "笑",
+          "reading": "わら",
+          "start": 249.493,
+          "end": 249.512,
+          "score": 0.0002
+        },
+        {
+          "text": "っ",
+          "reading": "っ",
+          "start": 250.012,
+          "end": 250.032,
+          "score": 0.0053
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 250.113,
+          "end": 250.132,
+          "score": 0.0793
+        },
+        {
+          "text": "ん",
+          "reading": "ん",
+          "start": 250.792,
+          "end": 250.812,
+          "score": 0.3887
+        },
+        {
+          "text": "だ",
+          "reading": "だ",
+          "start": 251.113,
+          "end": 251.132,
+          "score": 0.0206
+        }
+      ],
+      "flags": [
+        "analysis-window-edge",
+        "large-start-change-listen",
+        "low-average-model-score",
+        "low-model-score",
+        "repeated-occurrence-listen"
+      ],
+      "usable": false,
+      "meanScore": 0.109,
+      "status": "unreviewed"
+    },
+    {
+      "index": 38,
+      "text": "嗄れた心も さざめく秘密も 気がつけば粉々になって",
+      "start": 251.442,
+      "end": 260.342,
+      "words": [
+        {
+          "text": "嗄",
+          "reading": "か",
+          "start": 251.442,
+          "end": 251.463,
+          "score": 0.006
+        },
+        {
+          "text": "れ",
+          "reading": "れ",
+          "start": 252.662,
+          "end": 252.683,
+          "score": 0.003
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 252.803,
+          "end": 252.822,
+          "score": 0.1559
+        },
+        {
+          "text": "心",
+          "reading": "こころ",
+          "start": 253.042,
+          "end": 253.442,
+          "score": 0.0145
+        },
+        {
+          "text": "も",
+          "reading": "も",
+          "start": 253.662,
+          "end": 253.683,
+          "score": 0.0015
+        },
+        {
+          "text": "さ",
+          "reading": "さ",
+          "start": 254.002,
+          "end": 254.023,
+          "score": 0.0002
+        },
+        {
+          "text": "ざ",
+          "reading": "ざ",
+          "start": 254.363,
+          "end": 254.382,
+          "score": 0.0026
+        },
+        {
+          "text": "め",
+          "reading": "め",
+          "start": 254.482,
+          "end": 254.502,
+          "score": 0.0035
+        },
+        {
+          "text": "く",
+          "reading": "く",
+          "start": 254.743,
+          "end": 254.762,
+          "score": 0.0001
+        },
+        {
+          "text": "秘密",
+          "reading": "ひみつ",
+          "start": 254.982,
+          "end": 255.343,
+          "score": 0.0024
+        },
+        {
+          "text": "も",
+          "reading": "も",
+          "start": 255.442,
+          "end": 255.463,
+          "score": 0.2778
+        },
+        {
+          "text": "気",
+          "reading": "き",
+          "start": 255.923,
+          "end": 255.942,
+          "score": 0
+        },
+        {
+          "text": "が",
+          "reading": "が",
+          "start": 256.183,
+          "end": 256.202,
+          "score": 0.002
+        },
+        {
+          "text": "つ",
+          "reading": "つ",
+          "start": 256.283,
+          "end": 256.303,
+          "score": 0.0015
+        },
+        {
+          "text": "け",
+          "reading": "け",
+          "start": 256.683,
+          "end": 256.702,
+          "score": 0.038
+        },
+        {
+          "text": "ば",
+          "reading": "ば",
+          "start": 256.923,
+          "end": 256.942,
+          "score": 0.0062
+        },
+        {
+          "text": "粉々",
+          "reading": "こなごな",
+          "start": 257.142,
+          "end": 258.002,
+          "score": 0.0247
+        },
+        {
+          "text": "に",
+          "reading": "に",
+          "start": 258.123,
+          "end": 258.142,
+          "score": 0.0021
+        },
+        {
+          "text": "な",
+          "reading": "な",
+          "start": 259.322,
+          "end": 259.342,
+          "score": 0.0408
+        },
+        {
+          "text": "っ",
+          "reading": "っ",
+          "start": 260.022,
+          "end": 260.043,
+          "score": 0.0159
+        },
+        {
+          "text": "て",
+          "reading": "て",
+          "start": 260.322,
+          "end": 260.342,
+          "score": 0
+        }
+      ],
+      "flags": [
+        "low-average-model-score",
+        "low-model-score",
+        "repeated-occurrence-listen"
+      ],
+      "usable": false,
+      "meanScore": 0.0285,
+      "status": "unreviewed"
+    },
+    {
+      "index": 39,
+      "text": "刹那の間に 痛みに似た恋が体を走ったんだ",
+      "start": 260.683,
+      "end": 266.942,
+      "words": [
+        {
+          "text": "刹那",
+          "reading": "せつな",
+          "start": 260.683,
+          "end": 260.863,
+          "score": 0.0001
+        },
+        {
+          "text": "の",
+          "reading": "の",
+          "start": 260.902,
+          "end": 260.923,
+          "score": 0.0083
+        },
+        {
+          "text": "間",
+          "reading": "ま",
+          "start": 260.983,
+          "end": 261.002,
+          "score": 0.0006
+        },
+        {
+          "text": "に",
+          "reading": "に",
+          "start": 261.002,
+          "end": 261.022,
+          "score": 0.0011
+        },
+        {
+          "text": "痛",
+          "reading": "いた",
+          "start": 261.283,
+          "end": 261.303,
+          "score": 0
+        },
+        {
+          "text": "み",
+          "reading": "み",
+          "start": 262.623,
+          "end": 262.642,
+          "score": 0.0013
+        },
+        {
+          "text": "に",
+          "reading": "に",
+          "start": 262.723,
+          "end": 262.743,
+          "score": 0.003
+        },
+        {
+          "text": "似",
+          "reading": "に",
+          "start": 262.942,
+          "end": 262.962,
+          "score": 0.0001
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 263.043,
+          "end": 263.062,
+          "score": 0.002
+        },
+        {
+          "text": "恋",
+          "reading": "こい",
+          "start": 263.423,
+          "end": 263.442,
+          "score": 0.0016
+        },
+        {
+          "text": "が",
+          "reading": "が",
+          "start": 263.803,
+          "end": 263.822,
+          "score": 0.1725
+        },
+        {
+          "text": "体",
+          "reading": "からだ",
+          "start": 265.142,
+          "end": 265.163,
+          "score": 0.0102
+        },
+        {
+          "text": "を",
+          "reading": "を",
+          "start": 265.243,
+          "end": 265.262,
+          "score": 0.7695
+        },
+        {
+          "text": "走",
+          "reading": "はし",
+          "start": 266.183,
+          "end": 266.202,
+          "score": 0.0001
+        },
+        {
+          "text": "っ",
+          "reading": "っ",
+          "start": 266.342,
+          "end": 266.363,
+          "score": 0.0005
+        },
+        {
+          "text": "た",
+          "reading": "た",
+          "start": 266.603,
+          "end": 266.623,
+          "score": 0.1524
+        },
+        {
+          "text": "ん",
+          "reading": "ん",
+          "start": 266.723,
+          "end": 266.743,
+          "score": 0.0061
+        },
+        {
+          "text": "だ",
+          "reading": "だ",
+          "start": 266.923,
+          "end": 266.942,
+          "score": 0.2512
+        }
+      ],
+      "flags": [
+        "large-start-change-listen",
+        "low-average-model-score",
+        "low-model-score",
+        "repeated-occurrence-listen"
+      ],
+      "usable": false,
+      "meanScore": 0.0767,
+      "status": "unreviewed"
+    }
+  ],
+  "screening": "window-edge-80ms; start-delta-750ms; end-delta-1000ms; v1"
+}

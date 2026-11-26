@@ -37,9 +37,15 @@ node scripts/import-song-lyrics.mjs lyrics/import-manifest.json --write
 }
 ```
 
-以上是格式範例。manifest 的 `songs` 已登記 26 首本機供稿，匯入共 1,021 行原文並對齊 987 列中文；26 首已明確設定 timingMode 為 preview，啟用逐句同步、跟隨及跳轉，讀音與影片精校仍待補。26 份使用者提供的原始 JSON 均保留，〈1991〉另從同檔 `syncedLyrics` 抽出 LRC，避免漏讀缺少結束時間的末句；欄位選擇見[歌詞資料夾](../lyrics/README.md)。`candidateEntries` 保留逐首候選網址，其他歌曲可在提供對應檔案後複製到 `songs` 並補妥 `usageBasis`。工具不會讀取候選草稿或下載網址內容。純原文可設定 format 為 plain-text，不附時間。LRC 預設只保存來源時間，不啟用影片同步；需要逐行試播時明確設定 timingMode 為 preview，介面會標記待校正。
+以上是格式範例。manifest 的 `songs` 已登記 26 首本機供稿，匯入共 1,021 行原文並對齊 987 列中文；26 首已明確設定 timingMode 為 preview，啟用逐句同步、跟隨及跳轉，26 首參考讀音已整理，可切換振り仮名與羅馬拼音，見[讀音維護](furigana.md)；影片精校仍待補。26 份使用者提供的原始 JSON 均保留，〈1991〉另從同檔 `syncedLyrics` 抽出 LRC，避免漏讀缺少結束時間的末句；欄位選擇見[歌詞資料夾](../lyrics/README.md)。`candidateEntries` 保留逐首候選網址，其他歌曲可在提供對應檔案後複製到 `songs` 並補妥 `usageBasis`。工具不會讀取候選草稿或下載網址內容。純原文可設定 format 為 plain-text，不附時間。LRC 預設只保存來源時間，不啟用影片同步；需要逐行試播時明確設定 timingMode 為 preview，介面會標記待校正。
 
 完成影片比對後，alignment 記錄當前 youtubeId、offsetSeconds 與 checkedAt。沒有完整影片的曲目不能以 null ID 宣稱同步完成；不能把預告時間當成完整歌曲時間。
+
+結構化 JSON `lyricsfile` 的原始 `end_ms` 會保存在 `sourceEnd`，再依同一偏移產生 `endTime`，保留句尾與間奏。本機校對頁已補回 25 首、1,003 句原先漏存的句尾；〈1991〉沿用明示 LRC 區間，末句仍待補。純 `syncedLyrics` 解析器推定的結尾不會當成來源句尾匯入。[逐句與字詞校對流程](timing-review.md)可直接使用，不需先填整曲三段確認。
+
+試播需要補上 MV 片頭時差時，在該曲 manifest 設定 `previewOffsetSeconds`，由匯入器延後 `time`，並保留原始 `sourceTime`。〈Flamingo〉已設定 `+7.76` 秒：2026-11-20 比對[官方 MV](https://www.youtube.com/watch?v=Uh6dkL1M9DM)與[官方專輯音源](https://www.youtube.com/watch?v=4W_jEyTzdeo)的五段音訊波形，皆得出約 7.761 秒時差，第一句由 8.55 秒移至 16.31 秒；此為整曲偏移校正，逐句精校狀態仍維持 `preview`。
+
+〈さよーならまたいつか！〉已設定 `+1.041` 秒：2026-11-20 比對[官方 MV](https://www.youtube.com/watch?v=-wb2PAx6aEs)與[官方專輯音源](https://www.youtube.com/watch?v=nmYDYalgb5w)，以單聲道 8 kHz 波形交叉相關檢查音源的 10–25、45–60、80–95、125–140、175–190 秒，五段均得到約 `+1.04125` 秒時差，相關係數為 0.984–0.990。35 句歌詞整體延後 1.041 秒，第一句由 6.970 秒移至 8.011 秒；原始 LRC 時間保留，逐句精校狀態維持 `preview`。
 
 readings 可分別提供 furigana 與 romaji。沒有完整讀音時使用 allowPendingReadings，維持讀音待補。中文依原文逐句對齊，不能僅按行號硬配。
 

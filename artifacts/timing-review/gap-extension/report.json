@@ -1,0 +1,943 @@
+{
+  "format": "yonezu-timing-gap-extension-v1",
+  "written": true,
+  "maxGapSeconds": 2,
+  "backup": "D:\\Codex\\.yonezu-timing-review\\before-gap-extension\\2026-11-22T08-31-17-157Z",
+  "basis": "Existing review drafts, otherwise conservative initial drafts; no new listening verification",
+  "songCount": 26,
+  "lineCount": 1021,
+  "extendedLines": 21,
+  "extendedLastWords": 1,
+  "restoredLongGapExtensions": 70,
+  "activeExtendedLines": 399,
+  "preservedManualChanges": [
+    {
+      "songId": "Chikyugi",
+      "line": 8,
+      "reason": "later-manual-end-or-review"
+    }
+  ],
+  "revokedApprovals": 1,
+  "songs": [
+    {
+      "id": "YellowGhost",
+      "title": "YELLOW GHOST",
+      "lines": 34,
+      "usedSavedDraft": true,
+      "extendedLines": 0,
+      "restoredLongGapExtensions": 0,
+      "retainedLongGaps": [
+        {
+          "line": 12,
+          "end": 60.322,
+          "nextStart": 77.243,
+          "gapSeconds": 16.921
+        }
+      ]
+    },
+    {
+      "id": "Shunrai",
+      "title": "春雷",
+      "lines": 40,
+      "usedSavedDraft": true,
+      "extendedLines": 0,
+      "restoredLongGapExtensions": 0,
+      "retainedLongGaps": [
+        {
+          "line": 15,
+          "end": 98.08,
+          "nextStart": 111.99,
+          "gapSeconds": 13.91
+        },
+        {
+          "line": 28,
+          "end": 191.53,
+          "nextStart": 205.1,
+          "gapSeconds": 13.57
+        }
+      ]
+    },
+    {
+      "id": "Kanden",
+      "title": "感電",
+      "lines": 55,
+      "usedSavedDraft": true,
+      "extendedLines": 0,
+      "restoredLongGapExtensions": 1,
+      "retainedLongGaps": [
+        {
+          "line": 11,
+          "end": 61.47,
+          "nextStart": 64.603,
+          "gapSeconds": 3.133
+        },
+        {
+          "line": 18,
+          "end": 94.16,
+          "nextStart": 101.772,
+          "gapSeconds": 7.612
+        }
+      ]
+    },
+    {
+      "id": "Flamingo",
+      "title": "Flamingo",
+      "lines": 45,
+      "usedSavedDraft": true,
+      "extendedLines": 0,
+      "restoredLongGapExtensions": 2,
+      "retainedLongGaps": [
+        {
+          "line": 14,
+          "end": 69.877,
+          "nextStart": 79.38,
+          "gapSeconds": 9.503
+        },
+        {
+          "line": 37,
+          "end": 167.393,
+          "nextStart": 171.83,
+          "gapSeconds": 4.437
+        },
+        {
+          "line": 41,
+          "end": 183.912,
+          "nextStart": 186.41,
+          "gapSeconds": 2.498
+        }
+      ]
+    },
+    {
+      "id": "Lady",
+      "title": "LADY",
+      "lines": 35,
+      "usedSavedDraft": true,
+      "extendedLines": 0,
+      "restoredLongGapExtensions": 4,
+      "retainedLongGaps": [
+        {
+          "line": 8,
+          "end": 64.128,
+          "nextStart": 66.934,
+          "gapSeconds": 2.806
+        },
+        {
+          "line": 13,
+          "end": 88.19,
+          "nextStart": 99.144,
+          "gapSeconds": 10.954
+        },
+        {
+          "line": 15,
+          "end": 106.483,
+          "nextStart": 108.575,
+          "gapSeconds": 2.092
+        },
+        {
+          "line": 21,
+          "end": 136.658,
+          "nextStart": 139.948,
+          "gapSeconds": 3.29
+        },
+        {
+          "line": 25,
+          "end": 161.214,
+          "nextStart": 165.978,
+          "gapSeconds": 4.764
+        }
+      ]
+    },
+    {
+      "id": "Yumeutsutsu",
+      "title": "ゆめうつつ",
+      "lines": 46,
+      "usedSavedDraft": true,
+      "extendedLines": 0,
+      "restoredLongGapExtensions": 37,
+      "retainedLongGaps": [
+        {
+          "line": 1,
+          "end": 30.43,
+          "nextStart": 33.08,
+          "gapSeconds": 2.65
+        },
+        {
+          "line": 2,
+          "end": 36.19,
+          "nextStart": 38.28,
+          "gapSeconds": 2.09
+        },
+        {
+          "line": 3,
+          "end": 40.81,
+          "nextStart": 43.4,
+          "gapSeconds": 2.59
+        },
+        {
+          "line": 4,
+          "end": 46.21,
+          "nextStart": 48.6,
+          "gapSeconds": 2.39
+        },
+        {
+          "line": 5,
+          "end": 51.4,
+          "nextStart": 53.96,
+          "gapSeconds": 2.56
+        },
+        {
+          "line": 6,
+          "end": 56.87,
+          "nextStart": 59.13,
+          "gapSeconds": 2.26
+        },
+        {
+          "line": 7,
+          "end": 61.83,
+          "nextStart": 64.26,
+          "gapSeconds": 2.43
+        },
+        {
+          "line": 8,
+          "end": 66.96,
+          "nextStart": 70.03,
+          "gapSeconds": 3.07
+        },
+        {
+          "line": 9,
+          "end": 72.73,
+          "nextStart": 75.25,
+          "gapSeconds": 2.52
+        },
+        {
+          "line": 10,
+          "end": 77.93,
+          "nextStart": 80.55,
+          "gapSeconds": 2.62
+        },
+        {
+          "line": 11,
+          "end": 83.17,
+          "nextStart": 85.68,
+          "gapSeconds": 2.51
+        },
+        {
+          "line": 12,
+          "end": 88.33,
+          "nextStart": 92.37,
+          "gapSeconds": 4.04
+        },
+        {
+          "line": 13,
+          "end": 95.1,
+          "nextStart": 99.56,
+          "gapSeconds": 4.46
+        },
+        {
+          "line": 15,
+          "end": 106.7,
+          "nextStart": 108.76,
+          "gapSeconds": 2.06
+        },
+        {
+          "line": 17,
+          "end": 115.73,
+          "nextStart": 120.31,
+          "gapSeconds": 4.58
+        },
+        {
+          "line": 18,
+          "end": 122.92,
+          "nextStart": 124.95,
+          "gapSeconds": 2.03
+        },
+        {
+          "line": 19,
+          "end": 127.6,
+          "nextStart": 129.65,
+          "gapSeconds": 2.05
+        },
+        {
+          "line": 21,
+          "end": 136.69,
+          "nextStart": 145.05,
+          "gapSeconds": 8.36
+        },
+        {
+          "line": 22,
+          "end": 147.65,
+          "nextStart": 150.49,
+          "gapSeconds": 2.84
+        },
+        {
+          "line": 23,
+          "end": 153.07,
+          "nextStart": 155.52,
+          "gapSeconds": 2.45
+        },
+        {
+          "line": 24,
+          "end": 158.17,
+          "nextStart": 160.303,
+          "gapSeconds": 2.133
+        },
+        {
+          "line": 26,
+          "end": 169.14,
+          "nextStart": 171.88,
+          "gapSeconds": 2.74
+        },
+        {
+          "line": 27,
+          "end": 174.51,
+          "nextStart": 177.25,
+          "gapSeconds": 2.74
+        },
+        {
+          "line": 28,
+          "end": 179.9,
+          "nextStart": 182.03,
+          "gapSeconds": 2.13
+        },
+        {
+          "line": 29,
+          "end": 184.64,
+          "nextStart": 188.97,
+          "gapSeconds": 4.33
+        },
+        {
+          "line": 30,
+          "end": 191.7,
+          "nextStart": 196.07,
+          "gapSeconds": 4.37
+        },
+        {
+          "line": 32,
+          "end": 203.15,
+          "nextStart": 205.16,
+          "gapSeconds": 2.01
+        },
+        {
+          "line": 34,
+          "end": 212.32,
+          "nextStart": 216.85,
+          "gapSeconds": 4.53
+        },
+        {
+          "line": 35,
+          "end": 219.46,
+          "nextStart": 221.56,
+          "gapSeconds": 2.1
+        },
+        {
+          "line": 37,
+          "end": 228.57,
+          "nextStart": 230.59,
+          "gapSeconds": 2.02
+        },
+        {
+          "line": 38,
+          "end": 233.04,
+          "nextStart": 236.53,
+          "gapSeconds": 3.49
+        },
+        {
+          "line": 39,
+          "end": 239.01,
+          "nextStart": 241.75,
+          "gapSeconds": 2.74
+        },
+        {
+          "line": 40,
+          "end": 244.2,
+          "nextStart": 246.84,
+          "gapSeconds": 2.64
+        },
+        {
+          "line": 41,
+          "end": 249.44,
+          "nextStart": 252.28,
+          "gapSeconds": 2.84
+        },
+        {
+          "line": 42,
+          "end": 254.81,
+          "nextStart": 257.43,
+          "gapSeconds": 2.62
+        },
+        {
+          "line": 43,
+          "end": 260.04,
+          "nextStart": 262.52,
+          "gapSeconds": 2.48
+        },
+        {
+          "line": 44,
+          "end": 265.02,
+          "nextStart": 267.74,
+          "gapSeconds": 2.72
+        },
+        {
+          "line": 45,
+          "end": 270.3,
+          "nextStart": 272.9,
+          "gapSeconds": 2.6
+        }
+      ]
+    },
+    {
+      "id": "CranberryAndPancake",
+      "title": "クランベリーとパンケーキ",
+      "lines": 49,
+      "usedSavedDraft": true,
+      "extendedLines": 0,
+      "restoredLongGapExtensions": 0,
+      "retainedLongGaps": [
+        {
+          "line": 17,
+          "end": 59.76,
+          "nextStart": 67.33,
+          "gapSeconds": 7.57
+        },
+        {
+          "line": 34,
+          "end": 127.44,
+          "nextStart": 134.46,
+          "gapSeconds": 7.02
+        }
+      ]
+    },
+    {
+      "id": "Shinigami",
+      "title": "死神",
+      "lines": 53,
+      "usedSavedDraft": true,
+      "extendedLines": 0,
+      "restoredLongGapExtensions": 0,
+      "retainedLongGaps": []
+    },
+    {
+      "id": "SayonaraMataItsuka",
+      "title": "さよーならまたいつか！",
+      "lines": 35,
+      "usedSavedDraft": true,
+      "extendedLines": 0,
+      "restoredLongGapExtensions": 0,
+      "retainedLongGaps": [
+        {
+          "line": 17,
+          "end": 91.861,
+          "nextStart": 100.321,
+          "gapSeconds": 8.46
+        }
+      ]
+    },
+    {
+      "id": "MelancholyKitchen",
+      "title": "メランコリーキッチン",
+      "lines": 47,
+      "usedSavedDraft": true,
+      "extendedLines": 0,
+      "restoredLongGapExtensions": 0,
+      "retainedLongGaps": [
+        {
+          "line": 21,
+          "end": 89.192,
+          "nextStart": 96.92,
+          "gapSeconds": 7.728
+        },
+        {
+          "line": 38,
+          "end": 156.173,
+          "nextStart": 185.35,
+          "gapSeconds": 29.177
+        }
+      ]
+    },
+    {
+      "id": "NineteenNinetyOne",
+      "title": "1991",
+      "lines": 18,
+      "usedSavedDraft": true,
+      "extendedLines": 0,
+      "restoredLongGapExtensions": 0,
+      "retainedLongGaps": []
+    },
+    {
+      "id": "Lemon",
+      "title": "Lemon",
+      "lines": 37,
+      "usedSavedDraft": true,
+      "extendedLines": 0,
+      "restoredLongGapExtensions": 3,
+      "retainedLongGaps": [
+        {
+          "line": 4,
+          "end": 22.145,
+          "nextStart": 25.61,
+          "gapSeconds": 3.465
+        },
+        {
+          "line": 15,
+          "end": 85.854,
+          "nextStart": 97.43,
+          "gapSeconds": 11.576
+        },
+        {
+          "line": 27,
+          "end": 157.491,
+          "nextStart": 161.06,
+          "gapSeconds": 3.569
+        },
+        {
+          "line": 31,
+          "end": 205.2,
+          "nextStart": 210.12,
+          "gapSeconds": 4.92
+        }
+      ]
+    },
+    {
+      "id": "JaneDoe",
+      "title": "JANE DOE",
+      "lines": 16,
+      "usedSavedDraft": true,
+      "extendedLines": 0,
+      "restoredLongGapExtensions": 1,
+      "retainedLongGaps": [
+        {
+          "line": 6,
+          "end": 84.75,
+          "nextStart": 92.45,
+          "gapSeconds": 7.7
+        },
+        {
+          "line": 12,
+          "end": 134.03,
+          "nextStart": 136.93,
+          "gapSeconds": 2.9
+        }
+      ]
+    },
+    {
+      "id": "UmiNoYuurei",
+      "title": "海の幽霊",
+      "lines": 25,
+      "usedSavedDraft": true,
+      "extendedLines": 0,
+      "restoredLongGapExtensions": 0,
+      "retainedLongGaps": []
+    },
+    {
+      "id": "Yodaka",
+      "title": "夜鷹",
+      "lines": 33,
+      "usedSavedDraft": true,
+      "extendedLines": 0,
+      "restoredLongGapExtensions": 0,
+      "retainedLongGaps": []
+    },
+    {
+      "id": "Loser",
+      "title": "LOSER",
+      "lines": 74,
+      "usedSavedDraft": true,
+      "extendedLines": 0,
+      "restoredLongGapExtensions": 11,
+      "retainedLongGaps": [
+        {
+          "line": 14,
+          "end": 60.043,
+          "nextStart": 62.558,
+          "gapSeconds": 2.515
+        },
+        {
+          "line": 21,
+          "end": 76.922,
+          "nextStart": 86.646,
+          "gapSeconds": 9.724
+        },
+        {
+          "line": 57,
+          "end": 164.309,
+          "nextStart": 167.348,
+          "gapSeconds": 3.039
+        },
+        {
+          "line": 58,
+          "end": 168.723,
+          "nextStart": 171.521,
+          "gapSeconds": 2.798
+        },
+        {
+          "line": 59,
+          "end": 173.129,
+          "nextStart": 176.141,
+          "gapSeconds": 3.012
+        },
+        {
+          "line": 61,
+          "end": 180.984,
+          "nextStart": 183.251,
+          "gapSeconds": 2.267
+        },
+        {
+          "line": 62,
+          "end": 184.944,
+          "nextStart": 187.182,
+          "gapSeconds": 2.238
+        },
+        {
+          "line": 63,
+          "end": 188.862,
+          "nextStart": 191.236,
+          "gapSeconds": 2.374
+        },
+        {
+          "line": 64,
+          "end": 192.938,
+          "nextStart": 197.293,
+          "gapSeconds": 4.355
+        },
+        {
+          "line": 71,
+          "end": 211.281,
+          "nextStart": 215.32,
+          "gapSeconds": 4.039
+        },
+        {
+          "line": 72,
+          "end": 216.493,
+          "nextStart": 219.109,
+          "gapSeconds": 2.616
+        },
+        {
+          "line": 73,
+          "end": 220.444,
+          "nextStart": 223.022,
+          "gapSeconds": 2.578
+        }
+      ]
+    },
+    {
+      "id": "BowAndArrow",
+      "title": "BOW AND ARROW",
+      "lines": 22,
+      "usedSavedDraft": true,
+      "extendedLines": 0,
+      "restoredLongGapExtensions": 0,
+      "retainedLongGaps": []
+    },
+    {
+      "id": "PeaceSign",
+      "title": "ピースサイン",
+      "lines": 60,
+      "usedSavedDraft": true,
+      "extendedLines": 0,
+      "restoredLongGapExtensions": 0,
+      "retainedLongGaps": [
+        {
+          "line": 21,
+          "end": 89,
+          "nextStart": 97.03,
+          "gapSeconds": 8.03
+        },
+        {
+          "line": 43,
+          "end": 163.78,
+          "nextStart": 171.76,
+          "gapSeconds": 7.98
+        },
+        {
+          "line": 50,
+          "end": 191.24,
+          "nextStart": 208.23,
+          "gapSeconds": 16.99
+        }
+      ]
+    },
+    {
+      "id": "KickBack",
+      "title": "KICK BACK",
+      "lines": 46,
+      "usedSavedDraft": true,
+      "extendedLines": 0,
+      "restoredLongGapExtensions": 4,
+      "retainedLongGaps": [
+        {
+          "line": 5,
+          "end": 22.074,
+          "nextStart": 24.28,
+          "gapSeconds": 2.206
+        },
+        {
+          "line": 10,
+          "end": 49.027,
+          "nextStart": 51.743,
+          "gapSeconds": 2.716
+        },
+        {
+          "line": 22,
+          "end": 87.756,
+          "nextStart": 89.761,
+          "gapSeconds": 2.005
+        },
+        {
+          "line": 25,
+          "end": 101.805,
+          "nextStart": 104.292,
+          "gapSeconds": 2.487
+        },
+        {
+          "line": 28,
+          "end": 128.821,
+          "nextStart": 134.401,
+          "gapSeconds": 5.58
+        }
+      ]
+    },
+    {
+      "id": "IrisOut",
+      "title": "IRIS OUT",
+      "lines": 44,
+      "usedSavedDraft": true,
+      "extendedLines": 0,
+      "restoredLongGapExtensions": 1,
+      "retainedLongGaps": [
+        {
+          "line": 19,
+          "end": 67.662,
+          "nextStart": 74.862,
+          "gapSeconds": 7.2
+        },
+        {
+          "line": 35,
+          "end": 103.81,
+          "nextStart": 109.04,
+          "gapSeconds": 5.23
+        },
+        {
+          "line": 36,
+          "end": 110.783,
+          "nextStart": 115.3,
+          "gapSeconds": 4.517
+        }
+      ]
+    },
+    {
+      "id": "Karasu",
+      "title": "烏",
+      "lines": 32,
+      "usedSavedDraft": true,
+      "extendedLines": 0,
+      "restoredLongGapExtensions": 0,
+      "retainedLongGaps": []
+    },
+    {
+      "id": "MayoeruHitsuji",
+      "title": "迷える羊",
+      "lines": 24,
+      "usedSavedDraft": true,
+      "extendedLines": 0,
+      "restoredLongGapExtensions": 0,
+      "retainedLongGaps": [
+        {
+          "line": 4,
+          "end": 42.6,
+          "nextStart": 51.86,
+          "gapSeconds": 9.26
+        },
+        {
+          "line": 11,
+          "end": 101.6,
+          "nextStart": 110.79,
+          "gapSeconds": 9.19
+        }
+      ]
+    },
+    {
+      "id": "Plazma",
+      "title": "Plazma",
+      "lines": 28,
+      "usedSavedDraft": true,
+      "extendedLines": 0,
+      "restoredLongGapExtensions": 0,
+      "retainedLongGaps": [
+        {
+          "line": 2,
+          "end": 11.409,
+          "nextStart": 22.5,
+          "gapSeconds": 11.091
+        },
+        {
+          "line": 13,
+          "end": 78.08,
+          "nextStart": 89.25,
+          "gapSeconds": 11.17
+        },
+        {
+          "line": 19,
+          "end": 122.941,
+          "nextStart": 133.94,
+          "gapSeconds": 10.999
+        },
+        {
+          "line": 27,
+          "end": 166.921,
+          "nextStart": 177.04,
+          "gapSeconds": 10.119
+        }
+      ]
+    },
+    {
+      "id": "M87",
+      "title": "M八七",
+      "lines": 26,
+      "usedSavedDraft": true,
+      "extendedLines": 0,
+      "restoredLongGapExtensions": 1,
+      "retainedLongGaps": [
+        {
+          "line": 10,
+          "end": 72.24,
+          "nextStart": 88.68,
+          "gapSeconds": 16.44
+        },
+        {
+          "line": 18,
+          "end": 144.59,
+          "nextStart": 151.43,
+          "gapSeconds": 6.84
+        },
+        {
+          "line": 21,
+          "end": 183.1,
+          "nextStart": 185.5,
+          "gapSeconds": 2.4
+        }
+      ]
+    },
+    {
+      "id": "Chikyugi",
+      "title": "地球儀",
+      "lines": 45,
+      "usedSavedDraft": true,
+      "extendedLines": 21,
+      "restoredLongGapExtensions": 0,
+      "retainedLongGaps": [
+        {
+          "line": 4,
+          "end": 42.462,
+          "nextStart": 45.75,
+          "gapSeconds": 3.288
+        },
+        {
+          "line": 8,
+          "end": 72.083,
+          "nextStart": 77.41,
+          "gapSeconds": 5.327
+        },
+        {
+          "line": 13,
+          "end": 96.568,
+          "nextStart": 98.902,
+          "gapSeconds": 2.334
+        },
+        {
+          "line": 17,
+          "end": 111.641,
+          "nextStart": 123.86,
+          "gapSeconds": 12.219
+        },
+        {
+          "line": 19,
+          "end": 137.263,
+          "nextStart": 139.403,
+          "gapSeconds": 2.14
+        },
+        {
+          "line": 21,
+          "end": 151.202,
+          "nextStart": 155.93,
+          "gapSeconds": 4.728
+        },
+        {
+          "line": 26,
+          "end": 175.246,
+          "nextStart": 177.39,
+          "gapSeconds": 2.144
+        },
+        {
+          "line": 30,
+          "end": 189.74,
+          "nextStart": 196.12,
+          "gapSeconds": 6.38
+        },
+        {
+          "line": 34,
+          "end": 212.113,
+          "nextStart": 215.36,
+          "gapSeconds": 3.247
+        }
+      ]
+    },
+    {
+      "id": "EineKleine",
+      "title": "アイネクライネ",
+      "lines": 52,
+      "usedSavedDraft": true,
+      "extendedLines": 0,
+      "restoredLongGapExtensions": 5,
+      "retainedLongGaps": [
+        {
+          "line": 4,
+          "end": 22.182,
+          "nextStart": 25.87,
+          "gapSeconds": 3.688
+        },
+        {
+          "line": 8,
+          "end": 46.563,
+          "nextStart": 51.02,
+          "gapSeconds": 4.457
+        },
+        {
+          "line": 15,
+          "end": 71.723,
+          "nextStart": 76.62,
+          "gapSeconds": 4.897
+        },
+        {
+          "line": 21,
+          "end": 103.353,
+          "nextStart": 109.09,
+          "gapSeconds": 5.737
+        },
+        {
+          "line": 26,
+          "end": 129.926,
+          "nextStart": 134.35,
+          "gapSeconds": 4.424
+        },
+        {
+          "line": 33,
+          "end": 155.196,
+          "nextStart": 160.02,
+          "gapSeconds": 4.824
+        },
+        {
+          "line": 40,
+          "end": 187.553,
+          "nextStart": 214.28,
+          "gapSeconds": 26.727
+        },
+        {
+          "line": 45,
+          "end": 234.205,
+          "nextStart": 251.78,
+          "gapSeconds": 17.575
+        }
+      ]
+    }
+  ]
+}
