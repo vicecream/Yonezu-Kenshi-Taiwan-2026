@@ -4,7 +4,7 @@
 
 [正式網站](https://yonezu-kenshi-taiwan-2026.pages.dev/) · [專案儲存庫](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026) · [主辦專頁](https://yk2026.abigart.com/?lang=zh) · [藝人官方網站](https://reissuerecords.net/)
 
-目前來源版本為 **3.0.6**，本次發布內容見 [PR #7](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/7) 與[更新紀錄](CHANGELOG.md)。[正式網站](https://yonezu-kenshi-taiwan-2026.pages.dev/)使用 Cloudflare Pages 直接上傳；GitHub 的 main 保管來源，推送不會自動更新目前網站。建置與上傳方式見[部署指南](CLOUDFLARE_DEPLOY.md)。
+目前來源版本為 **3.1.0**，本次發布內容見 [PR #8](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/pull/8) 與[更新紀錄](CHANGELOG.md)。[正式網站](https://yonezu-kenshi-taiwan-2026.pages.dev/)使用 Cloudflare Pages 直接上傳；GitHub 的 main 保管來源，推送不會自動更新目前網站。建置與上傳方式見[部署指南](CLOUDFLARE_DEPLOY.md)。
 
 ## 文件導覽
 
