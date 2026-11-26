@@ -13,9 +13,10 @@ const { chromium } = await import(pathToFileURL(path.resolve(process.argv[2])).h
 const base = process.env.YONEZU_QA_BASE_URL || "http://localhost:4175/";
 const output = path.resolve(process.env.YONEZU_ARCH_QA_OUTPUT || "artifacts/local-architecture-2026-11-18");
 const pkg = JSON.parse(await fs.readFile("package.json", "utf8"));
+const expectedSiteUrl = process.env.YONEZU_EXPECT_SITE_URL ? new URL(process.env.YONEZU_EXPECT_SITE_URL).href : null;
 const report = {
   checkedAt: new Date().toISOString(), timeZone: "Asia/Taipei", baseUrl: base,
-  version: pkg.version, browser: "Microsoft Edge (headless, isolated context)",
+  version: pkg.version, expectedSiteUrl, browser: "Microsoft Edge (headless, isolated context)",
   mediaMode: "External YouTube and font requests blocked; real local navigation and assets tested",
   checks: [], failures: [], pageErrors: [], localRequestFailures: [], routes: [], assets: [],
 };
@@ -61,7 +62,10 @@ try {
     assert.ok(html.includes("12/26（六）") && html.includes("12/27（日）"));
     assert.ok(html.includes("v" + pkg.version));
     assert.doesNotMatch(html, /\/@vite\/client|src\/main\.js/);
-    assert.match(html, /noindex, nofollow/);
+    if (expectedSiteUrl) {
+      assert.ok(html.includes(`rel="canonical" href="${expectedSiteUrl}"`));
+      assert.doesNotMatch(html, /noindex/);
+    } else assert.match(html, /noindex, nofollow/);
   });
   await test("PWA manifest and every declared icon are valid local assets", async () => {
     const response = await context.request.get(new URL("manifest.json", base).href);
@@ -96,7 +100,11 @@ try {
       report.assets.push({ path: resource, status: result.status(), contentType: type });
     }
     const robots = await context.request.get(new URL("robots.txt", base).href);
-    assert.match(await robots.text(), /Disallow: \//);
+    const robotRules = await robots.text();
+    if (expectedSiteUrl) {
+      assert.match(robotRules, /Allow: \//);
+      assert.ok(robotRules.includes(`Sitemap: ${expectedSiteUrl}sitemap.xml`));
+    } else assert.match(robotRules, /Disallow: \//);
   });
 
   await goto("");
