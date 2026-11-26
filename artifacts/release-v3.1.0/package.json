@@ -4,7 +4,7 @@
   "siteUrl": "https://yonezu-kenshi-taiwan-2026.pages.dev/",
   "project": "yonezu-kenshi-taiwan-2026",
   "zip": "D:/Codex/yonezu-kenshi-guide-v3.1.0.zip",
-  "zipSha256": "937d493860e9128ce22eb7492753c6716a29498defdf24115c97bc50f526b1e3",
+  "zipSha256": "38d3f83f8985da1f812eaa5c4a0709e1aa3fdb4e6218d5d593b77d681a340276",
   "assetCount": 36,
   "assets": [
     {
@@ -50,7 +50,7 @@
     {
       "file": "sw.js",
       "bytes": 4973,
-      "sha256": "ef39d52beaa39ddd29d9da0b6905fe2fcb85591114ed1d06a7895f96fafe7177"
+      "sha256": "398986f33480d9d007b808196a74a65f12be2ead77b49be767a7eaf69e28595c"
     },
     {
       "file": "_headers",
@@ -187,5 +187,6 @@
       "bytes": 242071,
       "sha256": "cec95e63aa58e260494f661c34fa35d4d9f15ace556d91e9fd802fbc4fd5aaf5"
     }
-  ]
+  ],
+  "buildSourceCommit": "4ec07dfd70b0017a03133c99cf9e71128926ccaf"
 }

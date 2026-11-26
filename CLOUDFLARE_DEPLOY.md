@@ -4,7 +4,9 @@
 
 ## 目前狀態
 
-正式網站為 https://yonezu-kenshi-taiwan-2026.pages.dev/，Cloudflare Pages 專案名稱為 yonezu-kenshi-taiwan-2026。2026-11-20 已部署 v3.0.6 並確認 Production、35 個公開檔案與完整線上驗收，對應資料見[正式站紀錄](artifacts/production-v3.0.6-2026-11-20/README.md)。目前採 Direct Upload，沒有 Git connection；GitHub main 與 GitHub Actions 的成功不代表網站已更新。
+正式網站為 https://yonezu-kenshi-taiwan-2026.pages.dev/，Cloudflare Pages 專案名稱為 yonezu-kenshi-taiwan-2026。2026-11-27 已部署 v3.1.0 至 Production，來源為 main 的 `4ec07dfd70b0017a03133c99cf9e71128926ccaf`；部署 ID 為 `4f1901be-d75f-40b9-8d55-015f8962e243`。已核對 35 個公開檔案的 SHA-256、首頁、正式網址與 SW 版本，詳見[本次發布驗證](artifacts/release-v3.1.0/README.md)及[部署紀錄](artifacts/release-v3.1.0/deployment.json)。
+
+目前採 Direct Upload，沒有 Git connection；GitHub main 與 GitHub Actions 的成功不代表網站已更新。上一版 v3.0.6 的驗收保留於[歷史正式站紀錄](artifacts/production-v3.0.6-2026-11-20/README.md)。
 
 ## 建置設定
 
@@ -24,8 +26,8 @@
 1. 依 AGENTS 檢查 Git 工作目錄、差異與 remote URL，再處理明確要求的發布。
 2. 在本機將 SITE_URL 設為 https://yonezu-kenshi-taiwan-2026.pages.dev/，再執行 npm run build。
 3. 將 dist 內的檔案打包成 ZIP；index.html 必須位於 ZIP 根目錄，不能再包一層 dist，也不能包含來源、node_modules 或 archive。
-4. 在既有 Pages 專案選 Create deployment、Production，上傳 ZIP 並部署。不要因為目前沒有 Git connection 就重複建立同名專案。
-5. 等候控制台成功後，核對 Production 部署、首頁、歌曲 hash 路由、SW 版本及實際靜態檔案。Direct Upload 沒有 Git 提交資訊，另以來源 SHA、ZIP SHA-256 及部署 ID 保存對應。
+4. 在既有 Pages 專案選 Create deployment、Production，上傳 ZIP 並部署；或使用已授權的 Wrangler 上傳 dist 目錄。Wrangler 接受目錄，ZIP 用於控制台上傳。不要因為目前沒有 Git connection 就重複建立同名專案。
+5. 等候成功後，核對 Production 部署、首頁、歌曲 hash 路由、SW 版本及實際靜態檔案。使用來源 SHA、ZIP SHA-256 及部署 ID 保存對應；Wrangler 可用 `--commit-hash` 記錄實際建置來源。
 
 PowerShell 建置範例：
 
@@ -33,6 +35,16 @@ PowerShell 建置範例：
 $env:SITE_URL = "https://yonezu-kenshi-taiwan-2026.pages.dev/"
 npm.cmd run build
 ```
+
+本次已使用 Wrangler `4.168.0` 完成上傳；先確認既有專案及 Production branch 為 main，再以實際建置提交執行：
+
+```powershell
+npx.cmd --yes wrangler@4.168.0 pages project list
+npx.cmd --yes wrangler@4.168.0 pages deploy dist --project-name yonezu-kenshi-taiwan-2026 --branch main --commit-hash 4ec07dfd70b0017a03133c99cf9e71128926ccaf --commit-message 'chore(release): publish guide v3.1.0' --commit-dirty=true
+npx.cmd --yes wrangler@4.168.0 pages deployment list --project-name yonezu-kenshi-taiwan-2026
+```
+
+本次工作目錄另有未納入建置的本機校對資料，因此如實設定 `--commit-dirty=true`；上傳範圍只包含 dist。後續發布須換成當次實際來源 SHA，並依工作目錄狀態設定此旗標。
 
 ## 網址與搜尋資訊
 

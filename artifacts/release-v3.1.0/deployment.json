@@ -1,0 +1,197 @@
+{
+  "version": "3.1.0",
+  "verifiedAt": "2026-11-26T16:32:14.800Z",
+  "timeZone": "Asia/Taipei",
+  "siteUrl": "https://yonezu-kenshi-taiwan-2026.pages.dev/",
+  "project": "yonezu-kenshi-taiwan-2026",
+  "environment": "Production",
+  "branch": "main",
+  "deploymentId": "4f1901be-d75f-40b9-8d55-015f8962e243",
+  "deploymentUrl": "https://4f1901be.yonezu-kenshi-taiwan-2026.pages.dev",
+  "buildSourceCommit": "4ec07dfd70b0017a03133c99cf9e71128926ccaf",
+  "releaseCommit": "5a05bf7c7067f822fc105027f7d5c2b971ad7bd3",
+  "zipSha256": "38d3f83f8985da1f812eaa5c4a0709e1aa3fdb4e6218d5d593b77d681a340276",
+  "homepageStatus": 200,
+  "cacheVersion": "v3.1.0",
+  "verifiedAssets": [
+    {
+      "file": "apple-touch-icon.png",
+      "status": 200,
+      "sha256": "1cd968ca24463a02f648918176457c40b7c47ee597f4dfae4d13e7d38b11a1fa"
+    },
+    {
+      "file": "icon-192.png",
+      "status": 200,
+      "sha256": "e7ab68d50714d0230452a3bca90f13a3ed74b5f6addbf15d01d5801ae9a926ef"
+    },
+    {
+      "file": "icon-512.png",
+      "status": 200,
+      "sha256": "dd1b3f54d37281e5d762b4779199bafb23536bbb07ec2dac9dac4354cd0cb1e0"
+    },
+    {
+      "file": "icon-maskable-512.png",
+      "status": 200,
+      "sha256": "dd1b3f54d37281e5d762b4779199bafb23536bbb07ec2dac9dac4354cd0cb1e0"
+    },
+    {
+      "file": "index.html",
+      "status": 200,
+      "sha256": "eadfcf9f63db50565767a99607e42767e32a097e324ecaf64f7c13ef7b41eaf0"
+    },
+    {
+      "file": "manifest.json",
+      "status": 200,
+      "sha256": "4bc77da9f98134c37a7528928e314d8475bf583c943591f3319f549f3c7cb86a"
+    },
+    {
+      "file": "robots.txt",
+      "status": 200,
+      "sha256": "bf2d9e73d00afca56ba078f55b7e6819507b317263040c38b76d9466b83d33a8"
+    },
+    {
+      "file": "sitemap.xml",
+      "status": 200,
+      "sha256": "bcc7e66166f0c0d722abf254e7e23f3bc250402d41e39aecf17e71aac25d6983"
+    },
+    {
+      "file": "sw.js",
+      "status": 200,
+      "sha256": "398986f33480d9d007b808196a74a65f12be2ead77b49be767a7eaf69e28595c"
+    },
+    {
+      "file": "images/ghost-poster-mobile.jpg",
+      "status": 200,
+      "sha256": "7b214641ed85427d6b956bf221f56ad534d1d6350f6cfda275462f1812f65e8f"
+    },
+    {
+      "file": "images/ghost-poster.jpg",
+      "status": 200,
+      "sha256": "1b01957963675e1750751fee23c0b5c48a23a62f47e15c8ebd5848ed11a08dc3"
+    },
+    {
+      "file": "images/taipei-seat-map.jpg",
+      "status": 200,
+      "sha256": "954c9e3e6258766b0d87130017af44a9772ac11996fa41fa0015077e7bd381c4"
+    },
+    {
+      "file": "assets/apple-touch-icon-DVhlL-YR.png",
+      "status": 200,
+      "sha256": "1cd968ca24463a02f648918176457c40b7c47ee597f4dfae4d13e7d38b11a1fa"
+    },
+    {
+      "file": "assets/CHANGELOG-Be6e1A5E.js",
+      "status": 200,
+      "sha256": "baa21486ac54d38d368de2d14e4bd545ce16744ab7920a31a1ca88514e4c08b2"
+    },
+    {
+      "file": "assets/CHANGELOG-CG_76G-L.js",
+      "status": 200,
+      "sha256": "ea42954479e9a038e34e8d0f282c748fe1f8656f6cb270e6452edd4be7cc3564"
+    },
+    {
+      "file": "assets/CHANGELOG-CUs20cor.js",
+      "status": 200,
+      "sha256": "97320861061e607877a0e5638113f9f3d3325abbc73f5a94b194eac4a38a3bc7"
+    },
+    {
+      "file": "assets/CHANGELOG-CvXw0s_C.js",
+      "status": 200,
+      "sha256": "b9f37cb4c8b393e3df72d2bb7e6626cb79b87a78152d2d7a1cea87bc0549889a"
+    },
+    {
+      "file": "assets/CHANGELOG-D6wOiOKY.js",
+      "status": 200,
+      "sha256": "a713f4060839454adf2499ab62d5f3f017e51d0e6e6aa2ffd37a12814bec7608"
+    },
+    {
+      "file": "assets/CHANGELOG-GDVYVjR1.js",
+      "status": 200,
+      "sha256": "defdf3b417c295b8771a2fb06c02e01d0d0e329e316263091d04deb7d3321774"
+    },
+    {
+      "file": "assets/CHANGELOG-j3TVBOGK.js",
+      "status": 200,
+      "sha256": "03fb886d359b807947f01413f82089db28b7a8bf9a213690fee598cf13cff75c"
+    },
+    {
+      "file": "assets/furigana-C6ZWY54b.js",
+      "status": 200,
+      "sha256": "e97e2f3468ccdb1669a7d18aeaed7ea8f636c63a41115a8636bc02407f051109"
+    },
+    {
+      "file": "assets/furigana-corrections-CazyFMhd.js",
+      "status": 200,
+      "sha256": "371481e40f2a816b6db53d68c0c87a88377a57c240fad5ca4e1c406336f1cefc"
+    },
+    {
+      "file": "assets/ghost-poster-BlYnx-8K.jpg",
+      "status": 200,
+      "sha256": "1b01957963675e1750751fee23c0b5c48a23a62f47e15c8ebd5848ed11a08dc3"
+    },
+    {
+      "file": "assets/ghost-poster-mobile-D_EXDK-q.jpg",
+      "status": 200,
+      "sha256": "7b214641ed85427d6b956bf221f56ad534d1d6350f6cfda275462f1812f65e8f"
+    },
+    {
+      "file": "assets/icon-192-9r-ask7F.png",
+      "status": 200,
+      "sha256": "e7ab68d50714d0230452a3bca90f13a3ed74b5f6addbf15d01d5801ae9a926ef"
+    },
+    {
+      "file": "assets/index-B12LFyV5.js",
+      "status": 200,
+      "sha256": "bb50a1f84b76d7c61907d7805a6452f6c3c5c2ad49d8cea5c129fb973226fc79"
+    },
+    {
+      "file": "assets/index-B4hh13vP.js",
+      "status": 200,
+      "sha256": "15fd287d9578e06810751db3e51566839994129bfdae995e67668d1f3742d898"
+    },
+    {
+      "file": "assets/index-B8dueFsq.css",
+      "status": 200,
+      "sha256": "7f888852cf4c6f99bceea6c30934b124a622943f475dd591ce7363c7947bce43"
+    },
+    {
+      "file": "assets/index-BLH0kM9B.js",
+      "status": 200,
+      "sha256": "432c56006770474c1ba6a4fbe80a7cf88d18edbb05554fcfd9f68d62ebcf9330"
+    },
+    {
+      "file": "assets/index-CDAHPXq6.js",
+      "status": 200,
+      "sha256": "baaaf1a01eda76c7053361dc4b7eb12e2ba09470ea5ea7d510ec81157a1bb7f1"
+    },
+    {
+      "file": "assets/index-CTbm0jje.js",
+      "status": 200,
+      "sha256": "4a0457cb72b8b971ab510d9db99c5555035d5b8d2d5027d4841401a2f409e711"
+    },
+    {
+      "file": "assets/index-DuEhv5Vb.js",
+      "status": 200,
+      "sha256": "f5f8b29e9f1345df5b969723ba068e945c09cb6a183720fc97052f4dcbf105eb"
+    },
+    {
+      "file": "assets/index-fIRBq5yx.js",
+      "status": 200,
+      "sha256": "5239c5902eebf6e2ec2eb012e563187296a9d84b663406efc334f6db091436b6"
+    },
+    {
+      "file": "assets/karaoke-sources-CmSRM-Yb.js",
+      "status": 200,
+      "sha256": "ac7e04529c43601595d1add16ac834eba8c1af9488155de26c3691d6f13b1f03"
+    },
+    {
+      "file": "assets/song-lyrics-3fndpL7y.js",
+      "status": 200,
+      "sha256": "cec95e63aa58e260494f661c34fa35d4d9f15ace556d91e9fd802fbc4fd5aaf5"
+    }
+  ],
+  "headers": {
+    "nosniff": "nosniff",
+    "referrerPolicy": "strict-origin-when-cross-origin"
+  }
+}
