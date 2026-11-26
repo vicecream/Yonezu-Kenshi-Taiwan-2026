@@ -2,7 +2,7 @@
 
 [專案說明](README.md) · [儲存庫](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026) · [歷史封存](archive/fujii-kaze-2026/README.md)
 
-## **v3.1.0**
+## [**v3.1.0**](https://github.com/vicecream/Yonezu-Kenshi-Taiwan-2026/commit/5a05bf7c7067f822fc105027f7d5c2b971ad7bd3)
 
 2026-11-27 新增全曲參考讀音及本機逐句／逐字校對功能，採 MINOR 升版。正式網站與 GitHub 來源分別發布及驗收。
 
